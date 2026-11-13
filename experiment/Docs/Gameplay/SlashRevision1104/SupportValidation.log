@@ -1,0 +1,23 @@
+D:\game design\experiment\Scripts\Editor\SlashRevision1104\validate_support_clips.py:14: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('SupportReviewWorld');scene.world.use_nodes=True
+D:\game design\experiment\Scripts\Editor\SlashRevision1104\validate_support_clips.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('ReviewClay');mat.use_nodes=True
+D:\game design\experiment\Scripts\Editor\SlashRevision1104\validate_support_clips.py:23: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  fm=bpy.data.materials.new('Ground');fm.use_nodes=True
+00:05.672  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\SupportReview\Wuxia_Idle_Native_v07_000.png'
+00:08.328  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\SupportReview\Wuxia_Walk_Native_v07_016.png'
+00:10.953  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\SupportReview\Wuxia_Hit_Native_v07_024.png'
+00:13.547  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\SupportReview\Wuxia_Death_Native_v07_030.png'
+00:16.016  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\SupportReview\Wuxia_Death_Native_v07_060.png'
+00:18.469  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\SupportReview\Wuxia_Death_Native_v07_099.png'
+00:21.250  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\SupportReview\Wuxia_Cast_Native_v07_060.png'
+FBX version: 7700
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+NATIVE_SUPPORT_VALIDATED [{"clip": "Wuxia_Idle_Native_v07", "maximum_roundtrip_position_error_m": 1.0238518349112203e-06, "bone_count": 41, "frames": [2.0, 122.0], "images": ["D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\SupportReview\\Wuxia_Idle_Native_v07_000.png"]}, {"clip": "Wuxia_Walk_Native_v07", "maximum_roundtrip_position_error_m": 9.565802720608732e-07, "bone_count": 41, "frames": [2.0, 33.0], "images": ["D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\SupportReview\\Wuxia_Walk_Native_v07_016.png"]}, {"clip": "Wuxia_Hit_Native_v07", "maximum_roundtrip_position_error_m": 9.804239362237441e-07, "bone_count": 41, "frames": [2.0, 50.0], "images": ["D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\SupportReview\\Wuxia_Hit_Native_v07_024.png"]}, {"clip": "Wuxia_Death_Native_v07", "maximum_roundtrip_position_error_m": 1.6604601348283294e-06, "bone_count": 41, "frames": [2.0, 101.0], "images": ["D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\SupportReview\\Wuxia_Death_Native_v07_030.png", "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\SupportReview\\Wuxia_Death_Native_v07_060.png", "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\SupportReview\\Wuxia_Death_Native_v07_099.png"]}, {"clip": "Wuxia_Cast_Native_v07", "maximum_roundtrip_position_error_m": 3.9593369530398915e-07, "bone_count": 41, "frames": [2.0, 122.0], "images": ["D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\SupportReview\\Wuxia_Cast_Native_v07_060.png"]}]
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

@@ -1,0 +1,34 @@
+LEVEL-01 运行验证计划（2026-10-26）
+
+入口：Scripts/Editor/Level01PolishV01/runtime_first_level.py
+由根代理在源码编译、资产接线和保存后，从空闲UE编辑器执行。脚本最长600秒，结束会停止PIE并恢复夹具。
+
+隔离
+- 仅临时设置编辑器Director.LevelId为唯一Test.Level01.<UUID>，随后不保存地图。
+- PIE必须复制该测试ID，所有EncounterController的检查点保存关闭。
+- 精确记录临时RunId，只清理这些运行的.nlmr/.tmp和唯一测试.nlrun/.tmp，不枚举删除其他存档。
+- 编辑器ID恢复，主地图前后SHA256相同，测试攻击资产精确删除。
+- 最终FixtureIsolation.json应为restored_without_saving_map。若异常结束留下cleanup_failed_needs_review，根代理需处理后再继续操作UE。
+
+可证明的内容
+1. 对真实owned敌人，用10点基础伤害的明确夹具通过真实Resolver结算，验证一级10、二级12.5。避免30血杂兵把倍率后的伤害截断。
+2. 第一段只开放一个真实近战AI，自动AddMovementInput接近、StartDesktopSlash触发实际刀刃扫掠。记录移动距离、实际CombatResult、玩家生命与一次灵气奖励，不传送、不直接结算攻击、不保护生命。
+3. 重复普通击败事件不重复奖励。敌方100点真实Resolver接触使玩家死亡，再通过正常R重试。随后9次局部击败/R重试，共10次验证灵气、升级、事件账本和爆发能量回滚，不刷资源。
+4. 五个首关段落Aoutside/Ainside/R01/Bcourt/Bexit按真实依赖、生成和死亡事件运行，10波、52击败。主要部分用普通近战资产的真实Resolver接触隔离奖励规则，保持正常伤害保护间隔。
+5. 自然累计到Bcourt结束应为46灵气；必须观察到40灵气时真实升级二级。
+6. Bcourt第三波出现实际符敌后，开放同波近远程AI，观察两种预警、真实弹体、攻击名额峰值与存活上限。需要保命恢复时逐次记录，不能当成人工格挡效果。
+7. Bexit前显式设置低资源夹具10灵气/一级，保留46个事件ID；实际击败6人后应为16灵气/二级，证明关末等级保底没有灌入额外灵气。再次请求二级保底不得增加资源或重播升级。
+
+输出
+- RuntimeFirstLevel.json：完整状态、结果、失败、每波计数与验证范围。
+- FixtureIsolation.json：临时ID、地图哈希、清理结果。
+- Screenshots/FirstUpgrade.png 和 MixedWave.png：实际UE截图。
+
+明确边界
+普通Resolver接触与阶段传送不等于人工挥剑/连续移动。只有physical_opening阶段走实际CharacterMovement和刀刃扫掠；它也是脚本自动操作，不是人类试玩。Bexit前存在显式低灵气夹具，不能将最终16灵气称为自然通关总收益。此脚本不证明7分钟节奏、无干预连续通关、VR追踪/舒适性或性能达标。
+
+真实AI观察修订
+- physical_opening以owned(pause=False)取样，只暂停非目标敌人；目标仅在选中时解除一次暂停，后续帧不反复切换暂停或取消其攻击预约。
+- mixed_ai进入observing后，stage_tick保持owned(pause=False)；每个观察目标只在首次登记时解除暂停，后续纯读取状态。
+- 单独记录两个真实AI观察窗口的FailedSpawn计数起点、终点和增量，以及相应生成数量；不从隔离流程的累计重试推断实玩生成性能。混合观察若入场时已生成完本波，会明确标记该窗口不构成生成性能样本。
+- take_high_res_screenshot的Delay参数已核对本机UE5.8 AutomationBlueprintFunctionLibrary.h:143，存在float Delay=0.0参数。

@@ -1,0 +1,65 @@
+{
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04.SK_WuxiaMale_Hands_v04",
+  "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+  "vertices_lod0": 49874,
+  "sections_lod0": 4,
+  "morphs": [
+    "EnemyDeathRobe_4",
+    "EnemyDeathRobe_5",
+    "EnemyDeathRobe_6",
+    "EnemyDeathRobe_7",
+    "EnemyDeathRobe_8"
+  ],
+  "bounds_before": [
+    -0.012725830078125,
+    0.03033733367919922,
+    90.00335157383233,
+    50.636959075927734,
+    20.971991539001465,
+    89.99664842616767
+  ],
+  "bounds_after": [
+    -0.6023483276367188,
+    0.03033733367919922,
+    90.00335157383233,
+    51.22658157348633,
+    20.971991539001465,
+    89.99664842616767
+  ],
+  "original_backups": [
+    {
+      "file": "D:\\game design\\experiment\\Content\\ReversedScale\\Characters\\WuxiaMale\\SK_WuxiaMale_Shoulder_v02.uasset",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v04\\Backups\\Assets\\ReversedScale\\Characters\\WuxiaMale\\SK_WuxiaMale_Shoulder_v02.uasset",
+      "sha256": "365351fd1f686f83ec4ceb7b6c51e92e44ff746d41b5ca44a47a1757119fcd0f",
+      "after_sha256": "365351fd1f686f83ec4ceb7b6c51e92e44ff746d41b5ca44a47a1757119fcd0f"
+    },
+    {
+      "file": "D:\\game design\\experiment\\Content\\ReversedScale\\Characters\\WuxiaMale\\SK_WuxiaMale_Demo_Skeleton.uasset",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v04\\Backups\\Assets\\ReversedScale\\Characters\\WuxiaMale\\SK_WuxiaMale_Demo_Skeleton.uasset",
+      "sha256": "fc7b834329b6449a255dcbedaca2d6cb5df70d8b9ff4867fda7bebfec9293639",
+      "after_sha256": "fc7b834329b6449a255dcbedaca2d6cb5df70d8b9ff4867fda7bebfec9293639"
+    }
+  ],
+  "state": "passed",
+  "source_fbx": "D:\\game design\\experiment\\ArtSource\\WuxiaMale\\RigPolishV04\\HandsReplacement\\WuxiaMaleRealGrip_v04.fbx",
+  "source_sha256": "153f68b27c788e031395f9199950ef16c4b21b10801499434deedcc59df72f54",
+  "right_hand_replacement": true,
+  "materials": [
+    {
+      "slot": "M_WuxiaMale_001",
+      "material": "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Combat.M_WuxiaMale_Combat"
+    },
+    {
+      "slot": "M_WuxiaMale_Skin",
+      "material": "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Skin_Combat.M_WuxiaMale_Skin_Combat"
+    },
+    {
+      "slot": "M_Nails",
+      "material": "/Game/ReversedScale/Player/Materials/M_PlayerNails.M_PlayerNails"
+    },
+    {
+      "slot": "M_Skin",
+      "material": "/Game/ReversedScale/Player/Materials/M_PlayerSkin.M_PlayerSkin"
+    }
+  ]
+}

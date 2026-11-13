@@ -1,0 +1,500 @@
+{
+  "state": "passed",
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "failures": [],
+  "backups": [
+    {
+      "package": "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W03",
+      "existed_before": true,
+      "files": [
+        {
+          "source": "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Bcourt_W03.uasset",
+          "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\Level01Polish_v01\\Backups\\20261026T101651Z_f6a22428\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Bcourt_W03.uasset",
+          "sha256_before": "3546937d7fc8b2c4bc9e9c172f4c70d0f3f8ef33bd1e44463cb81ae25e2519ea"
+        }
+      ]
+    },
+    {
+      "package": "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W05",
+      "existed_before": true,
+      "files": [
+        {
+          "source": "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Bcourt_W05.uasset",
+          "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\Level01Polish_v01\\Backups\\20261026T101651Z_f6a22428\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Bcourt_W05.uasset",
+          "sha256_before": "bb5517217da5b96ee8a38c1297bd84899c3495f1814433c329077bf350b20df0"
+        }
+      ]
+    },
+    {
+      "package": "/Game/ReversedScale/Progression/DA_FirstAscentUpgrade",
+      "existed_before": false,
+      "files": []
+    },
+    {
+      "package": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+      "existed_before": true,
+      "files": [
+        {
+          "source": "D:\\game design\\experiment\\Content\\ReversedScale\\Maps\\L_NilinGameplayV01.umap",
+          "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\Level01Polish_v01\\Backups\\20261026T101651Z_f6a22428\\Content\\ReversedScale\\Maps\\L_NilinGameplayV01.umap",
+          "sha256_before": "aa076122264e189969ff8ef57e6da2fc655eee886a2e81d99941c25890d8e8e2"
+        }
+      ]
+    }
+  ],
+  "saved_packages": [
+    "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W03",
+    "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W05",
+    "/Game/ReversedScale/Progression/DA_FirstAscentUpgrade",
+    "/Game/ReversedScale/Maps/L_NilinGameplayV01"
+  ],
+  "scope": "Two mixed Bcourt waves, FirstAscent definition and existing Director growth/instruction fields only.",
+  "runtime_validation": "Not performed by this authoring script. Readback is asset/configuration validation only.",
+  "backup_id": "20261026T101651Z_f6a22428",
+  "before_budgets": {
+    "stages": 16,
+    "waves": 27,
+    "enemies": 109,
+    "by_stage": [
+      {
+        "stage_id": "Aoutside",
+        "wave_count": 1,
+        "enemy_count": 2
+      },
+      {
+        "stage_id": "Ainside",
+        "wave_count": 1,
+        "enemy_count": 6
+      },
+      {
+        "stage_id": "R01",
+        "wave_count": 1,
+        "enemy_count": 2
+      },
+      {
+        "stage_id": "Bcourt",
+        "wave_count": 6,
+        "enemy_count": 36
+      },
+      {
+        "stage_id": "Bexit",
+        "wave_count": 1,
+        "enemy_count": 6
+      },
+      {
+        "stage_id": "R02",
+        "wave_count": 1,
+        "enemy_count": 2
+      },
+      {
+        "stage_id": "R03",
+        "wave_count": 1,
+        "enemy_count": 2
+      },
+      {
+        "stage_id": "Cestablish",
+        "wave_count": 2,
+        "enemy_count": 8
+      },
+      {
+        "stage_id": "Cinterrupt",
+        "wave_count": 2,
+        "enemy_count": 10
+      },
+      {
+        "stage_id": "Csiege",
+        "wave_count": 2,
+        "enemy_count": 12
+      },
+      {
+        "stage_id": "Cunseal",
+        "wave_count": 2,
+        "enemy_count": 14
+      },
+      {
+        "stage_id": "GM01",
+        "wave_count": 1,
+        "enemy_count": 1
+      },
+      {
+        "stage_id": "GM02",
+        "wave_count": 2,
+        "enemy_count": 3
+      },
+      {
+        "stage_id": "GM03",
+        "wave_count": 2,
+        "enemy_count": 3
+      },
+      {
+        "stage_id": "GM04",
+        "wave_count": 1,
+        "enemy_count": 1
+      },
+      {
+        "stage_id": "Boss",
+        "wave_count": 1,
+        "enemy_count": 1
+      }
+    ]
+  },
+  "waves_before": {
+    "Bcourt_W03": {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W03.DA_Bcourt_W03",
+      "wave_id": "Bcourt_W03",
+      "timing": {
+        "spawn_interval_seconds": 0.6499999761581421,
+        "intermission_seconds": 2.5,
+        "max_alive": 4,
+        "max_spawn_retries": 24,
+        "retry_delay_seconds": 0.5
+      },
+      "entries": [
+        {
+          "entry_id": "Bcourt_W03_Enemies",
+          "enemy_class": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword.BP_Level_sword_C",
+          "count": 6,
+          "spawn_point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ]
+        }
+      ]
+    },
+    "Bcourt_W05": {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W05.DA_Bcourt_W05",
+      "wave_id": "Bcourt_W05",
+      "timing": {
+        "spawn_interval_seconds": 0.6499999761581421,
+        "intermission_seconds": 2.5,
+        "max_alive": 4,
+        "max_spawn_retries": 24,
+        "retry_delay_seconds": 0.5
+      },
+      "entries": [
+        {
+          "entry_id": "Bcourt_W05_Enemies",
+          "enemy_class": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword.BP_Level_sword_C",
+          "count": 6,
+          "spawn_point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ]
+        }
+      ]
+    }
+  },
+  "protected_package_hashes_before": {
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Characters\\WuxiaMale\\Animations\\Wuxia_Attack_Sword_Natural_v04.uasset": "7d4e8a2f753e7f2b229127c6439c7c3e2c52d1d219bd045d34c6182fd51c1bfa",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Characters\\WuxiaMale\\SK_WuxiaMale_Hands_v04.uasset": "f976997e39d0fa606cf0e734a053977caf33ea94b7a62bfc2a9874744867e9e6",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM01.uasset": "13bc1dbec69de34be0a20a06601f9d7b82ed9f8454f431c399eaa0c678159b2d",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM02.uasset": "67cac845e439b6579b4e7fe9c14d0ca70bec1245d6f82c58845b7634e16b2bf4",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM03.uasset": "e4d5e962fd6619c4126874752eb10f41bdc66d6fd48efe284f2de8511a13c480",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM04.uasset": "e60eacabd94f29b9149e00d21389ce294692b41882afc6301d3d4c20caf9682b",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_boss.uasset": "40f61ccacf10f61607ed4ad9e918986360c67ed1e5e70f04cbf652dbd8ab2016",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_rock_talisman.uasset": "39722953ccc01b625defbd39289c17e9b8390ef3d3b0b9442a4d28c1777f16fb",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_sword.uasset": "12389f7339fef10d3115c72412c771cc5283ff74abdc236093ac48e5683285a9",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_talisman.uasset": "dff56c70c9ecf7a79452126bcb8b38ef976f2188d3891862bb8de16c73cb864c",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Ainside_W01.uasset": "5d505797a180200e5a3cc7fef075abcf46ae47c99d854cccc15549ab141bc63c",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Aoutside_W01.uasset": "791ca10224494dc2a6f39269df2ee63e81462290c5d520d92e7618e5e932327e",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Bcourt_W01.uasset": "409ec6afde377b29c99a109e086e04dad9f645812aac17de252c9ab75aa80111",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Bcourt_W02.uasset": "e0f1c7396147a32cd3c3bfbdc847a498d2a11710f98033772da9ce9d8266c1b6",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Bcourt_W04.uasset": "639c0b43343db6f5ccec2d6f501a9e541c476bcf3034d9ab6df0fe39ef675722",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Bcourt_W06.uasset": "d2610c443305318f89a6bb3b79230051d26e2e700e6e1e7a7655e8ea3f3a7605",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Bexit_W01.uasset": "81f1cae02296216cc37f01d588bc504c5128ad1eb2749bd94c838252ef66fee8",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Boss_W01.uasset": "4fa27a8aa1a0e1f206d7cd999b25ea778494b45adc92244c311d76521dcf31d0",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Cestablish_W01.uasset": "77f67cfae714507ce2589550f9e93213f4d9025045eff8afbe5824b5c944141d",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Cestablish_W02.uasset": "f9bde1e3a9bbc0588ccb20eca297cc87649fd7a1a6e67f05fb5e2a9dbeb750d4",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Cinterrupt_W01.uasset": "ecb6aeabd61a873663e30f96e6e164e527e8aa5035782b2ea88d4cbba9d68ab9",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Cinterrupt_W02.uasset": "150c2c8ea728269ed20801e03ba941c2b500b9ade7c50050a946de016a931e66",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Csiege_W01.uasset": "fb863acad923bbea51611b952fb8b12182bae21dd4b735372b1dbda0e7ef69c1",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Csiege_W02.uasset": "89d0decd3fab922a74441ac1c983a6f5d9c76e25a973f33b54f0b8e6f0894d07",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Cunseal_W01.uasset": "38cd454f65550796a9c818762920f290fa4fe2fc21a1c75026b43fc7ed44f807",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Cunseal_W02.uasset": "fe907b07328150fda4d8c01ae3f7a29453f03f2858da7209825860ef92a6e9e7",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_GM01_W01.uasset": "08be60c7565eae0105b5ecc8205359c8eb17fb8f48af9daf1bbfab22be4351ef",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_GM02_W01.uasset": "a871f34a2bf009f50ed2b7fac7c4fc2064efb664b9bc95f17ebbc95c0d084a4f",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_GM02_W02.uasset": "b39bd555b1423396959034c19978dd3f1a41b3ee88a90d59e835f9e1e91b803d",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_GM03_W01.uasset": "6a8142ed80fbccf573bd5455515a89bda5e1502c218677b254d2f8de0270e863",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_GM03_W02.uasset": "8d569f8bba21144c529caa9f108e4293fbfe37e27d414b1b5b148f4226929797",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_GM04_W01.uasset": "59dec21db3a3ed5c14227cf1c73791bd26d48957d6f307ddd84f9c0ba9f8c476",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_R01_W01.uasset": "50a6c02b69ab79cc76ab394ea5aecac2e740857ad08345f2ca6ac8776b356059",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_R02_W01.uasset": "ae1d4b45868b6b2f2ac10d7bed38f50b97a3fd2841f4e3478463356ecdb314b4",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_R03_W01.uasset": "3b26fbf3bb1279ea30d990d4e9ba9aadda334271bc93c4c20a0b555028e6aab3",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Maps\\L_NilinBlockoutV10.umap": "701a12f8a896e938ad76cb5ab68e7cf65d635a5c9d6b2699375bdc9a3538e248"
+  },
+  "recovery": "Restore only the exact target package copies listed in backups while the editor is closed. A newly created upgrade package has no previous copy.",
+  "upgrade_readback": {
+    "stable_id": "Progression.FirstAscent",
+    "ling_qi_per_defeat": 1.0,
+    "first_upgrade_threshold": 40.0,
+    "level_two_damage_multiplier": 1.25
+  },
+  "waves_after_reload": {
+    "Bcourt_W03": {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W03.DA_Bcourt_W03",
+      "wave_id": "Bcourt_W03",
+      "timing": {
+        "spawn_interval_seconds": 0.6499999761581421,
+        "intermission_seconds": 2.5,
+        "max_alive": 4,
+        "max_spawn_retries": 24,
+        "retry_delay_seconds": 0.5
+      },
+      "entries": [
+        {
+          "entry_id": "Bcourt_W03_Enemies",
+          "enemy_class": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword.BP_Level_sword_C",
+          "count": 5,
+          "spawn_point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ]
+        },
+        {
+          "entry_id": "Bcourt_W03_Talisman",
+          "enemy_class": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_talisman.BP_Level_talisman_C",
+          "count": 1,
+          "spawn_point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ]
+        }
+      ]
+    },
+    "Bcourt_W05": {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W05.DA_Bcourt_W05",
+      "wave_id": "Bcourt_W05",
+      "timing": {
+        "spawn_interval_seconds": 0.6499999761581421,
+        "intermission_seconds": 2.5,
+        "max_alive": 4,
+        "max_spawn_retries": 24,
+        "retry_delay_seconds": 0.5
+      },
+      "entries": [
+        {
+          "entry_id": "Bcourt_W05_Enemies",
+          "enemy_class": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword.BP_Level_sword_C",
+          "count": 5,
+          "spawn_point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ]
+        },
+        {
+          "entry_id": "Bcourt_W05_Talisman",
+          "enemy_class": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_talisman.BP_Level_talisman_C",
+          "count": 1,
+          "spawn_point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ]
+        }
+      ]
+    }
+  },
+  "after_budgets": {
+    "stages": 16,
+    "waves": 27,
+    "enemies": 109,
+    "by_stage": [
+      {
+        "stage_id": "Aoutside",
+        "wave_count": 1,
+        "enemy_count": 2
+      },
+      {
+        "stage_id": "Ainside",
+        "wave_count": 1,
+        "enemy_count": 6
+      },
+      {
+        "stage_id": "R01",
+        "wave_count": 1,
+        "enemy_count": 2
+      },
+      {
+        "stage_id": "Bcourt",
+        "wave_count": 6,
+        "enemy_count": 36
+      },
+      {
+        "stage_id": "Bexit",
+        "wave_count": 1,
+        "enemy_count": 6
+      },
+      {
+        "stage_id": "R02",
+        "wave_count": 1,
+        "enemy_count": 2
+      },
+      {
+        "stage_id": "R03",
+        "wave_count": 1,
+        "enemy_count": 2
+      },
+      {
+        "stage_id": "Cestablish",
+        "wave_count": 2,
+        "enemy_count": 8
+      },
+      {
+        "stage_id": "Cinterrupt",
+        "wave_count": 2,
+        "enemy_count": 10
+      },
+      {
+        "stage_id": "Csiege",
+        "wave_count": 2,
+        "enemy_count": 12
+      },
+      {
+        "stage_id": "Cunseal",
+        "wave_count": 2,
+        "enemy_count": 14
+      },
+      {
+        "stage_id": "GM01",
+        "wave_count": 1,
+        "enemy_count": 1
+      },
+      {
+        "stage_id": "GM02",
+        "wave_count": 2,
+        "enemy_count": 3
+      },
+      {
+        "stage_id": "GM03",
+        "wave_count": 2,
+        "enemy_count": 3
+      },
+      {
+        "stage_id": "GM04",
+        "wave_count": 1,
+        "enemy_count": 1
+      },
+      {
+        "stage_id": "Boss",
+        "wave_count": 1,
+        "enemy_count": 1
+      }
+    ]
+  },
+  "director_upgrade_definition": "/Game/ReversedScale/Progression/DA_FirstAscentUpgrade.DA_FirstAscentUpgrade",
+  "stages_after_map_reload": [
+    {
+      "stage_id": "Aoutside",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": "左键挥剑；敌人命中前右键精准格挡"
+    },
+    {
+      "stage_id": "Ainside",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": "正面迎敌，精准格挡蓄积化劲回元"
+    },
+    {
+      "stage_id": "R01",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": "留意高处符光，E 剑气反击岩台敌人"
+    },
+    {
+      "stage_id": "Bcourt",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": "Q 震荡清群；第 3、5 波留意远程"
+    },
+    {
+      "stage_id": "Bexit",
+      "minimum_upgrade_level_on_complete": 2,
+      "instruction_text": "清除出口守卫，晋升二阶后进入丹道"
+    },
+    {
+      "stage_id": "R02",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": ""
+    },
+    {
+      "stage_id": "R03",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": ""
+    },
+    {
+      "stage_id": "Cestablish",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": ""
+    },
+    {
+      "stage_id": "Cinterrupt",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": ""
+    },
+    {
+      "stage_id": "Csiege",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": ""
+    },
+    {
+      "stage_id": "Cunseal",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": ""
+    },
+    {
+      "stage_id": "GM01",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": ""
+    },
+    {
+      "stage_id": "GM02",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": ""
+    },
+    {
+      "stage_id": "GM03",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": ""
+    },
+    {
+      "stage_id": "GM04",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": ""
+    },
+    {
+      "stage_id": "Boss",
+      "minimum_upgrade_level_on_complete": 1,
+      "instruction_text": ""
+    }
+  ],
+  "target_package_hashes_after": {
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Bcourt_W03.uasset": "7fe0e2f164cc0deb8eca9fc4d6d1830f1f85bb8fb77c8b44926d74d8eb77666e",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Gameplay\\V01\\Waves\\DA_Bcourt_W05.uasset": "266add5b537da9e11b789bcf98280f4c7621962c7526c04ebc90ab54b1354f99",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Maps\\L_NilinGameplayV01.umap": "bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Progression\\DA_FirstAscentUpgrade.uasset": "db27484433e5b8ab39c6d676e5d58a61d91c0d4a2464f18273dee666aa5eec79"
+  },
+  "protected_packages_unchanged": true,
+  "protected_package_count": 36,
+  "preserved_stage_fields_equal_after_reload": true,
+  "completed_at_utc": "2026-10-26T10:16:53.564434+00:00"
+}

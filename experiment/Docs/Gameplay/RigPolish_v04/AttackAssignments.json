@@ -1,0 +1,230 @@
+{
+  "state": "passed",
+  "enemies": [
+    {
+      "enemy": "sword",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword",
+      "from_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Compact_v03.Wuxia_Attack_Sword_Compact_v03",
+      "to_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Natural_v04.Wuxia_Attack_Sword_Natural_v04",
+      "from_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+      "to_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04.SK_WuxiaMale_Hands_v04",
+      "grip": {
+        "translation": [
+          0.504277229309082,
+          -8.221160888671875,
+          0.14447402954101562
+        ],
+        "quaternion": [
+          0.8239123225212097,
+          -0.5253214240074158,
+          -0.16701309382915497,
+          0.1315772384405136
+        ],
+        "scale": [
+          0.9999997019767761,
+          0.9999998211860657,
+          0.9999997615814209
+        ],
+        "sword_relative_location_cm": [
+          0.504277229309082,
+          -8.221160888671875,
+          0.14447402954101562
+        ],
+        "sword_relative_quaternion_xyzw": [
+          0.8239123225212097,
+          -0.5253214240074158,
+          -0.16701309382915497,
+          0.1315772384405136
+        ],
+        "sword_relative_scale": [
+          0.9999997019767761,
+          0.9999998211860657,
+          0.9999997615814209
+        ],
+        "translation_only_change": true,
+        "bind_space_translation_blender_cm": [
+          -0.14137649536132812,
+          5.700020790100098,
+          -0.3558807373046875
+        ],
+        "previous_location_cm": [
+          -1.875828504562378,
+          -8.074670791625977,
+          -5.046912670135498
+        ],
+        "reason": "Translate held sword with the rigid anatomical grip; do not stretch the wrist to meet the old grip origin."
+      },
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v04\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_sword.uasset",
+      "backup_sha256": "509d6de354ded658eae72e3a77aefcb8a50daed9fe51ccfd078a75da8777e58f"
+    },
+    {
+      "enemy": "GM01",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM01",
+      "from_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Compact_v03.Wuxia_Attack_Sword_Compact_v03",
+      "to_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Natural_v04.Wuxia_Attack_Sword_Natural_v04",
+      "from_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+      "to_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04.SK_WuxiaMale_Hands_v04",
+      "grip": {
+        "translation": [
+          0.504277229309082,
+          -8.221160888671875,
+          0.14447402954101562
+        ],
+        "quaternion": [
+          0.8239123225212097,
+          -0.5253214240074158,
+          -0.16701309382915497,
+          0.1315772384405136
+        ],
+        "scale": [
+          0.9999997019767761,
+          0.9999998211860657,
+          0.9999997615814209
+        ],
+        "sword_relative_location_cm": [
+          0.504277229309082,
+          -8.221160888671875,
+          0.14447402954101562
+        ],
+        "sword_relative_quaternion_xyzw": [
+          0.8239123225212097,
+          -0.5253214240074158,
+          -0.16701309382915497,
+          0.1315772384405136
+        ],
+        "sword_relative_scale": [
+          0.9999997019767761,
+          0.9999998211860657,
+          0.9999997615814209
+        ],
+        "translation_only_change": true,
+        "bind_space_translation_blender_cm": [
+          -0.14137649536132812,
+          5.700020790100098,
+          -0.3558807373046875
+        ],
+        "previous_location_cm": [
+          -1.875828504562378,
+          -8.074670791625977,
+          -5.046912670135498
+        ],
+        "reason": "Translate held sword with the rigid anatomical grip; do not stretch the wrist to meet the old grip origin."
+      },
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v04\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM01.uasset",
+      "backup_sha256": "10d16ba187d032631bc869647bcecb4e522bd226629a38afdc67bc17461959b5"
+    },
+    {
+      "enemy": "GM04",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM04",
+      "from_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Compact_v03.Wuxia_Attack_Sword_Compact_v03",
+      "to_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Natural_v04.Wuxia_Attack_Sword_Natural_v04",
+      "from_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+      "to_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04.SK_WuxiaMale_Hands_v04",
+      "grip": {
+        "translation": [
+          0.504277229309082,
+          -8.221160888671875,
+          0.14447402954101562
+        ],
+        "quaternion": [
+          0.8239123225212097,
+          -0.5253214240074158,
+          -0.16701309382915497,
+          0.1315772384405136
+        ],
+        "scale": [
+          0.9999997019767761,
+          0.9999998211860657,
+          0.9999997615814209
+        ],
+        "sword_relative_location_cm": [
+          0.504277229309082,
+          -8.221160888671875,
+          0.14447402954101562
+        ],
+        "sword_relative_quaternion_xyzw": [
+          0.8239123225212097,
+          -0.5253214240074158,
+          -0.16701309382915497,
+          0.1315772384405136
+        ],
+        "sword_relative_scale": [
+          0.9999997019767761,
+          0.9999998211860657,
+          0.9999997615814209
+        ],
+        "translation_only_change": true,
+        "bind_space_translation_blender_cm": [
+          -0.14137649536132812,
+          5.700020790100098,
+          -0.3558807373046875
+        ],
+        "previous_location_cm": [
+          -1.875828504562378,
+          -8.074670791625977,
+          -5.046912670135498
+        ],
+        "reason": "Translate held sword with the rigid anatomical grip; do not stretch the wrist to meet the old grip origin."
+      },
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v04\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM04.uasset",
+      "backup_sha256": "80738c33bf1a807b9df12a9b94bb4228bf349a0c4e33f833256dce38844ba772"
+    },
+    {
+      "enemy": "boss",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_boss",
+      "from_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Compact_v03.Wuxia_Attack_Sword_Compact_v03",
+      "to_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Natural_v04.Wuxia_Attack_Sword_Natural_v04",
+      "from_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+      "to_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04.SK_WuxiaMale_Hands_v04",
+      "grip": {
+        "translation": [
+          0.504277229309082,
+          -8.221160888671875,
+          0.14447402954101562
+        ],
+        "quaternion": [
+          0.8239123225212097,
+          -0.5253214240074158,
+          -0.16701309382915497,
+          0.1315772384405136
+        ],
+        "scale": [
+          0.9999997019767761,
+          0.9999998211860657,
+          0.9999997615814209
+        ],
+        "sword_relative_location_cm": [
+          0.504277229309082,
+          -8.221160888671875,
+          0.14447402954101562
+        ],
+        "sword_relative_quaternion_xyzw": [
+          0.8239123225212097,
+          -0.5253214240074158,
+          -0.16701309382915497,
+          0.1315772384405136
+        ],
+        "sword_relative_scale": [
+          0.9999997019767761,
+          0.9999998211860657,
+          0.9999997615814209
+        ],
+        "translation_only_change": true,
+        "bind_space_translation_blender_cm": [
+          -0.14137649536132812,
+          5.700020790100098,
+          -0.3558807373046875
+        ],
+        "previous_location_cm": [
+          -1.875828504562378,
+          -8.074670791625977,
+          -5.046912670135498
+        ],
+        "reason": "Translate held sword with the rigid anatomical grip; do not stretch the wrist to meet the old grip origin."
+      },
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v04\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_boss.uasset",
+      "backup_sha256": "c9caa9fa105f4ba4f4316bceeade8c3f4f23c394d2007d22d1fd23f9c17adc97"
+    }
+  ],
+  "scope": "Four sword archetypes only: local right-hand replacement, natural attack and grip attachment fitted to the real closed hand. Caster assets, timing, range, damage, other animation clips and maps preserved."
+}

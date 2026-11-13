@@ -1,0 +1,240 @@
+{
+  "state": "implementation_and_scoped_validation_complete",
+  "documented_at_utc": "2026-10-26T14:53:54.253673+00:00",
+  "project": "D:\\game design\\experiment",
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "scope": "Historical Level01Polish_v01 implementation and its recorded build, tests and runtime probe. This is not acceptance of later VRWeaponPolish changes or the complete GDD.",
+  "implemented": {
+    "lingqi_per_valid_defeat": 1.0,
+    "first_upgrade_threshold": 40.0,
+    "level_two_damage_multiplier": 1.25,
+    "retry_restores_stage_entry_growth": true,
+    "duplicate_defeat_rewards_rejected": true,
+    "bexit_minimum_upgrade_level": 2,
+    "mixed_waves": {
+      "Bcourt_W03": {
+        "sword": 5,
+        "talisman": 1
+      },
+      "Bcourt_W05": {
+        "sword": 5,
+        "talisman": 1
+      }
+    },
+    "hud": [
+      "LingQi and upgrade feedback",
+      "Intermission countdown",
+      "Short first-five-stage desktop instructions"
+    ],
+    "unchanged_master_ledger_retry_disk_writes_skipped": true
+  },
+  "build": {
+    "exit_code": 0,
+    "log": "Build_02.log"
+  },
+  "native_automation": {
+    "report": "Automation_01/index.json",
+    "total": 54,
+    "succeeded": 50,
+    "succeeded_with_warnings": 4,
+    "failed": 0,
+    "not_run": 0,
+    "in_process": 0,
+    "process_exit_code": 0,
+    "report_created_on": "2026.10.26-10.16.47"
+  },
+  "authoring": {
+    "state": "passed",
+    "report": "AuthoringReport.json",
+    "map_totals": {
+      "stages": 16,
+      "waves": 27,
+      "enemies": 109
+    },
+    "protected_package_count": 36,
+    "protected_packages_unchanged_at_authoring": true,
+    "preserved_stage_fields_equal_after_reload": true,
+    "saved_packages": [
+      "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W03",
+      "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W05",
+      "/Game/ReversedScale/Progression/DA_FirstAscentUpgrade",
+      "/Game/ReversedScale/Maps/L_NilinGameplayV01"
+    ],
+    "backups": "20261026T101651Z_f6a22428"
+  },
+  "runtime": {
+    "state": "passed",
+    "success": true,
+    "failures": [],
+    "checks": {
+      "central_damage_multiplier_10_to_12_5": true,
+      "ten_retries_do_not_farm_lingqi_or_burst": true,
+      "duplicate_defeat_reward_rejected": true,
+      "native_movement_and_blade_defeat": true,
+      "live_mixed_melee_and_ranged_observation": true,
+      "two_mixed_waves_keep_five_swords_one_caster": true,
+      "five_stages_ten_waves_52_real_defeat_events": true,
+      "natural_threshold_40": true,
+      "authored_level_end_floor_without_currency_grant": true
+    },
+    "report": "RuntimeFirstLevel.json",
+    "elapsed_seconds": 125.76599999999962,
+    "elapsed_is_script_runtime_not_player_completion_time": true,
+    "stages": [
+      {
+        "id": "Aoutside",
+        "completed_waves": 1,
+        "defeated": 2,
+        "state": "passed"
+      },
+      {
+        "id": "Ainside",
+        "completed_waves": 1,
+        "defeated": 6,
+        "state": "passed"
+      },
+      {
+        "id": "R01",
+        "completed_waves": 1,
+        "defeated": 2,
+        "state": "passed"
+      },
+      {
+        "id": "Bcourt",
+        "completed_waves": 6,
+        "defeated": 36,
+        "state": "passed"
+      },
+      {
+        "id": "Bexit",
+        "completed_waves": 1,
+        "defeated": 6,
+        "state": "passed"
+      }
+    ],
+    "retry_attempt_count": 10,
+    "ordinary_melee_definition_damage": 10.0,
+    "physical_opening": {
+      "state": "passed",
+      "walked_cm": 962.6749411330215,
+      "native_hit_count": 3,
+      "damage_each": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "health_after": 100.0,
+      "real_ai_telegraph_observed": false,
+      "scope": "One live AI and scripted CharacterMovement/StartDesktopSlash. Other owned AI paused; no player heals, teleports, direct resolver calls or damage edits inside this phase.",
+      "input": "Scripted AddMovementInput and StartDesktopSlash, actual CharacterMovement and native blade sweeps; not human control."
+    },
+    "natural_upgrade_threshold": {
+      "state": "passed",
+      "ling_qi": 40.0,
+      "level": 2,
+      "event_count": 40,
+      "stage": "Bcourt",
+      "wave": 5
+    },
+    "mixed_ai": {
+      "state": "passed",
+      "observed_game_seconds": 12.603579107671976,
+      "actual_projectile_count": 3,
+      "max_attack_reservations": 2,
+      "health_before": 100.0,
+      "health_after": 80.0,
+      "protective_heals_during_observation": [],
+      "post_observation_resource_reset": {
+        "performed": true,
+        "call": "self.vitals.restore_resource_preset(100, 100)",
+        "source": "Scripts/Editor/Level01PolishV01/runtime_first_level.py:522",
+        "note": "This unconditional reset follows the live observation and precedes further rule tests. No-heal-during-observation does not mean the whole run had no resource intervention."
+      },
+      "failed_spawn_attempts_delta": 0,
+      "spawn_observation_scope": "Counter delta only during live mixed AI observation; earlier isolated-wave retries are excluded. If all wave actors were already spawned at entry, this window is not a spawning-performance sample."
+    },
+    "later_stage_rule_test_scope": "Explicit entry teleports; most AI paused; direct real Resolver contacts use unchanged ordinary melee definition and normal protection intervals. This is rule integration, not a continuous normal-input playthrough.",
+    "bexit_floor_fixture": {
+      "state": "passed",
+      "scope": "Explicit low-currency scalar fixture before actual Bexit entry. Existing 46 defeat IDs are retained. Six ordinary deaths must add six currency; the boundary floor must add no currency.",
+      "fixture_lingqi": 10,
+      "fixture_level": 1,
+      "retained_prior_defeat_ids": 46,
+      "subsequent_defeats": 6,
+      "final_lingqi": 16,
+      "final_level": 2,
+      "repeat_floor_did_not_reward_or_reannounce": true,
+      "final_currency_is_artificial_fixture_result": true
+    },
+    "source_scope": [
+      "Saved gameplay map with temporary Test.Level01 identity; main profile is never used.",
+      "Opening movement uses AddMovementInput and real collision/CharacterMovement; attack uses StartDesktopSlash and native blade sweeps against one live sword AI.",
+      "Opening automation is not human input. Other opening enemies are paused to isolate the probe.",
+      "Later stage entries are explicit teleports and most AI is paused. Defeats use the unchanged ordinary player melee attack definition through genuine resolver contacts.",
+      "The multiplier probe uses an explicitly labelled 10-damage fixture, not lethal 999 damage. A 100-damage enemy contact produces the retry test death.",
+      "Bcourt wave 3 includes a bounded live mixed melee/ranged observation. Protective health restores, if necessary, are reported.",
+      "Natural LingQi accumulation is verified to 40/level 2. Before Bexit, an explicit low-LingQi fixture tests the authored level-end floor without granting currency.",
+      "No claim of manual continuous completion, seven-minute pacing, headset/controller acceptance or VR performance."
+    ]
+  },
+  "isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.c4ced9c830684bc7bc23df4f6cfe4b7b",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\da87e7dfcadd93f760e388386728e00fa2477938.nlrun",
+    "test_run_ids": [
+      "7df0a178460a06c0574fb094d6e5f916",
+      "c681248b4987a8ac3379a1890cfb9e9b"
+    ],
+    "original_level_id": "Level.Nilin.Playable",
+    "map_sha256_before": "bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81",
+    "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+    "temporary_assets": [
+      "/Game/ReversedScale/Tests/TransientIntegration/DA_Level01_DamageTen_c4ced9c830684bc7bc23df4f6cfe4b7b",
+      "/Game/ReversedScale/Tests/TransientIntegration/DA_Level01_EnemyDeathContact_c4ced9c830684bc7bc23df4f6cfe4b7b"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\da87e7dfcadd93f760e388386728e00fa2477938.nlrun"
+    ],
+    "temporary_assets_removed": true
+  },
+  "documentation_closeout_checks": {
+    "current_map_sha256": "bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81",
+    "map_matches_runtime_after_hash": true,
+    "test_marker_absent": true,
+    "protected_packages_matching_now": 36,
+    "protected_packages_checked": 36,
+    "protected_package_mismatches": []
+  },
+  "preserved_first_attempt_failure": {
+    "report": "RuntimeFirstLevel.failed_cleanup.json",
+    "state": "failed",
+    "failure_count": 15205,
+    "first_failure": "{'phase': 'stage_setup', 'error': 'Traceback (most recent call last):\\n  File \"D:\\\\game design\\\\experiment\\\\Scripts\\\\Editor\\\\Level01PolishV01\\\\runtime_first_level.py\", line 686, in tick\\n    self.setup_stage()\\n  File \"D:\\\\game design\\\\experiment\\\\Scripts\\\\Editor\\\\Level01PolishV01\\\\runtime_first_level.py\", line 435, in setup_stage\\n    self.finish()\\n  File \"D:\\\\game design\\\\experiment\\\\Scripts\\\\Editor\\\\Level01PolishV01\\\\runtime_first_level.py\", line 605, in finish\\n    if self.valid(owner):\\n       ^^^^^^^^^^^^^^^^^\\n  File \"D:\\\\game design\\\\experiment\\\\Scripts\\\\Editor\\\\Level01PolishV01\\\\runtime_first_level.py\", line 92, in valid\\n    return obj is not None and unreal.SystemLibrary.is_valid(obj)\\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nTypeError: SystemLibrary: Failed to convert parameter \\'object\\' when calling function \\'KismetSystemLibrary.IsValid\\' on \\'Default__KismetSystemLibrary\\'\\n  TypeError: NativizeProperty: Cannot nativize \\'NLEncounterController\\' as \\'Object\\' (ObjectProperty)\\n    TypeError: NativizeObject: Cannot nativize \\'NLEncounterController\\' as \\'Object\\' (allowed Class type: \\'Object\\')\\n'}",
+    "cause": "Cleanup attempted an Unreal validity check on a destroyed Python wrapper; repeated cleanup exceptions occurred. This failure has not been rewritten as success.",
+    "recovery_report": "FixtureIsolation.failed_cleanup_recovered.json",
+    "recovery_state": "restored_without_saving_map",
+    "final_success_is_separate_rerun": true
+  },
+  "remaining_limits": [
+    "GDD one-hit trash-enemy feel is not implemented: ordinary melee damage is 10 and the measured opening needs three hits.",
+    "No claim of human continuous completion, seven-minute pacing, headset/controller acceptance, VR comfort or VR performance.",
+    "No new cross-start ordinary LingQi/level persistence; existing durable master-seal ledger is a separate system.",
+    "Only first upgrade to level 2 is implemented; second upgrade and level-3 chapter floor are outstanding.",
+    "Level 2 ritual objective still needs main-flow/checkpoint/retry integration; independent objective lab results do not complete that work.",
+    "Disruptor caster, full Boss phase loop and extended normal-input playtesting remain later GDD work."
+  ],
+  "evidence_sha256": {
+    "RuntimeFirstLevel.json": "93d8490c505eddb26251f96bd3f1fcf1e85331b4c70fcb6d6d615b7438a1e7fd",
+    "FixtureIsolation.json": "b8871dc922e738d4ddb5f574a1bd598446e2f34f3234f6518136df3dff199aef",
+    "AuthoringReport.json": "536b252528c0334b795ec66668c355474979684afb4e63e5e4397411b24de1f8",
+    "Automation_01/index.json": "f1ce75b6553f8ec58f0c7c92b8ac7e1934e7b78a83f65322220a6ee451478004",
+    "RuntimeFirstLevel.failed_cleanup.json": "f444881a3cbfb689f68b4440034dc9d67bac8575bad4292219965457bdf55bff",
+    "FixtureIsolation.failed_cleanup_recovered.json": "5cd839964b96331955998f8e7538983e99164665cdce525575230b736a0567a2",
+    "Build_02.log": "7ac6f2428e3e78e493cd95090634e53b5e0fcd5d76a024d3f46a76363026a1a3",
+    "Build_02.exitcode": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "Automation_01.exitcode": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354"
+  }
+}

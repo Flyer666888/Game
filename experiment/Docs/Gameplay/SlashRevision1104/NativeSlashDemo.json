@@ -1,0 +1,44 @@
+{
+  "source": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames",
+  "output": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\NativeSlashDemo.mp4",
+  "smoke_only": false,
+  "frames": 516,
+  "fps": 60,
+  "duration_seconds": 8.6,
+  "width": 960,
+  "height": 720,
+  "sections": [
+    {
+      "section": "normal_1",
+      "start_frame": 1,
+      "motion_frames": 99,
+      "hold_frames": 30,
+      "speed_label": "1.0x  原速"
+    },
+    {
+      "section": "normal_2",
+      "start_frame": 130,
+      "motion_frames": 99,
+      "hold_frames": 30,
+      "speed_label": "1.0x  原速"
+    },
+    {
+      "section": "slow",
+      "start_frame": 259,
+      "motion_frames": 198,
+      "hold_frames": 60,
+      "speed_label": "0.5x  慢放"
+    }
+  ],
+  "source_frame_count": 100,
+  "source_sizes_consistent": true,
+  "bytes": 1915267,
+  "poster": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\NativeSlashDemo.png",
+  "decoded_video": {
+    "frames": 516,
+    "fps": 60.0,
+    "width": 960,
+    "height": 720
+  },
+  "note": "Existing PNG samples encoded; no scene or game assets changed. No invented in-between frames."
+}

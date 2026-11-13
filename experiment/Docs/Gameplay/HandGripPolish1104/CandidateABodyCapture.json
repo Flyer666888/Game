@@ -1,0 +1,77 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "all_closeups_captured": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Actual native enemy mesh and sword in Unreal; animation sampled for hand-contact inspection. AI paused, main save isolated."
+  ],
+  "elapsed_seconds": 5.875,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.0d81906df4f345db8cf88e2bf093d0a6",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\34199ea74d8a5bc6a1d8fc041356c81defea4f7e.nlrun",
+    "test_run_ids": [
+      "0b0c0b91466f965f9bbab1852f62f7df",
+      "fe69e4454e932f7c730b91b2915eb8ea"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\34199ea74d8a5bc6a1d8fc041356c81defea4f7e.nlrun"
+    ],
+    "temporary_assets_removed": true
+  },
+  "frames": [
+    {
+      "key": "D_windup",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripA/A_Wuxia_Attack_GripA.A_Wuxia_Attack_GripA",
+      "t": 0.25,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\CandidateABody\\D_windup.png",
+      "grip": "<Struct 'Transform' (0x0000025BAEBD9C80) {rotation: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.500000}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>"
+    },
+    {
+      "key": "D_lift",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripA/A_Wuxia_Attack_GripA.A_Wuxia_Attack_GripA",
+      "t": 0.5,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\CandidateABody\\D_lift.png",
+      "grip": "<Struct 'Transform' (0x0000025BAEBD9E30) {rotation: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.500000}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>"
+    },
+    {
+      "key": "D_cut",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripA/A_Wuxia_Attack_GripA.A_Wuxia_Attack_GripA",
+      "t": 0.7200000286102295,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\CandidateABody\\D_cut.png",
+      "grip": "<Struct 'Transform' (0x0000025BAEBD9920) {rotation: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.500000}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>"
+    },
+    {
+      "key": "D_follow",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripA/A_Wuxia_Attack_GripA.A_Wuxia_Attack_GripA",
+      "t": 0.8999999761581421,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\CandidateABody\\D_follow.png",
+      "grip": "<Struct 'Transform' (0x0000025BAEBD9D10) {rotation: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.500000}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>"
+    },
+    {
+      "key": "D_recovery",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripA/A_Wuxia_Attack_GripA.A_Wuxia_Attack_GripA",
+      "t": 1.2000000476837158,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\CandidateABody\\D_recovery.png",
+      "grip": "<Struct 'Transform' (0x0000025BAEBD9EC0) {rotation: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.500000}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>"
+    }
+  ]
+}

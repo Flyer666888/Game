@@ -1,0 +1,15 @@
+00:01.500  blend            | Read blend: "D:\game design\experiment\ArtSource\WuxiaMale\NativeRigV07\Wuxia_Attack_Native_v07.blend"
+D:\game design\experiment\Scripts\Editor\SlashRevision1104\render_native_slash.py:9: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes=True
+D:\game design\experiment\Scripts\Editor\SlashRevision1104\render_native_slash.py:21: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('Review');scene.world.use_nodes=True;scene.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.4
+00:05.328  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\OfflineFrames\Native_000.png'
+00:09.234  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\OfflineFrames\Native_029.png'
+00:13.062  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\OfflineFrames\Native_043.png'
+00:16.937  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\OfflineFrames\Native_050.png'
+00:20.765  render           | Saved: 'D:\game design\experiment\Docs\Gameplay\SlashRevision1104\OfflineFrames\Native_060.png'
+FBX version: 7400
+NATIVE_FRAMES_RENDERED
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

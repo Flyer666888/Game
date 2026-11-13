@@ -1,0 +1,407 @@
+{
+  "state": "verified",
+  "selected_motion": "D",
+  "future_motion": "C remains unmodified and reserved for a reverse-grip enemy",
+  "candidate": {
+    "finger_local_quaternions": {
+      "RightHandIndex3": [
+        -0.9161485433578491,
+        1.9894139313691994e-06,
+        3.9328366341351284e-08,
+        0.4008388817310333
+      ],
+      "RightHandIndex2": [
+        -0.402363121509552,
+        4.5607077936438145e-07,
+        1.681605226622196e-06,
+        0.9154801964759827
+      ],
+      "RightHandThumb1": [
+        -0.29621604084968567,
+        -0.051771130412817,
+        0.16419823467731476,
+        0.9394758343696594
+      ],
+      "RightHandThumb3": [
+        -0.31170859932899475,
+        -7.032619464553136e-07,
+        -3.273722199992335e-07,
+        0.9501777291297913
+      ],
+      "RightHandIndex4": [
+        6.891787052154541e-08,
+        -3.285706497990759e-06,
+        6.519257311765614e-08,
+        1.0
+      ],
+      "RightHandThumb2": [
+        -0.422372967004776,
+        -6.041528877176461e-07,
+        -2.5917964308064256e-07,
+        0.9064221382141113
+      ],
+      "RightHandThumb4": [
+        9.592622518539429e-08,
+        2.789311110973358e-07,
+        7.003545761108398e-07,
+        1.0
+      ],
+      "RightHandIndex1": [
+        -0.6774030923843384,
+        -0.009113154374063015,
+        0.009892799891531467,
+        0.7354891300201416
+      ]
+    },
+    "id": "GripB",
+    "grip": {
+      "p": [
+        0,
+        -0.048,
+        0.046
+      ],
+      "q": [
+        0.602453351020813,
+        0.5060608386993408,
+        0.3855701684951782,
+        0.48196274042129517
+      ],
+      "s": [
+        0.01,
+        0.01,
+        0.01
+      ]
+    },
+    "fit_parameters": {
+      "angles": [
+        60,
+        100,
+        75
+      ],
+      "y": 0.048,
+      "z": 0.046,
+      "sy": 0.2,
+      "sz": -0.25
+    }
+  },
+  "enemies": [
+    {
+      "enemy": "sword",
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword",
+      "before": {
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Hit_Native_v07.A_Wuxia_Hit_Native_v07",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Death_Native_v07.A_Wuxia_Death_Native_v07",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Cast_Native_v07.A_Wuxia_Cast_Native_v07"
+      },
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_sword.uasset",
+      "attack": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "root_curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel",
+      "timing_and_range": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.5333333015441895,
+        200.0
+      ],
+      "grip": {
+        "p": [
+          0,
+          -0.048,
+          0.046
+        ],
+        "q": [
+          0.602453351020813,
+          0.5060608386993408,
+          0.3855701684951782,
+          0.48196274042129517
+        ],
+        "s": [
+          0.01,
+          0.01,
+          0.01
+        ]
+      },
+      "sword": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "enemy": "GM01",
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM01",
+      "before": {
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Hit_Native_v07.A_Wuxia_Hit_Native_v07",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Death_Native_v07.A_Wuxia_Death_Native_v07",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Cast_Native_v07.A_Wuxia_Cast_Native_v07"
+      },
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM01.uasset",
+      "attack": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "root_curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel",
+      "timing_and_range": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.5333333015441895,
+        200.0
+      ],
+      "grip": {
+        "p": [
+          0,
+          -0.048,
+          0.046
+        ],
+        "q": [
+          0.602453351020813,
+          0.5060608386993408,
+          0.3855701684951782,
+          0.48196274042129517
+        ],
+        "s": [
+          0.01,
+          0.01,
+          0.01
+        ]
+      },
+      "sword": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "enemy": "GM04",
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM04",
+      "before": {
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Hit_Native_v07.A_Wuxia_Hit_Native_v07",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Death_Native_v07.A_Wuxia_Death_Native_v07",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Cast_Native_v07.A_Wuxia_Cast_Native_v07"
+      },
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM04.uasset",
+      "attack": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "root_curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel",
+      "timing_and_range": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.5333333015441895,
+        200.0
+      ],
+      "grip": {
+        "p": [
+          0,
+          -0.048,
+          0.046
+        ],
+        "q": [
+          0.602453351020813,
+          0.5060608386993408,
+          0.3855701684951782,
+          0.48196274042129517
+        ],
+        "s": [
+          0.01,
+          0.01,
+          0.01
+        ]
+      },
+      "sword": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "enemy": "boss",
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_boss",
+      "before": {
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Hit_Native_v07.A_Wuxia_Hit_Native_v07",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Death_Native_v07.A_Wuxia_Death_Native_v07",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Cast_Native_v07.A_Wuxia_Cast_Native_v07"
+      },
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_boss.uasset",
+      "attack": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "root_curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel",
+      "timing_and_range": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.5333333015441895,
+        200.0
+      ],
+      "grip": {
+        "p": [
+          0,
+          -0.048,
+          0.046
+        ],
+        "q": [
+          0.602453351020813,
+          0.5060608386993408,
+          0.3855701684951782,
+          0.48196274042129517
+        ],
+        "s": [
+          0.01,
+          0.01,
+          0.01
+        ]
+      },
+      "sword": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    }
+  ],
+  "live_checks": {
+    "chases_faster_than_player": true,
+    "closed_distance": true,
+    "native_attack_window": true,
+    "native_player_damage": true,
+    "player_retreats": true,
+    "resumes_chase_after_player_retreat": true,
+    "catches_retreating_player": true,
+    "uses_fitted_enemy_sword": true,
+    "uses_selected_D": true,
+    "curve_is_assigned": true,
+    "capsule_advances_during_D": true,
+    "body_stays_with_capsule": true,
+    "one_forward_damage_window": true
+  },
+  "combat": {
+    "total_attack_travel_cm": 353.5281207140998,
+    "max_body_offset_cm": 16.904745947322816,
+    "minimum_player_health": 70.0
+  },
+  "captures": [
+    {
+      "key": "idle_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+      "t": 0.0,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\idle_side.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC91D0) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "idle_oblique",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+      "t": 0.0,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\idle_oblique.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC8B10) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "walk_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Walk_GripB.A_Wuxia_Walk_GripB",
+      "t": 0.30000001192092896,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\walk_side.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC9140) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "walk_oblique",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Walk_GripB.A_Wuxia_Walk_GripB",
+      "t": 0.30000001192092896,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\walk_oblique.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC92F0) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "D_windup_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "t": 0.25,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\D_windup_side.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC9410) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "D_windup_oblique",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "t": 0.25,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\D_windup_oblique.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC94A0) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "D_cut_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "t": 0.7200000286102295,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\D_cut_side.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC95C0) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "D_cut_oblique",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "t": 0.7200000286102295,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\D_cut_oblique.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC96E0) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "D_recovery_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "t": 1.0,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\D_recovery_side.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC9770) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "D_recovery_oblique",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "t": 1.0,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\D_recovery_oblique.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC9890) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "hit_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Hit_GripB.A_Wuxia_Hit_GripB",
+      "t": 0.20000000298023224,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\hit_side.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC99B0) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "cast_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Cast_GripB.A_Wuxia_Cast_GripB",
+      "t": 0.4000000059604645,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\cast_side.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC9A40) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "death_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Death_GripB.A_Wuxia_Death_GripB",
+      "t": 0.6000000238418579,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\death_side.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC9AD0) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    },
+    {
+      "key": "D_body",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "t": 0.7200000286102295,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\After\\D_body.png",
+      "grip": "<Struct 'Transform' (0x00000224B2BC9B60) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+      "sword_asset": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+    }
+  ],
+  "regression": {
+    "succeeded": 1,
+    "succeededWithWarnings": 4,
+    "failed": 0,
+    "notRun": 0,
+    "inProcess": 0
+  },
+  "protected_sha256": {
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07": "c1fbac072ede781842eb56ad9b5d692ecde9af7640d0a04afa8f29924440e4c9",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07_Skeleton.SK_WuxiaMale_Native_v07_Skeleton": "cc231a773d37e2cfdf5d2f59dcac19c45534d15dd08d4d7c545d66fd1885e217",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD": "94eeb991f937df171446e66f123d885e0fa779f53fdfa85688fc3c0c7fb6ef89",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07": "42bc67fb56be1ae0cf75a338d0bd7331e1ad8db167a62ac7e7449465f6be9d88",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07": "1a6b18119429bb4850c78474535f8fc8e8a70d22871b9d91f6ec39724dbac73d",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Hit_Native_v07.A_Wuxia_Hit_Native_v07": "727efb248ab98d3b337134f2b128427eb9be94ef0e2f7785949d71034088c6bd",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Death_Native_v07.A_Wuxia_Death_Native_v07": "61dbba075866d0dd62d4c7c3983806f8cb252ac00ad7abff460f7af95d78e2d0",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Cast_Native_v07.A_Wuxia_Cast_Native_v07": "3738f4add6c2f36d4787848a8c9c62cd2eae9a7959d6f44dde3fa2ccd89d9cbc",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04.Pack_Anim_CSATLI_04": "d61e36af3680d4fc1fd079febbced875ed500f6e06b5659be7415c8f5b3a48e3",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_03.Pack_Anim_CSATLI_03": "87f4dbc0f6303b36c7aa748e1652744eeb01661a737f19744579809f76f5aed8",
+    "/Game/Animations/Sword/Anim_CSATLI_04.Anim_CSATLI_04": "0ac51c7c9e28cb38f3d2e5fb6e4823151a020b93801592aa74767b494c635def",
+    "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player": "3c512bfc3217aa0329860d6661c20e6a8322e5af35f877e679584d5c7e7977a6"
+  },
+  "body_wrist_and_ground_motion_unchanged": true,
+  "geometry_note": "Visible palm/knuckle penetration removed. Conservative offline surface test retains up to 1.87 mm of local contact overlap; this is not a claim of exact zero intersection.",
+  "scope": "Actual saved-map AI, animation transitions and physical blade hits; isolated test profile, no human/HMD playtest."
+}

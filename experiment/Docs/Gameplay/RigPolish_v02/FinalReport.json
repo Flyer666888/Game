@@ -1,0 +1,248 @@
+{
+  "date": "2026-10-24",
+  "state": "passed",
+  "project": "D:\\game design\\experiment",
+  "scope": "Shoulder weights and death presentation on the eight current Gameplay/V01 enemy archetypes.",
+  "shoulder": {
+    "source_vertices": 43210,
+    "changed_weight_vertices": 8971,
+    "basis_uv_topology_skeleton_morphs_materials_unchanged": true,
+    "max_bone_influences": 4,
+    "grip_weight_overlap": 0,
+    "robe_weight_overlap": 0,
+    "metrics": [
+      {
+        "pose": "Reference",
+        "variant": "Before",
+        "edge_count": 27717,
+        "max_edge_ratio": 1.0000233681591386,
+        "p95_edge_ratio": 1.0000040827843706,
+        "p99_edge_ratio": 1.0000090754535822,
+        "edges_over_2x": 0,
+        "edges_over_4x": 0,
+        "triangle_count": 20099,
+        "normal_flips": 0
+      },
+      {
+        "pose": "Reference",
+        "variant": "After",
+        "edge_count": 27717,
+        "max_edge_ratio": 1.0000048100828083,
+        "p95_edge_ratio": 1.0000007878888277,
+        "p99_edge_ratio": 1.0000011441342815,
+        "edges_over_2x": 0,
+        "edges_over_4x": 0,
+        "triangle_count": 20099,
+        "normal_flips": 0
+      },
+      {
+        "pose": "Idle_0",
+        "variant": "Before",
+        "edge_count": 27717,
+        "max_edge_ratio": 4.185482614474667,
+        "p95_edge_ratio": 1.9955573037172534,
+        "p99_edge_ratio": 2.82244318751679,
+        "edges_over_2x": 1375,
+        "edges_over_4x": 2,
+        "triangle_count": 20099,
+        "normal_flips": 749
+      },
+      {
+        "pose": "Idle_0",
+        "variant": "After",
+        "edge_count": 27717,
+        "max_edge_ratio": 3.3177161046010077,
+        "p95_edge_ratio": 1.503462034310179,
+        "p99_edge_ratio": 2.2271006560533606,
+        "edges_over_2x": 472,
+        "edges_over_4x": 0,
+        "triangle_count": 20099,
+        "normal_flips": 739
+      },
+      {
+        "pose": "Attack_0.6",
+        "variant": "Before",
+        "edge_count": 27717,
+        "max_edge_ratio": 9.927731070754612,
+        "p95_edge_ratio": 3.583030509794611,
+        "p99_edge_ratio": 5.64256167777122,
+        "edges_over_2x": 3987,
+        "edges_over_4x": 1069,
+        "triangle_count": 20099,
+        "normal_flips": 2047
+      },
+      {
+        "pose": "Attack_0.6",
+        "variant": "After",
+        "edge_count": 27717,
+        "max_edge_ratio": 6.020468461966046,
+        "p95_edge_ratio": 2.2303145180868267,
+        "p99_edge_ratio": 3.660644813744651,
+        "edges_over_2x": 1828,
+        "edges_over_4x": 166,
+        "triangle_count": 20099,
+        "normal_flips": 1506
+      },
+      {
+        "pose": "Attack_1.1",
+        "variant": "Before",
+        "edge_count": 27717,
+        "max_edge_ratio": 8.420402772748467,
+        "p95_edge_ratio": 2.5714631214617607,
+        "p99_edge_ratio": 3.8503046627844655,
+        "edges_over_2x": 2655,
+        "edges_over_4x": 226,
+        "triangle_count": 20099,
+        "normal_flips": 1405
+      },
+      {
+        "pose": "Attack_1.1",
+        "variant": "After",
+        "edge_count": 27717,
+        "max_edge_ratio": 3.997045967974917,
+        "p95_edge_ratio": 1.7039197380836788,
+        "p99_edge_ratio": 2.6496065102822843,
+        "edges_over_2x": 849,
+        "edges_over_4x": 0,
+        "triangle_count": 20099,
+        "normal_flips": 1024
+      },
+      {
+        "pose": "Attack_1.5",
+        "variant": "Before",
+        "edge_count": 27717,
+        "max_edge_ratio": 8.428153263076616,
+        "p95_edge_ratio": 2.902413003078048,
+        "p99_edge_ratio": 4.129649476164195,
+        "edges_over_2x": 3257,
+        "edges_over_4x": 336,
+        "triangle_count": 20099,
+        "normal_flips": 1244
+      },
+      {
+        "pose": "Attack_1.5",
+        "variant": "After",
+        "edge_count": 27717,
+        "max_edge_ratio": 7.014009896185012,
+        "p95_edge_ratio": 1.8491898058903642,
+        "p99_edge_ratio": 2.883341108410469,
+        "edges_over_2x": 1120,
+        "edges_over_4x": 26,
+        "triangle_count": 20099,
+        "normal_flips": 1191
+      },
+      {
+        "pose": "Cast_1.1",
+        "variant": "Before",
+        "edge_count": 27717,
+        "max_edge_ratio": 6.38111703020734,
+        "p95_edge_ratio": 2.0178425193507494,
+        "p99_edge_ratio": 2.84704478763951,
+        "edges_over_2x": 1436,
+        "edges_over_4x": 7,
+        "triangle_count": 20099,
+        "normal_flips": 642
+      },
+      {
+        "pose": "Cast_1.1",
+        "variant": "After",
+        "edge_count": 27717,
+        "max_edge_ratio": 4.5016438923737745,
+        "p95_edge_ratio": 1.555317713936997,
+        "p99_edge_ratio": 2.239899270509942,
+        "edges_over_2x": 491,
+        "edges_over_4x": 2,
+        "triangle_count": 20099,
+        "normal_flips": 743
+      },
+      {
+        "pose": "Hit_0.3",
+        "variant": "Before",
+        "edge_count": 27717,
+        "max_edge_ratio": 7.52460032065036,
+        "p95_edge_ratio": 1.4484850250868053,
+        "p99_edge_ratio": 2.2233355268051183,
+        "edges_over_2x": 465,
+        "edges_over_4x": 5,
+        "triangle_count": 20099,
+        "normal_flips": 374
+      },
+      {
+        "pose": "Hit_0.3",
+        "variant": "After",
+        "edge_count": 27717,
+        "max_edge_ratio": 5.260994200699721,
+        "p95_edge_ratio": 1.3818045805215524,
+        "p99_edge_ratio": 1.865791489970957,
+        "edges_over_2x": 197,
+        "edges_over_4x": 2,
+        "triangle_count": 20099,
+        "normal_flips": 323
+      }
+    ]
+  },
+  "death": {
+    "duration_seconds": 2.6,
+    "final_hold_seconds": 0.5,
+    "root_travel_before_cm": 71.40281595198866,
+    "root_travel_after_cm": 34.99999864612304,
+    "maximum_imported_bone_error_cm": 0.010000916647214392,
+    "runtime_minimum_skin_height_cm": 0.014801421970418005,
+    "runtime_minimum_sword_height_cm": 0.1830306854092738
+  },
+  "runtime": {
+    "motion_frames": 1108,
+    "actual_clips": [
+      "Wuxia_Attack_Sword_Upright_v01",
+      "Wuxia_Death_Restrained_v02",
+      "Wuxia_Hit_Sword_Upright_v01",
+      "Wuxia_Idle_Planted_Upright_v01",
+      "Wuxia_Walk_Sword_Upright_v01"
+    ],
+    "active_blade_frames": 40,
+    "ranged_checks": {
+      "predecessors_completed_through_resolver": true,
+      "both_new_upright_cast_clips_played": true,
+      "faced_player_before_cast_warning": true,
+      "both_casters_emitted_actual_projectiles": true,
+      "both_rock_positions_remained_within_five_cm": true
+    },
+    "ranged_projectiles": 3,
+    "ranged_cleanup": "passed"
+  },
+  "automation": {
+    "succeeded": 25,
+    "succeededWithWarnings": 3,
+    "failed": 0,
+    "notRun": 0,
+    "inProcess": 0
+  },
+  "desktop_launch": {
+    "log": "D:\\game design\\experiment\\Saved\\GameplayRuntime\\Logs\\Gameplay_20261024_153114_663.log",
+    "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+    "mode": "Desktop, -nohmd",
+    "launched_at": "2026-10-24T15:31:14.7723591+08:00",
+    "state": "running_verified",
+    "pid": 7700,
+    "window_title": "experiment （64-位 Development PCD3D_SM6） ",
+    "responsive": true,
+    "level_loaded": true,
+    "fatal_in_log": false
+  },
+  "source_blockout_v10_sha256": "701a12f8a896e938ad76cb5ab68e7cf65d635a5c9d6b2699375bdc9a3538e248",
+  "limits": [
+    "Desktop presentation checks only; no headset acceptance or full manual level playthrough.",
+    "Contact checks use the flat local floor and the real skinned mesh; no all-terrain corpse physics or cloth simulation.",
+    "Motion probe uses health assistance and real resolver test contacts; it is not a manual combat acceptance test."
+  ],
+  "evidence": [
+    "ShoulderImport.json",
+    "ShoulderComparison.json",
+    "DeathComparison.json",
+    "AfterMotion.json",
+    "RangedValidation.json",
+    "EnemyAssignments.json",
+    "AssetAudit.json",
+    "Automation/index.json"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "state": "passed",
+  "enemies": [
+    {
+      "enemy": "sword",
+      "chase_speed": 310.0,
+      "walk_animation_speed": 202.38429260253906
+    },
+    {
+      "enemy": "GM01",
+      "chase_speed": 285.0,
+      "walk_animation_speed": 202.38429260253906
+    },
+    {
+      "enemy": "GM04",
+      "chase_speed": 285.0,
+      "walk_animation_speed": 202.38429260253906
+    },
+    {
+      "enemy": "boss",
+      "chase_speed": 290.0,
+      "walk_animation_speed": 202.38429260253906
+    }
+  ],
+  "clips_share_native_skeleton": true,
+  "source_fbx_unchanged": true,
+  "guard_to_attack_max_position_error_cm": 5.4870173746379305e-05,
+  "attack_loop_max_position_error_cm": 0.0
+}

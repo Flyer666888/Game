@@ -1,0 +1,46 @@
+{
+  "lift_endpoints": [
+    4.365043735556225,
+    4.365043735556225
+  ],
+  "loop_seam": {
+    "max_before_position_cm": 0.0,
+    "max_after_position_cm": 0.0,
+    "max_before_rotation_degrees": 1.7075472925031877e-06,
+    "max_after_rotation_degrees": 2.4148365394514667e-06,
+    "max_added_position_cm": 0.0,
+    "max_added_rotation_degrees": 2.4148365394514667e-06
+  },
+  "pose_invariants": {
+    "max_foot_position_error_cm": 6.601263243077698e-14,
+    "max_foot_rotation_error_degrees": 1.7075472925031877e-06,
+    "max_leg_length_error_cm": 3.552713678800501e-14,
+    "max_root_position_error_cm": 0.0,
+    "max_root_rotation_error_degrees": 0.0,
+    "pelvis_lift_range_cm": [
+      0.8522110152591438,
+      4.500000000000028
+    ],
+    "knee_bend_before_degrees": {
+      "l": [
+        26.31052169716298,
+        70.54445441601962
+      ],
+      "r": [
+        19.809336808912704,
+        70.08783212203171
+      ]
+    },
+    "knee_bend_after_degrees": {
+      "l": [
+        11.99999999999959,
+        59.983184085941254
+      ],
+      "r": [
+        11.999999999999527,
+        59.01170710023447
+      ]
+    }
+  },
+  "UE_executed": false
+}

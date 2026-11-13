@@ -1,0 +1,20 @@
+{
+  "state": "offline_visual_accepted_pending_UE",
+  "reviewer": "independent hand_final_review_25",
+  "candidate_sha256": "a8effc8ee8d967c5843e787325e5c3f4eb82e28945407f18773deabb1036ccd3",
+  "observed_images": [
+    "Audit/RealGripCuff/Hand_1.03_Side.png",
+    "Audit/RealGripArm/Hand_0.90_Side.png",
+    "Audit/RealGripArm/Hand_1.30_Side.png"
+  ],
+  "accepted": [
+    "Four fingers form a continuous volumetric closed grip around the handle.",
+    "Wrist and palm keep volume; the palm is no longer stretched into a thin bridge to the sleeve.",
+    "Exposed wrist connects naturally to the forearm without the prior large floating gap.",
+    "Recovery reads as returning to the right hip; the left arm shown in front is a camera projection, not evidence of the right hand crossing the chest."
+  ],
+  "limits": [
+    "The cuff retains the source model's coarse open cloth hem; final UE palm-side and whole-arm captures must still be reviewed.",
+    "Independent full-clip geometry and death/prop floor audit is running; this visual record does not substitute for that result."
+  ]
+}

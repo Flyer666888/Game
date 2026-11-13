@@ -1,0 +1,767 @@
+{
+  "status": "passed",
+  "blueprint_references_changed": false,
+  "method": "4.5 cm component-space pelvis lift, reach limited, two-bone IK, fixed feet",
+  "changed_tracks": [
+    "pelvis",
+    "thigh_l",
+    "calf_l",
+    "foot_l",
+    "thigh_r",
+    "calf_r",
+    "foot_r"
+  ],
+  "bone_count": 23,
+  "clips": [
+    {
+      "source": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+      "destination": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01",
+      "source_signature": {
+        "duration": 9.866666793823242,
+        "frame_rate": [
+          30,
+          1
+        ],
+        "frames": 296,
+        "keys": 297,
+        "bone_track_names": [
+          "ball_l",
+          "ball_r",
+          "calf_l",
+          "calf_r",
+          "clavicle_l",
+          "clavicle_r",
+          "foot_l",
+          "foot_r",
+          "hand_l",
+          "hand_r",
+          "head",
+          "lowerarm_l",
+          "lowerarm_r",
+          "neck_01",
+          "pelvis",
+          "root",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "thigh_l",
+          "thigh_r",
+          "upperarm_l",
+          "upperarm_r"
+        ],
+        "root_motion": true,
+        "rate_scale": 1.0,
+        "notify_tracks": [
+          "1"
+        ],
+        "notifies": [],
+        "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton"
+      },
+      "offline_metrics": {
+        "max_foot_position_error_cm": 7.445881037119295e-14,
+        "max_foot_rotation_error_degrees": 2.4148365394514667e-06,
+        "max_leg_length_error_cm": 3.552713678800501e-14,
+        "max_root_position_error_cm": 0.0,
+        "max_root_rotation_error_degrees": 0.0,
+        "pelvis_lift_range_cm": [
+          3.866383413937214,
+          4.500000000000043
+        ],
+        "knee_bend_before_degrees": {
+          "l": [
+            36.8527630875275,
+            53.94251818148644
+          ],
+          "r": [
+            38.264689333837374,
+            55.77972357302428
+          ]
+        },
+        "knee_bend_after_degrees": {
+          "l": [
+            11.999999999999558,
+            38.32832584147637
+          ],
+          "r": [
+            14.640288946363176,
+            40.73003715177626
+          ]
+        }
+      },
+      "status": "passed",
+      "runtime_metrics": {
+        "source": {
+          "max_foot_position_error_cm": 0.0014607918962544885,
+          "max_foot_rotation_error_degrees": 0.0007350728313681009,
+          "max_leg_length_error_cm": 8.526512829121202e-14,
+          "max_root_position_error_cm": 0.0,
+          "max_root_rotation_error_degrees": 0.0,
+          "pelvis_lift_range_cm": [
+            3.866386183119687,
+            4.499999731779226
+          ],
+          "knee_bend_before_degrees": {
+            "l": [
+              36.852763087527464,
+              53.94251818148641
+            ],
+            "r": [
+              38.26468933383738,
+              55.779723573024256
+            ]
+          },
+          "knee_bend_after_degrees": {
+            "l": [
+              11.999980999924379,
+              38.32829820305307
+            ],
+            "r": [
+              14.64030964748903,
+              40.7300281465496
+            ]
+          }
+        },
+        "compressed": {
+          "max_foot_position_error_cm": 0.0014607918962544885,
+          "max_foot_rotation_error_degrees": 0.0007350728313681009,
+          "max_leg_length_error_cm": 8.526512829121202e-14,
+          "max_root_position_error_cm": 0.0,
+          "max_root_rotation_error_degrees": 0.0,
+          "pelvis_lift_range_cm": [
+            3.866386183119687,
+            4.499999731779226
+          ],
+          "knee_bend_before_degrees": {
+            "l": [
+              36.852763087527464,
+              53.94251818148641
+            ],
+            "r": [
+              38.26468933383738,
+              55.779723573024256
+            ]
+          },
+          "knee_bend_after_degrees": {
+            "l": [
+              11.999980999924379,
+              38.32829820305307
+            ],
+            "r": [
+              14.64030964748903,
+              40.7300281465496
+            ]
+          }
+        }
+      },
+      "metadata_unchanged": true,
+      "saved": true
+    },
+    {
+      "source": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+      "destination": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Upright_v01",
+      "source_signature": {
+        "duration": 2.3333332538604736,
+        "frame_rate": [
+          30,
+          1
+        ],
+        "frames": 70,
+        "keys": 71,
+        "bone_track_names": [
+          "ball_l",
+          "ball_r",
+          "calf_l",
+          "calf_r",
+          "clavicle_l",
+          "clavicle_r",
+          "foot_l",
+          "foot_r",
+          "hand_l",
+          "hand_r",
+          "head",
+          "lowerarm_l",
+          "lowerarm_r",
+          "neck_01",
+          "pelvis",
+          "root",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "thigh_l",
+          "thigh_r",
+          "upperarm_l",
+          "upperarm_r"
+        ],
+        "root_motion": false,
+        "rate_scale": 1.0,
+        "notify_tracks": [
+          "1",
+          "NLAttackDamage"
+        ],
+        "notifies": [
+          {
+            "track": "NLAttackDamage",
+            "name": "NL Enemy Sword Attack Window",
+            "start": 0.800000011920929,
+            "duration": 0.23000000417232513,
+            "state_class": "/Script/experiment.NLEnemyAttackWindowNotifyState",
+            "notify_class": null
+          }
+        ],
+        "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton"
+      },
+      "offline_metrics": {
+        "max_foot_position_error_cm": 3.684602580856396e-14,
+        "max_foot_rotation_error_degrees": 0.0,
+        "max_leg_length_error_cm": 7.105427357601002e-15,
+        "max_root_position_error_cm": 0.0,
+        "max_root_rotation_error_degrees": 0.0,
+        "pelvis_lift_range_cm": [
+          4.5,
+          4.5
+        ],
+        "knee_bend_before_degrees": {
+          "l": [
+            48.14603318663719,
+            48.14603318663719
+          ],
+          "r": [
+            48.766260000281385,
+            48.766260000281385
+          ]
+        },
+        "knee_bend_after_degrees": {
+          "l": [
+            29.70002515013919,
+            29.70002515013919
+          ],
+          "r": [
+            30.677416269720624,
+            30.677416269720624
+          ]
+        }
+      },
+      "status": "passed",
+      "runtime_metrics": {
+        "source": {
+          "max_foot_position_error_cm": 4.302236447355016e-05,
+          "max_foot_rotation_error_degrees": 3.9789882402205e-05,
+          "max_leg_length_error_cm": 2.842170943040401e-14,
+          "max_root_position_error_cm": 0.0,
+          "max_root_rotation_error_degrees": 0.0,
+          "pelvis_lift_range_cm": [
+            4.499999731779241,
+            4.499999731779241
+          ],
+          "knee_bend_before_degrees": {
+            "l": [
+              48.14603318663716,
+              48.14603318663716
+            ],
+            "r": [
+              48.76626000028136,
+              48.76626000028136
+            ]
+          },
+          "knee_bend_after_degrees": {
+            "l": [
+              29.70003907472103,
+              29.70003907472103
+            ],
+            "r": [
+              30.677396420129426,
+              30.677396420129426
+            ]
+          }
+        },
+        "compressed": {
+          "max_foot_position_error_cm": 4.302236447355016e-05,
+          "max_foot_rotation_error_degrees": 3.9789882402205e-05,
+          "max_leg_length_error_cm": 2.842170943040401e-14,
+          "max_root_position_error_cm": 0.0,
+          "max_root_rotation_error_degrees": 0.0,
+          "pelvis_lift_range_cm": [
+            4.499999731779241,
+            4.499999731779241
+          ],
+          "knee_bend_before_degrees": {
+            "l": [
+              48.14603318663716,
+              48.14603318663716
+            ],
+            "r": [
+              48.76626000028136,
+              48.76626000028136
+            ]
+          },
+          "knee_bend_after_degrees": {
+            "l": [
+              29.70003907472103,
+              29.70003907472103
+            ],
+            "r": [
+              30.677396420129426,
+              30.677396420129426
+            ]
+          }
+        }
+      },
+      "metadata_unchanged": true,
+      "saved": true
+    },
+    {
+      "source": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman.Wuxia_Cast_Talisman",
+      "destination": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01",
+      "source_signature": {
+        "duration": 2.0,
+        "frame_rate": [
+          30,
+          1
+        ],
+        "frames": 60,
+        "keys": 61,
+        "bone_track_names": [
+          "ball_l",
+          "ball_r",
+          "calf_l",
+          "calf_r",
+          "clavicle_l",
+          "clavicle_r",
+          "foot_l",
+          "foot_r",
+          "hand_l",
+          "hand_r",
+          "head",
+          "lowerarm_l",
+          "lowerarm_r",
+          "neck_01",
+          "pelvis",
+          "root",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "thigh_l",
+          "thigh_r",
+          "upperarm_l",
+          "upperarm_r"
+        ],
+        "root_motion": false,
+        "rate_scale": 1.0,
+        "notify_tracks": [
+          "1"
+        ],
+        "notifies": [],
+        "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton"
+      },
+      "offline_metrics": {
+        "max_foot_position_error_cm": 2.9830103940303346e-14,
+        "max_foot_rotation_error_degrees": 0.0,
+        "max_leg_length_error_cm": 1.4210854715202004e-14,
+        "max_root_position_error_cm": 0.0,
+        "max_root_rotation_error_degrees": 0.0,
+        "pelvis_lift_range_cm": [
+          4.5,
+          4.5
+        ],
+        "knee_bend_before_degrees": {
+          "l": [
+            48.14603318663721,
+            48.14603318663721
+          ],
+          "r": [
+            48.76626000028139,
+            48.76626000028139
+          ]
+        },
+        "knee_bend_after_degrees": {
+          "l": [
+            29.700025070214288,
+            29.700025070214288
+          ],
+          "r": [
+            30.67741634733741,
+            30.67741634733741
+          ]
+        }
+      },
+      "status": "passed",
+      "runtime_metrics": {
+        "source": {
+          "max_foot_position_error_cm": 4.256582310593826e-05,
+          "max_foot_rotation_error_degrees": 3.8181918208328625e-05,
+          "max_leg_length_error_cm": 3.552713678800501e-14,
+          "max_root_position_error_cm": 0.0,
+          "max_root_rotation_error_degrees": 0.0,
+          "pelvis_lift_range_cm": [
+            4.49999973177917,
+            4.49999973177917
+          ],
+          "knee_bend_before_degrees": {
+            "l": [
+              48.14603318663716,
+              48.14603318663716
+            ],
+            "r": [
+              48.76626000028137,
+              48.76626000028137
+            ]
+          },
+          "knee_bend_after_degrees": {
+            "l": [
+              29.70003907472103,
+              29.70003907472103
+            ],
+            "r": [
+              30.67739642012945,
+              30.67739642012945
+            ]
+          }
+        },
+        "compressed": {
+          "max_foot_position_error_cm": 4.256582310593826e-05,
+          "max_foot_rotation_error_degrees": 3.8181918208328625e-05,
+          "max_leg_length_error_cm": 3.552713678800501e-14,
+          "max_root_position_error_cm": 0.0,
+          "max_root_rotation_error_degrees": 0.0,
+          "pelvis_lift_range_cm": [
+            4.49999973177917,
+            4.49999973177917
+          ],
+          "knee_bend_before_degrees": {
+            "l": [
+              48.14603318663716,
+              48.14603318663716
+            ],
+            "r": [
+              48.76626000028137,
+              48.76626000028137
+            ]
+          },
+          "knee_bend_after_degrees": {
+            "l": [
+              29.70003907472103,
+              29.70003907472103
+            ],
+            "r": [
+              30.67739642012945,
+              30.67739642012945
+            ]
+          }
+        }
+      },
+      "metadata_unchanged": true,
+      "saved": true
+    },
+    {
+      "source": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+      "destination": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01",
+      "source_signature": {
+        "duration": 1.2000000476837158,
+        "frame_rate": [
+          30,
+          1
+        ],
+        "frames": 36,
+        "keys": 37,
+        "bone_track_names": [
+          "ball_l",
+          "ball_r",
+          "calf_l",
+          "calf_r",
+          "clavicle_l",
+          "clavicle_r",
+          "foot_l",
+          "foot_r",
+          "hand_l",
+          "hand_r",
+          "head",
+          "lowerarm_l",
+          "lowerarm_r",
+          "neck_01",
+          "pelvis",
+          "root",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "thigh_l",
+          "thigh_r",
+          "upperarm_l",
+          "upperarm_r"
+        ],
+        "root_motion": false,
+        "rate_scale": 1.0,
+        "notify_tracks": [
+          "1"
+        ],
+        "notifies": [],
+        "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton"
+      },
+      "offline_metrics": {
+        "max_foot_position_error_cm": 7.53644380168212e-14,
+        "max_foot_rotation_error_degrees": 1.7075472925031877e-06,
+        "max_leg_length_error_cm": 3.552713678800501e-14,
+        "max_root_position_error_cm": 0.0,
+        "max_root_rotation_error_degrees": 0.0,
+        "pelvis_lift_range_cm": [
+          0.8522110152591438,
+          4.500000000000028
+        ],
+        "knee_bend_before_degrees": {
+          "l": [
+            26.31052169716298,
+            70.54445441601962
+          ],
+          "r": [
+            19.809336808912704,
+            70.08783212203171
+          ]
+        },
+        "knee_bend_after_degrees": {
+          "l": [
+            11.999999999999742,
+            59.98318408594124
+          ],
+          "r": [
+            11.999999999999497,
+            59.011707100234446
+          ]
+        }
+      },
+      "status": "passed",
+      "offline_loop_seam": {
+        "max_before_position_cm": 0.0,
+        "max_after_position_cm": 0.0,
+        "max_before_rotation_degrees": 2.4148365394514667e-06,
+        "max_after_rotation_degrees": 2.4148365394514667e-06,
+        "max_added_position_cm": 0.0,
+        "max_added_rotation_degrees": 0.0
+      },
+      "runtime_metrics": {
+        "source": {
+          "max_foot_position_error_cm": 0.05350275940242478,
+          "max_foot_rotation_error_degrees": 0.040963632805037495,
+          "max_leg_length_error_cm": 6.394884621840902e-14,
+          "max_root_position_error_cm": 0.0,
+          "max_root_rotation_error_degrees": 0.0,
+          "pelvis_lift_range_cm": [
+            0.852210947739465,
+            4.499999731779283
+          ],
+          "knee_bend_before_degrees": {
+            "l": [
+              26.310521697162965,
+              70.54445441601965
+            ],
+            "r": [
+              19.809336808912686,
+              70.08783212203171
+            ]
+          },
+          "knee_bend_after_degrees": {
+            "l": [
+              12.000013692796625,
+              59.98320461095698
+            ],
+            "r": [
+              11.9949618745247,
+              59.01168984839822
+            ]
+          },
+          "loop_seam": {
+            "max_before_position_cm": 0.0,
+            "max_after_position_cm": 0.0,
+            "max_before_rotation_degrees": 2.4148365394514667e-06,
+            "max_after_rotation_degrees": 2.4148365394514667e-06,
+            "max_added_position_cm": 0.0,
+            "max_added_rotation_degrees": 2.4148365394514667e-06
+          }
+        },
+        "compressed": {
+          "max_foot_position_error_cm": 0.05350275940242478,
+          "max_foot_rotation_error_degrees": 0.040963632805037495,
+          "max_leg_length_error_cm": 6.394884621840902e-14,
+          "max_root_position_error_cm": 0.0,
+          "max_root_rotation_error_degrees": 0.0,
+          "pelvis_lift_range_cm": [
+            0.852210947739465,
+            4.499999731779283
+          ],
+          "knee_bend_before_degrees": {
+            "l": [
+              26.310521697162965,
+              70.54445441601965
+            ],
+            "r": [
+              19.809336808912686,
+              70.08783212203171
+            ]
+          },
+          "knee_bend_after_degrees": {
+            "l": [
+              12.000013692796625,
+              59.98320461095698
+            ],
+            "r": [
+              11.9949618745247,
+              59.01168984839822
+            ]
+          },
+          "loop_seam": {
+            "max_before_position_cm": 0.0,
+            "max_after_position_cm": 0.0,
+            "max_before_rotation_degrees": 2.4148365394514667e-06,
+            "max_after_rotation_degrees": 2.4148365394514667e-06,
+            "max_added_position_cm": 0.0,
+            "max_added_rotation_degrees": 2.4148365394514667e-06
+          }
+        }
+      },
+      "metadata_unchanged": true,
+      "saved": true
+    },
+    {
+      "source": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+      "destination": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01",
+      "source_signature": {
+        "duration": 0.800000011920929,
+        "frame_rate": [
+          30,
+          1
+        ],
+        "frames": 24,
+        "keys": 25,
+        "bone_track_names": [
+          "ball_l",
+          "ball_r",
+          "calf_l",
+          "calf_r",
+          "clavicle_l",
+          "clavicle_r",
+          "foot_l",
+          "foot_r",
+          "hand_l",
+          "hand_r",
+          "head",
+          "lowerarm_l",
+          "lowerarm_r",
+          "neck_01",
+          "pelvis",
+          "root",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "thigh_l",
+          "thigh_r",
+          "upperarm_l",
+          "upperarm_r"
+        ],
+        "root_motion": false,
+        "rate_scale": 1.0,
+        "notify_tracks": [
+          "1"
+        ],
+        "notifies": [],
+        "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton"
+      },
+      "offline_metrics": {
+        "max_foot_position_error_cm": 4.4586202811598e-14,
+        "max_foot_rotation_error_degrees": 0.0,
+        "max_leg_length_error_cm": 2.1316282072803006e-14,
+        "max_root_position_error_cm": 0.0,
+        "max_root_rotation_error_degrees": 0.0,
+        "pelvis_lift_range_cm": [
+          4.5,
+          4.5
+        ],
+        "knee_bend_before_degrees": {
+          "l": [
+            48.14602224341078,
+            48.14602224341078
+          ],
+          "r": [
+            48.76625256295844,
+            48.76625256295844
+          ]
+        },
+        "knee_bend_after_degrees": {
+          "l": [
+            29.70000755760247,
+            29.70000755760247
+          ],
+          "r": [
+            30.677404469256604,
+            30.677404469256604
+          ]
+        }
+      },
+      "status": "passed",
+      "runtime_metrics": {
+        "source": {
+          "max_foot_position_error_cm": 4.2783169081908095e-05,
+          "max_foot_rotation_error_degrees": 4.008192215488653e-05,
+          "max_leg_length_error_cm": 4.973799150320701e-14,
+          "max_root_position_error_cm": 0.0,
+          "max_root_rotation_error_degrees": 0.0,
+          "pelvis_lift_range_cm": [
+            4.49999973177917,
+            4.49999973177917
+          ],
+          "knee_bend_before_degrees": {
+            "l": [
+              48.146022243410776,
+              48.146022243410776
+            ],
+            "r": [
+              48.76625256295842,
+              48.76625256295842
+            ]
+          },
+          "knee_bend_after_degrees": {
+            "l": [
+              29.700020521250675,
+              29.700020521250675
+            ],
+            "r": [
+              30.67738382732149,
+              30.67738382732149
+            ]
+          }
+        },
+        "compressed": {
+          "max_foot_position_error_cm": 4.2783169081908095e-05,
+          "max_foot_rotation_error_degrees": 4.008192215488653e-05,
+          "max_leg_length_error_cm": 4.973799150320701e-14,
+          "max_root_position_error_cm": 0.0,
+          "max_root_rotation_error_degrees": 0.0,
+          "pelvis_lift_range_cm": [
+            4.49999973177917,
+            4.49999973177917
+          ],
+          "knee_bend_before_degrees": {
+            "l": [
+              48.146022243410776,
+              48.146022243410776
+            ],
+            "r": [
+              48.76625256295842,
+              48.76625256295842
+            ]
+          },
+          "knee_bend_after_degrees": {
+            "l": [
+              29.700020521250675,
+              29.700020521250675
+            ],
+            "r": [
+              30.67738382732149,
+              30.67738382732149
+            ]
+          }
+        }
+      },
+      "metadata_unchanged": true,
+      "saved": true
+    }
+  ],
+  "next_step": "Inspect actual-mesh candidates before deliberately changing enemy BP references."
+}

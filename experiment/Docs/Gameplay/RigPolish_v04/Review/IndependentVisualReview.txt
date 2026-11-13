@@ -1,0 +1,83 @@
+Independent visual review — v04 acceptance baseline
+Reviewer: natural_hand_review_v04
+Date: 2026-10-24
+Scope: read-only inspection; no assets, animation source, skin weights, or UE state modified.
+
+V03 VERDICT: REJECT
+
+Evidence inspected
+- ArtSource/WuxiaMale/RigPolishV03/Attack/Frames: .60 Side, .90 Side, 1.03 Side, 1.30 Front.
+- Docs/Gameplay/RigPolish_v04/Screenshots/HandDetails: .90 Front/Side, 1.03 Front, 1.30 Side.
+- ArtSource/WuxiaMale/GripRefinement: GripAfter_Forearm, GripAfter_Side, GripAfter_PalmBack.
+- Saved/Scripts/create_enemy_grip.py and inspect_enemy_grip.py.
+- Docs/Gameplay/RigPolish_v01/UprightCandidatePoses.json reference and attack first sample.
+
+Visible issues, in priority order
+1. At .90 s the forearm-to-palm silhouette forms a sharp downward hinge. The palm hangs beneath the sleeve, rather than reading as a continuous supported grip.
+2. By 1.03 s the wrist and palm have flipped to a different extreme. The motion between .90 and 1.03 s will read as a wrist reversal, not controlled follow-through.
+3. At 1.03 s the right forearm appears to emerge from the chest in the frontal UE view. It is not enough to report blade clearance. The whole arm must remain outside the torso's visible surface.
+4. At 1.30 s the sword hand is carried across the abdomen toward the opposite side while the other hand is close to the hilt in the frontal projection. This reads like tangled hands or an accidental two-hand grip. Depth separation alone does not make that pose readable.
+5. There are sharp triangular folds and jagged finger/palm silhouettes. Some already exist in the old static GripAfter_Side image; animation can amplify them. Distinguish static grip-morph issues from new wrist compression before changing the mesh.
+
+Neutral-reference finding
+Reference world transforms were converted to hand local by inverse(lowerarm_r_reference) * hand_r_reference.
+Reference local quaternion XYZW: [-0.0265375822, -0.0784732174, -0.0706437152, -0.9940559222]. Its negation is equivalent.
+Idle local quaternion XYZW: [-0.1500398570, -0.0017629749, -0.1214430252, 0.9811913803].
+Shortest relative quaternion angle between them: 31.413494 degrees.
+Therefore the first Idle sample is not identical to the original neutral reference. Treating Idle-local as anatomically neutral silently includes that existing orientation offset.
+V03 hand-local difference from reference / from Idle, degrees:
+  .60: 114.76585 / 103.87449
+  .90:  80.48317 / 66.71923
+ 1.03:  68.48948 / 53.38948
+ 1.30:  49.10400 / 30.09094
+These are total quaternion distances, not isolated wrist flexion angles. They are diagnostic context, not standalone anatomical acceptance criteria.
+
+V04 authoring and acceptance constraints
+- Author the arm and grip silhouette first; derive the sword path from it. Do not solve a fixed sword tip target by folding or rolling the wrist.
+- Start from the reference wrist relationship, then make small adjustments verified against the actual skinned closed hand and attached sword. A numerical distance to Idle is not a pass criterion.
+- Guard: keep the right elbow low and outside the right ribs, the grip clear of chest/face, and the forearm-to-hand outline continuous in front and side views.
+- Strike: shoulder and elbow move the grip through the right-front region; the sword follows the grip. Avoid a sudden independent hand flip between contact frames. Do not let the arm cross through the chest to reach a fixed endpoint.
+- Recovery: allow the grip to settle in a clear right-side lane before returning to guard. Do not pull the hilt through the other hand or abdomen merely to reach the old end pose quickly.
+- Left hand: relaxed and visibly separate from the hilt, wrist, and blade. Do not hold an unrelated world orientation while its elbow changes.
+- Inspect front, side, and three-quarter views at .60, .80, .90, 1.03, 1.30, plus the full motion. Acceptance requires an intelligible continuous grip/arm silhouette, no visible wrist kink, no hand-through-sleeve or forearm-through-body appearance, and no abrupt roll reversal.
+- Collision and motion metrics are secondary checks. Any obvious broken silhouette or implausible wrist pose vetoes acceptance even when all metrics improve.
+
+V04 final verdict: pending candidate images and continuous motion review.
+
+V04 initial keyframe review (the files had already been updated to lowered-elbow guard)
+Inspected all eight ArtSource/WuxiaMale/RigPolishV04/Attack/KeyFrames/Natural_* Front and Side images at .60/.90/1.03/1.30.
+- Conditional acceptance of the new right-wrist approach: the sleeve-to-hand silhouette is continuous at .90 and 1.03, the old L-shaped hinge is gone, and the 1.30 return stays in the right-side lane.
+- The .60 lowered-elbow guard silhouette is acceptable as a key pose.
+- Remaining right-arm concern: .90 and 1.03 still have an elevated elbow with the forearm slanting down, reading like carrying an object. A small wrist adjustment plus a lower elbow and slightly farther-forward hand is preferable to making the wrist mathematically immobile.
+- Remaining left-arm concern: palm faces down and fingers hang, producing a puppet-like silhouette despite the lower elbow. Rotate through the forearm so the palm faces the body side and let the hand follow the forearm naturally near the side waist/front hip.
+- This is not final acceptance. Continuous motion and the repaired actual mesh still require review. No numerical wrist-angle threshold alone is sufficient.
+
+V04 third keyframe revision: JOINT POSES ACCEPTED
+- Right forearm and hand form a continuous line in .90 Front/Side, 1.03 Front, and 1.30 Front/Side.
+- The right elbow now reads as an active sword arm rather than a raised elbow carrying a dangling grip.
+- The left hand is rotated toward the body side and no longer has the original palm-down dangling silhouette.
+- .60 guard and 1.30 recovery remain readable and separated from the chest and other hand.
+
+V04 full-cycle sampled-sequence review: JOINT MOTION ACCEPTED
+Inspected NaturalAttack_Entry_Front/Side.jpg, NaturalAttack_Strike_Front/Side.jpg, NaturalAttack_Recovery_Front/Side.jpg. These cover entry 0-.333, strike .7-1.033, and late recovery 1.667-2.333 seconds. Also checked all 71 sample-to-sample local-quaternion changes from NaturalAttackPoses.json.
+The lift, forward/downward cut, right-hip recovery, and return to Idle read continuously. No reversed wrist hinge, arm emerging from the chest, or abrupt elbow-side flip is visible in these sampled sequences. The hand passes slightly behind the hip near 2.067 s, but this is modest and does not require another authoring revision.
+Largest local-quaternion step: right upper arm 22.52 deg at .167 s; right lower arm 27.23 deg at .133 s. Largest right-wrist step is 6.01 deg. The larger arm steps occur during the entry lift and remain visually intelligible in the rendered sequence. These statistics were used to choose inspection times, not to override appearance.
+This acceptance is for the joint motion. It does not approve the grip shape or replace final UE playback validation.
+
+Hands mesh candidate A: GRIP MORPH REJECTED
+Inspected Docs/Gameplay/RigPolish_v04/Audit/NaturalHands/Hand_0.90_Front/Side.png and Hand_1.03_Front/Side.png.
+The side exposing the palm shows the hilt resting on hooked fingertips, with the broad palm still open and the thumb floating above instead of opposing the fingers. This is a grasp-shape failure, not merely low-poly styling. The front view's sword guard hides the problem and must not be used as the only acceptance angle.
+Required revision: bend the proximal finger segments inward, establish contact between palm and back of hilt, and oppose the thumb toward the index/middle side. Curling the fingertips further or only moving the thumb is insufficient. Preserve the approved wrist trajectory and attachment basis while correcting the morph.
+Current overall verdict: joint motion accepted; grip candidate A rejected; awaiting candidate B palm-side evidence.
+
+UE unobstructed palm-side inspection
+Inspected Screenshots/GripPalm/02_HandsA_1.03_Palm.png. Candidate A has genuine sharp geometry silhouettes around the thumb web and finger sides, not just unfavorable highlights. The more distant/front-biased Blender views hid these defects.
+The audit agent subsequently confirmed a source-FBX round trip with identical Basis and morph-delta maximum error approximately 0.0000101 cm. Parent's matched source/UE clay comparison reproduced the same spikes on both. Thus the evidence no longer supports an FBX remapping cause; the actual source deformation requires repair.
+
+Hands candidate B: STILL REJECTED
+Inspected Audit/OpposedHandsClose/Hand_1.03_Side.png.
+Improvement: thumb base is more coherent and the thumb is closer to the shaft.
+Remaining failure: fingers still read as four short hooks below the shaft while the broad palm remains open. Require proximal-to-middle finger wrap around the shaft, fingertip pads returning toward the palm side, a slightly cupped palm behind the shaft while preserving the wrist, and thumb opposition against the index/middle side. Low-poly edges are acceptable; a visibly loose shelf-like grasp is not.
+
+Replacement-hand review boundary
+The work has moved to a closed-grip replacement hand derived from the project's existing player-hand source. The original hand's fixed shaft position was an implementation assumption, not a user requirement. Preserving it caused the replacement wrist to be stretched unnaturally. That constraint is explicitly withdrawn: the hand may be placed rigidly at a natural wrist join, with the sword's hand-local grip transform moved consistently. Do not stretch the palm or wrist to preserve the obsolete socket offset. Final judgment will use the natural wrist join and closed-grip appearance; the parent will independently revalidate actual hit reach with the new transform.

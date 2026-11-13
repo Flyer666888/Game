@@ -1,0 +1,64 @@
+{
+  "state": "passed",
+  "enemy_scope": [
+    {
+      "enemy": "sword",
+      "expected_scope_only": true
+    },
+    {
+      "enemy": "talisman",
+      "expected_scope_only": true
+    },
+    {
+      "enemy": "rock_talisman",
+      "expected_scope_only": true
+    },
+    {
+      "enemy": "GM01",
+      "expected_scope_only": true
+    },
+    {
+      "enemy": "GM02",
+      "expected_scope_only": true
+    },
+    {
+      "enemy": "GM03",
+      "expected_scope_only": true
+    },
+    {
+      "enemy": "GM04",
+      "expected_scope_only": true
+    },
+    {
+      "enemy": "boss",
+      "expected_scope_only": true
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Characters\\WuxiaMale\\Animations\\Wuxia_Attack_Sword_Compact_v03.uasset",
+      "unchanged_sha256": "4278b9e3c7507d22621507a4f40a2883f4ac011b754250a85f73cda105448c8b"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Characters\\WuxiaMale\\SK_WuxiaMale_Shoulder_v02.uasset",
+      "unchanged_sha256": "365351fd1f686f83ec4ceb7b6c51e92e44ff746d41b5ca44a47a1757119fcd0f"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Characters\\WuxiaMale\\Animations\\Wuxia_Death_Restrained_v02.uasset",
+      "unchanged_sha256": "5bac3392bb7ebc5f8cecd816fe51bdde3b60ecf336034e4f08743ad9d0af57cb"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Maps\\L_NilinGameplayV01.umap",
+      "unchanged_sha256": "59141685f42598ff2f04119747c02a71938083675cf5b66de8e673aa46a038b0"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Maps\\L_NilinBlockoutV10.umap",
+      "unchanged_sha256": "701a12f8a896e938ad76cb5ab68e7cf65d635a5c9d6b2699375bdc9a3538e248"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Config\\DefaultEngine.ini",
+      "unchanged_sha256": "4308f8a42499f50b52c195462c9cda000fafa6d01ecc5cd847987ff1a5d5de3d"
+    }
+  ],
+  "scope": "Four sword archetypes: right-hand mesh, attack and grip attachment; four casters, death, root/feet, maps and engine configuration preserved."
+}

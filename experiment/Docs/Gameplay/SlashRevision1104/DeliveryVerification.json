@@ -1,0 +1,39 @@
+{
+  "state": "passed",
+  "provided_native_bones": 41,
+  "enemy_archetypes": [
+    "sword",
+    "GM01",
+    "GM04",
+    "boss"
+  ],
+  "source_fbx_unchanged": true,
+  "animation_seconds": 1.65,
+  "minimum_contact_blade_edge_dot": 0.9993557645010388,
+  "animation_import_tip_error_cm": 0.061200242644566645,
+  "runtime_checks": {
+    "chases_faster_than_player": true,
+    "closed_distance": true,
+    "native_attack_window": true,
+    "native_player_damage": true,
+    "player_retreats": true,
+    "resumes_chase_after_player_retreat": true,
+    "catches_retreating_player": true
+  },
+  "runtime_max_chase_speed_cm_s": 310.0,
+  "runtime_min_player_health": 60.0,
+  "automation": {
+    "succeeded": 68,
+    "succeededWithWarnings": 23,
+    "failed": 0,
+    "notRun": 0
+  },
+  "video": {
+    "path": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\NativeSlashDemo.mp4",
+    "seconds": 8.6,
+    "fps": 60,
+    "sha256": "03947e620616256dd2f21dc0693b4a4c370f559d60d3c3e81d283f11c1984024"
+  },
+  "preview_scope": "Actual equipped Unreal mesh/materials, 60 Hz clip samples with AI and damage disabled for animation review.",
+  "hardware_scope": "No physical HMD/controller playtest or headset performance measurement in this revision."
+}

@@ -1,0 +1,265 @@
+{
+  "scope": "Two real-AI observations with a fixed target and health protection. Animation-change frame displacement is diagnostic; frame time and AI scheduling differ between runs.",
+  "runs": {
+    "Before": {
+      "state": "passed",
+      "frames": 1486,
+      "states": [
+        "<NLEnemyState.APPROACH: 1>",
+        "<NLEnemyState.ATTACK: 4>",
+        "<NLEnemyState.DEAD: 7>",
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.SPAWN: 0>",
+        "<NLEnemyState.STAGGERED: 6>",
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "instances": [
+        "AnimSingleNodeInstance",
+        "NLDeathBlendAnimInstance"
+      ],
+      "transitions": [
+        {
+          "time": 0.3666735999286175,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Walk_Sword",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 0.19265151356578591,
+          "right_hand_displacement_cm": 0.14802761704358564
+        },
+        {
+          "time": 12.456722803413868,
+          "from": "Wuxia_Walk_Sword",
+          "to": "Wuxia_Idle_Planted",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 3.454567168035706,
+          "right_hand_displacement_cm": 1.0955928601667329
+        },
+        {
+          "time": 12.806730005890131,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Attack_Sword",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 0.20047117853782648,
+          "right_hand_displacement_cm": 0.14605603548660134
+        },
+        {
+          "time": 15.15248478576541,
+          "from": "Wuxia_Attack_Sword",
+          "to": "Wuxia_Idle_Planted",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 0.026638208246291813,
+          "right_hand_displacement_cm": 0.026521218649069575
+        },
+        {
+          "time": 15.519181787967682,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Attack_Sword",
+          "dt": 0.016666702926158905,
+          "max_bone_displacement_cm": 0.20085616833327982,
+          "right_hand_displacement_cm": 0.14590791589258223
+        },
+        {
+          "time": 17.855799086391926,
+          "from": "Wuxia_Attack_Sword",
+          "to": "Wuxia_Idle_Planted",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 0.0839568595426981,
+          "right_hand_displacement_cm": 0.08359536952522108
+        },
+        {
+          "time": 18.276891387999058,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Attack_Sword",
+          "dt": 0.17109070718288422,
+          "max_bone_displacement_cm": 2.0181869136208035,
+          "right_hand_displacement_cm": 1.5037135995326838
+        },
+        {
+          "time": 20.610334988683462,
+          "from": "Wuxia_Attack_Sword",
+          "to": "Wuxia_Idle_Planted",
+          "dt": 0.016666699200868607,
+          "max_bone_displacement_cm": 0.10386392689545124,
+          "right_hand_displacement_cm": 0.10341848988605346
+        },
+        {
+          "time": 20.977003689855337,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Attack_Sword",
+          "dt": 0.016666699200868607,
+          "max_bone_displacement_cm": 0.2008750535172414,
+          "right_hand_displacement_cm": 0.14590257361179995
+        },
+        {
+          "time": 21.02700398862362,
+          "from": "Wuxia_Attack_Sword",
+          "to": "Wuxia_Hit_Sword",
+          "dt": 0.016666699200868607,
+          "max_bone_displacement_cm": 8.955733136958195,
+          "right_hand_displacement_cm": 8.955733136958195
+        },
+        {
+          "time": 21.810341391712427,
+          "from": "Wuxia_Hit_Sword",
+          "to": "Wuxia_Idle_Planted",
+          "dt": 0.016666702926158905,
+          "max_bone_displacement_cm": 0.04978623325514172,
+          "right_hand_displacement_cm": 0.04978623325514172
+        },
+        {
+          "time": 22.995637990534306,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Attack_Sword",
+          "dt": 0.016666699200868607,
+          "max_bone_displacement_cm": 0.24317304993129207,
+          "right_hand_displacement_cm": 0.24317304993129207
+        },
+        {
+          "time": 25.01898469030857,
+          "from": "Wuxia_Attack_Sword",
+          "to": "Wuxia_Death_Grounded",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 4.5063480742793686e-13,
+          "right_hand_displacement_cm": 4.5063480742793686e-13
+        }
+      ],
+      "transition_max_cm": 8.955733136958195,
+      "transition_median_cm": 0.20047117853782648,
+      "observed_player_damage_events": 0,
+      "observed_damage": 0,
+      "brain_attack_frames": 55,
+      "blade_active_frames": null
+    },
+    "After": {
+      "state": "passed",
+      "frames": 1496,
+      "states": [
+        "<NLEnemyState.APPROACH: 1>",
+        "<NLEnemyState.ATTACK: 4>",
+        "<NLEnemyState.DEAD: 7>",
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.SPAWN: 0>",
+        "<NLEnemyState.STAGGERED: 6>",
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "instances": [
+        "AnimSingleNodeInstance",
+        "NLDeathBlendAnimInstance"
+      ],
+      "transitions": [
+        {
+          "time": 0.3667975999414921,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Walk_Sword",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 1.4955194543979066e-13,
+          "right_hand_displacement_cm": 5.18501491318319e-14
+        },
+        {
+          "time": 12.45673631131649,
+          "from": "Wuxia_Walk_Sword",
+          "to": "Wuxia_Idle_Planted",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 3.41333309152634,
+          "right_hand_displacement_cm": 1.1783599798425664
+        },
+        {
+          "time": 12.80673811212182,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Attack_Sword",
+          "dt": 0.016666699200868607,
+          "max_bone_displacement_cm": 0.2004711768637361,
+          "right_hand_displacement_cm": 0.14604961252900778
+        },
+        {
+          "time": 15.146499007940292,
+          "from": "Wuxia_Attack_Sword",
+          "to": "Wuxia_Idle_Planted",
+          "dt": 0.016666699200868607,
+          "max_bone_displacement_cm": 0.0642394855711503,
+          "right_hand_displacement_cm": 0.0639622159249603
+        },
+        {
+          "time": 15.513167805969715,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Attack_Sword",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 0.2008781572901128,
+          "right_hand_displacement_cm": 0.14590600116063157
+        },
+        {
+          "time": 17.850116308778524,
+          "from": "Wuxia_Attack_Sword",
+          "to": "Wuxia_Idle_Planted",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 0.0818812739273587,
+          "right_hand_displacement_cm": 0.08152902900139296
+        },
+        {
+          "time": 18.25651901215315,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Attack_Sword",
+          "dt": 0.1562311053276062,
+          "max_bone_displacement_cm": 1.864036870591832,
+          "right_hand_displacement_cm": 1.377566224968013
+        },
+        {
+          "time": 20.596664506942034,
+          "from": "Wuxia_Attack_Sword",
+          "to": "Wuxia_Idle_Planted",
+          "dt": 0.016666699200868607,
+          "max_bone_displacement_cm": 0.06182066430353234,
+          "right_hand_displacement_cm": 0.06155704277445837
+        },
+        {
+          "time": 20.963334009051323,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Attack_Sword",
+          "dt": 0.016666702926158905,
+          "max_bone_displacement_cm": 0.20087819675042057,
+          "right_hand_displacement_cm": 0.14591482290955926
+        },
+        {
+          "time": 21.03000110760331,
+          "from": "Wuxia_Attack_Sword",
+          "to": "Wuxia_Hit_Sword",
+          "dt": 0.016666699200868607,
+          "max_bone_displacement_cm": 0.6185422673066321,
+          "right_hand_displacement_cm": 0.6185422673066321
+        },
+        {
+          "time": 21.813339207321405,
+          "from": "Wuxia_Hit_Sword",
+          "to": "Wuxia_Idle_Planted",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 4.5496934130773415e-14,
+          "right_hand_displacement_cm": 1.2809491335957507e-14
+        },
+        {
+          "time": 22.99012739956379,
+          "from": "Wuxia_Idle_Planted",
+          "to": "Wuxia_Attack_Sword",
+          "dt": 0.016666699200868607,
+          "max_bone_displacement_cm": 0.240276757605234,
+          "right_hand_displacement_cm": 0.240276757605234
+        },
+        {
+          "time": 25.031649589538574,
+          "from": "Wuxia_Attack_Sword",
+          "to": "Wuxia_Death_Grounded",
+          "dt": 0.016666799783706665,
+          "max_bone_displacement_cm": 2.5618982671915014e-14,
+          "right_hand_displacement_cm": 1.9131948672901813e-14
+        }
+      ],
+      "transition_max_cm": 3.41333309152634,
+      "transition_median_cm": 0.2004711768637361,
+      "observed_player_damage_events": 0,
+      "observed_damage": 0,
+      "brain_attack_frames": 56,
+      "blade_active_frames": 56
+    }
+  }
+}

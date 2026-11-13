@@ -1,0 +1,53 @@
+{
+  "state": "source_authored_pending_root_build_and_tests",
+  "compile_executed_by_this_agent": false,
+  "semantics": [
+    "Atomic unique reward commit; rejected callbacks do not consume event identity",
+    "Existing RecordEnemyDefeat remains ledger-only",
+    "Runtime definition values are copied when configured",
+    "Level-end floor changes level without minting currency",
+    "Snapshot restore rolls back ordinary growth and preserves monotonic master claims",
+    "No cross-process growth persistence added",
+    "Legacy schema-valid level 3 restores but only implemented level-2 effect applies",
+    "Unchanged merged master claims do not rewrite the durable ledger during growth rollback; only added defeat/collection IDs commit"
+  ],
+  "scope": "LEVEL-01 one upgrade only",
+  "ue_executed_by_this_agent": false,
+  "tests": [
+    "Nilin.Progression.LingQi.ThresholdAndUniqueRewards",
+    "Nilin.Progression.LingQi.InvalidRewardsAreAtomic",
+    "Nilin.Progression.LingQi.LevelEndFloorDoesNotMintCurrency",
+    "Nilin.Progression.LingQi.TenRetriesRollbackCurrencyLevelAndEventIds",
+    "Nilin.Progression.LingQi.RollbackKeepsQuestClaimsAndNewRunResetsGrowth",
+    "Nilin.Progression.LingQi.OptInDefinitionValidationAndFrozenEffects",
+    "Nilin.Combat.Progression.CentralDamageMultiplierFactionDedupAndRollback",
+    "Nilin.Progression.LingQi.UnchangedFourSealLedgerDoesNotNeedRetryWrites"
+  ],
+  "source_files": [
+    {
+      "path": "Source/experiment/Public/Progression/NLRunStateSubsystem.h",
+      "sha256": "9dd30a05ae59f5881ac2e006b9a5b8f97465d4e9264b7fab8cf524557b696a0c"
+    },
+    {
+      "path": "Source/experiment/Private/Progression/NLRunStateSubsystem.cpp",
+      "sha256": "ae2da9f6cd3ad7ee4e93a3bf783338192b2d833860d615b322977f0e71e6cff4"
+    },
+    {
+      "path": "Source/experiment/Public/Progression/NLUpgradeDefinition.h",
+      "sha256": "53c58129df2d38e6c4f48cd4c92253f558f82f57d319f1e16dcb4976e3a11288"
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLLingQiProgressionTests.cpp",
+      "sha256": "736029f733917d64cb3a3e0b43b53f4ebad01a139e36c6da8e8341bbaf93d675"
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLProgressionDamageTests.cpp",
+      "sha256": "b6a7a5a5b28e6a013a684d39095f70af9a5eb9529b1a748574e3616e22445833"
+    }
+  ],
+  "defaults": {
+    "first_upgrade_threshold": 40,
+    "level_two_damage_multiplier": 1.25,
+    "lingqi_per_defeat": 1
+  }
+}

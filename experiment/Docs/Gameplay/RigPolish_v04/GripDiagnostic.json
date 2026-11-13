@@ -1,0 +1,187 @@
+{
+  "state": "passed",
+  "captures": [
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v04\\Screenshots\\GripDiagnostic\\00_Basis_Lit.png",
+      "spec": {
+        "label": "Basis_Lit",
+        "clip": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Natural_v04",
+        "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04",
+        "time": 1.03,
+        "focus_bones": [
+          "hand_r"
+        ],
+        "camera": [
+          70,
+          -95,
+          -12
+        ],
+        "fov": 30,
+        "grip_weight": 0,
+        "view_mode": "lit",
+        "recompute_tangents": 0
+      },
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04.SK_WuxiaMale_Hands_v04",
+      "morph_overrides": {
+        "EnemyGrip_R": 0.0,
+        "EnemyDeathRobe_4": 0.0,
+        "EnemyDeathRobe_5": 0.0,
+        "EnemyDeathRobe_6": 0.0,
+        "EnemyDeathRobe_7": 0.0,
+        "EnemyDeathRobe_8": 0.0
+      },
+      "animation_curves": {
+        "EnemyGrip_R": 0.0,
+        "EnemyDeathRobe_4": 0.0,
+        "EnemyDeathRobe_5": 0.0,
+        "EnemyDeathRobe_6": 0.0,
+        "EnemyDeathRobe_7": 0.0,
+        "EnemyDeathRobe_8": 0.0
+      },
+      "grip_morph_name": "EnemyGrip_R",
+      "grip_morph_weight": 1.0,
+      "sword_relative": {
+        "relative_location": "<Struct 'Vector' (0x0000023ACCCC5180) {x: -1.875829, y: -8.074671, z: -5.046913}>",
+        "relative_rotation": "<Struct 'Rotator' (0x0000023ACCCC5198) {pitch: -7.872413, yaw: -66.670376, roll: -156.670423}>",
+        "relative_scale3d": "<Struct 'Vector' (0x0000023ACCCC51B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      }
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v04\\Screenshots\\GripDiagnostic\\01_Grip_Lit.png",
+      "spec": {
+        "label": "Grip_Lit",
+        "clip": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Natural_v04",
+        "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04",
+        "time": 1.03,
+        "focus_bones": [
+          "hand_r"
+        ],
+        "camera": [
+          70,
+          -95,
+          -12
+        ],
+        "fov": 30,
+        "grip_weight": 1,
+        "view_mode": "lit",
+        "recompute_tangents": 0
+      },
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04.SK_WuxiaMale_Hands_v04",
+      "morph_overrides": {
+        "EnemyGrip_R": 1.0,
+        "EnemyDeathRobe_4": 0.0,
+        "EnemyDeathRobe_5": 0.0,
+        "EnemyDeathRobe_6": 0.0,
+        "EnemyDeathRobe_7": 0.0,
+        "EnemyDeathRobe_8": 0.0
+      },
+      "animation_curves": {
+        "EnemyGrip_R": 0.0,
+        "EnemyDeathRobe_4": 0.0,
+        "EnemyDeathRobe_5": 0.0,
+        "EnemyDeathRobe_6": 0.0,
+        "EnemyDeathRobe_7": 0.0,
+        "EnemyDeathRobe_8": 0.0
+      },
+      "grip_morph_name": "EnemyGrip_R",
+      "grip_morph_weight": 1.0,
+      "sword_relative": {
+        "relative_location": "<Struct 'Vector' (0x0000023ACCCC5180) {x: -1.875829, y: -8.074671, z: -5.046913}>",
+        "relative_rotation": "<Struct 'Rotator' (0x0000023ACCCC5198) {pitch: -7.872413, yaw: -66.670376, roll: -156.670423}>",
+        "relative_scale3d": "<Struct 'Vector' (0x0000023ACCCC51B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      }
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v04\\Screenshots\\GripDiagnostic\\02_Grip_Unlit.png",
+      "spec": {
+        "label": "Grip_Unlit",
+        "clip": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Natural_v04",
+        "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04",
+        "time": 1.03,
+        "focus_bones": [
+          "hand_r"
+        ],
+        "camera": [
+          70,
+          -95,
+          -12
+        ],
+        "fov": 30,
+        "grip_weight": 1,
+        "view_mode": "unlit",
+        "recompute_tangents": 0
+      },
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04.SK_WuxiaMale_Hands_v04",
+      "morph_overrides": {
+        "EnemyGrip_R": 1.0,
+        "EnemyDeathRobe_4": 0.0,
+        "EnemyDeathRobe_5": 0.0,
+        "EnemyDeathRobe_6": 0.0,
+        "EnemyDeathRobe_7": 0.0,
+        "EnemyDeathRobe_8": 0.0
+      },
+      "animation_curves": {
+        "EnemyGrip_R": 0.0,
+        "EnemyDeathRobe_4": 0.0,
+        "EnemyDeathRobe_5": 0.0,
+        "EnemyDeathRobe_6": 0.0,
+        "EnemyDeathRobe_7": 0.0,
+        "EnemyDeathRobe_8": 0.0
+      },
+      "grip_morph_name": "EnemyGrip_R",
+      "grip_morph_weight": 1.0,
+      "sword_relative": {
+        "relative_location": "<Struct 'Vector' (0x0000023ACCCC5180) {x: -1.875829, y: -8.074671, z: -5.046913}>",
+        "relative_rotation": "<Struct 'Rotator' (0x0000023ACCCC5198) {pitch: -7.872413, yaw: -66.670376, roll: -156.670423}>",
+        "relative_scale3d": "<Struct 'Vector' (0x0000023ACCCC51B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      }
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v04\\Screenshots\\GripDiagnostic\\03_Grip_RecomputedTangents.png",
+      "spec": {
+        "label": "Grip_RecomputedTangents",
+        "clip": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Natural_v04",
+        "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04",
+        "time": 1.03,
+        "focus_bones": [
+          "hand_r"
+        ],
+        "camera": [
+          70,
+          -95,
+          -12
+        ],
+        "fov": 30,
+        "grip_weight": 1,
+        "view_mode": "lit",
+        "recompute_tangents": 1
+      },
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04.SK_WuxiaMale_Hands_v04",
+      "morph_overrides": {
+        "EnemyGrip_R": 1.0,
+        "EnemyDeathRobe_4": 0.0,
+        "EnemyDeathRobe_5": 0.0,
+        "EnemyDeathRobe_6": 0.0,
+        "EnemyDeathRobe_7": 0.0,
+        "EnemyDeathRobe_8": 0.0
+      },
+      "animation_curves": {
+        "EnemyGrip_R": 0.0,
+        "EnemyDeathRobe_4": 0.0,
+        "EnemyDeathRobe_5": 0.0,
+        "EnemyDeathRobe_6": 0.0,
+        "EnemyDeathRobe_7": 0.0,
+        "EnemyDeathRobe_8": 0.0
+      },
+      "grip_morph_name": "EnemyGrip_R",
+      "grip_morph_weight": 1.0,
+      "sword_relative": {
+        "relative_location": "<Struct 'Vector' (0x0000023ACCCC5180) {x: -1.875829, y: -8.074671, z: -5.046913}>",
+        "relative_rotation": "<Struct 'Rotator' (0x0000023ACCCC5198) {pitch: -7.872413, yaw: -66.670376, roll: -156.670423}>",
+        "relative_scale3d": "<Struct 'Vector' (0x0000023ACCCC51B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      }
+    }
+  ],
+  "failures": [],
+  "scope": "Actual saved mesh/animation rendered in PIE; no asset or map save."
+}

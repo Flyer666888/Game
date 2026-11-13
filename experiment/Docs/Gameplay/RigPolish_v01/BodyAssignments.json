@@ -1,0 +1,214 @@
+{
+  "state": "passed",
+  "enemies": [
+    {
+      "enemy": "sword",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_sword.uasset",
+      "backup_sha256": "8dd2d58bec3affe6719cb33eea4f39bb60d142f37badcab455c0e0d0b999ba68",
+      "animations": {
+        "idle_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01"
+        },
+        "walk_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01"
+        },
+        "attack_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Upright_v01.Wuxia_Attack_Sword_Upright_v01"
+        },
+        "hit_reaction_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01"
+        }
+      }
+    },
+    {
+      "enemy": "talisman",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_talisman",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_talisman.uasset",
+      "backup_sha256": "e004aaae861dcfb560f103a04d5124d865fac46efae7e7825ee2222b6134adbf",
+      "animations": {
+        "idle_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01"
+        },
+        "walk_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01"
+        },
+        "attack_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01"
+        },
+        "cast_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01"
+        },
+        "hit_reaction_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01"
+        }
+      }
+    },
+    {
+      "enemy": "rock_talisman",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_rock_talisman",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_rock_talisman.uasset",
+      "backup_sha256": "9caba6fd1413544b4e409c4e2a1aa61ecbe536092394db7e5b438658f26620ce",
+      "animations": {
+        "idle_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01"
+        },
+        "walk_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01"
+        },
+        "attack_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01"
+        },
+        "cast_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01"
+        },
+        "hit_reaction_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01"
+        }
+      }
+    },
+    {
+      "enemy": "GM01",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM01",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM01.uasset",
+      "backup_sha256": "d4f677dcd19bfb18d5da036e158a8523e27602653979cef9f9a968f0516a1925",
+      "animations": {
+        "idle_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01"
+        },
+        "walk_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01"
+        },
+        "attack_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Upright_v01.Wuxia_Attack_Sword_Upright_v01"
+        },
+        "hit_reaction_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01"
+        }
+      }
+    },
+    {
+      "enemy": "GM02",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM02",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM02.uasset",
+      "backup_sha256": "b8088990fbaf3fea9402daebbdf57714416df3c6e712fcc9c9efe5da22776d98",
+      "animations": {
+        "idle_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01"
+        },
+        "walk_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01"
+        },
+        "attack_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01"
+        },
+        "cast_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01"
+        },
+        "hit_reaction_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01"
+        }
+      }
+    },
+    {
+      "enemy": "GM03",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM03",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM03.uasset",
+      "backup_sha256": "cbb7de797c61d4f3e3e8b2c169994616f5d1ab64c29b458bd69d4bad336789b8",
+      "animations": {
+        "idle_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01"
+        },
+        "walk_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01"
+        },
+        "attack_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01"
+        },
+        "cast_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01"
+        },
+        "hit_reaction_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01"
+        }
+      }
+    },
+    {
+      "enemy": "GM04",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM04",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM04.uasset",
+      "backup_sha256": "b7ffd39b08da654a2449c14d50dd7a9a51b194feca5ed8b09c6a4cfc9ef14afd",
+      "animations": {
+        "idle_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01"
+        },
+        "walk_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01"
+        },
+        "attack_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Upright_v01.Wuxia_Attack_Sword_Upright_v01"
+        },
+        "hit_reaction_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01"
+        }
+      }
+    },
+    {
+      "enemy": "boss",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_boss",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_boss.uasset",
+      "backup_sha256": "c260ef4dbdc0bff08a6dbb53e191c318c60fa7ab28f13b6bdd3810ed565a3bc3",
+      "animations": {
+        "idle_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01"
+        },
+        "walk_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01"
+        },
+        "attack_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Upright_v01.Wuxia_Attack_Sword_Upright_v01"
+        },
+        "hit_reaction_animation": {
+          "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword",
+          "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01"
+        }
+      }
+    }
+  ],
+  "scope": "Only eight current Gameplay/V01 enemy blueprint animation defaults; original clips, mesh, skeleton, player and map unchanged."
+}

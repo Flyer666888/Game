@@ -1,0 +1,118 @@
+{
+  "state": "passed",
+  "enemies": [
+    {
+      "enemy": "sword",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_sword.uasset",
+      "backup_sha256": "5229e19df31b2ba204ac25cfad0cd7de029dd6ff8dabf176ab68169354157124",
+      "before": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded"
+      },
+      "after": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "enemy": "talisman",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_talisman",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_talisman.uasset",
+      "backup_sha256": "3553e1ac45f6590f4467577a820468a4f33d29220aba94c03125e9d225cb4298",
+      "before": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded"
+      },
+      "after": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "enemy": "rock_talisman",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_rock_talisman",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_rock_talisman.uasset",
+      "backup_sha256": "a47cd179ffe3ee2e8d1d4fed0b5f5f3af02f1f986383a5177a3bc62bdbf29e46",
+      "before": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded"
+      },
+      "after": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "enemy": "GM01",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM01",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM01.uasset",
+      "backup_sha256": "2929eea0720df10e9eb52da3f2037299ee30f6bc7f50825db81f99b07241480a",
+      "before": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded"
+      },
+      "after": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "enemy": "GM02",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM02",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM02.uasset",
+      "backup_sha256": "a4c0b8be96aea90308431d5cb6f9092d296d5bad5f53f236fda82c856af58be8",
+      "before": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded"
+      },
+      "after": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "enemy": "GM03",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM03",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM03.uasset",
+      "backup_sha256": "ff4852c9363e59fa3c32f5ad65f73f51273fc32dc70adda4511e58d29ad25637",
+      "before": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded"
+      },
+      "after": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "enemy": "GM04",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM04",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM04.uasset",
+      "backup_sha256": "1149344a72cc9658256101270fd5c69c226c0d9dbcff5140f5f9e2fe4c680ef4",
+      "before": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded"
+      },
+      "after": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "enemy": "boss",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_boss",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_boss.uasset",
+      "backup_sha256": "6f096ab2cc0fc309cfeb68f0e8f7be0e8dcff2bc098b88591ea712760e8de4bc",
+      "before": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded"
+      },
+      "after": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    }
+  ],
+  "scope": "Current eight Gameplay/V01 enemies only. Existing combat clips, character gameplay settings, player assets and maps preserved."
+}

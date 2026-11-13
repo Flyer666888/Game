@@ -1,0 +1,152 @@
+{
+  "camera_target_hand_cm": [
+    0,
+    -5.5,
+    4.1
+  ],
+  "report": "AfterCapture.json",
+  "shots": [
+    {
+      "key": "idle_side",
+      "camera": [
+        3,
+        -7,
+        40
+      ],
+      "time": 0,
+      "property": "idle_animation"
+    },
+    {
+      "key": "idle_oblique",
+      "camera": [
+        -36,
+        -28,
+        24
+      ],
+      "time": 0,
+      "property": "idle_animation"
+    },
+    {
+      "key": "walk_side",
+      "camera": [
+        3,
+        -7,
+        40
+      ],
+      "time": 0.3,
+      "property": "walk_animation"
+    },
+    {
+      "key": "walk_oblique",
+      "camera": [
+        -36,
+        -28,
+        24
+      ],
+      "time": 0.3,
+      "property": "walk_animation"
+    },
+    {
+      "key": "D_windup_side",
+      "camera": [
+        3,
+        -7,
+        40
+      ],
+      "time": 0.25,
+      "property": "attack_animation"
+    },
+    {
+      "key": "D_windup_oblique",
+      "camera": [
+        -36,
+        -28,
+        24
+      ],
+      "time": 0.25,
+      "property": "attack_animation"
+    },
+    {
+      "key": "D_cut_side",
+      "camera": [
+        3,
+        -7,
+        40
+      ],
+      "time": 0.72,
+      "property": "attack_animation"
+    },
+    {
+      "key": "D_cut_oblique",
+      "camera": [
+        -36,
+        -28,
+        24
+      ],
+      "time": 0.72,
+      "property": "attack_animation"
+    },
+    {
+      "key": "D_recovery_side",
+      "camera": [
+        3,
+        -7,
+        40
+      ],
+      "time": 1.0,
+      "property": "attack_animation"
+    },
+    {
+      "key": "D_recovery_oblique",
+      "camera": [
+        -36,
+        -28,
+        24
+      ],
+      "time": 1.0,
+      "property": "attack_animation"
+    },
+    {
+      "key": "hit_side",
+      "camera": [
+        3,
+        -7,
+        40
+      ],
+      "time": 0.2,
+      "property": "hit_reaction_animation"
+    },
+    {
+      "key": "cast_side",
+      "camera": [
+        3,
+        -7,
+        40
+      ],
+      "time": 0.4,
+      "property": "cast_animation"
+    },
+    {
+      "key": "death_side",
+      "camera": [
+        3,
+        -7,
+        40
+      ],
+      "time": 0.6,
+      "property": "death_animation"
+    },
+    {
+      "key": "D_body",
+      "camera": [
+        280,
+        -400,
+        100
+      ],
+      "time": 0.72,
+      "view": "body",
+      "property": "attack_animation"
+    }
+  ],
+  "folder": "After"
+}

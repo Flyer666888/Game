@@ -1,0 +1,821 @@
+{
+  "state": "starting",
+  "success": false,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {},
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [
+    {
+      "game_time": 9.790996711701155,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "f68cd0974ed18838c1308f92259ac7a3",
+      "target_id": "3394510c4e7f4d20357b44b9927fa880",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 11.833548098802567,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "f68cd0974ed18838c1308f92259ac7a3",
+      "target_id": "3394510c4e7f4d20357b44b9927fa880",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 13.86086381226778,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "f68cd0974ed18838c1308f92259ac7a3",
+      "target_id": "3394510c4e7f4d20357b44b9927fa880",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 15.903619304299355,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "f68cd0974ed18838c1308f92259ac7a3",
+      "target_id": "3394510c4e7f4d20357b44b9927fa880",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 17.95243800058961,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "f68cd0974ed18838c1308f92259ac7a3",
+      "target_id": "3394510c4e7f4d20357b44b9927fa880",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 19.976200200617313,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "f68cd0974ed18838c1308f92259ac7a3",
+      "target_id": "3394510c4e7f4d20357b44b9927fa880",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 21.996543504297733,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "f68cd0974ed18838c1308f92259ac7a3",
+      "target_id": "3394510c4e7f4d20357b44b9927fa880",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 24.049502588808537,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "f68cd0974ed18838c1308f92259ac7a3",
+      "target_id": "3394510c4e7f4d20357b44b9927fa880",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 26.107115887105465,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "f68cd0974ed18838c1308f92259ac7a3",
+      "target_id": "3394510c4e7f4d20357b44b9927fa880",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    }
+  ],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Provided native FBX rig with v07 attack sampled at 60 fps on actual equipped mesh/materials.",
+    "AI is held still while the animation clip is sampled; this is animation review, not real-time gameplay recording.",
+    "New 41-bone native FBX rig is applied to the saved enemy Blueprint."
+  ],
+  "elapsed_seconds": 28.15599999999995,
+  "frames": [
+    {
+      "index": 0,
+      "animation_time": 0.0,
+      "actual_time": 0.0,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -775.000005334457,
+        -1076.00001067151,
+        112.00004177998471
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_000.png"
+    },
+    {
+      "index": 1,
+      "animation_time": 0.016666666666666666,
+      "actual_time": 0.01666666753590107,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -775.245243459245,
+        -1075.8870430001793,
+        112.86969249077748
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_001.png"
+    },
+    {
+      "index": 2,
+      "animation_time": 0.03333333333333333,
+      "actual_time": 0.03333333507180214,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -775.6888295487067,
+        -1075.5762330009914,
+        113.85196520080434
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_002.png"
+    },
+    {
+      "index": 3,
+      "animation_time": 0.05,
+      "actual_time": 0.05000000074505806,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -776.3198056569544,
+        -1075.0930247812585,
+        114.99776226889453
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_003.png"
+    },
+    {
+      "index": 4,
+      "animation_time": 0.06666666666666667,
+      "actual_time": 0.06666667014360428,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -777.1294723833448,
+        -1074.468915246817,
+        116.34407106430697
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_004.png"
+    },
+    {
+      "index": 5,
+      "animation_time": 0.08333333333333333,
+      "actual_time": 0.0833333358168602,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -778.1075566854105,
+        -1073.739693296867,
+        117.90698736100771
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_005.png"
+    },
+    {
+      "index": 6,
+      "animation_time": 0.1,
+      "actual_time": 0.10000000149011612,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -779.2393613854041,
+        -1072.9435902498778,
+        119.67970661152208
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_006.png"
+    },
+    {
+      "index": 7,
+      "animation_time": 0.11666666666666667,
+      "actual_time": 0.11666666716337204,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -780.5039949550732,
+        -1072.118845249795,
+        121.63493583467687
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_007.png"
+    },
+    {
+      "index": 8,
+      "animation_time": 0.13333333333333333,
+      "actual_time": 0.13333334028720856,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -781.8744613253147,
+        -1071.3019411882158,
+        123.73077410167197
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_008.png"
+    },
+    {
+      "index": 9,
+      "animation_time": 0.15,
+      "actual_time": 0.15000000596046448,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -783.3190066221481,
+        -1070.5255794712612,
+        125.9175866797065
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_009.png"
+    },
+    {
+      "index": 10,
+      "animation_time": 0.16666666666666666,
+      "actual_time": 0.1666666716337204,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -784.8032846710908,
+        -1069.8173438265528,
+        128.1446238179405
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_010.png"
+    },
+    {
+      "index": 11,
+      "animation_time": 0.18333333333333332,
+      "actual_time": 0.18333333730697632,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -786.2924724713481,
+        -1069.1988969519298,
+        130.36531453115873
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_011.png"
+    },
+    {
+      "index": 12,
+      "animation_time": 0.2,
+      "actual_time": 0.20000000298023224,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -787.7529231597123,
+        -1068.6856910090783,
+        132.5411859467601
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_012.png"
+    },
+    {
+      "index": 13,
+      "animation_time": 0.21666666666666667,
+      "actual_time": 0.21666666865348816,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -789.1535261276554,
+        -1068.2876657668485,
+        134.64406306632793
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_013.png"
+    },
+    {
+      "index": 14,
+      "animation_time": 0.23333333333333334,
+      "actual_time": 0.23333333432674408,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -790.4650662808526,
+        -1068.0103711410602,
+        136.65746014959984
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_014.png"
+    },
+    {
+      "index": 15,
+      "animation_time": 0.25,
+      "actual_time": 0.25,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -791.6596986944567,
+        -1067.8558923406567,
+        138.57540303447945
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_015.png"
+    },
+    {
+      "index": 16,
+      "animation_time": 0.26666666666666666,
+      "actual_time": 0.2666666805744171,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -792.7224498993692,
+        -1067.8189047215321,
+        140.40150998632876
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_016.png"
+    },
+    {
+      "index": 17,
+      "animation_time": 0.2833333333333333,
+      "actual_time": 0.28333333134651184,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -793.7423122263887,
+        -1067.858546519923,
+        142.15284192685434
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_017.png"
+    },
+    {
+      "index": 18,
+      "animation_time": 0.3,
+      "actual_time": 0.30000001192092896,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -794.7083309055547,
+        -1067.9669860818935,
+        143.8408916370277
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_018.png"
+    },
+    {
+      "index": 19,
+      "animation_time": 0.31666666666666665,
+      "actual_time": 0.3166666626930237,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -795.619224400952,
+        -1068.133310699029,
+        145.52431493869128
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_019.png"
+    },
+    {
+      "index": 20,
+      "animation_time": 0.3333333333333333,
+      "actual_time": 0.3333333432674408,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -796.5727327669441,
+        -1068.3183232475214,
+        147.2505504901586
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_020.png"
+    },
+    {
+      "index": 21,
+      "animation_time": 0.35,
+      "actual_time": 0.3499999940395355,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -797.5423873174074,
+        -1068.5195797210408,
+        149.001680896353
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_021.png"
+    },
+    {
+      "index": 22,
+      "animation_time": 0.36666666666666664,
+      "actual_time": 0.36666667461395264,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -798.4962600091587,
+        -1068.7398457059387,
+        150.7534136951999
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_022.png"
+    },
+    {
+      "index": 23,
+      "animation_time": 0.38333333333333336,
+      "actual_time": 0.38333332538604736,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -799.4370720239992,
+        -1068.987208176905,
+        152.47423569223088
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_023.png"
+    },
+    {
+      "index": 24,
+      "animation_time": 0.4,
+      "actual_time": 0.4000000059604645,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -800.3989021662658,
+        -1069.28218540513,
+        154.12335191089252
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_024.png"
+    },
+    {
+      "index": 25,
+      "animation_time": 0.4166666666666667,
+      "actual_time": 0.4166666567325592,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -801.4368667177944,
+        -1069.6569250397854,
+        155.65238826233917
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_025.png"
+    },
+    {
+      "index": 26,
+      "animation_time": 0.43333333333333335,
+      "actual_time": 0.4333333373069763,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -802.5891796971663,
+        -1070.1337463308666,
+        157.01823420501347
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_026.png"
+    },
+    {
+      "index": 27,
+      "animation_time": 0.45,
+      "actual_time": 0.44999998807907104,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -803.8587609568937,
+        -1070.70977676029,
+        158.187489681862
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_027.png"
+    },
+    {
+      "index": 28,
+      "animation_time": 0.4666666666666667,
+      "actual_time": 0.46666666865348816,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -805.1853958866985,
+        -1071.3345393487723,
+        159.1670253051248
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_028.png"
+    },
+    {
+      "index": 29,
+      "animation_time": 0.48333333333333334,
+      "actual_time": 0.4833333194255829,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -806.4417999737091,
+        -1071.9466804144924,
+        159.9803604216989
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_029.png"
+    },
+    {
+      "index": 30,
+      "animation_time": 0.5,
+      "actual_time": 0.5,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -806.7405911435902,
+        -1072.4554076551174,
+        160.59864814575494
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_030.png"
+    },
+    {
+      "index": 31,
+      "animation_time": 0.5166666666666667,
+      "actual_time": 0.5166666507720947,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -805.9033322846319,
+        -1072.8074704039955,
+        160.98486854182093
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_031.png"
+    },
+    {
+      "index": 32,
+      "animation_time": 0.5333333333333333,
+      "actual_time": 0.5333333611488342,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -804.2008168313386,
+        -1073.0948615280818,
+        161.05340501654314
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_032.png"
+    },
+    {
+      "index": 33,
+      "animation_time": 0.55,
+      "actual_time": 0.550000011920929,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -801.6303056893177,
+        -1073.4578148391336,
+        160.6483464391962
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_033.png"
+    },
+    {
+      "index": 34,
+      "animation_time": 0.5666666666666667,
+      "actual_time": 0.5666666626930237,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -798.5756555815643,
+        -1073.9886558211588,
+        159.64509484928925
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_034.png"
+    },
+    {
+      "index": 35,
+      "animation_time": 0.5833333333333334,
+      "actual_time": 0.5833333134651184,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -795.2766206069977,
+        -1074.6889458130656,
+        158.07413278294572
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_035.png"
+    },
+    {
+      "index": 36,
+      "animation_time": 0.6,
+      "actual_time": 0.6000000238418579,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -791.4342051364963,
+        -1075.6113036134545,
+        155.94984910802205
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_036.png"
+    },
+    {
+      "index": 37,
+      "animation_time": 0.6166666666666667,
+      "actual_time": 0.6166666746139526,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -787.3002307803137,
+        -1076.7545894250025,
+        153.42645954974964
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_037.png"
+    },
+    {
+      "index": 38,
+      "animation_time": 0.6333333333333333,
+      "actual_time": 0.6333333253860474,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -783.1044750626164,
+        -1078.0774845884414,
+        150.6595926231551
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_038.png"
+    },
+    {
+      "index": 39,
+      "animation_time": 0.65,
+      "actual_time": 0.6499999761581421,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -779.0445633286507,
+        -1079.514106868094,
+        147.76252955324114
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_039.png"
+    },
+    {
+      "index": 40,
+      "animation_time": 0.6666666666666666,
+      "actual_time": 0.6666666865348816,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -775.0865318245624,
+        -1081.1769731024106,
+        144.76938437384615
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_040.png"
+    },
+    {
+      "index": 41,
+      "animation_time": 0.6833333333333333,
+      "actual_time": 0.6833333373069763,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -771.3072626853594,
+        -1083.278284234745,
+        141.6748887699798
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_041.png"
+    },
+    {
+      "index": 42,
+      "animation_time": 0.7,
+      "actual_time": 0.699999988079071,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -767.9845729834932,
+        -1085.7711071841875,
+        138.55548113347598
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_042.png"
+    },
+    {
+      "index": 43,
+      "animation_time": 0.7166666666666667,
+      "actual_time": 0.7166666388511658,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -765.3532256178088,
+        -1088.4834918173078,
+        135.49037746855896
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_043.png"
+    },
+    {
+      "index": 44,
+      "animation_time": 0.7333333333333333,
+      "actual_time": 0.7333333492279053,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -763.5292655821519,
+        -1091.22539904418,
+        132.57186195349868
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_044.png"
+    },
+    {
+      "index": 45,
+      "animation_time": 0.75,
+      "actual_time": 0.75,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -762.4673798061511,
+        -1093.909962781013,
+        129.85954348335778
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_045.png"
+    },
+    {
+      "index": 46,
+      "animation_time": 0.7666666666666667,
+      "actual_time": 0.7666666507720947,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -762.0883288065442,
+        -1096.4482210981482,
+        127.40573136800063
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_046.png"
+    },
+    {
+      "index": 47,
+      "animation_time": 0.7833333333333333,
+      "actual_time": 0.7833333611488342,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -762.295367352875,
+        -1098.7748441614972,
+        125.24044912191421
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_047.png"
+    },
+    {
+      "index": 48,
+      "animation_time": 0.8,
+      "actual_time": 0.800000011920929,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -762.9625383428058,
+        -1100.8490261660484,
+        123.31808922575993
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_048.png"
+    },
+    {
+      "index": 49,
+      "animation_time": 0.8166666666666667,
+      "actual_time": 0.8166666626930237,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x00000243F1F9AF00) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -763.9770804450209,
+        -1102.6566206035554,
+        121.60327034758612
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\SlashRevision1104\\DemoFrames\\frame_049.png"
+    }
+  ],
+  "animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07",
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+  "duration_seconds": 1.649999976158142,
+  "fps": 60
+}

@@ -1,0 +1,8 @@
+BlenderMCP addon registered
+BlenderMCP addon unregistered
+FBX version: 7400
+FBX version: 7400
+HILT_FIT {"candidate": "FitB plus 1cm axial slide toward blade tip", "component": "29 Spirit jade sweep beneath grip", "original": {"outward_cm": 0.0, "min_clearance_mm": -7.769528776407242, "inside_vertex_count": 714, "vertex_count": 2340}, "chosen": {"outward_cm": 2.3, "min_clearance_mm": 10.616173036396503, "inside_vertex_count": 0, "vertex_count": 2340}, "formula": "weapon_local_x -= amount*smoothstep(clamp((0.083-weapon_local_z)/0.045,0,1)); meters; z>=8.3cm anchor unchanged", "weapon_matrix": [[0.0019047550158575177, -0.002380955033004284, 0.009523801505565643, 4.173023455678049e-07], [-0.009814167395234108, -0.0002322920336155221, 0.0019047559471800923, 0.047999847680330276], [-0.00023228487407322973, -0.009709641337394714, -0.0023809587582945824, 0.04600043222308159], [0.0, 0.0, 0.0, 1.0]]}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

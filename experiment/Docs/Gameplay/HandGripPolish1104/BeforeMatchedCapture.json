@@ -1,0 +1,63 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "all_closeups_captured": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Actual native enemy mesh and sword in Unreal; animation sampled for hand-contact inspection. AI paused, main save isolated."
+  ],
+  "elapsed_seconds": 5.0,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.365fc7813f3842d99469cc3a6b098689",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\3a80422efb479d88089690851e118f40c6f131ec.nlrun",
+    "test_run_ids": [
+      "7f1836ab48635ec36287f49486e6d459",
+      "be010ddf46bb4f75de8038a9ccaf6585"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\3a80422efb479d88089690851e118f40c6f131ec.nlrun"
+    ],
+    "temporary_assets_removed": true
+  },
+  "frames": [
+    {
+      "key": "D_cut_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "t": 0.7200000286102295,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\BeforeMatched\\D_cut_side.png",
+      "grip": "<Struct 'Transform' (0x0000025BAEBDA8E0) {rotation: {x: 0.647855, y: -0.734026, z: -0.143450, w: 0.144608}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>"
+    },
+    {
+      "key": "D_cut_oblique",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "t": 0.7200000286102295,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\BeforeMatched\\D_cut_oblique.png",
+      "grip": "<Struct 'Transform' (0x0000025BAEBDA8E0) {rotation: {x: 0.647855, y: -0.734026, z: -0.143450, w: 0.144608}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>"
+    },
+    {
+      "key": "idle_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07",
+      "t": 0.0,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\BeforeMatched\\idle_side.png",
+      "grip": "<Struct 'Transform' (0x0000025BAEBDA8E0) {rotation: {x: 0.647855, y: -0.734026, z: -0.143450, w: 0.144608}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>"
+    }
+  ]
+}

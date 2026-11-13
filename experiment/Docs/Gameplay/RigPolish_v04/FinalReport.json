@@ -1,0 +1,51 @@
+{
+  "state": "complete",
+  "date": "2026-10-25",
+  "problem": "v03 bent wrist, forearm crossing chest, source grip morph spikes and open support grip.",
+  "changes": [
+    "Natural guard, forward cut and return to the right hip",
+    "Local anatomical closed right hand and continuous wrist under cuff",
+    "Grip attachment translated with the natural hand",
+    "Applied only to sword, GM01, GM04 and boss"
+  ],
+  "validation": {
+    "integrity": "passed",
+    "real_hit": {
+      "two_actual_ai_swings_completed": true,
+      "real_blade_damage_each_swing": true,
+      "one_damage_event_per_swing": true,
+      "damage_only_inside_brain_and_notify_window": true,
+      "original_attack_timers_range_and_definition_preserved": true,
+      "full_recovery_without_clip_restart": true
+    },
+    "target_distance_cm": 129.5,
+    "real_player_health": [
+      100,
+      80
+    ],
+    "motion_frames": 1477,
+    "desktop_near_and_full_body_review": true,
+    "independent_geometry_report": "Review25/GraftedHandMotionValidation.json"
+  },
+  "assets": {
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04",
+    "attack": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Natural_v04"
+  },
+  "stats": {
+    "vertices_lod0": 49874,
+    "sections_lod0": 4,
+    "bones": 23
+  },
+  "evidence": {
+    "palm": "Screenshots/GripPalm/02_After_1.03_Palm.png",
+    "whole_body": "Screenshots/NaturalAttackComparison/03.png",
+    "motion": "AfterMotion.json",
+    "assignments": "AttackAssignments.json",
+    "visual_signoff": "VisualSignoff.json"
+  },
+  "limits": [
+    "Desktop and offline checks do not certify headset comfort or VR performance.",
+    "Original low-poly cuff hem remains. Contact inside the sleeve join is intentional.",
+    "Old offline cycle GIFs were made before the final hand replacement; use the final UE screenshots listed here."
+  ]
+}

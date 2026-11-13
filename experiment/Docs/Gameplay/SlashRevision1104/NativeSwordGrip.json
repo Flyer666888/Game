@@ -1,0 +1,80 @@
+{
+  "blade_local_axes": {
+    "tip": [
+      0,
+      0,
+      1
+    ],
+    "cutting_edge": [
+      -1,
+      0,
+      0
+    ],
+    "face_normal": [
+      0,
+      1,
+      0
+    ]
+  },
+  "blender": {
+    "bone": "mixamorig:RightHand",
+    "translation_m": [
+      0.0,
+      0.06499999761581421,
+      0.03500000014901161
+    ],
+    "quaternion_wxyz": [
+      0.5,
+      -0.5,
+      0.5,
+      -0.5
+    ],
+    "finger_basis_local_x_degrees": {
+      "RightHandIndex1": 75,
+      "RightHandIndex2": 142.5,
+      "RightHandIndex3": -12.7,
+      "RightHandThumb1": 35,
+      "RightHandThumb2": 40,
+      "RightHandThumb3": 35
+    }
+  },
+  "unreal": {
+    "bone": "RightHand",
+    "translation": [
+      8.102506399154663e-08,
+      -0.0649997815489769,
+      0.03499985113739967
+    ],
+    "quaternion_xyzw": [
+      0.5,
+      0.4999998211860657,
+      0.5000000596046448,
+      0.5000000596046448
+    ],
+    "scale": [
+      0.009999997913837433,
+      0.009999999776482582,
+      0.009999998845160007
+    ]
+  },
+  "expected_reference_sword_transform_cm": {
+    "p": [
+      2.9696500301361084,
+      42.942386627197266,
+      94.75337982177734
+    ],
+    "q_xyzw": [
+      -0.559400737285614,
+      0.44062021374702454,
+      -0.7020859718322754,
+      0.00035316290450282395
+    ],
+    "s": [
+      0.9999999403953552,
+      0.9999998807907104,
+      0.9999998807907104
+    ]
+  },
+  "maximum_roundtrip_matrix_error": 1.430511474609375e-06,
+  "note": "UE local translation is small because the native imported reference bones carry scale 100; 0.01 grip scale cancels it for the existing centimetre weapon mesh. Finger pose assessed in three offline views; runtime socket and active cutting polarity still require imported animation validation."
+}

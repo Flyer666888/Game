@@ -1,0 +1,210 @@
+{
+  "state": "prepared",
+  "candidate": {
+    "finger_local_quaternions": {
+      "RightHandIndex3": [
+        -0.9161485433578491,
+        1.9894139313691994e-06,
+        3.9328366341351284e-08,
+        0.4008388817310333
+      ],
+      "RightHandIndex2": [
+        -0.402363121509552,
+        4.5607077936438145e-07,
+        1.681605226622196e-06,
+        0.9154801964759827
+      ],
+      "RightHandThumb1": [
+        -0.29621604084968567,
+        -0.051771130412817,
+        0.16419823467731476,
+        0.9394758343696594
+      ],
+      "RightHandThumb3": [
+        -0.31170859932899475,
+        -7.032619464553136e-07,
+        -3.273722199992335e-07,
+        0.9501777291297913
+      ],
+      "RightHandIndex4": [
+        6.891787052154541e-08,
+        -3.285706497990759e-06,
+        6.519257311765614e-08,
+        1.0
+      ],
+      "RightHandThumb2": [
+        -0.422372967004776,
+        -6.041528877176461e-07,
+        -2.5917964308064256e-07,
+        0.9064221382141113
+      ],
+      "RightHandThumb4": [
+        9.592622518539429e-08,
+        2.789311110973358e-07,
+        7.003545761108398e-07,
+        1.0
+      ],
+      "RightHandIndex1": [
+        -0.6774030923843384,
+        -0.009113154374063015,
+        0.009892799891531467,
+        0.7354891300201416
+      ]
+    },
+    "id": "GripB",
+    "grip": {
+      "p": [
+        0,
+        -0.048,
+        0.046
+      ],
+      "q": [
+        0.602453351020813,
+        0.5060608386993408,
+        0.3855701684951782,
+        0.48196274042129517
+      ],
+      "s": [
+        0.01,
+        0.01,
+        0.01
+      ]
+    },
+    "fit_parameters": {
+      "angles": [
+        60,
+        100,
+        75
+      ],
+      "y": 0.048,
+      "z": 0.046,
+      "sy": 0.2,
+      "sz": -0.25
+    }
+  },
+  "clips": {
+    "attack": {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "source": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "duration": 2.3333332538604736,
+      "frames": 70,
+      "max_local_position_error": 0.0,
+      "max_local_scale_error": 0.0,
+      "max_unchanged_rotation_error": 4.440892098500626e-16,
+      "edited_bones": [
+        "RightHandIndex3",
+        "RightHandIndex2",
+        "RightHandThumb1",
+        "RightHandThumb3",
+        "RightHandIndex4",
+        "RightHandThumb2",
+        "RightHandThumb4",
+        "RightHandIndex1"
+      ],
+      "notify_count": 1
+    },
+    "idle": {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+      "source": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07",
+      "duration": 2.0,
+      "frames": 120,
+      "max_local_position_error": 0.0,
+      "max_local_scale_error": 0.0,
+      "max_unchanged_rotation_error": 4.440892098500626e-16,
+      "edited_bones": [
+        "RightHandIndex3",
+        "RightHandIndex2",
+        "RightHandThumb1",
+        "RightHandThumb3",
+        "RightHandIndex4",
+        "RightHandThumb2",
+        "RightHandThumb4",
+        "RightHandIndex1"
+      ],
+      "notify_count": 0
+    },
+    "walk": {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Walk_GripB.A_Wuxia_Walk_GripB",
+      "source": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07",
+      "duration": 1.0333333015441895,
+      "frames": 62,
+      "max_local_position_error": 0.0,
+      "max_local_scale_error": 0.0,
+      "max_unchanged_rotation_error": 4.440892098500626e-16,
+      "edited_bones": [
+        "RightHandIndex3",
+        "RightHandIndex2",
+        "RightHandThumb1",
+        "RightHandThumb3",
+        "RightHandIndex4",
+        "RightHandThumb2",
+        "RightHandThumb4",
+        "RightHandIndex1"
+      ],
+      "notify_count": 0
+    },
+    "hit": {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Hit_GripB.A_Wuxia_Hit_GripB",
+      "source": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Hit_Native_v07.A_Wuxia_Hit_Native_v07",
+      "duration": 0.800000011920929,
+      "frames": 48,
+      "max_local_position_error": 0.0,
+      "max_local_scale_error": 0.0,
+      "max_unchanged_rotation_error": 4.440892098500626e-16,
+      "edited_bones": [
+        "RightHandIndex3",
+        "RightHandIndex2",
+        "RightHandThumb1",
+        "RightHandThumb3",
+        "RightHandIndex4",
+        "RightHandThumb2",
+        "RightHandThumb4",
+        "RightHandIndex1"
+      ],
+      "notify_count": 0
+    },
+    "death": {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Death_GripB.A_Wuxia_Death_GripB",
+      "source": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Death_Native_v07.A_Wuxia_Death_Native_v07",
+      "duration": 3.299999952316284,
+      "frames": 198,
+      "max_local_position_error": 0.0,
+      "max_local_scale_error": 0.0,
+      "max_unchanged_rotation_error": 4.440892098500626e-16,
+      "edited_bones": [
+        "RightHandIndex3",
+        "RightHandIndex2",
+        "RightHandThumb1",
+        "RightHandThumb3",
+        "RightHandIndex4",
+        "RightHandThumb2",
+        "RightHandThumb4",
+        "RightHandIndex1"
+      ],
+      "notify_count": 0
+    },
+    "cast": {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Cast_GripB.A_Wuxia_Cast_GripB",
+      "source": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Cast_Native_v07.A_Wuxia_Cast_Native_v07",
+      "duration": 2.0,
+      "frames": 120,
+      "max_local_position_error": 0.0,
+      "max_local_scale_error": 0.0,
+      "max_unchanged_rotation_error": 4.440892098500626e-16,
+      "edited_bones": [
+        "RightHandIndex3",
+        "RightHandIndex2",
+        "RightHandThumb1",
+        "RightHandThumb3",
+        "RightHandIndex4",
+        "RightHandThumb2",
+        "RightHandThumb4",
+        "RightHandIndex1"
+      ],
+      "notify_count": 0
+    }
+  },
+  "checks": {
+    "protected_originals_unchanged": true
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-24",
+  "state": "passed",
+  "project": "D:\\game design\\experiment",
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "scope": "Enemy bodies and animation in the current desktop gameplay level.",
+  "changes": [
+    "Five new upright clips assigned to all eight gameplay enemy archetypes.",
+    "Pose transitions: locomotion 0.16 s, attack 0.12 s, hit 0.10 s; death retains 0.18 s.",
+    "Velocity-scaled walk rate and 8/3 cm/s start/stop hysteresis.",
+    "150 degrees/s waiting turn, attack reservation after facing error <=3 degrees.",
+    "World-height smoothing and cyclic walk pose closure."
+  ],
+  "automation": {
+    "succeeded": 25,
+    "succeededWithWarnings": 3,
+    "failed": 0,
+    "notRun": 0,
+    "inProcess": 0
+  },
+  "runtime": {
+    "motion_frames": 1509,
+    "motion_states": [
+      "<NLEnemyState.APPROACH: 1>",
+      "<NLEnemyState.ATTACK: 4>",
+      "<NLEnemyState.DEAD: 7>",
+      "<NLEnemyState.RECOVER: 5>",
+      "<NLEnemyState.SPAWN: 0>",
+      "<NLEnemyState.STAGGERED: 6>",
+      "<NLEnemyState.TELEGRAPH: 3>",
+      "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+    ],
+    "actual_clips": [
+      "Wuxia_Attack_Sword_Upright_v01",
+      "Wuxia_Death_Grounded",
+      "Wuxia_Hit_Sword_Upright_v01",
+      "Wuxia_Idle_Planted_Upright_v01",
+      "Wuxia_Walk_Sword_Upright_v01"
+    ],
+    "blade_active_frames": 56,
+    "facing_checks": {
+      "single_180_degree_injection": true,
+      "continuous_turn": true,
+      "faces_target_before_telegraph": true,
+      "real_brain_attack_observed": true,
+      "animation_owned_blade_swing_observed": true
+    },
+    "turn_rate_observed_max": 150.00000357625183,
+    "ranged_checks": {
+      "predecessors_completed_through_resolver": true,
+      "both_new_upright_cast_clips_played": true,
+      "faced_player_before_cast_warning": true,
+      "both_casters_emitted_actual_projectiles": true,
+      "both_rock_positions_remained_within_five_cm": true
+    },
+    "ranged_projectiles": 3,
+    "ranged_observation_seconds": 12.006267692893744,
+    "test_cleanup": "passed"
+  },
+  "pose_validation": {
+    "clips": 5,
+    "bones": 23,
+    "max_sampled_foot_error_cm": 0.05350275940242478,
+    "walk_loop": {
+      "max_before_position_cm": 0.0,
+      "max_after_position_cm": 0.0,
+      "max_before_rotation_degrees": 2.4148365394514667e-06,
+      "max_after_rotation_degrees": 2.4148365394514667e-06,
+      "max_added_position_cm": 0.0,
+      "max_added_rotation_degrees": 2.4148365394514667e-06
+    },
+    "clip_metadata_unchanged": true
+  },
+  "desktop_launch": {
+    "pid": 85216,
+    "responding": true,
+    "window_title": "experiment （64-位 Development PCD3D_SM6） ",
+    "main_window_present": true,
+    "log": "D:\\game design\\experiment\\Saved\\GameplayRuntime\\Logs\\Gameplay_20261024_004430_437.log",
+    "gameplay_map_seen": true,
+    "fatal_or_assertion": false,
+    "mode": "Desktop -game -nohmd",
+    "checked_at": "2026-10-24T00:45:25"
+  },
+  "source_blockout_v10_sha256": "701a12f8a896e938ad76cb5ab68e7cf65d635a5c9d6b2699375bdc9a3538e248",
+  "limits": [
+    "Desktop only; no headset acceptance or full manual playthrough.",
+    "First-stage motion probe uses a fixed target with health assistance; hit/death are resolver-driven test contacts.",
+    "The first-stage motion observations did not record actual enemy damage to the player; attack/notify validation is based on active blade windows. Ranged probe independently observed real projectiles.",
+    "Existing 23-bone mesh and simplified garment weights retained; no cloth simulation.",
+    "Terrain-height smoothing was implemented; no full stair-route traversal was performed in this pass."
+  ],
+  "evidence": [
+    "Build.log",
+    "AutomationFinal/index.json",
+    "AfterMotion.json",
+    "FacingValidation.json",
+    "RangedValidation.json",
+    "UprightCandidatesReport.json",
+    "AssetAudit.json",
+    "BodyAssignments.json",
+    "BodyPreview.json",
+    "MotionComparison.json"
+  ]
+}

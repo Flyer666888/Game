@@ -1,0 +1,51 @@
+{
+  "state": "passed",
+  "assets": [
+    "/Game/ReversedScale/Characters/WuxiaMale/ProvidedRigV07/SourceProbe/SK_ProvidedSource.SK_ProvidedSource"
+  ],
+  "bounds": {
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "extent": [
+      1163.02490234375,
+      2810.97412109375,
+      5000.0
+    ]
+  },
+  "materials": [
+    {
+      "name": "tripo_material_f05e5449-02a3-4819-9cc0-0c1e8c93d000",
+      "material": "<Object '/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Combat.M_WuxiaMale_Combat' (0x000001B9D9D8B600) Class 'Material'>"
+    }
+  ],
+  "skeleton_api": [
+    "copy_bones_from_skeleton",
+    "get_reference_pose",
+    "get_skeleton_additional_preview_meshes",
+    "get_skeleton_preview_mesh",
+    "set_skeleton_additional_preview_meshes",
+    "set_skeleton_preview_mesh"
+  ],
+  "mesh_api": [
+    "add_socket",
+    "find_socket",
+    "find_socket_and_index",
+    "find_socket_info",
+    "get_bone_children",
+    "get_bone_parent",
+    "get_socket_by_index",
+    "num_sockets",
+    "remove_socket",
+    "rename_socket"
+  ],
+  "subsystem_api": [
+    "get_bone_children",
+    "get_bone_parent",
+    "remove_socket",
+    "rename_socket"
+  ],
+  "sha256": "8dfe9c4f93b8af902d22645b9f731fd0d6957571b4d52d78060b9e19e49b293f"
+}

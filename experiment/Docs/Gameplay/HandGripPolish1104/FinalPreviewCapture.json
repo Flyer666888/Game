@@ -1,0 +1,63 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "all_closeups_captured": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Actual native enemy mesh and sword in Unreal; animation sampled for hand-contact inspection. AI paused, main save isolated."
+  ],
+  "elapsed_seconds": 6.46900000000096,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.400c53bb1e6847eea07dfb0621c1bbc3",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\177c8010a54795fcd0409a5e37f4ee1da171483c.nlrun",
+    "test_run_ids": [
+      "876b2e82494d3208f7d5f9ae0f46ce72",
+      "bb1d9fc74bcc3d014b932c9485374341"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\177c8010a54795fcd0409a5e37f4ee1da171483c.nlrun"
+    ],
+    "temporary_assets_removed": true
+  },
+  "frames": [
+    {
+      "key": "D_cut_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "t": 0.7200000286102295,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\FinalPreview\\D_cut_side.png",
+      "grip": "<Struct 'Transform' (0x0000022561EE7780) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>"
+    },
+    {
+      "key": "D_cut_oblique",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+      "t": 0.7200000286102295,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\FinalPreview\\D_cut_oblique.png",
+      "grip": "<Struct 'Transform' (0x0000022561EE7780) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>"
+    },
+    {
+      "key": "idle_side",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+      "t": 0.0,
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\FinalPreview\\idle_side.png",
+      "grip": "<Struct 'Transform' (0x0000022561EE7780) {rotation: {x: 0.602453, y: 0.506061, z: 0.385570, w: 0.481963}, translation: {x: -0.000000, y: -0.048000, z: 0.046000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>"
+    }
+  ]
+}
