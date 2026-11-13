@@ -1,0 +1,59 @@
+{
+  "scope": "Source terrain triangles only; floors, rails, buildings, vegetation and UE collision excluded",
+  "rim_rule": "At least two adjacent points of 9 on true near rim are visible",
+  "B_cut_prism": {
+    "x_max": -14,
+    "y_max": 138,
+    "z_min": 20.5,
+    "intruding_triangles": 0
+  },
+  "nodes": {
+    "1": {
+      "eye_states": 4,
+      "rim_blocked_states": 0,
+      "crown_blocked_states": 0,
+      "examples": []
+    },
+    "2": {
+      "eye_states": 4,
+      "rim_blocked_states": 0,
+      "crown_blocked_states": 0,
+      "examples": []
+    },
+    "3": {
+      "eye_states": 4,
+      "rim_blocked_states": 0,
+      "crown_blocked_states": 0,
+      "examples": []
+    },
+    "4": {
+      "eye_states": 4,
+      "rim_blocked_states": 0,
+      "crown_blocked_states": 0,
+      "examples": []
+    },
+    "5": {
+      "eye_states": 4,
+      "rim_blocked_states": 0,
+      "crown_blocked_states": 0,
+      "examples": []
+    },
+    "6": {
+      "eye_states": 4,
+      "rim_blocked_states": 0,
+      "crown_blocked_states": 0,
+      "examples": []
+    }
+  },
+  "stair_paths_1m": {
+    "eye_states": 1668,
+    "rim_blocked_states": 0,
+    "crown_blocked_states": 0,
+    "examples": []
+  },
+  "walk_surface_clearance": {
+    "samples_with_hit": 427,
+    "minimum_m": 2.5,
+    "under_0_3m_examples": []
+  }
+}

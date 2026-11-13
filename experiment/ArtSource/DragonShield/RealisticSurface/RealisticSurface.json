@@ -1,0 +1,329 @@
+{
+  "source": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\Source\\Jade_Dragon_Shield_Refined.blend",
+  "source_sha256": "12501cd53192416d293547b1fb213018ba2ae7a289df846cc81d0d725c486c5b",
+  "blender_version": "5.2.2 LTS",
+  "profiles": {
+    "bronze": {
+      "base_color": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_bronze_BaseColor.png",
+      "orm": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_bronze_ORM.png",
+      "normal": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_bronze_Normal.png",
+      "tile_size_cm": 12,
+      "normal_convention": "OpenGL",
+      "source_material": {
+        "name": "01 | Aged chased bronze",
+        "noise_scale": 34.0,
+        "noise_detail": 4.0,
+        "bump_strength": 0.18000000715255737,
+        "bump_distance": 0.000699999975040555,
+        "color_ramp": [
+          {
+            "position": 0.23000000417232513,
+            "color": [
+              0.12999999523162842,
+              0.0949999988079071,
+              0.0430000014603138,
+              1.0
+            ]
+          },
+          {
+            "position": 0.7799999713897705,
+            "color": [
+              0.3400000035762787,
+              0.23999999463558197,
+              0.10000000149011612,
+              1.0
+            ]
+          }
+        ]
+      },
+      "roughness_range": [
+        0.36,
+        0.54
+      ],
+      "base_metallic": 0.9,
+      "normal_strength_ue": 1.0,
+      "normal_method": "Central UV finite differences of seamless procedural height, physical tile scale; +Y OpenGL",
+      "height_distance_m": 0.0002,
+      "height_strength": 0.22
+    },
+    "worn_bronze": {
+      "base_color": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_worn_bronze_BaseColor.png",
+      "orm": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_worn_bronze_ORM.png",
+      "normal": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_worn_bronze_Normal.png",
+      "tile_size_cm": 12,
+      "normal_convention": "OpenGL",
+      "source_material": {
+        "name": "02 | Worn raised gold bronze",
+        "noise_scale": 34.0,
+        "noise_detail": 4.0,
+        "bump_strength": 0.18000000715255737,
+        "bump_distance": 0.0003499999875202775,
+        "color_ramp": [
+          {
+            "position": 0.23000000417232513,
+            "color": [
+              0.20000000298023224,
+              0.1599999964237213,
+              0.09000000357627869,
+              1.0
+            ]
+          },
+          {
+            "position": 0.7799999713897705,
+            "color": [
+              0.4699999988079071,
+              0.36000001430511475,
+              0.1899999976158142,
+              1.0
+            ]
+          }
+        ]
+      },
+      "roughness_range": [
+        0.25,
+        0.43
+      ],
+      "base_metallic": 0.94,
+      "normal_strength_ue": 1.0,
+      "normal_method": "Central UV finite differences of seamless procedural height, physical tile scale; +Y OpenGL",
+      "height_distance_m": 0.0002,
+      "height_strength": 0.17
+    },
+    "dark_bronze": {
+      "base_color": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_dark_bronze_BaseColor.png",
+      "orm": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_dark_bronze_ORM.png",
+      "normal": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_dark_bronze_Normal.png",
+      "tile_size_cm": 12,
+      "normal_convention": "OpenGL",
+      "source_material": {
+        "name": "03 | Recessed dark bronze",
+        "noise_scale": 34.0,
+        "noise_detail": 4.0,
+        "bump_strength": 0.18000000715255737,
+        "bump_distance": 0.0010000000474974513,
+        "color_ramp": [
+          {
+            "position": 0.23000000417232513,
+            "color": [
+              0.05550000071525574,
+              0.05772000178694725,
+              0.04439999908208847,
+              1.0
+            ]
+          },
+          {
+            "position": 0.7799999713897705,
+            "color": [
+              0.09449999779462814,
+              0.09827999770641327,
+              0.07559999823570251,
+              1.0
+            ]
+          }
+        ]
+      },
+      "roughness_range": [
+        0.42,
+        0.6
+      ],
+      "base_metallic": 0.85,
+      "normal_strength_ue": 1.0,
+      "normal_method": "Central UV finite differences of seamless procedural height, physical tile scale; +Y OpenGL",
+      "height_distance_m": 0.0002,
+      "height_strength": 0.2
+    },
+    "jade": {
+      "base_color": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_jade_BaseColor.png",
+      "orm": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_jade_ORM.png",
+      "normal": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_jade_Normal.png",
+      "tile_size_cm": 12,
+      "normal_convention": "OpenGL",
+      "source_material": {
+        "name": "04 | Oxidized deep jade",
+        "noise_scale": 34.0,
+        "noise_detail": 4.0,
+        "bump_strength": 0.18000000715255737,
+        "bump_distance": 0.00139999995008111,
+        "color_ramp": [
+          {
+            "position": 0.23000000417232513,
+            "color": [
+              0.03189999982714653,
+              0.07540000230073929,
+              0.0608999989926815,
+              1.0
+            ]
+          },
+          {
+            "position": 0.7799999713897705,
+            "color": [
+              0.07810000330209732,
+              0.18459999561309814,
+              0.14910000562667847,
+              1.0
+            ]
+          }
+        ]
+      },
+      "roughness_range": [
+        0.3,
+        0.44
+      ],
+      "base_metallic": 0.02,
+      "normal_strength_ue": 1.0,
+      "normal_method": "Central UV finite differences of seamless procedural height, physical tile scale; +Y OpenGL",
+      "height_distance_m": 8e-05,
+      "height_strength": 0.09
+    },
+    "patina": {
+      "base_color": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_patina_BaseColor.png",
+      "orm": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_patina_ORM.png",
+      "normal": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_patina_Normal.png",
+      "tile_size_cm": 12,
+      "normal_convention": "OpenGL",
+      "source_material": {
+        "name": "05 | Verdigris patina highlights",
+        "noise_scale": 34.0,
+        "noise_detail": 4.0,
+        "bump_strength": 0.18000000715255737,
+        "bump_distance": 0.0007999999797903001,
+        "color_ramp": [
+          {
+            "position": 0.23000000417232513,
+            "color": [
+              0.12240000069141388,
+              0.20880000293254852,
+              0.1656000018119812,
+              1.0
+            ]
+          },
+          {
+            "position": 0.7799999713897705,
+            "color": [
+              0.2176000028848648,
+              0.37119999527931213,
+              0.29440000653266907,
+              1.0
+            ]
+          }
+        ]
+      },
+      "roughness_range": [
+        0.56,
+        0.73
+      ],
+      "base_metallic": 0.08,
+      "normal_strength_ue": 1.0,
+      "normal_method": "Central UV finite differences of seamless procedural height, physical tile scale; +Y OpenGL",
+      "height_distance_m": 0.0002,
+      "height_strength": 0.15
+    },
+    "leather": {
+      "base_color": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_leather_BaseColor.png",
+      "orm": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_leather_ORM.png",
+      "normal": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_leather_Normal.png",
+      "tile_size_cm": 5,
+      "normal_convention": "OpenGL",
+      "source_material": {
+        "name": "06 | Dark oxblood shield leather",
+        "noise_scale": 34.0,
+        "noise_detail": 4.0,
+        "bump_strength": 0.18000000715255737,
+        "bump_distance": 0.0010000000474974513,
+        "color_ramp": [
+          {
+            "position": 0.23000000417232513,
+            "color": [
+              0.09359999746084213,
+              0.042899999767541885,
+              0.02184000052511692,
+              1.0
+            ]
+          },
+          {
+            "position": 0.7799999713897705,
+            "color": [
+              0.14640000462532043,
+              0.06710000336170197,
+              0.03415999934077263,
+              1.0
+            ]
+          }
+        ]
+      },
+      "roughness_range": [
+        0.53,
+        0.7
+      ],
+      "base_metallic": 0.0,
+      "normal_strength_ue": 1.0,
+      "normal_method": "Central UV finite differences of seamless procedural height, physical tile scale; +Y OpenGL",
+      "height_distance_m": 0.0003,
+      "height_strength": 0.31
+    },
+    "brass": {
+      "base_color": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_brass_BaseColor.png",
+      "orm": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_brass_ORM.png",
+      "normal": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\T_DragonShield_brass_Normal.png",
+      "tile_size_cm": 12,
+      "normal_convention": "OpenGL",
+      "source_material": {
+        "name": "07 | Rivet aged brass",
+        "noise_scale": 34.0,
+        "noise_detail": 4.0,
+        "bump_strength": 0.18000000715255737,
+        "bump_distance": 0.0003000000142492354,
+        "color_ramp": [
+          {
+            "position": 0.23000000417232513,
+            "color": [
+              0.18000000715255737,
+              0.15000000596046448,
+              0.09000000357627869,
+              1.0
+            ]
+          },
+          {
+            "position": 0.7799999713897705,
+            "color": [
+              0.4099999964237213,
+              0.3199999928474426,
+              0.18000000715255737,
+              1.0
+            ]
+          }
+        ]
+      },
+      "roughness_range": [
+        0.27,
+        0.43
+      ],
+      "base_metallic": 0.93,
+      "normal_strength_ue": 1.0,
+      "normal_method": "Central UV finite differences of seamless procedural height, physical tile scale; +Y OpenGL",
+      "height_distance_m": 0.0002,
+      "height_strength": 0.14
+    }
+  },
+  "material_profile_by_ue_name": {
+    "M_DragonShield_00": "bronze",
+    "M_DragonShield_01": "worn_bronze",
+    "M_DragonShield_02": "dark_bronze",
+    "M_DragonShield_03": "jade",
+    "M_DragonShield_04": "patina",
+    "M_DragonShield_05": "leather",
+    "M_DragonShield_06": "brass"
+  },
+  "notes": [
+    "Original 7 Noise/ColorRamp palettes copied, surface nodes restored and enhanced.",
+    "4D toroidal procedural coordinates repeat continuously at every tile boundary.",
+    "BaseColor is sRGB; ORM is linear R=micro cavity AO, G=roughness, B=metallic.",
+    "Normal is linear OpenGL +Y tangent-space; UE importer must enable FlipGreenChannel.",
+    "Local micro cavity AO only: mesh occlusion is left to UE scene shading.",
+    "Original face reference BaseColor/Normal and mesh are unchanged.",
+    "Jade and leather have near-zero/zero metallic; aged copper oxide reduces metal response."
+  ],
+  "preview": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\SurfaceMaterialPreview.png",
+  "authoring_blend": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\RealisticSurface\\RealisticSurface_Authoring.blend",
+  "source_sha256_after": "12501cd53192416d293547b1fb213018ba2ae7a289df846cc81d0d725c486c5b"
+}

@@ -1,0 +1,628 @@
+{
+  "state": "passed",
+  "scope": "UV-only repair; no vertex, edge, polygon, material, normal-smoothing flag or transform changes. Only degenerate Grip04 UV faces repaired; every nondegenerate Grip04 UV retained.",
+  "geometry_signature_before": "a2fd652ec3259e7ee2b1b38147182725bdff31702c8b39485ca1611cadb31f2a",
+  "geometry_signature_after": "a2fd652ec3259e7ee2b1b38147182725bdff31702c8b39485ca1611cadb31f2a",
+  "grip_uv_signature_before": "63d4853a09546af858de1b56fc9bd0e419b75b503d9cf79f25d251ac646f324b",
+  "grip_uv_signature_after": "90ee5e7035002569c0929e20e7593f0f21409a940dd7264e92a994f7c076ca96",
+  "nondegenerate_grip_uv_signature_before": "b28521003907a930999e24e3dccd8efea41acb09b45e7cbea8ede0a02ee1b4f9",
+  "nondegenerate_grip_uv_signature_after": "b28521003907a930999e24e3dccd8efea41acb09b45e7cbea8ede0a02ee1b4f9",
+  "grip_uv_repaired_polygons": [
+    {
+      "polygon_index": 3137,
+      "center_cm": [
+        -1.0464215278625488,
+        0.27332940697669983,
+        -6.97937536239624
+      ],
+      "normal": [
+        -0.9238794445991516,
+        0.38268357515335083,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          -1.1596382856369019,
+          3.7446117318040706e-08,
+          -7.069748401641846
+        ],
+        "max": [
+          -0.819987952709198,
+          0.8199881315231323,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3138,
+      "center_cm": [
+        -0.933204710483551,
+        0.5466587543487549,
+        -6.889001846313477
+      ],
+      "normal": [
+        -0.9238794445991516,
+        0.38268357515335083,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          -1.1596382856369019,
+          3.7446117318040706e-08,
+          -7.069748401641846
+        ],
+        "max": [
+          -0.819987952709198,
+          0.8199881315231323,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3139,
+      "center_cm": [
+        -0.5466585755348206,
+        0.9332048296928406,
+        -6.97937536239624
+      ],
+      "normal": [
+        -0.3826833963394165,
+        0.9238795042037964,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          -0.819987952709198,
+          0.8199881315231323,
+          -7.069748401641846
+        ],
+        "max": [
+          1.3410453902906738e-07,
+          1.1596382856369019,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3141,
+      "center_cm": [
+        -0.2733292281627655,
+        1.0464215278625488,
+        -6.889001846313477
+      ],
+      "normal": [
+        -0.3826833963394165,
+        0.9238795042037964,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          -0.819987952709198,
+          0.8199881315231323,
+          -7.069748401641846
+        ],
+        "max": [
+          1.3410453902906738e-07,
+          1.1596382856369019,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3143,
+      "center_cm": [
+        0.2733295261859894,
+        1.0464215278625488,
+        -6.97937536239624
+      ],
+      "normal": [
+        0.38268354535102844,
+        0.9238794445991516,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          1.3410453902906738e-07,
+          0.819987952709198,
+          -7.069748401641846
+        ],
+        "max": [
+          0.8199883103370667,
+          1.1596382856369019,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3145,
+      "center_cm": [
+        0.5466589331626892,
+        0.933204710483551,
+        -6.889001846313477
+      ],
+      "normal": [
+        0.38268354535102844,
+        0.9238794445991516,
+        -0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          1.3410453902906738e-07,
+          0.819987952709198,
+          -7.069748401641846
+        ],
+        "max": [
+          0.8199883103370667,
+          1.1596382856369019,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3147,
+      "center_cm": [
+        0.9332049489021301,
+        0.5466585755348206,
+        -6.97937536239624
+      ],
+      "normal": [
+        0.9238795638084412,
+        0.3826833665370941,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          0.8199883103370667,
+          -7.31364337980267e-08,
+          -7.069748401641846
+        ],
+        "max": [
+          1.1596384048461914,
+          0.819987952709198,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3148,
+      "center_cm": [
+        1.0464216470718384,
+        0.2733292877674103,
+        -6.889001846313477
+      ],
+      "normal": [
+        0.9238795638084412,
+        0.3826833665370941,
+        -0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          0.8199883103370667,
+          -7.31364337980267e-08,
+          -7.069748401641846
+        ],
+        "max": [
+          1.1596384048461914,
+          0.819987952709198,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3150,
+      "center_cm": [
+        1.0464216470718384,
+        -0.27332937717437744,
+        -6.97937536239624
+      ],
+      "normal": [
+        0.9238795042037964,
+        -0.38268351554870605,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          0.8199881911277771,
+          -0.8199880123138428,
+          -7.069748401641846
+        ],
+        "max": [
+          1.1596384048461914,
+          -7.31364337980267e-08,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3153,
+      "center_cm": [
+        0.9332049489021301,
+        -0.5466586947441101,
+        -6.889001846313477
+      ],
+      "normal": [
+        0.9238795042037964,
+        -0.38268351554870605,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          0.8199881911277771,
+          -0.8199880123138428,
+          -7.069748401641846
+        ],
+        "max": [
+          1.1596384048461914,
+          -7.31364337980267e-08,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3155,
+      "center_cm": [
+        0.5466588139533997,
+        -0.9332048296928406,
+        -6.97937536239624
+      ],
+      "normal": [
+        0.38268351554870605,
+        -0.9238795042037964,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          6.038283117959509e-08,
+          -1.1596382856369019,
+          -7.069748401641846
+        ],
+        "max": [
+          0.8199881911277771,
+          -0.8199880123138428,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3160,
+      "center_cm": [
+        0.2733294367790222,
+        -1.0464215278625488,
+        -6.889001846313477
+      ],
+      "normal": [
+        0.38268351554870605,
+        -0.9238795042037964,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          6.038283117959509e-08,
+          -1.1596382856369019,
+          -7.069748401641846
+        ],
+        "max": [
+          0.8199881911277771,
+          -0.8199880123138428,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3162,
+      "center_cm": [
+        -0.27332931756973267,
+        -1.0464215278625488,
+        -6.97937536239624
+      ],
+      "normal": [
+        -0.38268351554870605,
+        -0.9238795042037964,
+        -0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          -0.8199880719184875,
+          -1.1596382856369019,
+          -7.069748401641846
+        ],
+        "max": [
+          6.038283117959509e-08,
+          -0.8199880123138428,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3183,
+      "center_cm": [
+        -0.5466586947441101,
+        -0.9332048296928406,
+        -6.889001846313477
+      ],
+      "normal": [
+        -0.38268351554870605,
+        -0.9238795042037964,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          -0.8199880719184875,
+          -1.1596382856369019,
+          -7.069748401641846
+        ],
+        "max": [
+          6.038283117959509e-08,
+          -0.8199880123138428,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3184,
+      "center_cm": [
+        -1.0464215278625488,
+        -0.2733292877674103,
+        -6.889001846313477
+      ],
+      "normal": [
+        -0.9238795042037964,
+        -0.3826834559440613,
+        0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          -1.1596382856369019,
+          -0.8199880123138428,
+          -7.069748401641846
+        ],
+        "max": [
+          -0.8199880719184875,
+          3.7446117318040706e-08,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    },
+    {
+      "polygon_index": 3185,
+      "center_cm": [
+        -0.9332048296928406,
+        -0.5466586947441101,
+        -6.97937536239624
+      ],
+      "normal": [
+        -0.9238795042037964,
+        -0.3826834559440613,
+        -0.0
+      ],
+      "bounds_cm": {
+        "min": [
+          -1.1596382856369019,
+          -0.8199880123138428,
+          -7.069748401641846
+        ],
+        "max": [
+          -0.8199880719184875,
+          3.7446117318040706e-08,
+          -6.798628330230713
+        ]
+      },
+      "classification": "collar side/inner connection"
+    }
+  ],
+  "grip_uv_repaired_count_per_channel": [
+    16,
+    16
+  ],
+  "repaired_polygon_count": 6451,
+  "projection": "Per-face box projection, maximizing minimum projected triangle area; 0.25 UV per centimeter; nondegenerate Grip04 UVs skipped",
+  "before_uv_statistics": [
+    {
+      "layer": "UVChannel_0",
+      "materials": {
+        "BladeSteel": {
+          "triangles": 4312,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.6526747158861497e-06
+        },
+        "BladeEdge": {
+          "triangles": 1048,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 3.4746171465559195e-07
+        },
+        "BladeFuller": {
+          "triangles": 624,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.00016855362128254114
+        },
+        "Guard03": {
+          "triangles": 1468,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 1.0472163900487885e-05
+        },
+        "Grip04": {
+          "triangles": 292,
+          "zero_uv_area": 16,
+          "near_zero_uv_area_under_1e_minus_10": 16,
+          "min_abs_uv_area": 0.0
+        },
+        "Pommel03": {
+          "triangles": 768,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.0002591014011343873
+        },
+        "GoldDetail": {
+          "triangles": 5068,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.7051466198677043e-06
+        }
+      }
+    },
+    {
+      "layer": "UVChannel_1",
+      "materials": {
+        "BladeSteel": {
+          "triangles": 4312,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.6526747158861497e-06
+        },
+        "BladeEdge": {
+          "triangles": 1048,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 3.4746171465559195e-07
+        },
+        "BladeFuller": {
+          "triangles": 624,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.00016855362128254114
+        },
+        "Guard03": {
+          "triangles": 1468,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 1.0472163900487885e-05
+        },
+        "Grip04": {
+          "triangles": 292,
+          "zero_uv_area": 16,
+          "near_zero_uv_area_under_1e_minus_10": 16,
+          "min_abs_uv_area": 0.0
+        },
+        "Pommel03": {
+          "triangles": 768,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.0002591014011343873
+        },
+        "GoldDetail": {
+          "triangles": 5068,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.7051466198677043e-06
+        }
+      }
+    }
+  ],
+  "after_uv_statistics": [
+    {
+      "layer": "UVChannel_0",
+      "materials": {
+        "BladeSteel": {
+          "triangles": 4312,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.6526747158861497e-06
+        },
+        "BladeEdge": {
+          "triangles": 1048,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 3.4746171465559195e-07
+        },
+        "BladeFuller": {
+          "triangles": 624,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.00016855362128254114
+        },
+        "Guard03": {
+          "triangles": 1468,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 1.0472163900487885e-05
+        },
+        "Grip04": {
+          "triangles": 292,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 7.081031799316406e-05
+        },
+        "Pommel03": {
+          "triangles": 768,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.0002591014011343873
+        },
+        "GoldDetail": {
+          "triangles": 5068,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.7051466198677043e-06
+        }
+      }
+    },
+    {
+      "layer": "UVChannel_1",
+      "materials": {
+        "BladeSteel": {
+          "triangles": 4312,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.6526747158861497e-06
+        },
+        "BladeEdge": {
+          "triangles": 1048,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 3.4746171465559195e-07
+        },
+        "BladeFuller": {
+          "triangles": 624,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.00016855362128254114
+        },
+        "Guard03": {
+          "triangles": 1468,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 1.0472163900487885e-05
+        },
+        "Grip04": {
+          "triangles": 292,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 6.866455078125e-05
+        },
+        "Pommel03": {
+          "triangles": 768,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.0002591014011343873
+        },
+        "GoldDetail": {
+          "triangles": 5068,
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.7051466198677043e-06
+        }
+      }
+    }
+  ],
+  "fbx_sha256_before": "187a7eab3ee7d4d324183332b585d5f53bc7d5e21ade064a9b07e3e864cd363c",
+  "fbx_sha256": "693e225e1bb5f34635bfc7f4654bf1d5148c2c21d893cee9560e305752d818e9"
+}

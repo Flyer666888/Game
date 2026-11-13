@@ -1,0 +1,229 @@
+{
+  "source_layout": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v02\\LayoutSpec_working.json",
+  "units": "metres",
+  "world_mirrored_x": true,
+  "meshes": [
+    {
+      "name": "TerrainV02_A",
+      "units": "metres",
+      "actor_location_m": [
+        0,
+        0,
+        0
+      ],
+      "actor_scale": [
+        1,
+        1,
+        1
+      ],
+      "bounds_m": [
+        [
+          -35.521365,
+          -31.33667,
+          -72.0
+        ],
+        [
+          33.448344,
+          31.715514,
+          -3
+        ]
+      ],
+      "validation": {
+        "vertices": 66,
+        "triangles": 128,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "signed_volume_m3": 177894.479
+      },
+      "content_sha256": "eada109c4c7eb7cb75dbcf64af395fa8dd961eb51fa06fe4405b45813d9cac0e",
+      "mesh_source_json": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_A.mesh_source.json",
+      "json_path": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_A.mesh_source.json",
+      "folder": "01_Shanmen",
+      "group": "A",
+      "obj": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_A.obj"
+    },
+    {
+      "name": "TerrainV02_B",
+      "units": "metres",
+      "actor_location_m": [
+        0,
+        0,
+        0
+      ],
+      "actor_scale": [
+        1,
+        1,
+        1
+      ],
+      "bounds_m": [
+        [
+          -36.711007,
+          112.039984,
+          -76.0
+        ],
+        [
+          28.756487,
+          166.853312,
+          25.5
+        ]
+      ],
+      "validation": {
+        "vertices": 72,
+        "triangles": 140,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "signed_volume_m3": 228168.443
+      },
+      "content_sha256": "6e3afb5c1f5527a3e0826f00adad9c4890b7b34438b60455d4882efb7942d6c7",
+      "mesh_source_json": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_B.mesh_source.json",
+      "json_path": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_B.mesh_source.json",
+      "folder": "02_MartialCourt",
+      "group": "B",
+      "obj": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_B.obj"
+    },
+    {
+      "name": "TerrainV02_C",
+      "units": "metres",
+      "actor_location_m": [
+        0,
+        0,
+        0
+      ],
+      "actor_scale": [
+        1,
+        1,
+        1
+      ],
+      "bounds_m": [
+        [
+          -38.848785,
+          265.664157,
+          -80.0
+        ],
+        [
+          32.752927,
+          338.543879,
+          69
+        ]
+      ],
+      "validation": {
+        "vertices": 60,
+        "triangles": 116,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "signed_volume_m3": 442009.598
+      },
+      "content_sha256": "fab24681ce0ed0732ad9ef7733f0b4f9edd86f9cf475518399e93ba24974c6fd",
+      "mesh_source_json": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_C.mesh_source.json",
+      "json_path": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_C.mesh_source.json",
+      "folder": "03_AlchemyCourt",
+      "group": "C",
+      "obj": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_C.obj"
+    },
+    {
+      "name": "TerrainV02_D",
+      "units": "metres",
+      "actor_location_m": [
+        0,
+        0,
+        0
+      ],
+      "actor_scale": [
+        1,
+        1,
+        1
+      ],
+      "bounds_m": [
+        [
+          -206.341253,
+          479.791841,
+          -85.0
+        ],
+        [
+          -137.53308,
+          548.909784,
+          129
+        ]
+      ],
+      "validation": {
+        "vertices": 60,
+        "triangles": 116,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "signed_volume_m3": 605223.617
+      },
+      "content_sha256": "e5a42fa3da7e7395783435c18d26c873fdd1930944ed54e23c3d5d1ee421b7b6",
+      "mesh_source_json": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_D.mesh_source.json",
+      "json_path": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_D.mesh_source.json",
+      "folder": "05_SummitSeal",
+      "group": "D",
+      "obj": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_D.obj"
+    },
+    {
+      "name": "TerrainV02_Ridge",
+      "units": "metres",
+      "actor_location_m": [
+        0,
+        0,
+        0
+      ],
+      "actor_scale": [
+        1,
+        1,
+        1
+      ],
+      "bounds_m": [
+        [
+          -176.317003,
+          27.0,
+          -74.999998
+        ],
+        [
+          16.617082,
+          489.850311,
+          121.25
+        ]
+      ],
+      "validation": {
+        "vertices": 896,
+        "triangles": 1788,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "signed_volume_m3": 1406003.486
+      },
+      "content_sha256": "455b61f93d520a579c2db0dbae2f55e166732b19b77bf58998e28c61d60f4508",
+      "mesh_source_json": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_Ridge.mesh_source.json",
+      "json_path": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_Ridge.mesh_source.json",
+      "folder": "04_ContinuousAscent",
+      "group": "Ridge",
+      "obj": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_Ridge.obj"
+    }
+  ],
+  "footprints_json": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\terrain_footprints.json",
+  "preserved_constraints": [
+    "All stairs, platform slabs, rails, node transforms and combat space stay unchanged.",
+    "B's mirrored southwest cut remains open above Z20m; no transparency/collision tricks.",
+    "Main rock tops are 2.5-3m below platforms; ridge crest is at least 7.25m below stair line.",
+    "Broader lower flanks below shoulders replace repeated cylinders, not new playable terrain."
+  ],
+  "import_recommendations": [
+    "Use mesh_source JSON vertices/triangles with ue_mesh_v02.make_asset; vertices are metres.",
+    "Actor transform is location(0,0,0), rotation(0,0,0), scale(1,1,1); do not mirror again.",
+    "Use a new asset name including content_sha256[:8] to avoid make_asset returning stale assets.",
+    "Keep complex query collision and Visibility blocking; terrain must not use NoCollision to pass sight tests.",
+    "Keep the existing platform/stair collision. These cliffs are visual/support mass, not navigation surfaces.",
+    "Keep Nanite off for this whitebox; use one matte opaque cliff material per mesh.",
+    "After import rerun Editor-world floor and line traces; these source checks do not certify UE collision."
+  ],
+  "source_validation_json": "D:\\game design\\experiment\\ArtSource\\BlockoutV02\\TerrainV02_validation.json",
+  "source_validation_summary": {
+    "B_cut_intrusions": 0,
+    "node_rim_blocked_states": 0,
+    "node_crown_blocked_states": 0
+  }
+}

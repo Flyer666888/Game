@@ -1,0 +1,45 @@
+{
+  "state": "passed",
+  "verification": "Independent new Blender FBX import",
+  "fbx": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV01\\SM_PlayerSword_A_DetailV01.fbx",
+  "fbx_sha256": "d17258e79a595034209ef154c85cb8d1f347e3747f73a62786f975853b78a036",
+  "triangles": 11878,
+  "triangles_by_material": {
+    "BladeSteel": 2894,
+    "BladeEdge": 856,
+    "BladeFuller": 568,
+    "Guard03": 2300,
+    "Grip04": 292,
+    "Pommel03": 2216,
+    "GoldDetail": 2752
+  },
+  "slots": [
+    "BladeSteel",
+    "BladeEdge",
+    "BladeFuller",
+    "Guard03",
+    "Grip04",
+    "Pommel03",
+    "GoldDetail"
+  ],
+  "uv_channels": 2,
+  "bounds_cm": {
+    "min": [
+      -7.520435810089111,
+      -1.8007643222808838,
+      -13.375218391418457
+    ],
+    "max": [
+      7.52043342590332,
+      1.8007643222808838,
+      64.9390869140625
+    ]
+  },
+  "zero_area_triangles": 0,
+  "very_small_triangle_count_area_under_1e_minus_6_cm2": 8,
+  "blade_nonmanifold_edges": 0,
+  "unchanged_grip_max_vertex_delta_cm": 5.06973582982301e-07,
+  "finite_coordinates_and_uvs": true,
+  "source_blend_sha256": "36a2a8b28bc8263038d5946e949c2c761da399da45ed3cb5cd73234cfabc397b",
+  "scope": "Static geometry and FBX roundtrip only. Root integration owns UE import, in-engine normals, performance and VR fit."
+}

@@ -1,0 +1,29 @@
+{
+  "topology": "208 by 208 uniform XY grid clipped analytically to source XZ circle",
+  "uv_policy": "Original affine projection and source crop retained exactly; new topology samples same UV0/UV1 fields, no unwrap or fit",
+  "face_vertices": 34757,
+  "face_triangles": 68692,
+  "total_triangles": 182760,
+  "max_uv_mapping_error": [
+    2.9746049179379952e-08,
+    2.9532210676919135e-08
+  ],
+  "max_added_relief_cm": 0.6070203924230976,
+  "height_filter": "Three radius4 box passes on source RGB prior to warm mask; warm height reduced to 0.0005 source units",
+  "excluded_old_visible_talons": [
+    "Claw talon 00.0",
+    "Claw talon 00.1",
+    "Claw talon 00.2",
+    "Claw talon 01.0",
+    "Claw talon 01.1",
+    "Claw talon 01.2",
+    "Claw talon 02.0",
+    "Claw talon 02.1",
+    "Claw talon 02.2",
+    "Claw talon 03.0",
+    "Claw talon 03.1",
+    "Claw talon 03.2"
+  ],
+  "grip_unchanged": true,
+  "materials_unchanged": true
+}

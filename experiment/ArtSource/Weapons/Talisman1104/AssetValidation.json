@@ -1,0 +1,51 @@
+{
+  "state": "validated",
+  "mesh": "SM_Nilin_Talisman",
+  "dimensions_m": [
+    0.06617002189159393,
+    0.01826111227273941,
+    0.16112791001796722
+  ],
+  "paper_thickness_m": 0.00032,
+  "triangles": 1360,
+  "materials": 1,
+  "manifold": true,
+  "atlas_px": [
+    2048,
+    2048
+  ],
+  "roundtrip": {
+    "glb": {
+      "triangles": 1360,
+      "dimensions_m": [
+        0.06617002189159393,
+        0.01826111227273941,
+        0.16112791001796722
+      ],
+      "atlas_px": [
+        2048,
+        2048
+      ]
+    },
+    "fbx": {
+      "triangles": 1360,
+      "dimensions_m": [
+        0.06617002189159393,
+        0.01826111227273941,
+        0.16112791001796722
+      ],
+      "atlas_px": [
+        2048,
+        2048
+      ]
+    }
+  },
+  "source": "Original Blender mesh and locally authored textures",
+  "visual_reference": "https://collections.nmth.gov.tw/CollectionContent.aspx?RNO=2010.003.0185&a=132",
+  "sha256": {
+    "SM_Nilin_Talisman.blend": "f7cb7287ae7898c8b3472f8381acaa2ca71d2e61e3404054f75841f2464dd1b5",
+    "SM_Nilin_Talisman.fbx": "edcfde204d57319def3d9043c31c7d65c30ea719194aa9eebffc8c5ea229c897",
+    "SM_Nilin_Talisman.glb": "662ca54cb361fa6604b9a98b4c7fe83a747ee674f2b2f622f325be4b046ef515",
+    "T_Talisman_Atlas.png": "e05b604e554f8ed0021f127e0be2f9a3c5829d58a96be43c55bf2058473003cc"
+  }
+}

@@ -1,0 +1,2 @@
+D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\ArtSource\DragonShield\ModelRefinement_20261016\prepare_dragon_shield_refined.py:26: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  source_materials = sorted([m for m in bpy.data.materials if m.use_nodes], key=lambda m: m.name)

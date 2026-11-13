@@ -1,0 +1,18 @@
+00:01.453  blend            | Read blend: "D:\game design\experiment\ArtSource\WeaponReview\SelectedA_DetailV02\SM_PlayerSword_A_DetailV02.blend"
+D:\game design\experiment\Scripts\Editor\VRWeaponPolishV03\build_geometry_blender.py:36: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=mats[name];m.use_nodes=True;m.diffuse_color=(*c['base_color_linear'],1)
+00:01.906  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\21475\.thumbnails\large\blender_35780_b56b6bb1f1537d3ebab652ebb79a9c86.png.png"
+Info: Saved as "SM_PlayerSword_A_DetailV03.blend"
+
+FBX export starting... 'D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\SM_PlayerSword_A_DetailV03.fbx'
+export finished in 0.0244 sec.
+V03_ASSET_EXPORTED {"triangles": 18668, "hash": "2eaf912baaa3374a4a547842dfd4f1a196c270cb651a748d939480c65779dcd5", "bounds": {"min": [-6.619999885559082, -1.4212368726730347, -13.375218391418457], "max": [6.619999885559082, 1.4212368726730347, 64.9390869140625]}}
+D:\game design\experiment\Scripts\Editor\VRWeaponPolishV03\build_geometry_blender.py:192: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True;bg=scene.world.node_tree.nodes.get('Background');bg.inputs['Color'].default_value=(.055,.065,.082,1);bg.inputs['Strength'].default_value=.45
+00:11.766  render           | Saved: 'D:\game design\experiment\ArtSource\WeaponReview\SelectedA_DetailV03\Detail_Forte.png'
+00:12.156  render           | Saved: 'D:\game design\experiment\ArtSource\WeaponReview\SelectedA_DetailV03\Detail_Whole.png'
+00:12.578  render           | Saved: 'D:\game design\experiment\ArtSource\WeaponReview\SelectedA_DetailV03\Detail_Pommel.png'
+V03_PREVIEWS_COMPLETE
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

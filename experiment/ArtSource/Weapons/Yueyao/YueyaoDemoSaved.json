@@ -1,0 +1,40 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_CombatLabYueyao",
+  "mode": "/Game/ReversedScale/Player/BP_DesktopWeaponGameMode",
+  "player_class": "/Script/experiment.NLDesktopPlayerCharacter",
+  "player_start": [
+    30.0,
+    -170.0,
+    90.0
+  ],
+  "enemies": [
+    {
+      "label": "Enemy_Melee_A",
+      "position": [
+        350.0,
+        -170.0,
+        0.0
+      ],
+      "yaw": 90.0,
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet.SK_WuxiaMale_Feet",
+      "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted"
+    },
+    {
+      "label": "Enemy_Melee_B",
+      "position": [
+        750.0,
+        230.0,
+        0.0
+      ],
+      "yaw": -240.94539590092285,
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet.SK_WuxiaMale_Feet",
+      "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted"
+    }
+  ],
+  "eye_offset_head_local_cm": [
+    0.0,
+    -8.5,
+    8.0
+  ],
+  "controls": "WASD walk, mouse look, Alt+F4 exit"
+}

@@ -1,0 +1,1522 @@
+{
+  "meshes": [
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Blades/Sword_Blade_01.Sword_Blade_01",
+      "name": "Sword_Blade_01",
+      "origin": [
+        5.140900611877441e-06,
+        0.00029921531677246094,
+        62.167213439941406
+      ],
+      "extent": [
+        0.4915050268173218,
+        5.82945442199707,
+        51.674766540527344
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Blade_01.MI_Sword_Blade_01",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE37C6240) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE2518B60) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE32BB4A0) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_01_PSED.Blades_01_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE32B11D0) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_01_normal.Blades_01_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE37CF240) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_01_RAOD.Blades_01_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Blades/Sword_Blade_02.Sword_Blade_02",
+      "name": "Sword_Blade_02",
+      "origin": [
+        -5.960464477539062e-07,
+        9.5367431640625e-07,
+        58.509849548339844
+      ],
+      "extent": [
+        0.7314019799232483,
+        6.214879035949707,
+        48.017578125
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Blade_02.MI_Sword_Blade_02",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE37CFCC0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE251C440) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE37CB200) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_07_PSED.Blades_07_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE37C7F80) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_02_normal.Blades_02_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE37C5C00) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_02_RAOD.Blades_02_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Blades/sword_blade_03.sword_blade_03",
+      "name": "sword_blade_03",
+      "origin": [
+        0.0,
+        -9.5367431640625e-07,
+        54.64746856689453
+      ],
+      "extent": [
+        0.6772677898406982,
+        6.129088878631592,
+        44.15519714355469
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Blade_03.MI_Sword_Blade_03",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE37C6E00) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE251B540) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE37C7B00) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_03_PSED.Blades_03_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE37C7700) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_03_normal.Blades_03_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE37CAA40) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_03_RAOD.Blades_03_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Blades/sword_blade_04.sword_blade_04",
+      "name": "sword_blade_04",
+      "origin": [
+        0.0,
+        0.0,
+        58.3946647644043
+      ],
+      "extent": [
+        0.6623611450195312,
+        8.25361442565918,
+        47.90182876586914
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Blade_04.MI_Sword_Blade_04",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE37CAFC0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDBE7E4600) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE37C6300) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_04_PSED.Blades_04_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE37CF380) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_04_normal.Blades_04_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE37CB040) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_04_RAOD.Blades_04_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Blades/sword_blade_05.sword_blade_05",
+      "name": "sword_blade_05",
+      "origin": [
+        0.0,
+        0.0003609657287597656,
+        58.384666442871094
+      ],
+      "extent": [
+        0.6623609662055969,
+        6.5511884689331055,
+        47.89183044433594
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Blade_05.MI_Sword_Blade_05",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CC55B5FE80) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDBE7E2940) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CD8323EDD0) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_05_PSED.Blades_05_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CC55B5F200) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_05_normal.Blades_05_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CC55B5FE80) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_05_RAOD.Blades_05_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Blades/Sword_Blade_06.Sword_Blade_06",
+      "name": "Sword_Blade_06",
+      "origin": [
+        -2.9802322387695312e-08,
+        -1.144425392150879,
+        59.2462043762207
+      ],
+      "extent": [
+        0.5055721998214722,
+        6.640893936157227,
+        48.75315475463867
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Blade_06.MI_Sword_Blade_06",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B80940) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B80A80) {parameter_info: {name: \"EnergyColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.343782, g: 1.000000, b: 0.255000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B809C0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B80AC0) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CD8385BCC0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B80CC0) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_06_PSED.Blades_06_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B80E00) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_06_normal.Blades_06_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B80C40) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_06_RAOD.Blades_06_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Blades/Sword_Blade_07.Sword_Blade_07",
+      "name": "Sword_Blade_07",
+      "origin": [
+        -8.940696716308594e-08,
+        -1.3864576816558838,
+        55.00483703613281
+      ],
+      "extent": [
+        0.6406108140945435,
+        8.77649211883545,
+        44.510353088378906
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Blade_07.MI_Sword_Blade_07",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B80740) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE332C9E0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B80D40) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_07_PSED.Blades_07_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B80400) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_07_normal.Blades_07_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B80A80) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_07_RAOD.Blades_07_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Blades/Sword_Blade_08.Sword_Blade_08",
+      "name": "Sword_Blade_08",
+      "origin": [
+        -1.1920928955078125e-07,
+        0.09230399131774902,
+        57.38046646118164
+      ],
+      "extent": [
+        0.503609299659729,
+        5.090669631958008,
+        46.88827133178711
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Blade_08.MI_Sword_Blade_08",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B81CC0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE3327A80) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B81F40) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_08_PSED.Blades_08_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B819C0) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_08_normal.Blades_08_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B81DC0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Blades/Blades_08_RAOD.Blades_08_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/Sword_crossguard_01.Sword_crossguard_01",
+      "name": "Sword_crossguard_01",
+      "origin": [
+        8.344650268554688e-07,
+        -8.58306884765625e-06,
+        11.17142105102539
+      ],
+      "extent": [
+        2.2912182807922363,
+        12.195667266845703,
+        4.80357551574707
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_01.MI_Sword_Crossguard_01",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B81680) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.837395, b: 0.815000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B81100) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE33200A0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CD4B41F730) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_01_PSED.Crossguards_01_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CD4B416310) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_01_normal.Crossguards_01_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B80600) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_01_RAOD.Crossguards_01_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/Sword_Crossguard_010.Sword_Crossguard_010",
+      "name": "Sword_Crossguard_010",
+      "origin": [
+        0.0,
+        0.0,
+        9.53420352935791
+      ],
+      "extent": [
+        4.016969680786133,
+        15.20169734954834,
+        7.919711112976074
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_010.MI_Sword_Crossguard_010",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B82B80) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.938474, b: 0.930000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B82900) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE3327300) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B82880) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_10_PSED.Crossguards_10_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B82E00) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_10_normal.Crossguards_10_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B82C80) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_10_RAOD.Crossguards_10_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/Sword_Crossguard_011.Sword_Crossguard_011",
+      "name": "Sword_Crossguard_011",
+      "origin": [
+        1.1920928955078125e-07,
+        0.0,
+        18.700782775878906
+      ],
+      "extent": [
+        3.073918342590332,
+        14.365629196166992,
+        13.000687599182129
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_011.MI_Sword_Crossguard_011",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B83600) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.938474, b: 0.930000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B83640) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE332B180) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B83900) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_11_PSED.Crossguards_11_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B83940) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_11_normal.Crossguards_11_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B839C0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_11_RAOD.Crossguards_11_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/sword_crossguard_02.sword_crossguard_02",
+      "name": "sword_crossguard_02",
+      "origin": [
+        1.0728836059570312e-06,
+        -2.86102294921875e-06,
+        11.082977294921875
+      ],
+      "extent": [
+        2.291217803955078,
+        11.939628601074219,
+        4.965687274932861
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_02.MI_Sword_Crossguard_02",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B83080) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.968414, b: 0.958769, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B83C80) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B83640) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE3326EA0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CD83FE6D60) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_02_PSED.Crossguards_02_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CD83FE6CC0) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_02_normal.Crossguards_02_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B83CC0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_02_RAOD.Crossguards_02_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/sword_crossguard_03.sword_crossguard_03",
+      "name": "sword_crossguard_03",
+      "origin": [
+        7.152557373046875e-07,
+        -2.384185791015625e-06,
+        11.653669357299805
+      ],
+      "extent": [
+        2.433436632156372,
+        11.761716842651367,
+        4.930351257324219
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_03.MI_Sword_Crossguard_03",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B84E80) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.382949, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B84FC0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE3320C80) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CD83FE3200) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_03_PSED.Crossguards_03_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B84F80) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_03_normal.Crossguards_03_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B84FC0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_03_RAOD.Crossguards_03_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/sword_crossguard_04.sword_crossguard_04",
+      "name": "sword_crossguard_04",
+      "origin": [
+        0.0,
+        0.003300189971923828,
+        8.48365592956543
+      ],
+      "extent": [
+        2.3489999771118164,
+        11.526300430297852,
+        5.706281661987305
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_04.MI_Sword_Crossguard_04",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B84500) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.854974, b: 0.835000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B84CC0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE332A000) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B84140) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_04_PSED.Crossguards_04_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B84C40) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_04_normal.Crossguards_04_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CD83FE28A0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_04_RAOD.Crossguards_04_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/sword_crossguard_05.sword_crossguard_05",
+      "name": "sword_crossguard_05",
+      "origin": [
+        0.0,
+        0.0,
+        10.67754077911377
+      ],
+      "extent": [
+        2.2912001609802246,
+        11.610087394714355,
+        4.104240417480469
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_05.MI_Sword_Crossguard_05",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B85140) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.938474, b: 0.930000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B85740) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE332A500) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B85580) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_05_PSED.Crossguards_05_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B853C0) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_05_normal.Crossguards_05_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B85A00) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_05_RAOD.Crossguards_05_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/Sword_crossguard_06.Sword_crossguard_06",
+      "name": "Sword_crossguard_06",
+      "origin": [
+        0.0,
+        2.547943115234375,
+        23.850250244140625
+      ],
+      "extent": [
+        3.0586535930633545,
+        11.817707061767578,
+        39.976951599121094
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_06.MI_Sword_Crossguard_06",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B86700) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.938474, b: 0.930000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B86740) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE33217C0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B86900) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_06_PSED.Crossguards_06_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B86940) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_06_normal.Crossguards_06_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B86980) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_06_RAOD.Crossguards_06_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/Sword_Crossguard_07.Sword_Crossguard_07",
+      "name": "Sword_Crossguard_07",
+      "origin": [
+        0.0,
+        0.0,
+        11.302722930908203
+      ],
+      "extent": [
+        4.016969680786133,
+        15.20169734954834,
+        6.151191234588623
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_07.MI_Sword_Crossguard_07",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B85280) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.938474, b: 0.930000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B867C0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE332D7A0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B86740) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_07_PSED.Crossguards_07_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B86900) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_07_normal.Crossguards_07_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B863C0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_07_RAOD.Crossguards_07_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/Sword_crossguard_08.Sword_crossguard_08",
+      "name": "Sword_crossguard_08",
+      "origin": [
+        1.1920928955078125e-07,
+        -0.0966181755065918,
+        11.364994049072266
+      ],
+      "extent": [
+        2.2943978309631348,
+        14.941654205322266,
+        7.022810459136963
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_08.MI_Sword_Crossguard_08",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B87900) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.938474, b: 0.930000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B87980) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE3325460) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B87B00) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_08_PSED.Crossguards_08_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B87BC0) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_08_normal.Crossguards_08_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B87C00) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_08_RAOD.Crossguards_08_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/Sword_crossguard_09.Sword_crossguard_09",
+      "name": "Sword_crossguard_09",
+      "origin": [
+        0.0,
+        2.957369327545166,
+        20.869123458862305
+      ],
+      "extent": [
+        3.719832181930542,
+        11.137529373168945,
+        24.3804874420166
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_09.MI_Sword_Crossguard_09",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B87540) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.938474, b: 0.930000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B87CC0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE332BEA0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B87E80) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_09_PSED.Crossguards_09_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B87800) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_09_normal.Crossguards_09_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B87F80) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Crossguards/Crossguards_09_RAOD.Crossguards_09_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/Sword_hilt_01.Sword_hilt_01",
+      "name": "Sword_hilt_01",
+      "origin": [
+        0.0,
+        2.980232238769531e-07,
+        -2.929352283477783
+      ],
+      "extent": [
+        1.8503296375274658,
+        1.850329875946045,
+        10.781787872314453
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE332DF20) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CD83FE3750) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_PSED.Hilts_01_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CD83FE34D0) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_normal.Hilts_01_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B87980) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_RAOD.Hilts_01_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/Sword_hilt_010.Sword_hilt_010",
+      "name": "Sword_hilt_010",
+      "origin": [
+        0.0,
+        0.0,
+        -2.928941011428833
+      ],
+      "extent": [
+        1.7314709424972534,
+        1.7314709424972534,
+        10.78219985961914
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_10.MI_Sword_Hilt_10",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE3320460) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B89DC0) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_10_PSED.Hilts_10_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B89C00) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_10_normal.Hilts_10_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B89C40) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_10_RAOD.Hilts_10_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/Sword_hilt_011.Sword_hilt_011",
+      "name": "Sword_hilt_011",
+      "origin": [
+        0.0,
+        -0.19113630056381226,
+        -2.929352045059204
+      ],
+      "extent": [
+        1.9821264743804932,
+        2.0478365421295166,
+        10.781789779663086
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_11.MI_Sword_Hilt_11",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE33232A0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B89F00) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_11_PSED.Hilts_11_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B88D80) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_11_normal.Hilts_11_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B89EC0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_11_RAOD.Hilts_11_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/sword_hilt_02.sword_hilt_02",
+      "name": "sword_hilt_02",
+      "origin": [
+        0.0,
+        0.0,
+        -2.6646595001220703
+      ],
+      "extent": [
+        2.2206826210021973,
+        2.2206826210021973,
+        11.046481132507324
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE3329B00) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B89300) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_PSED.Hilts_01_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B89280) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_normal.Hilts_01_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B896C0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_RAOD.Hilts_01_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/sword_hilt_03.sword_hilt_03",
+      "name": "sword_hilt_03",
+      "origin": [
+        0.0,
+        0.0,
+        -2.6646595001220703
+      ],
+      "extent": [
+        2.2206826210021973,
+        2.2206826210021973,
+        11.046481132507324
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE3328E80) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CD83FE2990) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_PSED.Hilts_01_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B89E40) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_normal.Hilts_01_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B89640) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_RAOD.Hilts_01_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/sword_hilt_04.sword_hilt_04",
+      "name": "sword_hilt_04",
+      "origin": [
+        0.0,
+        0.0,
+        -2.6646595001220703
+      ],
+      "extent": [
+        2.2206826210021973,
+        2.2206826210021973,
+        11.046481132507324
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE3328520) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8A340) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_PSED.Hilts_01_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8A3C0) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_normal.Hilts_01_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8A400) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_RAOD.Hilts_01_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/sword_hilt_05.sword_hilt_05",
+      "name": "sword_hilt_05",
+      "origin": [
+        0.0,
+        0.0,
+        -2.6646595001220703
+      ],
+      "extent": [
+        2.2206826210021973,
+        2.2206826210021973,
+        11.046481132507324
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDE3326A40) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8A640) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_PSED.Hilts_01_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8A5C0) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_normal.Hilts_01_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8A800) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_01_RAOD.Hilts_01_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/Sword_hilt_06.Sword_hilt_06",
+      "name": "Sword_hilt_06",
+      "origin": [
+        0.0,
+        0.0,
+        -2.794050693511963
+      ],
+      "extent": [
+        4.0422797203063965,
+        3.334195613861084,
+        10.917089462280273
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_06.MI_Sword_Hilt_06",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CD87D688E0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8AF40) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_06_PSED.Hilts_06_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CD83FEBE50) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_06_normal.Hilts_06_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CD83FED070) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_06_RAOD.Hilts_06_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/Sword_hilt_07.Sword_hilt_07",
+      "name": "Sword_hilt_07",
+      "origin": [
+        0.0,
+        0.0,
+        -2.929352283477783
+      ],
+      "extent": [
+        2.3286800384521484,
+        2.3286800384521484,
+        10.781787872314453
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_07.MI_Sword_Hilt_07",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CD87D68200) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8ADC0) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_07_PSED.Hilts_07_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8B540) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_07_normal.Hilts_07_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8BC00) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_07_RAOD.Hilts_07_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/Sword_hilt_08.Sword_hilt_08",
+      "name": "Sword_hilt_08",
+      "origin": [
+        0.0,
+        0.0,
+        -2.929352283477783
+      ],
+      "extent": [
+        2.436965227127075,
+        2.436965227127075,
+        10.781787872314453
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_08.MI_Sword_Hilt_08",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CD4B290DC0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8B500) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_08_PSED.Hilts_08_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8BB40) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_08_normal.Hilts_08_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8B680) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_08_RAOD.Hilts_08_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/Sword_hilt_09.Sword_hilt_09",
+      "name": "Sword_hilt_09",
+      "origin": [
+        0.08410215377807617,
+        0.0,
+        -2.9469504356384277
+      ],
+      "extent": [
+        2.436965227127075,
+        2.436965227127075,
+        10.781787872314453
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_09.MI_Sword_Hilt_09",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDA6D406E0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CD83FEA000) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_09_PSED.Hilts_09_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CD83FECC10) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_09_normal.Hilts_09_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CD83FE6AE0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Hilts/Hilts_09_RAOD.Hilts_09_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_01.Sword_pommel_01",
+      "name": "Sword_pommel_01",
+      "origin": [
+        0.0,
+        -9.5367431640625e-07,
+        -16.634937286376953
+      ],
+      "extent": [
+        3.3495306968688965,
+        3.3495306968688965,
+        3.4196290969848633
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_01.MI_Sword_Pommel_01",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8D6C0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDC12BC080) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8D840) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_01_PSED.Pommel_01_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8D880) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_01_normal.Pommel_01_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8D900) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_01_RAOD.Pommel_01_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_010.Sword_pommel_010",
+      "name": "Sword_pommel_010",
+      "origin": [
+        -0.08845329284667969,
+        0.0,
+        -19.912582397460938
+      ],
+      "extent": [
+        7.896440029144287,
+        7.896440029144287,
+        6.697273254394531
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_10.MI_Sword_Pommel_10",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8CAC0) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8D4C0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.500000, g: 0.500000, b: 0.500000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8D500) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CD7B2F0D20) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8C800) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_10_PSED.Pommel_10_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8CB40) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_10_normal.Pommel_10_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8CB80) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_10_RAOD.Pommel_10_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_011.Sword_pommel_011",
+      "name": "Sword_pommel_011",
+      "origin": [
+        0.0053462982177734375,
+        0.17644500732421875,
+        -19.276283264160156
+      ],
+      "extent": [
+        9.136908531188965,
+        9.136908531188965,
+        7.17863655090332
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_11.MI_Sword_Pommel_11",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8E640) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8E600) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.500000, g: 0.500000, b: 0.500000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8E740) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDA6D40780) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8E980) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_11_PSED.Pommel_11_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8E940) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_11_normal.Pommel_11_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8EB40) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_11_RAOD.Pommel_11_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_012.Sword_pommel_012",
+      "name": "Sword_pommel_012",
+      "origin": [
+        0.0,
+        0.0,
+        -19.835113525390625
+      ],
+      "extent": [
+        3.704423427581787,
+        3.704423427581787,
+        6.619805335998535
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_12.MI_Sword_Pommel_12",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8ED80) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8ECC0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.500000, g: 0.500000, b: 0.500000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8EF80) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CD87730DC0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8EB80) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_12_PSED.Pommel_12_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8EAC0) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_12_normal.Pommel_12_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8E080) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_12_RAOD.Pommel_12_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_013.Sword_pommel_013",
+      "name": "Sword_pommel_013",
+      "origin": [
+        0.0,
+        0.0,
+        -19.912582397460938
+      ],
+      "extent": [
+        3.704423427581787,
+        7.896440029144287,
+        6.697273254394531
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_13.MI_Sword_Pommel_13",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8FBC0) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8FB00) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.500000, g: 0.500000, b: 0.500000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8FC00) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDECF400A0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8FDC0) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_13_PSED.Pommel_13_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8FE80) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_13_normal.Pommel_13_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8FF00) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_13_RAOD.Pommel_13_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/sword_pommel_014.sword_pommel_014",
+      "name": "sword_pommel_014",
+      "origin": [
+        -2.384185791015625e-07,
+        -7.152557373046875e-07,
+        -19.67214012145996
+      ],
+      "extent": [
+        2.6446309089660645,
+        2.6446311473846436,
+        6.456830978393555
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_14.MI_Sword_Pommel_14",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8F240) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8FDC0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.500000, g: 0.500000, b: 0.500000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8F8C0) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDECF401E0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8FE80) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_14_PSED.Pommel_14_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8F640) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_14_normal.Pommel_14_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8FB80) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_14_RAOD.Pommel_14_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_02.Sword_pommel_02",
+      "name": "Sword_pommel_02",
+      "origin": [
+        -1.1920928955078125e-07,
+        -1.4436719417572021,
+        -15.049720764160156
+      ],
+      "extent": [
+        2.2149271965026855,
+        3.662557363510132,
+        6.377328872680664
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_02.MI_Sword_Pommel_02",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDE6B8FD00) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDECF40F00) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CD87A52990) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_02_PSED.Pommel_02_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDE6B8FD00) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_02_normal.Pommel_02_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CD87A52EE0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_02_RAOD.Pommel_02_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_03.Sword_pommel_03",
+      "name": "Sword_pommel_03",
+      "origin": [
+        -2.384185791015625e-07,
+        -7.152557373046875e-07,
+        -18.383548736572266
+      ],
+      "extent": [
+        2.8140368461608887,
+        2.8140366077423096,
+        5.17988920211792
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_03.MI_Sword_Pommel_03",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDECFE0200) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE01C0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE02C0) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDECF43520) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDECFE0AC0) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_03_PSED.Pommel_03_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE0B40) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_03_normal.Pommel_03_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE0B00) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_03_RAOD.Pommel_03_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_04.Sword_pommel_04",
+      "name": "Sword_pommel_04",
+      "origin": [
+        0.0,
+        -4.76837158203125e-07,
+        -19.098970413208008
+      ],
+      "extent": [
+        2.1610329151153564,
+        4.5772247314453125,
+        5.895310878753662
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_04.MI_Sword_Pommel_04",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDECFE1080) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE16C0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.780392, g: 0.749020, b: 0.792157, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE15C0) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDECF44BA0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDECFE1840) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_04_PSED.Pommel_04_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE1880) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_04_normal.Pommel_04_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE19C0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_04_RAOD.Pommel_04_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_05.Sword_pommel_05",
+      "name": "Sword_pommel_05",
+      "origin": [
+        0.0,
+        -7.152557373046875e-07,
+        -19.334489822387695
+      ],
+      "extent": [
+        2.9913136959075928,
+        2.9913134574890137,
+        6.130829334259033
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_05.MI_Sword_Pommel_05",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDECFE1800) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE1B00) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.500000, g: 0.500000, b: 0.500000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE1600) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDECF450A0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CD87A53A70) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_05_PSED.Pommel_05_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE1DC0) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_05_normal.Pommel_05_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE1B00) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_05_RAOD.Pommel_05_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_Pommel_06.Sword_Pommel_06",
+      "name": "Sword_Pommel_06",
+      "origin": [
+        0.0,
+        0.23289144039154053,
+        -22.6888484954834
+      ],
+      "extent": [
+        2.465545177459717,
+        3.528614044189453,
+        9.473539352416992
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_06.MI_Sword_Pommel_06",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDECFE2AC0) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE2C40) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.500000, g: 0.500000, b: 0.500000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE2CC0) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDECF46180) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDECFE2EC0) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_06_PSED.Pommel_06_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE2FC0) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_06_normal.Pommel_06_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE2F40) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_06_RAOD.Pommel_06_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_07.Sword_pommel_07",
+      "name": "Sword_pommel_07",
+      "origin": [
+        -0.004929542541503906,
+        -1.9169533252716064,
+        -19.931961059570312
+      ],
+      "extent": [
+        3.385765314102173,
+        5.621328353881836,
+        6.716651916503906
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_07.MI_Sword_Pommel_07",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDECFE2980) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE2A80) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.500000, g: 0.500000, b: 0.500000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE2F00) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDECF453C0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CD87A53F20) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: None}>",
+            "<Struct 'TextureParameterValue' (0x000001CD87A50230) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_07_normal.Pommel_07_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CD87A532A0) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: None}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_08.Sword_pommel_08",
+      "name": "Sword_pommel_08",
+      "origin": [
+        -2.384185791015625e-07,
+        -5.960464477539062e-07,
+        -19.835113525390625
+      ],
+      "extent": [
+        2.6446309089660645,
+        2.6446313858032227,
+        6.619805335998535
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_08.MI_Sword_Pommel_08",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDECFE3BC0) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE3840) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.500000, g: 0.500000, b: 0.500000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE3A80) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDECF46FE0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDECFE3B80) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_08_PSED.Pommel_08_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE3940) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_08_normal.Pommel_08_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE3900) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_08_RAOD.Pommel_08_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    },
+    {
+      "asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_09.Sword_pommel_09",
+      "name": "Sword_pommel_09",
+      "origin": [
+        -0.08845329284667969,
+        0.0,
+        -19.912582397460938
+      ],
+      "extent": [
+        7.896440029144287,
+        7.896440029144287,
+        6.697273254394531
+      ],
+      "materials": [
+        {
+          "material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_09.MI_Sword_Pommel_09",
+          "parent": "<Object '/Game/ModularWeapons/Materials/M_ModularWeapons_Master.M_ModularWeapons_Master' (0x000001CDC6FED200) Class 'Material'>",
+          "vector_parameter_values": [
+            "<Struct 'VectorParameterValue' (0x000001CDECFE3E00) {parameter_info: {name: \"DecoColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.121054, b: 0.000000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE3CC0) {parameter_info: {name: \"MainColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.500000, g: 0.500000, b: 0.500000, a: 1.000000}}>",
+            "<Struct 'VectorParameterValue' (0x000001CDECFE3A80) {parameter_info: {name: \"SecondaryColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.705000, g: 0.450347, b: 0.130425, a: 1.000000}}>"
+          ],
+          "scalar_parameter_values": [
+            "<Struct 'ScalarParameterValue' (0x000001CDECF47DA0) {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+          ],
+          "texture_parameter_values": [
+            "<Struct 'TextureParameterValue' (0x000001CDECFE36C0) {parameter_info: {name: \"ChannelMasks\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_08_PSED.Pommel_08_PSED'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE3640) {parameter_info: {name: \"NormalMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_08_normal.Pommel_08_normal'\"}>",
+            "<Struct 'TextureParameterValue' (0x000001CDECFE3300) {parameter_info: {name: \"RoughMetalAOMap_INPUT\", association: GlobalParameter, index: -1}, parameter_value: \"/Script/Engine.Texture2D'/Game/ModularWeapons/Textures/Swords/Pommels/Pommel_08_RAOD.Pommel_08_RAOD'\"}>"
+          ]
+        }
+      ],
+      "sockets": [],
+      "socket_note": "StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read",
+      "exported": true
+    }
+  ],
+  "api": {
+    "AutomationLibrary.take_high_res_screenshot": "X.take_high_res_screenshot(res_x, res_y, filename, camera=None, mask_enabled=False, capture_hdr=False, comparison_tolerance=ComparisonTolerance.LOW, comparison_notes=\"\", delay=0.000000, force_game_view=True) -> AutomationEditorTask\r\ntake high res screenshot in editor.\r\n\r\nArgs:\r\n    res_x (int32): \r\n    res_y (int32): \r\n    filename (str): \r\n    camera (CameraActor): \r\n    mask_enabled (bool): \r\n    capture_hdr (bool): \r\n    comparison_tolerance (ComparisonTolerance): \r\n    comparison_notes (str): \r\n    delay (float): \r\n    force_game_view (bool): \r\n\r\nReturns:\r\n    AutomationEditorTask:",
+    "EditorLevelLibrary.set_level_viewport_camera_info": "X.set_level_viewport_camera_info(camera_location, camera_rotation) -> None\r\nSet Level Viewport Camera Info\r\ndeprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Unreal Editor Subsystem\r\n\r\nArgs:\r\n    camera_location (Vector): \r\n    camera_rotation (Rotator):",
+    "StaticMesh.get_socket_by_name": "None"
+  }
+}

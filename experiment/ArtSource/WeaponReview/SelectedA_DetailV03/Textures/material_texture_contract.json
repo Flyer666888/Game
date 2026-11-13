@@ -1,0 +1,441 @@
+{
+  "state": "passed",
+  "version": "V03",
+  "generator": "D:\\game design\\experiment\\Scripts\\Editor\\VRWeaponPolishV03\\build_surface_maps.py",
+  "provenance": "Locally authored deterministic technical PBR maps. No downloaded or AI-provider imagery.",
+  "seed": 315927,
+  "resolution": 512,
+  "files": {
+    "SteelSurface_Roughness": {
+      "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\SteelSurface_Roughness.png",
+      "relative_file": "SteelSurface_Roughness.png",
+      "sha256": "ff9b1987a1d733369e6ea84bf49147f86c003f32074822514594e521aa9dbb12",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 1,
+      "type": "roughness",
+      "sRGB": false,
+      "address_x": "wrap",
+      "address_y": "wrap",
+      "stats": {
+        "min": 0.21538631812052694,
+        "max": 0.3370155526216244,
+        "mean": 0.275000206813171,
+        "std": 0.0171472929259302,
+        "border_difference_rms": 0.005609268037095302,
+        "interior_difference_rms": 0.00670163188438702,
+        "finite": true,
+        "border_to_interior_difference_ratio": 0.8370003207969945
+      }
+    },
+    "SteelSurface_Normal": {
+      "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\SteelSurface_Normal.png",
+      "relative_file": "SteelSurface_Normal.png",
+      "sha256": "eacb19503b4a51f5ed5e2d0dc8c09df61bc92d8b776c020d0c889a8faa2ce13b",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "type": "normal",
+      "sRGB": false,
+      "address_x": "wrap",
+      "address_y": "wrap",
+      "stats": {
+        "min": 0.46756843945866566,
+        "max": 0.9999999999921381,
+        "mean": 0.6666137072584264,
+        "std": 0.23573969942913034,
+        "border_difference_rms": 0.004879768455257382,
+        "interior_difference_rms": 0.004624976954218687,
+        "finite": true,
+        "border_to_interior_difference_ratio": 1.0550903287866733,
+        "decoded_length_min": 1.0000153785822494,
+        "decoded_length_max": 1.0022274308483798,
+        "decoded_z_min": 1.0,
+        "green_convention": "DirectX / image-down"
+      }
+    },
+    "AgedSilver_Roughness": {
+      "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\AgedSilver_Roughness.png",
+      "relative_file": "AgedSilver_Roughness.png",
+      "sha256": "f68d47c528227fbfd153aa24d418c1b985971ffd2642ffad5bf78d63d4f8ed46",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 1,
+      "type": "roughness",
+      "sRGB": false,
+      "address_x": "wrap",
+      "address_y": "wrap",
+      "stats": {
+        "min": 0.25961873135616,
+        "max": 0.404404905895245,
+        "mean": 0.3350003159265649,
+        "std": 0.017878629458186652,
+        "border_difference_rms": 0.0026936224285189513,
+        "interior_difference_rms": 0.0028377614540576255,
+        "finite": true,
+        "border_to_interior_difference_ratio": 0.9492067857456538
+      }
+    },
+    "AgedSilver_Normal": {
+      "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\AgedSilver_Normal.png",
+      "relative_file": "AgedSilver_Normal.png",
+      "sha256": "cc80b2e69005a4d3a8acbc50418f8ce21c1a3a1a6bd464a6f89c3c18d8d91fec",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "type": "normal",
+      "sRGB": false,
+      "address_x": "wrap",
+      "address_y": "wrap",
+      "stats": {
+        "min": 0.4551812033917737,
+        "max": 0.9999999996296403,
+        "mean": 0.6665814171110872,
+        "std": 0.23576251781526958,
+        "border_difference_rms": 0.003767174715358868,
+        "interior_difference_rms": 0.0037411219198442156,
+        "finite": true,
+        "border_to_interior_difference_ratio": 1.006963899085047,
+        "decoded_length_min": 0.9957618765172253,
+        "decoded_length_max": 1.0043121176610845,
+        "decoded_z_min": 0.9921568627450981,
+        "green_convention": "DirectX / image-down"
+      }
+    },
+    "DarkLeather_Roughness": {
+      "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\DarkLeather_Roughness.png",
+      "relative_file": "DarkLeather_Roughness.png",
+      "sha256": "b24fb79d612d885abc4b30dcbe2e0717066c8627f484dcb7ea5fa20f384027fd",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 1,
+      "type": "roughness",
+      "sRGB": false,
+      "address_x": "wrap",
+      "address_y": "wrap",
+      "stats": {
+        "min": 0.48655365200834005,
+        "max": 0.7193217583217375,
+        "mean": 0.6100027730481936,
+        "std": 0.029307730188510607,
+        "border_difference_rms": 0.00803833713610626,
+        "interior_difference_rms": 0.007739236523035923,
+        "finite": true,
+        "border_to_interior_difference_ratio": 1.0386473022474583
+      }
+    },
+    "DarkLeather_Normal": {
+      "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\DarkLeather_Normal.png",
+      "relative_file": "DarkLeather_Normal.png",
+      "sha256": "efaa428f2285101ad85d05666c7645d9d8b9f7eb2ad6be04965a1ebf8d546b19",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "type": "normal",
+      "sRGB": false,
+      "address_x": "wrap",
+      "address_y": "wrap",
+      "stats": {
+        "min": 0.4210047529586155,
+        "max": 0.9999999993729568,
+        "mean": 0.6663185163152162,
+        "std": 0.23594805458837437,
+        "border_difference_rms": 0.009238167161999072,
+        "interior_difference_rms": 0.009203583310119681,
+        "finite": true,
+        "border_to_interior_difference_ratio": 1.0037576507664536,
+        "decoded_length_min": 0.9955765294105272,
+        "decoded_length_max": 1.0046183243903548,
+        "decoded_z_min": 0.9764705882352942,
+        "green_convention": "DirectX / image-down"
+      }
+    },
+    "IceJade_BaseColor": {
+      "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_BaseColor.png",
+      "relative_file": "IceJade_BaseColor.png",
+      "sha256": "39bd0a0d7de6ff732c2113b61bf52efb995fbe2e3de2243dd28369b73c381a3c",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "type": "base_color",
+      "sRGB": true,
+      "address_x": "wrap",
+      "address_y": "wrap",
+      "stats": {
+        "min": 0.6485864225425235,
+        "max": 0.9846552612470207,
+        "mean": 0.7788544577869692,
+        "std": 0.07168253577198723,
+        "border_difference_rms": 0.0012798123960287198,
+        "interior_difference_rms": 0.0031882164114543092,
+        "finite": true,
+        "border_to_interior_difference_ratio": 0.40141954963619664
+      }
+    },
+    "IceJade_Roughness": {
+      "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_Roughness.png",
+      "relative_file": "IceJade_Roughness.png",
+      "sha256": "e2de083259bc6c15baf151fcfd708aa2798b6a089d481454358044e566e2e6cf",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 1,
+      "type": "roughness",
+      "sRGB": false,
+      "address_x": "wrap",
+      "address_y": "wrap",
+      "stats": {
+        "min": 0.26204401779354514,
+        "max": 0.3355854171920496,
+        "mean": 0.2851041843253121,
+        "std": 0.008231448833984793,
+        "border_difference_rms": 0.0004925222243516522,
+        "interior_difference_rms": 0.0011722696993903276,
+        "finite": true,
+        "border_to_interior_difference_ratio": 0.42014412264328116
+      }
+    },
+    "IceJade_Normal": {
+      "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_Normal.png",
+      "relative_file": "IceJade_Normal.png",
+      "sha256": "122b63ad8c8fae7330e73de7ca2a02e77df506469e388b4f7ddf1bada0c2798b",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "type": "normal",
+      "sRGB": false,
+      "address_x": "wrap",
+      "address_y": "wrap",
+      "stats": {
+        "min": 0.47254149962154474,
+        "max": 0.9999999999987287,
+        "mean": 0.6666635525555228,
+        "std": 0.23570446237376547,
+        "border_difference_rms": 0.0015637565320956142,
+        "interior_difference_rms": 0.0016878778601962985,
+        "finite": true,
+        "border_to_interior_difference_ratio": 0.926463086561104,
+        "decoded_length_min": 1.0000153785822494,
+        "decoded_length_max": 1.0025956317324223,
+        "decoded_z_min": 1.0,
+        "green_convention": "DirectX / image-down"
+      }
+    }
+  },
+  "normal_convention": "DirectX tangent-space normal; green image-down. Unreal texture compression Normalmap; sRGB false; do not flip green.",
+  "roughness_import": "sRGB false; CompressionSettings Masks or Grayscale; use red output.",
+  "sampling": "Default mipmaps, wrap U/V, trilinear or anisotropic filtering. Avoid sharpening.",
+  "periodicity": "All stochastic fields use periodic FFT filtering, all derivatives wrap, and veins are rasterized onto a torus. Texture borders need not be duplicate pixels; their neighbor differences are comparable to interior differences.",
+  "materials": {
+    "BladeSteel": {
+      "textures": {
+        "roughness": "SteelSurface_Roughness",
+        "normal": "SteelSurface_Normal"
+      },
+      "uv_scale": [
+        1,
+        1
+      ],
+      "direction": "polish lines parallel to V; map V along blade length",
+      "base_color_linear": [
+        0.52,
+        0.55,
+        0.58
+      ],
+      "metallic": 1.0,
+      "roughness_multiplier": 1.0,
+      "normal_strength": 1.0
+    },
+    "BladeEdge": {
+      "textures": {
+        "roughness": "SteelSurface_Roughness",
+        "normal": "SteelSurface_Normal"
+      },
+      "uv_scale": [
+        1,
+        1
+      ],
+      "base_color_linear": [
+        0.61,
+        0.64,
+        0.67
+      ],
+      "metallic": 1.0,
+      "roughness_multiplier": 0.72,
+      "normal_strength": 0.55
+    },
+    "GuardMetal": {
+      "textures": {
+        "roughness": "AgedSilver_Roughness",
+        "normal": "AgedSilver_Normal"
+      },
+      "uv_scale": [
+        2,
+        2
+      ],
+      "base_color_linear": [
+        0.43,
+        0.46,
+        0.49
+      ],
+      "metallic": 1.0,
+      "roughness_multiplier": 1.0,
+      "normal_strength": 1.0
+    },
+    "DarkLeather": {
+      "textures": {
+        "roughness": "DarkLeather_Roughness",
+        "normal": "DarkLeather_Normal"
+      },
+      "uv_scale": [
+        4,
+        4
+      ],
+      "base_color_linear": [
+        0.014,
+        0.019,
+        0.021
+      ],
+      "metallic": 0.0,
+      "roughness_multiplier": 1.0,
+      "normal_strength": 1.0
+    },
+    "IceJade": {
+      "textures": {
+        "roughness": "IceJade_Roughness",
+        "normal": "IceJade_Normal",
+        "base_color": "IceJade_BaseColor"
+      },
+      "uv_scale": [
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness_multiplier": 1.0,
+      "normal_strength": 1.0,
+      "opacity": 1.0,
+      "emissive": 0.0
+    }
+  },
+  "ice_vein_coverage_above_0_1": 0.006114959716796875,
+  "limits": "This is offline texture validation. Unreal material compilation and game lighting review are separate.",
+  "sets": {
+    "SteelSurface": {
+      "textures": {
+        "roughness": {
+          "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\SteelSurface_Roughness.png",
+          "srgb": false,
+          "sha256": "ff9b1987a1d733369e6ea84bf49147f86c003f32074822514594e521aa9dbb12"
+        },
+        "normal": {
+          "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\SteelSurface_Normal.png",
+          "srgb": false,
+          "sha256": "eacb19503b4a51f5ed5e2d0dc8c09df61bc92d8b776c020d0c889a8faa2ce13b"
+        }
+      },
+      "roughness_range": [
+        0.21538631812052694,
+        0.3370155526216244
+      ],
+      "roughness_mean": 0.275000206813171
+    },
+    "AgedSilver": {
+      "textures": {
+        "roughness": {
+          "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\AgedSilver_Roughness.png",
+          "srgb": false,
+          "sha256": "f68d47c528227fbfd153aa24d418c1b985971ffd2642ffad5bf78d63d4f8ed46"
+        },
+        "normal": {
+          "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\AgedSilver_Normal.png",
+          "srgb": false,
+          "sha256": "cc80b2e69005a4d3a8acbc50418f8ce21c1a3a1a6bd464a6f89c3c18d8d91fec"
+        }
+      },
+      "roughness_range": [
+        0.25961873135616,
+        0.404404905895245
+      ],
+      "roughness_mean": 0.3350003159265649
+    },
+    "DarkLeather": {
+      "textures": {
+        "roughness": {
+          "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\DarkLeather_Roughness.png",
+          "srgb": false,
+          "sha256": "b24fb79d612d885abc4b30dcbe2e0717066c8627f484dcb7ea5fa20f384027fd"
+        },
+        "normal": {
+          "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\DarkLeather_Normal.png",
+          "srgb": false,
+          "sha256": "efaa428f2285101ad85d05666c7645d9d8b9f7eb2ad6be04965a1ebf8d546b19"
+        }
+      },
+      "roughness_range": [
+        0.48655365200834005,
+        0.7193217583217375
+      ],
+      "roughness_mean": 0.6100027730481936
+    },
+    "IceJade": {
+      "textures": {
+        "roughness": {
+          "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_Roughness.png",
+          "srgb": false,
+          "sha256": "e2de083259bc6c15baf151fcfd708aa2798b6a089d481454358044e566e2e6cf"
+        },
+        "normal": {
+          "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_Normal.png",
+          "srgb": false,
+          "sha256": "122b63ad8c8fae7330e73de7ca2a02e77df506469e388b4f7ddf1bada0c2798b"
+        },
+        "base_color": {
+          "file": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_BaseColor.png",
+          "srgb": true,
+          "sha256": "39bd0a0d7de6ff732c2113b61bf52efb995fbe2e3de2243dd28369b73c381a3c"
+        }
+      },
+      "roughness_range": [
+        0.26204401779354514,
+        0.3355854171920496
+      ],
+      "roughness_mean": 0.2851041843253121
+    }
+  },
+  "blender_preview": "These normal images are DirectX. In Blender invert the green channel before a Normal Map node (RGB=(R,1-G,B)).",
+  "suggested_uv_scale_for_4cm_geometry_uvs": {
+    "SteelSurface": [
+      1,
+      1
+    ],
+    "AgedSilver": [
+      1,
+      1
+    ],
+    "IceJade": [
+      2,
+      2
+    ],
+    "DarkLeather_original_grip_uvs": [
+      4,
+      4
+    ]
+  }
+}

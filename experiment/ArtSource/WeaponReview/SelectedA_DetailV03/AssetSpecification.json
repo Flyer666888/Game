@@ -1,0 +1,36 @@
+{
+  "version": "V03",
+  "user_request": "依照写实风格继续优化刀的建模，最好有一些龙或冰的元素",
+  "art_direction": "A practical Chinese straight double-edged steel sword, with restrained readable dragon relief on the guard and near the blade root, an opaque pale ice-jade pommel, aged silver fittings, minor dark bronze accents, and dark leather grip.",
+  "negative_direction": "No cartoon ball-shaped dragon heads, large spikes, floating wires, neon emissive surfaces, transparent ice blade, excessive gilding, oversized guard, sharp protrusions into the grip, or theatrical fantasy proportions.",
+  "target_engine": "Local Unreal Engine 5.8 project, PC VR via SteamVR/PICO",
+  "source_model": "../SelectedA_DetailV02/SM_PlayerSword_A_DetailV02.blend",
+  "source_derivation": "Existing selected A sword, previously refined locally to V02. Source provenance remains the existing WeaponReview/Over9000 asset chain; no new third-party asset acquisition or license change.",
+  "production_method": "Local Blender geometry authoring plus deterministic procedural PBR textures; no paid provider.",
+  "output_model": "SM_PlayerSword_A_DetailV03",
+  "runtime_asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/SM_PlayerSword_A_DetailV01",
+  "constraints": {
+    "max_triangles": 24000,
+    "material_slots": ["BladeSteel", "BladeEdge", "BladeFuller", "Guard03", "Grip04", "Pommel03", "GoldDetail"],
+    "uv_channels": 2,
+    "texture_resolution": 512,
+    "normal_convention": "DirectX in UE; invert green for Blender preview",
+    "total_length_cm": 78.3143053,
+    "tip_z_cm": 64.9390869,
+    "bottom_z_cm": -13.3752184,
+    "blade_axis": "+Z local",
+    "blade_samples_cm": [[0, 0, 8.42], [0, 0, 36.68], [0, 0, 64.94]],
+    "preserve_contact_grip_geometry": true,
+    "preserve_gameplay_and_pico_alignment_code": true,
+    "blend_mode": "Opaque"
+  },
+  "acceptance": [
+    "Independent FBX readback checks mesh, UVs, dimensions, grip and material slots",
+    "Successful UE import, package reload and final material bindings",
+    "No final near-zero tangent/binormal or material compilation warnings",
+    "Actual equipped VR pawn checked with seven supplied grip orientations",
+    "Visual review of final source previews and UE screenshots",
+    "Protected project file hashes unchanged"
+  ],
+  "scope_limits": "No physical-headset acceptance or performance benchmark is implied by synthetic grip checks. Blender previews use studio lights and are distinguished from actual UE scene screenshots."
+}

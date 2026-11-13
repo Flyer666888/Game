@@ -1,0 +1,136 @@
+{
+  "state": "passed",
+  "verification": "Independent new Blender FBX import",
+  "fbx": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV02\\SM_PlayerSword_A_DetailV02.fbx",
+  "fbx_sha256": "693e225e1bb5f34635bfc7f4654bf1d5148c2c21d893cee9560e305752d818e9",
+  "triangles": 13580,
+  "triangles_by_material": {
+    "BladeSteel": 4312,
+    "BladeEdge": 1048,
+    "BladeFuller": 624,
+    "Guard03": 1468,
+    "Grip04": 292,
+    "Pommel03": 768,
+    "GoldDetail": 5068
+  },
+  "slots": [
+    "BladeSteel",
+    "BladeEdge",
+    "BladeFuller",
+    "Guard03",
+    "Grip04",
+    "Pommel03",
+    "GoldDetail"
+  ],
+  "uv_channels": 2,
+  "bounds_cm": {
+    "min": [
+      -6.650000095367432,
+      -1.4212367534637451,
+      -13.375218391418457
+    ],
+    "max": [
+      6.650000095367432,
+      1.4212367534637451,
+      64.9390869140625
+    ]
+  },
+  "zero_area_triangles": 0,
+  "very_small_triangle_count_area_under_1e_minus_6_cm2": 0,
+  "blade_nonmanifold_edges": 0,
+  "unchanged_grip_max_vertex_delta_cm": 5.06973582982301e-07,
+  "finite_coordinates_and_uvs": true,
+  "source_blend_sha256": "36a2a8b28bc8263038d5946e949c2c761da399da45ed3cb5cd73234cfabc397b",
+  "uv_statistics": [
+    {
+      "layer": "UVChannel_0",
+      "materials": {
+        "BladeSteel": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.6526747158861497e-06
+        },
+        "BladeEdge": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 3.4746171465559195e-07
+        },
+        "BladeFuller": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.00016855362128254114
+        },
+        "Guard03": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 1.0472163900487885e-05
+        },
+        "Grip04": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 7.081031799316406e-05
+        },
+        "Pommel03": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.0002591014011343873
+        },
+        "GoldDetail": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.7051466198677043e-06
+        }
+      }
+    },
+    {
+      "layer": "UVChannel_1",
+      "materials": {
+        "BladeSteel": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.6526747158861497e-06
+        },
+        "BladeEdge": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 3.4746171465559195e-07
+        },
+        "BladeFuller": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.00016855362128254114
+        },
+        "Guard03": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 1.0472163900487885e-05
+        },
+        "Grip04": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 6.866455078125e-05
+        },
+        "Pommel03": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 0.0002591014011343873
+        },
+        "GoldDetail": {
+          "zero_uv_area": 0,
+          "near_zero_uv_area_under_1e_minus_10": 0,
+          "min_abs_uv_area": 2.7051466198677043e-06
+        }
+      }
+    }
+  ],
+  "nondegenerate_original_grip_uv_max_delta_per_channel": [
+    0.0,
+    0.0
+  ],
+  "source_grip_repaired_uv_polygon_count_per_channel": [
+    16,
+    16
+  ],
+  "uv_note": "All triangles in both UV channels have nonzero area. Only 16 originally-degenerate grip collar/inner connection faces were repaired; every other original Grip04 UV value is unchanged.",
+  "scope": "Static geometry and FBX roundtrip only. Root integration owns UE import, in-engine normals, performance and VR fit."
+}

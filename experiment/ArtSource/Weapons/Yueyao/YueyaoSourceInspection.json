@@ -1,0 +1,1691 @@
+{
+  "version": [
+    5,
+    1,
+    2
+  ],
+  "source": "C:\\Users\\21475\\Documents\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\UE_Weapon_Asset\\Yueyao_Blender_UE\\Yueyao_Hero_Weapon_Refined_Highlight.blend",
+  "unit_scale": 1.0,
+  "objects": [
+    {
+      "name": "Key softbox",
+      "type": "LIGHT",
+      "hidden": false,
+      "location": [
+        -0.18000000715255737,
+        -0.3799999952316284,
+        0.33000001311302185
+      ],
+      "rotation": [
+        0.9910218715667725,
+        -3.342216814417043e-08,
+        -0.3985224962234497
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warm fill",
+      "type": "LIGHT",
+      "hidden": false,
+      "location": [
+        0.2800000011920929,
+        -0.2199999988079071,
+        0.14000000059604645
+      ],
+      "rotation": [
+        1.358980655670166,
+        -2.8330553902833344e-08,
+        0.9380475878715515
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Edge rim",
+      "type": "LIGHT",
+      "hidden": false,
+      "location": [
+        -0.05000000074505806,
+        0.25,
+        0.2800000011920929
+      ],
+      "rotation": [
+        0.8526850938796997,
+        -7.314081784670634e-08,
+        -3.0221636295318604
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Preview Camera",
+      "type": "CAMERA",
+      "hidden": false,
+      "location": [
+        -0.125,
+        -0.8799999952316284,
+        0.014999999664723873
+      ],
+      "rotation": [
+        1.5594333410263062,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "01 Crescent jade blade | user edit | honed and closed",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -0.5195859670639038,
+          0.016329824924468994
+        ],
+        [
+          -0.010283871553838253,
+          0.0060496097430586815
+        ],
+        [
+          -0.07278154790401459,
+          0.07666172832250595
+        ]
+      ],
+      "materials": [
+        "Blade face | forged jade steel, non-emissive",
+        "Jade | dark carved groove",
+        "Cutting edge | honed jade steel, no emission",
+        "Aged silver | fine trim"
+      ],
+      "vertices": 19299
+    },
+    {
+      "name": "06 Guard medallion | bronze-backed jade mount",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        -0.01600000075995922,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.052000001072883606,
+        0.012000000104308128,
+        0.052000001072883606
+      ],
+      "bounds": [
+        [
+          -0.05200005695223808,
+          0.0520000196993351
+        ],
+        [
+          -0.028000012040138245,
+          -0.003999984823167324
+        ],
+        [
+          -0.052000001072883606,
+          0.052000001072883606
+        ]
+      ],
+      "materials": [
+        "Jade | dark carved groove"
+      ],
+      "vertices": 1106
+    },
+    {
+      "name": "06b Convex medallion | image-projected dragon face",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -0.04050000011920929,
+          0.04050000011920929
+        ],
+        [
+          -0.035999998450279236,
+          -0.02800000086426735
+        ],
+        [
+          -0.04050000011920929,
+          0.04050000011920929
+        ]
+      ],
+      "materials": [
+        "Medallion face | source dragon relief image"
+      ],
+      "vertices": 577
+    },
+    {
+      "name": "07 Outer chased bronze bezel",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        -0.027000000700354576,
+        0.0
+      ],
+      "rotation": [
+        1.570796251296997,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -0.05480000004172325,
+          0.05480000004172325
+        ],
+        [
+          -0.030800005421042442,
+          -0.02319999597966671
+        ],
+        [
+          -0.05480000004172325,
+          0.05480000004172325
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 768
+    },
+    {
+      "name": "08 Fine silver bead rim",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        -0.03099999949336052,
+        0.0
+      ],
+      "rotation": [
+        1.570796251296997,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -0.04740000143647194,
+          0.04740000143647194
+        ],
+        [
+          -0.03240000456571579,
+          -0.029599996283650398
+        ],
+        [
+          -0.04740000143647194,
+          0.04740000143647194
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 768
+    },
+    {
+      "name": "09 Inner dark jade ring",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        -0.029999999329447746,
+        0.0
+      ],
+      "rotation": [
+        1.570796251296997,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -0.04260000213980675,
+          0.04260000213980675
+        ],
+        [
+          -0.03160000219941139,
+          -0.0283999964594841
+        ],
+        [
+          -0.04260000213980675,
+          0.04260000213980675
+        ]
+      ],
+      "materials": [
+        "Jade | translucent sea green"
+      ],
+      "vertices": 768
+    },
+    {
+      "name": "10 Reverse bezel",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.019999999552965164,
+        0.0
+      ],
+      "rotation": [
+        1.570796251296997,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -0.05429999902844429,
+          0.05429999902844429
+        ],
+        [
+          0.01669999584555626,
+          0.02330000326037407
+        ],
+        [
+          -0.05429999902844429,
+          0.05429999902844429
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 768
+    },
+    {
+      "name": "11 Bezel rivet 00",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.04800000041723251,
+        -0.032999999821186066,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          0.046799998730421066,
+          0.04920000210404396
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          -0.0012000000569969416,
+          0.0012000000569969416
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "11 Bezel rivet 01",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.041569218039512634,
+        -0.032999999821186066,
+        0.024000000208616257
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          0.04036921635270119,
+          0.04276921972632408
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          0.02280000038444996,
+          0.025200000032782555
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "11 Bezel rivet 02",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.024000000208616257,
+        -0.032999999821186066,
+        0.041569218039512634
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          0.02280000038444996,
+          0.025200000032782555
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          0.04036921635270119,
+          0.04276921972632408
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "11 Bezel rivet 03",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        2.9391522145938313e-18,
+        -0.032999999821186066,
+        0.04800000041723251
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          -0.0012000000569969416,
+          0.0012000000569969416
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          0.046799998730421066,
+          0.04920000210404396
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "11 Bezel rivet 04",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.024000000208616257,
+        -0.032999999821186066,
+        0.041569218039512634
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          -0.025200000032782555,
+          -0.02280000038444996
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          0.04036921635270119,
+          0.04276921972632408
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "11 Bezel rivet 05",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.041569218039512634,
+        -0.032999999821186066,
+        0.024000000208616257
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          -0.04276921972632408,
+          -0.04036921635270119
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          0.02280000038444996,
+          0.025200000032782555
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "11 Bezel rivet 06",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.04800000041723251,
+        -0.032999999821186066,
+        5.878304429187663e-18
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          -0.04920000210404396,
+          -0.046799998730421066
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          -0.0012000000569969416,
+          0.0012000000569969416
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "11 Bezel rivet 07",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.041569218039512634,
+        -0.032999999821186066,
+        -0.024000000208616257
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          -0.04276921972632408,
+          -0.04036921635270119
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          -0.025200000032782555,
+          -0.02280000038444996
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "11 Bezel rivet 08",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.024000000208616257,
+        -0.032999999821186066,
+        -0.041569218039512634
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          -0.025200000032782555,
+          -0.02280000038444996
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          -0.04276921972632408,
+          -0.04036921635270119
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "11 Bezel rivet 09",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -8.817456643781494e-18,
+        -0.032999999821186066,
+        -0.04800000041723251
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          -0.0012000000569969416,
+          0.0012000000569969416
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          -0.04920000210404396,
+          -0.046799998730421066
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "11 Bezel rivet 10",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.024000000208616257,
+        -0.032999999821186066,
+        -0.041569218039512634
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          0.02280000038444996,
+          0.025200000032782555
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          -0.04276921972632408,
+          -0.04036921635270119
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "11 Bezel rivet 11",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.041569218039512634,
+        -0.032999999821186066,
+        -0.024000000208616257
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0012000000569969416,
+        0.0007999999797903001,
+        0.0012000000569969416
+      ],
+      "bounds": [
+        [
+          0.04036921635270119,
+          0.04276921972632408
+        ],
+        [
+          -0.033799998462200165,
+          -0.03220000118017197
+        ],
+        [
+          -0.025200000032782555,
+          -0.02280000038444996
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 86
+    },
+    {
+      "name": "20 Tang beneath grip",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.10373999923467636,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        1.5707963705062866,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.020740002393722534,
+          0.1867399960756302
+        ],
+        [
+          -0.004999999888241291,
+          0.004999999888241291
+        ],
+        [
+          -0.0039000033866614103,
+          0.0039000033866614103
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 96
+    },
+    {
+      "name": "21 Leather grip core",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.09671999514102936,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        1.5707963705062866,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.030719995498657227,
+          0.1627199947834015
+        ],
+        [
+          -0.010499999858438969,
+          0.010499999858438969
+        ],
+        [
+          -0.008190002292394638,
+          0.008190002292394638
+        ]
+      ],
+      "materials": [
+        "Grip | blackened leather"
+      ],
+      "vertices": 96
+    },
+    {
+      "name": "22 Guard ferrule",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0444599986076355,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        1.5707963705062866,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.037459999322891235,
+          0.05145999789237976
+        ],
+        [
+          -0.013500000350177288,
+          0.013500000350177288
+        ],
+        [
+          -0.010529999621212482,
+          0.010529999621212482
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 96
+    },
+    {
+      "name": "23 Pommel ferrule",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.14976000785827637,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        1.5707963705062866,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.14176000654697418,
+          0.15776000916957855
+        ],
+        [
+          -0.012500000186264515,
+          0.012500000186264515
+        ],
+        [
+          -0.009750000201165676,
+          0.009750000201165676
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 96
+    },
+    {
+      "name": "24 Raised grip binding 00",
+      "type": "CURVE",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.05176534131169319,
+          0.06679515540599823
+        ],
+        [
+          -0.011458094231784344,
+          0.011445615440607071
+        ],
+        [
+          -0.011449966579675674,
+          0.011446469463407993
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 0
+    },
+    {
+      "name": "24 Raised grip binding 01",
+      "type": "CURVE",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.06658408790826797,
+          0.08161579072475433
+        ],
+        [
+          -0.01145669911056757,
+          0.011438685469329357
+        ],
+        [
+          -0.011447012424468994,
+          0.011455218307673931
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 0
+    },
+    {
+      "name": "24 Raised grip binding 02",
+      "type": "CURVE",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.081417016685009,
+          0.09642112255096436
+        ],
+        [
+          -0.011434368789196014,
+          0.011447724886238575
+        ],
+        [
+          -0.011450727470219135,
+          0.011454252526164055
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 0
+    },
+    {
+      "name": "24 Raised grip binding 03",
+      "type": "CURVE",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.09623212367296219,
+          0.11124921590089798
+        ],
+        [
+          -0.011435111053287983,
+          0.011455721221864223
+        ],
+        [
+          -0.011454255320131779,
+          0.011450612917542458
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 0
+    },
+    {
+      "name": "24 Raised grip binding 04",
+      "type": "CURVE",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.11104682832956314,
+          0.1260739266872406
+        ],
+        [
+          -0.011444313451647758,
+          0.011453019455075264
+        ],
+        [
+          -0.011454218998551369,
+          0.011453124694526196
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 0
+    },
+    {
+      "name": "24 Raised grip binding 05",
+      "type": "CURVE",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.12586461007595062,
+          0.14089567959308624
+        ],
+        [
+          -0.011445571668446064,
+          0.011448347941040993
+        ],
+        [
+          -0.011448824778199196,
+          0.011458628810942173
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 0
+    },
+    {
+      "name": "25 Jade grip inlay",
+      "type": "CURVE",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.056905560195446014,
+          0.13575443625450134
+        ],
+        [
+          -0.010169156827032566,
+          -0.007000488229095936
+        ],
+        [
+          0.0020004871767014265,
+          0.005169156473129988
+        ]
+      ],
+      "materials": [
+        "Jade | translucent sea green"
+      ],
+      "vertices": 0
+    },
+    {
+      "name": "25 Jade grip inlay.001",
+      "type": "CURVE",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.056905560195446014,
+          0.13575443625450134
+        ],
+        [
+          0.007000488229095936,
+          0.010169156827032566
+        ],
+        [
+          0.00200048740953207,
+          0.005169156473129988
+        ]
+      ],
+      "materials": [
+        "Jade | translucent sea green"
+      ],
+      "vertices": 0
+    },
+    {
+      "name": "26 Open ring pommel",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.18564000725746155,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.1544400006532669,
+          0.2168400138616562
+        ],
+        [
+          -0.004200001247227192,
+          0.004200001247227192
+        ],
+        [
+          -0.031200001016259193,
+          0.031200001016259193
+        ]
+      ],
+      "materials": [
+        "Antique bronze | chased metal"
+      ],
+      "vertices": 768
+    },
+    {
+      "name": "27 Inner pommel wire",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.18564000725746155,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.16344000399112701,
+          0.20784001052379608
+        ],
+        [
+          -0.0012000009883195162,
+          0.0012000009883195162
+        ],
+        [
+          -0.022199999541044235,
+          0.022199999541044235
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 768
+    },
+    {
+      "name": "28 Pommel scroll",
+      "type": "CURVE",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.1530000865459442,
+          0.1812518686056137
+        ],
+        [
+          -0.007300000637769699,
+          -0.004699999466538429
+        ],
+        [
+          0.00581615325063467,
+          0.026956986635923386
+        ]
+      ],
+      "materials": [
+        "Aged silver | fine trim"
+      ],
+      "vertices": 0
+    },
+    {
+      "name": "29 Spirit jade sweep beneath grip",
+      "type": "CURVE",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7799999713897705,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.00397418811917305,
+          0.13000783324241638
+        ],
+        [
+          -0.01600000075995922,
+          -0.012000000104308128
+        ],
+        [
+          -0.06607358902692795,
+          -0.041250552982091904
+        ]
+      ],
+      "materials": [
+        "Pale jade | sharpened edge"
+      ],
+      "vertices": 0
+    }
+  ],
+  "materials": [
+    {
+      "name": "Aged silver | fine trim",
+      "diffuse": [
+        0.5199999809265137,
+        0.6200000047683716,
+        0.5299999713897705,
+        1.0
+      ],
+      "metallic": 0.7799999713897705,
+      "roughness": 0.2199999988079071,
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "name": "Principled BSDF",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "name": "Material Output",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Antique bronze | chased metal",
+      "diffuse": [
+        0.36000001430511475,
+        0.23999999463558197,
+        0.10499999672174454,
+        1.0
+      ],
+      "metallic": 0.8199999928474426,
+      "roughness": 0.27000001072883606,
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "name": "Principled BSDF",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "name": "Material Output",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Blade face | forged jade steel, non-emissive",
+      "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.7599999904632568,
+      "roughness": 0.22499999403953552,
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "name": "Principled BSDF",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "name": "Material Output",
+          "image": null
+        },
+        {
+          "type": "TEX_IMAGE",
+          "name": "Image Texture",
+          "image": "User blade patina | subdued jade"
+        },
+        {
+          "type": "RGB",
+          "name": "Color",
+          "image": null
+        },
+        {
+          "type": "MIX_RGB",
+          "name": "Mix (Legacy)",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Cutting edge | honed jade steel, no emission",
+      "diffuse": [
+        0.2800000011920929,
+        0.47999998927116394,
+        0.36000001430511475,
+        1.0
+      ],
+      "metallic": 0.9100000262260437,
+      "roughness": 0.14499999582767487,
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "name": "Principled BSDF",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "name": "Material Output",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Grip | blackened leather",
+      "diffuse": [
+        0.03500000014901161,
+        0.029999999329447746,
+        0.027000000700354576,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.3400000035762787,
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "name": "Principled BSDF",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "name": "Material Output",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Jade | dark carved groove",
+      "diffuse": [
+        0.03500000014901161,
+        0.20000000298023224,
+        0.17000000178813934,
+        1.0
+      ],
+      "metallic": 0.41999998688697815,
+      "roughness": 0.30000001192092896,
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "name": "Principled BSDF",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "name": "Material Output",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Jade | translucent sea green",
+      "diffuse": [
+        0.07000000029802322,
+        0.3400000035762787,
+        0.2800000011920929,
+        1.0
+      ],
+      "metallic": 0.47999998927116394,
+      "roughness": 0.23999999463558197,
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "name": "Principled BSDF",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "name": "Material Output",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Medallion face | source dragon relief image",
+      "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.2800000011920929,
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "name": "Principled BSDF",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "name": "Material Output",
+          "image": null
+        },
+        {
+          "type": "TEX_IMAGE",
+          "name": "Image Texture",
+          "image": "Yueyao_Reference_Texture.png"
+        }
+      ]
+    },
+    {
+      "name": "Pale jade | sharpened edge",
+      "diffuse": [
+        0.41999998688697815,
+        0.7799999713897705,
+        0.6200000047683716,
+        1.0
+      ],
+      "metallic": 0.6800000071525574,
+      "roughness": 0.20000000298023224,
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "name": "Principled BSDF",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "name": "Material Output",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Render Result",
+      "size": [
+        0,
+        0
+      ],
+      "packed": false,
+      "filepath": ""
+    },
+    {
+      "name": "User blade patina | subdued jade",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "filepath": "//..\\..\\..\\..\\..\\..\\..\\Documents\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\UE_Weapon_Asset\\Yueyao_Blender_UE\\Yueyao_Reference_Texture.png"
+    },
+    {
+      "name": "Viewer Node",
+      "size": [
+        256,
+        256
+      ],
+      "packed": false,
+      "filepath": ""
+    },
+    {
+      "name": "Yueyao_Reference_Texture.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "filepath": "//..\\..\\..\\..\\..\\..\\..\\Documents\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\UE_Weapon_Asset\\Yueyao_Blender_UE\\Yueyao_Reference_Texture.png"
+    }
+  ]
+}

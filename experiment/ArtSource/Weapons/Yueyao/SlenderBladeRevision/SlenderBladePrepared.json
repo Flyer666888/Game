@@ -1,0 +1,300 @@
+{
+  "design": "Slender single-edge dao, restrained curve",
+  "blade_length_cm": 62.5,
+  "blade_root_width_cm": 3.8,
+  "spine_curve_cm": 2.5,
+  "blade_root_thickness_cm": 0.6,
+  "blade_triangles": 1550,
+  "total_triangles": 115902,
+  "materials": [
+    {
+      "name": "M_YueyaoBlade_Steel",
+      "ue_name": "M_YueyaoBlade_Steel",
+      "color": [
+        0.3799999952316284,
+        0.46000000834465027,
+        0.4300000071525574,
+        1.0
+      ],
+      "metallic": 0.8399999737739563,
+      "roughness": 0.28999999165534973,
+      "texture": null,
+      "preserve_existing_material": false
+    },
+    {
+      "name": "M_YueyaoBlade_Edge",
+      "ue_name": "M_YueyaoBlade_Edge",
+      "color": [
+        0.6800000071525574,
+        0.75,
+        0.7099999785423279,
+        1.0
+      ],
+      "metallic": 0.9200000166893005,
+      "roughness": 0.1899999976158142,
+      "texture": null,
+      "preserve_existing_material": false
+    },
+    {
+      "name": "M_YueyaoBlade_Spine",
+      "ue_name": "M_YueyaoBlade_Spine",
+      "color": [
+        0.2199999988079071,
+        0.2800000011920929,
+        0.25999999046325684,
+        1.0
+      ],
+      "metallic": 0.8600000143051147,
+      "roughness": 0.3199999928474426,
+      "texture": null,
+      "preserve_existing_material": false
+    },
+    {
+      "name": "Jade | dark carved groove",
+      "color": [
+        0.03500000014901161,
+        0.20000000298023224,
+        0.17000000178813934,
+        1.0
+      ],
+      "metallic": 0.41999998688697815,
+      "roughness": 0.30000001192092896,
+      "texture": null,
+      "texture_mix": 0.0,
+      "mix_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "ue_name": "M_Yueyao_01",
+      "slot": 1,
+      "preserve_existing_material": true
+    },
+    {
+      "name": "Medallion face | source dragon relief image",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.2800000011920929,
+      "texture": "T_Yueyao_Reference",
+      "texture_mix": 0.0,
+      "mix_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "ue_name": "M_Yueyao_04",
+      "slot": 4,
+      "preserve_existing_material": true
+    },
+    {
+      "name": "Antique bronze | chased metal",
+      "color": [
+        0.36000001430511475,
+        0.23999999463558197,
+        0.10499999672174454,
+        1.0
+      ],
+      "metallic": 0.8199999928474426,
+      "roughness": 0.27000001072883606,
+      "texture": null,
+      "texture_mix": 0.0,
+      "mix_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "ue_name": "M_Yueyao_05",
+      "slot": 5,
+      "preserve_existing_material": true
+    },
+    {
+      "name": "Aged silver | fine trim",
+      "color": [
+        0.5199999809265137,
+        0.6200000047683716,
+        0.5299999713897705,
+        1.0
+      ],
+      "metallic": 0.7799999713897705,
+      "roughness": 0.2199999988079071,
+      "texture": null,
+      "texture_mix": 0.0,
+      "mix_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "ue_name": "M_Yueyao_03",
+      "slot": 3,
+      "preserve_existing_material": true
+    },
+    {
+      "name": "Jade | translucent sea green",
+      "color": [
+        0.07000000029802322,
+        0.3400000035762787,
+        0.2800000011920929,
+        1.0
+      ],
+      "metallic": 0.47999998927116394,
+      "roughness": 0.23999999463558197,
+      "texture": null,
+      "texture_mix": 0.0,
+      "mix_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "ue_name": "M_Yueyao_06",
+      "slot": 6,
+      "preserve_existing_material": true
+    },
+    {
+      "name": "Grip | blackened leather",
+      "color": [
+        0.03500000014901161,
+        0.029999999329447746,
+        0.027000000700354576,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.3400000035762787,
+      "texture": null,
+      "texture_mix": 0.0,
+      "mix_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "ue_name": "M_Yueyao_07",
+      "slot": 7,
+      "preserve_existing_material": true
+    },
+    {
+      "name": "Pale jade | sharpened edge",
+      "color": [
+        0.41999998688697815,
+        0.7799999713897705,
+        0.6200000047683716,
+        1.0
+      ],
+      "metallic": 0.6800000071525574,
+      "roughness": 0.20000000298023224,
+      "texture": null,
+      "texture_mix": 0.0,
+      "mix_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "ue_name": "M_Yueyao_08",
+      "slot": 8,
+      "preserve_existing_material": true
+    }
+  ],
+  "hilt_geometry_before": {
+    "06 Guard medallion | bronze-backed jade mount": "8fc221f63486cd923e26baec9973875a306baf8e02d70f6fd24876b4a4ae885b",
+    "06b Convex medallion | image-projected dragon face": "722cecce1f4a2a06ffa2036829950d16a606fae1e29fc9c4eb95a85411e40c3d",
+    "07 Outer chased bronze bezel": "585eca3f8cc087d1299ecfe6cc5974f6bf8a3e916c174aaca8623586f91abfbf",
+    "08 Fine silver bead rim": "0796e440458ea283cdbc389e5b5d96daa819100844b6f364bce7c11f79f8e4cb",
+    "09 Inner dark jade ring": "62373747fbd09fe63a83c5bc30d320449ada4c80a25ba490ab00190f0818d2cb",
+    "10 Reverse bezel": "c90a578b5f54b3bfa110b301c0cfdd29ccdcedf566af85d6a6bd23eefeb24133",
+    "11 Bezel rivet 00": "2c4053582ce714f3f73ba4f0cbea5a2ee8e368cdee4fcc6b8ed0722818a43b98",
+    "11 Bezel rivet 01": "9b5ab4de801a9102783d1932cb7a9398c9082db289684e93de4e808054785c29",
+    "11 Bezel rivet 02": "ff89986a4b70d30a2e7d2788654d4e7a63c6a533ff11524731b5fbf8c30b0ced",
+    "11 Bezel rivet 03": "1ad91f01f3fb6603c03210469318c8909336a0c054313ec1006b6b1f9094c022",
+    "11 Bezel rivet 04": "622da447e702d29841d6333e1457808fb0a6441795099edafd802d15c138f782",
+    "11 Bezel rivet 05": "da82103426a0508149693eb51f99b95233bef8db2de47b7ef71e0edf4e8fb9b1",
+    "11 Bezel rivet 06": "7a68735df820c147311e3bdbf7ea7f3b268c957ab02e65d601227e83583360d2",
+    "11 Bezel rivet 07": "c0c88522aa3d9b3e33b6c06b5aad1901d1d08c60a63127b75b446c0eaa553e7d",
+    "11 Bezel rivet 08": "55d364f0136c96813a55690008f277ebadfdc6704ef11afdbb60a682078474dc",
+    "11 Bezel rivet 09": "d818d8e4d03ff917b092eaad54985b97a0407d55344c4f8ac922623933bf77ac",
+    "11 Bezel rivet 10": "f81a49a3f9f8d80723080012ceec5fe00adc056336c3026bcd47d4847796442a",
+    "11 Bezel rivet 11": "88db89504005756fb4a82fbb49dc916c95381e5c82c2120257fbf4e3e25bd4bc",
+    "20 Tang beneath grip": "d0864900680ef470722b9cff0c9123d0d5d3d36c710a80631e12946520002d52",
+    "21 Leather grip core": "831f62d089c5ac94e08c550bad7649c598fc1bf5a4b425bf6f1d9775bc2965ea",
+    "22 Guard ferrule": "5626a2672cda3313ebea90049ed700f49a2bb768ef40bf4869877d84a5a3f908",
+    "23 Pommel ferrule": "5ed212d5617f9f72c0ba5682ef1e33f6d5cfc08818406340a62c7fded2817b82",
+    "24 Raised grip binding 00": "73e19b12a3739335abd552c5f1a6a5da40a05f36df9bf229c4ad8891992dfc1a",
+    "24 Raised grip binding 01": "c92c6601b79fa01a090e42f53c4346554b3962a3d85243d491116b780b5c7e47",
+    "24 Raised grip binding 02": "faf4c5ad320fdc239c03c2fa2008b5507f23c61c852550f41c343c0f24e1368f",
+    "24 Raised grip binding 03": "77bc70ce366bac0bd7154e6ffe8b01589443b18dcee137651e85f2c3eb7f402a",
+    "24 Raised grip binding 04": "dd853acc969ba8222be7e1801b27a03ff26a963eb561f5187296380100718c22",
+    "24 Raised grip binding 05": "77f8dfdae9ece43d7fcc6486bc6af515167daa6719abbe1a3187b6ef8dc75c59",
+    "25 Jade grip inlay": "ccaa3437a07427d4547fa533a170fda72c55073684bb16f3773eef4471e91404",
+    "25 Jade grip inlay.001": "fa7b7eee30062e62417902f0fd6f0117f9aa725e37004d5f9a3eff23a877f003",
+    "26 Open ring pommel": "b400546ce10ae324125027f5c185716b7fb70f83f4ec1b3442e5d8b4cf3fba20",
+    "27 Inner pommel wire": "2091fea3a6a25a99832cb15e5ee51307315c44afb6dc9c30767cd27c1d6c647c",
+    "28 Pommel scroll": "fec6bc4dcd4f6f4d804ddb0ed07033fff7fd4d726376c5f3ca3c3845f87222d0",
+    "29 Spirit jade sweep beneath grip": "eb482758e917e8e02b771de211e8864a27f8c3436fe51fa58be3ec85388b9c27"
+  },
+  "hilt_geometry_after": {
+    "06 Guard medallion | bronze-backed jade mount": "8fc221f63486cd923e26baec9973875a306baf8e02d70f6fd24876b4a4ae885b",
+    "06b Convex medallion | image-projected dragon face": "722cecce1f4a2a06ffa2036829950d16a606fae1e29fc9c4eb95a85411e40c3d",
+    "07 Outer chased bronze bezel": "585eca3f8cc087d1299ecfe6cc5974f6bf8a3e916c174aaca8623586f91abfbf",
+    "08 Fine silver bead rim": "0796e440458ea283cdbc389e5b5d96daa819100844b6f364bce7c11f79f8e4cb",
+    "09 Inner dark jade ring": "62373747fbd09fe63a83c5bc30d320449ada4c80a25ba490ab00190f0818d2cb",
+    "10 Reverse bezel": "c90a578b5f54b3bfa110b301c0cfdd29ccdcedf566af85d6a6bd23eefeb24133",
+    "11 Bezel rivet 00": "2c4053582ce714f3f73ba4f0cbea5a2ee8e368cdee4fcc6b8ed0722818a43b98",
+    "11 Bezel rivet 01": "9b5ab4de801a9102783d1932cb7a9398c9082db289684e93de4e808054785c29",
+    "11 Bezel rivet 02": "ff89986a4b70d30a2e7d2788654d4e7a63c6a533ff11524731b5fbf8c30b0ced",
+    "11 Bezel rivet 03": "1ad91f01f3fb6603c03210469318c8909336a0c054313ec1006b6b1f9094c022",
+    "11 Bezel rivet 04": "622da447e702d29841d6333e1457808fb0a6441795099edafd802d15c138f782",
+    "11 Bezel rivet 05": "da82103426a0508149693eb51f99b95233bef8db2de47b7ef71e0edf4e8fb9b1",
+    "11 Bezel rivet 06": "7a68735df820c147311e3bdbf7ea7f3b268c957ab02e65d601227e83583360d2",
+    "11 Bezel rivet 07": "c0c88522aa3d9b3e33b6c06b5aad1901d1d08c60a63127b75b446c0eaa553e7d",
+    "11 Bezel rivet 08": "55d364f0136c96813a55690008f277ebadfdc6704ef11afdbb60a682078474dc",
+    "11 Bezel rivet 09": "d818d8e4d03ff917b092eaad54985b97a0407d55344c4f8ac922623933bf77ac",
+    "11 Bezel rivet 10": "f81a49a3f9f8d80723080012ceec5fe00adc056336c3026bcd47d4847796442a",
+    "11 Bezel rivet 11": "88db89504005756fb4a82fbb49dc916c95381e5c82c2120257fbf4e3e25bd4bc",
+    "20 Tang beneath grip": "d0864900680ef470722b9cff0c9123d0d5d3d36c710a80631e12946520002d52",
+    "21 Leather grip core": "831f62d089c5ac94e08c550bad7649c598fc1bf5a4b425bf6f1d9775bc2965ea",
+    "22 Guard ferrule": "5626a2672cda3313ebea90049ed700f49a2bb768ef40bf4869877d84a5a3f908",
+    "23 Pommel ferrule": "5ed212d5617f9f72c0ba5682ef1e33f6d5cfc08818406340a62c7fded2817b82",
+    "24 Raised grip binding 00": "73e19b12a3739335abd552c5f1a6a5da40a05f36df9bf229c4ad8891992dfc1a",
+    "24 Raised grip binding 01": "c92c6601b79fa01a090e42f53c4346554b3962a3d85243d491116b780b5c7e47",
+    "24 Raised grip binding 02": "faf4c5ad320fdc239c03c2fa2008b5507f23c61c852550f41c343c0f24e1368f",
+    "24 Raised grip binding 03": "77bc70ce366bac0bd7154e6ffe8b01589443b18dcee137651e85f2c3eb7f402a",
+    "24 Raised grip binding 04": "dd853acc969ba8222be7e1801b27a03ff26a963eb561f5187296380100718c22",
+    "24 Raised grip binding 05": "77f8dfdae9ece43d7fcc6486bc6af515167daa6719abbe1a3187b6ef8dc75c59",
+    "25 Jade grip inlay": "ccaa3437a07427d4547fa533a170fda72c55073684bb16f3773eef4471e91404",
+    "25 Jade grip inlay.001": "fa7b7eee30062e62417902f0fd6f0117f9aa725e37004d5f9a3eff23a877f003",
+    "26 Open ring pommel": "b400546ce10ae324125027f5c185716b7fb70f83f4ec1b3442e5d8b4cf3fba20",
+    "27 Inner pommel wire": "2091fea3a6a25a99832cb15e5ee51307315c44afb6dc9c30767cd27c1d6c647c",
+    "28 Pommel scroll": "fec6bc4dcd4f6f4d804ddb0ed07033fff7fd4d726376c5f3ca3c3845f87222d0",
+    "29 Spirit jade sweep beneath grip": "eb482758e917e8e02b771de211e8864a27f8c3436fe51fa58be3ec85388b9c27"
+  },
+  "hilt_unchanged": true,
+  "preserved_hilt_object_count": 34,
+  "grip_pivot_source_m": [
+    0.09672,
+    0,
+    0
+  ],
+  "bounds_cm": [
+    [
+      -6.607359409332275,
+      5.47999906539917
+    ],
+    [
+      -3.5999999046325684,
+      2.330000400543213
+    ],
+    [
+      -12.012001991271973,
+      70.97200012207031
+    ]
+  ]
+}
