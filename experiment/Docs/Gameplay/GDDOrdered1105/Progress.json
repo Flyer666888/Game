@@ -1,0 +1,38 @@
+{
+  "queue": {
+    "automation": "QueueAutomationFinal/index.json",
+    "runtime": "QueueRuntime.json",
+    "full_regression_passed": 98,
+    "state": "passed"
+  },
+  "environment": {
+    "state": "passed",
+    "material_count": 16,
+    "decorative_instances": 54,
+    "postflight_checks": 8,
+    "map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb"
+  },
+  "weak_point": {
+    "state": "passed",
+    "body": 10,
+    "automation": "WeakAutomationFinal/index.json",
+    "runtime": "WeakPointRuntime.json",
+    "head": 15,
+    "blade_head": 15,
+    "qi_head": 15
+  },
+  "ordinary_loot": {
+    "runtime": "LootRuntime.json",
+    "automation": "LootAutomation/index.json",
+    "full_regression_passed": 107,
+    "state": "passed",
+    "rules": "20 percent base; small10/large20 at80/20; fifth eligible roll hard pity; master body and boss excluded"
+  },
+  "full_route": {
+    "state": "passed",
+    "stages": 16,
+    "checks": 12,
+    "runtime": "FullRulesRuntime.json"
+  },
+  "state": "complete"
+}

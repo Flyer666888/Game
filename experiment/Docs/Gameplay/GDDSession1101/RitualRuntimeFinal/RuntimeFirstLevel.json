@@ -1,0 +1,875 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "local_pause_freezes_rescue_progress": true,
+    "real_channel_stops_rescue_progress": true,
+    "native_navigation_and_swept_ritual_damage": true,
+    "nonlethal_hit_interrupts_real_channel": true,
+    "breaker_death_leaves_no_interference": true,
+    "death_retry_restores_phase_entry_and_prior_clears": true,
+    "four_phases_completed": true,
+    "one_final_rescue_event": true,
+    "three_intermediate_events": true,
+    "no_remaining_interference": true,
+    "level_three_guarantee_without_unearned_lingqi": true
+  },
+  "stages": [],
+  "retry_attempts": [
+    {
+      "stage": "Csiege",
+      "before_progress": 53.00630187988281,
+      "restored_progress": 50.0,
+      "restored_integrity": 92.0
+    }
+  ],
+  "combat_results": [
+    {
+      "game_time": 7.469668809324503,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "307b78ba4c2068c09060728a8a5855bd",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 11.969719108194113,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "a84dd4f8409a70a50eaee9af4f7c6bcf",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 16.469775918871164,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "ce08e2e64ce401d6ddd8329652d8619b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 21.45330871641636,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "3039419344df182edfe8969979271894",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 25.45339521765709,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "88d48e064099e532826a589396e59ab2",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 29.4534263163805,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "7430e94b4c799e261480009dca93b3a7",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 33.45345041900873,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "c7aa8a034a9260f62c659b98ccc1a250",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 37.45360381901264,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "9101a3eb4d514d74ba7d7dac91dbbd6a",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 41.45376431941986,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "e000e46c4ca0bb56a9de4185aea35076",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 45.953894816339016,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "39333f3a47b1b4d68aaa1ab5a397a631",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 53.48731681704521,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "1c9deb6c4625e9da889de9ac1c9b6644",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 57.48748031631112,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "cd53165f454a414368d4eb96a97372c7",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 61.49348511919379,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "538bd7844311e7a2a742449298f52e2d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 65.49350691959262,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "374ea779405a834816f42faf4740e99f",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 76.57693902030587,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "691a7a984c438448f57bd1815ff13c93",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 78.40527401492,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "847599b4446d04f1dc257ca435c8b3a4",
+      "target_id": "32909e8e4ef12d8be907e885215aa72e",
+      "outcome": "<NLCombatOutcome.RITUAL_DAMAGED: 4>",
+      "damage": 8.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 78.40527401492,
+      "phase": "stage_active",
+      "origin": "ordinary_nonlethal_interrupt_fixture",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "847599b4446d04f1dc257ca435c8b3a4",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 79.40527881681919,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "847599b4446d04f1dc257ca435c8b3a4",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 80.20528251677752,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "847599b4446d04f1dc257ca435c8b3a4",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 5.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 80.58861771598458,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "fc14c1d046bcf144b5f9de8a778b0afa",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 84.58866631612182,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "2fdae9994e3e8cfd10b14ba4304444c6",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 88.58872461691499,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "1517663847b9f1c84ec738af7e2706da",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 92.58875501528382,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "e8bb01c3469198093437d3afef2942a1",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 96.58878111466765,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "e004c3ae4c207681a20ce882d2deafd9",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 101.08885211497545,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "9802292e480ce6c9eb42829c4f6f7014",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 105.08887921646237,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "099fb2574dcc7c50c74a0fa69fb7e8b9",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 109.08892251551151,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "a1867be84d51f9faf5f8748b6f5295bf",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 116.62244841456413,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "c1fd3e1148259e8b3551a5b4fa6e5bb8",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 120.6224731169641,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "0c279d65455249f9aa9419a080e37893",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 124.62823241576552,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "2451c3f94aa01706ed3368928e05bb34",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 125.42823681607842,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "2451c3f94aa01706ed3368928e05bb34",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 15.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 128.62833171337843,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "d14b13ba40b81c78214238bf8ffd8ea8",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 132.62842221558094,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "23d79865439ef1eb1877a2b594b16a2c",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 139.6785238161683,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "eb2dac644b4c250ae229d99377c86589",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 141.8786376155913,
+      "phase": "stage_active",
+      "origin": "explicit_player_death_fixture",
+      "source_id": "381a3e51433c77c6bc5aaa8c7c8beb90",
+      "target_id": "db7134634b35db569c2afa8aa190d70c",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 100.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 148.87884441390634,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "b4cfae1d46a5f4e9273322832b01bfb6",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 152.87887651473284,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "3a94413b49c44964f68b8cbf9caf3c27",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 156.87896681576967,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "b515f0204bf9617cec1219a1f71395a0",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 160.87901661545038,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "f430fa5546edaafc4d086cb57647885b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 164.879049513489,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "a383e21a4e8cea70cd364eb1e0ea5086",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 168.87907801568508,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "783a53784627530df6804ea3c4ffff59",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 172.87919221445918,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "a1e2ba114a6a9a894a1e9dbb999b5797",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 173.6791959144175,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "a1e2ba114a6a9a894a1e9dbb999b5797",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 15.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 176.87921211495996,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "2f6a695f487adc194f6089bae834cb06",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 180.87925021350384,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "f853366048053e64236d84a623e8999d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 184.88594371452928,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "679c41cc4ad86244c63e8da40de64032",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 192.41936901584268,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "0fff24b948c480fed045d086c95f68ac",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 196.41942911595106,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "94318b944cd6e1fc60360ab230208f50",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 200.41953641548753,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "5f4f54d043fb370464e3eda8af07a143",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 204.41957781463861,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "d6d9c87b402ae907580dc0aa49861a55",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 211.46967721357942,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "5d3ba64f412f125557e70597d21d1715",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 215.46969861537218,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "5834fc2646fa1233a9506c97d19f0833",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 219.4698020145297,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "ab8455e04e667d8bced3a7a50b1e283f",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 37.5,
+      "target_defeated": false
+    },
+    {
+      "game_time": 220.2698109149933,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "ab8455e04e667d8bced3a7a50b1e283f",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 7.5,
+      "target_defeated": true
+    },
+    {
+      "game_time": 223.4698566161096,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "66d478454a47f617662b9aaf8ec1a9ad",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 227.4698801152408,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "ad378cd34181bd9fe2095587762f8942",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 37.5,
+      "target_defeated": false
+    },
+    {
+      "game_time": 228.2699537165463,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "ad378cd34181bd9fe2095587762f8942",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 7.5,
+      "target_defeated": true
+    },
+    {
+      "game_time": 231.46999241411686,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "1023b6e44362b82dea12dfbeffe235eb",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 235.47021251544356,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "d5522f3d4905493322b08daa74cc903e",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 239.4702336154878,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "2354d5de4a9f79d5cb27edac5ce2fca3",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 243.47027051448822,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "507ea7664d61b75ffc13918dac0e0cd8",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 247.476836014539,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "fd0285394932e77c516cfa9f9a20d1b3",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 255.01024531573057,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "d6ffc6604e554f7e7fd88f8b481487eb",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 259.0102712139487,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "550335ba406401f640f258ae641e4c3a",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 263.01036201417446,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "f317930844ecca11438ac1bbfff035fb",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 37.5,
+      "target_defeated": false
+    },
+    {
+      "game_time": 263.8103663139045,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "f317930844ecca11438ac1bbfff035fb",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 7.5,
+      "target_defeated": true
+    },
+    {
+      "game_time": 267.0104132145643,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "aebef22a4dab4de378250482cc0961ce",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 271.0104728154838,
+      "phase": "stage_active",
+      "origin": "ordinary_melee_scripted_clear",
+      "source_id": "db7134634b35db569c2afa8aa190d70c",
+      "target_id": "932fa215446e319cc5dc2ebf54652995",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    }
+  ],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Actual saved main map and authored alchemy assets; only the preceding stages are temporarily omitted to isolate Level 02.",
+    "Unique test LevelId; original stage array and dependency restored without saving the map.",
+    "Ordinary enemies and later breakers are paused and defeated with explicitly labelled ordinary melee resolver contacts; no claim of continuous player combat.",
+    "One real FormationBreaker uses native navigation, targeting, HighThreat scheduling, telegraph, finite interference and swept projectile damage without manually firing events.",
+    "Runs the authored 240 effective-second rescue rate; no time acceleration or progress injection.",
+    "Tests local pause and genuine player-death/retry rollback. No manual health restores during combat.",
+    "No physical PICO/controller acceptance or frame-rate benchmark."
+  ],
+  "elapsed_seconds": 273.28100000000086,
+  "ordinary_melee_definition_damage": 30.0,
+  "live": {
+    "stage": "Cunseal",
+    "game_time": 271.0271395146847,
+    "progress": 100.0,
+    "integrity": 92.0,
+    "interference_sources": 0,
+    "player_health": 100.0,
+    "alive": 0
+  },
+  "phase_entries": [
+    {
+      "stage": "Cestablish",
+      "game_time": 0.4087575078010559,
+      "entry_progress": 0.0,
+      "entry_integrity": 100.0,
+      "target": 25.0
+    },
+    {
+      "stage": "Cinterrupt",
+      "game_time": 65.57684111967683,
+      "entry_progress": 25.0,
+      "entry_integrity": 100.0,
+      "target": 50.0
+    },
+    {
+      "stage": "Csiege",
+      "game_time": 132.67842261493206,
+      "entry_progress": 50.0,
+      "entry_integrity": 92.0,
+      "target": 75.0
+    },
+    {
+      "stage": "Cunseal",
+      "game_time": 204.4695779159665,
+      "entry_progress": 75.0,
+      "entry_integrity": 92.0,
+      "target": 100.0
+    }
+  ],
+  "breaker_observation": {
+    "walked_cm": 922.4879322289651,
+    "integrity_before": 100.0,
+    "integrity_after": 92.0,
+    "hit_damage": 10.0,
+    "time_until_interrupt": 10.828421395272017
+  },
+  "final": {
+    "integrity": 92.0,
+    "progress": 100.0,
+    "game_time": 271.0271395146847,
+    "empty_stage_seconds": {
+      "Cestablish": 2.583373799920082,
+      "Cinterrupt": 2.5501390993595123,
+      "Csiege": 2.550013203173876,
+      "Cunseal": 2.533346500247717
+    },
+    "player_health": 100.0,
+    "growth": {
+      "ling_qi": 58.0,
+      "level": 3,
+      "burst_energy": 100.0,
+      "event_ids": [
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.01.Spawn.0000",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.01.Spawn.0001",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.01.Spawn.0002",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.01.Spawn.0003",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.01.Spawn.0004",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.01.Spawn.0005",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.01.Spawn.0006",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.01.Spawn.0007",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.01.Spawn.0008",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.01.Spawn.0009",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.02.Spawn.0010",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.02.Spawn.0011",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.02.Spawn.0012",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cestablish.Wave.02.Spawn.0013",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.01.Spawn.0001",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.01.Spawn.0000",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.01.Spawn.0002",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.01.Spawn.0003",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.01.Spawn.0004",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.01.Spawn.0005",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.01.Spawn.0006",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.01.Spawn.0007",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.01.Spawn.0008",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.01.Spawn.0009",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.02.Spawn.0010",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.02.Spawn.0011",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.02.Spawn.0012",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.02.Spawn.0013",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cinterrupt.Wave.02.Spawn.0014",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.01.Spawn.0000",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.01.Spawn.0001",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.01.Spawn.0002",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.01.Spawn.0003",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.01.Spawn.0004",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.01.Spawn.0005",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.01.Spawn.0006",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.01.Spawn.0007",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.01.Spawn.0008",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.01.Spawn.0009",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.02.Spawn.0010",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.02.Spawn.0011",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.02.Spawn.0012",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Csiege.Wave.02.Spawn.0013",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.01.Spawn.0000",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.01.Spawn.0001",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.01.Spawn.0002",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.01.Spawn.0003",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.01.Spawn.0004",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.01.Spawn.0005",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.01.Spawn.0006",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.01.Spawn.0007",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.01.Spawn.0008",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.01.Spawn.0009",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.02.Spawn.0010",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.02.Spawn.0011",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.02.Spawn.0012",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.02.Spawn.0013",
+        "Test.Level01.35b98ed246434d49ad4c99b791b392ad.Cunseal.Wave.02.Spawn.0014"
+      ],
+      "damage_multiplier": 1.5
+    }
+  },
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.35b98ed246434d49ad4c99b791b392ad",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\3474675f66b60c7367f148058417066de856dd9b.nlrun",
+    "test_run_ids": [
+      "7e0aa8334011478ec7b39d8c0e46d6c0"
+    ],
+    "original_level_id": "Level.Nilin.Playable",
+    "map_sha256_before": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+    "temporary_assets": [
+      "/Game/ReversedScale/Tests/TransientIntegration/DA_Level01_DamageTen_35b98ed246434d49ad4c99b791b392ad",
+      "/Game/ReversedScale/Tests/TransientIntegration/DA_Level01_EnemyDeathContact_35b98ed246434d49ad4c99b791b392ad"
+    ],
+    "full_stage_array_restored": true,
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\3474675f66b60c7367f148058417066de856dd9b.nlrun"
+    ],
+    "temporary_assets_removed": true
+  }
+}

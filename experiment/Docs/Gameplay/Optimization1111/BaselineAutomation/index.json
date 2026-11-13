@@ -1,0 +1,3888 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "张浩翔的拯救者",
+			"instance": "043116FC46FB0299FD77B1983EA9CE48",
+			"instanceName": "张浩翔的拯救者-68596",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9818] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+			"cPUModel": "Intel(R) Core(TM) i9-14900HX",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.11.11-08.51.45",
+	"succeeded": 77,
+	"succeededWithWarnings": 34,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 3.5008821487426758,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "FullEnergyConsumptionAndDeadGate",
+			"fullTestPath": "Nilin.Abilities.Burst.FullEnergyConsumptionAndDeadGate",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.020166702568531036,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PerfectParryAndPause",
+			"fullTestPath": "Nilin.Abilities.Burst.PerfectParryAndPause",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018672898411750793,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ResolverRewardsAndDeduplication",
+			"fullTestPath": "Nilin.Abilities.Burst.ResolverRewardsAndDeduplication",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018385902047157288,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ResistanceNoNavAndRequestDeduplication",
+			"fullTestPath": "Nilin.Abilities.Control.ResistanceNoNavAndRequestDeduplication",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018946699798107147,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CooldownPauseAndRetry",
+			"fullTestPath": "Nilin.Abilities.Pulse.CooldownPauseAndRetry",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018122497946023941,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "HostileProjectilesRadiusAndWalls",
+			"fullTestPath": "Nilin.Abilities.Pulse.HostileProjectilesRadiusAndWalls",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016599401831626892,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SweepStopsAfterSynchronousDeathCallback",
+			"fullTestPath": "Nilin.Combat.Blade.SweepStopsAfterSynchronousDeathCallback",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.023836702108383179,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "BufferAndRelease",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.BufferAndRelease",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016665499657392502,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Conditions",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.Conditions",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016917597502470016,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "EdgesAndSwingIdentity",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.EdgesAndSwingIdentity",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016267098486423492,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Invalidation",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.Invalidation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016427498310804367,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InvalidNumbers",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.InvalidNumbers",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016563300043344498,
+			"dateTime": "2026.11.11-08.51.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CloseTargetLaunch",
+			"fullTestPath": "Nilin.Combat.BladeQi.Horizontal.CloseTargetLaunch",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018783900886774063,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_11.NilinBladeQiTest_136055B74ECC98581EEDB0918A86B63A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_11.NilinBladeQiTest_136055B74ECC98581EEDB0918A86B63A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_11.NilinBladeQiTest_136055B74ECC98581EEDB0918A86B63A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_11.NilinBladeQiTest_136055B74ECC98581EEDB0918A86B63A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Gesture",
+			"fullTestPath": "Nilin.Combat.BladeQi.Horizontal.Gesture",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016723703593015671,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SweptWidthAndHeight",
+			"fullTestPath": "Nilin.Combat.BladeQi.Horizontal.SweptWidthAndHeight",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.04565110057592392,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "WingWallOcclusion",
+			"fullTestPath": "Nilin.Combat.BladeQi.Horizontal.WingWallOcclusion",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018232699483633041,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ButtonAndOneCut",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.ButtonAndOneCut",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.017898600548505783,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DiscontinuitiesRequireFreshInput",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.DiscontinuitiesRequireFreshInput",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.017736997455358505,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ReleaseAndNewSwing",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.ReleaseAndNewSwing",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.01751130074262619,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "TrackingSpaceMotionIsExcluded",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.TrackingSpaceMotionIsExcluded",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.017881199717521667,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FriendlyAndNeutralFiltering",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.FriendlyAndNeutralFiltering",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018317900598049164,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "HighSpeedSingleDamage",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.HighSpeedSingleDamage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018199801445007324,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LaunchExitCooldownAndState",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.LaunchExitCooldownAndState",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.019591100513935089,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_23.NilinBladeQiTest_089D3FD14ED8F550E939A893E407209A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_23.NilinBladeQiTest_089D3FD14ED8F550E939A893E407209A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_23.NilinBladeQiTest_089D3FD14ED8F550E939A893E407209A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_23.NilinBladeQiTest_089D3FD14ED8F550E939A893E407209A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Lifetime",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.Lifetime",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.015230100601911545,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "TrackedHandOriginOcclusion",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.TrackedHandOriginOcclusion",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018677797168493271,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_25.NilinBladeQiTest_6A4C57EF4488067706EE488122EDBE9E:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_25.NilinBladeQiTest_6A4C57EF4488067706EE488122EDBE9E:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_25.NilinBladeQiTest_6A4C57EF4488067706EE488122EDBE9E:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_25.NilinBladeQiTest_6A4C57EF4488067706EE488122EDBE9E:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.40"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "WorldOcclusion",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.WorldOcclusion",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.017975699156522751,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CentralDamageMultiplierFactionDedupAndRollback",
+			"fullTestPath": "Nilin.Combat.Progression.CentralDamageMultiplierFactionDedupAndRollback",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018216300755739212,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FullHealthDeathAndRetry",
+			"fullTestPath": "Nilin.Combat.Recovery.FullHealthDeathAndRetry",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018402799963951111,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "GlobalAndLocalPause",
+			"fullTestPath": "Nilin.Combat.Recovery.GlobalAndLocalPause",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018260300159454346,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MeleeParryAndProjectileRules",
+			"fullTestPath": "Nilin.Combat.Recovery.MeleeParryAndProjectileRules",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018445298075675964,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ResolverValidatedPerfectParries",
+			"fullTestPath": "Nilin.Combat.Recovery.ResolverValidatedPerfectParries",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018060699105262756,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RestoreHealthSafety",
+			"fullTestPath": "Nilin.Combat.Recovery.RestoreHealthSafety",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018302898854017258,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ThreeActualMeleeSweepsHeal",
+			"fullTestPath": "Nilin.Combat.Recovery.ThreeActualMeleeSweepsHeal",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018057197332382202,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "GatesDuplicateArmorAndMissingBone",
+			"fullTestPath": "Nilin.Combat.WeakPoint.GatesDuplicateArmorAndMissingBone",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.34707409143447876,
+			"dateTime": "2026.11.11-08.51.40",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NativeBladeSmallFrameRegionClassification",
+			"fullTestPath": "Nilin.Combat.WeakPoint.NativeBladeSmallFrameRegionClassification",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018579199910163879,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RealBladeSamplesAndWorldObstruction",
+			"fullTestPath": "Nilin.Combat.WeakPoint.RealBladeSamplesAndWorldObstruction",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018272802233695984,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RealMeshSphereAndCrescent",
+			"fullTestPath": "Nilin.Combat.WeakPoint.RealMeshSphereAndCrescent",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.039128798991441727,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CursorReleaseClearsBackwardMovement",
+			"fullTestPath": "Nilin.Desktop.Input.CursorReleaseClearsBackwardMovement",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.27592629194259644,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_38.NilinDesktopInput_4602086245F3F5D4E3A2FFBE0A4BC8F0:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_38.NilinDesktopInput_4602086245F3F5D4E3A2FFBE0A4BC8F0:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_38.NilinDesktopInput_4602086245F3F5D4E3A2FFBE0A4BC8F0:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHttp: HTTP request timed out after 3.00 seconds URL=https://www.google.com/generate_204",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FocusedSameFrameReleaseWithAttack",
+			"fullTestPath": "Nilin.Desktop.Input.FocusedSameFrameReleaseWithAttack",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.021612402051687241,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_39.NilinDesktopInput_CC41C5B54701B6104398B98F588F4348:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_39.NilinDesktopInput_CC41C5B54701B6104398B98F588F4348:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_39.NilinDesktopInput_CC41C5B54701B6104398B98F588F4348:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LatestMovementEventWinsAcrossFrameRates",
+			"fullTestPath": "Nilin.Desktop.Input.LatestMovementEventWinsAcrossFrameRates",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018075503408908844,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_40.NilinDesktopInput_9804197142BDD40FDD31C2AF073DFFB7:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_40.NilinDesktopInput_9804197142BDD40FDD31C2AF073DFFB7:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_40.NilinDesktopInput_9804197142BDD40FDD31C2AF073DFFB7:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RecaptureRearmsWalkingAndPreservesHeldMoveOnSlash",
+			"fullTestPath": "Nilin.Desktop.Input.RecaptureRearmsWalkingAndPreservesHeldMoveOnSlash",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018557999283075333,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_41.NilinDesktopInput_27EB00E0403471E68B8E21906B38529F:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_41.NilinDesktopInput_27EB00E0403471E68B8E21906B38529F:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_41.NilinDesktopInput_27EB00E0403471E68B8E21906B38529F:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AuthoredPointsAndOptIn",
+			"fullTestPath": "Nilin.Encounter.StagingQueue.AuthoredPointsAndOptIn",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018668096512556076,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_42.NilinQueue_8EA5DF2A4A6BF2BCFDA8CD8C5B0D034D:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_42.NilinQueue_8EA5DF2A4A6BF2BCFDA8CD8C5B0D034D:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_42.NilinQueue_8EA5DF2A4A6BF2BCFDA8CD8C5B0D034D:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_42.NilinQueue_8EA5DF2A4A6BF2BCFDA8CD8C5B0D034D:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEnemyNavigation: NLEnemyCharacter_0 waiting for navigation (system=no matchingData=no)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_42.NilinQueue_8EA5DF2A4A6BF2BCFDA8CD8C5B0D034D:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_42.NilinQueue_8EA5DF2A4A6BF2BCFDA8CD8C5B0D034D:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_42.NilinQueue_8EA5DF2A4A6BF2BCFDA8CD8C5B0D034D:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_42.NilinQueue_8EA5DF2A4A6BF2BCFDA8CD8C5B0D034D:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEnemyNavigation: NLEnemyCharacter_1 waiting for navigation (system=no matchingData=no)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				}
+			],
+			"warnings": 10,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoncombatEntryPauseStopAndRetry",
+			"fullTestPath": "Nilin.Encounter.StagingQueue.NoncombatEntryPauseStopAndRetry",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.029300302267074585,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEnemyNavigation: NLEnemyCharacter_0 waiting for navigation (system=no matchingData=no)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEnemyNavigation: NLEnemyCharacter_1 waiting for navigation (system=no matchingData=no)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_2)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_2)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_2)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_43.NilinQueue_43E78BF443A659E112D0AFBA21BA780B:PersistentLevel.NLEnemyCharacter_2)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEnemyNavigation: NLEnemyCharacter_2 waiting for navigation (system=no matchingData=no)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				}
+			],
+			"warnings": 15,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InterruptPauseDeathAndResetClearSources",
+			"fullTestPath": "Nilin.Enemy.FormationBreaker.InterruptPauseDeathAndResetClearSources",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.05542450025677681,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_44.NilinFormation_8ECF02BF462B775AC28D06AFDB7AF62C:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_44.NilinFormation_8ECF02BF462B775AC28D06AFDB7AF62C:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_44.NilinFormation_8ECF02BF462B775AC28D06AFDB7AF62C:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_45.NilinFormation_E1DA8D4F4DDE062E706C18A3544478B5:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_45.NilinFormation_E1DA8D4F4DDE062E706C18A3544478B5:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_45.NilinFormation_E1DA8D4F4DDE062E706C18A3544478B5:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_46.NilinFormation_7B8D632E4027349514289196F93B77A0:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_46.NilinFormation_7B8D632E4027349514289196F93B77A0:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_46.NilinFormation_7B8D632E4027349514289196F93B77A0:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_47.NilinFormation_3146CFF04492F2EE387AC4A2EEFE39B6:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_47.NilinFormation_3146CFF04492F2EE387AC4A2EEFE39B6:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_47.NilinFormation_3146CFF04492F2EE387AC4A2EEFE39B6:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_48.NilinFormation_E99D8F284ECE96D81A90B385EB24D091:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_48.NilinFormation_E99D8F284ECE96D81A90B385EB24D091:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_48.NilinFormation_E99D8F284ECE96D81A90B385EB24D091:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				}
+			],
+			"warnings": 15,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "TargetIdentityAndInactiveGate",
+			"fullTestPath": "Nilin.Enemy.FormationBreaker.TargetIdentityAndInactiveGate",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.020215500146150589,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_49.NilinFormation_D4F999B2434EE93611535CB90279424D:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_49.NilinFormation_D4F999B2434EE93611535CB90279424D:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_49.NilinFormation_D4F999B2434EE93611535CB90279424D:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_50.NilinFormation_1C8F98764141F737E7606691FAC73734:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_50.NilinFormation_1C8F98764141F737E7606691FAC73734:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_50.NilinFormation_1C8F98764141F737E7606691FAC73734:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.41"
+				}
+			],
+			"warnings": 6,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "WarningChannelProjectileAndBoundedRelease",
+			"fullTestPath": "Nilin.Enemy.FormationBreaker.WarningChannelProjectileAndBoundedRelease",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018456600606441498,
+			"dateTime": "2026.11.11-08.51.41",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_51.NilinFormation_A1ACB123489BCA4D791E0CB0C455F1F8:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_51.NilinFormation_A1ACB123489BCA4D791E0CB0C455F1F8:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_51.NilinFormation_A1ACB123489BCA4D791E0CB0C455F1F8:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AirbornePhysicsAndNoLandingBacklog",
+			"fullTestPath": "Nilin.EnemyAnimation.RootTravel.AirbornePhysicsAndNoLandingBacklog",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018188998103141785,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_52.NilinAttackTravel_E5A3F2DE45C6F9A1FFBA4FB4DAF9404E:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_52.NilinAttackTravel_E5A3F2DE45C6F9A1FFBA4FB4DAF9404E:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_52.NilinAttackTravel_E5A3F2DE45C6F9A1FFBA4FB4DAF9404E:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AnimationClockAndFacing",
+			"fullTestPath": "Nilin.EnemyAnimation.RootTravel.AnimationClockAndFacing",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.017925798892974854,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_53.NilinAttackTravel_96819D454E74DFD323741AB21F10FF7A:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_53.NilinAttackTravel_96819D454E74DFD323741AB21F10FF7A:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_53.NilinAttackTravel_96819D454E74DFD323741AB21F10FF7A:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CancelPauseDeathAndRetry",
+			"fullTestPath": "Nilin.EnemyAnimation.RootTravel.CancelPauseDeathAndRetry",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.017717398703098297,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_54.NilinAttackTravel_10D3BEC14A3D202420C04C91A617260F:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_54.NilinAttackTravel_10D3BEC14A3D202420C04C91A617260F:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_54.NilinAttackTravel_10D3BEC14A3D202420C04C91A617260F:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SweptWallAndNoBacklog",
+			"fullTestPath": "Nilin.EnemyAnimation.RootTravel.SweptWallAndNoBacklog",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.017969302833080292,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_55.NilinAttackTravel_8BE3BCEE4E3743B6DB32F3878F14D10C:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_55.NilinAttackTravel_8BE3BCEE4E3743B6DB32F3878F14D10C:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_55.NilinAttackTravel_8BE3BCEE4E3743B6DB32F3878F14D10C:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "VisiblePoseTransition",
+			"fullTestPath": "Nilin.EnemyAnimation.VisiblePoseTransition",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018077600747346878,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "BossNeedsEverySealAndRetryDoesNotConsume",
+			"fullTestPath": "Nilin.LevelEncounter.FourSeals.BossNeedsEverySealAndRetryDoesNotConsume",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.036840301007032394,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Boss failed: PlayerRetry",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 1,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RejectMismatchedAndUnprovidedQuestIds",
+			"fullTestPath": "Nilin.LevelEncounter.FourSeals.RejectMismatchedAndUnprovidedQuestIds",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.017648801207542419,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "EntryPauseFailureAndTenRetries",
+			"fullTestPath": "Nilin.LevelEncounter.Objective.EntryPauseFailureAndTenRetries",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018599800765514374,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_0 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_1 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_2 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_3 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_4 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_5 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_6 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_7 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_8 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_9 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 20,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MissingDuplicateAndInvalidPreflightIsAtomic",
+			"fullTestPath": "Nilin.LevelEncounter.Objective.MissingDuplicateAndInvalidPreflightIsAtomic",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018066301941871643,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PendingStopsSpawnsAndWaitsForEnemiesAndShots",
+			"fullTestPath": "Nilin.LevelEncounter.Objective.PendingStopsSpawnsAndWaitsForEnemiesAndShots",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.019108198583126068,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_61.NilinLevelObjective_7F6C79EF458419261B2617B68D5F8C49:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_61.NilinLevelObjective_7F6C79EF458419261B2617B68D5F8C49:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_61.NilinLevelObjective_7F6C79EF458419261B2617B68D5F8C49:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ReentrantFailureCommitsBeforeObjectiveNotification",
+			"fullTestPath": "Nilin.LevelEncounter.Objective.ReentrantFailureCommitsBeforeObjectiveNotification",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016967002302408218,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_0 failed: DeliberateReentrantFailure (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: DeliberateReentrantFailure",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 2,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ZeroIntegrityWinsCompletionFrame",
+			"fullTestPath": "Nilin.LevelEncounter.Objective.ZeroIntegrityWinsCompletionFrame",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.01940150186419487,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_0 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_0 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Rescue failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ActiveNotificationNewRunCannotResumeStaleEncounter",
+			"fullTestPath": "Nilin.LevelEncounter.RitualPhases.ActiveNotificationNewRunCannotResumeStaleEncounter",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018479600548744202,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompletionUpgradeCallbackCannotCompleteNewRun",
+			"fullTestPath": "Nilin.LevelEncounter.RitualPhases.CompletionUpgradeCallbackCannotCompleteNewRun",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.017986699938774109,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "EnemyDefeatUpgradeCallbackCannotAccessStaleStage",
+			"fullTestPath": "Nilin.LevelEncounter.RitualPhases.EnemyDefeatUpgradeCallbackCannotAccessStaleStage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018153000622987747,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_67.RitualPhases_FE0AB2CF44ECB07EA2E69A9D58C878FB:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_67.RitualPhases_FE0AB2CF44ECB07EA2E69A9D58C878FB:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_67.RitualPhases_FE0AB2CF44ECB07EA2E69A9D58C878FB:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InvalidSequenceAndChangedObjectiveFailClosed",
+			"fullTestPath": "Nilin.LevelEncounter.RitualPhases.InvalidSequenceAndChangedObjectiveFailClosed",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.019999898970127106,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_0 failed: StageObjectiveChanged (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Establish failed: StageObjectiveChanged",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 2,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NewRunDiscardsCommittedBoundaries",
+			"fullTestPath": "Nilin.LevelEncounter.RitualPhases.NewRunDiscardsCommittedBoundaries",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.01824599876999855,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PauseInterferenceAndRetryKeepPhaseEntrance",
+			"fullTestPath": "Nilin.LevelEncounter.RitualPhases.PauseInterferenceAndRetryKeepPhaseEntrance",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018239602446556091,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_1 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Interrupt failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_2 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Interrupt failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_3 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Interrupt failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEncounter: NLEncounterController_4 failed: RitualIntegrityDepleted (wave=0 spawned=0 defeated=0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Interrupt failed: RitualIntegrityDepleted",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 8,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SharedProgressIntegrityAndOneFinalRescue",
+			"fullTestPath": "Nilin.LevelEncounter.RitualPhases.SharedProgressIntegrityAndOneFinalRescue",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018516998738050461,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SnapshotValidationAndLegacyDefault",
+			"fullTestPath": "Nilin.LevelEncounter.RitualPhases.SnapshotValidationAndLegacyDefault",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.01876470074057579,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DisciplesBeforeMasterReward",
+			"fullTestPath": "Nilin.LevelEncounter.DisciplesBeforeMasterReward",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016287900507450104,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "EntryDeathAndRetry",
+			"fullTestPath": "Nilin.LevelEncounter.EntryDeathAndRetry",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.0178087018430233,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage A failed: PlayerDied",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.42"
+				}
+			],
+			"warnings": 1,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RejectCyclesAndAmbiguousMasterRewards",
+			"fullTestPath": "Nilin.LevelEncounter.RejectCyclesAndAmbiguousMasterRewards",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018403101712465286,
+			"dateTime": "2026.11.11-08.51.42",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SpawnWaitsForPlayerToClearPoint",
+			"fullTestPath": "Nilin.LevelEncounter.SpawnWaitsForPlayerToClearPoint",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018540602177381516,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_78.NilinLevelEncounterTest_F279D16B4396227063DF718E83DC91B4:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.43"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_78.NilinLevelEncounterTest_F279D16B4396227063DF718E83DC91B4:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.43"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_78.NilinLevelEncounterTest_F279D16B4396227063DF718E83DC91B4:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.43"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEnemyNavigation: NLEnemyCharacter_0 waiting for navigation (system=no matchingData=no)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.43"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompletionWaitsForRequiredThreats",
+			"fullTestPath": "Nilin.Objective.Ritual.CompletionWaitsForRequiredThreats",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018672801554203033,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "GlobalLocalPauseAndRetryCleanup",
+			"fullTestPath": "Nilin.Objective.Ritual.GlobalLocalPauseAndRetryCleanup",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.061364099383354187,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ProgressAndTwoSources",
+			"fullTestPath": "Nilin.Objective.Ritual.ProgressAndTwoSources",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.1890593022108078,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_11.NilinBladeQiTest_136055B74ECC98581EEDB0918A86B63A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.43"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_11.NilinBladeQiTest_136055B74ECC98581EEDB0918A86B63A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.43"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_23.NilinBladeQiTest_089D3FD14ED8F550E939A893E407209A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.43"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_23.NilinBladeQiTest_089D3FD14ED8F550E939A893E407209A:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.43"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_25.NilinBladeQiTest_6A4C57EF4488067706EE488122EDBE9E:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.43"
+				}
+			],
+			"warnings": 5,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ResolverPolicyAndDedup",
+			"fullTestPath": "Nilin.Objective.Ritual.ResolverPolicyAndDedup",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018463801592588425,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SnapshotRebindValidationAndNoReplay",
+			"fullTestPath": "Nilin.Objective.Ritual.SnapshotRebindValidationAndNoReplay",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.046731099486351013,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SourceLifetimeAndAtomicConfiguration",
+			"fullTestPath": "Nilin.Objective.Ritual.SourceLifetimeAndAtomicConfiguration",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018137197941541672,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ZeroIntegrityWinsSameFrameBothOrders",
+			"fullTestPath": "Nilin.Objective.Ritual.ZeroIntegrityWinsSameFrameBothOrders",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018897101283073425,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AutomaticCollectionIndependentOfHealing",
+			"fullTestPath": "Nilin.Progression.FourSeals.AutomaticCollectionIndependentOfHealing",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.021735798567533493,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CorruptLevelRecordIsPreservedAndRejected",
+			"fullTestPath": "Nilin.Progression.FourSeals.CorruptLevelRecordIsPreservedAndRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.019072901457548141,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "GrantCallbackNewRunCannotReplaySealFeedback",
+			"fullTestPath": "Nilin.Progression.FourSeals.GrantCallbackNewRunCannotReplaySealFeedback",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.024546802043914795,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LevelRunResumeAndExplicitNewTrial",
+			"fullTestPath": "Nilin.Progression.FourSeals.LevelRunResumeAndExplicitNewTrial",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.029224298894405365,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InvalidRewardsAreAtomic",
+			"fullTestPath": "Nilin.Progression.LingQi.InvalidRewardsAreAtomic",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016606602817773819,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LevelEndFloorDoesNotMintCurrency",
+			"fullTestPath": "Nilin.Progression.LingQi.LevelEndFloorDoesNotMintCurrency",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016596399247646332,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OptInDefinitionValidationAndFrozenEffects",
+			"fullTestPath": "Nilin.Progression.LingQi.OptInDefinitionValidationAndFrozenEffects",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016654398292303085,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RollbackKeepsQuestClaimsAndNewRunResetsGrowth",
+			"fullTestPath": "Nilin.Progression.LingQi.RollbackKeepsQuestClaimsAndNewRunResetsGrowth",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.026397101581096649,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "TenRetriesRollbackCurrencyLevelAndEventIds",
+			"fullTestPath": "Nilin.Progression.LingQi.TenRetriesRollbackCurrencyLevelAndEventIds",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016609203070402145,
+			"dateTime": "2026.11.11-08.51.43",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ThresholdAndUniqueRewards",
+			"fullTestPath": "Nilin.Progression.LingQi.ThresholdAndUniqueRewards",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016573797911405563,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "UnchangedFourSealLedgerDoesNotNeedRetryWrites",
+			"fullTestPath": "Nilin.Progression.LingQi.UnchangedFourSealLedgerDoesNotNeedRetryWrites",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.061979100108146667,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CheckpointV2Roundtrip",
+			"fullTestPath": "Nilin.Progression.MasterRewards.CheckpointV2Roundtrip",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.01664399728178978,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PersistentFirstDefeatAndRollback",
+			"fullTestPath": "Nilin.Progression.MasterRewards.PersistentFirstDefeatAndRollback",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.027707997709512711,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PickupPlayerHealthAndPendingReload",
+			"fullTestPath": "Nilin.Progression.MasterRewards.PickupPlayerHealthAndPendingReload",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.036802299320697784,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CommitFailureRollbackAndRunIsolation",
+			"fullTestPath": "Nilin.Progression.OrdinaryLoot.CommitFailureRollbackAndRunIsolation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.031720403581857681,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CorruptLedgerIsRejectedWithoutReroll",
+			"fullTestPath": "Nilin.Progression.OrdinaryLoot.CorruptLedgerIsRejectedWithoutReroll",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.021659199148416519,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FifthEligibleRollAndProbabilityBoundaries",
+			"fullTestPath": "Nilin.Progression.OrdinaryLoot.FifthEligibleRollAndProbabilityBoundaries",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.045669998973608017,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LivingPlayerPauseOverlapAndPendingRestore",
+			"fullTestPath": "Nilin.Progression.OrdinaryLoot.LivingPlayerPauseOverlapAndPendingRestore",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.022124800831079483,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MasterBossExclusionAndGuardEligibility",
+			"fullTestPath": "Nilin.Progression.OrdinaryLoot.MasterBossExclusionAndGuardEligibility",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016498800367116928,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CallbackSeesAtomicRewardAndMayRestoreEntrance",
+			"fullTestPath": "Nilin.Progression.SecondUpgrade.CallbackSeesAtomicRewardAndMayRestoreEntrance",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016815401613712311,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CumulativeThresholdsAndUniqueRewards",
+			"fullTestPath": "Nilin.Progression.SecondUpgrade.CumulativeThresholdsAndUniqueRewards",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016584698110818863,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FailedAttemptRollsBackLevelCurrencyAndEventIds",
+			"fullTestPath": "Nilin.Progression.SecondUpgrade.FailedAttemptRollsBackLevelCurrencyAndEventIds",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016697600483894348,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InvalidTuningCannotReplaceConfiguration",
+			"fullTestPath": "Nilin.Progression.SecondUpgrade.InvalidTuningCannotReplaceConfiguration",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016618497669696808,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LegacyAssetsRemainOptIn",
+			"fullTestPath": "Nilin.Progression.SecondUpgrade.LegacyAssetsRemainOptIn",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016455702483654022,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LevelEndFloorDoesNotMintCurrencyOrReplay",
+			"fullTestPath": "Nilin.Progression.SecondUpgrade.LevelEndFloorDoesNotMintCurrencyOrReplay",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016296602785587311,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LevelFloorCallbackMayBeginNewRun",
+			"fullTestPath": "Nilin.Progression.SecondUpgrade.LevelFloorCallbackMayBeginNewRun",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.01681869849562645,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RuntimeUsesValidatedCachedTuning",
+			"fullTestPath": "Nilin.Progression.SecondUpgrade.RuntimeUsesValidatedCachedTuning",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.016346398741006851,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MissingObjectiveRejectsBeforePlayerMutation",
+			"fullTestPath": "Nilin.VR.LevelFlow.MissingObjectiveRejectsBeforePlayerMutation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.11176790297031403,
+			"dateTime": "2026.11.11-08.51.44",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_93.VRLevelFlow_031A4F41408A91FCBA427DA1DAF2CD0A:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.44"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_93.VRLevelFlow_031A4F41408A91FCBA427DA1DAF2CD0A:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.44"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_93.VRLevelFlow_031A4F41408A91FCBA427DA1DAF2CD0A:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.44"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHMD: SetSpectatorScreenMode called, but the SpectatorScreenController was not found.  Perhaps this platform does not support spectator screen?  Ignoring this call.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.44"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogTemp: Level retry blocked before player reset: MissingStageObjective",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				}
+			],
+			"warnings": 5,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PreparedRetryDoesNotRestoreGrowthTwice",
+			"fullTestPath": "Nilin.VR.LevelFlow.PreparedRetryDoesNotRestoreGrowthTwice",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.01909559965133667,
+			"dateTime": "2026.11.11-08.51.45",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_94.VRLevelFlow_CDE78E7147EA832D002CA980E2E7E2DF:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_94.VRLevelFlow_CDE78E7147EA832D002CA980E2E7E2DF:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_94.VRLevelFlow_CDE78E7147EA832D002CA980E2E7E2DF:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHMD: SetSpectatorScreenMode called, but the SpectatorScreenController was not found.  Perhaps this platform does not support spectator screen?  Ignoring this call.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Test.Entry failed: Test.PrepareRetry",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				}
+			],
+			"warnings": 5,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RestoreCallbackInvalidationPreservesPlayer",
+			"fullTestPath": "Nilin.VR.LevelFlow.RestoreCallbackInvalidationPreservesPlayer",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018566899001598358,
+			"dateTime": "2026.11.11-08.51.45",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_95.VRLevelFlow_0A3EF4E940A632201D6F5091EF1FB611:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_95.VRLevelFlow_0A3EF4E940A632201D6F5091EF1FB611:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_95.VRLevelFlow_0A3EF4E940A632201D6F5091EF1FB611:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHMD: SetSpectatorScreenMode called, but the SpectatorScreenController was not found.  Perhaps this platform does not support spectator screen?  Ignoring this call.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Test.Entry failed: PlayerRetry",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				}
+			],
+			"warnings": 5,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RetryGrowthProjectilesAndTracking",
+			"fullTestPath": "Nilin.VR.LevelFlow.RetryGrowthProjectilesAndTracking",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.019004698842763901,
+			"dateTime": "2026.11.11-08.51.45",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_96.VRLevelFlow_E3D0A6544D143418A12988A703F858A8:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_96.VRLevelFlow_E3D0A6544D143418A12988A703F858A8:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_96.VRLevelFlow_E3D0A6544D143418A12988A703F858A8:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHMD: SetSpectatorScreenMode called, but the SpectatorScreenController was not found.  Perhaps this platform does not support spectator screen?  Ignoring this call.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLLevelEncounter: NLLevelEncounterDirector_0 stage Test.Entry failed: PlayerDied",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				}
+			],
+			"warnings": 5,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "StartupRoutingAndLabFallback",
+			"fullTestPath": "Nilin.VR.LevelFlow.StartupRoutingAndLabFallback",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.025791499763727188,
+			"dateTime": "2026.11.11-08.51.45",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_97.VRLevelFlow_1BB187494D39BB71C0F0738D1BED138E:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_97.VRLevelFlow_1BB187494D39BB71C0F0738D1BED138E:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_97.VRLevelFlow_1BB187494D39BB71C0F0738D1BED138E:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHMD: SetSpectatorScreenMode called, but the SpectatorScreenController was not found.  Perhaps this platform does not support spectator screen?  Ignoring this call.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_98.VRLevelFlow_1E140ACA4CB890649E8F47A8E53B811A:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_98.VRLevelFlow_1E140ACA4CB890649E8F47A8E53B811A:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_98.VRLevelFlow_1E140ACA4CB890649E8F47A8E53B811A:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHMD: SetSpectatorScreenMode called, but the SpectatorScreenController was not found.  Perhaps this platform does not support spectator screen?  Ignoring this call.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				}
+			],
+			"warnings": 8,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "StandingEyesCrouchHandsAndRetry",
+			"fullTestPath": "Nilin.VR.View.StandingEyesCrouchHandsAndRetry",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.32014840841293335,
+			"dateTime": "2026.11.11-08.51.45",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_99.VRLevelFlow_BE519127499A6BE16D3AFDB87F6081E0:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_99.VRLevelFlow_BE519127499A6BE16D3AFDB87F6081E0:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_99.VRLevelFlow_BE519127499A6BE16D3AFDB87F6081E0:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHMD: SetSpectatorScreenMode called, but the SpectatorScreenController was not found.  Perhaps this platform does not support spectator screen?  Ignoring this call.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Measured eye alignment: player=160.746, enemy=160.746, enemy actor Z=90.400, mesh Z=0.000, begun=1",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_100.VRLevelFlow_AB7E3F4F44FB900B65BE359B5CF53E4F:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_100.VRLevelFlow_AB7E3F4F44FB900B65BE359B5CF53E4F:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_100.VRLevelFlow_AB7E3F4F44FB900B65BE359B5CF53E4F:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHMD: SetSpectatorScreenMode called, but the SpectatorScreenController was not found.  Perhaps this platform does not support spectator screen?  Ignoring this call.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				}
+			],
+			"warnings": 8,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AuthoredHandAndBladeFollowGripAxis",
+			"fullTestPath": "Nilin.VR.WeaponGrip.AuthoredHandAndBladeFollowGripAxis",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"043116FC46FB0299FD77B1983EA9CE48"
+			],
+			"duration": 0.018765099346637726,
+			"dateTime": "2026.11.11-08.51.45",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_101.NilinVRGrip_688148B940FE644E719157AD0E489E90:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_101.NilinVRGrip_688148B940FE644E719157AD0E489E90:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_101.NilinVRGrip_688148B940FE644E719157AD0E489E90:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHMD: SetSpectatorScreenMode called, but the SpectatorScreenController was not found.  Perhaps this platform does not support spectator screen?  Ignoring this call.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.11-08.51.45"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

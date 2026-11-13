@@ -1,0 +1,80 @@
+{
+  "state": "passed",
+  "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV01",
+  "destination": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01",
+  "modified_original_assets": false,
+  "source_sha256": "d17258e79a595034209ef154c85cb8d1f347e3747f73a62786f975853b78a036",
+  "bounds_cm": {
+    "origin": [
+      -1.430511474609375e-06,
+      5.960464477539063e-08,
+      25.78193426132202
+    ],
+    "extent": [
+      7.520434856414795,
+      1.8007643818855286,
+      39.15715265274048
+    ],
+    "tip_z": 64.9390869140625,
+    "bottom_z": -13.375218391418457
+  },
+  "materials": [
+    {
+      "slot": "BladeSteel",
+      "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_BladeSteel.M_BladeSteel"
+    },
+    {
+      "slot": "BladeEdge",
+      "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_BladeEdge.M_BladeEdge"
+    },
+    {
+      "slot": "BladeFuller",
+      "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_BladeFuller.M_BladeFuller"
+    },
+    {
+      "slot": "Guard03",
+      "path": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_03.MI_Sword_Crossguard_03"
+    },
+    {
+      "slot": "Grip04",
+      "path": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01"
+    },
+    {
+      "slot": "Pommel03",
+      "path": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_03.MI_Sword_Pommel_03"
+    },
+    {
+      "slot": "GoldDetail",
+      "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_GoldDetail.M_GoldDetail"
+    }
+  ],
+  "mesh": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/SM_PlayerSword_A_DetailV01.SM_PlayerSword_A_DetailV01",
+  "lod0_sections": 7,
+  "blade_samples_cm": [
+    [
+      0,
+      0,
+      8.42
+    ],
+    [
+      0,
+      0,
+      36.68
+    ],
+    [
+      0,
+      0,
+      64.94
+    ]
+  ],
+  "collision": "Native sampled blade sweep; no mesh-body collision or navigation",
+  "readback_materials": [
+    "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_BladeSteel.M_BladeSteel",
+    "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_BladeEdge.M_BladeEdge",
+    "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_BladeFuller.M_BladeFuller",
+    "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_03.MI_Sword_Crossguard_03",
+    "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01",
+    "/Game/ModularWeapons/Materials/MI_Sword_Pommel_03.MI_Sword_Pommel_03",
+    "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_GoldDetail.M_GoldDetail"
+  ]
+}

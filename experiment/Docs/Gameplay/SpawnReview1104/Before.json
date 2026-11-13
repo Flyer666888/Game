@@ -1,0 +1,83 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "player_camped_authored_point": true,
+    "both_enemies_spawned": true,
+    "observed_expected_clearance": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": "Actual saved map. Enter the mountain gate normally, then move the test pawn 100 cm from the first spawn point during the warning.",
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.79c21882a20341f0940d81c2e410b84e",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\7190ead0482a3b8ba6c68813317576c5c5aa0a5d.nlrun",
+    "test_run_ids": [
+      "2a556cc04dcb67421a235a94310634b2",
+      "efada0cd4ab877b66da878adaa789a89"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\7190ead0482a3b8ba6c68813317576c5c5aa0a5d.nlrun"
+    ],
+    "temporary_assets_removed": true
+  },
+  "frames": [],
+  "spawn_points": [
+    [
+      -800.0,
+      -1100.0,
+      90.0
+    ],
+    [
+      800.0,
+      -1100.0,
+      90.0
+    ]
+  ],
+  "births": [
+    {
+      "enemy": [
+        -800.0,
+        -1100.0,
+        90.0
+      ],
+      "player": [
+        -700.0,
+        -1100.0,
+        90.0
+      ],
+      "distance_cm": 100.0,
+      "time": 2.697633311152458
+    },
+    {
+      "enemy": [
+        -800.0,
+        -1100.0,
+        90.0
+      ],
+      "player": [
+        0.0,
+        -2100.0,
+        90.1500015258789
+      ],
+      "distance_cm": 1280.6248562715225,
+      "time": 3.348184008151293
+    }
+  ],
+  "failed_spawn_count": 0
+}

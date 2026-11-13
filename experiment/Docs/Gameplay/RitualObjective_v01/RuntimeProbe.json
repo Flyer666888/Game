@@ -1,0 +1,109 @@
+{
+  "state": "passed",
+  "failures": [],
+  "events": [
+    {
+      "name": "started_two_sources",
+      "integrity": 100.0,
+      "progress": 0.0,
+      "interference": 2,
+      "threats": 3,
+      "objective_state": "<NLRitualObjectiveState.INTERFERED: 3>",
+      "trial_state": "Running"
+    },
+    {
+      "name": "real_swept_projectile_damaged_ritual",
+      "integrity": 90.0,
+      "progress": 0.0,
+      "interference": 2,
+      "threats": 3,
+      "objective_state": "<NLRitualObjectiveState.INTERFERED: 3>",
+      "trial_state": "Running"
+    },
+    {
+      "name": "global_pause_froze_ritual",
+      "integrity": 90.0,
+      "progress": 0.0,
+      "interference": 2,
+      "threats": 3,
+      "objective_state": "<NLRitualObjectiveState.PAUSED: 2>",
+      "trial_state": "Running"
+    },
+    {
+      "name": "first_real_resolver_defeat_removed_one_source",
+      "integrity": 90.0,
+      "progress": 0.0,
+      "interference": 1,
+      "threats": 2,
+      "objective_state": "<NLRitualObjectiveState.INTERFERED: 3>",
+      "trial_state": "Running"
+    },
+    {
+      "name": "second_source_interrupted",
+      "integrity": 90.0,
+      "progress": 0.0,
+      "interference": 0,
+      "threats": 2,
+      "objective_state": "<NLRitualObjectiveState.RUNNING: 1>",
+      "trial_state": "Running"
+    },
+    {
+      "name": "runtime_snapshot_restored",
+      "integrity": 90.0,
+      "progress": 3.374750852584839,
+      "interference": 0,
+      "threats": 2,
+      "objective_state": "<NLRitualObjectiveState.RUNNING: 1>",
+      "trial_state": "Running",
+      "saved_integrity": 90.0,
+      "saved_progress": 3.374750852584839
+    },
+    {
+      "name": "full_retry_cleared_sources_and_restored_integrity",
+      "integrity": 100.0,
+      "progress": 0.0,
+      "interference": 0,
+      "threats": 0,
+      "objective_state": "<NLRitualObjectiveState.INACTIVE: 0>",
+      "trial_state": "Ready"
+    },
+    {
+      "name": "one_shot_completion_after_required_threats",
+      "integrity": 100.0,
+      "progress": 100.0,
+      "interference": 0,
+      "threats": 0,
+      "objective_state": "<NLRitualObjectiveState.COMPLETED: 6>",
+      "trial_state": "Completed"
+    },
+    {
+      "name": "real_projectile_failure_stopped_trial_and_cleared_sources",
+      "integrity": 0.0,
+      "progress": 0.0,
+      "interference": 0,
+      "threats": 0,
+      "objective_state": "<NLRitualObjectiveState.FAILED: 7>",
+      "trial_state": "Failed"
+    },
+    {
+      "name": "retry_after_failure_ready",
+      "integrity": 10.0,
+      "progress": 0.0,
+      "interference": 0,
+      "threats": 0,
+      "objective_state": "<NLRitualObjectiveState.INACTIVE: 0>",
+      "trial_state": "Ready"
+    }
+  ],
+  "scope": "Saved isolated OBJ-01 lab. Native training launcher creates real swept projectiles and the real resolver damages the ritual. Source defeats are explicit resolver contacts, interruption/restoration use public runtime APIs. No map or asset save, synthetic input or headset test.",
+  "checks": {
+    "actual_projectile_damage": true,
+    "two_independent_sources": true,
+    "global_pause": true,
+    "source_death_and_interrupt": true,
+    "snapshot_roundtrip": true,
+    "retry_cleanup": true,
+    "one_shot_success": true,
+    "actual_projectile_failure": true
+  }
+}

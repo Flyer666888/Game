@@ -1,0 +1,104 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "张浩翔的拯救者",
+			"instance": "5C444C324DCCB82007DE639C938225C5",
+			"instanceName": "张浩翔的拯救者-99552",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9818] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+			"cPUModel": "Intel(R) Core(TM) i9-14900HX",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.11.05-14.12.37",
+	"succeeded": 5,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.16208919882774353,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "CommitFailureRollbackAndRunIsolation",
+			"fullTestPath": "Nilin.Progression.OrdinaryLoot.CommitFailureRollbackAndRunIsolation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5C444C324DCCB82007DE639C938225C5"
+			],
+			"duration": 0.035287000238895416,
+			"dateTime": "2026.11.05-14.12.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CorruptLedgerIsRejectedWithoutReroll",
+			"fullTestPath": "Nilin.Progression.OrdinaryLoot.CorruptLedgerIsRejectedWithoutReroll",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5C444C324DCCB82007DE639C938225C5"
+			],
+			"duration": 0.030254598706960678,
+			"dateTime": "2026.11.05-14.12.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FifthEligibleRollAndProbabilityBoundaries",
+			"fullTestPath": "Nilin.Progression.OrdinaryLoot.FifthEligibleRollAndProbabilityBoundaries",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5C444C324DCCB82007DE639C938225C5"
+			],
+			"duration": 0.041107602417469025,
+			"dateTime": "2026.11.05-14.12.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LivingPlayerPauseOverlapAndPendingRestore",
+			"fullTestPath": "Nilin.Progression.OrdinaryLoot.LivingPlayerPauseOverlapAndPendingRestore",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5C444C324DCCB82007DE639C938225C5"
+			],
+			"duration": 0.025755599141120911,
+			"dateTime": "2026.11.05-14.12.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MasterBossExclusionAndGuardEligibility",
+			"fullTestPath": "Nilin.Progression.OrdinaryLoot.MasterBossExclusionAndGuardEligibility",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5C444C324DCCB82007DE639C938225C5"
+			],
+			"duration": 0.029684402048587799,
+			"dateTime": "2026.11.05-14.12.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-04",
+  "build": "Succeeded",
+  "testsPassed": 90,
+  "testsWithWarnings": 23,
+  "testsFailed": 0,
+  "motionChecks": {
+    "chases_faster_than_player": true,
+    "closed_distance": true,
+    "native_attack_window": true,
+    "native_player_damage": true,
+    "player_retreats": true,
+    "resumes_chase_after_player_retreat": true,
+    "catches_retreating_player": true
+  },
+  "peakChaseSpeedCmS": 310.0,
+  "playerRetreatCm": 353.538258733567,
+  "qi": {
+    "native_horizontal_qi_hit": true,
+    "captured_horizontal_qi": true
+  },
+  "hmdPhysicalAcceptance": false,
+  "screenshots": [
+    "EnemyChase.png",
+    "EnemyWindup.png",
+    "EnemyStrike.png",
+    "EnemyRecovery.png",
+    "HorizontalSwordQi.png",
+    "HeadsetHUD.png"
+  ]
+}

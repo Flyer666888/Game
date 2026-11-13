@@ -1,0 +1,381 @@
+{
+  "state": "passed",
+  "revision": "V03",
+  "direction": "Realistic Chinese dragon ornament and opaque ice jade, no emissive or translucent effects",
+  "runtime_asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/SM_PlayerSword_A_DetailV01.SM_PlayerSword_A_DetailV01",
+  "runtime_asset_sha256": "542c7381d697ef513b7ff6faaac77fd6d826b950e069aaa4de446522f893ea83",
+  "source_fbx_sha256": "2eaf912baaa3374a4a547842dfd4f1a196c270cb651a748d939480c65779dcd5",
+  "source_triangles": 18668,
+  "ue_render_triangles": 18532,
+  "material_slots": 7,
+  "uv_channels": 2,
+  "textures": [
+    {
+      "name": "SteelSurface_Roughness",
+      "path": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\SteelSurface_Roughness.png",
+      "sha256": "ff9b1987a1d733369e6ea84bf49147f86c003f32074822514594e521aa9dbb12"
+    },
+    {
+      "name": "SteelSurface_Normal",
+      "path": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\SteelSurface_Normal.png",
+      "sha256": "eacb19503b4a51f5ed5e2d0dc8c09df61bc92d8b776c020d0c889a8faa2ce13b"
+    },
+    {
+      "name": "AgedSilver_Roughness",
+      "path": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\AgedSilver_Roughness.png",
+      "sha256": "f68d47c528227fbfd153aa24d418c1b985971ffd2642ffad5bf78d63d4f8ed46"
+    },
+    {
+      "name": "AgedSilver_Normal",
+      "path": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\AgedSilver_Normal.png",
+      "sha256": "cc80b2e69005a4d3a8acbc50418f8ce21c1a3a1a6bd464a6f89c3c18d8d91fec"
+    },
+    {
+      "name": "DarkLeather_Roughness",
+      "path": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\DarkLeather_Roughness.png",
+      "sha256": "b24fb79d612d885abc4b30dcbe2e0717066c8627f484dcb7ea5fa20f384027fd"
+    },
+    {
+      "name": "DarkLeather_Normal",
+      "path": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\DarkLeather_Normal.png",
+      "sha256": "efaa428f2285101ad85d05666c7645d9d8b9f7eb2ad6be04965a1ebf8d546b19"
+    },
+    {
+      "name": "IceJade_BaseColor",
+      "path": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_BaseColor.png",
+      "sha256": "39bd0a0d7de6ff732c2113b61bf52efb995fbe2e3de2243dd28369b73c381a3c"
+    },
+    {
+      "name": "IceJade_Roughness",
+      "path": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_Roughness.png",
+      "sha256": "e2de083259bc6c15baf151fcfd708aa2798b6a089d481454358044e566e2e6cf"
+    },
+    {
+      "name": "IceJade_Normal",
+      "path": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_Normal.png",
+      "sha256": "122b63ad8c8fae7330e73de7ca2a02e77df506469e388b4f7ddf1bada0c2798b"
+    }
+  ],
+  "shader_authoring": {
+    "textures": {
+      "SteelSurface/roughness": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\SteelSurface_Roughness.png",
+        "sha256": "ff9b1987a1d733369e6ea84bf49147f86c003f32074822514594e521aa9dbb12",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_SteelSurface_Roughness.T_SteelSurface_Roughness",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+        "directx_normal": false
+      },
+      "SteelSurface/normal": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\SteelSurface_Normal.png",
+        "sha256": "eacb19503b4a51f5ed5e2d0dc8c09df61bc92d8b776c020d0c889a8faa2ce13b",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_SteelSurface_Normal.T_SteelSurface_Normal",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+        "directx_normal": true
+      },
+      "AgedSilver/roughness": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\AgedSilver_Roughness.png",
+        "sha256": "f68d47c528227fbfd153aa24d418c1b985971ffd2642ffad5bf78d63d4f8ed46",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_AgedSilver_Roughness.T_AgedSilver_Roughness",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+        "directx_normal": false
+      },
+      "AgedSilver/normal": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\AgedSilver_Normal.png",
+        "sha256": "cc80b2e69005a4d3a8acbc50418f8ce21c1a3a1a6bd464a6f89c3c18d8d91fec",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_AgedSilver_Normal.T_AgedSilver_Normal",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+        "directx_normal": true
+      },
+      "DarkLeather/roughness": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\DarkLeather_Roughness.png",
+        "sha256": "b24fb79d612d885abc4b30dcbe2e0717066c8627f484dcb7ea5fa20f384027fd",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_DarkLeather_Roughness.T_DarkLeather_Roughness",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+        "directx_normal": false
+      },
+      "DarkLeather/normal": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\DarkLeather_Normal.png",
+        "sha256": "efaa428f2285101ad85d05666c7645d9d8b9f7eb2ad6be04965a1ebf8d546b19",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_DarkLeather_Normal.T_DarkLeather_Normal",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+        "directx_normal": true
+      },
+      "IceJade/roughness": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_Roughness.png",
+        "sha256": "e2de083259bc6c15baf151fcfd708aa2798b6a089d481454358044e566e2e6cf",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_IceJade_Roughness.T_IceJade_Roughness",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+        "directx_normal": false
+      },
+      "IceJade/normal": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_Normal.png",
+        "sha256": "122b63ad8c8fae7330e73de7ca2a02e77df506469e388b4f7ddf1bada0c2798b",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_IceJade_Normal.T_IceJade_Normal",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+        "directx_normal": true
+      },
+      "IceJade/base_color": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_BaseColor.png",
+        "sha256": "39bd0a0d7de6ff732c2113b61bf52efb995fbe2e3de2243dd28369b73c381a3c",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_IceJade_BaseColor.T_IceJade_BaseColor",
+        "srgb": true,
+        "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+        "directx_normal": false
+      }
+    },
+    "materials": {
+      "BladeSteel": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_BladeSteel",
+        "surface_group": "SteelSurface",
+        "texture_samples": 2,
+        "uv_tiling": [
+          1.0,
+          1.0
+        ],
+        "normal_strength": 0.07,
+        "roughness_offset": 0.0,
+        "roughness_variation_scale": 0.35,
+        "base_color_linear": [
+          0.52,
+          0.55,
+          0.58
+        ],
+        "base_color_from_texture": false,
+        "metallic": 1.0,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB2E5DBA80) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1116, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "BladeEdge": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_BladeEdge",
+        "surface_group": "SteelSurface",
+        "texture_samples": 2,
+        "uv_tiling": [
+          1.0,
+          1.0
+        ],
+        "normal_strength": 0.04,
+        "roughness_offset": -0.08,
+        "roughness_variation_scale": 0.35,
+        "base_color_linear": [
+          0.61,
+          0.64,
+          0.67
+        ],
+        "base_color_from_texture": false,
+        "metallic": 1.0,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB2E5DB320) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1116, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "BladeFuller": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_BladeFuller",
+        "surface_group": "SteelSurface",
+        "texture_samples": 2,
+        "uv_tiling": [
+          1.0,
+          1.0
+        ],
+        "normal_strength": 0.07,
+        "roughness_offset": 0.0,
+        "roughness_variation_scale": 0.35,
+        "base_color_linear": [
+          0.52,
+          0.55,
+          0.58
+        ],
+        "base_color_from_texture": false,
+        "metallic": 1.0,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB2E5D8640) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1116, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "Guard03": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_Guard03",
+        "surface_group": "AgedSilver",
+        "texture_samples": 2,
+        "uv_tiling": [
+          1.0,
+          1.0
+        ],
+        "normal_strength": 0.1,
+        "roughness_offset": 0.0,
+        "roughness_variation_scale": 0.4,
+        "base_color_linear": [
+          0.48,
+          0.5,
+          0.52
+        ],
+        "base_color_from_texture": false,
+        "metallic": 0.98,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB2E5D58A0) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1117, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "GoldDetail": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_GoldDetail",
+        "surface_group": "AgedSilver",
+        "texture_samples": 2,
+        "uv_tiling": [
+          1.0,
+          1.0
+        ],
+        "normal_strength": 0.08,
+        "roughness_offset": -0.055,
+        "roughness_variation_scale": 0.4,
+        "base_color_linear": [
+          0.3,
+          0.22,
+          0.12
+        ],
+        "base_color_from_texture": false,
+        "metallic": 0.94,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB2E5D2C60) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1117, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "Grip04": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_Grip04",
+        "surface_group": "DarkLeather",
+        "texture_samples": 2,
+        "uv_tiling": [
+          4.0,
+          4.0
+        ],
+        "normal_strength": 0.35,
+        "roughness_offset": 0.0,
+        "roughness_variation_scale": 0.8,
+        "base_color_linear": [
+          0.012,
+          0.019,
+          0.024
+        ],
+        "base_color_from_texture": false,
+        "metallic": 0.0,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB2E5DFE20) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1117, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "Pommel03": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_Pommel03",
+        "surface_group": "IceJade",
+        "texture_samples": 3,
+        "uv_tiling": [
+          2.0,
+          2.0
+        ],
+        "normal_strength": 0.2,
+        "roughness_offset": 0.0,
+        "roughness_variation_scale": 1.0,
+        "base_color_linear": [
+          0.42,
+          0.62,
+          0.7
+        ],
+        "base_color_from_texture": true,
+        "metallic": 0.0,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB23528480) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1120, num_samplers: 8, num_vertex_texture_samples: 3, num_pixel_texture_samples: 3, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      }
+    },
+    "vertex_masks_enabled": false
+  },
+  "final_import_warning_check": "No FBX, near-zero tangent/binormal, material compile failure or Python traceback in final import excerpt.",
+  "saved_build_settings": "<Struct 'MeshBuildSettings' (0x000001CAFD6C3E30) {use_mikk_t_space: True, recompute_normals: False, recompute_tangents: True, compute_weighted_normals: True, remove_degenerates: True, build_reversed_index_buffer: True, use_high_precision_tangent_basis: True, use_full_precision_u_vs: True, use_backwards_compatible_f16_trunc_u_vs: False, generate_lightmap_u_vs: False, generate_distance_field_as_if_two_sided: False, support_face_remap: False, min_lightmap_resolution: 64, src_lightmap_index: 0, dst_lightmap_index: 1, build_scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}, distance_field_resolution_scale: 1.000000, distance_field_replacement_mesh: None, max_lumen_mesh_cards: 12}>",
+  "synthetic_grip_poses_passed": 7,
+  "screenshots": [
+    {
+      "label": "Equipped_Upright",
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\VRWeaponPolish_v03\\Screenshots\\Equipped_Upright.png",
+      "synthetic_pose": true
+    },
+    {
+      "label": "Forte_Closeup",
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\VRWeaponPolish_v03\\Screenshots\\Forte_Closeup.png",
+      "synthetic_pose": true
+    },
+    {
+      "label": "Blade_Oblique",
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\VRWeaponPolish_v03\\Screenshots\\Blade_Oblique.png",
+      "synthetic_pose": true
+    },
+    {
+      "label": "Pommel_Closeup",
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\VRWeaponPolish_v03\\Screenshots\\Pommel_Closeup.png",
+      "synthetic_pose": true
+    },
+    {
+      "label": "Blade_Glint",
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\VRWeaponPolish_v03\\Screenshots\\Blade_Glint.png",
+      "synthetic_pose": true
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "D:\\game design\\experiment\\Source\\experiment\\Public\\Player\\NLVRPlayerCharacter.h",
+      "before": "469aa3281a63f4c1ea72ab4004d6b4a7ea54af3fea4b365165b66bcf70c62cd4",
+      "after": "469aa3281a63f4c1ea72ab4004d6b4a7ea54af3fea4b365165b66bcf70c62cd4"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Source\\experiment\\Private\\Player\\NLVRPlayerCharacter.cpp",
+      "before": "b90b340f93bc2a2171262b1d8b929b49080459df1266bee1d9a676bed9e0e957",
+      "after": "b90b340f93bc2a2171262b1d8b929b49080459df1266bee1d9a676bed9e0e957"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Source\\experiment\\Private\\Player\\NLDesktopPlayerCharacter.cpp",
+      "before": "4c0bd88e5ea6a5930b1886a8aaa8ef89bd4389a3b020e61923cbcbefef956024",
+      "after": "4c0bd88e5ea6a5930b1886a8aaa8ef89bd4389a3b020e61923cbcbefef956024"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Binaries\\Win64\\UnrealEditor-experiment.dll",
+      "before": "32748e78feb109cffaaf9fd16c741addb9fb4c18586cec125923917af05b861d",
+      "after": "32748e78feb109cffaaf9fd16c741addb9fb4c18586cec125923917af05b861d"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Weapons\\SelectedSwordA\\SM_PlayerSword_A.uasset",
+      "before": "208be946ff824a5003015c49cb294e1299db5ab01f4f7ee171dfbfe4a37de815",
+      "after": "208be946ff824a5003015c49cb294e1299db5ab01f4f7ee171dfbfe4a37de815"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Player\\Hands\\SK_PlayerHand_Realistic_R.uasset",
+      "before": "35ed1ac9c1c1f990f428237bbfaaacd0f5c22700b751e02108ddef1095468f4a",
+      "after": "35ed1ac9c1c1f990f428237bbfaaacd0f5c22700b751e02108ddef1095468f4a"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Player\\Animations\\A_Yueyao_Grip_Right.uasset",
+      "before": "67ae614443ee319e89778d3b4aa26fcac4234f1b7a4da72e0e4b96103cfe02ef",
+      "after": "67ae614443ee319e89778d3b4aa26fcac4234f1b7a4da72e0e4b96103cfe02ef"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Maps\\L_CombatLabVR.umap",
+      "before": "f0a8e48559e04127fbeb447b28f04e5be95fec07fb5d27dfe314f421ff331e31",
+      "after": "f0a8e48559e04127fbeb447b28f04e5be95fec07fb5d27dfe314f421ff331e31"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Maps\\L_NilinGameplayV01.umap",
+      "before": "bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81",
+      "after": "bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81"
+    }
+  ],
+  "map_unchanged": true,
+  "checkpoint_settings_restored": true,
+  "physical_pico_acceptance": false,
+  "performance_benchmark_run": false,
+  "cpp_changed_or_rebuilt": false,
+  "review_editor_closed": true,
+  "launcher_preflight": {
+    "Status": "Passed",
+    "Project": "D:\\game design\\experiment\\experiment.uproject",
+    "LaunchProject": "D:\\game design\\experiment\\experiment.uproject",
+    "Cache": "D:\\game design\\experiment\\Saved\\VRRuntime",
+    "Engine": "D:\\浏览器下载\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+    "Map": "/Game/ReversedScale/Maps/L_CombatLabVR",
+    "SteamVRManifest": "D:\\steam\\steamapps\\common\\SteamVR\\steamxr_win64.json",
+    "RuntimeLibrary": "D:\\steam\\steamapps\\common\\SteamVR\\bin\\vrclient_x64.dll",
+    "ApplicationsStarted": false
+  },
+  "backup": "Backups/Content/ReversedScale/Weapons/SelectedSwordA_DetailV01",
+  "preview_note": "Source Detail previews use Blender studio lights; Screenshots are actual UE VR-lab lighting with supplied grip poses."
+}

@@ -1,0 +1,89 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "张浩翔的拯救者",
+			"instance": "2ADF738C4B868C859725F7A1A475A218",
+			"instanceName": "张浩翔的拯救者-88700",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9818] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+			"cPUModel": "Intel(R) Core(TM) i9-14900HX",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.11.05-13.59.15",
+	"succeeded": 4,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.40161916613578796,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "GatesDuplicateArmorAndMissingBone",
+			"fullTestPath": "Nilin.Combat.WeakPoint.GatesDuplicateArmorAndMissingBone",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2ADF738C4B868C859725F7A1A475A218"
+			],
+			"duration": 0.32901978492736816,
+			"dateTime": "2026.11.05-13.59.15",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NativeBladeSmallFrameRegionClassification",
+			"fullTestPath": "Nilin.Combat.WeakPoint.NativeBladeSmallFrameRegionClassification",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2ADF738C4B868C859725F7A1A475A218"
+			],
+			"duration": 0.014820899814367294,
+			"dateTime": "2026.11.05-13.59.15",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RealBladeSamplesAndWorldObstruction",
+			"fullTestPath": "Nilin.Combat.WeakPoint.RealBladeSamplesAndWorldObstruction",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2ADF738C4B868C859725F7A1A475A218"
+			],
+			"duration": 0.01665090024471283,
+			"dateTime": "2026.11.05-13.59.15",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RealMeshSphereAndCrescent",
+			"fullTestPath": "Nilin.Combat.WeakPoint.RealMeshSphereAndCrescent",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2ADF738C4B868C859725F7A1A475A218"
+			],
+			"duration": 0.041127599775791168,
+			"dateTime": "2026.11.05-13.59.15",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

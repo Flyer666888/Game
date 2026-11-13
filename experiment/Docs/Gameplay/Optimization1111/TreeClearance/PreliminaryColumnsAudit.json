@@ -1,0 +1,77 @@
+{
+  "Scope": "Read-only baseline AABB audit of six GDD1105 cosmetic trees against centered Engine Cylinder columns only; excludes roof and HISM beam geometry, which requires live mesh bounds.",
+  "TreeCount": 6,
+  "ColumnCount": 28,
+  "Trees": [
+    {
+      "Actor": "NL1105_Art_SM_Tree_Big_01a",
+      "Instance": 0,
+      "OriginalFootCM": [
+        -2600,
+        1700,
+        0.0
+      ],
+      "ConfirmedColumnIntersections": []
+    },
+    {
+      "Actor": "NL1105_Art_SM_Tree_Big_01a",
+      "Instance": 1,
+      "OriginalFootCM": [
+        2700,
+        14500,
+        2800.0
+      ],
+      "ConfirmedColumnIntersections": [
+        "NB_LowMartialGallery_Column_0384",
+        "NB_LowMartialGallery_Column_0387",
+        "NB_LowMartialGallery_Column_0390",
+        "NB_LowMartialGallery_Column_0393"
+      ]
+    },
+    {
+      "Actor": "NL1105_Art_SM_Tree_Medium_01a",
+      "Instance": 0,
+      "OriginalFootCM": [
+        2600,
+        1800,
+        0.0
+      ],
+      "ConfirmedColumnIntersections": []
+    },
+    {
+      "Actor": "NL1105_Art_SM_Tree_Medium_01a",
+      "Instance": 1,
+      "OriginalFootCM": [
+        -2800,
+        14500,
+        2800.0
+      ],
+      "ConfirmedColumnIntersections": [
+        "NB_LowMartialGallery_Column_0434"
+      ]
+    },
+    {
+      "Actor": "NL1105_Art_SM_Tree_Medium_01a",
+      "Instance": 2,
+      "OriginalFootCM": [
+        2800,
+        29000,
+        7200.0
+      ],
+      "ConfirmedColumnIntersections": []
+    },
+    {
+      "Actor": "NL1105_Art_SM_Tree_Medium_01a",
+      "Instance": 3,
+      "OriginalFootCM": [
+        -2800,
+        32000,
+        7200.0
+      ],
+      "ConfirmedColumnIntersections": [
+        "NB_AlchemyWorkshop_Column_0932",
+        "NB_AlchemyWorkshop_Column_0938"
+      ]
+    }
+  ]
+}

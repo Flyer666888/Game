@@ -1,0 +1,153 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "SphereBody": true,
+    "SphereHead": true,
+    "BladeHead": true,
+    "HorizontalQiHead": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [
+    {
+      "game_time": 3.5924177058041096,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "6940eeb3471008cfa3624b995acf8b2a",
+      "target_id": "5efe556342ebb50139105e88a4a45f3d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 4.728745214641094,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "6940eeb3471008cfa3624b995acf8b2a",
+      "target_id": "5efe556342ebb50139105e88a4a45f3d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 15.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 5.7541301138699055,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "6940eeb3471008cfa3624b995acf8b2a",
+      "target_id": "5efe556342ebb50139105e88a4a45f3d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 15.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 6.968544825911522,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "6940eeb3471008cfa3624b995acf8b2a",
+      "target_id": "5efe556342ebb50139105e88a4a45f3d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 15.0,
+      "target_defeated": false
+    }
+  ],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": "Saved map/native projectile and blade sweeps against a real configured enemy. AI and pose are frozen by tick controls, combat remains enabled. 10 damage fixture and per-case health restore isolate region damage; no direct resolver contact or HMD input.",
+  "elapsed_seconds": 8.781000000002678,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.c8fd11dc34f24a168b762e081f6ba079",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\dd8ece3ce653fed98c61f69b6d0a04d096d4c404.nlrun",
+    "test_run_ids": [
+      "1a6bf2ae4dc79670c53cbaa4cd62b7de",
+      "3373ed0d458662330be791bea21c7fa5"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\dd8ece3ce653fed98c61f69b6d0a04d096d4c404.nlrun"
+    ],
+    "temporary_assets_removed": true
+  },
+  "frames": [],
+  "physical_cases": [
+    {
+      "name": "SphereBody",
+      "started": 3.3590835072100163,
+      "hits": [
+        {
+          "damage": 10.0,
+          "weak": false,
+          "multiplier": 1.0,
+          "tag": "Combat.Hit"
+        }
+      ],
+      "health_after": 20.0,
+      "passed": true
+    },
+    {
+      "name": "SphereHead",
+      "started": 4.478744011372328,
+      "hits": [
+        {
+          "damage": 15.0,
+          "weak": true,
+          "multiplier": 1.5,
+          "tag": "Combat.WeakPoint.Head"
+        }
+      ],
+      "health_after": 15.0,
+      "passed": true
+    },
+    {
+      "name": "BladeHead",
+      "started": 5.604129411280155,
+      "hits": [
+        {
+          "damage": 15.0,
+          "weak": true,
+          "multiplier": 1.5,
+          "tag": "Combat.WeakPoint.Head"
+        }
+      ],
+      "health_after": 15.0,
+      "passed": true
+    },
+    {
+      "name": "HorizontalQiHead",
+      "started": 6.735209923237562,
+      "hits": [
+        {
+          "damage": 15.0,
+          "weak": true,
+          "multiplier": 1.5,
+          "tag": "Combat.WeakPoint.Head"
+        }
+      ],
+      "health_after": 15.0,
+      "passed": true
+    }
+  ],
+  "head_cm": [
+    -763.2410635959029,
+    -1145.9486709571102,
+    161.57499925698065
+  ],
+  "body_cm": [
+    -760.3315441188083,
+    -1149.585569851489,
+    90.0
+  ],
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+  "weak_bone": "head"
+}

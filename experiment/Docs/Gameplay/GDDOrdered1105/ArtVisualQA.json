@@ -1,0 +1,65 @@
+{
+  "state": "passed",
+  "reviewed_utc": 1793889416.7815435,
+  "map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+  "source": "Visual inspection of six final saved-map Unreal screenshots after the second art pass",
+  "all_screenshots_after_final_save": true,
+  "screenshots": [
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\ArtScreenshots\\Alchemy.png",
+      "sha256": "c7018c724095681747aa1dbdbabb146285891aea7572b02e219b614031a72a68",
+      "bytes": 2094501,
+      "modified_utc": 1793889267.0620053
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\ArtScreenshots\\Gate.png",
+      "sha256": "aadb058a31f590de2f0fad37ea16dae6e0824cd38a443ed9c27e57745b0ac87b",
+      "bytes": 1983806,
+      "modified_utc": 1793889277.22136
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\ArtScreenshots\\MartialCourt.png",
+      "sha256": "d318d47f9a12657550de1e0e6b9338e35d5f15701cbb1415c8bfd9d6db84a996",
+      "bytes": 2343030,
+      "modified_utc": 1793889287.1586714
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\ArtScreenshots\\Overview.png",
+      "sha256": "f70a9f03db5825232dfd975348082595a681425e58be2985c921db720987a02b",
+      "bytes": 1137260,
+      "modified_utc": 1793889297.1522903
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\ArtScreenshots\\RangedRock.png",
+      "sha256": "e7d94452324ac70c4e78ba74ba129ea7357c92f4f34e49e7258e5aa151b84a30",
+      "bytes": 1899600,
+      "modified_utc": 1793889307.2185845
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\ArtScreenshots\\Summit.png",
+      "sha256": "84e7357fba6a424a43b9feb5b0816e5246e32edee072e15c19cebfa3f161829d",
+      "bytes": 1432477,
+      "modified_utc": 1793889317.237751
+    }
+  ],
+  "observations": {
+    "gate": "Textured timber, tiled stone and roof surfaces are clear; 90cm lanterns hang from stone standards; guardian dragons have stone plinths.",
+    "martial_court": "Battle disk and stairs remain open. Peripheral foliage and hanging lights frame the court.",
+    "ranged_rock": "Stair connection, walkable shelf and firing surfaces remain visually clear; triplanar stone texture has no vertical UV stretch.",
+    "alchemy": "Roof tile and timber detail improve depth while the furnace and ritual circle retain readable silhouettes.",
+    "overview": "Six narrower tall floating peaks frame the continuous ascent; summit beacon is visible above the peak line.",
+    "summit": "Existing seal ring remains the central landmark, with a separate jade guide halo and vertical light column above."
+  },
+  "limitations": [
+    "Some faceting and self-shadow shapes from the original procedural roof geometry remain. Two-sided shading reduces the most visible missing dark wedges but does not constitute geometry reconstruction.",
+    "Distant peak bases remain intentionally visible as floating mountains in the pale cloud sea.",
+    "Desktop renderer visual review does not verify headset comfort or VR frame rate."
+  ],
+  "counts": {
+    "decorative_instances": 54,
+    "instanced_mesh_groups": 11,
+    "landmark_actors": 2,
+    "new_dynamic_lights": 0
+  },
+  "existing_geometry_and_navigation_settings_unchanged": true
+}

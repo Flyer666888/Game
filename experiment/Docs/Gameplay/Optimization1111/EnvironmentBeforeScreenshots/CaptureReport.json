@@ -1,0 +1,81 @@
+{
+  "state": "passed",
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "source": "Actual saved-map Unreal Engine renderer using existing GDD1105 CameraActors",
+  "resolution": [
+    1600,
+    900
+  ],
+  "captures": [
+    {
+      "name": "MartialCourt_TreeArchitecture",
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\EnvironmentBeforeScreenshots\\MartialCourt_TreeArchitecture.png",
+      "bytes": 2185673,
+      "width": 1600,
+      "height": 900,
+      "camera": "NL1105_Art_CAM_MartialCourt",
+      "position_cm": [
+        4100.0,
+        10500.0,
+        5400.0
+      ],
+      "rotation_degrees": [
+        -21.877247400093324,
+        135.70731936854426,
+        3.917118123115385e-07
+      ],
+      "fov": 64.0
+    },
+    {
+      "name": "Alchemy_TreeArchitecture",
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\EnvironmentBeforeScreenshots\\Alchemy_TreeArchitecture.png",
+      "bytes": 1929806,
+      "width": 1600,
+      "height": 900,
+      "camera": "NL1105_Art_CAM_Alchemy",
+      "position_cm": [
+        3800.0,
+        26900.0,
+        9900.0
+      ],
+      "rotation_degrees": [
+        -20.660962685709137,
+        135.76389846092997,
+        3.7107097065342856e-07
+      ],
+      "fov": 65.0
+    },
+    {
+      "name": "Overview",
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\EnvironmentBeforeScreenshots\\Overview.png",
+      "bytes": 1090613,
+      "width": 1600,
+      "height": 900,
+      "camera": "NL1105_Art_CAM_Overview",
+      "position_cm": [
+        -33000.0,
+        -38000.0,
+        34000.0
+      ],
+      "rotation_degrees": [
+        -21.04340237031789,
+        70.15537243386828,
+        1.951390725558937e-07
+      ],
+      "fov": 65.0
+    }
+  ],
+  "requested": [
+    "MartialCourt_TreeArchitecture",
+    "Alchemy_TreeArchitecture",
+    "Overview"
+  ],
+  "map_sha256_before": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+  "map_sha256_after": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+  "saved_map_unchanged": true,
+  "temporary_actors_created": 0,
+  "temporary_actors_remaining": 0,
+  "map_save_called": false,
+  "elapsed_seconds": 78.84399999999732,
+  "error": null
+}

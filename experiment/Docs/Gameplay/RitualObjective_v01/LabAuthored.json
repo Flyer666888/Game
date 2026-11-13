@@ -1,0 +1,26 @@
+{
+  "state": "authored",
+  "map": "/Game/ReversedScale/Maps/L_RitualObjectiveV01",
+  "source_map": "/Game/ReversedScale/Maps/L_CombatLabLite",
+  "source_map_sha256": "a2bb8164347c8be4c3258297482f65b6ff97207739751885886941d9c0730724",
+  "source_unchanged": true,
+  "objective": "/Game/ReversedScale/Maps/L_RitualObjectiveV01.L_RitualObjectiveV01:PersistentLevel.NLRitualObjective_0",
+  "trial": "/Game/ReversedScale/Maps/L_RitualObjectiveV01.L_RitualObjectiveV01:PersistentLevel.NLRitualLabController_0",
+  "game_mode": "/Game/ReversedScale/Gameplay/RitualV01/BP_RitualObjectiveLabMode",
+  "hostile_definition": "/Game/ReversedScale/Gameplay/RitualV01/DA_RitualHostileBolt",
+  "interference_targets": [
+    "/Game/ReversedScale/Maps/L_RitualObjectiveV01.L_RitualObjectiveV01:PersistentLevel.NLTrainingEnemy_0",
+    "/Game/ReversedScale/Maps/L_RitualObjectiveV01.L_RitualObjectiveV01:PersistentLevel.NLTrainingEnemy_1"
+  ],
+  "launcher": "/Game/ReversedScale/Maps/L_RitualObjectiveV01.L_RitualObjectiveV01:PersistentLevel.NLTrainingProjectileEmitter_0",
+  "gdd_default_effective_seconds": 240,
+  "lab_accelerated_effective_seconds": 30,
+  "controls": {
+    "F5": "Begin trial",
+    "F6": "Full trial retry",
+    "P": "Pause"
+  },
+  "no_existing_encounter_or_level_director": true,
+  "save_scope": "No disk save writes; objective snapshot API is exercised separately.",
+  "scope": "OBJ-01 independent prototype. Stationary targets represent registered interference; this is not ENEMY-03 caster AI or a completed Level 02."
+}

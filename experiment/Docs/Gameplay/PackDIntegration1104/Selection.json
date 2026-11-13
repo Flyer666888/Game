@@ -1,0 +1,36 @@
+{
+  "user_choice_date": "2026-11-04",
+  "current_enemy": {
+    "candidate": "D",
+    "source_clip": "/Game/Animations/Sword/Anim_CSATLI_04",
+    "review_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04.Pack_Anim_CSATLI_04",
+    "status": "applied_and_live_combat_verified",
+    "grip": "Forward grip fitted to the actual native hand; fixed right-finger pose shared by all six equipped clips.",
+    "gameplay_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+    "ground_motion_curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel",
+    "hit_window": [
+      0.4,
+      0.8
+    ],
+    "play_rate": 1.0,
+    "grip_revision": "D:\\game design\\experiment\\Docs\\Gameplay\\HandGripPolish1104\\Delivery.json",
+    "enemy_sword": "/Game/ReversedScale/Weapons/Yueyao/EnemyGrip1104/SM_Yueyao_EnemyGrip.SM_Yueyao_EnemyGrip"
+  },
+  "reserved_for_future_enemy": {
+    "candidate": "C",
+    "source_clip": "/Game/Animations/Sword/Anim_CSATLI_03",
+    "review_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_03",
+    "reverse_grip_required": true,
+    "status": "retained, not assigned to current enemy",
+    "grip_note": "User explicitly requires reverse grip for enemies using C. Do not treat a 180-degree cutting-edge roll as equivalent to reverse grip. Grip, blade sweep and native hit window must be validated when that later enemy is integrated.",
+    "asset_sha256_at_selection": "87f4dbc0f6303b36c7aa748e1652744eeb01661a737f19744579809f76f5aed8"
+  },
+  "animation_library": {
+    "source_package": "3583AnimationsPack",
+    "source_sword_folder": "/Game/Animations/Sword",
+    "retain_for_later_enemy_design": true,
+    "retargeted_candidates_folder": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3",
+    "originals_unchanged": true
+  },
+  "scope": "D is assigned to current melee enemies. C and the original animation pack remain retained for later enemies; C requires reverse grip when integrated."
+}

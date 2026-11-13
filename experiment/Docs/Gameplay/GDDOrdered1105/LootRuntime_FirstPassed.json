@@ -1,0 +1,143 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "four_misses_then_fifth_item": true,
+    "no_early_supplies": true,
+    "fifth_has_one_supply": true,
+    "full_health_preserves_supply": true,
+    "pause_preserves_supply": true,
+    "actual_overlap_collects": true,
+    "actual_health_restored": true,
+    "duplicate_does_not_reroll_or_reclaim": true,
+    "new_run_starts_fresh": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [
+    {
+      "game_time": 2.807374808937311,
+      "phase": "stage_active",
+      "origin": "loot_owned_defeat_fixture",
+      "source_id": "da0748904a38f3702b66a6a40cd9b61a",
+      "target_id": "244658b64c3130a95d90d1849f1e9ec9",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 3.4750681072473526,
+      "phase": "stage_active",
+      "origin": "loot_owned_defeat_fixture",
+      "source_id": "da0748904a38f3702b66a6a40cd9b61a",
+      "target_id": "d9ce057741afaefac4fe1890941d0eb6",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 5.605746507644653,
+      "phase": "stage_active",
+      "origin": "loot_owned_defeat_fixture",
+      "source_id": "da0748904a38f3702b66a6a40cd9b61a",
+      "target_id": "2770c6e341dfdee7e7868e9ee911363d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 6.274461008608341,
+      "phase": "stage_active",
+      "origin": "loot_owned_defeat_fixture",
+      "source_id": "da0748904a38f3702b66a6a40cd9b61a",
+      "target_id": "68dbafdf48eca806893885ad66a4955c",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 6.929802406579256,
+      "phase": "stage_active",
+      "origin": "loot_owned_defeat_fixture",
+      "source_id": "da0748904a38f3702b66a6a40cd9b61a",
+      "target_id": "6c8022d042250f758d9bbf903610937f",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    }
+  ],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": "Real saved-map owned defeats use a labelled 999-damage resolver fixture. Only this isolated run has 0% base chance to prove fifth-roll hard pity; production remains 20%. One real capsule overlap collects a visible ordinary supply. No manual/HMD play claim.",
+  "elapsed_seconds": 10.014999999999418,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.a0b8134943d040749986e36c08644f8f",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\f26afb62e6a025a8705aa42192e2e30d35133e86.nlrun",
+    "test_run_ids": [
+      "314e5bb648801bce5b830da54cc0183f",
+      "bbf4affa46c72b7077949f829227d2a4",
+      "d19732d641dae73db1a08ab18e8beb5b"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\f26afb62e6a025a8705aa42192e2e30d35133e86.nlrun"
+    ],
+    "temporary_assets_removed": true,
+    "ordinary_ledger_cleanup": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinOrdinaryLoot\\314E5BB648801BCE5B830DA54CC0183F.nllo"
+    ]
+  },
+  "frames": [],
+  "rolls": [
+    {
+      "eligible_count": 1,
+      "misses": 1,
+      "pending": 0
+    },
+    {
+      "eligible_count": 2,
+      "misses": 2,
+      "pending": 0
+    },
+    {
+      "eligible_count": 3,
+      "misses": 3,
+      "pending": 0
+    },
+    {
+      "eligible_count": 4,
+      "misses": 4,
+      "pending": 0
+    },
+    {
+      "eligible_count": 5,
+      "misses": 0,
+      "pending": 1
+    }
+  ],
+  "item": {
+    "event": "Test.Level01.a0b8134943d040749986e36c08644f8f.Ainside.Wave.01.Spawn.0002",
+    "health": 10.0,
+    "location": [
+      800.0,
+      1000.0,
+      30.0
+    ]
+  },
+  "full_health_preserves": true,
+  "pause_preserves": true,
+  "health_after": 70.0,
+  "overlap_collected": true,
+  "duplicate_preserves": true
+}

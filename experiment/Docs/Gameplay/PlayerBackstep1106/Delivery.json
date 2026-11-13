@@ -1,0 +1,87 @@
+{
+  "state": "passed",
+  "completed_utc": "2026-11-06T09:01:05.047609+00:00",
+  "symptom": "Desktop gameplay keeps walking backwards after attacks even after movement keys are released.",
+  "reproduced_cause": "A missed key-up leaves S cached down. The main combat pawn continued polling it across cursor release/recapture; the old two native regressions fail on cache, momentum, pending input and real world position.",
+  "changes": [
+    "Flush cached keys, consume queued movement and stop momentum at cursor and pause transitions.",
+    "Gate keyboard movement while the viewport is unfocused/background or the pointer is released; clear old keys when focus returns.",
+    "Keep normal held movement active during attacks; preserve combat collision and animation."
+  ],
+  "source_changes": [
+    {
+      "path": "Source/experiment/Private/Player/NLDesktopPlayerCharacter.cpp",
+      "before_sha256": "ba350a2978235140751e79ca42a795254bcbcfde1500a7b244806cbfdd4a9c82",
+      "after_sha256": "e06f97bea1e83c0375f47f4eefcdddbd03bb6e6c12277cca2478e0508f48e315"
+    },
+    {
+      "path": "Source/experiment/Public/Player/NLDesktopPlayerCharacter.h",
+      "before_sha256": "5590e025e778910e0809b190811be9c130e8a81314d873ad48cf154b1c28ef27",
+      "after_sha256": "a07f37f52db38ddf7f009fb3bd4739d888fe27f93f30400d75bacfcaaf457787"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLLevelCombatPlayer.cpp",
+      "before_sha256": "cc6b4391211a9dbad954b1378dd2b70896253c61731f33131d6bd2afe3d43138",
+      "after_sha256": "c1dc0189f2a12a404da9d1e1560442b0fad768de85f1e98137577f869b68d4d6"
+    }
+  ],
+  "new_regression_source": "Source/experiment/Private/Tests/NLDesktopMovementInputTests.cpp",
+  "old_version_regression": {
+    "failed": 2,
+    "report": "BeforeAutomation/index.json"
+  },
+  "final_regression": {
+    "passed": 109,
+    "failed": 0,
+    "clean": 77,
+    "with_warnings": 32,
+    "report": "AfterAutomation/index.json"
+  },
+  "saved_map_native_melee_cases": [
+    {
+      "name": "idle_clear",
+      "max_xy_drift_cm": 0.0
+    },
+    {
+      "name": "slash_clear",
+      "max_xy_drift_cm": 0.0
+    },
+    {
+      "name": "idle_touch",
+      "max_xy_drift_cm": 0.0
+    },
+    {
+      "name": "slash_touch",
+      "max_xy_drift_cm": 0.0
+    },
+    {
+      "name": "idle_overlap",
+      "max_xy_drift_cm": 0.0
+    },
+    {
+      "name": "slash_overlap",
+      "max_xy_drift_cm": 0.0
+    },
+    {
+      "name": "live_exchanges",
+      "max_xy_drift_cm": 0.0
+    },
+    {
+      "name": "live_lunge",
+      "max_xy_drift_cm": 0.0
+    }
+  ],
+  "runtime_scope": "Real saved main map, zero movement input, native StartDesktopSlash and normal player CharacterMovement. AI frozen only in stationary cases; explicit short-range placements are fixture setup.",
+  "map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+  "map_assets_unchanged": true,
+  "module": {
+    "path": "D:\\game design\\experiment\\Binaries\\Win64\\UnrealEditor-experiment.dll",
+    "sha256": "9f46c428441527dd03b615e651e739f82e44c202d09c3de4e4026d13f369597f"
+  },
+  "entry_point": "D:\\game design\\experiment\\Run_Gameplay_Demo.cmd",
+  "limits": [
+    "Key-up loss is delivered to real UPlayerInput in an isolated native test, not a physical OS Alt+Tab playtest.",
+    "The saved-map probe uses explicit positions, normal player movement and native swings; six stationary-AI cases and two live-AI cases. No physical headset input is claimed."
+  ],
+  "fixture_note": "InitialFixtureFailure.json preserves a test setup failure before ULocalPlayer initialization was corrected; BeforeAutomation is the subsequent valid old-product regression."
+}

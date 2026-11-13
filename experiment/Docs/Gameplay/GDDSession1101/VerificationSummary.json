@@ -1,0 +1,204 @@
+{
+  "status": "complete",
+  "client_date": "2026-11-01",
+  "scope": "Level 02 ritual phase chain and FormationBreaker integration",
+  "build_exit_code": 0,
+  "automation": {
+    "succeeded": 64,
+    "succeededWithWarnings": 21,
+    "failed": 0,
+    "notRun": 0
+  },
+  "runtime_checks": {
+    "local_pause_freezes_rescue_progress": true,
+    "real_channel_stops_rescue_progress": true,
+    "native_navigation_and_swept_ritual_damage": true,
+    "nonlethal_hit_interrupts_real_channel": true,
+    "breaker_death_leaves_no_interference": true,
+    "death_retry_restores_phase_entry_and_prior_clears": true,
+    "four_phases_completed": true,
+    "one_final_rescue_event": true,
+    "three_intermediate_events": true,
+    "no_remaining_interference": true,
+    "level_three_guarantee_without_unearned_lingqi": true
+  },
+  "phase_entries": [
+    {
+      "stage": "Cestablish",
+      "game_time": 0.4087575078010559,
+      "entry_progress": 0.0,
+      "entry_integrity": 100.0,
+      "target": 25.0
+    },
+    {
+      "stage": "Cinterrupt",
+      "game_time": 65.57684111967683,
+      "entry_progress": 25.0,
+      "entry_integrity": 100.0,
+      "target": 50.0
+    },
+    {
+      "stage": "Csiege",
+      "game_time": 132.67842261493206,
+      "entry_progress": 50.0,
+      "entry_integrity": 92.0,
+      "target": 75.0
+    },
+    {
+      "stage": "Cunseal",
+      "game_time": 204.4695779159665,
+      "entry_progress": 75.0,
+      "entry_integrity": 92.0,
+      "target": 100.0
+    }
+  ],
+  "breaker_observation": {
+    "walked_cm": 922.4879322289651,
+    "integrity_before": 100.0,
+    "integrity_after": 92.0,
+    "hit_damage": 10.0,
+    "time_until_interrupt": 10.828421395272017
+  },
+  "retry_attempts": [
+    {
+      "stage": "Csiege",
+      "before_progress": 53.00630187988281,
+      "restored_progress": 50.0,
+      "restored_integrity": 92.0
+    }
+  ],
+  "final": {
+    "integrity": 92.0,
+    "progress": 100.0,
+    "game_time": 271.0271395146847,
+    "empty_stage_seconds": {
+      "Cestablish": 2.583373799920082,
+      "Cinterrupt": 2.5501390993595123,
+      "Csiege": 2.550013203173876,
+      "Cunseal": 2.533346500247717
+    },
+    "player_health": 100.0
+  },
+  "growth": {
+    "ling_qi": 58.0,
+    "level": 3,
+    "burst_energy": 100.0,
+    "damage_multiplier": 1.5
+  },
+  "fixture_restored": true,
+  "map_sha256": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+  "module_sha256": "508f2827de441e679d538cbd163b1f94be46879ad7e396da3de5b9b7de77f002",
+  "source_differences_since_phase_work_started": [
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyBrainComponent.cpp",
+      "sha256": "5f68b2318993918d3080b383849cb6395521659c140dce4c040a97aae04727e7",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyCharacter.cpp",
+      "sha256": "6321ab4599d9df8d84ee81ad353885d70caa7591c98e67790f43a101519a975f",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLTalismanAttackComponent.cpp",
+      "sha256": "79d8b9d58441bccf7867a48987a9f5636a2a1110b0fd943afdbceac57bd102a9",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatProjectile.cpp",
+      "sha256": "185a58becd437ce3c4a4b897922d72881536b993bc6d229a059b28a6e0b2ae65",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Private/Encounter/NLLevelEncounterDirector.cpp",
+      "sha256": "ce6045038164bcf5c573e6db14500c62e73fc8cfabb39af03dff1fbb61b75b90",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Private/Objective/NLRitualObjective.cpp",
+      "sha256": "dbd4af3ee54aa5db9d10a57fd4be59f1ad66885d2b98a50b1734bab447287b7e",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLLevelCombatPlayer.cpp",
+      "sha256": "9b4fec347113ae45d00b3c756ecd2d9617788a88cd73db42b00630d8cc427c5a",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLVRPlayerCharacter.cpp",
+      "sha256": "179cc0e61a2db9cfff9e737a0345654416d0d064fd9838dab12bbd7d509386a6",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Private/Progression/NLRunStateSubsystem.cpp",
+      "sha256": "09ee6b19cd74b764f47fc9eb9ab9fad1103c77958d073a6e0a67c5c8ffb8c73c",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLFormationBreakerTests.cpp",
+      "sha256": "3e3c355db2ae283e807541dd251652cbf1cb54673e839a305961f34cdfb6168d",
+      "baseline_exists": false
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLFourSealTests.cpp",
+      "sha256": "0e3d098de7a31df303ef9b7e0603f378748a29505288eae0c395d7645d501117",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLRitualPhaseChainTests.cpp",
+      "sha256": "e1f8b43e696781c772e8463ebb8a5ce1523b40cfc666438250ea4d858b613169",
+      "baseline_exists": false
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLRunCallbackTestListener.h",
+      "sha256": "8e55c011cc8615011d489b25d1e78037c0d97107d3270cd556ca859ddbbd0ba9",
+      "baseline_exists": false
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLSecondUpgradeTests.cpp",
+      "sha256": "448e18842aefa0f4436e2cb829ec8a481b05c8a8494a3f126bc683c058bcbcd3",
+      "baseline_exists": false
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyBrainComponent.h",
+      "sha256": "80849d5c466d44e6be70d377f07dcb9bdb236f2564da3a8695c66c38251c7e93",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLTalismanAttackComponent.h",
+      "sha256": "7229036be4c2d3bb78c8de77fcca4d4996d1d7ee1565e894a24c23b324a62be6",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLLevelEncounterDirector.h",
+      "sha256": "5abe3a708ec7752530ce4d93adce5bcbbf4b4c1d9ccd230d05306af392e6facc",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLLevelEncounterTypes.h",
+      "sha256": "f9669c362434a85e67b42304d822b8abb97f24d9345610a665eb2326dfd06f9c",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Public/Objective/NLRitualObjective.h",
+      "sha256": "d39ae3027533d9d2dd07ed046a22f840b35a50b5e1b1d4f1ba60af36f5ad2791",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Public/Progression/NLRunStateSubsystem.h",
+      "sha256": "7876ab41fc6e5cd85d49e27e5131bffd2845772bf9123a549fd20f1e04811ad4",
+      "baseline_exists": true
+    },
+    {
+      "path": "Source/experiment/Public/Progression/NLUpgradeDefinition.h",
+      "sha256": "aab51c09316a7749df18aa5d4bd6ba8010c5f28b09af02e2983c677d8731bcfe",
+      "baseline_exists": true
+    }
+  ],
+  "limits": [
+    "Scripted main-map integration; most enemies paused and cleared through ordinary-damage resolver contacts.",
+    "One breaker used live native navigation, scheduling, channel and projectile collision.",
+    "Not a human continuous playthrough, physical PICO test, or performance benchmark."
+  ],
+  "next_gdd_task": "BOSS-01: single flying sword, reflected guard damage, guard break, five-second vulnerability, recovery"
+}

@@ -1,0 +1,346 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "player_followed_fixture": true,
+    "both_enemies_spawned": true,
+    "observed_expected_clearance": true,
+    "different_birth_points": true,
+    "no_collision_retry": true,
+    "all_stage_entries_have_distant_candidates": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": "Actual saved map. Move the test pawn 100 cm from the first spawn point during the warning.",
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.35f0acf143694d9fb57a624c1a60998c",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\91446c76f4609d92e763c71c19735fece4f40843.nlrun",
+    "test_run_ids": [
+      "20fb7ead44a89a21d953c69af620ef6b",
+      "fd946ff741ca21b8cdf9a48f34408868"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\91446c76f4609d92e763c71c19735fece4f40843.nlrun"
+    ],
+    "temporary_assets_removed": true
+  },
+  "frames": [],
+  "spawn_points": [
+    [
+      -800.0,
+      -1100.0,
+      90.0
+    ],
+    [
+      800.0,
+      -1100.0,
+      90.0
+    ]
+  ],
+  "births": [
+    {
+      "enemy": [
+        800.0,
+        -1100.0,
+        90.0
+      ],
+      "player": [
+        -700.0,
+        -1100.0,
+        90.0
+      ],
+      "distance_cm": 1500.0,
+      "time": 2.712279297411442
+    },
+    {
+      "enemy": [
+        -800.0,
+        -1100.0,
+        90.0
+      ],
+      "player": [
+        0.0,
+        -2100.0,
+        90.1500015258789
+      ],
+      "distance_cm": 1280.6248562715225,
+      "time": 3.3633882999420166
+    }
+  ],
+  "entry_clearance": [
+    {
+      "stage": "Aoutside",
+      "wave": "Aoutside_W01",
+      "group": "Aoutside_W01_Enemies",
+      "furthest_cm": 1280.625237920915
+    },
+    {
+      "stage": "Ainside",
+      "wave": "Ainside_W01",
+      "group": "Ainside_W01_Enemies",
+      "furthest_cm": 1615.5497516325518
+    },
+    {
+      "stage": "R01",
+      "wave": "R01_W01",
+      "group": "R01_W01_Enemies",
+      "furthest_cm": 1310.8312778462766
+    },
+    {
+      "stage": "Bcourt",
+      "wave": "Bcourt_W01",
+      "group": "Bcourt_W01_Enemies",
+      "furthest_cm": 3100.0001612903184
+    },
+    {
+      "stage": "Bcourt",
+      "wave": "Bcourt_W02",
+      "group": "Bcourt_W02_Enemies",
+      "furthest_cm": 3100.0001612903184
+    },
+    {
+      "stage": "Bcourt",
+      "wave": "Bcourt_W03",
+      "group": "Bcourt_W03_Enemies",
+      "furthest_cm": 3100.0001612903184
+    },
+    {
+      "stage": "Bcourt",
+      "wave": "Bcourt_W03",
+      "group": "Bcourt_W03_Talisman",
+      "furthest_cm": 3100.0001612903184
+    },
+    {
+      "stage": "Bcourt",
+      "wave": "Bcourt_W04",
+      "group": "Bcourt_W04_Enemies",
+      "furthest_cm": 3100.0001612903184
+    },
+    {
+      "stage": "Bcourt",
+      "wave": "Bcourt_W05",
+      "group": "Bcourt_W05_Enemies",
+      "furthest_cm": 3100.0001612903184
+    },
+    {
+      "stage": "Bcourt",
+      "wave": "Bcourt_W05",
+      "group": "Bcourt_W05_Talisman",
+      "furthest_cm": 3100.0001612903184
+    },
+    {
+      "stage": "Bcourt",
+      "wave": "Bcourt_W06",
+      "group": "Bcourt_W06_Enemies",
+      "furthest_cm": 3100.0001612903184
+    },
+    {
+      "stage": "Bexit",
+      "wave": "Bexit_W01",
+      "group": "Bexit_W01_Enemies",
+      "furthest_cm": 1216.5529170570428
+    },
+    {
+      "stage": "R02",
+      "wave": "R02_W01",
+      "group": "R02_W01_Enemies",
+      "furthest_cm": 1320.6689598012222
+    },
+    {
+      "stage": "R03",
+      "wave": "R03_W01",
+      "group": "R03_W01_Enemies",
+      "furthest_cm": 1321.8348267992394
+    },
+    {
+      "stage": "Cestablish",
+      "wave": "Ritual.Cestablish.W01",
+      "group": "Cestablish.W01.sword",
+      "furthest_cm": 2343.0751161667863
+    },
+    {
+      "stage": "Cestablish",
+      "wave": "Ritual.Cestablish.W01",
+      "group": "Cestablish.W01.talisman",
+      "furthest_cm": 2954.6575097631876
+    },
+    {
+      "stage": "Cestablish",
+      "wave": "Ritual.Cestablish.W02",
+      "group": "Cestablish.W02.sword",
+      "furthest_cm": 2343.0751161667863
+    },
+    {
+      "stage": "Cestablish",
+      "wave": "Ritual.Cestablish.W02",
+      "group": "Cestablish.W02.talisman",
+      "furthest_cm": 2954.6575097631876
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": "Ritual.Cinterrupt.W01",
+      "group": "Cinterrupt.W01.sword",
+      "furthest_cm": 2343.0751161667863
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": "Ritual.Cinterrupt.W01",
+      "group": "Cinterrupt.W01.talisman",
+      "furthest_cm": 2954.6575097631876
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": "Ritual.Cinterrupt.W01",
+      "group": "Cinterrupt.W01.breaker",
+      "furthest_cm": 2247.2207279214917
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": "Ritual.Cinterrupt.W02",
+      "group": "Cinterrupt.W02.sword",
+      "furthest_cm": 2343.0751161667863
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": "Ritual.Cinterrupt.W02",
+      "group": "Cinterrupt.W02.talisman",
+      "furthest_cm": 2954.6575097631876
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": "Ritual.Cinterrupt.W02",
+      "group": "Cinterrupt.W02.breaker",
+      "furthest_cm": 2247.2207279214917
+    },
+    {
+      "stage": "Csiege",
+      "wave": "Ritual.Csiege.W01",
+      "group": "Csiege.W01.sword",
+      "furthest_cm": 2343.0751161667863
+    },
+    {
+      "stage": "Csiege",
+      "wave": "Ritual.Csiege.W01",
+      "group": "Csiege.W01.talisman",
+      "furthest_cm": 2954.6575097631876
+    },
+    {
+      "stage": "Csiege",
+      "wave": "Ritual.Csiege.W01",
+      "group": "Csiege.W01.breaker",
+      "furthest_cm": 2247.2207279214917
+    },
+    {
+      "stage": "Csiege",
+      "wave": "Ritual.Csiege.W02",
+      "group": "Csiege.W02.sword",
+      "furthest_cm": 2343.0751161667863
+    },
+    {
+      "stage": "Csiege",
+      "wave": "Ritual.Csiege.W02",
+      "group": "Csiege.W02.talisman",
+      "furthest_cm": 2954.6575097631876
+    },
+    {
+      "stage": "Csiege",
+      "wave": "Ritual.Csiege.W02",
+      "group": "Csiege.W02.breaker",
+      "furthest_cm": 2247.2207279214917
+    },
+    {
+      "stage": "Cunseal",
+      "wave": "Ritual.Cunseal.W01",
+      "group": "Cunseal.W01.sword",
+      "furthest_cm": 2343.0751161667863
+    },
+    {
+      "stage": "Cunseal",
+      "wave": "Ritual.Cunseal.W01",
+      "group": "Cunseal.W01.talisman",
+      "furthest_cm": 2954.6575097631876
+    },
+    {
+      "stage": "Cunseal",
+      "wave": "Ritual.Cunseal.W01",
+      "group": "Cunseal.W01.breaker",
+      "furthest_cm": 2247.2207279214917
+    },
+    {
+      "stage": "Cunseal",
+      "wave": "Ritual.Cunseal.W02",
+      "group": "Cunseal.W02.sword",
+      "furthest_cm": 2343.0751161667863
+    },
+    {
+      "stage": "Cunseal",
+      "wave": "Ritual.Cunseal.W02",
+      "group": "Cunseal.W02.talisman",
+      "furthest_cm": 2954.6575097631876
+    },
+    {
+      "stage": "Cunseal",
+      "wave": "Ritual.Cunseal.W02",
+      "group": "Cunseal.W02.breaker",
+      "furthest_cm": 2247.2207279214917
+    },
+    {
+      "stage": "GM01",
+      "wave": "GM01_W01",
+      "group": "GM01_W01_Enemies",
+      "furthest_cm": 1166.9850755966027
+    },
+    {
+      "stage": "GM02",
+      "wave": "GM02_W01",
+      "group": "GM02_W01_Enemies",
+      "furthest_cm": 1871.8541673105406
+    },
+    {
+      "stage": "GM02",
+      "wave": "GM02_W02",
+      "group": "GM02_W02_Enemies",
+      "furthest_cm": 1938.2999162543138
+    },
+    {
+      "stage": "GM03",
+      "wave": "GM03_W01",
+      "group": "GM03_W01_Enemies",
+      "furthest_cm": 1962.370573237401
+    },
+    {
+      "stage": "GM03",
+      "wave": "GM03_W02",
+      "group": "GM03_W02_Enemies",
+      "furthest_cm": 1964.957824739527
+    },
+    {
+      "stage": "GM04",
+      "wave": "GM04_W01",
+      "group": "GM04_W01_Enemies",
+      "furthest_cm": 1967.803006893829
+    },
+    {
+      "stage": "Boss",
+      "wave": "Boss_W01",
+      "group": "Boss_W01_Enemies",
+      "furthest_cm": 3600.000138887827
+    }
+  ],
+  "failed_spawn_count": 0
+}

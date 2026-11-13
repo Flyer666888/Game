@@ -1,0 +1,293 @@
+{
+  "source_clip": "/Game/Animations/Sword/Anim_CSATLI_04",
+  "review_clip": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04.Pack_Anim_CSATLI_04",
+  "duration": 2.3333332538604736,
+  "play_rate": 1.0,
+  "hit_window": [
+    0.4,
+    0.8
+  ],
+  "hit_window_frames_30fps": [
+    12,
+    24
+  ],
+  "telegraph_seconds": 0.4,
+  "attack_seconds": 0.4,
+  "recover_seconds": 1.5333332538604736,
+  "attack_range_cm": 200.0,
+  "original_ground_delta_cm": [
+    284.69471462206354,
+    0.0005418648880945777,
+    0.0
+  ],
+  "source_ground_delta_cm": [
+    -0.000497750414069742,
+    261.5170593261719,
+    0.0
+  ],
+  "source_to_native": {
+    "yaw_degrees": -90,
+    "uniform_translation_ratio": 1.0886276993004262
+  },
+  "root_rotation_max_delta_degrees": 0.0,
+  "root_motion_method": "Copy the complete source ground-root path through coordinate/height conversion into an absolute-time curve. Subtract that same path from gameplay Hips; collision-swept actor capsule supplies the movement.",
+  "evidence": [
+    "Main cutting arc: t=.333-.767s, native pelvis-relative blade-mid speed 331-969-563cm/s. Cutting-edge/velocity cosine is strongly positive during the descending sweep and approaches zero at .767s.",
+    "The blade crosses into the forward target at approximately .70-.80s. At .767s the capsule path is +129.8cm and tip is +78.2cm forward, +12.0cm lateral, 51.9cm high in capsule-ground coordinates. A 200cm initial target separation lies inside the blade sweep plus target radius.",
+    "At .833-.933s the blade rapidly returns upward; edge/velocity alignment is negative. This recovery must not damage. Later motion is slower guard recovery and footsteps, not another equivalent strike.",
+    "Source root has no rotation. Complete authored translation is +284.695cm in native forward; do not let visible Hips drift that far away from the collision capsule.",
+    "D starts in a combo entry pose: Hips first/last rotation differs by 140.153 degrees. Its full source motion remains approved, but the actual idle-to-D blend needs visual inspection in live combat."
+  ],
+  "phase_bounds": {
+    "entry_and_telegraph": [
+      0.0,
+      0.4
+    ],
+    "active_cut": [
+      0.4,
+      0.8
+    ],
+    "blade_return": [
+      0.8,
+      1.0
+    ],
+    "guard_and_footstep_recovery": [
+      1.0,
+      2.3333332538604736
+    ]
+  },
+  "integration_checks": [
+    "Use the same animation time and playback rate for root curve and native hit window.",
+    "Lock attack travel direction at commitment; do not steer the whole curve after the player moves.",
+    "Block and drop attempted root deltas at collision instead of accumulating a later teleport.",
+    "Verify death, stagger, pause, reset and interrupted blend clear or suspend root travel.",
+    "Check the native window and real blade sweep against a target at approximately 200cm; this offline path analysis is not collision validation.",
+    "Review the 140-degree entry pose blend before final delivery; do not silently truncate the selected source action."
+  ],
+  "sampled_phase_frames": [
+    {
+      "t": 0.0,
+      "root": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hips_in_place": [
+        -8.351337432861328,
+        -2.6572394371032715,
+        96.14605712890625
+      ],
+      "blade_root_in_place": [
+        -42.655924709588106,
+        -14.094061117363877,
+        148.77844309351175
+      ],
+      "mid_in_place": [
+        -45.86167616194747,
+        -42.30580859737,
+        139.06708570350924
+      ],
+      "tip_in_place": [
+        -52.10963773501521,
+        -72.06054488646907,
+        128.54152494633468
+      ]
+    },
+    {
+      "t": 0.3999999863760812,
+      "root": [
+        85.41916843893424,
+        2.5803088777721462e-05,
+        0.0
+      ],
+      "hips_in_place": [
+        -4.825769391082673,
+        3.387800639629728,
+        96.69033813476562
+      ],
+      "blade_root_in_place": [
+        -20.07994270860526,
+        -30.460329629402747,
+        155.93004878904827
+      ],
+      "mid_in_place": [
+        -17.987934282456592,
+        -59.65057224442465,
+        149.29354086489323
+      ],
+      "tip_in_place": [
+        -13.191064263959248,
+        -90.92494119026813,
+        143.45636091476018
+      ]
+    },
+    {
+      "t": 0.5333333151681082,
+      "root": [
+        108.00693905831552,
+        2.5803088777721462e-05,
+        0.0
+      ],
+      "hips_in_place": [
+        -1.593029146206149,
+        -8.274796539783114,
+        87.78516387939453
+      ],
+      "blade_root_in_place": [
+        -41.14804745916793,
+        -21.786849205268343,
+        126.76387475843445
+      ],
+      "mid_in_place": [
+        -62.68912066250197,
+        -37.31111928360417,
+        112.78284459646923
+      ],
+      "tip_in_place": [
+        -85.03435336913952,
+        -56.19670600607625,
+        99.39650924509186
+      ]
+    },
+    {
+      "t": 0.6999999761581421,
+      "root": [
+        118.26430166345338,
+        2.5803088777721462e-05,
+        0.0
+      ],
+      "hips_in_place": [
+        6.114139193480213,
+        -10.001692825793857,
+        82.97411346435547
+      ],
+      "blade_root_in_place": [
+        18.070355235407163,
+        33.269385516164846,
+        104.94098135310337
+      ],
+      "mid_in_place": [
+        24.4442003610354,
+        46.175950499963264,
+        78.61068171106008
+      ],
+      "tip_in_place": [
+        29.486290261223445,
+        62.111745653553285,
+        51.118927547919235
+      ]
+    },
+    {
+      "t": 0.7666666405541557,
+      "root": [
+        129.78244982732082,
+        2.5803088777721462e-05,
+        0.0
+      ],
+      "hips_in_place": [
+        5.622182741038557,
+        -8.049675041675204,
+        84.32747650146484
+      ],
+      "blade_root_in_place": [
+        56.40298129640135,
+        11.666230331686315,
+        110.03586794815688
+      ],
+      "mid_in_place": [
+        65.73855803521872,
+        11.305672295312322,
+        81.5190833211631
+      ],
+      "tip_in_place": [
+        78.22554402259203,
+        11.992286185790253,
+        51.87498564520274
+      ]
+    },
+    {
+      "t": 0.7999999727521624,
+      "root": [
+        136.58710383812746,
+        2.5803088777721462e-05,
+        0.0
+      ],
+      "hips_in_place": [
+        5.115426069099101,
+        -7.172164494037264,
+        86.39957427978516
+      ],
+      "blade_root_in_place": [
+        57.91016683216796,
+        -4.84091138254639,
+        113.92386403315433
+      ],
+      "mid_in_place": [
+        68.32590877771406,
+        -2.3094064818003206,
+        85.89541771039893
+      ],
+      "tip_in_place": [
+        81.96939754996313,
+        -0.645399948462477,
+        56.8049539622244
+      ]
+    },
+    {
+      "t": 0.999999965940203,
+      "root": [
+        182.07042459236987,
+        2.5803088777721462e-05,
+        0.0
+      ],
+      "hips_in_place": [
+        -7.2709708570183125,
+        2.3935086188319987,
+        94.30432891845703
+      ],
+      "blade_root_in_place": [
+        -18.594423362321038,
+        -16.824744146565955,
+        142.1508600358685
+      ],
+      "mid_in_place": [
+        -9.684876674349653,
+        -9.590909422474285,
+        169.87777139659667
+      ],
+      "tip_in_place": [
+        -2.829788823116587,
+        -1.0587912434211288,
+        200.13301085418294
+      ]
+    },
+    {
+      "t": 2.3333332538604736,
+      "root": [
+        284.69471462206354,
+        0.0005418648880945777,
+        0.0
+      ],
+      "hips_in_place": [
+        -1.0260439677666682,
+        -2.374052225605868,
+        97.17230987548828
+      ],
+      "blade_root_in_place": [
+        -40.13834542844313,
+        16.506410000025156,
+        99.18574923977911
+      ],
+      "mid_in_place": [
+        -39.50063590675833,
+        40.368703799167214,
+        117.37020033998209
+      ],
+      "tip_in_place": [
+        -40.50911302545887,
+        67.27447234904857,
+        134.98358665115492
+      ]
+    }
+  ]
+}

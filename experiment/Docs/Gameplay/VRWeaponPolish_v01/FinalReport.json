@@ -1,0 +1,143 @@
+{
+  "state": "implemented_and_validated",
+  "date": "2026-10-26",
+  "requested_device": "PICO series through SteamVR",
+  "build": "Build_02 passed",
+  "automation": {
+    "succeeded_with_warnings": 3,
+    "total": 16,
+    "succeeded": 13,
+    "report": "Automation_01/index.json",
+    "failed": 0
+  },
+  "runtime": {
+    "equipped_mesh": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/SM_PlayerSword_A_DetailV01.SM_PlayerSword_A_DetailV01",
+    "checkpoint_settings_restored": true,
+    "map_unchanged": true,
+    "physical_hmd_acceptance": false,
+    "motion_source": "RightGrip",
+    "pose_count": 7,
+    "state": "passed",
+    "minimum_axis_dot": 0.9999999999999962,
+    "captures": [
+      {
+        "label": "Before_Upright",
+        "file": "D:\\game design\\experiment\\Docs\\Gameplay\\VRWeaponPolish_v01\\Screenshots\\Before_Upright.png",
+        "synthetic_pose": true
+      },
+      {
+        "label": "After_Upright",
+        "file": "D:\\game design\\experiment\\Docs\\Gameplay\\VRWeaponPolish_v01\\Screenshots\\After_Upright.png",
+        "synthetic_pose": true
+      },
+      {
+        "label": "Blade_Closeup",
+        "file": "D:\\game design\\experiment\\Docs\\Gameplay\\VRWeaponPolish_v01\\Screenshots\\Blade_Closeup.png",
+        "synthetic_pose": true
+      }
+    ]
+  },
+  "geometry": {
+    "slots": [
+      "BladeSteel",
+      "BladeEdge",
+      "BladeFuller",
+      "Guard03",
+      "Grip04",
+      "Pommel03",
+      "GoldDetail"
+    ],
+    "fbx_sha256": "d17258e79a595034209ef154c85cb8d1f347e3747f73a62786f975853b78a036",
+    "unchanged_grip_max_vertex_delta_cm": 5.06973582982301E-07,
+    "zero_area_triangles": 0,
+    "triangles": 11878,
+    "blade_nonmanifold_edges": 0
+  },
+  "asset_import": {
+    "materials": [
+      {
+        "slot": "BladeSteel",
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_BladeSteel.M_BladeSteel"
+      },
+      {
+        "slot": "BladeEdge",
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_BladeEdge.M_BladeEdge"
+      },
+      {
+        "slot": "BladeFuller",
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_BladeFuller.M_BladeFuller"
+      },
+      {
+        "slot": "Guard03",
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_GuardBronze.M_GuardBronze"
+      },
+      {
+        "slot": "Grip04",
+        "path": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01"
+      },
+      {
+        "slot": "Pommel03",
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_GuardBronze.M_GuardBronze"
+      },
+      {
+        "slot": "GoldDetail",
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/M_GoldDetail.M_GoldDetail"
+      }
+    ],
+    "state": "passed",
+    "mesh": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/SM_PlayerSword_A_DetailV01.SM_PlayerSword_A_DetailV01",
+    "bounds_cm": {
+      "origin": [
+        -1.430511474609375E-06,
+        5.960464477539063E-08,
+        25.78193426132202
+      ],
+      "extent": [
+        7.520434856414795,
+        1.8007643818855286,
+        39.15715265274048
+      ],
+      "tip_z": 64.9390869140625,
+      "bottom_z": -13.375218391418457
+    }
+  },
+  "protected_assets": [
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Weapons\\SelectedSwordA\\SM_PlayerSword_A.uasset",
+      "sha256": "208BE946FF824A5003015C49CB294E1299DB5AB01F4F7EE171DFBFE4A37DE815",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Player\\Hands\\SK_PlayerHand_Realistic_R.uasset",
+      "sha256": "35ED1AC9C1C1F990F428237BBFAAACD0F5C22700B751E02108DDEF1095468F4A",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Player\\Animations\\A_Yueyao_Grip_Right.uasset",
+      "sha256": "67AE614443EE319E89778D3B4AA26FCAC4234F1B7A4DA72E0E4B96103CFE02EF",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Maps\\L_CombatLabVR.umap",
+      "sha256": "F0A8E48559E04127FBEB447B28F04E5BE95FEC07FB5D27DFE314F421FF331E31",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Maps\\L_NilinGameplayV01.umap",
+      "sha256": "BAB0BD005D11F9206EFFAD341CAF04C158A69DD46E9F098FC589E4A547E5AD81",
+      "unchanged": true
+    }
+  ],
+  "editor_worker": "closed revision 6",
+  "launcher": "D:\\game design\\experiment\\Run_VR_Demo.cmd",
+  "launcher_check_only": "Passed",
+  "preserved_failed_attempts": [
+    "Build_01.log",
+    "RuntimeGripReport.failed_capture_api.json"
+  ],
+  "limitations": [
+    "Supplied OpenXR grip poses in tests, not actual PICO controller input",
+    "No full VR playthrough or performance benchmark",
+    "Reference art uses original project sources; no external provider assets"
+  ]
+}

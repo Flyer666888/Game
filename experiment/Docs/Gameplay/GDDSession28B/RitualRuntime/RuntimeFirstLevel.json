@@ -1,0 +1,65 @@
+{
+  "state": "failed",
+  "success": false,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [
+    {
+      "phase": "stage_active",
+      "error": "Traceback (most recent call last):\n  File \"D:\\game design\\experiment\\Scripts\\Editor\\Level01PolishV01\\runtime_first_level.py\", line 677, in tick\n    assert time.monotonic() - self.started < 600, 'First-level runtime probe deadline'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: First-level runtime probe deadline\n"
+    }
+  ],
+  "checks": {},
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Actual saved main map and authored alchemy assets; only the preceding stages are temporarily omitted to isolate Level 02.",
+    "Unique test LevelId; original stage array and dependency restored without saving the map.",
+    "Ordinary enemies and later breakers are paused and defeated with explicitly labelled ordinary melee resolver contacts; no claim of continuous player combat.",
+    "One real FormationBreaker uses native navigation, targeting, HighThreat scheduling, telegraph, finite interference and swept projectile damage without manually firing events.",
+    "Runs the authored 240 effective-second rescue rate; no time acceleration or progress injection.",
+    "Tests local pause and genuine player-death/retry rollback. No manual health restores during combat.",
+    "No physical PICO/controller acceptance or frame-rate benchmark."
+  ],
+  "elapsed_seconds": 3788.813000000002,
+  "ordinary_melee_definition_damage": 30.0,
+  "phase_entries": [
+    {
+      "stage": "Cestablish",
+      "game_time": 0.5610545128583908,
+      "entry_progress": 0.0,
+      "entry_integrity": 100.0,
+      "target": 25.0
+    }
+  ],
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.5424412a8d3c4ad1a3be396fb5b4be5b",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\db464092d53b373276e6f375b4cc19d3a16b3e88.nlrun",
+    "test_run_ids": [
+      "88b6e4454fe1340733629d9637923c8d"
+    ],
+    "original_level_id": "Level.Nilin.Playable",
+    "map_sha256_before": "a716831382ad57dcb43206b8f4b8e0d156cbe1abb8d06ca5a92b856f8b697b47",
+    "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+    "temporary_assets": [
+      "/Game/ReversedScale/Tests/TransientIntegration/DA_Level01_DamageTen_5424412a8d3c4ad1a3be396fb5b4be5b",
+      "/Game/ReversedScale/Tests/TransientIntegration/DA_Level01_EnemyDeathContact_5424412a8d3c4ad1a3be396fb5b4be5b"
+    ],
+    "full_stage_array_restored": true,
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "a716831382ad57dcb43206b8f4b8e0d156cbe1abb8d06ca5a92b856f8b697b47",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\db464092d53b373276e6f375b4cc19d3a16b3e88.nlrun"
+    ],
+    "temporary_assets_removed": true
+  }
+}

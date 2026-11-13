@@ -1,0 +1,750 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "saved": true,
+  "time": "2026-10-23T23:45:49.766743",
+  "success": true,
+  "stage_count": 16,
+  "wave_count": 27,
+  "enemy_budget": 109,
+  "navigation_points_and_entry_paths": [
+    {
+      "stage": "Aoutside",
+      "point": "Aoutside_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -800.0,
+        -1100.0,
+        5.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Aoutside",
+      "point": "Aoutside_P02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        800.0,
+        -1100.0,
+        5.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -800.0,
+        1000.0,
+        5.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        800.0,
+        1000.0,
+        5.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P03",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        1500.0,
+        5.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P04",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        1500.0,
+        5.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P05",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -600.0,
+        2100.0,
+        5.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P06",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        600.0,
+        2100.0,
+        5.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "R01",
+      "point": "R01_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -740.0,
+        4772.5,
+        880.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "R01",
+      "point": "R01_P02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1150.0,
+        4772.5,
+        880.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -800.0,
+        14000.0,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        800.0,
+        14000.0,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P03",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -0.0,
+        14800.0,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P04",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -800.0,
+        15400.0,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P05",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        800.0,
+        15400.0,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P06",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -0.0,
+        15700.0,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -650.0,
+        15900.0,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        680.0,
+        16006.066017177984,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P03",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        15300.0,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P04",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        15300.0,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P05",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -500.0,
+        16100.0,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P06",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        500.0,
+        16100.0,
+        2805.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "R02",
+      "point": "R02_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        740.0,
+        17952.499999999996,
+        3680.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "R02",
+      "point": "R02_P02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1150.0,
+        17952.499999999996,
+        3680.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "R03",
+      "point": "R03_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -740.0,
+        23615.357142857098,
+        5920.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "R03",
+      "point": "R03_P02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1150.0,
+        23615.357142857098,
+        5920.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        29000.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        29000.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P03",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        29800.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P04",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        29800.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P05",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        30600.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P06",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        30600.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P07",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1800.0,
+        29400.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P08",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1800.0,
+        29400.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        29000.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        29000.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P03",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        29800.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P04",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        29800.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P05",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        30600.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P06",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        30600.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P07",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1800.0,
+        29400.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P08",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1800.0,
+        29400.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        29000.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        29000.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P03",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        29800.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P04",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        29800.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P05",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        30600.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P06",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        30600.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P07",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1800.0,
+        29400.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P08",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1800.0,
+        29400.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        29000.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        29000.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P03",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        29800.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P04",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        29800.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P05",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1200.0,
+        30600.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P06",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1200.0,
+        30600.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P07",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -1800.0,
+        29400.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P08",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        1800.0,
+        29400.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "GM01",
+      "point": "GM01_Master",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -4600.0,
+        33600.0,
+        7205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "GM02",
+      "point": "GM02_Guard01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -8800.0,
+        39600.0,
+        9005.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "GM02",
+      "point": "GM02_Guard02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -7600.0,
+        39600.0,
+        9005.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "GM02",
+      "point": "GM02_Master",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -8200.0,
+        40100.0,
+        9005.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "GM03",
+      "point": "GM03_Guard01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -13600.0,
+        46500.0,
+        10605.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "GM03",
+      "point": "GM03_Guard02",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -12400.0,
+        46500.0,
+        10605.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "GM03",
+      "point": "GM03_Master",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -13000.0,
+        47000.0,
+        10605.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "GM04",
+      "point": "GM04_Master",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -18000.0,
+        53900.0,
+        12205.0
+      ],
+      "path_valid": true
+    },
+    {
+      "stage": "Boss",
+      "point": "Boss_P01",
+      "navigation_projection_matches": true,
+      "projected_cm": [
+        -20800.0,
+        62600.0,
+        13205.0
+      ],
+      "path_valid": true
+    }
+  ],
+  "failures": [],
+  "nav_build": "ready_for_validation"
+}

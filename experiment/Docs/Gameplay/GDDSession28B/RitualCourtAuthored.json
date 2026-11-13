@@ -1,0 +1,104 @@
+{
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "objective_id": "Objective.Nilin.AlchemyRescue",
+  "objective_location_cm": [
+    0,
+    28300,
+    7200
+  ],
+  "effective_seconds": 240,
+  "integrity": 100,
+  "stages": [
+    {
+      "id": "Cestablish",
+      "target_percent": 25,
+      "continue_previous": false,
+      "candidate_limit": 20,
+      "composition_per_wave": {
+        "sword": 8,
+        "talisman": 2
+      },
+      "spawn_interval_seconds": 4,
+      "max_alive": 4,
+      "waves": [
+        "/Game/ReversedScale/Gameplay/RitualV02/Waves/DA_Ritual_Cestablish_W01.DA_Ritual_Cestablish_W01",
+        "/Game/ReversedScale/Gameplay/RitualV02/Waves/DA_Ritual_Cestablish_W02.DA_Ritual_Cestablish_W02"
+      ]
+    },
+    {
+      "id": "Cinterrupt",
+      "target_percent": 50,
+      "continue_previous": true,
+      "candidate_limit": 20,
+      "composition_per_wave": {
+        "sword": 7,
+        "talisman": 2,
+        "breaker": 1
+      },
+      "spawn_interval_seconds": 4,
+      "max_alive": 4,
+      "waves": [
+        "/Game/ReversedScale/Gameplay/RitualV02/Waves/DA_Ritual_Cinterrupt_W01.DA_Ritual_Cinterrupt_W01",
+        "/Game/ReversedScale/Gameplay/RitualV02/Waves/DA_Ritual_Cinterrupt_W02.DA_Ritual_Cinterrupt_W02"
+      ]
+    },
+    {
+      "id": "Csiege",
+      "target_percent": 75,
+      "continue_previous": true,
+      "candidate_limit": 20,
+      "composition_per_wave": {
+        "sword": 6,
+        "talisman": 3,
+        "breaker": 1
+      },
+      "spawn_interval_seconds": 4,
+      "max_alive": 4,
+      "waves": [
+        "/Game/ReversedScale/Gameplay/RitualV02/Waves/DA_Ritual_Csiege_W01.DA_Ritual_Csiege_W01",
+        "/Game/ReversedScale/Gameplay/RitualV02/Waves/DA_Ritual_Csiege_W02.DA_Ritual_Csiege_W02"
+      ]
+    },
+    {
+      "id": "Cunseal",
+      "target_percent": 100,
+      "continue_previous": true,
+      "candidate_limit": 20,
+      "composition_per_wave": {
+        "sword": 6,
+        "talisman": 2,
+        "breaker": 2
+      },
+      "spawn_interval_seconds": 4,
+      "max_alive": 4,
+      "waves": [
+        "/Game/ReversedScale/Gameplay/RitualV02/Waves/DA_Ritual_Cunseal_W01.DA_Ritual_Cunseal_W01",
+        "/Game/ReversedScale/Gameplay/RitualV02/Waves/DA_Ritual_Cunseal_W02.DA_Ritual_Cunseal_W02"
+      ]
+    }
+  ],
+  "candidate_limit_alchemy": 80,
+  "main_map_candidate_limit": 145,
+  "spawn_cap_note": "Progress thresholds stop future spawning; these numbers are finite upper bounds.",
+  "friend_visual_collision_disabled": [
+    "NB_C_Friend_Body_0830",
+    "NB_C_Friend_Head_0831",
+    "NB_C_Friend_FootMarker_0832"
+  ],
+  "breaker_blueprint": "/Game/ReversedScale/Gameplay/RitualV02/BP_FormationBreaker",
+  "attack_definition": "/Game/ReversedScale/Gameplay/RitualV02/DA_FormationBreakerBolt.DA_FormationBreakerBolt",
+  "upgrade_definition": "/Game/ReversedScale/Gameplay/RitualV02/DA_RescueAscentUpgrade.DA_RescueAscentUpgrade",
+  "upgrade_thresholds": [
+    40,
+    100
+  ],
+  "upgrade_damage_multipliers": [
+    1.0,
+    1.25,
+    1.5
+  ],
+  "level_two_end_minimum_upgrade": 3,
+  "original_map_sha256": "bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81",
+  "saved_map_sha256": "a716831382ad57dcb43206b8f4b8e0d156cbe1abb8d06ca5a92b856f8b697b47"
+}

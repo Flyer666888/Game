@@ -1,0 +1,56 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "native_horizontal_qi_hit": true,
+    "captured_horizontal_qi": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [
+    {
+      "game_time": 3.598283287137747,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "382f0e264e6659b5cbaec083d4567d79",
+      "target_id": "2898b8954b459a5e44e2ab8cae128967",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    }
+  ],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Native projectile initialized with saved 10-damage sword-Qi definition.",
+    "Projectile paused briefly for shape screenshot, then its actual sweep hits a stationary enemy.",
+    "No synthetic damage or manual controller acceptance."
+  ],
+  "elapsed_seconds": 4.4220000000000255,
+  "frames": [],
+  "damage": 10.0,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.3e96f54c6f9d41618eb3c1348d899d19",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\29a186baea9bd0852108e40f86a6f43036621ac9.nlrun",
+    "test_run_ids": [
+      "75a2e26642f180dec898bab6125d27b8",
+      "99441d434d73aab4eac905be84d2d3dc"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\29a186baea9bd0852108e40f86a6f43036621ac9.nlrun"
+    ],
+    "temporary_assets_removed": true
+  }
+}

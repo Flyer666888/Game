@@ -1,0 +1,63 @@
+{
+  "status": "implemented_pending_runtime_validation",
+  "scope": [
+    "enemy locomotion",
+    "earlier and faster talisman attacks",
+    "navigation-related disappearance",
+    "ragdoll lifecycle"
+  ],
+  "changes": {
+    "talisman": {
+      "ritual_breaker_timing": "unchanged",
+      "timing_scale": 0.72,
+      "minimum_warning_seconds": 0.55,
+      "minimum_projectile_cm_s": 1200,
+      "minimum_engagement_cm": 1800,
+      "longer_authored_ranges": "preserved"
+    },
+    "navigation": {
+      "complete_target_path": "clears stale failure deadline",
+      "persistent_failure_limit_seconds": 30,
+      "terminal": "NavigationUnreachable encounter failure, never counterfeit defeat",
+      "fixed_perches": "do not require navmesh",
+      "grace_wait_retry": "retains living visible actor",
+      "stationary_combat": "valid range plus line of sight bypasses missing nav"
+    },
+    "ragdoll": {
+      "reset": "disables simulation, restores attachment pose and movement/resources",
+      "type": "real constrained skeletal physics",
+      "asset_generation": "new packages only; non-modal editor bridge; root bind-scale aware",
+      "missing_asset": "existing death clip fallback",
+      "collision": "world only; ignores player Pawn"
+    },
+    "walking": {
+      "provided_walk_calibration_cm_s": 202.38429307937622,
+      "mobile_talisman_speed_floor_cm_s": 250,
+      "min_gait_rate_before": 0.25,
+      "ordinary_saved_speed_floor_cm_s": 280,
+      "guard_captain_and_boss_saved_speeds": "preserved",
+      "turn_rate_floor_degrees_s": 420,
+      "native_chase_cm_s": 280,
+      "nav_stop_grace_seconds": 0.12,
+      "calibration_source": "Docs/Gameplay/SlashRevision1104/NativeSupportClips.json",
+      "min_gait_rate_after": 0.05
+    }
+  },
+  "preserved": [
+    "D attack and notifies",
+    "reverse-grip C reserve",
+    "sword grip and skeleton",
+    "player input fixes",
+    "VR dynamic HUD"
+  ],
+  "files": [
+    "Source/experiment/Private/AI/NLEnemyCharacter.cpp",
+    "Source/experiment/Public/AI/NLEnemyCharacter.h",
+    "Source/experiment/Private/AI/NLEnemyBrainComponent.cpp",
+    "Source/experiment/Public/AI/NLEnemyBrainComponent.h",
+    "Source/experiment/Private/Tests/NLEnemyOptimizationTests.cpp",
+    "Scripts/Editor/Optimization1111/create_ragdoll_physics.py",
+    "Scripts/Editor/Optimization1111/apply_enemy_locomotion.py",
+    "Source/experiment/experiment.Build.cs"
+  ]
+}

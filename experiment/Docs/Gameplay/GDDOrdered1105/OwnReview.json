@@ -1,0 +1,458 @@
+{
+  "state": "reviewed_and_evidence_checked",
+  "reviewer": "gdd_rewards_research1105",
+  "written_utc": "2026-11-05T14:22:10Z",
+  "scope": "Read-only independent review of weak-point and ordinary-loot implementations, plus verification-report readback. No C++ edits or tests were performed during this review.",
+  "original_requirement_source": "RecoveredRequirements.json",
+  "documentation": "DesignAndVerification.txt",
+  "phase3_regression": {
+    "not_run": 0,
+    "succeeded": 77,
+    "report": "Phase3Automation/index.json",
+    "executed": 107,
+    "succeeded_with_warnings": 30,
+    "failed": 0
+  },
+  "runtime": {
+    "queue": {
+      "passed": true,
+      "checks": {
+        "pending_enemies_visible": true,
+        "alive_cap_holds_with_queue": true,
+        "slots_release_into_real_ai": true,
+        "queue_freezes_on_pause": true,
+        "cosmetic_only": true,
+        "native_ai_moves": true,
+        "all_six_real_defeats": true,
+        "queue_removed_after_clear": true,
+        "no_spawn_failures": true
+      }
+    },
+    "weak_point": {
+      "passed": true,
+      "checks": {
+        "SphereBody": true,
+        "SphereHead": true,
+        "BladeHead": true,
+        "HorizontalQiHead": true
+      },
+      "final_art_map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb"
+    },
+    "ordinary_loot": {
+      "health_after": 70.0,
+      "rolls": [
+        {
+          "eligible_count": 1,
+          "misses": 1,
+          "pending": 0
+        },
+        {
+          "eligible_count": 2,
+          "misses": 2,
+          "pending": 0
+        },
+        {
+          "eligible_count": 3,
+          "misses": 3,
+          "pending": 0
+        },
+        {
+          "eligible_count": 4,
+          "misses": 4,
+          "pending": 0
+        },
+        {
+          "eligible_count": 5,
+          "misses": 0,
+          "pending": 1
+        }
+      ],
+      "passed": true,
+      "checks": {
+        "four_misses_then_fifth_item": true,
+        "no_early_supplies": true,
+        "fifth_has_one_supply": true,
+        "full_health_preserves_supply": true,
+        "pause_preserves_supply": true,
+        "actual_overlap_collects": true,
+        "actual_health_restored": true,
+        "duplicate_does_not_reroll_or_reclaim": true,
+        "new_run_starts_fresh": true
+      },
+      "test_ledgers_cleaned": [
+        "D:\\game design\\experiment\\Saved\\SaveGames\\NilinOrdinaryLoot\\83AEE2904A5035F1B47ED79FC6FF6184.nllo"
+      ],
+      "final_art_map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb"
+    }
+  },
+  "source_review": {
+    "blockers_remaining": 0,
+    "reviewed_sha256": {
+      "Source/experiment/Private/Progression/NLOrdinaryLootSubsystem.cpp": "3959498bbdb5c4449952ad59423b53e31180a6d1f3f6b07647b64ac0ebc6f658",
+      "Source/experiment/Private/Pickup/NLOrdinarySupplyPickup.cpp": "3187fbc7b5ecdd8f1de7f55c977320d706345104682bc4a392ccee45ec02b1b4",
+      "Source/experiment/Private/Combat/NLWeakPointComponent.cpp": "b8a41e2825f25d7e948b49fe6c6ada279236b3167f85b4c02e5b4b33ddbe5d48",
+      "Source/experiment/Private/Encounter/NLLevelEncounterDirector.cpp": "16daf9b029a9ca939d11f90f4fbb8c265cb4f3b1a76ad545f896ee64f55309ca"
+    },
+    "confirmed": [
+      "Bounded CRC-checked ledger load and exact trailing-byte validation.",
+      "Persist-first roll and claim state installation; failed IO does not advance committed RNG or misses.",
+      "Independent per-run event ledger survives checkpoint rollback and prevents repeat rolls/claims.",
+      "Master/Boss bodies excluded while ordinary guards remain eligible.",
+      "Full-health/dead/paused/nonplayer collection rejected without consumption.",
+      "Same-run growth/energy notifications do not reread disk or rebuild all pickup actors.",
+      "Weak point keeps original sphere and crescent segment-box evidence, with world obstruction and duplicate/protection gates.",
+      "Main desktop HUD and head-mounted HUD contain distinct weak-point and supply feedback."
+    ],
+    "fixed_during_review": [
+      "Detached pending actor map before Destroy callbacks to avoid iterator invalidation.",
+      "Deferred run refresh while synchronization/restoration callbacks are active, then followed latest run identity.",
+      "Captured expected request/claim run identity across synchronization, preventing old pickup IDs from claiming the new run.",
+      "Director verifies its defeat context after synchronous ordinary-loot callbacks before failing or continuing."
+    ]
+  },
+  "art_status": "space_depth_prototype_passed",
+  "limits": [
+    "Head classification uses a tunable gameplay skull zone and bounded body-interior directional classification, not per-triangle anatomy.",
+    "Runtime evidence includes labelled damage/position/probability/AI-pose fixtures.",
+    "No physical PICO acceptance, continuous human playthrough, or VR performance claim.",
+    "Full Boss cycle and four master-specific moves remain outside this completed work."
+  ],
+  "art_verification": {
+    "applied_report": "ArtApplied.json",
+    "visual_report": "ArtVisualQA.json",
+    "postflight_report": "ArtPostflight.json",
+    "saved_map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+    "independent_disk_hash_matches_qa": true,
+    "material_count": 16,
+    "material_slot_overrides": 483,
+    "decorative_instances": 54,
+    "instanced_mesh_groups": 11,
+    "landmark_actors": 2,
+    "new_dynamic_lights": 0,
+    "fresh_final_screenshots": 6,
+    "all_screenshots_after_final_save": true,
+    "checks": {
+      "all_new_materials_support_instancing": true,
+      "cosmetic_meshes_have_no_collision": true,
+      "cosmetic_meshes_do_not_affect_navigation": true,
+      "all_decor_materials_support_instancing": true,
+      "all_16_stages_present": true,
+      "spawn_projection_and_path": true,
+      "baked_static_nav_retained": true,
+      "saved_art_map_hash_matches": true
+    },
+    "spawn_reference_count": 67,
+    "limitations": [
+      "Some faceting and self-shadow shapes from the original procedural roof geometry remain. Two-sided shading reduces the most visible missing dark wedges but does not constitute geometry reconstruction.",
+      "Distant peak bases remain intentionally visible as floating mountains in the pale cloud sea.",
+      "Desktop renderer visual review does not verify headset comfort or VR frame rate."
+    ]
+  },
+  "full_16_stage_rules": {
+    "state": "passed",
+    "report": "FullRulesRuntime.json",
+    "success": true,
+    "failure_count": 0,
+    "check_count": 12,
+    "checks": {
+      "all_16_authored_stages_completed": true,
+      "all_four_seals_acquired": true,
+      "growth_reached_level_three": true,
+      "every_owned_defeat_has_one_native_combat_result": true,
+      "every_owned_defeat_rewards_lingqi_once": true,
+      "ordinary_rolls_exclude_exactly_four_masters_and_boss": true,
+      "pity_never_exceeds_four_misses": true,
+      "ordinary_supplies_have_only_ten_or_twenty_health": true,
+      "four_fixed_master_supplies_remain_twenty_five": true,
+      "ritual_uses_240_effective_seconds_and_completes_once": true,
+      "ritual_received_at_least_240_normal_game_seconds": true,
+      "global_time_dilation_never_changed": true
+    },
+    "map_sha256_after": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+    "stages_completed": 16,
+    "owned_defeats": 129,
+    "native_combat_results": 129,
+    "ordinary_rolls": 124,
+    "ordinary_items": 36,
+    "small_items": 31,
+    "large_items": 5,
+    "fixed_master_rewards": [
+      {
+        "master": "GM01",
+        "has_fixed_pickup": true,
+        "health": 25.0
+      },
+      {
+        "master": "GM02",
+        "has_fixed_pickup": true,
+        "health": 25.0
+      },
+      {
+        "master": "GM03",
+        "has_fixed_pickup": true,
+        "health": 25.0
+      },
+      {
+        "master": "GM04",
+        "has_fixed_pickup": true,
+        "health": 25.0
+      }
+    ],
+    "seals": [
+      "AlchemySeal",
+      "SwordSeal",
+      "TalismanSeal",
+      "WindSeal"
+    ],
+    "growth": {
+      "burst_energy": 100.0,
+      "ling_qi": 129.0,
+      "level": 3
+    },
+    "ritual_effective_seconds": 239.99999999999176,
+    "ritual_elapsed_game_seconds": 248.49969539791346,
+    "final_game_time_seconds": 324.2172677963972,
+    "wall_elapsed_seconds": 324.76600000000326,
+    "stage_summary": [
+      {
+        "stage": "Aoutside",
+        "actual_defeats": 2,
+        "ordinary_eligible_defeats": 2,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "Ainside",
+        "actual_defeats": 6,
+        "ordinary_eligible_defeats": 6,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "R01",
+        "actual_defeats": 2,
+        "ordinary_eligible_defeats": 2,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "Bcourt",
+        "actual_defeats": 36,
+        "ordinary_eligible_defeats": 36,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "Bexit",
+        "actual_defeats": 6,
+        "ordinary_eligible_defeats": 6,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "R02",
+        "actual_defeats": 2,
+        "ordinary_eligible_defeats": 2,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "R03",
+        "actual_defeats": 2,
+        "ordinary_eligible_defeats": 2,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "Cestablish",
+        "actual_defeats": 16,
+        "ordinary_eligible_defeats": 16,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "Cinterrupt",
+        "actual_defeats": 16,
+        "ordinary_eligible_defeats": 16,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "Csiege",
+        "actual_defeats": 16,
+        "ordinary_eligible_defeats": 16,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "Cunseal",
+        "actual_defeats": 16,
+        "ordinary_eligible_defeats": 16,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "GM01",
+        "actual_defeats": 1,
+        "ordinary_eligible_defeats": 0,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "GM02",
+        "actual_defeats": 3,
+        "ordinary_eligible_defeats": 2,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "GM03",
+        "actual_defeats": 3,
+        "ordinary_eligible_defeats": 2,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "GM04",
+        "actual_defeats": 1,
+        "ordinary_eligible_defeats": 0,
+        "failed_spawn_attempts": 0
+      },
+      {
+        "stage": "Boss",
+        "actual_defeats": 1,
+        "ordinary_eligible_defeats": 0,
+        "failed_spawn_attempts": 0
+      }
+    ],
+    "fixture_scope": [
+      "Actual saved L_NilinGameplayV01 with all 16 authored stages, wave assets, progression, ordinary supplies and four fixed master rewards.",
+      "Unique Test.Level01 identity. Only the original LevelId is changed temporarily; the stage array, waves, timing, objective percentage and source assets are never rewritten.",
+      "Stage-entry teleports and a position near the ritual are explicit setup. AI is paused and at most four real owned NPCs per callback are defeated via a labelled 999-damage production-resolver contact fixture.",
+      "All actual spawn intervals, alive caps, intermissions, dependencies and the ritual 240-effective-second rate remain active at global time dilation 1.",
+      "The player stays at full health to retain ordinary/master pickups for inspection. This is a rule integration check, not continuous human combat, difficulty, headset or performance acceptance."
+    ],
+    "fixture_isolation": {
+      "state": "restored_without_saving_map",
+      "temporary_level_id": "Test.Level01.1266430b393d412aa66f79770cc381c0",
+      "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\5d26bd871cab6e1e0640956326eaeca5b77d68e4.nlrun",
+      "test_run_ids": [
+        "078728224228e026ce59f486ab271c54",
+        "f27f900844df86980b5805a8ba4f1ba4"
+      ],
+      "player_checkpoint_context": "Disabled; no main profile used",
+      "restored_level_id": "Level.Nilin.Playable",
+      "map_sha256_after": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+      "removed_only_exact_test_paths": [
+        "D:\\game design\\experiment\\Saved\\SaveGames\\NilinMasterRewards\\078728224228E026CE59F486AB271C54.nlmr",
+        "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\5d26bd871cab6e1e0640956326eaeca5b77d68e4.nlrun"
+      ],
+      "temporary_assets_removed": true,
+      "ordinary_ledger_cleanup": [
+        "D:\\game design\\experiment\\Saved\\SaveGames\\NilinOrdinaryLoot\\078728224228E026CE59F486AB271C54.nllo"
+      ]
+    },
+    "prior_fixture_attempt": {
+      "report": "FullRulesRuntime_FixtureEntryAttempt.json",
+      "resolution": "Adjusted fixture stage-entry placement and reran; no product logic change for this fixture issue.",
+      "cause": "GM02 test setup stood outside the stair-entry trigger while the fixture disabled movement."
+    },
+    "claim": "Automated all-stage rules integration at normal global time, not continuous human combat or physical PICO/performance acceptance.",
+    "final_cleanup_confirmed_by_root": {
+      "saved_map_hash_unchanged": true,
+      "isolation_state": "restored_without_saving_map",
+      "owned_background_editor_closed": true,
+      "editor_status": "closed",
+      "all_exact_fixture_paths_absent": true
+    }
+  },
+  "protected_receipt_audit": {
+    "rows": [
+      {
+        "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+        "matches": true,
+        "sha256": "c1fbac072ede781842eb56ad9b5d692ecde9af7640d0a04afa8f29924440e4c9"
+      },
+      {
+        "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07_Skeleton.SK_WuxiaMale_Native_v07_Skeleton",
+        "matches": true,
+        "sha256": "cc231a773d37e2cfdf5d2f59dcac19c45534d15dd08d4d7c545d66fd1885e217"
+      },
+      {
+        "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+        "matches": true,
+        "sha256": "94eeb991f937df171446e66f123d885e0fa779f53fdfa85688fc3c0c7fb6ef89"
+      },
+      {
+        "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07",
+        "matches": true,
+        "sha256": "42bc67fb56be1ae0cf75a338d0bd7331e1ad8db167a62ac7e7449465f6be9d88"
+      },
+      {
+        "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07",
+        "matches": true,
+        "sha256": "1a6b18119429bb4850c78474535f8fc8e8a70d22871b9d91f6ec39724dbac73d"
+      },
+      {
+        "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Hit_Native_v07.A_Wuxia_Hit_Native_v07",
+        "matches": true,
+        "sha256": "727efb248ab98d3b337134f2b128427eb9be94ef0e2f7785949d71034088c6bd"
+      },
+      {
+        "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Death_Native_v07.A_Wuxia_Death_Native_v07",
+        "matches": true,
+        "sha256": "61dbba075866d0dd62d4c7c3983806f8cb252ac00ad7abff460f7af95d78e2d0"
+      },
+      {
+        "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Cast_Native_v07.A_Wuxia_Cast_Native_v07",
+        "matches": true,
+        "sha256": "3738f4add6c2f36d4787848a8c9c62cd2eae9a7959d6f44dde3fa2ccd89d9cbc"
+      },
+      {
+        "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04.Pack_Anim_CSATLI_04",
+        "matches": true,
+        "sha256": "d61e36af3680d4fc1fd079febbced875ed500f6e06b5659be7415c8f5b3a48e3"
+      },
+      {
+        "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_03.Pack_Anim_CSATLI_03",
+        "matches": true,
+        "sha256": "87f4dbc0f6303b36c7aa748e1652744eeb01661a737f19744579809f76f5aed8"
+      },
+      {
+        "asset": "/Game/Animations/Sword/Anim_CSATLI_04.Anim_CSATLI_04",
+        "matches": true,
+        "sha256": "0ac51c7c9e28cb38f3d2e5fb6e4823151a020b93801592aa74767b494c635def"
+      },
+      {
+        "asset": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+        "matches": true,
+        "sha256": "3c512bfc3217aa0329860d6661c20e6a8322e5af35f877e679584d5c7e7977a6"
+      },
+      {
+        "asset": "ArtSource\\Weapons\\TalismanJade1104\\SM_Nilin_JadeTalisman.blend",
+        "matches": true,
+        "sha256": "6194af9b3e43535840abd3337e68e7c13ff22535a2e913e557e4b2ac3d2bd39d"
+      },
+      {
+        "asset": "ArtSource\\Weapons\\TalismanJade1104\\SM_Nilin_JadeTalisman.fbx",
+        "matches": true,
+        "sha256": "3f4c34ae0d96c0256bba1b30acc38ee4d10a4bc91b41aba3eb3b7147981d0b06"
+      },
+      {
+        "asset": "ArtSource\\Weapons\\TalismanJade1104\\SM_Nilin_JadeTalisman.glb",
+        "matches": true,
+        "sha256": "5a2d61c257954b66767cfffbea8350c2340514bb3b00334c9199905949954f2c"
+      },
+      {
+        "asset": "ArtSource\\Weapons\\TalismanJade1104\\T_JadeTalisman_BaseColor.png",
+        "matches": true,
+        "sha256": "6ab3268ff46dcfacb1871a42648c030d258537251db2c6831bacb78c7af426eb"
+      },
+      {
+        "asset": "ArtSource\\Weapons\\TalismanJade1104\\T_JadeTalisman_MetalRough.png",
+        "matches": true,
+        "sha256": "0a16f00ab06332d1db9aed5d9c067feb2fa358182930179dfce24719a98b46e2"
+      },
+      {
+        "asset": "ArtSource\\Weapons\\TalismanJade1104\\T_JadeTalisman_Emissive.png",
+        "matches": true,
+        "sha256": "3da7d34351da0fbd1506ff1cb817595f91e3931383a346b88f6a1fc5898de6e1"
+      },
+      {
+        "asset": "ArtSource\\Weapons\\TalismanJade1104\\T_JadeSeal_BaseColor.png",
+        "matches": true,
+        "sha256": "cd3a6306be9c5ad76a944f786cf4555f99b4e0f83dd5630f63d19af970e6f1b2"
+      }
+    ],
+    "report": "ChangeReceipt.json",
+    "matching": 19,
+    "independently_rehashed": 19,
+    "coverage_note": "Receipt covers original native rig and source D/C animation assets, original player sword, and seven jade talisman source files. Final GripB derivative clips, enemy-specific fitted sword package, current enemy Blueprint assignments, and imported jade UAssets are not separately listed among these nineteen protected hashes."
+  }
+}

@@ -1,0 +1,1391 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "two_native_slashes": true,
+    "one_hit_per_slash": true,
+    "damage_window_matches_visible_swing": true,
+    "melee_damage_15": true,
+    "sword_qi_damage_10": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [
+    {
+      "game_time": 3.8052987083792686,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "70d56cb14f3ccbb5bea484b4b2cd2147",
+      "target_id": "b1f3c175426eb33193f47cab6ad0fe39",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 5.671996809542179,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "70d56cb14f3ccbb5bea484b4b2cd2147",
+      "target_id": "b1f3c175426eb33193f47cab6ad0fe39",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 6.5386687107384205,
+      "phase": "stage_active",
+      "origin": "scripted_definition_damage_check",
+      "source_id": "b1f3c175426eb33193f47cab6ad0fe39",
+      "target_id": "70d56cb14f3ccbb5bea484b4b2cd2147",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 15.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 7.638675708323717,
+      "phase": "stage_active",
+      "origin": "scripted_definition_damage_check",
+      "source_id": "b1f3c175426eb33193f47cab6ad0fe39",
+      "target_id": "70d56cb14f3ccbb5bea484b4b2cd2147",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    }
+  ],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Saved main map, normal opening sword AI and normal player capsule.",
+    "Enemy attacks use actual animation notifies and blade sweeps. Other enemies are paused.",
+    "Player damage uses two labelled resolver contacts with the definitions equipped by the normal pawn."
+  ],
+  "elapsed_seconds": 7.75,
+  "cycles": [
+    {
+      "started": 3.155294708907604,
+      "hit_times": [
+        0.6500039994716644
+      ],
+      "max_animation_position": 1.4833420515060425,
+      "duration": 1.5000096000730991
+    },
+    {
+      "started": 5.021991107612848,
+      "hit_times": [
+        0.6500057019293308
+      ],
+      "max_animation_position": 1.483343243598938,
+      "duration": 1.5000108033418655
+    }
+  ],
+  "attack_frames": [
+    {
+      "elapsed": 0.0,
+      "pose_time": 0.0,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.016666900366544724,
+      "pose_time": 0.016666900366544724,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.03333380073308945,
+      "pose_time": 0.03333380073308945,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.050000499933958054,
+      "pose_time": 0.050000499933958054,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.06666729971766472,
+      "pose_time": 0.06666730344295502,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.08333399891853333,
+      "pose_time": 0.08333399891853333,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.10000089928507805,
+      "pose_time": 0.10000090301036835,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.11666769906878471,
+      "pose_time": 0.11666770279407501,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.13333440199494362,
+      "pose_time": 0.13333439826965332,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.15000110119581223,
+      "pose_time": 0.15000109374523163,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.1666679009795189,
+      "pose_time": 0.1666678935289383,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.18333480134606361,
+      "pose_time": 0.18333479762077332,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.20000150054693222,
+      "pose_time": 0.20000149309635162,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.21666819974780083,
+      "pose_time": 0.21666818857192993,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.2333349995315075,
+      "pose_time": 0.2333349883556366,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.2500016987323761,
+      "pose_time": 0.2500016987323761,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.266668401658535,
+      "pose_time": 0.2666684091091156,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.28333520144224167,
+      "pose_time": 0.28333520889282227,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.30000200122594833,
+      "pose_time": 0.30000200867652893,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.31666870042681694,
+      "pose_time": 0.31666871905326843,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.33333539962768555,
+      "pose_time": 0.33333542943000793,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.3500021994113922,
+      "pose_time": 0.3500022292137146,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.3666689991950989,
+      "pose_time": 0.36666902899742126,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.38333579897880554,
+      "pose_time": 0.38333582878112793,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.40000269934535027,
+      "pose_time": 0.40000271797180176,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.41666939854621887,
+      "pose_time": 0.41666942834854126,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.4333362989127636,
+      "pose_time": 0.4333363175392151,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.45000309869647026,
+      "pose_time": 0.45000311732292175,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.4666699022054672,
+      "pose_time": 0.4666699171066284,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.48333660140633583,
+      "pose_time": 0.4833366274833679,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.5000033006072044,
+      "pose_time": 0.5000033378601074,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.5166701003909111,
+      "pose_time": 0.5166701078414917,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.5333367995917797,
+      "pose_time": 0.5333368182182312,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.5500034987926483,
+      "pose_time": 0.5500035285949707,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.566670298576355,
+      "pose_time": 0.566670298576355,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.5833371020853519,
+      "pose_time": 0.583337128162384,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.6000039018690586,
+      "pose_time": 0.6000039577484131,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.6166706010699272,
+      "pose_time": 0.6166706681251526,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.6333373002707958,
+      "pose_time": 0.6333373785018921,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.6500039994716644,
+      "pose_time": 0.6500040888786316,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.666670698672533,
+      "pose_time": 0.6666707992553711,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.6833374015986919,
+      "pose_time": 0.6833375096321106,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7000042013823986,
+      "pose_time": 0.7000043392181396,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7166709005832672,
+      "pose_time": 0.7166710495948792,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7333375997841358,
+      "pose_time": 0.7333377599716187,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7500042989850044,
+      "pose_time": 0.7500044703483582,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7666710019111633,
+      "pose_time": 0.7666711807250977,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7833377011120319,
+      "pose_time": 0.7833378911018372,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.8000045008957386,
+      "pose_time": 0.8000047206878662,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.8166712000966072,
+      "pose_time": 0.8166714310646057,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.8333381004631519,
+      "pose_time": 0.8333383202552795,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.8500047996640205,
+      "pose_time": 0.850005030632019,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.8666715994477272,
+      "pose_time": 0.8666718006134033,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.8833383992314339,
+      "pose_time": 0.8833385705947876,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.9000051021575928,
+      "pose_time": 0.9000052809715271,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.9166719019412994,
+      "pose_time": 0.9166721105575562,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.933338601142168,
+      "pose_time": 0.9333388209342957,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.9500054009258747,
+      "pose_time": 0.9500056505203247,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.9666721001267433,
+      "pose_time": 0.9666723608970642,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.9833393022418022,
+      "pose_time": 0.9833395481109619,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.0000060014426708,
+      "pose_time": 1.0000061988830566,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.0166728012263775,
+      "pose_time": 1.016672968864441,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.033339500427246,
+      "pose_time": 1.0333396196365356,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.0500063002109528,
+      "pose_time": 1.05000638961792,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.0666730999946594,
+      "pose_time": 1.0666731595993042,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.0833400003612041,
+      "pose_time": 1.083340048789978,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.1000068001449108,
+      "pose_time": 1.1000068187713623,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.1166734993457794,
+      "pose_time": 1.116673469543457,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.133340198546648,
+      "pose_time": 1.1333401203155518,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.1500070989131927,
+      "pose_time": 1.1500070095062256,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.1666738018393517,
+      "pose_time": 1.1666736602783203,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.1833406016230583,
+      "pose_time": 1.1833404302597046,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.200007401406765,
+      "pose_time": 1.2000072002410889,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.2166741006076336,
+      "pose_time": 1.2166738510131836,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.2333409003913403,
+      "pose_time": 1.2333406209945679,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.250007700175047,
+      "pose_time": 1.2500073909759521,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.2666749991476536,
+      "pose_time": 1.2666746377944946,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.2833417020738125,
+      "pose_time": 1.2833412885665894,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.300008401274681,
+      "pose_time": 1.300007939338684,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.3166751004755497,
+      "pose_time": 1.3166745901107788,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.3333419002592564,
+      "pose_time": 1.333341360092163,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.350008599460125,
+      "pose_time": 1.3500080108642578,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.3666753992438316,
+      "pose_time": 1.366674780845642,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.3833422996103764,
+      "pose_time": 1.383341670036316,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.400009099394083,
+      "pose_time": 1.4000084400177002,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.4166757985949516,
+      "pose_time": 1.416675090789795,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.4333425015211105,
+      "pose_time": 1.4333417415618896,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.4500093013048172,
+      "pose_time": 1.450008511543274,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.4666761010885239,
+      "pose_time": 1.4666752815246582,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.4833429008722305,
+      "pose_time": 1.4833420515060425,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.5000096000730991,
+      "pose_time": 0.0,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.0,
+      "pose_time": 0.0,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.016666702926158905,
+      "pose_time": 0.016666702926158905,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.03333340212702751,
+      "pose_time": 0.03333340212702751,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.05000010132789612,
+      "pose_time": 0.05000010132789612,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.06666690111160278,
+      "pose_time": 0.06666690111160278,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.08333370089530945,
+      "pose_time": 0.08333370089530945,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.10000040009617805,
+      "pose_time": 0.10000039637088776,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.11666730046272278,
+      "pose_time": 0.11666730046272278,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.13333400338888168,
+      "pose_time": 0.13333401083946228,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.15000080317258835,
+      "pose_time": 0.15000081062316895,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.16666750237345695,
+      "pose_time": 0.16666750609874725,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.18333430215716362,
+      "pose_time": 0.18333430588245392,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.20000110194087029,
+      "pose_time": 0.20000110566616058,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.2166678011417389,
+      "pose_time": 0.2166678011417389,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.2333345003426075,
+      "pose_time": 0.2333344966173172,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.2500012032687664,
+      "pose_time": 0.2500011920928955,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.26666800305247307,
+      "pose_time": 0.2666679918766022,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.2833347022533417,
+      "pose_time": 0.2833347022533417,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.3000016026198864,
+      "pose_time": 0.3000015914440155,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.3166685029864311,
+      "pose_time": 0.31666848063468933,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.3333353027701378,
+      "pose_time": 0.333335280418396,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.35000210255384445,
+      "pose_time": 0.35000208020210266,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.36666880175471306,
+      "pose_time": 0.36666879057884216,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.38333550095558167,
+      "pose_time": 0.38333550095558167,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.40000220015645027,
+      "pose_time": 0.40000221133232117,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.4166689030826092,
+      "pose_time": 0.41666892170906067,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.43333570286631584,
+      "pose_time": 0.43333572149276733,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.4500025026500225,
+      "pose_time": 0.450002521276474,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.4666692018508911,
+      "pose_time": 0.4666692316532135,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.4833360016345978,
+      "pose_time": 0.48333603143692017,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.5000028014183044,
+      "pose_time": 0.5000028610229492,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.5166696012020111,
+      "pose_time": 0.5166696310043335,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.53333830088377,
+      "pose_time": 0.5333383083343506,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.5500050000846386,
+      "pose_time": 0.5500050187110901,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.5666717998683453,
+      "pose_time": 0.5666718482971191,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.5833385027945042,
+      "pose_time": 0.5833385586738586,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.6000053025782108,
+      "pose_time": 0.6000053882598877,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.6166721023619175,
+      "pose_time": 0.616672158241272,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.6333390027284622,
+      "pose_time": 0.6333390474319458,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.6500057019293308,
+      "pose_time": 0.6500057578086853,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.6666726022958755,
+      "pose_time": 0.6666726469993591,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.6833394020795822,
+      "pose_time": 0.6833394765853882,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7000062018632889,
+      "pose_time": 0.7000062465667725,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7166729010641575,
+      "pose_time": 0.716672956943512,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7333397008478642,
+      "pose_time": 0.733339786529541,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7500065006315708,
+      "pose_time": 0.7500065565109253,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7666731998324394,
+      "pose_time": 0.7666732668876648,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.7833400033414364,
+      "pose_time": 0.7833400964736938,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.800006702542305,
+      "pose_time": 0.8000068068504333,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.8166735023260117,
+      "pose_time": 0.8166736364364624,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "blade_active": true,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.8333404026925564,
+      "pose_time": 0.8333405256271362,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.850007101893425,
+      "pose_time": 0.8500072360038757,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.8666739016771317,
+      "pose_time": 0.8666740655899048,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.8833406008780003,
+      "pose_time": 0.8833407759666443,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.9000074006617069,
+      "pose_time": 0.9000076055526733,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.9166740998625755,
+      "pose_time": 0.9166743159294128,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.9333408027887344,
+      "pose_time": 0.9333410263061523,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.950007501989603,
+      "pose_time": 0.9500077366828918,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.9666743017733097,
+      "pose_time": 0.9666745662689209,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 0.9833412021398544,
+      "pose_time": 0.9833414554595947,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.000008001923561,
+      "pose_time": 1.000008225440979,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.0166747011244297,
+      "pose_time": 1.0166748762130737,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.0333414003252983,
+      "pose_time": 1.0333415269851685,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.050008200109005,
+      "pose_time": 1.0500082969665527,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.0666749030351639,
+      "pose_time": 1.0666749477386475,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.0833417028188705,
+      "pose_time": 1.0833417177200317,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.1000085026025772,
+      "pose_time": 1.100008487701416,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.116675402969122,
+      "pose_time": 1.1166753768920898,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.1333422027528286,
+      "pose_time": 1.1333421468734741,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.1500090025365353,
+      "pose_time": 1.1500089168548584,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.166675802320242,
+      "pose_time": 1.1666756868362427,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.1833425015211105,
+      "pose_time": 1.1833423376083374,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.2000093013048172,
+      "pose_time": 1.2000091075897217,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.2166761010885239,
+      "pose_time": 1.216675877571106,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.2333429008722305,
+      "pose_time": 1.2333426475524902,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.2500096000730991,
+      "pose_time": 1.250009298324585,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.266676302999258,
+      "pose_time": 1.2666759490966797,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.2833431027829647,
+      "pose_time": 1.283342719078064,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.3000099025666714,
+      "pose_time": 1.3000094890594482,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.31667660176754,
+      "pose_time": 1.316676139831543,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.3333435021340847,
+      "pose_time": 1.3333430290222168,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.3500102013349533,
+      "pose_time": 1.3500096797943115,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.366676900535822,
+      "pose_time": 1.3666763305664062,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.3833436034619808,
+      "pose_time": 1.383342981338501,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.4000103026628494,
+      "pose_time": 1.4000096321105957,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.416677001863718,
+      "pose_time": 1.4166762828826904,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.4333438016474247,
+      "pose_time": 1.4333430528640747,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.4500105008482933,
+      "pose_time": 1.4500097036361694,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.466677300632,
+      "pose_time": 1.4666764736175537,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.4833441004157066,
+      "pose_time": 1.483343243598938,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    },
+    {
+      "elapsed": 1.5000108033418655,
+      "pose_time": 0.0,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "blade_active": false,
+      "distance_cm": 129.5
+    }
+  ],
+  "player_damage_checks": [
+    {
+      "definition": "DA_YueyaoMelee",
+      "applied_damage": 15.0
+    },
+    {
+      "definition": "DA_PlayerBladeQi",
+      "applied_damage": 10.0
+    }
+  ],
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.443c93fce41c45188a6ea9a2191b0d53",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\a96ca59091f52305a019a217bb9c5fae8e67da34.nlrun",
+    "test_run_ids": [
+      "574c788b45877de819b40a9ea823bad7",
+      "dabc5b9c40f81714281546824e16818e"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\a96ca59091f52305a019a217bb9c5fae8e67da34.nlrun"
+    ],
+    "temporary_assets_removed": true
+  }
+}

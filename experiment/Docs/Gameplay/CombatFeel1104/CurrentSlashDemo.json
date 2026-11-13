@@ -1,0 +1,44 @@
+{
+  "source": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames",
+  "output": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\CurrentSlashDemo.mp4",
+  "smoke_only": false,
+  "frames": 240,
+  "fps": 30,
+  "duration_seconds": 8.0,
+  "width": 960,
+  "height": 720,
+  "sections": [
+    {
+      "section": "normal_1",
+      "start_frame": 1,
+      "motion_frames": 45,
+      "hold_frames": 15,
+      "speed_label": "1.0x  原速"
+    },
+    {
+      "section": "normal_2",
+      "start_frame": 61,
+      "motion_frames": 45,
+      "hold_frames": 15,
+      "speed_label": "1.0x  原速"
+    },
+    {
+      "section": "slow",
+      "start_frame": 121,
+      "motion_frames": 90,
+      "hold_frames": 30,
+      "speed_label": "0.5x  慢放"
+    }
+  ],
+  "source_frame_count": 46,
+  "source_sizes_consistent": true,
+  "bytes": 1159256,
+  "poster": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\CurrentSlashDemo.png",
+  "decoded_video": {
+    "frames": 240,
+    "fps": 30.0,
+    "width": 960,
+    "height": 720
+  },
+  "note": "Existing PNG samples encoded; no scene or game assets changed. No invented in-between frames."
+}

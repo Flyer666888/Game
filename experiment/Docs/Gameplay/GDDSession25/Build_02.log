@@ -1,0 +1,63 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" experimentEditor Win64 Development "-Project=D:\game design\experiment\experiment.uproject" -WaitMutex -NoHotReloadFromIDE -NoUBA -MaxParallelActions=8
+Log file: C:\Users\21475\AppData\Local\UnrealBuildTool\Log.txt
+Executing up to 8 actions based on MaxProcessorCount override
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Building experimentEditor...
+===== Toolchain Information =====
+Using ISPC compiler (D:\浏览器下载\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35229 toolchain (D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from experiment unity file: experiment.cpp, NLAttackDirectorSubsystem.cpp, NLEnemyAttackWindowNotifyState.cpp, NLEnemyBrainComponent.cpp, NLEnemyCharacter.cpp, NLGuardCaptainCharacter.cpp, NLTalismanAttackComponent.cpp, NLDeathBlendAnimInstance.cpp, NLBlockoutMeshCluster.cpp, NLBlockoutPlayer.cpp, NLAbilityComponent.cpp, NLBladeComponent.cpp, NLCombatIdentityComponent.cpp, NLCombatProjectile.cpp, NLCombatRecoveryComponent.cpp, NLCombatResolverSubsystem.cpp, NLCombatVitalsComponent.cpp, NLGuardComponent.cpp, NLTrainingEnemy.cpp, NLTrainingProjectileEmitter.cpp, NLEncounterController.cpp, NLLevelEncounterDirector.cpp, NLRitualLabController.cpp, NLRitualObjective.cpp, NLHealingPickup.cpp, NLCombatLabHUD.cpp, NLDesktopPlayerCharacter.cpp, NLLevelCombatPlayer.cpp, NLVRGameMode.cpp, NLVRPlayerCharacter.cpp, NLMasterRewardSubsystem.cpp, NLRunStateSubsystem.cpp, NLCheckpointService.cpp, NLAbilityTests.cpp, NLBladeQiGestureTests.cpp, NLBladeQiMotionTests.cpp, NLBladeQiProjectileTests.cpp, NLCombatRecoveryTests.cpp, NLEnemyAnimationTransitionTests.cpp, NLFourSealTests.cpp, NLLevelEncounterTests.cpp, NLMasterRewardTests.cpp, NLRitualObjectiveTests.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 39 action(s)
+  CPU 24 physical cores, 24 logical cores
+  Memory 31.73 GB physical, 16.51 GB/33.73 GB committed
+  UBA Storage capacity 40 GB
+[1/39] Compile [x64] NLAbilityTests.cpp [NoUba]
+[2/39] Compile [x64] NLAbilityComponent.cpp [NoUba]
+[3/39] Compile [x64] NLBladeComponent.cpp [NoUba]
+[4/39] Compile [x64] NLAttackDirectorSubsystem.cpp [NoUba]
+[5/39] Compile [x64] Module.experiment.cpp [NoUba]
+[6/39] Compile [x64] NLBladeQiMotionTests.cpp [NoUba]
+[7/39] Compile [x64] NLCombatIdentityComponent.cpp [NoUba]
+[8/39] Compile [x64] NLBladeQiProjectileTests.cpp [NoUba]
+[9/39] Compile [x64] NLCheckpointService.cpp [NoUba]
+[10/39] Compile [x64] NLCombatRecoveryComponent.cpp [NoUba]
+[11/39] Compile [x64] NLCombatProjectile.cpp [NoUba]
+[12/39] Compile [x64] NLCombatLabHUD.cpp [NoUba]
+[13/39] Compile [x64] NLCombatRecoveryTests.cpp [NoUba]
+[14/39] Compile [x64] NLCombatResolverSubsystem.cpp [NoUba]
+[15/39] Compile [x64] NLDesktopPlayerCharacter.cpp [NoUba]
+[16/39] Compile [x64] NLEncounterController.cpp [NoUba]
+[17/39] Compile [x64] NLEnemyBrainComponent.cpp [NoUba]
+[18/39] Compile [x64] NLFourSealTests.cpp [NoUba]
+[19/39] Compile [x64] NLEnemyCharacter.cpp [NoUba]
+[20/39] Compile [x64] NLGuardComponent.cpp [NoUba]
+[21/39] Compile [x64] NLGuardCaptainCharacter.cpp [NoUba]
+[22/39] Compile [x64] NLHealingPickup.cpp [NoUba]
+[23/39] Compile [x64] NLLevelEncounterDirector.cpp [NoUba]
+[24/39] Compile [x64] NLLevelCombatPlayer.cpp [NoUba]
+[25/39] Compile [x64] NLLevelEncounterTests.cpp [NoUba]
+[26/39] Compile [x64] NLMasterRewardSubsystem.cpp [NoUba]
+[27/39] Compile [x64] NLMasterRewardTests.cpp [NoUba]
+[28/39] Compile [x64] NLRitualObjective.cpp [NoUba]
+[29/39] Compile [x64] NLRitualLabController.cpp [NoUba]
+[30/39] Compile [x64] NLRitualObjectiveTests.cpp [NoUba]
+[31/39] Compile [x64] NLTrainingEnemy.cpp [NoUba]
+[32/39] Compile [x64] NLTalismanAttackComponent.cpp [NoUba]
+[33/39] Compile [x64] NLTrainingProjectileEmitter.cpp [NoUba]
+[34/39] Compile [x64] NLRunStateSubsystem.cpp [NoUba]
+[35/39] Compile [x64] NLVRGameMode.cpp [NoUba]
+[36/39] Compile [x64] NLVRPlayerCharacter.cpp [NoUba]
+[37/39] Link [x64] UnrealEditor-experiment.lib [NoUba]
+  ￕ�ￔￚﾴﾴﾽﾨ﾿￢ D:/game design/experiment/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/UnrealEditor-experiment.lib ﾺￍﾶￔￏ￳ D:/game design/experiment/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/UnrealEditor-experiment.exp
+[38/39] Link [x64] UnrealEditor-experiment.dll [NoUba]
+[39/39] WriteMetadata experimentEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 30.69 seconds
+Output binary: D:\浏览器下载\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 31.43 seconds
+Trace written to file C:\Users\21475\AppData\Local\UnrealBuildTool\Trace.uba with size 10.8kb

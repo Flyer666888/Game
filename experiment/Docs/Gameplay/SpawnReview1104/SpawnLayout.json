@@ -1,0 +1,1702 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "map_sha256": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+  "units": "cm",
+  "player_start": [
+    0.0,
+    -2500.0,
+    91.0
+  ],
+  "stages": [
+    {
+      "id": "Aoutside",
+      "label": "山门外 · 初次交锋",
+      "entry": [
+        0.0,
+        -2100.0,
+        91.0
+      ],
+      "trigger_center": [
+        0.0,
+        -1900.0,
+        88.0
+      ],
+      "trigger_extent": [
+        1400.0,
+        800.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "Aoutside_P01",
+          "position": [
+            -800.0,
+            -1100.0,
+            90.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Aoutside_P02",
+          "position": [
+            800.0,
+            -1100.0,
+            90.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "Aoutside_W01",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 2,
+              "points": [
+                "Aoutside_P01",
+                "Aoutside_P02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Ainside",
+      "label": "山门内 · 清理守卫",
+      "entry": [
+        0.0,
+        600.0,
+        91.0
+      ],
+      "trigger_center": [
+        0.0,
+        1200.0,
+        88.0
+      ],
+      "trigger_extent": [
+        1800.0,
+        1000.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "Ainside_P01",
+          "position": [
+            -800.0,
+            1000.0,
+            90.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Ainside_P02",
+          "position": [
+            800.0,
+            1000.0,
+            90.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Ainside_P03",
+          "position": [
+            -1200.0,
+            1500.0,
+            90.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Ainside_P04",
+          "position": [
+            1200.0,
+            1500.0,
+            90.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Ainside_P05",
+          "position": [
+            -600.0,
+            2100.0,
+            90.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Ainside_P06",
+          "position": [
+            600.0,
+            2100.0,
+            90.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "Ainside_W01",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 6,
+              "points": [
+                "Ainside_P01",
+                "Ainside_P02",
+                "Ainside_P03",
+                "Ainside_P04",
+                "Ainside_P05",
+                "Ainside_P06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R01",
+      "label": "R01 · 岩台持符弟子",
+      "entry": [
+        0.0,
+        4239.5,
+        635.0
+      ],
+      "trigger_center": [
+        0.0,
+        4527.5,
+        728.0
+      ],
+      "trigger_extent": [
+        500.0,
+        400.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "R01_P01",
+          "position": [
+            -740.0,
+            4772.5,
+            969.1999984741212
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "R01_P02",
+          "position": [
+            -1150.0,
+            4772.5,
+            969.1999984741212
+          ],
+          "roles": [
+            "talisman"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "R01_W01",
+          "max_alive": 2,
+          "groups": [
+            {
+              "role": "talisman",
+              "count": 2,
+              "points": [
+                "R01_P01",
+                "R01_P02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Bcourt",
+      "label": "演武场 · 六波守阵",
+      "entry": [
+        0.0,
+        12600.0,
+        2891.0
+      ],
+      "trigger_center": [
+        0.0,
+        12600.0,
+        2888.0
+      ],
+      "trigger_extent": [
+        1400.0,
+        900.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "Bcourt_P01",
+          "position": [
+            -800.0,
+            14000.0,
+            2890.0
+          ],
+          "roles": [
+            "sword",
+            "talisman"
+          ]
+        },
+        {
+          "id": "Bcourt_P02",
+          "position": [
+            800.0,
+            14000.0,
+            2890.0
+          ],
+          "roles": [
+            "sword",
+            "talisman"
+          ]
+        },
+        {
+          "id": "Bcourt_P03",
+          "position": [
+            0.0,
+            14800.0,
+            2890.0
+          ],
+          "roles": [
+            "sword",
+            "talisman"
+          ]
+        },
+        {
+          "id": "Bcourt_P04",
+          "position": [
+            -800.0,
+            15400.0,
+            2890.0
+          ],
+          "roles": [
+            "sword",
+            "talisman"
+          ]
+        },
+        {
+          "id": "Bcourt_P05",
+          "position": [
+            800.0,
+            15400.0,
+            2890.0
+          ],
+          "roles": [
+            "sword",
+            "talisman"
+          ]
+        },
+        {
+          "id": "Bcourt_P06",
+          "position": [
+            0.0,
+            15700.0,
+            2890.0
+          ],
+          "roles": [
+            "sword",
+            "talisman"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "Bcourt_W01",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 6,
+              "points": [
+                "Bcourt_P01",
+                "Bcourt_P02",
+                "Bcourt_P03",
+                "Bcourt_P04",
+                "Bcourt_P05",
+                "Bcourt_P06"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Bcourt_W02",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 6,
+              "points": [
+                "Bcourt_P01",
+                "Bcourt_P02",
+                "Bcourt_P03",
+                "Bcourt_P04",
+                "Bcourt_P05",
+                "Bcourt_P06"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Bcourt_W03",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 5,
+              "points": [
+                "Bcourt_P01",
+                "Bcourt_P02",
+                "Bcourt_P03",
+                "Bcourt_P04",
+                "Bcourt_P05",
+                "Bcourt_P06"
+              ]
+            },
+            {
+              "role": "talisman",
+              "count": 1,
+              "points": [
+                "Bcourt_P01",
+                "Bcourt_P02",
+                "Bcourt_P03",
+                "Bcourt_P04",
+                "Bcourt_P05",
+                "Bcourt_P06"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Bcourt_W04",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 6,
+              "points": [
+                "Bcourt_P01",
+                "Bcourt_P02",
+                "Bcourt_P03",
+                "Bcourt_P04",
+                "Bcourt_P05",
+                "Bcourt_P06"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Bcourt_W05",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 5,
+              "points": [
+                "Bcourt_P01",
+                "Bcourt_P02",
+                "Bcourt_P03",
+                "Bcourt_P04",
+                "Bcourt_P05",
+                "Bcourt_P06"
+              ]
+            },
+            {
+              "role": "talisman",
+              "count": 1,
+              "points": [
+                "Bcourt_P01",
+                "Bcourt_P02",
+                "Bcourt_P03",
+                "Bcourt_P04",
+                "Bcourt_P05",
+                "Bcourt_P06"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Bcourt_W06",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 6,
+              "points": [
+                "Bcourt_P01",
+                "Bcourt_P02",
+                "Bcourt_P03",
+                "Bcourt_P04",
+                "Bcourt_P05",
+                "Bcourt_P06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Bexit",
+      "label": "演武场出口 · 断后守卫",
+      "entry": [
+        0.0,
+        15500.0,
+        2891.0
+      ],
+      "trigger_center": [
+        0.0,
+        15750.0,
+        2888.0
+      ],
+      "trigger_extent": [
+        1400.0,
+        600.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "Bexit_P01",
+          "position": [
+            -650.0,
+            15900.0,
+            2890.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Bexit_P02",
+          "position": [
+            693.9339828220179,
+            16006.066017177984,
+            2890.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Bexit_P03",
+          "position": [
+            -1200.0,
+            15300.0,
+            2890.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Bexit_P04",
+          "position": [
+            1200.0,
+            15300.0,
+            2890.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Bexit_P05",
+          "position": [
+            -500.0,
+            16100.0,
+            2890.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Bexit_P06",
+          "position": [
+            500.0,
+            16100.0,
+            2890.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "Bexit_W01",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 6,
+              "points": [
+                "Bexit_P01",
+                "Bexit_P02",
+                "Bexit_P03",
+                "Bexit_P04",
+                "Bexit_P05",
+                "Bexit_P06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "label": "R02 · 岩台持符弟子",
+      "entry": [
+        0.0,
+        17416.25,
+        3402.9999999999995
+      ],
+      "trigger_center": [
+        0.0,
+        17707.5,
+        3528.0
+      ],
+      "trigger_extent": [
+        500.0,
+        400.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "R02_P01",
+          "position": [
+            740.0,
+            17952.499999999996,
+            3769.19999847412
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "R02_P02",
+          "position": [
+            1150.0,
+            17952.499999999996,
+            3769.19999847412
+          ],
+          "roles": [
+            "talisman"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "R02_W01",
+          "max_alive": 2,
+          "groups": [
+            {
+              "role": "talisman",
+              "count": 2,
+              "points": [
+                "R02_P01",
+                "R02_P02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "label": "R03 · 岩台持符弟子",
+      "entry": [
+        0.0,
+        23065.714285714297,
+        5659.0
+      ],
+      "trigger_center": [
+        0.0,
+        23370.3571428571,
+        5768.0
+      ],
+      "trigger_extent": [
+        500.0,
+        400.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "R03_P01",
+          "position": [
+            -740.0,
+            23615.357142857098,
+            6009.199998474121
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "R03_P02",
+          "position": [
+            -1150.0,
+            23615.357142857098,
+            6009.199998474121
+          ],
+          "roles": [
+            "talisman"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "R03_W01",
+          "max_alive": 2,
+          "groups": [
+            {
+              "role": "talisman",
+              "count": 2,
+              "points": [
+                "R03_P01",
+                "R03_P02"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Cestablish",
+      "label": "炼丹院 · 建立战线",
+      "entry": [
+        0.0,
+        27900.0,
+        7291.0
+      ],
+      "trigger_center": [
+        0.0,
+        30000.0,
+        7288.0
+      ],
+      "trigger_extent": [
+        2900.0,
+        2800.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "Cestablish_P01",
+          "position": [
+            -1200.0,
+            29000.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Cestablish_P02",
+          "position": [
+            1200.0,
+            29000.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Cestablish_P03",
+          "position": [
+            -1200.0,
+            29800.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "Cestablish_P04",
+          "position": [
+            1200.0,
+            29800.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "Cestablish_P05",
+          "position": [
+            -1200.0,
+            30600.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "Cestablish_P06",
+          "position": [
+            1200.0,
+            30600.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "Cestablish_P07",
+          "position": [
+            -1800.0,
+            29400.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Cestablish_P08",
+          "position": [
+            1800.0,
+            29400.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "Ritual.Cestablish.W01",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 8,
+              "points": [
+                "Cestablish_P01",
+                "Cestablish_P02",
+                "Cestablish_P07",
+                "Cestablish_P08"
+              ]
+            },
+            {
+              "role": "talisman",
+              "count": 2,
+              "points": [
+                "Cestablish_P03",
+                "Cestablish_P04",
+                "Cestablish_P05",
+                "Cestablish_P06"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Ritual.Cestablish.W02",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 8,
+              "points": [
+                "Cestablish_P01",
+                "Cestablish_P02",
+                "Cestablish_P07",
+                "Cestablish_P08"
+              ]
+            },
+            {
+              "role": "talisman",
+              "count": 2,
+              "points": [
+                "Cestablish_P03",
+                "Cestablish_P04",
+                "Cestablish_P05",
+                "Cestablish_P06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Cinterrupt",
+      "label": "炼丹院 · 打断施法",
+      "entry": [
+        0.0,
+        27900.0,
+        7291.0
+      ],
+      "trigger_center": [
+        0.0,
+        30000.0,
+        7288.0
+      ],
+      "trigger_extent": [
+        2900.0,
+        2800.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "Cinterrupt_P01",
+          "position": [
+            -1200.0,
+            29000.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Cinterrupt_P02",
+          "position": [
+            1200.0,
+            29000.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Cinterrupt_P03",
+          "position": [
+            -1200.0,
+            29800.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman",
+            "formation_breaker"
+          ]
+        },
+        {
+          "id": "Cinterrupt_P04",
+          "position": [
+            1200.0,
+            29800.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman",
+            "formation_breaker"
+          ]
+        },
+        {
+          "id": "Cinterrupt_P05",
+          "position": [
+            -1200.0,
+            30600.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "Cinterrupt_P06",
+          "position": [
+            1200.0,
+            30600.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "Cinterrupt_P07",
+          "position": [
+            -1800.0,
+            29400.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Cinterrupt_P08",
+          "position": [
+            1800.0,
+            29400.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "Ritual.Cinterrupt.W01",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 7,
+              "points": [
+                "Cinterrupt_P01",
+                "Cinterrupt_P02",
+                "Cinterrupt_P07",
+                "Cinterrupt_P08"
+              ]
+            },
+            {
+              "role": "talisman",
+              "count": 2,
+              "points": [
+                "Cinterrupt_P03",
+                "Cinterrupt_P04",
+                "Cinterrupt_P05",
+                "Cinterrupt_P06"
+              ]
+            },
+            {
+              "role": "formation_breaker",
+              "count": 1,
+              "points": [
+                "Cinterrupt_P03",
+                "Cinterrupt_P04"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Ritual.Cinterrupt.W02",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 7,
+              "points": [
+                "Cinterrupt_P01",
+                "Cinterrupt_P02",
+                "Cinterrupt_P07",
+                "Cinterrupt_P08"
+              ]
+            },
+            {
+              "role": "talisman",
+              "count": 2,
+              "points": [
+                "Cinterrupt_P03",
+                "Cinterrupt_P04",
+                "Cinterrupt_P05",
+                "Cinterrupt_P06"
+              ]
+            },
+            {
+              "role": "formation_breaker",
+              "count": 1,
+              "points": [
+                "Cinterrupt_P03",
+                "Cinterrupt_P04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Csiege",
+      "label": "炼丹院 · 阵地围攻",
+      "entry": [
+        0.0,
+        27900.0,
+        7291.0
+      ],
+      "trigger_center": [
+        0.0,
+        30000.0,
+        7288.0
+      ],
+      "trigger_extent": [
+        2900.0,
+        2800.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "Csiege_P01",
+          "position": [
+            -1200.0,
+            29000.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Csiege_P02",
+          "position": [
+            1200.0,
+            29000.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Csiege_P03",
+          "position": [
+            -1200.0,
+            29800.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman",
+            "formation_breaker"
+          ]
+        },
+        {
+          "id": "Csiege_P04",
+          "position": [
+            1200.0,
+            29800.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman",
+            "formation_breaker"
+          ]
+        },
+        {
+          "id": "Csiege_P05",
+          "position": [
+            -1200.0,
+            30600.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "Csiege_P06",
+          "position": [
+            1200.0,
+            30600.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "Csiege_P07",
+          "position": [
+            -1800.0,
+            29400.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Csiege_P08",
+          "position": [
+            1800.0,
+            29400.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "Ritual.Csiege.W01",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 6,
+              "points": [
+                "Csiege_P01",
+                "Csiege_P02",
+                "Csiege_P07",
+                "Csiege_P08"
+              ]
+            },
+            {
+              "role": "talisman",
+              "count": 3,
+              "points": [
+                "Csiege_P03",
+                "Csiege_P04",
+                "Csiege_P05",
+                "Csiege_P06"
+              ]
+            },
+            {
+              "role": "formation_breaker",
+              "count": 1,
+              "points": [
+                "Csiege_P03",
+                "Csiege_P04"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Ritual.Csiege.W02",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 6,
+              "points": [
+                "Csiege_P01",
+                "Csiege_P02",
+                "Csiege_P07",
+                "Csiege_P08"
+              ]
+            },
+            {
+              "role": "talisman",
+              "count": 3,
+              "points": [
+                "Csiege_P03",
+                "Csiege_P04",
+                "Csiege_P05",
+                "Csiege_P06"
+              ]
+            },
+            {
+              "role": "formation_breaker",
+              "count": 1,
+              "points": [
+                "Csiege_P03",
+                "Csiege_P04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Cunseal",
+      "label": "炼丹院 · 解封守阵",
+      "entry": [
+        0.0,
+        27900.0,
+        7291.0
+      ],
+      "trigger_center": [
+        0.0,
+        30000.0,
+        7288.0
+      ],
+      "trigger_extent": [
+        2900.0,
+        2800.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "Cunseal_P01",
+          "position": [
+            -1200.0,
+            29000.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Cunseal_P02",
+          "position": [
+            1200.0,
+            29000.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Cunseal_P03",
+          "position": [
+            -1200.0,
+            29800.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman",
+            "formation_breaker"
+          ]
+        },
+        {
+          "id": "Cunseal_P04",
+          "position": [
+            1200.0,
+            29800.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman",
+            "formation_breaker"
+          ]
+        },
+        {
+          "id": "Cunseal_P05",
+          "position": [
+            -1200.0,
+            30600.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "Cunseal_P06",
+          "position": [
+            1200.0,
+            30600.0,
+            7290.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "Cunseal_P07",
+          "position": [
+            -1800.0,
+            29400.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "Cunseal_P08",
+          "position": [
+            1800.0,
+            29400.0,
+            7290.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "Ritual.Cunseal.W01",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 6,
+              "points": [
+                "Cunseal_P01",
+                "Cunseal_P02",
+                "Cunseal_P07",
+                "Cunseal_P08"
+              ]
+            },
+            {
+              "role": "talisman",
+              "count": 2,
+              "points": [
+                "Cunseal_P03",
+                "Cunseal_P04",
+                "Cunseal_P05",
+                "Cunseal_P06"
+              ]
+            },
+            {
+              "role": "formation_breaker",
+              "count": 2,
+              "points": [
+                "Cunseal_P03",
+                "Cunseal_P04"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Ritual.Cunseal.W02",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 6,
+              "points": [
+                "Cunseal_P01",
+                "Cunseal_P02",
+                "Cunseal_P07",
+                "Cunseal_P08"
+              ]
+            },
+            {
+              "role": "talisman",
+              "count": 2,
+              "points": [
+                "Cunseal_P03",
+                "Cunseal_P04",
+                "Cunseal_P05",
+                "Cunseal_P06"
+              ]
+            },
+            {
+              "role": "formation_breaker",
+              "count": 2,
+              "points": [
+                "Cunseal_P03",
+                "Cunseal_P04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GM01",
+      "label": "御风桥 · 问剑宗师",
+      "entry": [
+        -4216.918295455541,
+        32497.68354166849,
+        7291.0
+      ],
+      "trigger_center": [
+        -4600.0,
+        33200.0,
+        7288.0
+      ],
+      "trigger_extent": [
+        1000.0,
+        900.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "GM01_Master",
+          "position": [
+            -4600.0,
+            33600.0,
+            7290.0
+          ],
+          "roles": [
+            "master"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "GM01_W01",
+          "max_alive": 1,
+          "groups": [
+            {
+              "role": "master",
+              "count": 1,
+              "points": [
+                "GM01_Master"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GM02",
+      "label": "御风桥 · 镇符宗师",
+      "entry": [
+        -7435.134518337108,
+        38318.99288033089,
+        9091.0
+      ],
+      "trigger_center": [
+        -8200.0,
+        39700.0,
+        9088.0
+      ],
+      "trigger_extent": [
+        1000.0,
+        900.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "GM02_Guard01",
+          "position": [
+            -8800.0,
+            39600.0,
+            9090.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "GM02_Guard02",
+          "position": [
+            -7600.0,
+            39600.0,
+            9090.0
+          ],
+          "roles": [
+            "sword"
+          ]
+        },
+        {
+          "id": "GM02_Master",
+          "position": [
+            -8200.0,
+            40100.0,
+            9090.0
+          ],
+          "roles": [
+            "master"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "GM02_W01",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "sword",
+              "count": 2,
+              "points": [
+                "GM02_Guard01",
+                "GM02_Guard02"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "GM02_W02",
+          "max_alive": 1,
+          "groups": [
+            {
+              "role": "master",
+              "count": 1,
+              "points": [
+                "GM02_Master"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GM03",
+      "label": "御风桥 · 丹火宗师",
+      "entry": [
+        -12073.006373486296,
+        45267.44666188655,
+        10691.0
+      ],
+      "trigger_center": [
+        -13000.0,
+        46600.0,
+        10688.0
+      ],
+      "trigger_extent": [
+        1000.0,
+        900.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "GM03_Guard01",
+          "position": [
+            -13600.0,
+            46500.0,
+            10690.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "GM03_Guard02",
+          "position": [
+            -12400.0,
+            46500.0,
+            10690.0
+          ],
+          "roles": [
+            "talisman"
+          ]
+        },
+        {
+          "id": "GM03_Master",
+          "position": [
+            -13000.0,
+            47000.0,
+            10690.0
+          ],
+          "roles": [
+            "master"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "GM03_W01",
+          "max_alive": 4,
+          "groups": [
+            {
+              "role": "talisman",
+              "count": 2,
+              "points": [
+                "GM03_Guard01",
+                "GM03_Guard02"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "GM03_W02",
+          "max_alive": 1,
+          "groups": [
+            {
+              "role": "master",
+              "count": 1,
+              "points": [
+                "GM03_Master"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GM04",
+      "label": "御风桥 · 御风宗师",
+      "entry": [
+        -17043.64135411797,
+        52180.2250686828,
+        12291.0
+      ],
+      "trigger_center": [
+        -18000.0,
+        53500.0,
+        12288.0
+      ],
+      "trigger_extent": [
+        1000.0,
+        900.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "GM04_Master",
+          "position": [
+            -18000.0,
+            53900.0,
+            12290.0
+          ],
+          "roles": [
+            "master"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "GM04_W01",
+          "max_alive": 1,
+          "groups": [
+            {
+              "role": "master",
+              "count": 1,
+              "points": [
+                "GM04_Master"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Boss",
+      "label": "山顶 · 最终决战",
+      "entry": [
+        -20800.0,
+        59000.0,
+        13291.0
+      ],
+      "trigger_center": [
+        -20800.0,
+        59000.0,
+        13288.0
+      ],
+      "trigger_extent": [
+        2000.0,
+        1200.0,
+        300.0
+      ],
+      "points": [
+        {
+          "id": "Boss_P01",
+          "position": [
+            -20800.0,
+            62600.0,
+            13290.000003814697
+          ],
+          "roles": [
+            "boss"
+          ]
+        }
+      ],
+      "waves": [
+        {
+          "id": "Boss_W01",
+          "max_alive": 1,
+          "groups": [
+            {
+              "role": "boss",
+              "count": 1,
+              "points": [
+                "Boss_P01"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "张浩翔的拯救者",
+			"instance": "068901F54B09C2461EDC88BBEFB111B5",
+			"instanceName": "张浩翔的拯救者-87876",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9818] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+			"cPUModel": "Intel(R) Core(TM) i9-14900HX",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.11.05-13.37.30",
+	"succeeded": 0,
+	"succeededWithWarnings": 1,
+	"failed": 1,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.22881260514259338,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "AuthoredPointsAndOptIn",
+			"fullTestPath": "Nilin.Encounter.StagingQueue.AuthoredPointsAndOptIn",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"068901F54B09C2461EDC88BBEFB111B5"
+			],
+			"duration": 0.10779790580272675,
+			"dateTime": "2026.11.05-13.37.30",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_1.NilinQueue_12236B24424FB114FB974D94640A2A8F:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_1.NilinQueue_12236B24424FB114FB974D94640A2A8F:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_1.NilinQueue_12236B24424FB114FB974D94640A2A8F:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_1.NilinQueue_12236B24424FB114FB974D94640A2A8F:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEnemyNavigation: NLEnemyCharacter_0 waiting for navigation (system=no matchingData=no)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_1.NilinQueue_12236B24424FB114FB974D94640A2A8F:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_1.NilinQueue_12236B24424FB114FB974D94640A2A8F:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_1.NilinQueue_12236B24424FB114FB974D94640A2A8F:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_1.NilinQueue_12236B24424FB114FB974D94640A2A8F:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEnemyNavigation: NLEnemyCharacter_1 waiting for navigation (system=no matchingData=no)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				}
+			],
+			"warnings": 10,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoncombatEntryPauseStopAndRetry",
+			"fullTestPath": "Nilin.Encounter.StagingQueue.NoncombatEntryPauseStopAndRetry",
+			"tags": [],
+			"state": "Fail",
+			"deviceInstance": [
+				"068901F54B09C2461EDC88BBEFB111B5"
+			],
+			"duration": 0.12101469933986664,
+			"dateTime": "2026.11.05-13.37.30",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_2.NilinQueue_8C297B334FB3487699415A8CF1B14B6D:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_2.NilinQueue_8C297B334FB3487699415A8CF1B14B6D:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_2.NilinQueue_8C297B334FB3487699415A8CF1B14B6D:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_2.NilinQueue_8C297B334FB3487699415A8CF1B14B6D:PersistentLevel.NLEnemyCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEnemyNavigation: NLEnemyCharacter_0 waiting for navigation (system=no matchingData=no)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'The next turn creates exactly one more fighter' to be 2, but it was 1.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLStagingQueueTests.cpp",
+					"lineNumber": 144,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Two fighters respect MaxAlive independently of the four displays' to be 2, but it was 1.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLStagingQueueTests.cpp",
+					"lineNumber": 145,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'The departed ordinal cannot remain as a display' to be false.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLStagingQueueTests.cpp",
+					"lineNumber": 146,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Objective stop leaves actual fighters alive' to be 2, but it was 1.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLStagingQueueTests.cpp",
+					"lineNumber": 151,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_2.NilinQueue_8C297B334FB3487699415A8CF1B14B6D:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_2.NilinQueue_8C297B334FB3487699415A8CF1B14B6D:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_2.NilinQueue_8C297B334FB3487699415A8CF1B14B6D:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(CharacterMesh0) Actor(NLEnemyCharacter /Temp/Untitled_2.NilinQueue_8C297B334FB3487699415A8CF1B14B6D:PersistentLevel.NLEnemyCharacter_1)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogNLEnemyNavigation: NLEnemyCharacter_1 waiting for navigation (system=no matchingData=no)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-13.37.30"
+				}
+			],
+			"warnings": 10,
+			"errors": 4,
+			"artifacts": []
+		}
+	]
+}

@@ -1,0 +1,158 @@
+{
+  "success": true,
+  "stages": 16,
+  "phase_targets": [
+    25,
+    50,
+    75,
+    100
+  ],
+  "candidate_limit": 145,
+  "alchemy_candidate_limit": 80,
+  "non_alchemy_wave_references_unchanged": true,
+  "goal_location": [
+    0,
+    28300,
+    7200
+  ],
+  "effective_seconds": 240,
+  "max_integrity": 100,
+  "breaker_health": 45,
+  "breaker_ritual_damage": 8,
+  "geometry": [
+    {
+      "spawn": "Cestablish_P01",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cestablish_P02",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cestablish_P03",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cestablish_P04",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cestablish_P05",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cestablish_P06",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cestablish_P07",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cestablish_P08",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cinterrupt_P01",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cinterrupt_P02",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cinterrupt_P03",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cinterrupt_P04",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cinterrupt_P05",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cinterrupt_P06",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cinterrupt_P07",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cinterrupt_P08",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Csiege_P01",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Csiege_P02",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Csiege_P03",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Csiege_P04",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Csiege_P05",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Csiege_P06",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Csiege_P07",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Csiege_P08",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cunseal_P01",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cunseal_P02",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cunseal_P03",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cunseal_P04",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cunseal_P05",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cunseal_P06",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cunseal_P07",
+      "capsule_clear": true
+    },
+    {
+      "spawn": "Cunseal_P08",
+      "capsule_clear": true
+    }
+  ],
+  "upgrade_thresholds": [
+    40,
+    100
+  ],
+  "upgrade_minimum_at_rescue_end": 3,
+  "map_sha256": "a716831382ad57dcb43206b8f4b8e0d156cbe1abb8d06ca5a92b856f8b697b47"
+}

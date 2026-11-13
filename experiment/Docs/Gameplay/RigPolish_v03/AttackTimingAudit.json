@@ -1,0 +1,438 @@
+{
+  "state": "audited",
+  "source": "BeforeMotion.json",
+  "timings": [
+    {
+      "enemy": "sword",
+      "timing": {
+        "telegraph_seconds": 0.800000011920929,
+        "attack_seconds": 0.23000000417232513,
+        "recover_seconds": 1.3033332824707031
+      },
+      "uses_sword_clip": true,
+      "play_rate": 0.9999999808413639,
+      "notify_animation_seconds": [
+        0.8,
+        1.03
+      ]
+    },
+    {
+      "enemy": "talisman",
+      "timing": {
+        "telegraph_seconds": 1.2000000476837158,
+        "attack_seconds": 0.15000000596046448,
+        "recover_seconds": 2.0
+      },
+      "uses_sword_clip": false,
+      "play_rate": 0.5970149158130221,
+      "notify_animation_seconds": null
+    },
+    {
+      "enemy": "rock_talisman",
+      "timing": {
+        "telegraph_seconds": 1.2000000476837158,
+        "attack_seconds": 0.15000000596046448,
+        "recover_seconds": 2.0
+      },
+      "uses_sword_clip": false,
+      "play_rate": 0.5970149158130221,
+      "notify_animation_seconds": null
+    },
+    {
+      "enemy": "GM01",
+      "timing": {
+        "telegraph_seconds": 1.2000000476837158,
+        "attack_seconds": 0.3449999988079071,
+        "recover_seconds": 1.9549999237060547
+      },
+      "uses_sword_clip": true,
+      "play_rate": 0.666666649636768,
+      "notify_animation_seconds": [
+        0.8,
+        1.03
+      ]
+    },
+    {
+      "enemy": "GM02",
+      "timing": {
+        "telegraph_seconds": 1.2000000476837158,
+        "attack_seconds": 0.15000000596046448,
+        "recover_seconds": 2.0
+      },
+      "uses_sword_clip": false,
+      "play_rate": 0.5970149158130221,
+      "notify_animation_seconds": null
+    },
+    {
+      "enemy": "GM03",
+      "timing": {
+        "telegraph_seconds": 1.2000000476837158,
+        "attack_seconds": 0.15000000596046448,
+        "recover_seconds": 2.0
+      },
+      "uses_sword_clip": false,
+      "play_rate": 0.5970149158130221,
+      "notify_animation_seconds": null
+    },
+    {
+      "enemy": "GM04",
+      "timing": {
+        "telegraph_seconds": 1.2000000476837158,
+        "attack_seconds": 0.3449999988079071,
+        "recover_seconds": 1.9549999237060547
+      },
+      "uses_sword_clip": true,
+      "play_rate": 0.666666649636768,
+      "notify_animation_seconds": [
+        0.8,
+        1.03
+      ]
+    },
+    {
+      "enemy": "boss",
+      "timing": {
+        "telegraph_seconds": 1.2000000476837158,
+        "attack_seconds": 0.3449999988079071,
+        "recover_seconds": 1.9549999237060547
+      },
+      "uses_sword_clip": true,
+      "play_rate": 0.666666649636768,
+      "notify_animation_seconds": [
+        0.8,
+        1.03
+      ]
+    }
+  ],
+  "timeline_segments": [
+    {
+      "label": [
+        "<NLEnemyState.SPAWN: 0>",
+        "Wuxia_Idle_Planted_Upright_v01"
+      ],
+      "start": 0.0,
+      "end": 0.31710359826684,
+      "frames": 20
+    },
+    {
+      "label": [
+        "<NLEnemyState.APPROACH: 1>",
+        "Wuxia_Idle_Planted_Upright_v01"
+      ],
+      "start": 0.33377040177583694,
+      "end": 0.3504372015595436,
+      "frames": 2
+    },
+    {
+      "label": [
+        "<NLEnemyState.APPROACH: 1>",
+        "Wuxia_Walk_Sword_Upright_v01"
+      ],
+      "start": 0.3671039007604122,
+      "end": 12.436495784670115,
+      "frames": 640
+    },
+    {
+      "label": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "Wuxia_Idle_Planted_Upright_v01"
+      ],
+      "start": 12.453162584453821,
+      "end": 12.787994481623173,
+      "frames": 21
+    },
+    {
+      "label": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 12.804661184549332,
+      "end": 13.588000282645226,
+      "frames": 48
+    },
+    {
+      "label": [
+        "<NLEnemyState.ATTACK: 4>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 13.604666981846094,
+      "end": 13.821334782987833,
+      "frames": 14
+    },
+    {
+      "label": [
+        "<NLEnemyState.RECOVER: 5>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 13.83800158277154,
+      "end": 15.123514089733362,
+      "frames": 62
+    },
+    {
+      "label": [
+        "<NLEnemyState.APPROACH: 1>",
+        "Wuxia_Idle_Planted_Upright_v01"
+      ],
+      "start": 15.14018078893423,
+      "end": 15.14018078893423,
+      "frames": 1
+    },
+    {
+      "label": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "Wuxia_Idle_Planted_Upright_v01"
+      ],
+      "start": 15.15684749186039,
+      "end": 15.490185089409351,
+      "frames": 21
+    },
+    {
+      "label": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 15.506851889193058,
+      "end": 16.120199989527464,
+      "frames": 32
+    },
+    {
+      "label": [
+        "<NLEnemyState.ATTACK: 4>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 16.320389594882727,
+      "end": 16.52039109542966,
+      "frames": 13
+    },
+    {
+      "label": [
+        "<NLEnemyState.RECOVER: 5>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 16.537057794630527,
+      "end": 17.837086495012045,
+      "frames": 79
+    },
+    {
+      "label": [
+        "<NLEnemyState.APPROACH: 1>",
+        "Wuxia_Idle_Planted_Upright_v01"
+      ],
+      "start": 17.85375329479575,
+      "end": 17.85375329479575,
+      "frames": 1
+    },
+    {
+      "label": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "Wuxia_Idle_Planted_Upright_v01"
+      ],
+      "start": 17.87041999399662,
+      "end": 18.130040887743235,
+      "frames": 10
+    },
+    {
+      "label": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 18.28825629130006,
+      "end": 19.07159449160099,
+      "frames": 48
+    },
+    {
+      "label": [
+        "<NLEnemyState.ATTACK: 4>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 19.088261291384697,
+      "end": 19.30492889136076,
+      "frames": 14
+    },
+    {
+      "label": [
+        "<NLEnemyState.RECOVER: 5>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 19.321595691144466,
+      "end": 20.61619918420911,
+      "frames": 63
+    },
+    {
+      "label": [
+        "<NLEnemyState.APPROACH: 1>",
+        "Wuxia_Idle_Planted_Upright_v01"
+      ],
+      "start": 20.632865983992815,
+      "end": 20.632865983992815,
+      "frames": 1
+    },
+    {
+      "label": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "Wuxia_Idle_Planted_Upright_v01"
+      ],
+      "start": 20.64953278377652,
+      "end": 20.98286848142743,
+      "frames": 21
+    },
+    {
+      "label": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 20.999535284936428,
+      "end": 21.016202181577682,
+      "frames": 2
+    },
+    {
+      "label": [
+        "<NLEnemyState.STAGGERED: 6>",
+        "Wuxia_Hit_Sword_Upright_v01"
+      ],
+      "start": 21.03286888450384,
+      "end": 21.79953968152404,
+      "frames": 47
+    },
+    {
+      "label": [
+        "<NLEnemyState.APPROACH: 1>",
+        "Wuxia_Idle_Planted_Upright_v01"
+      ],
+      "start": 21.816206384450197,
+      "end": 21.816206384450197,
+      "frames": 1
+    },
+    {
+      "label": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "Wuxia_Idle_Planted_Upright_v01"
+      ],
+      "start": 21.832873184233904,
+      "end": 23.00537448376417,
+      "frames": 55
+    },
+    {
+      "label": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 23.02204128354788,
+      "end": 23.805379081517458,
+      "frames": 48
+    },
+    {
+      "label": [
+        "<NLEnemyState.ATTACK: 4>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 23.822045784443617,
+      "end": 24.005380284041166,
+      "frames": 12
+    },
+    {
+      "label": [
+        "<NLEnemyState.RECOVER: 5>",
+        "Wuxia_Attack_Sword_Upright_v01"
+      ],
+      "start": 24.170537184923887,
+      "end": 25.01321018487215,
+      "frames": 43
+    },
+    {
+      "label": [
+        "<NLEnemyState.DEAD: 7>",
+        "Wuxia_Death_Restrained_v02"
+      ],
+      "start": 25.02987688407302,
+      "end": 29.015209078788757,
+      "frames": 150
+    }
+  ],
+  "actual_attack_rates": [
+    1.0
+  ],
+  "minimum_player_health": 100.0,
+  "closest_active_blade_to_target": {
+    "distance_to_player_capsule_axis_cm": 49.11370784598551,
+    "clearance_from_capsule_plus_sweep_cm": 17.11370784598551,
+    "t": 23.838712483644485,
+    "clip_time": 0.8166713118553162,
+    "target_distance_cm": 128.78317451267267,
+    "blade_points_world": {
+      "blade_root_local": [
+        -3.6769178931591795,
+        -2391.0461806664994,
+        146.81108677806554
+      ],
+      "blade_mid_local": [
+        -8.105724879966235,
+        -2420.3745577797,
+        151.3632724033036
+      ],
+      "blade_tip_local": [
+        -10.17372605071739,
+        -2452.2336984364324,
+        155.34922340391648
+      ]
+    },
+    "player_location": [
+      0.0,
+      -2500.0,
+      90.1500015258789
+    ]
+  },
+  "max_attack_blade_sample_step_cm": 120.56134751450377,
+  "max_attack_blade_step_within_100ms_cm": 39.61620723019064,
+  "capture_induced_long_frame_gaps": [
+    {
+      "t": 14.105472687631845,
+      "gap_seconds": 0.10080340504646301,
+      "clip_time": 1.3008114099502563
+    },
+    {
+      "t": 14.306843090802431,
+      "gap_seconds": 0.20137040317058563,
+      "clip_time": 1.5021817684173584
+    },
+    {
+      "t": 16.120199989527464,
+      "gap_seconds": 0.11334539949893951,
+      "clip_time": 0.613348126411438
+    },
+    {
+      "t": 16.320389594882727,
+      "gap_seconds": 0.20018960535526276,
+      "clip_time": 0.8135377168655396
+    },
+    {
+      "t": 20.144217390567064,
+      "gap_seconds": 0.13928470015525818,
+      "clip_time": 1.8559596538543701
+    },
+    {
+      "t": 20.299530882388353,
+      "gap_seconds": 0.15531349182128906,
+      "clip_time": 2.011273145675659
+    },
+    {
+      "t": 24.170537184923887,
+      "gap_seconds": 0.16515690088272095,
+      "clip_time": 1.1484959125518799
+    },
+    {
+      "t": 24.32987278327346,
+      "gap_seconds": 0.15933559834957123,
+      "clip_time": 1.3078315258026123
+    }
+  ],
+  "max_attack_blade_sample_speed_cm_s": 2376.9677938464256,
+  "direction": "Mesh yaw -90: skeletal component +Y is actor forward; Blender -Y.",
+  "conclusions": [
+    "No runtime speedup: ordinary sword plays at 1x, captains at 2/3x.",
+    "Only Telegraph starts the attack clip; Attack and Recover do not restart it.",
+    "Native blade requires both the brain window and notify window, aligned at clip 0.8–1.03 seconds.",
+    "The original 130cm stopping range is larger than the original blade trajectory reaches in the tested encounter.",
+    "Compact swing should cover forward component Y 100–130cm, near centre X and torso Z during the original active window; keep authored range and damage unchanged."
+  ],
+  "limits": "Capsule/sweep geometry audit uses native defaults radius28,halfheight88,sweep4. Sampled blade coverage is numerical evidence, not a replacement for real UE collision validation."
+}

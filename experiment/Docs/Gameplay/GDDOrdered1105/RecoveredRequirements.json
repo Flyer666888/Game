@@ -1,0 +1,15 @@
+{
+  "state": "recovered",
+  "source_session": "C:/Users/21475/.codex/sessions/2026/11/04/rollout-2026-11-04T17-14-01-01a1a5d6-36f0-72d3-bad6-8dfa2aaf3174.jsonl",
+  "source_line": 4330,
+  "source_ordinal": 4329,
+  "source_role": "assistant",
+  "source_timestamp": "2026-11-04T13:09:33.431Z",
+  "provenance_note": "This is the preserved prior assistant re-send of the six previously adopted GDD supplements, not an independently recovered original user message. Numeric parameters are prototype suggestions except the explicit fifth-eligible-roll guarantee example.",
+  "six_requirements_verbatim": "找到了，是之前你确认采用的 **六项 GDD 补充设计**，其中回血采用“精准格挡积攒回血＋宗师首杀补给”。下面重新发你，数值保留当时的原型测试建议。\n\n1. **敌人生成时序与波次配置**\n\n   定义敌人的出现时机、每波数量、生成位置，以及同时参与战斗的人数。通过进入区域、清除上一波或完成交互等条件触发遭遇，控制关卡节奏。\n\n   例如：玩家进入栈道后激活两名远程敌人；御风桥上的四大宗师按照推进顺序分别进入战斗。\n\n2. **战斗表现驱动的生命恢复与精英首杀补给机制**\n\n   采用“精准格挡积攒回血＋宗师首杀补给”的组合，奖励防御技巧，并为连续战斗提供恢复机会。\n\n   **精准格挡回血——化劲回元：**玩家在有效判定窗口内成功挡下攻击，积攒回元值；积满后自动恢复少量生命。初始测试可采用“生命上限 100，成功精准格挡 3 次回复 10 点生命”，数值根据试玩调整。\n\n   **宗师首杀补给：**在同一关卡进度中，首次击败每名宗师时，固定掉落一次性回复补给，为下一段挑战提供恢复机会，避免重复刷取。\n\n   **生命值反馈：**血条清晰显示受伤与恢复，旁边以简洁刻度展示回元进度，让玩家理解回血来源。\n\n3. **梯次增援与敌群压迫感塑造**\n\n   通过敌人的连续补位、远处集结，以及不同高度上的队列，营造敌群源源不断的视觉感受。分别控制可见敌群规模与实际交战人数，在保持压迫感的同时保证战斗可读性。\n\n   例如：近处敌人负责当前交战，高处和远处展示后续敌群，再随玩家推进分批投入战斗。\n\n4. **命中部位差异化收益与弱点命中奖励**\n\n   根据攻击命中的部位，给予不同的伤害、硬直或其他收益，引导玩家追求精准操作。\n\n   本项目优先强化头部命中的收益：身体命中造成基础伤害，头部或特定弱点命中获得更高伤害倍率，并通过清晰的音效和命中反馈传达奖励。具体倍率通过试玩确定。\n\n5. **随机掉落硬保底机制**\n\n   对普通随机补给记录连续未掉落次数，达到指定阈值后，下一次有效掉落判定必定产出目标物品；成功掉落后重置计数，降低连续运气不佳带来的挫败感。\n\n   例如：连续 4 次有效判定未掉落回复道具，第 5 次必定掉落。四大宗师的首杀补给和 Boss 战所需关键物品采用固定产出规则，不参与普通随机掉落保底。\n\n6. **场景空间分层与视觉纵深设计**\n\n   将场景组织为近景、中景、远景，通过高低差、遮挡关系、尺度、色彩和雾效建立空间纵深，同时引导玩家识别路线与最终目标。\n\n   **近景：**栈道、岩石、当前敌人和掩体，提供即时行动信息。\n\n   **中景：**寺庙、炼丹院、御风桥及后续敌群，呈现推进路线与挑战。\n\n   **远景：**云海、群山、巨型植物与山顶封印，强化仙侠氛围，并使山顶 Boss 战场成为持续可辨认的视觉目标。",
+  "confirmed_rules": {
+    "head_hit": "Body base damage; head or designated weak point higher damage multiplier with clear audio and hit feedback; exact multiplier to tune by playtest",
+    "ordinary_drop": "Ordinary random healing supplies use consecutive-failure count; after 4 eligible misses the 5th roll guarantees item; success resets count",
+    "excluded_from_ordinary_drop": "Four masters first-defeat supplies and Boss-required key items use fixed output and do not participate in ordinary random pity"
+  }
+}

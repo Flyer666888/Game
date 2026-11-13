@@ -1,0 +1,131 @@
+{
+  "state": "passed",
+  "scope": "Original six supplemental GDD requirements: finish the remaining playable prototype items 3 through 6 in order.",
+  "started_utc": "2026-11-05T13:28:09+00:00",
+  "completed_utc": "2026-11-05T15:05:00.494773+00:00",
+  "deadline_utc": "2026-11-05T15:28:09+00:00",
+  "elapsed_minutes": 96.86,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+  "ordered_features": [
+    {
+      "number": 3,
+      "name": "Visible staging and native reinforcement entry",
+      "state": "passed"
+    },
+    {
+      "number": 4,
+      "name": "Head weak point damage and HUD/audio feedback",
+      "state": "passed",
+      "multiplier": 1.5
+    },
+    {
+      "number": 5,
+      "name": "Ordinary healing drops with fifth-roll hard pity",
+      "state": "passed",
+      "base_probability": 0.2,
+      "small_health": 10,
+      "large_health": 20,
+      "small_weight": 0.8
+    },
+    {
+      "number": 6,
+      "name": "Foreground, midground, distant scene depth",
+      "state": "passed",
+      "material_count": 16,
+      "material_overrides": 483,
+      "decorative_instances": 54,
+      "instance_groups": 11
+    }
+  ],
+  "native_regression": {
+    "passed": 107,
+    "failed": 0,
+    "clean": 77,
+    "passed_with_warnings": 30,
+    "report": "Phase3Automation/index.json"
+  },
+  "saved_map_runtime": {
+    "QueueRuntime": {
+      "passed": 9,
+      "failed": 0,
+      "report": "QueueRuntime.json",
+      "map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+      "fixture_isolation": "restored_without_saving_map"
+    },
+    "WeakPointRuntime": {
+      "passed": 4,
+      "failed": 0,
+      "report": "WeakPointRuntime.json",
+      "map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+      "fixture_isolation": "restored_without_saving_map"
+    },
+    "LootRuntime": {
+      "passed": 9,
+      "failed": 0,
+      "report": "LootRuntime.json",
+      "map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+      "fixture_isolation": "restored_without_saving_map"
+    },
+    "FullRulesRuntime": {
+      "passed": 12,
+      "failed": 0,
+      "report": "FullRulesRuntime.json",
+      "map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+      "fixture_isolation": "restored_without_saving_map"
+    }
+  },
+  "complete_route_rules": {
+    "stages": 16,
+    "owned_defeats": 129,
+    "ordinary_rolls": 124,
+    "seals": [
+      "AlchemySeal",
+      "SwordSeal",
+      "TalismanSeal",
+      "WindSeal"
+    ],
+    "ritual_effective_seconds": 239.99999999999176,
+    "ritual_elapsed_game_seconds": 248.49969539791346
+  },
+  "environment_postflight": {
+    "passed": 8,
+    "spawn_point_references": 67,
+    "report": "ArtPostflight.json"
+  },
+  "source_and_asset_integrity": {
+    "changed_existing_sources": 16,
+    "new_sources": 9,
+    "protected_prior_files": 19,
+    "report": "ChangeReceipt.json"
+  },
+  "tested_module": {
+    "path": "D:\\game design\\experiment\\Binaries\\Win64\\UnrealEditor-experiment.dll",
+    "sha256": "a6676fae2d4ec34c22afda66242146987cd725ee0b9fdd9f9e74251143bee0d2",
+    "sources_older_than_binary": true
+  },
+  "verification_editor": {
+    "state": "closed",
+    "pid": 97668
+  },
+  "entry_points": {
+    "desktop": "D:\\game design\\experiment\\Run_Gameplay_Demo.cmd",
+    "headset": "D:\\game design\\experiment\\Run_Gameplay_VR.cmd"
+  },
+  "handoff": [
+    "DesignAndVerification.txt",
+    "PlayGuide.txt",
+    "SceneComparison.png",
+    "GameplayEvidence.png"
+  ],
+  "verification_limits": [
+    "Rules probes use isolated Test.Level01 runs and explicit placement/damage fixtures; not a human continuous playthrough.",
+    "The first full-route probe stopped at a stair entry outside the arena trigger. Its report is retained; only fixture placement was corrected for the final run.",
+    "No physical PICO input, comfort or VR frame-rate acceptance was performed."
+  ],
+  "remaining_full_gdd_work": [
+    "Boss full flying-sword, reflected-formation, break, vulnerability-window and recovery cycle.",
+    "The four masters complete unique move sets.",
+    "Physical headset/controller, comfort and performance acceptance; further environment geometry polish."
+  ]
+}

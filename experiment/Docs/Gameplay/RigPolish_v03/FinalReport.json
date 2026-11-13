@@ -1,0 +1,122 @@
+{
+  "state": "passed",
+  "date": "2026-10-24",
+  "project": "D:\\game design\\experiment",
+  "scope": "Compact sword animation on sword, GM01, GM04 and boss only.",
+  "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Compact_v03",
+  "before": {
+    "peak_hand_speed_cm_s": {
+      "l": 584.531114262001,
+      "r": 946.3822617245416
+    },
+    "peak_sword_tip_speed_cm_s": 2309.2300225100244,
+    "sword_tip_path_cm": 1085.1152828192223,
+    "max_chest_rotation_from_idle_deg": 42.55949836810475,
+    "max_head_rotation_from_idle_deg": 98.55570133917952
+  },
+  "after": {
+    "peak_hand_speed_cm_s": {
+      "l": 69.75328007739495,
+      "r": 324.35591671292315
+    },
+    "peak_sword_tip_speed_cm_s": 821.7148810653,
+    "sword_tip_path_cm": 547.7514295299883,
+    "max_chest_rotation_from_idle_deg": 16.741342311265587,
+    "max_head_rotation_from_idle_deg": 15.963459400005618
+  },
+  "metadata_preserved": {
+    "duration": 2.3333332538604736,
+    "frame_rate": [
+      30,
+      1
+    ],
+    "frames": 70,
+    "keys": 71,
+    "tracks": [
+      "ball_l",
+      "ball_r",
+      "calf_l",
+      "calf_r",
+      "clavicle_l",
+      "clavicle_r",
+      "foot_l",
+      "foot_r",
+      "hand_l",
+      "hand_r",
+      "head",
+      "lowerarm_l",
+      "lowerarm_r",
+      "neck_01",
+      "pelvis",
+      "root",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "thigh_l",
+      "thigh_r",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "root_motion": false,
+    "rate_scale": 1.0,
+    "notifies": [
+      {
+        "track": "NLAttackDamage",
+        "name": "NL Enemy Sword Attack Window",
+        "start": 0.800000011920929,
+        "duration": 0.23000000417232513,
+        "state_class": "/Script/experiment.NLEnemyAttackWindowNotifyState",
+        "notify_class": null
+      }
+    ],
+    "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton"
+  },
+  "maximum_lower_body_error_cm": 0.0,
+  "actual_attack_validation": {
+    "cycles": 2,
+    "target_distance_cm": 125.0,
+    "initial_health": 100.0,
+    "final_health": 80.0,
+    "checks": {
+      "two_actual_ai_swings_completed": true,
+      "real_blade_damage_each_swing": true,
+      "one_damage_event_per_swing": true,
+      "damage_only_inside_brain_and_notify_window": true,
+      "original_attack_timers_range_and_definition_preserved": true,
+      "full_recovery_without_clip_restart": true
+    }
+  },
+  "runtime_clips": [
+    "Wuxia_Attack_Sword_Compact_v03",
+    "Wuxia_Death_Restrained_v02",
+    "Wuxia_Hit_Sword_Upright_v01",
+    "Wuxia_Idle_Planted_Upright_v01",
+    "Wuxia_Walk_Sword_Upright_v01"
+  ],
+  "desktop_launch": {
+    "launched_at": "2026-10-24T15:57:31.1040318+08:00",
+    "state": "running_verified",
+    "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+    "mode": "Desktop, -nohmd",
+    "pid": 45580,
+    "log": "D:\\game design\\experiment\\Saved\\GameplayRuntime\\Logs\\Gameplay_20261024_155731_002.log",
+    "window_title": "experiment （64-位 Development PCD3D_SM6） ",
+    "responsive": true,
+    "level_loaded": true,
+    "fatal_in_log": false
+  },
+  "integrity": "Original attack, shoulder mesh, restrained death, Gameplay/V01 map, V10 source map and DefaultEngine.ini hashes unchanged.",
+  "limits": [
+    "Desktop validation only; no VR headset acceptance or complete level playthrough.",
+    "Dedicated hit test uses a stationary unguarded player at normal melee distance with other enemies isolated in PIE. No synthetic resolver damage was used in that hit test.",
+    "All four sword archetype defaults were checked; the actual two-cycle hit test used the standard sword disciple."
+  ],
+  "evidence": [
+    "AttackAssignments.json",
+    "CompactAttackValidation.json",
+    "AttackComparison.json",
+    "AfterMotion.json",
+    "AssetAudit.json",
+    "BeforeIntegrity.json"
+  ]
+}

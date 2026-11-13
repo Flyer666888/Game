@@ -1,0 +1,87 @@
+{
+  "state": "passed",
+  "revision": "V02",
+  "runtime_asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/SM_PlayerSword_A_DetailV01.SM_PlayerSword_A_DetailV01",
+  "runtime_asset_sha256": "14f77b76ecf7bbdfaab4ef92a2699293cea7940f7f20cd90ef0aa6554af45ed3",
+  "source_fbx_sha256": "693e225e1bb5f34635bfc7f4654bf1d5148c2c21d893cee9560e305752d818e9",
+  "source_triangles": 13580,
+  "ue_render_triangles": 13564,
+  "triangle_counts_note": "Source and UE render counts are recorded separately; they differ by 16 triangles.",
+  "uv_channels": 2,
+  "material_slots": [
+    "BladeSteel",
+    "BladeEdge",
+    "BladeFuller",
+    "Guard03",
+    "Grip04",
+    "Pommel03",
+    "GoldDetail"
+  ],
+  "final_import_warning_check": "No FBX warning or near-zero tangent/binormal message in the final reimport excerpt.",
+  "saved_build_settings": "<Struct 'MeshBuildSettings' (0x0000029E8BAAAFF0) {use_mikk_t_space: True, recompute_normals: False, recompute_tangents: True, compute_weighted_normals: True, remove_degenerates: True, build_reversed_index_buffer: True, use_high_precision_tangent_basis: True, use_full_precision_u_vs: True, use_backwards_compatible_f16_trunc_u_vs: False, generate_lightmap_u_vs: False, generate_distance_field_as_if_two_sided: False, support_face_remap: False, min_lightmap_resolution: 64, src_lightmap_index: 0, dst_lightmap_index: 1, build_scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}, distance_field_resolution_scale: 1.000000, distance_field_replacement_mesh: None, max_lumen_mesh_cards: 12}>",
+  "synthetic_equipped_grip_poses_passed": 7,
+  "map_unchanged": true,
+  "checkpoint_settings_restored": true,
+  "protected_files": [
+    {
+      "path": "D:\\game design\\experiment\\Source\\experiment\\Public\\Player\\NLVRPlayerCharacter.h",
+      "before": "469aa3281a63f4c1ea72ab4004d6b4a7ea54af3fea4b365165b66bcf70c62cd4",
+      "after": "469aa3281a63f4c1ea72ab4004d6b4a7ea54af3fea4b365165b66bcf70c62cd4"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Source\\experiment\\Private\\Player\\NLVRPlayerCharacter.cpp",
+      "before": "b90b340f93bc2a2171262b1d8b929b49080459df1266bee1d9a676bed9e0e957",
+      "after": "b90b340f93bc2a2171262b1d8b929b49080459df1266bee1d9a676bed9e0e957"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Source\\experiment\\Private\\Player\\NLDesktopPlayerCharacter.cpp",
+      "before": "4c0bd88e5ea6a5930b1886a8aaa8ef89bd4389a3b020e61923cbcbefef956024",
+      "after": "4c0bd88e5ea6a5930b1886a8aaa8ef89bd4389a3b020e61923cbcbefef956024"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Binaries\\Win64\\UnrealEditor-experiment.dll",
+      "before": "32748e78feb109cffaaf9fd16c741addb9fb4c18586cec125923917af05b861d",
+      "after": "32748e78feb109cffaaf9fd16c741addb9fb4c18586cec125923917af05b861d"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Weapons\\SelectedSwordA\\SM_PlayerSword_A.uasset",
+      "before": "208be946ff824a5003015c49cb294e1299db5ab01f4f7ee171dfbfe4a37de815",
+      "after": "208be946ff824a5003015c49cb294e1299db5ab01f4f7ee171dfbfe4a37de815"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Player\\Hands\\SK_PlayerHand_Realistic_R.uasset",
+      "before": "35ed1ac9c1c1f990f428237bbfaaacd0f5c22700b751e02108ddef1095468f4a",
+      "after": "35ed1ac9c1c1f990f428237bbfaaacd0f5c22700b751e02108ddef1095468f4a"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Player\\Animations\\A_Yueyao_Grip_Right.uasset",
+      "before": "67ae614443ee319e89778d3b4aa26fcac4234f1b7a4da72e0e4b96103cfe02ef",
+      "after": "67ae614443ee319e89778d3b4aa26fcac4234f1b7a4da72e0e4b96103cfe02ef"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Maps\\L_CombatLabVR.umap",
+      "before": "f0a8e48559e04127fbeb447b28f04e5be95fec07fb5d27dfe314f421ff331e31",
+      "after": "f0a8e48559e04127fbeb447b28f04e5be95fec07fb5d27dfe314f421ff331e31"
+    },
+    {
+      "path": "D:\\game design\\experiment\\Content\\ReversedScale\\Maps\\L_NilinGameplayV01.umap",
+      "before": "bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81",
+      "after": "bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81"
+    }
+  ],
+  "visual_review": "Final UE Forte_Closeup and Blade_Oblique screenshots visually inspected after tangent rebuild.",
+  "review_editor_closed": true,
+  "launcher_preflight": "Run_VR_Demo.ps1 -CheckOnly: Passed; no application started.",
+  "physical_pico_acceptance": false,
+  "performance_benchmark_run": false,
+  "cpp_changed_or_rebuilt_this_revision": false,
+  "evidence": [
+    "ImportReport.json",
+    "FinalImportExcerpt.log",
+    "ReimportSettingsRepair.json",
+    "AssetReadbackReport.json",
+    "AssetUVRepairReport.json",
+    "RuntimeGripReport.json"
+  ],
+  "backup": "Backups/Content/ReversedScale/Weapons/SelectedSwordA_DetailV01"
+}

@@ -1,0 +1,787 @@
+{
+  "state": "passed",
+  "meshes": [
+    {
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Native_v07.PHYS_SK_WuxiaMale_Native_v07",
+      "state": "passed",
+      "body_count": 26,
+      "constraint_count": 25,
+      "capsule_count": 26,
+      "bone_names_match": true,
+      "constraints_valid": true,
+      "shapes_valid": true,
+      "preview_mesh_matches": true,
+      "mesh_height_cm": 180,
+      "min_world_capsule_radius_cm": 50.499999523162124,
+      "max_world_capsule_radius_cm": 50.50001975059091,
+      "body_bones": [
+        "Hips",
+        "Spine",
+        "Spine1",
+        "Spine2",
+        "Neck",
+        "Head",
+        "LeftShoulder",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "LeftHandThumb1",
+        "LeftHandIndex2",
+        "RightShoulder",
+        "RightArm",
+        "RightForeArm",
+        "RightHandThumb1",
+        "RightHandIndex1",
+        "RightHandIndex2",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase"
+      ],
+      "constraint_bones": [
+        [
+          "Spine",
+          "Hips"
+        ],
+        [
+          "Spine1",
+          "Spine"
+        ],
+        [
+          "Spine2",
+          "Spine1"
+        ],
+        [
+          "Neck",
+          "Spine2"
+        ],
+        [
+          "Head",
+          "Neck"
+        ],
+        [
+          "LeftShoulder",
+          "Spine2"
+        ],
+        [
+          "LeftArm",
+          "LeftShoulder"
+        ],
+        [
+          "LeftForeArm",
+          "LeftArm"
+        ],
+        [
+          "LeftHand",
+          "LeftForeArm"
+        ],
+        [
+          "LeftHandThumb1",
+          "LeftHand"
+        ],
+        [
+          "LeftHandIndex2",
+          "LeftHand"
+        ],
+        [
+          "RightShoulder",
+          "Spine2"
+        ],
+        [
+          "RightArm",
+          "RightShoulder"
+        ],
+        [
+          "RightForeArm",
+          "RightArm"
+        ],
+        [
+          "RightHandThumb1",
+          "RightForeArm"
+        ],
+        [
+          "RightHandIndex1",
+          "RightForeArm"
+        ],
+        [
+          "RightHandIndex2",
+          "RightHandIndex1"
+        ],
+        [
+          "LeftUpLeg",
+          "Hips"
+        ],
+        [
+          "LeftLeg",
+          "LeftUpLeg"
+        ],
+        [
+          "LeftFoot",
+          "LeftLeg"
+        ],
+        [
+          "LeftToeBase",
+          "LeftFoot"
+        ],
+        [
+          "RightUpLeg",
+          "Hips"
+        ],
+        [
+          "RightLeg",
+          "RightUpLeg"
+        ],
+        [
+          "RightFoot",
+          "RightLeg"
+        ],
+        [
+          "RightToeBase",
+          "RightFoot"
+        ]
+      ],
+      "capsules": [
+        {
+          "bone": "Hips",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 50.49999952316284,
+          "world_total_length_cm": 151.49999856948853
+        },
+        {
+          "bone": "Spine",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00000429153351,
+          "world_radius_cm": 50.50000169038724,
+          "world_total_length_cm": 151.50000507116175
+        },
+        {
+          "bone": "Spine1",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 50.49999952316284,
+          "world_total_length_cm": 151.49999856948853
+        },
+        {
+          "bone": "Spine2",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 50.49999952316284,
+          "world_total_length_cm": 151.49999856948853
+        },
+        {
+          "bone": "Neck",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 50.49999952316284,
+          "world_total_length_cm": 151.49999856948853
+        },
+        {
+          "bone": "Head",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 50.49999952316284,
+          "world_total_length_cm": 151.49999856948853
+        },
+        {
+          "bone": "LeftShoulder",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 50.49999952316284,
+          "world_total_length_cm": 151.49999856948853
+        },
+        {
+          "bone": "LeftArm",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00001192092896,
+          "world_radius_cm": 50.50000554323191,
+          "world_total_length_cm": 151.50001662969572
+        },
+        {
+          "bone": "LeftForeArm",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00003576278971,
+          "world_radius_cm": 50.50001758337147,
+          "world_total_length_cm": 151.5000527501144
+        },
+        {
+          "bone": "LeftHand",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00001192092327,
+          "world_radius_cm": 50.50000554322904,
+          "world_total_length_cm": 151.5000166296871
+        },
+        {
+          "bone": "LeftHandThumb1",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00002384185365,
+          "world_radius_cm": 50.50001156329882,
+          "world_total_length_cm": 151.50003468989647
+        },
+        {
+          "bone": "LeftHandIndex2",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00001788138775,
+          "world_radius_cm": 50.50000855326357,
+          "world_total_length_cm": 151.5000256597907
+        },
+        {
+          "bone": "RightShoulder",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 50.49999952316284,
+          "world_total_length_cm": 151.49999856948853
+        },
+        {
+          "bone": "RightArm",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00001192092896,
+          "world_radius_cm": 50.50000554323191,
+          "world_total_length_cm": 151.50001662969572
+        },
+        {
+          "bone": "RightForeArm",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 99.99999999999858,
+          "world_radius_cm": 50.499999523162124,
+          "world_total_length_cm": 151.49999856948637
+        },
+        {
+          "bone": "RightHandThumb1",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.0000042915296,
+          "world_radius_cm": 50.500001690385275,
+          "world_total_length_cm": 151.5000050711558
+        },
+        {
+          "bone": "RightHandIndex1",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.0000102519947,
+          "world_radius_cm": 50.500004700420114,
+          "world_total_length_cm": 151.50001410126035
+        },
+        {
+          "bone": "RightHandIndex2",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.0000042915296,
+          "world_radius_cm": 50.500001690385275,
+          "world_total_length_cm": 151.5000050711558
+        },
+        {
+          "bone": "LeftUpLeg",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 50.49999952316284,
+          "world_total_length_cm": 151.49999856948853
+        },
+        {
+          "bone": "LeftLeg",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00001192092896,
+          "world_radius_cm": 50.50000554323191,
+          "world_total_length_cm": 151.50001662969572
+        },
+        {
+          "bone": "LeftFoot",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00002384185933,
+          "world_radius_cm": 50.50001156330169,
+          "world_total_length_cm": 151.50003468990508
+        },
+        {
+          "bone": "LeftToeBase",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00002384185933,
+          "world_radius_cm": 50.50001156330169,
+          "world_total_length_cm": 151.50003468990508
+        },
+        {
+          "bone": "RightUpLeg",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.0000281333896,
+          "world_radius_cm": 50.50001373052446,
+          "world_total_length_cm": 151.5000411915734
+        },
+        {
+          "bone": "RightLeg",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00000429152499,
+          "world_radius_cm": 50.50000169038294,
+          "world_total_length_cm": 151.50000507114882
+        },
+        {
+          "bone": "RightFoot",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00001192092896,
+          "world_radius_cm": 50.50000554323191,
+          "world_total_length_cm": 151.50001662969572
+        },
+        {
+          "bone": "RightToeBase",
+          "local_radius": 0.5049999952316284,
+          "local_length": 0.5049999952316284,
+          "bind_and_component_scale": 100.00004005431339,
+          "world_radius_cm": 50.50001975059091,
+          "world_total_length_cm": 151.50005925177274
+        }
+      ],
+      "mesh_component_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Shoulder_v02.PHYS_SK_WuxiaMale_Shoulder_v02",
+      "state": "passed",
+      "body_count": 20,
+      "constraint_count": 19,
+      "capsule_count": 20,
+      "bone_names_match": true,
+      "constraints_valid": true,
+      "shapes_valid": true,
+      "preview_mesh_matches": true,
+      "mesh_height_cm": 179.99329685233533,
+      "min_world_capsule_radius_cm": 4.707139492034912,
+      "max_world_capsule_radius_cm": 23.471467996882666,
+      "body_bones": [
+        "pelvis",
+        "spine_01",
+        "spine_02",
+        "spine_03",
+        "neck_01",
+        "head",
+        "clavicle_l",
+        "upperarm_l",
+        "lowerarm_l",
+        "hand_l",
+        "clavicle_r",
+        "upperarm_r",
+        "lowerarm_r",
+        "hand_r",
+        "thigh_l",
+        "calf_l",
+        "foot_l",
+        "thigh_r",
+        "calf_r",
+        "foot_r"
+      ],
+      "constraint_bones": [
+        [
+          "spine_01",
+          "pelvis"
+        ],
+        [
+          "spine_02",
+          "spine_01"
+        ],
+        [
+          "spine_03",
+          "spine_02"
+        ],
+        [
+          "neck_01",
+          "spine_03"
+        ],
+        [
+          "head",
+          "neck_01"
+        ],
+        [
+          "clavicle_l",
+          "spine_03"
+        ],
+        [
+          "upperarm_l",
+          "clavicle_l"
+        ],
+        [
+          "lowerarm_l",
+          "upperarm_l"
+        ],
+        [
+          "hand_l",
+          "lowerarm_l"
+        ],
+        [
+          "clavicle_r",
+          "spine_03"
+        ],
+        [
+          "upperarm_r",
+          "clavicle_r"
+        ],
+        [
+          "lowerarm_r",
+          "upperarm_r"
+        ],
+        [
+          "hand_r",
+          "lowerarm_r"
+        ],
+        [
+          "thigh_l",
+          "pelvis"
+        ],
+        [
+          "calf_l",
+          "thigh_l"
+        ],
+        [
+          "foot_l",
+          "calf_l"
+        ],
+        [
+          "thigh_r",
+          "pelvis"
+        ],
+        [
+          "calf_r",
+          "thigh_r"
+        ],
+        [
+          "foot_r",
+          "calf_r"
+        ]
+      ],
+      "capsules": [
+        {
+          "bone": "pelvis",
+          "local_radius": 21.65890121459961,
+          "local_length": 24.770750045776367,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 21.65890121459961,
+          "world_total_length_cm": 68.08855247497559
+        },
+        {
+          "bone": "spine_01",
+          "local_radius": 15.689290046691895,
+          "local_length": 15.690070152282715,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 15.689290046691895,
+          "world_total_length_cm": 47.068650245666504
+        },
+        {
+          "bone": "spine_02",
+          "local_radius": 17.095844268798828,
+          "local_length": 18.53313446044922,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 17.095844268798828,
+          "world_total_length_cm": 52.724822998046875
+        },
+        {
+          "bone": "spine_03",
+          "local_radius": 14.750771522521973,
+          "local_length": 18.587112426757812,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 14.750771522521973,
+          "world_total_length_cm": 48.08865547180176
+        },
+        {
+          "bone": "neck_01",
+          "local_radius": 4.707139492034912,
+          "local_length": 9.737090110778809,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 4.707139492034912,
+          "world_total_length_cm": 19.151369094848633
+        },
+        {
+          "bone": "head",
+          "local_radius": 13.206780433654785,
+          "local_length": 28.15070152282715,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 13.206780433654785,
+          "world_total_length_cm": 54.56426239013672
+        },
+        {
+          "bone": "clavicle_l",
+          "local_radius": 8.634597778320312,
+          "local_length": 12.74913501739502,
+          "bind_and_component_scale": 1.0000001192092896,
+          "world_radius_cm": 8.63459880764458,
+          "world_total_length_cm": 30.018334152499506
+        },
+        {
+          "bone": "upperarm_l",
+          "local_radius": 15.464065551757812,
+          "local_length": 16.793533325195312,
+          "bind_and_component_scale": 1.0000001788139343,
+          "world_radius_cm": 15.464068316948214,
+          "world_total_length_cm": 47.72167296200951
+        },
+        {
+          "bone": "lowerarm_l",
+          "local_radius": 8.712584495544434,
+          "local_length": 18.415874481201172,
+          "bind_and_component_scale": 1.000000298023231,
+          "world_radius_cm": 8.712587092097015,
+          "world_total_length_cm": 35.84105415375362
+        },
+        {
+          "bone": "hand_l",
+          "local_radius": 6.497509479522705,
+          "local_length": 8.044692993164062,
+          "bind_and_component_scale": 1.0000002384185684,
+          "world_radius_cm": 6.497511028649614,
+          "world_total_length_cm": 21.039716968467477
+        },
+        {
+          "bone": "clavicle_r",
+          "local_radius": 10.143741607666016,
+          "local_length": 13.149243354797363,
+          "bind_and_component_scale": 1.0000001192092896,
+          "world_radius_cm": 10.143742816894246,
+          "world_total_length_cm": 33.436730556097814
+        },
+        {
+          "bone": "upperarm_r",
+          "local_radius": 14.037510871887207,
+          "local_length": 17.09600830078125,
+          "bind_and_component_scale": 1.0000001788139343,
+          "world_radius_cm": 14.037513381989754,
+          "world_total_length_cm": 45.171038121765264
+        },
+        {
+          "bone": "lowerarm_r",
+          "local_radius": 8.76801586151123,
+          "local_length": 17.409961700439453,
+          "bind_and_component_scale": 1.000000298023231,
+          "world_radius_cm": 8.768018474583647,
+          "world_total_length_cm": 34.946003838179784
+        },
+        {
+          "bone": "hand_r",
+          "local_radius": 6.753546237945557,
+          "local_length": 8.268207550048828,
+          "bind_and_component_scale": 1.0000002384185684,
+          "world_radius_cm": 6.753547848116383,
+          "world_total_length_cm": 21.775305217575802
+        },
+        {
+          "bone": "thigh_l",
+          "local_radius": 22.850017547607422,
+          "local_length": 41.449485778808594,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 22.850140124653535,
+          "world_total_length_cm": 87.1499883804845
+        },
+        {
+          "bone": "calf_l",
+          "local_radius": 21.90843391418457,
+          "local_length": 22.406679153442383,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 21.908551440182464,
+          "world_total_length_cm": 66.22390223260095
+        },
+        {
+          "bone": "foot_l",
+          "local_radius": 8.05015754699707,
+          "local_length": 13.795035362243652,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 8.050200731407358,
+          "world_total_length_cm": 29.895510827394787
+        },
+        {
+          "bone": "thigh_r",
+          "local_radius": 19.39910888671875,
+          "local_length": 42.063228607177734,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 19.399212951648224,
+          "world_total_length_cm": 80.86188015521611
+        },
+        {
+          "bone": "calf_r",
+          "local_radius": 23.471342086791992,
+          "local_length": 24.774127960205078,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 23.471467996882666,
+          "world_total_length_cm": 71.71719685274911
+        },
+        {
+          "bone": "foot_r",
+          "local_radius": 8.448430061340332,
+          "local_length": 13.854399681091309,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 8.448475382250876,
+          "world_total_length_cm": 30.751424766384503
+        }
+      ],
+      "mesh_component_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_boss.BP_Level_boss",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Native_v07.PHYS_SK_WuxiaMale_Native_v07",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_boss.uasset",
+        "sha256": "a691fbc42323825a8b2297433b9d29ab230bae6a834e80bfe3336ec744fc884d"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Walk_GripB.A_Wuxia_Walk_GripB",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Cast_GripB.A_Wuxia_Cast_GripB",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Hit_GripB.A_Wuxia_Hit_GripB",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Death_GripB.A_Wuxia_Death_GripB"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM01.BP_Level_GM01",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Native_v07.PHYS_SK_WuxiaMale_Native_v07",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM01.uasset",
+        "sha256": "e272415aed332dedb9215cc68eaebd51f41964a4b252596956f570082c5f385c"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Walk_GripB.A_Wuxia_Walk_GripB",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Cast_GripB.A_Wuxia_Cast_GripB",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Hit_GripB.A_Wuxia_Hit_GripB",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Death_GripB.A_Wuxia_Death_GripB"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM02.BP_Level_GM02",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Shoulder_v02.PHYS_SK_WuxiaMale_Shoulder_v02",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM02.uasset",
+        "sha256": "e6bd5d1e188334aade70526ba312e2ff6be69d529ba9140404474a3272fa4f11"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM03.BP_Level_GM03",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Shoulder_v02.PHYS_SK_WuxiaMale_Shoulder_v02",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM03.uasset",
+        "sha256": "da32637754f872cb510196b87af63df90fd647102786e91f14e182eacd30055e"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM04.BP_Level_GM04",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Native_v07.PHYS_SK_WuxiaMale_Native_v07",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM04.uasset",
+        "sha256": "ea1742b95a572d60985f3f6818c46f7c7b92b1b13e2d55476a86c8d425063c66"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Walk_GripB.A_Wuxia_Walk_GripB",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Cast_GripB.A_Wuxia_Cast_GripB",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Hit_GripB.A_Wuxia_Hit_GripB",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Death_GripB.A_Wuxia_Death_GripB"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_rock_talisman.BP_Level_rock_talisman",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Shoulder_v02.PHYS_SK_WuxiaMale_Shoulder_v02",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_rock_talisman.uasset",
+        "sha256": "acb7b5e8b2105382b90a01d6896fbd9beb777390fbeb2517f0b79a965f7fa860"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword.BP_Level_sword",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Native_v07.PHYS_SK_WuxiaMale_Native_v07",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_sword.uasset",
+        "sha256": "e83b3ea11efa7181291c436318186e08e6fd338b05043fa3b21722d46e34ea7c"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Walk_GripB.A_Wuxia_Walk_GripB",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Cast_GripB.A_Wuxia_Cast_GripB",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Hit_GripB.A_Wuxia_Hit_GripB",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Death_GripB.A_Wuxia_Death_GripB"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_talisman.BP_Level_talisman",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Shoulder_v02.PHYS_SK_WuxiaMale_Shoulder_v02",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_talisman.uasset",
+        "sha256": "4c2cb3d79b2532b2d365c7f1036ecdd51e48c84fb42040de27d34c1323d7126e"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    }
+  ],
+  "scope": "New physics packages and enemy ragdoll overrides only",
+  "protected_asset_count": 15
+}

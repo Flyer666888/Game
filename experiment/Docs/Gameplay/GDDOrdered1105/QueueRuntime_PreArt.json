@@ -1,0 +1,7675 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "pending_enemies_visible": true,
+    "alive_cap_holds_with_queue": true,
+    "slots_release_into_real_ai": true,
+    "queue_freezes_on_pause": true,
+    "cosmetic_only": true,
+    "native_ai_moves": true,
+    "all_six_real_defeats": true,
+    "queue_removed_after_clear": true,
+    "no_spawn_failures": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [
+    {
+      "game_time": 2.813731413334608,
+      "phase": "stage_active",
+      "origin": "queue_setup_skip_prior",
+      "source_id": "2fe83688402b3fff57a8d1a0581c3083",
+      "target_id": "ea46659249eb9ee0bf5f1b87058e2d69",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 3.4659918136894703,
+      "phase": "stage_active",
+      "origin": "queue_setup_skip_prior",
+      "source_id": "2fe83688402b3fff57a8d1a0581c3083",
+      "target_id": "b6df4b634ebdfc40a8cb1bb0f4cc0277",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 9.514845509082079,
+      "phase": "stage_active",
+      "origin": "queue_open_two_slots_fixture",
+      "source_id": "2fe83688402b3fff57a8d1a0581c3083",
+      "target_id": "4c5ba5184d20877c14f76190e6808539",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 9.514845509082079,
+      "phase": "stage_active",
+      "origin": "queue_open_two_slots_fixture",
+      "source_id": "2fe83688402b3fff57a8d1a0581c3083",
+      "target_id": "c1ca75c541d04299aac03499e03b0bb1",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 13.517372116446495,
+      "phase": "stage_active",
+      "origin": "queue_clear_fixture",
+      "source_id": "2fe83688402b3fff57a8d1a0581c3083",
+      "target_id": "41b481ae4568bc10f45bfd8c6ddc735b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 13.517372116446495,
+      "phase": "stage_active",
+      "origin": "queue_clear_fixture",
+      "source_id": "2fe83688402b3fff57a8d1a0581c3083",
+      "target_id": "86b2e77f4464db8ab85490846737ddd4",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 13.517372116446495,
+      "phase": "stage_active",
+      "origin": "queue_clear_fixture",
+      "source_id": "2fe83688402b3fff57a8d1a0581c3083",
+      "target_id": "6a2de9604b37f0b39e03bc9032bc0d9f",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 13.517372116446495,
+      "phase": "stage_active",
+      "origin": "queue_clear_fixture",
+      "source_id": "2fe83688402b3fff57a8d1a0581c3083",
+      "target_id": "4871acf4473797c9b5f0189ee80cd09c",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    }
+  ],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": "Saved map and native spawn/AI. Aoutside cleared with labelled 999-damage setup fixture; Ainside is observed live. Two further fixture defeats open slots. Fixed observer camera; no HMD/manual-play claim.",
+  "elapsed_seconds": 15.906999999999243,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.57e0490a304d49ac8f84fb35ede5eda2",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\7f3c6a5f540eb808cabb0f6381f1cd5fb20fc0a9.nlrun",
+    "test_run_ids": [
+      "099a3f1d476f5d8864819bb37d7c73a2",
+      "8e3ed71b4b6354f683e5cdb9c40eb0cd"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\7f3c6a5f540eb808cabb0f6381f1cd5fb20fc0a9.nlrun"
+    ],
+    "temporary_assets_removed": true
+  },
+  "frames": [
+    {
+      "t": 0.0,
+      "alive": 0,
+      "spawned": 2,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": []
+    },
+    {
+      "t": 2.1251582987606525,
+      "alive": 1,
+      "spawned": 1,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          -1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0
+      ]
+    },
+    {
+      "t": 2.525158304721117,
+      "alive": 1,
+      "spawned": 1,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          -1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0
+      ]
+    },
+    {
+      "t": 2.6848977990448475,
+      "alive": 1,
+      "spawned": 1,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          -1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0
+      ]
+    },
+    {
+      "t": 2.711829900741577,
+      "alive": 1,
+      "spawned": 1,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          -1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        40.39815254509433
+      ]
+    },
+    {
+      "t": 2.728496801108122,
+      "alive": 1,
+      "spawned": 1,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          -1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        65.39850295953735
+      ]
+    },
+    {
+      "t": 2.745847899466753,
+      "alive": 1,
+      "spawned": 1,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          -1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        91.42515057434039
+      ]
+    },
+    {
+      "t": 2.7625158987939358,
+      "alive": 1,
+      "spawned": 1,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          -1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        116.42715042620436
+      ]
+    },
+    {
+      "t": 2.7791826985776424,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        141.42734903689745,
+        0.0
+      ]
+    },
+    {
+      "t": 2.7993674986064434,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        171.70454881535144,
+        0.0
+      ]
+    },
+    {
+      "t": 2.816184401512146,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        196.9299019832804,
+        0.0
+      ]
+    },
+    {
+      "t": 2.832853801548481,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        221.9340019094791,
+        0.0
+      ]
+    },
+    {
+      "t": 2.850017700344324,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        247.67985108267823,
+        0.0
+      ]
+    },
+    {
+      "t": 2.8666845001280308,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        272.680051281949,
+        0.0
+      ]
+    },
+    {
+      "t": 2.8891931995749474,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        306.44309921756496,
+        0.0
+      ]
+    },
+    {
+      "t": 2.905860099941492,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999224719494,
+        0.0
+      ]
+    },
+    {
+      "t": 2.922528501600027,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999994267165,
+        0.0
+      ]
+    },
+    {
+      "t": 2.9391953013837337,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999744,
+        0.0
+      ]
+    },
+    {
+      "t": 2.966587398201227,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999905699386,
+        0.0
+      ]
+    },
+    {
+      "t": 2.983254101127386,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999987,
+        0.0
+      ]
+    },
+    {
+      "t": 3.012553598731756,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999966,
+        0.0
+      ]
+    },
+    {
+      "t": 3.029220398515463,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999880705445,
+        0.0
+      ]
+    },
+    {
+      "t": 3.0581840984523296,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000004,
+        0.0
+      ]
+    },
+    {
+      "t": 3.0748508013784885,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999964327592,
+        0.0
+      ]
+    },
+    {
+      "t": 3.091517698019743,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999992,
+        0.0
+      ]
+    },
+    {
+      "t": 3.1197744980454445,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999735579166,
+        0.0
+      ]
+    },
+    {
+      "t": 3.1364412009716034,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999987,
+        0.0
+      ]
+    },
+    {
+      "t": 3.1656015999615192,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999946947815,
+        43.740598484875974
+      ]
+    },
+    {
+      "t": 3.182268500328064,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.999999999998,
+        68.74094909512216
+      ]
+    },
+    {
+      "t": 3.211948901414871,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999992,
+        113.26154946008236
+      ]
+    },
+    {
+      "t": 3.2286157980561256,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999639380053,
+        138.26189377404225
+      ]
+    },
+    {
+      "t": 3.2452826015651226,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99998910108707,
+        163.26209999027589
+      ]
+    },
+    {
+      "t": 3.274041999131441,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99998367666245,
+        206.40119770029358
+      ]
+    },
+    {
+      "t": 3.290708798915148,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999744,
+        231.40139806545886
+      ]
+    },
+    {
+      "t": 3.3196779005229473,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999994,
+        274.85504878198424
+      ]
+    },
+    {
+      "t": 3.336344700306654,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999744,
+        299.8552465710219
+      ]
+    },
+    {
+      "t": 3.365802500396967,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999996,
+        310.0
+      ]
+    },
+    {
+      "t": 3.3891444988548756,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99998553696673,
+        309.9999975162692
+      ]
+    },
+    {
+      "t": 3.412008799612522,
+      "alive": 2,
+      "spawned": 2,
+      "defeated": 0,
+      "queue": 4,
+      "paused": false,
+      "queue_positions": [
+        [
+          800.0,
+          1000.0,
+          0.0
+        ],
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.00000000000176,
+        310.0
+      ]
+    },
+    {
+      "t": 3.4295196011662483,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999495506205,
+        309.9999894189083,
+        0.0
+      ]
+    },
+    {
+      "t": 3.4588123001158237,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999917942664,
+        309.999999638468,
+        0.0
+      ]
+    },
+    {
+      "t": 3.4754790998995304,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999411041654,
+        309.9999964614682,
+        0.0
+      ]
+    },
+    {
+      "t": 3.5051954984664917,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999966,
+        309.99999011605905,
+        0.0
+      ]
+    },
+    {
+      "t": 3.5218622982501984,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999973575907,
+        309.9999989888701,
+        0.0
+      ]
+    },
+    {
+      "t": 3.538529198616743,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999885176595,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 3.567332301288843,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000004,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 3.583999201655388,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999702978266,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 3.61260100081563,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999993,
+        309.99998987809585,
+        0.0
+      ]
+    },
+    {
+      "t": 3.6292678005993366,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999744,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 3.6592083983123302,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99998946085236,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 3.676121700555086,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999298997193,
+        309.9999987202289,
+        0.0
+      ]
+    },
+    {
+      "t": 3.7052942998707294,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99998801244953,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 3.721961200237274,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999869964205,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 3.738629598170519,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999835945662,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 3.7682561986148357,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999901137037,
+        309.9999993145881,
+        0.0
+      ]
+    },
+    {
+      "t": 3.7849229983985424,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999744,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 3.8143793009221554,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999938163014,
+        309.99998500968144,
+        44.18445378541882
+      ]
+    },
+    {
+      "t": 3.831046100705862,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999821769874,
+        309.99999964265874,
+        69.18465375224481
+      ]
+    },
+    {
+      "t": 3.8477129004895687,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.999993572184,
+        309.99998480067234,
+        94.18485323011748
+      ]
+    },
+    {
+      "t": 3.8684835992753506,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999357218235,
+        309.99998480066984,
+        125.34090163389669
+      ]
+    },
+    {
+      "t": 3.891574401408434,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999996,
+        310.0,
+        159.97710618842143
+      ]
+    },
+    {
+      "t": 3.9082411006093025,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0,
+        310.0,
+        184.97715378019626
+      ]
+    },
+    {
+      "t": 3.937822699546814,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999995,
+        309.99999598512693,
+        229.34955155199216
+      ]
+    },
+    {
+      "t": 3.9544906988739967,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000002,
+        310.0,
+        254.3515499499987
+      ]
+    },
+    {
+      "t": 3.9711575992405415,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999651074705,
+        310.0,
+        279.35190009383246
+      ]
+    },
+    {
+      "t": 3.9998535998165607,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.00000000000097,
+        309.9999960058522,
+        309.9999988185589
+      ]
+    },
+    {
+      "t": 4.016520399600267,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.00000000000045,
+        310.0,
+        309.99999977402155
+      ]
+    },
+    {
+      "t": 4.033187098801136,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999825024224,
+        309.999994463259,
+        309.99998525148914
+      ]
+    },
+    {
+      "t": 4.062149900943041,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000015,
+        310.0,
+        309.99998311531
+      ]
+    },
+    {
+      "t": 4.0788166001439095,
+      "alive": 3,
+      "spawned": 3,
+      "defeated": 0,
+      "queue": 3,
+      "paused": false,
+      "queue_positions": [
+        [
+          1200.0,
+          1500.0,
+          0.0
+        ],
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99998950320776,
+        309.99999511244596,
+        309.99998617693814
+      ]
+    },
+    {
+      "t": 4.107837200164795,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999914363597,
+        309.9999842739223,
+        310.00000000000034,
+        0.0
+      ]
+    },
+    {
+      "t": 4.140800401568413,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.430052295327187,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.446833197027445,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.46350009739399,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.521822694689035,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.5385265946388245,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.555193495005369,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.571861997246742,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.588528897613287,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.615587897598743,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.632254596799612,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.661876294761896,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.678542997688055,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.70808419585228,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.724750895053148,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.7542439959943295,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.784188594669104,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.8008552975952625,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.829591196030378,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.846257895231247,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.875849295407534,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.892515994608402,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.9225202947855,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.939187195152044,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.968132697045803,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 4.984800096601248,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 5.013668596744537,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 5.030335295945406,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 5.060390796512365,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 5.077057596296072,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 5.105670895427465,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 5.122337594628334,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": true,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 5.139004297554493,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 5.1675431951880455,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        42.808346450329374,
+        42.808346450328365,
+        42.808346450329374,
+        42.808346450328365
+      ]
+    },
+    {
+      "t": 5.184212494641542,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        67.81229585173939,
+        67.81229567620298,
+        67.81229563398979,
+        67.81229556842578
+      ]
+    },
+    {
+      "t": 5.2142053954303265,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        112.80164628969062,
+        112.80164638611717,
+        112.80164627666683,
+        112.8016468494734
+      ]
+    },
+    {
+      "t": 5.230872295796871,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        137.8019965263785,
+        137.80199673336526,
+        137.8019970313331,
+        137.80199866442828
+      ]
+    },
+    {
+      "t": 5.259983796626329,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        181.46925043468056,
+        181.4692500078985,
+        181.4692486012334,
+        181.4692508349555
+      ]
+    },
+    {
+      "t": 5.276650696992874,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        206.4696017531697,
+        206.46960049876597,
+        206.46959911285018,
+        206.46960134550636
+      ]
+    },
+    {
+      "t": 5.293317597359419,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        231.4699518250259,
+        231.46995297125557,
+        231.4699507011228,
+        231.46995301272796
+      ]
+    },
+    {
+      "t": 5.3220954947173595,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        274.63679849437483,
+        274.6368013917356,
+        274.6367971256542,
+        274.63680024154684
+      ]
+    },
+    {
+      "t": 5.3387621976435184,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        299.6368496300102,
+        299.63685677777886,
+        299.6368489414168,
+        299.6368547097179
+      ]
+    },
+    {
+      "t": 5.355429094284773,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999726973823,
+        310.0,
+        309.999994144975,
+        309.99999162314276
+      ]
+    },
+    {
+      "t": 5.384421795606613,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000007,
+        310.0,
+        309.9999957302066,
+        309.9999943183946
+      ]
+    },
+    {
+      "t": 5.401090297847986,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999523879313,
+        309.9999938972878,
+        309.999999541951,
+        309.9999972326478
+      ]
+    },
+    {
+      "t": 5.43076279759407,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999920792431,
+        309.9999998660547,
+        309.99999999999966,
+        309.9999869879299
+      ]
+    },
+    {
+      "t": 5.447429694235325,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000023,
+        309.9999810807094,
+        309.9999955003774,
+        309.9999964369791
+      ]
+    },
+    {
+      "t": 5.476829797029495,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99998989971385,
+        310.0,
+        309.9999953303805,
+        309.99999417674076
+      ]
+    },
+    {
+      "t": 5.497292395681143,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999962948066,
+        309.99998724098316,
+        309.9999927739847,
+        310.0
+      ]
+    },
+    {
+      "t": 5.522354897111654,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999440674264,
+        309.99999927384675,
+        309.9999848304478,
+        309.9999810782673
+      ]
+    },
+    {
+      "t": 5.539021797478199,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000011,
+        310.0,
+        309.999999999998,
+        309.99998559324115
+      ]
+    },
+    {
+      "t": 5.555689796805382,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000002,
+        310.0,
+        310.0000000000033,
+        309.9999976669343
+      ]
+    },
+    {
+      "t": 5.584378495812416,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999890370547,
+        309.99999999999994,
+        309.99999369723304,
+        309.9999940052736
+      ]
+    },
+    {
+      "t": 5.601045794785023,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000013,
+        309.99998813734766,
+        309.9999861009415,
+        310.0
+      ]
+    },
+    {
+      "t": 5.630493197590113,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999993,
+        309.99999999999994,
+        309.99999854458656,
+        309.99999547348574
+      ]
+    },
+    {
+      "t": 5.647167894989252,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000009,
+        309.99999425460817,
+        309.99999999999784,
+        310.0
+      ]
+    },
+    {
+      "t": 5.663836997002363,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999139016114,
+        309.9999957492036,
+        309.99999346651447,
+        310.0
+      ]
+    },
+    {
+      "t": 5.691661097109318,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000007,
+        310.0,
+        309.9999999999988,
+        309.99999228978345
+      ]
+    },
+    {
+      "t": 5.7083279974758625,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999897532351,
+        310.0,
+        309.9999972356545,
+        309.9999930252248
+      ]
+    },
+    {
+      "t": 5.724994797259569,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999654252093,
+        310.0,
+        309.99999999999744,
+        310.0
+      ]
+    },
+    {
+      "t": 5.754282597452402,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999960215761,
+        310.0,
+        309.999996021958,
+        310.0
+      ]
+    },
+    {
+      "t": 5.770949397236109,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.00000000000045,
+        309.99997920381037,
+        309.99999999999744,
+        309.9999973452744
+      ]
+    },
+    {
+      "t": 5.800130296498537,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.00000000000045,
+        309.99998965702326,
+        309.99999999999875,
+        310.0
+      ]
+    },
+    {
+      "t": 5.816797096282244,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999976573525,
+        309.9999843954711,
+        309.9999991771672,
+        309.99999893319034
+      ]
+    },
+    {
+      "t": 5.846386797726154,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.00000000000136,
+        309.9999962429068,
+        309.9999999999996,
+        309.9999958959967
+      ]
+    },
+    {
+      "t": 5.863053694367409,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000023,
+        309.9999944656574,
+        309.9999999999992,
+        310.0
+      ]
+    },
+    {
+      "t": 5.87972079589963,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999916331271,
+        310.0,
+        309.99999726344805,
+        309.9999950725163
+      ]
+    },
+    {
+      "t": 5.9081179946660995,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999988,
+        309.9999878532736,
+        309.99998502863093,
+        309.9999917568224
+      ]
+    },
+    {
+      "t": 5.924784895032644,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999955,
+        310.0,
+        309.99999318673224,
+        310.0
+      ]
+    },
+    {
+      "t": 5.941451694816351,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999899823774,
+        310.0,
+        309.9999869866193,
+        310.0
+      ]
+    },
+    {
+      "t": 5.969713795930147,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.00000000000045,
+        310.0,
+        309.99999835566484,
+        309.9999864831733
+      ]
+    },
+    {
+      "t": 5.986381895840168,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999912432907,
+        310.0,
+        310.00000000000375,
+        309.99999756083855
+      ]
+    },
+    {
+      "t": 6.015470195561647,
+      "alive": 4,
+      "spawned": 4,
+      "defeated": 0,
+      "queue": 2,
+      "paused": false,
+      "queue_positions": [
+        [
+          -600.0,
+          2100.0,
+          0.0
+        ],
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999999,
+        309.99999148269865,
+        309.99998989578427,
+        310.0
+      ]
+    },
+    {
+      "t": 6.032137595117092,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999335806785,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 6.048981595784426,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999957108269,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 6.076189294457436,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999995,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 6.0928563959896564,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999903,
+        309.9999919884739,
+        0.0
+      ]
+    },
+    {
+      "t": 6.122496295720339,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99998417078984,
+        309.9999916078547,
+        0.0
+      ]
+    },
+    {
+      "t": 6.139165796339512,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999985,
+        309.9999980198856,
+        0.0
+      ]
+    },
+    {
+      "t": 6.1558324955403805,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0,
+        309.9999856318853,
+        0.0
+      ]
+    },
+    {
+      "t": 6.1843398958444595,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999999,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 6.201006796211004,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999974952516,
+        309.9999986514111,
+        0.0
+      ]
+    },
+    {
+      "t": 6.230136394500732,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999478023517,
+        309.99999999999994,
+        0.0
+      ]
+    },
+    {
+      "t": 6.246803797781467,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999946095082,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 6.276113394647837,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.00000000000006,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 6.292780194431543,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99998984264437,
+        309.9999928292163,
+        0.0
+      ]
+    },
+    {
+      "t": 6.3225516974925995,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999994,
+        309.9999782651684,
+        0.0
+      ]
+    },
+    {
+      "t": 6.339218396693468,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999972898311,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 6.355885297060013,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000011,
+        309.99999232647525,
+        0.0
+      ]
+    },
+    {
+      "t": 6.384201195091009,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99998905925236,
+        309.9999857215049,
+        0.0
+      ]
+    },
+    {
+      "t": 6.400867994874716,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.00000000000045,
+        310.0,
+        0.0
+      ]
+    },
+    {
+      "t": 6.417534995824099,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999105893204,
+        309.9999999535921,
+        25.000501424074017
+      ]
+    },
+    {
+      "t": 6.445717696100473,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999915506527,
+        309.99998513655635,
+        67.27455179537647
+      ]
+    },
+    {
+      "t": 6.462384596467018,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000011,
+        309.99999719185354,
+        92.27490234073657
+      ]
+    },
+    {
+      "t": 6.49156279489398,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999999,
+        309.99998638056536,
+        136.04219921516298
+      ]
+    },
+    {
+      "t": 6.508229497820139,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999933683296,
+        309.99998982507105,
+        161.04225498163328
+      ]
+    },
+    {
+      "t": 6.524896297603846,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999809668435,
+        310.0,
+        186.0424548088042
+      ]
+    },
+    {
+      "t": 6.541563294827938,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999289719784,
+        309.99999198913036,
+        211.04295259045327
+      ]
+    },
+    {
+      "t": 6.568912394344807,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999999999903,
+        309.99999326454764,
+        252.0666022036088
+      ]
+    },
+    {
+      "t": 6.585580095648766,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999943342646,
+        310.0,
+        277.0681555099875
+      ]
+    },
+    {
+      "t": 6.60224699601531,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999964240062,
+        309.9999940025159,
+        302.0685038684936
+      ]
+    },
+    {
+      "t": 6.630033295601606,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999186338226,
+        309.9999961873923,
+        309.99998926232183
+      ]
+    },
+    {
+      "t": 6.646700296550989,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999985,
+        310.0,
+        309.9999911573457
+      ]
+    },
+    {
+      "t": 6.675784897059202,
+      "alive": 3,
+      "spawned": 5,
+      "defeated": 2,
+      "queue": 1,
+      "paused": false,
+      "queue_positions": [
+        [
+          600.0,
+          2100.0,
+          0.0
+        ]
+      ],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999937352093,
+        309.9999920078834,
+        309.9999992783839
+      ]
+    },
+    {
+      "t": 6.692451696842909,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.00000000000045,
+        310.0,
+        309.9999968697649,
+        0.0
+      ]
+    },
+    {
+      "t": 6.722582295536995,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99999701255445,
+        310.0,
+        310.00000000000017,
+        0.0
+      ]
+    },
+    {
+      "t": 7.009834304451942,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999998,
+        310.0,
+        310.00000000000216,
+        0.0
+      ]
+    },
+    {
+      "t": 7.026501003652811,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0,
+        310.0,
+        309.99999974365187,
+        0.0
+      ]
+    },
+    {
+      "t": 7.04316770285368,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.999987260629,
+        310.0,
+        310.00000000000443,
+        0.0
+      ]
+    },
+    {
+      "t": 7.059883505105972,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999984,
+        310.0,
+        309.9999999999969,
+        25.07370337843226
+      ]
+    },
+    {
+      "t": 7.076551903039217,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999941149039,
+        309.9999935220865,
+        309.99998356599684,
+        50.07630034448583
+      ]
+    },
+    {
+      "t": 7.105015303939581,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999940266825,
+        309.9999963487671,
+        310.00000000000006,
+        92.77140081994426
+      ]
+    },
+    {
+      "t": 7.1217081025242805,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999997,
+        309.99999349895774,
+        310.00000000000455,
+        117.8105987589962
+      ]
+    },
+    {
+      "t": 7.138374801725149,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0,
+        310.0,
+        309.9999834033254,
+        142.81064699708756
+      ]
+    },
+    {
+      "t": 7.155041605234146,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000008,
+        309.9999959980779,
+        309.9999885161569,
+        167.81085371449757
+      ]
+    },
+    {
+      "t": 7.171774301677942,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999999999999,
+        309.99998831325394,
+        309.9999872488401,
+        192.90989874130946
+      ]
+    },
+    {
+      "t": 7.188441105186939,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        310.0000000000008,
+        310.0,
+        309.9999944985124,
+        217.9101037063083
+      ]
+    },
+    {
+      "t": 7.213965103030205,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.99998480682694,
+        310.0,
+        309.9999907792288,
+        256.1960977843044
+      ]
+    },
+    {
+      "t": 7.230631802231073,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        309.9999930607184,
+        310.0,
+        310.00000000000443,
+        281.1961474885217
+      ]
+    },
+    {
+      "t": 7.24730010330677,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999942152942,
+        310.00000000000017,
+        306.19859719448465
+      ]
+    },
+    {
+      "t": 7.275872603058815,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999938305064,
+        309.99999420082884,
+        309.99998834490265
+      ]
+    },
+    {
+      "t": 7.292539604008198,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99998780983,
+        309.9999874104123
+      ]
+    },
+    {
+      "t": 7.321737702935934,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        310.0000000000011,
+        309.99999381555045
+      ]
+    },
+    {
+      "t": 7.338404502719641,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999999999943,
+        309.9999999999956
+      ]
+    },
+    {
+      "t": 7.367413103580475,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99999490967224,
+        309.9999999999974,
+        309.9999938272992
+      ]
+    },
+    {
+      "t": 7.3840799033641815,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99999414448524,
+        309.9999999999943,
+        309.9999989162517
+      ]
+    },
+    {
+      "t": 7.4133156053721905,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99998883763374,
+        309.9999987262458,
+        309.99999052312893
+      ]
+    },
+    {
+      "t": 7.429982502013445,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        310.0000000000007,
+        310.0000000000007
+      ]
+    },
+    {
+      "t": 7.460062801837921,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99998622437363,
+        309.99999315712876,
+        309.9999999999964
+      ]
+    },
+    {
+      "t": 7.476729605346918,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99998256540187,
+        310.0000000000046
+      ]
+    },
+    {
+      "t": 7.493396304547787,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        310.00000000000574,
+        310.00000000000443
+      ]
+    },
+    {
+      "t": 7.521267704665661,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999999999997,
+        309.9999996506272
+      ]
+    },
+    {
+      "t": 7.5379345044493675,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999999999943,
+        309.9999999999956
+      ]
+    },
+    {
+      "t": 7.554602202028036,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99999541189027,
+        309.99998733828596
+      ]
+    },
+    {
+      "t": 7.583208102732897,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99999999999704,
+        309.9999905238414
+      ]
+    },
+    {
+      "t": 7.599874801933765,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999983406074,
+        309.99999696079885,
+        310.00000000000443
+      ]
+    },
+    {
+      "t": 7.616541504859924,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999929401555,
+        309.9999858874198,
+        310.00000000000074
+      ]
+    },
+    {
+      "t": 7.645325403660536,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99999999999994,
+        310.000000000002,
+        309.9999986830052
+      ]
+    },
+    {
+      "t": 7.6619923040270805,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.999999999997,
+        309.999999999997
+      ]
+    },
+    {
+      "t": 7.69127270206809,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.00000000000006,
+        310.0000000000031,
+        309.9999931586871
+      ]
+    },
+    {
+      "t": 7.707939501851797,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.999999077568,
+        309.9999999999956
+      ]
+    },
+    {
+      "t": 7.737308003008366,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999999999988,
+        309.9999964266138
+      ]
+    },
+    {
+      "t": 7.753974802792072,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99999501366693,
+        309.9999999999943,
+        309.9999999999956
+      ]
+    },
+    {
+      "t": 7.783298704773188,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99999999999716,
+        309.99999728935734
+      ]
+    },
+    {
+      "t": 7.799965504556894,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999999999943,
+        309.9999999999956
+      ]
+    },
+    {
+      "t": 7.829274505376816,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999854341902,
+        309.99998111509245,
+        309.9999999999996
+      ]
+    },
+    {
+      "t": 7.845941204577684,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999910794242,
+        309.9999914078583,
+        309.99999410881134
+      ]
+    },
+    {
+      "t": 7.87530630454421,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999937410884,
+        309.99999234172856
+      ]
+    },
+    {
+      "t": 7.891973204910755,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99999094835346,
+        309.999999999997
+      ]
+    },
+    {
+      "t": 7.921007703989744,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999870130773,
+        310.00000000000176,
+        309.9999973078471
+      ]
+    },
+    {
+      "t": 7.937674403190613,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99998915746875,
+        310.00000000000574,
+        310.00000000000574
+      ]
+    },
+    {
+      "t": 7.954343602061272,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999946129955,
+        309.9999930502001
+      ]
+    },
+    {
+      "t": 7.97654190286994,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999934294296,
+        310.00000000000455
+      ]
+    },
+    {
+      "t": 7.9991191029548645,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999974341502,
+        310.0
+      ]
+    },
+    {
+      "t": 8.015785902738571,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.999993339361,
+        309.9999999999943,
+        309.99999717266684
+      ]
+    },
+    {
+      "t": 8.032455004751682,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99997683691186,
+        309.99999999999807
+      ]
+    },
+    {
+      "t": 8.0620644018054,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999935827514,
+        310.00000000000364,
+        310.00000000000296
+      ]
+    },
+    {
+      "t": 8.078735005110502,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99999478870075,
+        309.9999974430705,
+        309.999988869374
+      ]
+    },
+    {
+      "t": 8.107845604419708,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99998907153855,
+        309.9999824836583,
+        309.9999932403032
+      ]
+    },
+    {
+      "t": 8.124513503164053,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999905250879,
+        310.00000000000256
+      ]
+    },
+    {
+      "t": 8.153996802866459,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999891069501,
+        309.99999999999966
+      ]
+    },
+    {
+      "t": 8.170665003359318,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999999999976,
+        309.999993017765
+      ]
+    },
+    {
+      "t": 8.187331903725863,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.999999999997,
+        309.99999956984044
+      ]
+    },
+    {
+      "t": 8.216825801879168,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999946417576,
+        309.99999322342416
+      ]
+    },
+    {
+      "t": 8.233492605388165,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        310.0000000000046,
+        310.0000000000046
+      ]
+    },
+    {
+      "t": 8.250209301710129,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        310.0000000000047,
+        309.9999955324607
+      ]
+    },
+    {
+      "t": 8.266876004636288,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99999674581755,
+        309.99999981499934
+      ]
+    },
+    {
+      "t": 8.283543702214956,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99999570128807,
+        309.99999863239697
+      ]
+    },
+    {
+      "t": 8.303088504821062,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999977819913,
+        309.99999630774465,
+        309.9999999999989
+      ]
+    },
+    {
+      "t": 8.325177904218435,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        310.0000000000036,
+        309.9999959258011
+      ]
+    },
+    {
+      "t": 8.367160502821207,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999891270022,
+        309.9999999999991
+      ]
+    },
+    {
+      "t": 8.386876903474331,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999974201189,
+        309.9999890148216,
+        309.99999999999596
+      ]
+    },
+    {
+      "t": 8.417374905198812,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.00000000000006,
+        309.99999999999665,
+        309.99999577222906
+      ]
+    },
+    {
+      "t": 8.434043504297733,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999999999978,
+        309.9999957676169
+      ]
+    },
+    {
+      "t": 8.463366001844406,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99999145776206,
+        309.9999988166467,
+        309.9999999999975
+      ]
+    },
+    {
+      "t": 8.480032704770565,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99998623781937,
+        309.9999852648215,
+        309.9999980385041
+      ]
+    },
+    {
+      "t": 8.509184703230858,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999955615271,
+        309.9999999999969,
+        309.99998627211073
+      ]
+    },
+    {
+      "t": 8.525851503014565,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99998707245555,
+        309.9999999999956,
+        309.9999946860739
+      ]
+    },
+    {
+      "t": 8.542518302798271,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99999519132933,
+        309.9999999999943
+      ]
+    },
+    {
+      "t": 8.571778804063797,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99999447105074,
+        309.9999951913263,
+        309.99998464980763
+      ]
+    },
+    {
+      "t": 8.588445704430342,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99999920885307,
+        309.9999926411781,
+        309.99999342010403
+      ]
+    },
+    {
+      "t": 8.605112604796886,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99998456800034,
+        309.999999999997,
+        309.999999999997
+      ]
+    },
+    {
+      "t": 8.633356004953384,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        310.0000000000031,
+        309.99998086710696
+      ]
+    },
+    {
+      "t": 8.650022804737091,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999948957196,
+        309.9999973894197,
+        309.9999999999943
+      ]
+    },
+    {
+      "t": 8.679359804838896,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        310.0000000000029,
+        309.9999959792396
+      ]
+    },
+    {
+      "t": 8.696027103811502,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999988520216,
+        309.9999999999984,
+        309.99999359675223
+      ]
+    },
+    {
+      "t": 8.725755602121353,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999932488933,
+        309.99999958721327,
+        310.00000000000296
+      ]
+    },
+    {
+      "t": 8.750479102134705,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99999070712147,
+        309.99999450723595
+      ]
+    },
+    {
+      "t": 8.772178202867508,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99998956059653,
+        309.9999982917454
+      ]
+    },
+    {
+      "t": 8.788844902068377,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999934090881,
+        309.9999987694703
+      ]
+    },
+    {
+      "t": 8.81850440427661,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.00000000000006,
+        310.00000000000045,
+        310.00000000000045
+      ]
+    },
+    {
+      "t": 8.83517350256443,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        310.0000000000005,
+        309.99999244251387
+      ]
+    },
+    {
+      "t": 8.864232402294874,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99999101597916,
+        310.0000000000013
+      ]
+    },
+    {
+      "t": 8.880899302661419,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999962023522,
+        309.999999999997
+      ]
+    },
+    {
+      "t": 8.909506402909756,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999891763994,
+        310.00000000000335
+      ]
+    },
+    {
+      "t": 8.933198302984238,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99999867249807,
+        309.9999977157725
+      ]
+    },
+    {
+      "t": 8.955994702875614,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99999525553585,
+        309.9999802552655,
+        309.99998914413953
+      ]
+    },
+    {
+      "t": 8.972661603242159,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999896231284,
+        309.999999999997,
+        309.999999999997
+      ]
+    },
+    {
+      "t": 9.001563604921103,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999935157771,
+        309.99998329285756,
+        309.999999999998
+      ]
+    },
+    {
+      "t": 9.01823040470481,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999999999943,
+        309.9999999999943
+      ]
+    },
+    {
+      "t": 9.046962402760983,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99998365343333,
+        310.00000000000125,
+        309.9999898294134
+      ]
+    },
+    {
+      "t": 9.063941303640604,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99999827580405,
+        310.00000000000125,
+        310.00000000000125
+      ]
+    },
+    {
+      "t": 9.092852901667356,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.00000000000006,
+        309.9999971412551,
+        310.0000000000029
+      ]
+    },
+    {
+      "t": 9.109519705176353,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99998970634755,
+        309.99999351721203,
+        310.0000000000046
+      ]
+    },
+    {
+      "t": 9.126186404377222,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.9999932518254,
+        310.00000000000574
+      ]
+    },
+    {
+      "t": 9.147725705057383,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        310.0000000000005,
+        309.99999783987124
+      ]
+    },
+    {
+      "t": 9.170777402818203,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99999999999903,
+        309.99999736296803
+      ]
+    },
+    {
+      "t": 9.18744420260191,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.99998100226486,
+        309.9999999999943
+      ]
+    },
+    {
+      "t": 9.216593004763126,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999999999998,
+        309.9999999999989,
+        309.9999999999989
+      ]
+    },
+    {
+      "t": 9.233259804546833,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999999999992,
+        309.99999804747074,
+        309.99999497985084
+      ]
+    },
+    {
+      "t": 9.26308760419488,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.00000000000045,
+        309.99998285978603,
+        309.9999931997555
+      ]
+    },
+    {
+      "t": 9.279754605144262,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.00000000000074,
+        309.99999999999955,
+        309.99999999999955
+      ]
+    },
+    {
+      "t": 9.29662400484085,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.99999999999983,
+        309.9999999999946,
+        309.9999999999946
+      ]
+    },
+    {
+      "t": 9.324873205274343,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999999999993,
+        309.9999999999996,
+        309.99999999074106
+      ]
+    },
+    {
+      "t": 9.341540101915598,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0000000000004,
+        310.0000000000007,
+        310.0000000000007
+      ]
+    },
+    {
+      "t": 9.358206901699305,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999999999992,
+        309.9999892264409,
+        309.9999999999943
+      ]
+    },
+    {
+      "t": 9.37487380206585,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        310.0,
+        309.999999999997,
+        309.9999854505361
+      ]
+    },
+    {
+      "t": 9.40243450179696,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        309.9999999999998,
+        309.99998812883604,
+        309.99999999999756
+      ]
+    },
+    {
+      "t": 9.41910120472312,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        301.34227325157036,
+        309.99999662393657,
+        310.000000000002
+      ]
+    },
+    {
+      "t": 9.44842940196395,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        301.3422732515692,
+        309.9999999999998,
+        309.9999999999998
+      ]
+    },
+    {
+      "t": 9.46509700268507,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        301.3422732515699,
+        310.0000000000049,
+        310.0000000000049
+      ]
+    },
+    {
+      "t": 9.495317604392767,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.99998976124493,
+        309.9999950602132
+      ]
+    },
+    {
+      "t": 9.511996202170849,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.9999930654091,
+        310.0000000000039
+      ]
+    },
+    {
+      "t": 9.541866604238749,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.9999989957919,
+        309.9999926201154
+      ]
+    },
+    {
+      "t": 9.558536104857922,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.99999999999824,
+        309.99999999999824
+      ]
+    },
+    {
+      "t": 9.587879002094269,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        310.0000000000024,
+        310.0000000000024
+      ]
+    },
+    {
+      "t": 9.604545801877975,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.9999935040918,
+        309.99999566590515
+      ]
+    },
+    {
+      "t": 9.621212504804134,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        310.000000000002,
+        310.000000000002
+      ]
+    },
+    {
+      "t": 9.650515403598547,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.99999999999886,
+        309.9999999999992
+      ]
+    },
+    {
+      "t": 9.66718240454793,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        310.00000000000017,
+        309.99999391619986
+      ]
+    },
+    {
+      "t": 9.695886202156544,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.99999696218634,
+        310.0000000000028
+      ]
+    },
+    {
+      "t": 9.720899604260921,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        310.0000000000004,
+        310.0000000000008
+      ]
+    },
+    {
+      "t": 9.737568903714418,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        310.00000000000574,
+        309.9999933423184
+      ]
+    },
+    {
+      "t": 9.757032003253698,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        310.00000000000426,
+        310.0000000000048
+      ]
+    },
+    {
+      "t": 9.773698702454567,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        310.0000000000051,
+        310.00000000000574
+      ]
+    },
+    {
+      "t": 9.803468603640795,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.9999855996344,
+        309.99999999999875
+      ]
+    },
+    {
+      "t": 9.820135403424501,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.999999999995,
+        309.9999999999943
+      ]
+    },
+    {
+      "t": 9.836802303791046,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.99999481878876,
+        309.999999999997
+      ]
+    },
+    {
+      "t": 9.85346920415759,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.9999890681179,
+        309.99998729925494
+      ]
+    },
+    {
+      "t": 9.881148803979158,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.99998906811925,
+        309.9999872992567
+      ]
+    },
+    {
+      "t": 9.897815603762865,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.9999894647808,
+        309.99999791048685
+      ]
+    },
+    {
+      "t": 9.926887303590775,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.99999185004714,
+        310.0000000000005
+      ]
+    },
+    {
+      "t": 9.943554103374481,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        309.99999546327166,
+        309.9999999999943
+      ]
+    },
+    {
+      "t": 9.97208060324192,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        310.0000000000025,
+        310.0000000000025
+      ]
+    },
+    {
+      "t": 9.98874780535698,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        310.0000000000047,
+        309.9999862512594
+      ]
+    },
+    {
+      "t": 10.017996802926064,
+      "alive": 4,
+      "spawned": 6,
+      "defeated": 2,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": [
+        0.0,
+        0.0,
+        310.0000000000008,
+        309.99998786650565
+      ]
+    },
+    {
+      "t": 10.034665904939175,
+      "alive": 0,
+      "spawned": 6,
+      "defeated": 6,
+      "queue": 0,
+      "paused": false,
+      "queue_positions": [],
+      "queue_has_no_combat_identity": true,
+      "queue_collision_disabled": true,
+      "enemy_speeds": []
+    }
+  ],
+  "pause_freezes_queue": true
+}

@@ -1,0 +1,119 @@
+{
+  "state": "applied",
+  "selected": "D",
+  "preserved_future": "C; reverse grip required; not assigned to current enemies",
+  "grip": {
+    "translation": [
+      0,
+      -0.065,
+      0.035
+    ],
+    "scale": [
+      0.01,
+      0.01,
+      0.01
+    ],
+    "quaternion_xyzw": [
+      0.647854955,
+      -0.73402617,
+      -0.14345028,
+      0.144608286
+    ]
+  },
+  "duration": 2.3333332538604736,
+  "hit_window": [
+    0.4,
+    0.8
+  ],
+  "play_rate": 1.0,
+  "enemies": [
+    {
+      "enemy": "sword",
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\PackDIntegration1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_sword.uasset",
+      "before": {
+        "attack": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x000002B6A2ADD900) Class 'AnimSequence'>",
+        "curve": "None",
+        "range": 130.0,
+        "timing": [
+          0.6700000166893005,
+          0.23999999463558197,
+          0.7400000095367432
+        ],
+        "grip": "<Struct 'Transform' (0x000002B6912EECA0) {rotation: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.500000}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+        "idle": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07' (0x000002B6A2ADAF00) Class 'AnimSequence'>",
+        "walk": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07' (0x000002B6A2ADCB00) Class 'AnimSequence'>"
+      },
+      "animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "root_curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel",
+      "range": 200.0,
+      "saved_sha256": "5c9a2719f316e32afb386288bb98451f48ba13d2ab6b765cf3091310ba0971e0"
+    },
+    {
+      "enemy": "GM01",
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM01",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\PackDIntegration1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM01.uasset",
+      "before": {
+        "attack": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x000002B6A2ADD900) Class 'AnimSequence'>",
+        "curve": "None",
+        "range": 130.0,
+        "timing": [
+          0.8040000200271606,
+          0.2879999876022339,
+          0.8880000114440918
+        ],
+        "grip": "<Struct 'Transform' (0x000002B626FA8CA0) {rotation: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.500000}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+        "idle": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07' (0x000002B6A2ADAF00) Class 'AnimSequence'>",
+        "walk": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07' (0x000002B6A2ADCB00) Class 'AnimSequence'>"
+      },
+      "animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "root_curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel",
+      "range": 200.0,
+      "saved_sha256": "1b95d5333081f6d87c5dc500862eda8814b95b22f94c76a7a06020dd5f4bfbb6"
+    },
+    {
+      "enemy": "GM04",
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM04",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\PackDIntegration1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM04.uasset",
+      "before": {
+        "attack": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x000002B6A2ADD900) Class 'AnimSequence'>",
+        "curve": "None",
+        "range": 130.0,
+        "timing": [
+          0.8040000200271606,
+          0.2879999876022339,
+          0.8880000114440918
+        ],
+        "grip": "<Struct 'Transform' (0x000002B6294D68A0) {rotation: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.500000}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+        "idle": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07' (0x000002B6A2ADAF00) Class 'AnimSequence'>",
+        "walk": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07' (0x000002B6A2ADCB00) Class 'AnimSequence'>"
+      },
+      "animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "root_curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel",
+      "range": 200.0,
+      "saved_sha256": "aa024be82530a6d6171acf5faadb6b4ad56b8451dfd040ef4c03618b4b2f376b"
+    },
+    {
+      "enemy": "boss",
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_boss",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\PackDIntegration1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_boss.uasset",
+      "before": {
+        "attack": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x000002B6A2ADD900) Class 'AnimSequence'>",
+        "curve": "None",
+        "range": 130.0,
+        "timing": [
+          0.8040000200271606,
+          0.2879999876022339,
+          0.8880000114440918
+        ],
+        "grip": "<Struct 'Transform' (0x000002B5FCEF5CA0) {rotation: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.500000}, translation: {x: 0.000000, y: -0.065000, z: 0.035000}, scale3d: {x: 0.010000, y: 0.010000, z: 0.010000}}>",
+        "idle": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07' (0x000002B6A2ADAF00) Class 'AnimSequence'>",
+        "walk": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07' (0x000002B6A2ADCB00) Class 'AnimSequence'>"
+      },
+      "animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "root_curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel",
+      "range": 200.0,
+      "saved_sha256": "b64edf232d7c1f1eaafea2a3485ff7d2000da24e8a99f6c0da889e9bcef8166a"
+    }
+  ]
+}

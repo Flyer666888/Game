@@ -1,0 +1,121 @@
+{
+  "state": "starting",
+  "success": false,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [
+    {
+      "phase": "stage_active",
+      "error": "Traceback (most recent call last):\n  File \"D:\\game design\\experiment\\Scripts\\Editor\\Level01PolishV01\\runtime_first_level.py\", line 694, in tick\n    self.stage_tick()\n  File \"D:\\game design\\experiment\\Scripts\\Editor\\PlayerBackstepIntermittent1106\\runtime_interactive.py\", line 51, in stage_tick\n    if not self.vitals.is_dead() and self.vitals.get_health()<60:\n           ^^^^^^^^^^^^^^^^^^^^^\nException: NLCombatVitalsComponent: Internal Error - ObjectInstance is null!\n"
+    }
+  ],
+  "checks": {},
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [
+    {
+      "game_time": 7.41753750666976,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "dd455ba840bf56ffa91b26b77ff7b22c",
+      "target_id": "724c61ad494804c0f3218688aa75e404",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 8.417542304843664,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "ce1491c94005ab5dd749ef87a66db29f",
+      "target_id": "724c61ad494804c0f3218688aa75e404",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 10.100937403738499,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "dd455ba840bf56ffa91b26b77ff7b22c",
+      "target_id": "724c61ad494804c0f3218688aa75e404",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 11.10094340518117,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "ce1491c94005ab5dd749ef87a66db29f",
+      "target_id": "724c61ad494804c0f3218688aa75e404",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 12.80095200613141,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "dd455ba840bf56ffa91b26b77ff7b22c",
+      "target_id": "724c61ad494804c0f3218688aa75e404",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 13.801009003072977,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "ce1491c94005ab5dd749ef87a66db29f",
+      "target_id": "724c61ad494804c0f3218688aa75e404",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 15.501020606607199,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "dd455ba840bf56ffa91b26b77ff7b22c",
+      "target_id": "724c61ad494804c0f3218688aa75e404",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 16.501034703105688,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "ce1491c94005ab5dd749ef87a66db29f",
+      "target_id": "724c61ad494804c0f3218688aa75e404",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    }
+  ],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": "Visible PIE main map, isolated Test.Level01 run. Real OS keyboard/mouse input. Player health restored below 60 only to permit diagnosis. Initial entry placement is fixture setup; no scripted combat or movement after bootstrap.",
+  "elapsed_seconds": 16.76599999999962,
+  "fixture_isolation": {
+    "state": "pending",
+    "temporary_level_id": "Test.Level01.4998413d2d72418594f053e698dd497e",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\eac3b4df306bf282c8d2cda5d4c9d12a6db79389.nlrun",
+    "test_run_ids": [
+      "84bd35654b7fb5b90fbc8196e1ac8c9b",
+      "a29eccef48e7394f63891aa06d528e0b"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used"
+  },
+  "frame_count": 970,
+  "events": [],
+  "protective_health_restores": 1,
+  "frames": [],
+  "module_note": "Diagnosis of intermittent movement after the earlier focus-only fix."
+}

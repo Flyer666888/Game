@@ -1,0 +1,99 @@
+{
+  "state": "composed",
+  "created_utc": "2026-11-05T14:46:34.948432+00:00",
+  "output": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\SceneComparison.png",
+  "output_sha256": "e04f3281f94398db0cfe880c285e850d86fa55b88b2b46464bc1ccf19eb78777",
+  "dimensions": [
+    1672,
+    1164
+  ],
+  "cell_dimensions": [
+    800,
+    450
+  ],
+  "source_images": [
+    {
+      "row": 0,
+      "column": 0,
+      "scene": "Gate",
+      "state": "调整前",
+      "source": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\ArtBeforeScreenshots\\Gate.png",
+      "sha256": "819214ceaade5b81670905095a289c2856c97963e1c073a122da024c8007f978",
+      "source_dimensions": [
+        1600,
+        900
+      ],
+      "display_rectangle": [
+        24,
+        146,
+        800,
+        450
+      ]
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "scene": "Gate",
+      "state": "调整后",
+      "source": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\ArtScreenshots\\Gate.png",
+      "sha256": "aadb058a31f590de2f0fad37ea16dae6e0824cd38a443ed9c27e57745b0ac87b",
+      "source_dimensions": [
+        1600,
+        900
+      ],
+      "display_rectangle": [
+        848,
+        146,
+        800,
+        450
+      ]
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "scene": "Overview",
+      "state": "调整前",
+      "source": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\ArtBeforeScreenshots\\Overview.png",
+      "sha256": "70c108968bcd5ddbd43e3e9476f4f141b813da80f9b7e3959defd3813702b909",
+      "source_dimensions": [
+        1600,
+        900
+      ],
+      "display_rectangle": [
+        24,
+        666,
+        800,
+        450
+      ]
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "scene": "Overview",
+      "state": "调整后",
+      "source": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\ArtScreenshots\\Overview.png",
+      "sha256": "f70a9f03db5825232dfd975348082595a681425e58be2985c921db720987a02b",
+      "source_dimensions": [
+        1600,
+        900
+      ],
+      "display_rectangle": [
+        848,
+        666,
+        800,
+        450
+      ]
+    }
+  ],
+  "presentation": "Two rows by two columns. Row 1 gate, row 2 overview. Before left, after right.",
+  "operations": [
+    "RGB layout canvas",
+    "Proportional 1600x900 to 800x450 resampling",
+    "Text in separate header bands"
+  ],
+  "scene_pixels_repainted": false,
+  "source_color_adjustments": false,
+  "ai_generated_scene_content": false,
+  "scope": "Report layout of actual Unreal renderer evidence only.",
+  "visual_review": "passed: Chinese captions are legible in separate bands, all four images retain 16:9 framing, scene pixels are unobstructed"
+}

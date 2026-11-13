@@ -1,0 +1,110 @@
+{
+  "state": "verified",
+  "feature": "Head weak point damage and feedback",
+  "tuning": {
+    "bone_height_offset_world_cm": 7,
+    "radius_cm": 13,
+    "damage_multiplier": 1.5
+  },
+  "native_automation": {
+    "passed": 4,
+    "failed": 0,
+    "report": "WeakAutomationFinal/index.json",
+    "tests_with_warnings": 0
+  },
+  "saved_map_runtime": {
+    "success": true,
+    "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+    "checks": {
+      "SphereBody": true,
+      "SphereHead": true,
+      "BladeHead": true,
+      "HorizontalQiHead": true
+    },
+    "fixture_isolation": "restored_without_saving_map",
+    "cases": [
+      {
+        "name": "SphereBody",
+        "started": 3.385358490049839,
+        "hits": [
+          {
+            "damage": 10.0,
+            "weak": false,
+            "multiplier": 1.0,
+            "tag": "Combat.Hit"
+          }
+        ],
+        "health_after": 20.0,
+        "passed": true
+      },
+      {
+        "name": "SphereHead",
+        "started": 4.518694195896387,
+        "hits": [
+          {
+            "damage": 15.0,
+            "weak": true,
+            "multiplier": 1.5,
+            "tag": "Combat.WeakPoint.Head"
+          }
+        ],
+        "health_after": 15.0,
+        "passed": true
+      },
+      {
+        "name": "BladeHead",
+        "started": 5.649000685662031,
+        "hits": [
+          {
+            "damage": 15.0,
+            "weak": true,
+            "multiplier": 1.5,
+            "tag": "Combat.WeakPoint.Head"
+          }
+        ],
+        "health_after": 15.0,
+        "passed": true
+      },
+      {
+        "name": "HorizontalQiHead",
+        "started": 6.770557980984449,
+        "hits": [
+          {
+            "damage": 15.0,
+            "weak": true,
+            "multiplier": 1.5,
+            "tag": "Combat.WeakPoint.Head"
+          }
+        ],
+        "health_after": 15.0,
+        "passed": true
+      }
+    ],
+    "report": "WeakPointRuntime.json",
+    "map_sha256_after": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+    "scope": "Saved map/native projectile and blade sweeps against a real configured enemy. AI and pose are frozen by tick controls, combat remains enabled. 10 damage fixture and per-case health restore isolate region damage; no direct resolver contact or HMD input."
+  },
+  "source_review": {
+    "blockers_found": 0,
+    "rules": [
+      "Original body capsule is broad phase; skull sphere follows real head/Head world position without imported bone scale.",
+      "Contact evidence retains real sphere or individual crescent-box shape; generic legacy contacts remain body hits.",
+      "Moving samples classify within the target capsule envelope so high-frequency broad contacts are not incorrectly consumed as torso hits.",
+      "Melee frame aggregation only accepts sample paths that physically contacted this target; static blade spans are not extended beyond their authored ends.",
+      "Actual collision shape sweep and world visibility reject bonus through obstruction.",
+      "Resolver duplicate, damage-protection and dead gates execute before weak-point damage; local paused targets receive no weak-point classification.",
+      "Weak-point result is populated only after positive damage, with a snapshotted multiplier before synchronous death delegates.",
+      "Desktop main map, desktop laboratory and head-mounted HUD have visible feedback; impact sound uses a distinct 1.45 pitch."
+    ]
+  },
+  "limits": [
+    "Head weak point is a tunable 13cm gameplay zone, not per-triangle anatomy.",
+    "Main-map evidence uses controlled player/AI poses and 10-damage fixtures for actual native sweeps; it is not a human headset playtest."
+  ],
+  "reviewed_source_sha256": {
+    "Source/experiment/Public/Combat/NLWeakPointComponent.h": "843d7cafed7fa48f37ebd23d8260913bc590088713e831d5837f7f918372af8b",
+    "Source/experiment/Private/Combat/NLWeakPointComponent.cpp": "b8a41e2825f25d7e948b49fe6c6ada279236b3167f85b4c02e5b4b33ddbe5d48",
+    "Source/experiment/Private/Tests/NLWeakPointTests.cpp": "4b6ca52a4b9ac3b8b30a1b6f263748c94d6edfecec6fc0c00d2f9dbbb0064e5e"
+  },
+  "final_art_map_retest": true
+}

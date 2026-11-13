@@ -1,0 +1,3053 @@
+{
+  "state": "failed",
+  "success": false,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "chases_faster_than_player": true,
+    "closed_distance": true,
+    "native_attack_window": true,
+    "native_player_damage": false
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Real main-level sword AI and collision; temporary test profile.",
+    "Observer camera follows the enemy. Player target is repositioned once to measure pursuit, then stationary.",
+    "Other enemies are paused. No HMD input or human playtest is claimed."
+  ],
+  "elapsed_seconds": 15.077999999999975,
+  "frames": [
+    {
+      "t": 0.0,
+      "state": "<NLEnemyState.SPAWN: 0>",
+      "speed": 0.0,
+      "distance": 550.0,
+      "animation_time": 0.04103599861264229,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.019988801330327988,
+      "state": "<NLEnemyState.SPAWN: 0>",
+      "speed": 0.0,
+      "distance": 550.0,
+      "animation_time": 0.061024799942970276,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.042479898780584335,
+      "state": "<NLEnemyState.SPAWN: 0>",
+      "speed": 0.0,
+      "distance": 550.0,
+      "animation_time": 0.08351589739322662,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.08798680081963539,
+      "state": "<NLEnemyState.SPAWN: 0>",
+      "speed": 0.0,
+      "distance": 550.0,
+      "animation_time": 0.12902280688285828,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.11306649819016457,
+      "state": "<NLEnemyState.SPAWN: 0>",
+      "speed": 0.0,
+      "distance": 550.0,
+      "animation_time": 0.15410250425338745,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.1486520990729332,
+      "state": "<NLEnemyState.SPAWN: 0>",
+      "speed": 0.0,
+      "distance": 550.0,
+      "animation_time": 0.18968810141086578,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.18342550098896027,
+      "state": "<NLEnemyState.SPAWN: 0>",
+      "speed": 0.0,
+      "distance": 550.0,
+      "animation_time": 0.22446149587631226,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.21396220102906227,
+      "state": "<NLEnemyState.SPAWN: 0>",
+      "speed": 0.0,
+      "distance": 550.0,
+      "animation_time": 0.25499820709228516,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.2823330946266651,
+      "state": "<NLEnemyState.SPAWN: 0>",
+      "speed": 0.0,
+      "distance": 550.0,
+      "animation_time": 0.3233690857887268,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.33279869705438614,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 0.0,
+      "distance": 550.0,
+      "animation_time": 0.3738346993923187,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.3816925957798958,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 0.0,
+      "distance": 550.0,
+      "animation_time": 0.42272859811782837,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.4187069945037365,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 55.52159808576187,
+      "distance": 547.9449014306688,
+      "animation_time": 0.0,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.5055809952318668,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 120.67709919600895,
+      "distance": 537.461199027246,
+      "animation_time": 0.03021043725311756,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.5402196943759918,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 172.63514891872543,
+      "distance": 531.4813420421491,
+      "animation_time": 0.05639176815748215,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.5809096954762936,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 233.670149168024,
+      "distance": 521.9733034153945,
+      "animation_time": 0.09265103936195374,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.598006896674633,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 259.3159501103478,
+      "distance": 517.5397264424194,
+      "animation_time": 0.11266540735960007,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 0.9980069026350975,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.9999997221471,
+      "distance": 393.5397270154965,
+      "animation_time": 0.618136465549469,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.2512606903910637,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.9999995837757,
+      "distance": 315.0310494520372,
+      "animation_time": 1.1098620891571045,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.2679274901747704,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 310.0,
+      "distance": 309.86434151908816,
+      "animation_time": 1.1422228813171387,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.284594289958477,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 310.0,
+      "distance": 304.6976335861391,
+      "animation_time": 1.1745836734771729,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.3012610897421837,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.9999848762016,
+      "distance": 299.53092590525534,
+      "animation_time": 0.006944417953491211,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.3179277926683426,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.9999848762024,
+      "distance": 294.3642482502099,
+      "animation_time": 0.03930502384901047,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.3345945924520493,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 310.0,
+      "distance": 289.19754031726086,
+      "animation_time": 0.07166581600904465,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.351261392235756,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.9999818977644,
+      "distance": 284.03083268601813,
+      "animation_time": 0.10402660816907883,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.3679280914366245,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 310.0,
+      "distance": 278.86415593374886,
+      "animation_time": 0.1363871991634369,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.3845948912203312,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 310.0,
+      "distance": 273.6974480007998,
+      "animation_time": 0.16874799132347107,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.4012616910040379,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 310.0,
+      "distance": 268.53074006785073,
+      "animation_time": 0.20110878348350525,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.4196386896073818,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.9999980590834,
+      "distance": 262.8338705364823,
+      "animation_time": 0.23679015040397644,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.4363053925335407,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.9999865689912,
+      "distance": 257.6671928532237,
+      "animation_time": 0.2691507637500763,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.4743325896561146,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.9999977946671,
+      "distance": 245.87876182908843,
+      "animation_time": 0.3429855704307556,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.4928755909204483,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.99999099494914,
+      "distance": 240.13043160412565,
+      "animation_time": 0.37898924946784973,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.5416982918977737,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.99999457094697,
+      "distance": 224.9953945662158,
+      "animation_time": 0.4737849831581116,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.5741670913994312,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 310.0,
+      "distance": 214.93006672070197,
+      "animation_time": 0.5368274450302124,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.6027559898793697,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 310.0,
+      "distance": 206.06750819192104,
+      "animation_time": 0.5923365354537964,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.6194305904209614,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.99999737643014,
+      "distance": 200.8983820677746,
+      "animation_time": 0.6247124671936035,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.6468790918588638,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 310.0,
+      "distance": 192.38934662202485,
+      "animation_time": 0.6780073642730713,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.6820520907640457,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.99999823198425,
+      "distance": 181.48571702360488,
+      "animation_time": 0.7463003993034363,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.7147079929709435,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.999997046304,
+      "distance": 171.3623874359222,
+      "animation_time": 0.8097061514854431,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.7496728897094727,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.99999722535176,
+      "distance": 160.52326954399342,
+      "animation_time": 0.8775951266288757,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.7770244926214218,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 310.0,
+      "distance": 152.04427264128918,
+      "animation_time": 0.9307018518447876,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.7964114919304848,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.9999948036692,
+      "distance": 146.03430295622093,
+      "animation_time": 0.9683442711830139,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.8170907907187939,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 309.99999644707515,
+      "distance": 139.6237204053171,
+      "animation_time": 1.008495807647705,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.833803091198206,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 310.0,
+      "distance": 134.44290725669936,
+      "animation_time": 1.0409449338912964,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.8505468927323818,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.0,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.8756157904863358,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.025068897753953934,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.925413090735674,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.07486619800329208,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.962497789412737,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.11195089668035507,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.9795598909258842,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.12901300191879272,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 1.996704090386629,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.14615720510482788,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.0146516896784306,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.16410480439662933,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.035890892148018,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.18534401059150696,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.053724490106106,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.20317760109901428,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.0749172903597355,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.22437040507793427,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.091852393001318,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.24130550026893616,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.109135292470455,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.25858840346336365,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.1294627897441387,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2789159119129181,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.167192790657282,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.31664592027664185,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.1838594898581505,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.33331263065338135,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.205968290567398,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.0,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.225624792277813,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.019656501710414886,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.242863889783621,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.03689559921622276,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.2603370919823647,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.05436880141496658,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.2770388908684254,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.071070596575737,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.2996972911059856,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.09372899681329727,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.3169003911316395,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.11093209683895111,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.336095590144396,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.13012729585170746,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.3578470908105373,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.15187880396842957,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.3756673894822598,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.16969910264015198,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.395929589867592,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.1899612993001938,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.414494391530752,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2085261046886444,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.4393331930041313,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.23336490988731384,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.4802069924771786,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2742387056350708,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.880206998437643,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6742386817932129,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 2.896873701363802,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6909053921699524,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.104823399335146,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.8988550901412964,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.157092399895191,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9511240720748901,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.5570924058556557,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3511240482330322,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.5931051038205624,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.387136697769165,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.6111264042556286,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4051580429077148,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.640298705548048,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4343303442001343,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.656990706920624,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4510223865509033,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.677928104996681,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4719598293304443,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.694808706641197,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4888404607772827,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.7509931065142155,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.0,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.76791700348258,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.016923896968364716,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.8142598047852516,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.06326669454574585,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.8442110046744347,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.0932178944349289,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.8608777038753033,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.1098845899105072,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.8815126046538353,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.13051949441432953,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.926796905696392,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.1758037954568863,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.958224304020405,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.20723119378089905,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.9750528037548065,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.22405970096588135,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 3.997983504086733,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2469903975725174,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.0170008055865765,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2660076916217804,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.0346824042499065,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2836892902851105,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.062031704932451,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.3110385835170746,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.1007046066224575,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.34971147775650024,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.1290841065347195,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.0,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.145750805735588,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.016666699200868607,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.162417504936457,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.03333339840173721,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.179084204137325,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.05000009760260582,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.195751305669546,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.06666719913482666,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.212418105453253,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.08333399891853333,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.2290849052369595,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.10000079870223999,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.245751705020666,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.11666759848594666,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.262418504804373,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.13333439826965332,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.2790853045880795,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.15000119805335999,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.295752104371786,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.16666799783706665,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.312418803572655,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.18333469331264496,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.329085603356361,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.20000149309635162,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.34575230628252,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.21666818857192993,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.362419106066227,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2333349883556366,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.393984504044056,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2649003863334656,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.422868005931377,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.29378390312194824,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.439679704606533,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.3105956017971039,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.491548206657171,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.3624641001224518,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.560230504721403,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.43114638328552246,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.627107407897711,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.49802327156066895,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.669141210615635,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.5400570631027222,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.6936882100999355,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.5646040439605713,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.749392710626125,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.620308518409729,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.766195010393858,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6371108293533325,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.800952207297087,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6718680262565613,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.835856709629297,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.70677250623703,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.85976031050086,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.7306761145591736,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.897601008415222,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.7685168385505676,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.931368608027697,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.8022844195365906,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 4.968543708324432,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.8394595384597778,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.00746750831604,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.8783833384513855,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.024679310619831,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.895595133304596,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.046558707952499,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9174745082855225,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.069542709738016,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9404585361480713,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.086952108889818,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9578679203987122,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.111859109252691,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9827749133110046,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.130530707538128,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.0014464855194092,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.15120030939579,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.0221160650253296,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.1733588092029095,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.0442745685577393,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.190091010183096,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.061006784439087,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.209485307335854,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.080401062965393,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.226972509175539,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.0978882312774658,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.248986408114433,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.1199021339416504,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.2660044096410275,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.1369200944900513,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.288411609828472,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.1593272686004639,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.305430807173252,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.1763464212417603,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.342722408473492,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2136380672454834,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.35938910767436,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2303047180175781,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.380035407841206,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2509510517120361,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.403212007135153,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2741276025772095,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.420809909701347,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.291725516319275,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.4449296072125435,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.315845251083374,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.467781510204077,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3386971950531006,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.492804009467363,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3637197017669678,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.512260507792234,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3831762075424194,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.529855407774448,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.400771141052246,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.546522207558155,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4174379110336304,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.563188910484314,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.434104561805725,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.581687808036804,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4526034593582153,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.61639940738678,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.487315058708191,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.646642908453941,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.0,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.664729107171297,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.018086198717355728,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.681602910161018,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.034960001707077026,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.698553409427404,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.05191050097346306,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.715969607234001,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.06932669878005981,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.742466010153294,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.09582310169935226,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.788483209908009,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.14184030890464783,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.8056442104279995,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.15900130569934845,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.838081408292055,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.1914384961128235,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.854748107492924,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2081051915884018,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.87141490727663,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.22477199137210846,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.888081610202789,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.24143868684768677,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.904748309403658,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.25810539722442627,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.921415109187365,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.27477219700813293,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.938081908971071,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2914389967918396,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.954748809337616,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.3081058859825134,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.971415508538485,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.32477259635925293,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 5.988082308322191,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.3414393961429596,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.004749208688736,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.3581062853336334,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.021415907889605,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.0,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.038082607090473,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.016666699200868607,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.055646609514952,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.03423070162534714,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.088070310652256,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.06665439903736115,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.145465508103371,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.1240495964884758,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.162550508975983,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.1411345899105072,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.1845002099871635,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.16308429837226868,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.20191690698266,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.18050099909305573,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.219099409878254,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.19768349826335907,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.236169908195734,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.21475400030612946,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.257732309401035,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.23631639778614044,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.292606607079506,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.27119070291519165,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.322100710123777,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.3006848096847534,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.376336209475994,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.35492029786109924,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.396195009350777,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.3747791051864624,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.44981000944972,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.4283941090106964,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.4666918106377125,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.4452759027481079,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.526348810642958,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.5049328804016113,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.5696147084236145,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.5481987595558167,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.634185805916786,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6127698421478271,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.691907703876495,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6704917550086975,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.7151510044932365,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6937350630760193,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.753910504281521,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.732494592666626,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.784526504576206,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.7631105780601501,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.801508404314518,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.7800924777984619,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.818696305155754,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.7972803711891174,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.846753306686878,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.8253373503684998,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.88525390625,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.8638379573822021,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.937184605747461,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9157686829566956,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.963158704340458,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9417427778244019,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 6.984314605593681,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9628986716270447,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.002111006528139,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9806950688362122,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.020644206553698,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9992282390594482,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.041079804301262,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.0196638107299805,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.057757206261158,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.0363411903381348,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.075511805713177,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.05409574508667,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.0940318033099174,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.0726157426834106,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.114503305405378,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.0930871963500977,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.152980305254459,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.1315641403198242,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.169825904071331,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.1484097242355347,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.1896064057946205,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.1681902408599854,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.2064891047775745,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.185072898864746,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.223965406417847,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2025492191314697,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.24350530654192,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.222089171409607,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.260172005742788,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2387558221817017,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.276838704943657,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2554224729537964,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.296674106270075,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2752578258514404,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.33291120454669,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3114949464797974,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.356307603418827,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3348913192749023,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.372998606413603,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3515822887420654,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.39018090441823,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3687646389007568,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.410605303943157,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3891890048980713,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.430884104222059,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4094678163528442,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.448591206222773,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4271749258041382,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.4727429039776325,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.451326608657837,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.528658404946327,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.0,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.54955380409956,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.020895399153232574,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.566220503300428,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.03756209835410118,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.582887306809425,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.054228901863098145,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.599554006010294,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.07089559733867645,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.616220805794001,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.08756239712238312,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.632887605577707,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.10422919690608978,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.649554304778576,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.12089589238166809,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.666221205145121,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.1375627964735031,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.682888004928827,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.15422959625720978,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.699554804712534,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.17089639604091644,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.716221705079079,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.18756330013275146,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.732888504862785,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.20423009991645813,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.749555304646492,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2208968997001648,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.766930505633354,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.23827210068702698,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.784872803837061,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2562144100666046,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.812731206417084,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2840728163719177,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.8294163048267365,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.30075791478157043,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.84744930639863,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.31879091262817383,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.864116206765175,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.33545780181884766,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.926769405603409,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.0,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.96586150676012,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.03909210115671158,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 7.993943806737661,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.06717440485954285,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.011349506676197,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.08458010852336884,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.038173604756594,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.11140421032905579,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.057614505290985,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.1308451145887375,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.07983760535717,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.15306821465492249,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.09779130667448,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.17102190852165222,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.114543605595827,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.18777421116828918,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.131719805300236,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.20495040714740753,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.148818604648113,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.22204920649528503,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.176646504551172,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.24987711012363434,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.206704303622246,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.27993491291999817,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.230511505156755,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.30374211072921753,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.263750303536654,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.3369809091091156,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.315803203731775,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.38903379440307617,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.354853805154562,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.4280844032764435,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.394543204456568,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.46777379512786865,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.430894203484058,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.5041248202323914,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.481031004339457,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.5542616248130798,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.497899003326893,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.5711296200752258,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.517873603850603,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.5911042094230652,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.53487030416727,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6081008911132812,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.553066704422235,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6262972950935364,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.574189104139805,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6474196910858154,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.590980105102062,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6642106771469116,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.608457706868649,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.6816883087158203,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.637353606522083,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.7105842232704163,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.654020506888628,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.7272511124610901,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.67088170349598,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.7441123127937317,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.69115000590682,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.7643806338310242,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.726236004382372,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.799466609954834,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.759903203696012,
+      "state": "<NLEnemyState.ATTACK: 4>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.8331338167190552,
+      "attack_window": true,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.778604906052351,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.8518354892730713,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.816194403916597,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.8894249796867371,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.832882706075907,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9061132669448853,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.853588905185461,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9268194437026978,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.88820980489254,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9614403247833252,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.915478203445673,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.9887087345123291,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.932252004742622,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.00548255443573,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.951303906738758,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.0245344638824463,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 8.990073803812265,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.0633043050765991,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.017418704926968,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.0906492471694946,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.034085404127836,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.1073158979415894,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.051334906369448,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.1245653629302979,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.095497004687786,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.1687275171279907,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.112614005804062,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.1858445405960083,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.134294804185629,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.207525372505188,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.153257504105568,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2264881134033203,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.174529805779457,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2477604150772095,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.191230803728104,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2644613981246948,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.209399703890085,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.2826303243637085,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.22858140617609,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3018120527267456,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.27477840334177,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3480091094970703,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.316890005022287,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.3901207447052002,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.333556704223156,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.406787395477295,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.350223504006863,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4234541654586792,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.366890206933022,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.440120816230774,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.383557006716728,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4567875862121582,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.400223806500435,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4734543561935425,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.416890606284142,
+      "state": "<NLEnemyState.RECOVER: 5>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 1.4901211261749268,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.433557406067848,
+      "state": "<NLEnemyState.APPROACH: 1>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.0,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.450224205851555,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.016666799783706665,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.466890905052423,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.03333349898457527,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.48355770483613,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.05000029876828194,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.500977706164122,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.06742030382156372,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.517862305045128,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.08430489897727966,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.535031706094742,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.10147430002689362,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.568606305867434,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.13504889607429504,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.626816105097532,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.19325870275497437,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.656696803867817,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.22313940525054932,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.693829104304314,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.26027169823646545,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.725533306598663,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.2919759154319763,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.756688803434372,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.32313141226768494,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.793003104627132,
+      "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.359445720911026,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.833726204931736,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.0,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.86314570531249,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.02941950038075447,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.897862903773785,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.06413669884204865,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.930439904332161,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.09671369940042496,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.958884205669165,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.12515799701213837,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 9.984881203621626,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.1511549949645996,
+      "attack_window": false,
+      "player_health": 100.0
+    },
+    {
+      "t": 10.016883805394173,
+      "state": "<NLEnemyState.TELEGRAPH: 3>",
+      "speed": 0.0,
+      "distance": 129.2523288513686,
+      "animation_time": 0.18315759301185608,
+      "attack_window": false,
+      "player_health": 100.0
+    }
+  ],
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.8d3d8f252a3645d2b6ef2726620056e1",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\01335b56836994cecd7d66ff0d154cd3d62032c1.nlrun",
+    "test_run_ids": [
+      "c52a60b946b18a258ae0a89cccbd2b3e",
+      "f4eb3f1d422e248bb319e386ca3019ed"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\01335b56836994cecd7d66ff0d154cd3d62032c1.nlrun"
+    ],
+    "temporary_assets_removed": true
+  }
+}

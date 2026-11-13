@@ -1,0 +1,30 @@
+{
+  "assets": [
+    "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Native_v07.PHYS_SK_WuxiaMale_Native_v07"
+  ],
+  "properties": {
+    "skeletal_body_setups": {
+      "error": "PhysicsAsset: Failed to find property 'skeletal_body_setups' for attribute 'skeletal_body_setups' on 'PhysicsAsset'"
+    },
+    "SkeletalBodySetups": {
+      "error": "PhysicsAsset: Property 'SkeletalBodySetups' for attribute 'SkeletalBodySetups' on 'PhysicsAsset' is protected and cannot be read"
+    },
+    "constraint_setup": {
+      "error": "PhysicsAsset: Failed to find property 'constraint_setup' for attribute 'constraint_setup' on 'PhysicsAsset'"
+    },
+    "ConstraintSetup": {
+      "error": "PhysicsAsset: Property 'ConstraintSetup' for attribute 'ConstraintSetup' on 'PhysicsAsset' is protected and cannot be read"
+    },
+    "preview_skeletal_mesh": {
+      "error": "PhysicsAsset: Failed to find property 'preview_skeletal_mesh' for attribute 'preview_skeletal_mesh' on 'PhysicsAsset'"
+    },
+    "PreviewSkeletalMesh": {
+      "error": "PhysicsAsset: Property 'PreviewSkeletalMesh' for attribute 'PreviewSkeletalMesh' on 'PhysicsAsset' is protected and cannot be read"
+    }
+  },
+  "methods": [
+    "get_constraint_by_bone_names",
+    "get_constraint_by_name",
+    "get_constraints"
+  ]
+}

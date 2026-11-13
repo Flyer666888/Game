@@ -1,0 +1,453 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "张浩翔的拯救者",
+			"instance": "5116E4B74027944D1D9D489C48C113AB",
+			"instanceName": "张浩翔的拯救者-44496",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9818] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+			"cPUModel": "Intel(R) Core(TM) i9-14900HX",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.11.06-09.29.22",
+	"succeeded": 0,
+	"succeededWithWarnings": 2,
+	"failed": 2,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.18498998880386353,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "CursorReleaseClearsBackwardMovement",
+			"fullTestPath": "Nilin.Desktop.Input.CursorReleaseClearsBackwardMovement",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5116E4B74027944D1D9D489C48C113AB"
+			],
+			"duration": 0.064033299684524536,
+			"dateTime": "2026.11.06-09.29.22",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_1.NilinDesktopInput_34905DFF423F2732441EEE844EAB8B1A:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_1.NilinDesktopInput_34905DFF423F2732441EEE844EAB8B1A:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_1.NilinDesktopInput_34905DFF423F2732441EEE844EAB8B1A:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FocusedSameFrameReleaseWithAttack",
+			"fullTestPath": "Nilin.Desktop.Input.FocusedSameFrameReleaseWithAttack",
+			"tags": [],
+			"state": "Fail",
+			"deviceInstance": [
+				"5116E4B74027944D1D9D489C48C113AB"
+			],
+			"duration": 0.071257099509239197,
+			"dateTime": "2026.11.06-09.29.22",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_2.NilinDesktopInput_D3A36496417338232678B999CE39FCB2:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_2.NilinDesktopInput_D3A36496417338232678B999CE39FCB2:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_2.NilinDesktopInput_D3A36496417338232678B999CE39FCB2:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'A released S cannot keep translating the player after the attack' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 240,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Released-key input leaves no backward walking velocity' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 241,
+					"timestamp": "2026.11.06-09.29.22"
+				}
+			],
+			"warnings": 3,
+			"errors": 2,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LatestMovementEventWinsAcrossFrameRates",
+			"fullTestPath": "Nilin.Desktop.Input.LatestMovementEventWinsAcrossFrameRates",
+			"tags": [],
+			"state": "Fail",
+			"deviceInstance": [
+				"5116E4B74027944D1D9D489C48C113AB"
+			],
+			"duration": 0.03333519771695137,
+			"dateTime": "2026.11.06-09.29.22",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_3.NilinDesktopInput_EF6083954B34193ABAA88590F7A4EB89:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_3.NilinDesktopInput_EF6083954B34193ABAA88590F7A4EB89:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_3.NilinDesktopInput_EF6083954B34193ABAA88590F7A4EB89:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: W dt=0.0667' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: A dt=0.0667' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: S dt=0.0667' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: D dt=0.0667' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: W dt=0.0333' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: A dt=0.0333' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: S dt=0.0333' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: D dt=0.0333' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: W dt=0.0167' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: A dt=0.0167' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: S dt=0.0167' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: D dt=0.0167' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: W dt=0.0083' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: A dt=0.0083' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: S dt=0.0083' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Final key-up cannot queue locomotion: D dt=0.0083' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 264,
+					"timestamp": "2026.11.06-09.29.22"
+				}
+			],
+			"warnings": 3,
+			"errors": 16,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RecaptureRearmsWalkingAndPreservesHeldMoveOnSlash",
+			"fullTestPath": "Nilin.Desktop.Input.RecaptureRearmsWalkingAndPreservesHeldMoveOnSlash",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"5116E4B74027944D1D9D489C48C113AB"
+			],
+			"duration": 0.016364399343729019,
+			"dateTime": "2026.11.06-09.29.22",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_4.NilinDesktopInput_DEBB28C248DE9CFFA5AA4BA65977590E:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_4.NilinDesktopInput_DEBB28C248DE9CFFA5AA4BA65977590E:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_4.NilinDesktopInput_DEBB28C248DE9CFFA5AA4BA65977590E:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-09.29.22"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

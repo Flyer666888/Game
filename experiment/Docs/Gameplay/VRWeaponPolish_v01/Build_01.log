@@ -1,0 +1,169 @@
+Log started at 10/26/2026 22:41:12 (2026-10-26T14:41:12Z)
+Resolved project argument D:\game design\experiment\experiment.uproject to D:\game design\experiment\experiment.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\game design\experiment\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\game design\experiment\Intermediate\Build\XmlConfigCache.bin): D:\game design\experiment\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\game design\experiment\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: D:\game design\experiment\Docs\Gameplay\VRWeaponPolish_v01\Build_01.log
+
+Setting temp directory to 'C:\Users\21475\AppData\Local\Temp\UnrealBuildTool\d662bf54'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: D:\浏览器下载\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll experimentEditor Win64 Development "-Project=D:\game design\experiment\experiment.uproject" -WaitMutex -NoHotReloadFromIDE -NoUBA -MaxParallelActions=8 "-Log=D:\game design\experiment\Docs\Gameplay\VRWeaponPolish_v01\Build_01.log"
+Executing up to 8 actions based on MaxProcessorCount override
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Skipping D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Invalidating makefile for experimentEditor (source file added)
+Skipping D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Compiler: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe
+Linker: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Library Manager: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe
+Resource Converter: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cvtres.exe
+Using EngineIncludeOrderVersion.Unreal5_8 for target experimentEditor.Target.cs
+Building UnrealEditor - experimentEditor - Win64 - Development
+VerseVMBytecodeGenerator.Generate, generating CPP headers in: 'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodeOps.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodesAndCaptures.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMMakeCapturesFuncs.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMCaptureSwitch.gen.h'
+Found 5 shared PCH headers (listed in order of preference):
+	UnrealEd
+	Engine
+	Slate
+	CoreUObject
+	Core
+UnrealHeaderTool needs to run because SavedTimestamp is older than HeaderFileTimestamp (D:\game design\experiment\Source\experiment\Public\Player\NLVRPlayerCharacter.h) for module experiment
+Parsing headers for experimentEditor
+  Running Internal UnrealHeaderTool "D:\game design\experiment\experiment.uproject" "D:\game design\experiment\Intermediate\Build\Win64\experimentEditor\experimentEditor.uhtmanifest" -WarningsAsErrors -installed
+UHT compiled-in object format Default
+Step - Parse Headers
+Updating D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.lib.rsp: contents have changed. Saving previous version to D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.lib.rsp.old.
+Updating D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.dll.rsp: contents have changed. Saving previous version to D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.dll.rsp.old.
+Reading engine version from file: D:\浏览器下载\UE_5.8\Engine\Source\Runtime\Launch\Resources\Version.h
+Got engine version 5.8.2
+Step - Populate symbol table
+Step - Exports
+       Exporter Stats skipped
+       Exporter Json skipped
+       Running exporter CodeGen
+UHT processed experimentEditor in 5.1861418 seconds (2 generated files written)
+Deleting outdated item: D:\game design\experiment\Binaries\Win64\UnrealEditor-experiment.pdb
+Deleting outdated item: D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.lib
+Building experimentEditor...
+===== Toolchain Information =====
+Using ISPC compiler (D:\浏览器下载\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35229 toolchain (D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from experiment unity file: experiment.cpp, NLAttackDirectorSubsystem.cpp, NLEnemyAttackWindowNotifyState.cpp, NLEnemyBrainComponent.cpp, NLEnemyCharacter.cpp, NLGuardCaptainCharacter.cpp, NLTalismanAttackComponent.cpp, NLDeathBlendAnimInstance.cpp, NLBlockoutMeshCluster.cpp, NLBlockoutPlayer.cpp, NLAbilityComponent.cpp, NLBladeComponent.cpp, NLCombatIdentityComponent.cpp, NLCombatProjectile.cpp, NLCombatRecoveryComponent.cpp, NLCombatResolverSubsystem.cpp, NLCombatVitalsComponent.cpp, NLGuardComponent.cpp, NLTrainingEnemy.cpp, NLTrainingProjectileEmitter.cpp, NLEncounterController.cpp, NLLevelEncounterDirector.cpp, NLRitualLabController.cpp, NLRitualObjective.cpp, NLHealingPickup.cpp, NLCombatLabHUD.cpp, NLDesktopPlayerCharacter.cpp, NLLevelCombatPlayer.cpp, NLVRGameMode.cpp, NLVRPlayerCharacter.cpp, NLMasterRewardSubsystem.cpp, NLRunStateSubsystem.cpp, NLCheckpointService.cpp, NLAbilityTests.cpp, NLBladeQiGestureTests.cpp, NLBladeQiMotionTests.cpp, NLBladeQiProjectileTests.cpp, NLCombatRecoveryTests.cpp, NLEnemyAnimationTransitionTests.cpp, NLFourSealTests.cpp, NLLevelEncounterTests.cpp, NLLingQiProgressionTests.cpp, NLMasterRewardTests.cpp, NLProgressionDamageTests.cpp, NLRitualObjectiveTests.cpp, NLVRWeaponGripTests.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 10 action(s)
+  CPU 24 physical cores, 24 logical cores
+  Memory 31.73 GB physical, 19.7 GB/33.73 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 1547992475 used. Action: Compile [x64] Module.experiment.cpp ()
+Cache bucket 416513229 used. Action: Link [x64] UnrealEditor-experiment.dll ()
+All processes queued
+[1/10] Compile [x64] NLBladeQiProjectileTests.cpp [NoUba]
+[2/10] Compile [x64] NLCombatLabHUD.cpp [NoUba]
+[3/10] Compile [x64] Module.experiment.cpp [NoUba]
+[4/10] Compile [x64] NLVRGameMode.cpp [NoUba]
+[5/10] Compile [x64] NLDesktopPlayerCharacter.cpp [NoUba]
+ Compile [x64] NLVRWeaponGripTests.cpp [NoUba]: Exited with error code 2 . The build will fail.
+ Compile [x64] NLVRWeaponGripTests.cpp [NoUba]: WorkingDirectory D:\浏览器下载\UE_5.8\Engine\Source
+ Compile [x64] NLVRWeaponGripTests.cpp [NoUba]: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe @"D:/game design/experiment/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/NLVRWeaponGripTests.cpp.obj.rsp" 
+[6/10] Compile [x64] NLVRWeaponGripTests.cpp [NoUba]
+D:\game design\experiment\Source\experiment\Private\Tests\NLVRWeaponGripTests.cpp(81,13): error C2672: ﾡﾰFAutomationTestBase::TestNotNullﾡﾱ: ￎﾴￕￒﾵﾽￆﾥￅ￤ﾵￄￖ￘ￔ￘ﾺﾯￊ�
+        || !TestNotNull(TEXT("Actual equipped sword loaded"), Player->HeldWeapon->GetStaticMesh())) return false;
+            ^
+D:\￤ﾯ￀￀ￆ￷ￏￂￔ￘\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\AutomationTest.h(2459,36): note: ﾿￉ￄￜￊￇﾡﾰbool FAutomationTestBase::TestNotNull(const FString &,const ValueType *)ﾡﾱ
+	template<typename ValueType> bool TestNotNull(const FString& What, const ValueType* Pointer)
+	                                  ^
+D:\game design\experiment\Source\experiment\Private\Tests\NLVRWeaponGripTests.cpp(81,13): note: ﾡﾰbool FAutomationTestBase::TestNotNull(const FString &,const ValueType *)ﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰTObjectPtr<UStaticMesh>ﾡﾱￍￆﾵﾼﾳ￶ﾡﾰconst ValueType *ﾡﾱﾵￄ ￄﾣﾰ￥ ﾲￎￊ�
+        || !TestNotNull(TEXT("Actual equipped sword loaded"), Player->HeldWeapon->GetStaticMesh())) return false;
+            ^
+D:\￤ﾯ￀￀ￆ￷ￏￂￔ￘\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\AutomationTest.h(2449,14): note: ﾻ￲    ﾡﾰbool FAutomationTestBase::TestNotNull(const TCHAR *,const ValueType *)ﾡﾱ
+	inline bool TestNotNull(const TCHAR* What, const ValueType* Pointer)
+	            ^
+D:\game design\experiment\Source\experiment\Private\Tests\NLVRWeaponGripTests.cpp(81,13): note: ﾡﾰbool FAutomationTestBase::TestNotNull(const TCHAR *,const ValueType *)ﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰTObjectPtr<UStaticMesh>ﾡﾱￍￆﾵﾼﾳ￶ﾡﾰconst ValueType *ﾡﾱﾵￄ ￄﾣﾰ￥ ﾲￎￊ�
+        || !TestNotNull(TEXT("Actual equipped sword loaded"), Player->HeldWeapon->GetStaticMesh())) return false;
+            ^
+[7/10] Compile [x64] NLVRPlayerCharacter.cpp [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 12.34 seconds
+CompilationResultException: OtherCompilationError
+   at UnrealBuildTool.ActionGraph.InternalExecuteActions(ActionExecutor Executor, List`1 ActionsToExecute, ILogger Logger)
+   at UnrealBuildTool.ActionGraph.ExecuteActionsAsync(BuildConfiguration BuildConfiguration, List`1 ActionsToExecute, List`1 TargetDescriptors, ILogger Logger, ActionExecutor executor)
+   at UnrealBuildTool.BuildMode.BuildAsync(List`1 Targets, BuildConfiguration BuildConfiguration, BuildOptions Options, FileReference WriteOutdatedActionsFile, CppDependencyCache cppDependencyCache, ILogger Logger, String ActionTypeFilter, ActionExecutor executor)
+   at UnrealBuildTool.BuildMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+   at UnrealBuildTool.BuildMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.194 Main
+   0.009          [  0.009]  +0.054 Apply XmlConfig
+   0.069          [  0.069]  +0.029 AddTelemetry
+   0.113          [  0.113]  +0.081 RegisterPlatforms
+[  0.220]  +0.017 ParseCommandLine
+[  0.422]  +0.078 LoadMakefile
+   0.434          [  0.011]  +0.026 EngineRulesPlugins
+   0.462          [  0.039]  +0.011 EngineRulesFetchDirs
+   0.479          [  0.057]  +0.419 EngineRulesAssembly
+   0.505             0.082          [  0.025]  +0.000 FindPlugins
+   0.509             0.086          [  0.029]  +0.048 MakefileValid
+   0.558             0.135          [  0.078]  +0.341 <unknown>
+[  0.501]  +0.398 <unknown>
+[  0.899]  +0.437 ProgramRulesAssembly
+[  1.337]  +0.027 ProjectRulesAssembly
+[  1.364]  +0.152 CreateTargetRules
+[  1.551]  +0.009 CppDependencyCache
+[  1.568]  +1.364 experimentEditor Win64 Development
+   1.568          [  0.000]  +0.519 <unknown>
+   2.088          [  0.519]  +0.039 UHTModules
+   2.208          [  0.639]  +0.183 UHTManifest
+   2.391          [  0.823]  +5.190 UHT
+   2.391             0.823          [  0.000]  +0.523 <unknown>
+   2.915             1.346          [  0.523]  +0.000 WaitOnWrites
+   2.933             1.364          [  0.541]  +0.108 SavingMakefile
+   3.042             1.473          [  0.650]  +4.539 <unknown>
+[  2.932]  +4.649 <unknown>
+[  7.582]  +0.010 UHTTimestamps
+[  7.597]  +0.008 CppDependencyCache
+[  7.606]  +0.056 Preparing ActionGraph
+   7.614          [  0.008]  +0.003 LinkActions
+   7.617             0.011          [  0.003]  +0.000 DetectActionGraphCycles
+   7.618          [  0.012]  +0.000 GatherPrerequisiteActions
+   7.619          [  0.013]  +0.000 CppDependencyCacheWait
+   7.619          [  0.013]  +0.031 GatherOutdatedActions
+   7.653          [  0.047]  +0.002 LinkActions
+   7.653             0.047          [  0.000]  +0.000 DetectActionGraphCycles
+   7.656          [  0.050]  +0.002 DeleteOutdatedProducedItems
+   7.658          [  0.052]  +0.002 SaveActionHistory
+   7.662          [  0.055]  +0.000 CreateDirectoriesForProducedItems
+[  7.672]  +0.190 GarbageCollect
+[  7.862] +12.154 <unknown>
+[ 20.016]  +0.000 DisconnectCache
+[ 20.021]  +0.000 SaveCasTable
+[ 20.024]  +0.074 Saving caches
+[ 20.123]  +0.001 TelemetryService.FlushEvents
+[ 20.125]
+
+Result: Failed (OtherCompilationError)
+Total execution time: 20.13 seconds

@@ -1,0 +1,43 @@
+OBJ-01 integration handoff — 2026-10-25
+
+Implemented source
+- Objective/NLRitualObjective: independent Integrity resource, 0–100 rescue progress, default 240 effective combat seconds.
+- Transient stable-ID interference sources, death/destruction cleanup, explicit interruption/removal.
+- Separate required-threat registration. An owner may also register already flying ANLCombatProjectile instances; reflected/player shots cease to count.
+- CompletionPending is announced at 100%; final completion waits until a later game frame and no required living threats. Zero integrity on the 100%-candidate frame wins failure regardless of progress/damage call order.
+- Failure/completion events fire once per encounter. Restoring a terminal snapshot does not replay reward events.
+- World pause and local SetCombatPaused freeze progress; the resolver's objective gate rejects local paused/restoring/inactive/terminal targets.
+- AllowedAttackDefinitionIds is an explicit enemy attack whitelist. Player friendly fire is rejected centrally by the combat resolver.
+- Ritual damage uses the common vitals/resolver pipeline, its own 0-second damage protection, Outcome RitualDamaged and Combat.RitualDamaged feedback.
+
+Snapshot contract
+CaptureObjectiveSnapshot returns the already supported FNLObjectiveSnapshot schema. No arbitrary actor references or projectiles are serialized.
+RestoreObjectiveSnapshot first validates objective ID, finite bounds, terminal consistency and unique stable source IDs; an invalid restore leaves the objective unchanged.
+For a snapshot with interference IDs, progress and damage remain frozen until the wave owner rebinds reconstructed live actors with RegisterInterferenceSource and calls FinishSourceRebuild. FinishSourceRebuild returns the count of absent IDs explicitly discarded. Missing/dead actors never become permanent ghost interference.
+Required threats are transient encounter state and must be reconstructed by the encounter owner, not restored as arbitrary projectile state.
+
+Main-level integration still required outside this isolated OBJ-01 slice
+1. The main DesktopPlayer checkpoint preflight still contains CheckpointObjectiveUnsupported. Do not claim that main Level 02 checkpoints already restore objective state.
+2. At an objective stage entry, find the expected ObjectiveStableId, initialize its configured resources, and capture its entrance snapshot with the player/wave entrance. At retry, reset attacks/projectiles, restore the objective scalar state, reconstruct actors, bind live source IDs and required threats, then FinishSourceRebuild.
+3. Preflight a candidate objective snapshot before mutating the player/wave. The actor currently exposes an atomic validating restore; factoring the same validation into a public pure CanRestoreObjectiveSnapshot method would avoid duplicate preflight rules.
+4. OnCompletionPending stops later wave generation. It must not immediately announce rescue. OnRescueCompleted advances the rescue narrative; OnObjectiveFailed enters failure/retry. Interference must not be modeled as an ordinary kill-count stage.
+5. ENEMY-03 will call RegisterInterferenceSource while channeling and remove its ID on interrupt/leave/death; the objective already automatically handles death/destruction. The stationary lab targets are explicitly not that AI.
+
+Isolated lab
+Scripts/Editor/RitualObjectiveV01/create_lab.py authors L_RitualObjectiveV01 as an independent copy of L_CombatLabLite, with no old encounter/level director or real save context. It uses two stationary interference targets plus one real hostile projectile launcher.
+F5 begins; F6 performs a full lab retry and unpauses. These keys do not compete with the player's G/R input bindings. Production default is 240 seconds; the lab explicitly accelerates effective progress to 30 seconds.
+The lab has its own HUD showing integrity/progress/source/threat counts, so it does not display the old lab's conflicting G/R instructions.
+
+Validation status at handoff
+- Native source and 7 focused automation test groups authored; root owns compilation/execution.
+- Both Python scripts pass local py_compile.
+- runtime_probe.py is prepared but not executed by this agent. It uses real native hostile projectiles for objective damage/failure and explicit genuine resolver contacts for source defeats; it does not claim manual play, controller input or VR acceptance.
+- No UE calls, C++ compile, main map mutation or save writes were performed by this child agent.
+
+Root verification closure — 2026-10-26
+- Development editor build succeeded and all 46 Nilin native automation tests passed (including all 7 ritual groups); see ../GDDSession25/Automation_01/index.json.
+- create_lab.py executed successfully and saved the independent map, game mode and hostile attack definition. The original L_CombatLabLite hash stayed unchanged; see LabAuthored.json.
+- runtime_probe.py passed all 8 runtime checks using real hostile swept projectiles, real resolver contacts and the saved lab. See RuntimeProbe.json. PIE ended cleanly; no runtime probe changes were saved to assets.
+- LabPreview.png was captured in UE and visually inspected: the objective HUD displays integrity, rescue progress, interference and remaining threats.
+- Standalone desktop launcher: experiment/Run_RitualObjective_Demo.cmd. F5 starts, F6 fully resets, P pauses. The launcher has a checked UTF-8 BOM and valid PowerShell syntax; its independent game process has not been manually played through.
+- Main-level integration boundaries above still apply. This closure does not claim ENEMY-03, Level 02, objective checkpoint integration, manual full playthrough or physical VR acceptance.

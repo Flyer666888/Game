@@ -1,0 +1,39 @@
+{
+  "state": "passed",
+  "enemies": [
+    {
+      "enemy": "sword",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword",
+      "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Upright_v01.Wuxia_Attack_Sword_Upright_v01",
+      "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Compact_v03.Wuxia_Attack_Sword_Compact_v03",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v03\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_sword.uasset",
+      "backup_sha256": "2529cc46533c01d54025592a4dde13b17e7a0bab0c56875688ffdcf53c60a177"
+    },
+    {
+      "enemy": "GM01",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM01",
+      "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Upright_v01.Wuxia_Attack_Sword_Upright_v01",
+      "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Compact_v03.Wuxia_Attack_Sword_Compact_v03",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v03\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM01.uasset",
+      "backup_sha256": "2c69c6a3853d5a02873804557c73a2770a504d10dbc7ba12252a5fcd133f18e6"
+    },
+    {
+      "enemy": "GM04",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM04",
+      "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Upright_v01.Wuxia_Attack_Sword_Upright_v01",
+      "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Compact_v03.Wuxia_Attack_Sword_Compact_v03",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v03\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM04.uasset",
+      "backup_sha256": "22840d4144f9511c8d786f6ae64a4cf2f6e64cdc7754ca3e31358148e98fb856"
+    },
+    {
+      "enemy": "boss",
+      "blueprint": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_boss",
+      "from": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Upright_v01.Wuxia_Attack_Sword_Upright_v01",
+      "to": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Compact_v03.Wuxia_Attack_Sword_Compact_v03",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v03\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_boss.uasset",
+      "backup_sha256": "1fd6a4dec47bf7a09ebe3e429101e299e16ba89a570acaa9f17665f04789abaa"
+    }
+  ],
+  "notifies_preserved": true,
+  "scope": "Only attack_animation defaults on four sword-using Gameplay/V01 enemies. No caster, timing, damage, range, other motion, mesh or map changes."
+}

@@ -1,0 +1,67 @@
+{
+  "completed_at": "2026-10-23T23:51:45.596157+08:00",
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "source_v10_preserved": true,
+  "source_v10_sha256": "701a12f8a896e938ad76cb5ab68e7cf65d635a5c9d6b2699375bdc9a3538e248",
+  "build": "Succeeded",
+  "automation": {
+    "passed": 27,
+    "failed": 0,
+    "passed_with_fixture_warnings": 3
+  },
+  "saved_navigation_paths_passed": 67,
+  "cold_pie_feet_projections_passed": 67,
+  "cold_pie_navigation_checked_at_game_seconds": 0.9965934008359909,
+  "completed_stages": 16,
+  "completed_waves": 27,
+  "resolved_enemy_defeats": 109,
+  "max_alive_observed": 4,
+  "perfect_parry_recovery": true,
+  "retry": true,
+  "one_shot_master_rewards_verified": 4,
+  "real_rock_ai": {
+    "observed_game_seconds": 12.004339188337326,
+    "projectiles": 4,
+    "passed": true
+  },
+  "navigation": "Static baked; force rebuild on load disabled only in this map",
+  "global_engine_config_unchanged_during_bake": true,
+  "desktop_launch": {
+    "pid": 79548,
+    "process": "UnrealEditor",
+    "launched_at": "2026-10-23T23:48:54.0449124+08:00",
+    "log": "D:\\game design\\experiment\\Saved\\GameplayRuntime\\Logs\\Gameplay_20261023_234853_940.log",
+    "entry": "Run_Gameplay_Demo.ps1",
+    "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+    "headset_required": false,
+    "verified_at": "2026-10-23T23:51:00.3887678+08:00",
+    "responding": true,
+    "window_title": "experiment （64-位 Development PCD3D_SM6） ",
+    "first_stage_spawned": true,
+    "fatal_or_navigation_failure": false
+  },
+  "scope": [
+    "The actual saved gameplay map, possessed level player and finite encounter director run in PIE.",
+    "Stage entries use explicit setup teleports; this is not a continuous traversal test.",
+    "R01's two actual rock casters run live AI for 12 game seconds, observing Telegraph/Attack, emitted projectiles and stationary feet.",
+    "Other enemy AI is locally paused for deterministic orchestration/reward checks; automatic health protection may assist the R01 observation.",
+    "Defeats use Resolver.ResolveContact with a transient 999-damage test definition.",
+    "Perfect parries use live spawned enemies and Resolver.ResolveGuardContact, with real release/rearm timing.",
+    "No combat/death/reward delegates are broadcast manually and no stage-completion state is written.",
+    "This does not verify human combat, AI attack readability, VR gestures, headset performance or difficulty balance."
+  ],
+  "limitations": [
+    "VR headset and controller acceptance testing remains pending.",
+    "Masters and boss use existing combat templates with configured stats; unique skills/phases are not implemented.",
+    "This is not a complete manual uninterrupted playthrough or combat difficulty/performance certification."
+  ],
+  "evidence": [
+    "Build.log",
+    "Automation/index.json",
+    "MapValidation.json",
+    "RuntimeIntegration.json",
+    "StaticNavigationBake.json",
+    "DesktopLaunch.json",
+    "Screenshots/Gameplay_R01.png"
+  ]
+}

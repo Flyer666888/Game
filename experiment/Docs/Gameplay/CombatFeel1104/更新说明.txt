@@ -1,0 +1,11 @@
+2026-11-04 战斗手感更新
+
+主关卡四类剑敌：追速由约123cm/s调整为285–310cm/s；步幅与播放速度匹配；加入胸胯带动、重心转移、连续挥砍与回收。保留原攻击距离和伤害窗口。
+横向剑气：右扳机配合左右横挥；连续横移10cm识别，排除直刺、竖砍、追踪跳变和行走造成的位移；约190cm宽水平弯月，视觉与分段碰撞一致；保留墙和盾牌阻挡；补齐近身发射路径。
+头显UI：头部固定双眼合成层，视野下沿显示生命、护盾、剑气冷却与技能状态；无头显时显示相同纹理供预览。
+
+验证：Editor编译成功；90项自动化测试全部通过（23项含测试夹具警告，0失败）。真实关卡中敌人追速310cm/s，玩家以180cm/s退行约3.5米后敌人恢复追击并再次进入攻击距离。正常攻击连续命中，玩家生命100降至60；横向剑气真实造成10伤害。测试使用独立存档身份，已清理测试存档，未保存测试场景改动。
+图片为实际Unreal运行截图。EnemyChase/EnemyWindup/EnemyStrike/EnemyRecovery是动作阶段；HorizontalSwordQi是飞行中短暂停留取图后恢复并命中；HeadsetHUD是同一UI纹理的桌面预览，尚未验证实体头显双眼观感和真实手柄输入。
+
+启动：继续使用项目根目录 Run_Gameplay_VR.cmd。
+备份：本目录 Backups。详细结果：DeliveryVerification.json、MotionRuntime.json、QiRuntime.json、HUDRuntime.json、Automation/index.json。

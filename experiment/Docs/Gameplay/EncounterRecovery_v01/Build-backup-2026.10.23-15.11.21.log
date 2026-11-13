@@ -1,0 +1,250 @@
+Log started at 10/23/2026 23:11:21 (2026-10-23T15:11:21Z)
+Resolved project argument D:\game design\experiment\experiment.uproject to D:\game design\experiment\experiment.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\game design\experiment\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\game design\experiment\Intermediate\Build\XmlConfigCache.bin): D:\game design\experiment\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\game design\experiment\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: D:\game design\experiment\Docs\Gameplay\EncounterRecovery_v01\Build.log
+
+Setting temp directory to 'C:\Users\21475\AppData\Local\Temp\UnrealBuildTool\d662bf54'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: D:\浏览器下载\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll experimentEditor Win64 Development "-Project=D:\game design\experiment\experiment.uproject" -NoHotReloadFromIDE -NoUBA -MaxParallelActions=4 -WaitMutex "-Log=D:\game design\experiment\Docs\Gameplay\EncounterRecovery_v01\Build.log"
+Executing up to 4 actions based on MaxProcessorCount override
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Skipping D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Invalidating makefile for experimentEditor (source file added)
+Compiler: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe
+Linker: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Library Manager: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe
+Resource Converter: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cvtres.exe
+Using EngineIncludeOrderVersion.Unreal5_8 for target experimentEditor.Target.cs
+Building UnrealEditor - experimentEditor - Win64 - Development
+VerseVMBytecodeGenerator.Generate, generating CPP headers in: 'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodeOps.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodesAndCaptures.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMMakeCapturesFuncs.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMCaptureSwitch.gen.h'
+UnrealHeaderTool needs to run because module experiment had different hash than what was found in timestamps file
+Found 5 shared PCH headers (listed in order of preference):
+	UnrealEd
+	Engine
+	Slate
+	CoreUObject
+	Core
+Parsing headers for experimentEditor
+  Running Internal UnrealHeaderTool "D:\game design\experiment\experiment.uproject" "D:\game design\experiment\Intermediate\Build\Win64\experimentEditor\experimentEditor.uhtmanifest" -WarningsAsErrors -installed
+UHT compiled-in object format Default
+Step - Parse Headers
+Updating D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\Module.experiment.cpp: contents have changed. Saving previous version to D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\Module.experiment.cpp.old.
+Updating D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\LiveCodingInfo.json: contents have changed. Saving previous version to D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\LiveCodingInfo.json.old.
+Updating D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.lib.rsp: contents have changed. Saving previous version to D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.lib.rsp.old.
+Updating D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.dll.rsp: contents have changed. Saving previous version to D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.dll.rsp.old.
+Reading engine version from file: D:\浏览器下载\UE_5.8\Engine\Source\Runtime\Launch\Resources\Version.h
+Got engine version 5.8.2
+Step - Populate symbol table
+Step - Exports
+       Exporter Stats skipped
+       Exporter Json skipped
+       Running exporter CodeGen
+UHT processed experimentEditor in 5.7241755 seconds (24 generated files written)
+Deleting outdated item: D:\game design\experiment\Binaries\Win64\UnrealEditor-experiment.pdb
+Deleting outdated item: D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.lib
+Building experimentEditor...
+===== Toolchain Information =====
+Using ISPC compiler (D:\浏览器下载\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35229 toolchain (D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from experiment unity file: experiment.cpp, NLAttackDirectorSubsystem.cpp, NLEnemyAttackWindowNotifyState.cpp, NLEnemyBrainComponent.cpp, NLEnemyCharacter.cpp, NLGuardCaptainCharacter.cpp, NLTalismanAttackComponent.cpp, NLDeathBlendAnimInstance.cpp, NLBlockoutMeshCluster.cpp, NLBlockoutPlayer.cpp, NLBladeComponent.cpp, NLCombatIdentityComponent.cpp, NLCombatProjectile.cpp, NLCombatRecoveryComponent.cpp, NLCombatResolverSubsystem.cpp, NLCombatVitalsComponent.cpp, NLGuardComponent.cpp, NLTrainingEnemy.cpp, NLTrainingProjectileEmitter.cpp, NLEncounterController.cpp, NLLevelEncounterDirector.cpp, NLHealingPickup.cpp, NLCombatLabHUD.cpp, NLDesktopPlayerCharacter.cpp, NLLevelCombatPlayer.cpp, NLVRGameMode.cpp, NLVRPlayerCharacter.cpp, NLMasterRewardSubsystem.cpp, NLRunStateSubsystem.cpp, NLCheckpointService.cpp, NLBladeQiGestureTests.cpp, NLBladeQiMotionTests.cpp, NLBladeQiProjectileTests.cpp, NLCombatRecoveryTests.cpp, NLLevelEncounterTests.cpp, NLMasterRewardTests.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 31 action(s)
+  CPU 24 physical cores, 24 logical cores
+  Memory 31.73 GB physical, 25.57 GB/33.73 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 1547992475 used. Action: Compile [x64] Module.experiment.cpp ()
+Cache bucket 416513229 used. Action: Link [x64] UnrealEditor-experiment.dll ()
+All processes queued
+[1/31] Compile [x64] Module.experiment.cpp [NoUba]
+[2/31] Compile [x64] NLAttackDirectorSubsystem.cpp [NoUba]
+[3/31] Compile [x64] NLBladeQiProjectileTests.cpp [NoUba]
+[4/31] Compile [x64] NLCheckpointService.cpp [NoUba]
+[5/31] Compile [x64] NLCombatLabHUD.cpp [NoUba]
+[6/31] Compile [x64] NLCombatProjectile.cpp [NoUba]
+[7/31] Compile [x64] NLCombatRecoveryComponent.cpp [NoUba]
+[8/31] Compile [x64] NLCombatRecoveryTests.cpp [NoUba]
+[9/31] Compile [x64] NLCombatResolverSubsystem.cpp [NoUba]
+[10/31] Compile [x64] NLCombatVitalsComponent.cpp [NoUba]
+[11/31] Compile [x64] NLDesktopPlayerCharacter.cpp [NoUba]
+[12/31] Compile [x64] NLEncounterController.cpp [NoUba]
+[13/31] Compile [x64] NLEnemyBrainComponent.cpp [NoUba]
+[14/31] Compile [x64] NLEnemyCharacter.cpp [NoUba]
+[15/31] Compile [x64] NLGuardCaptainCharacter.cpp [NoUba]
+[16/31] Compile [x64] NLGuardComponent.cpp [NoUba]
+[17/31] Compile [x64] NLHealingPickup.cpp [NoUba]
+[18/31] Compile [x64] NLLevelCombatPlayer.cpp [NoUba]
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(31,27): error C2248: ﾡﾰUCharacterMovementComponent::WalkableFloorAngleﾡﾱ: ￎ￞ﾷﾨﾷￃￎￊ private ﾳ￉ￔﾱ(ￔￚﾡﾰUCharacterMovementComponentﾡﾱ￀￠ￖ￐￉￹ￃ￷)
+    GetCharacterMovement()->WalkableFloorAngle = 50.0f;
+                          ^
+D:\￤ﾯ￀￀ￆ￷ￏￂￔ￘\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\CharacterMovementComponent.h(184,8): note: ﾲￎﾼ￻ﾡﾰUCharacterMovementComponent::WalkableFloorAngleﾡﾱﾵￄ￉￹ￃ￷
+	float WalkableFloorAngle;
+	      ^
+D:\￤ﾯ￀￀ￆ￷ￏￂￔ￘\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\CharacterMovementComponent.h(136,7): note: ﾲￎﾼ￻ﾡﾰUCharacterMovementComponentﾡﾱﾵￄ￉￹ￃ￷
+class UCharacterMovementComponent : public UPawnMovementComponent, public IRVOAvoidanceInterface, public INetworkPredictionInterface
+      ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,37): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                    ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,33): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,29): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                            ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,57): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                        ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,53): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                    ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,49): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,78): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                                             ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,74): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                                         ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,70): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                                     ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,97): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                                                                ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,93): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                                                            ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,89): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                                                        ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,125): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                                                                                            ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,120): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                                                                                       ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,115): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                                                                                  ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(164,110): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    const FLinearColor Pale(.91,.93,.87,1),Gold(.86,.74,.44,1),Green(.28,.85,.58,1),Red(.86,.24,.20,1),Panel(.015,.025,.028,.78);
+                                                                                                             ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(170,35): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    DrawRect(FLinearColor(.13,.13,.13,1),42,85,350,16);
+                                  ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(170,31): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    DrawRect(FLinearColor(.13,.13,.13,1),42,85,350,16);
+                              ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(170,27): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    DrawRect(FLinearColor(.13,.13,.13,1),42,85,350,16);
+                          ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(177,81): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    for(int32 I=0;I<Required;++I) DrawRect(I<Charges?Green:FLinearColor(.20,.24,.23,1),160+I*38,153,26,12);
+                                                                                ^
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(177,77): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    for(int32 I=0;I<Required;++I) DrawRect(I<Charges?Green:FLinearColor(.20,.24,.23,1),160+I*38,153,26,12);
+                                                                            ^
+ Compile [x64] NLLevelCombatPlayer.cpp [NoUba]: Exited with error code 2 . The build will fail.
+ Compile [x64] NLLevelCombatPlayer.cpp [NoUba]: WorkingDirectory D:\浏览器下载\UE_5.8\Engine\Source
+ Compile [x64] NLLevelCombatPlayer.cpp [NoUba]: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe @"D:/game design/experiment/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/NLLevelCombatPlayer.cpp.obj.rsp" 
+D:\game design\experiment\Source\experiment\Private\Player\NLLevelCombatPlayer.cpp(177,73): warning C4305: ﾡﾰﾲￎￊ�ﾡﾱ: ﾴￓﾡﾰdoubleﾡﾱﾵﾽﾡﾰfloatﾡﾱﾽ￘ﾶￏ
+    for(int32 I=0;I<Required;++I) DrawRect(I<Charges?Green:FLinearColor(.20,.24,.23,1),160+I*38,153,26,12);
+                                                                        ^
+[19/31] Compile [x64] NLLevelEncounterDirector.cpp [NoUba]
+[20/31] Compile [x64] NLLevelEncounterTests.cpp [NoUba]
+[21/31] Compile [x64] NLMasterRewardSubsystem.cpp [NoUba]
+[22/31] Compile [x64] NLMasterRewardTests.cpp [NoUba]
+[23/31] Compile [x64] NLRunStateSubsystem.cpp [NoUba]
+[24/31] Compile [x64] NLTalismanAttackComponent.cpp [NoUba]
+[25/31] Compile [x64] NLTrainingEnemy.cpp [NoUba]
+[26/31] Compile [x64] NLTrainingProjectileEmitter.cpp [NoUba]
+[27/31] Compile [x64] NLVRGameMode.cpp [NoUba]
+[28/31] Compile [x64] NLVRPlayerCharacter.cpp [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 62.17 seconds
+CompilationResultException: OtherCompilationError
+   at UnrealBuildTool.ActionGraph.InternalExecuteActions(ActionExecutor Executor, List`1 ActionsToExecute, ILogger Logger)
+   at UnrealBuildTool.ActionGraph.ExecuteActionsAsync(BuildConfiguration BuildConfiguration, List`1 ActionsToExecute, List`1 TargetDescriptors, ILogger Logger, ActionExecutor executor)
+   at UnrealBuildTool.BuildMode.BuildAsync(List`1 Targets, BuildConfiguration BuildConfiguration, BuildOptions Options, FileReference WriteOutdatedActionsFile, CppDependencyCache cppDependencyCache, ILogger Logger, String ActionTypeFilter, ActionExecutor executor)
+   at UnrealBuildTool.BuildMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+   at UnrealBuildTool.BuildMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.266 Main
+   0.009          [  0.009]  +0.056 Apply XmlConfig
+   0.071          [  0.070]  +0.043 AddTelemetry
+   0.129          [  0.129]  +0.137 RegisterPlatforms
+[  0.277]  +0.016 ParseCommandLine
+[  0.324]  +0.111 LoadMakefile
+   0.337          [  0.012]  +0.024 EngineRulesPlugins
+   0.363          [  0.039]  +0.003 EngineRulesFetchDirs
+   0.373          [  0.048]  +0.006 EngineRulesAssembly
+   0.380          [  0.055]  +0.000 ProgramRulesAssembly
+   0.380          [  0.056]  +0.007 ProjectRulesAssembly
+   0.388          [  0.063]  +0.179 CreateTargetRules
+   0.437             0.112          [  0.049]  +0.000 FindPlugins
+   0.463             0.139          [  0.075]  +0.070 MakefileValid
+[  0.603]  +0.003 CppDependencyCache
+[  0.615]  +2.949 experimentEditor Win64 Development
+   0.615          [  0.000]  +1.891 <unknown>
+   2.507          [  1.891]  +0.043 UHTModules
+   2.651          [  2.035]  +0.109 UHTManifest
+   2.761          [  2.145]  +5.728 UHT
+   2.761             2.145          [  0.000]  +0.795 <unknown>
+   3.556             2.940          [  0.795]  +0.000 WaitOnWrites
+   3.565             2.949          [  0.803]  +0.044 SavingMakefile
+   3.610             2.994          [  0.848]  +4.879 <unknown>
+[  3.565]  +4.925 <unknown>
+[  8.490]  +0.011 UHTTimestamps
+[  8.505]  +0.004 CppDependencyCache
+[  8.510]  +0.058 Preparing ActionGraph
+   8.519          [  0.008]  +0.003 LinkActions
+   8.522             0.011          [  0.003]  +0.000 DetectActionGraphCycles
+   8.523          [  0.012]  +0.000 GatherPrerequisiteActions
+   8.524          [  0.013]  +0.000 CppDependencyCacheWait
+   8.524          [  0.014]  +0.029 GatherOutdatedActions
+   8.556          [  0.046]  +0.002 LinkActions
+   8.556             0.046          [  0.000]  +0.000 DetectActionGraphCycles
+   8.559          [  0.048]  +0.006 DeleteOutdatedProducedItems
+   8.565          [  0.054]  +0.002 SaveActionHistory
+   8.568          [  0.058]  +0.000 CreateDirectoriesForProducedItems
+[  8.578]  +0.185 GarbageCollect
+[  8.763] +62.001 <unknown>
+[ 70.764]  +0.000 DisconnectCache
+[ 70.767]  +0.000 SaveCasTable
+[ 70.770]  +0.072 Saving caches
+[ 70.850]  +0.001 TelemetryService.FlushEvents
+[ 70.853]
+
+Result: Failed (OtherCompilationError)
+Total execution time: 70.85 seconds

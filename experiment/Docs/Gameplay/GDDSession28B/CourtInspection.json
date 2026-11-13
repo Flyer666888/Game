@@ -1,0 +1,820 @@
+{
+  "actors": [
+    {
+      "label": "NB_C_AlchemyCourt_Floor_0642",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E0858C650) {x: 0.000000, y: 30000.000000, z: 7140.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0686",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E07F41F50) {x: -1394.011403, y: 29191.368335, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0687",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8240) {x: -1370.159481, y: 29372.541666, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0688",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8290) {x: -1322.863751, y: 29549.051734, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0689",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8330) {x: -1252.933455, y: 29717.878403, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0690",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F83D0) {x: -1161.565121, y: 29876.133000, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0691",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8470) {x: -1050.322085, y: 30021.107747, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0692",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8510) {x: -921.107747, y: 30150.322085, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0693",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F85B0) {x: -776.133000, y: 30261.565121, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0694",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8650) {x: -617.878403, y: 30352.933455, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0695",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F86F0) {x: -449.051734, y: 30422.863751, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0696",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8790) {x: -272.541666, y: 30470.159481, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0697",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8830) {x: -91.368335, y: 30494.011403, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0698",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F88D0) {x: 91.368335, y: 30494.011403, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0699",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8970) {x: 272.541666, y: 30470.159481, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0700",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8A10) {x: 449.051734, y: 30422.863751, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0701",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8AB0) {x: 617.878403, y: 30352.933455, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0702",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8B50) {x: 776.133000, y: 30261.565121, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0703",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8BF0) {x: 921.107747, y: 30150.322085, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0704",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8C90) {x: 1050.322085, y: 30021.107747, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0705",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8D30) {x: 1161.565121, y: 29876.133000, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0706",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8DD0) {x: 1252.933455, y: 29717.878403, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0707",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8E70) {x: 1322.863751, y: 29549.051734, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0708",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8F10) {x: 1370.159481, y: 29372.541666, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0709",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F8FB0) {x: 1394.011403, y: 29191.368335, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0710",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9050) {x: 1394.011403, y: 29008.631665, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0711",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F90F0) {x: 1370.159481, y: 28827.458334, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0712",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9190) {x: 1322.863751, y: 28650.948266, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0713",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9230) {x: 1252.933455, y: 28482.121597, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0714",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F92D0) {x: 1161.565121, y: 28323.867000, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0715",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9370) {x: 1050.322085, y: 28178.892253, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0716",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9410) {x: 921.107747, y: 28049.677915, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0717",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F94B0) {x: 776.133000, y: 27938.434879, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0718",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9550) {x: 617.878403, y: 27847.066545, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0719",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F95F0) {x: 449.051734, y: 27777.136249, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0720",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9690) {x: 272.541666, y: 27729.840519, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0721",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9730) {x: 91.368335, y: 27705.988597, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0722",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F97D0) {x: -91.368335, y: 27705.988597, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0723",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9870) {x: -272.541666, y: 27729.840519, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0724",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9910) {x: -449.051734, y: 27777.136249, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0725",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F99B0) {x: -617.878403, y: 27847.066545, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0726",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9A50) {x: -776.133000, y: 27938.434879, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0727",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9AF0) {x: -921.107747, y: 28049.677915, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0728",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9B90) {x: -1050.322085, y: 28178.892253, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0729",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9C30) {x: -1161.565121, y: 28323.867000, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0730",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9CD0) {x: -1252.933455, y: 28482.121597, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0731",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9D70) {x: -1322.863751, y: 28650.948266, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0732",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9E10) {x: -1370.159481, y: 28827.458334, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_ClearCombat_0733",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9EB0) {x: -1394.011403, y: 29008.631665, z: 7202.500000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_Friend_Body_0830",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9F50) {x: 0.000000, y: 28300.000000, z: 7285.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_Friend_Head_0831",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085F9FF0) {x: 0.000000, y: 28300.000000, z: 7360.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_C_Friend_FootMarker_0832",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA090) {x: 0.000000, y: 28300.000000, z: 7202.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_OpenAlchemyPavilion_Column_0833",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA0E0) {x: 1722.000000, y: 30956.000000, z: 7860.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_OpenAlchemyPavilion_Column_0836",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA130) {x: 1722.000000, y: 32044.000000, z: 7860.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_OpenAlchemyPavilion_Column_0839",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA180) {x: -1722.000000, y: 30956.000000, z: 7860.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_OpenAlchemyPavilion_Column_0842",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA1D0) {x: -1722.000000, y: 32044.000000, z: 7860.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_FurnaceLeg_0858",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA270) {x: 250.000000, y: 30800.000000, z: 7370.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_FurnaceLeg_0859",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA310) {x: -250.000000, y: 30800.000000, z: 7370.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_FurnaceLeg_0860",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA3B0) {x: 0.000000, y: 31250.000000, z: 7370.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_AlchemyWorkshop_Column_0899",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA450) {x: 2952.000000, y: 31152.000000, z: 7400.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_AlchemyWorkshop_Column_0902",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA4F0) {x: 2952.000000, y: 32048.000000, z: 7400.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_AlchemyWorkshop_Column_0905",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA590) {x: 2448.000000, y: 31152.000000, z: 7400.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_AlchemyWorkshop_Column_0908",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA630) {x: 2448.000000, y: 32048.000000, z: 7400.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_BannerPole_0924",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA6D0) {x: 2700.000000, y: 27500.000000, z: 7750.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_BannerCrossbar_0925",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA770) {x: 2700.000000, y: 27500.000000, z: 8220.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_Banner_0926",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA7C0) {x: 2700.000000, y: 27500.000000, z: 7930.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_BannerStripe_0927",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA860) {x: 2700.000000, y: 27494.500000, z: 7930.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_LanternBase_0928",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA900) {x: 2700.000000, y: 29800.000000, z: 7218.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_LanternStem_0929",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FA9A0) {x: 2700.000000, y: 29800.000000, z: 7310.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_LanternBody_0930",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FAA40) {x: 2700.000000, y: 29800.000000, z: 7415.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_LanternCap_0931",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FAAE0) {x: 2700.000000, y: 29800.000000, z: 7465.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_AlchemyWorkshop_Column_0932",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FAB80) {x: -2448.000000, y: 31852.000000, z: 7400.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_AlchemyWorkshop_Column_0938",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FABD0) {x: -2952.000000, y: 31852.000000, z: 7400.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_AlchemyWorkshop_Beam_0944",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FAC70) {x: -2700.000000, y: 31852.000000, z: 7575.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_BannerPole_0957",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FAD10) {x: -2700.000000, y: 27500.000000, z: 7750.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_BannerCrossbar_0958",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FAE00) {x: -2700.000000, y: 27500.000000, z: 8220.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_Banner_0959",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FAE50) {x: -2700.000000, y: 27500.000000, z: 7930.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_BannerStripe_0960",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FAEF0) {x: -2700.000000, y: 27494.500000, z: 7930.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_LanternBase_0961",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FAF90) {x: -2700.000000, y: 29800.000000, z: 7218.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_LanternStem_0962",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB030) {x: -2700.000000, y: 29800.000000, z: 7310.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_LanternBody_0963",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB0D0) {x: -2700.000000, y: 29800.000000, z: 7415.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_LanternCap_0964",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB170) {x: -2700.000000, y: 29800.000000, z: 7465.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_Node_05_1091",
+      "class": "TargetPoint",
+      "location": "<Struct 'Vector' (0x0000020E085FB1C0) {x: 0.000000, y: 27900.000000, z: 7200.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_Node_05_Floor_1092",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB260) {x: 0.000000, y: 27900.000000, z: 7201.800000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_Node_05_Sign_1093",
+      "class": "TextRenderActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB300) {x: 500.000000, y: 27900.000000, z: 7380.000000}>",
+      "folder": "Nilin_V06/03_AlchemyCourt"
+    },
+    {
+      "label": "NB_CAM_03_Alchemy_3366",
+      "class": "CameraActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB3A0) {x: 0.000000, y: 27500.000000, z: 7370.000000}>",
+      "folder": "Nilin_V06/07_ReviewCameras"
+    },
+    {
+      "label": "NB_CAM_08_AlchemyObjective_3371",
+      "class": "CameraActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB3F0) {x: -1500.000000, y: 29000.000000, z: 7370.000000}>",
+      "folder": "Nilin_V06/07_ReviewCameras"
+    },
+    {
+      "label": "NB_C_Breaker_Body_0013",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB4E0) {x: -400.000000, y: 28400.000000, z: 7285.000000}>",
+      "folder": "Nilin_V06/08_GameplayMarkers"
+    },
+    {
+      "label": "NB_C_Breaker_Head_0014",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB580) {x: -400.000000, y: 28400.000000, z: 7360.000000}>",
+      "folder": "Nilin_V06/08_GameplayMarkers"
+    },
+    {
+      "label": "NB_C_Breaker_FootMarker_0015",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB620) {x: -400.000000, y: 28400.000000, z: 7202.000000}>",
+      "folder": "Nilin_V06/08_GameplayMarkers"
+    },
+    {
+      "label": "NB2_AlchemyHipRoof_0037",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB620) {x: 0.000000, y: 31500.000000, z: 8520.000000}>",
+      "folder": "Nilin_V07/03_AlchemyCourt"
+    },
+    {
+      "label": "NB2_WestAlchemyWorkshop_0041",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB760) {x: 2700.000000, y: 31600.000000, z: 7600.000000}>",
+      "folder": "Nilin_V07/03_AlchemyCourt"
+    },
+    {
+      "label": "NB2_EastAlchemyWorkshop_0045",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB800) {x: -2700.000000, y: 32300.000000, z: 7600.000000}>",
+      "folder": "Nilin_V07/03_AlchemyCourt"
+    },
+    {
+      "label": "NB2_FurnaceShoulderBelly_0061",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB8A0) {x: 0.000000, y: 31000.000000, z: 7200.000000}>",
+      "folder": "Nilin_V07/03_AlchemyCourt"
+    },
+    {
+      "label": "NB2_FurnaceBroadRim_0062",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB940) {x: 0.000000, y: 31000.000000, z: 7200.000000}>",
+      "folder": "Nilin_V07/03_AlchemyCourt"
+    },
+    {
+      "label": "NB2_FurnaceLid_0063",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FB9E0) {x: 0.000000, y: 31000.000000, z: 7200.000000}>",
+      "folder": "Nilin_V07/03_AlchemyCourt"
+    },
+    {
+      "label": "NB2_FurnaceBelt_0064",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FBA80) {x: 0.000000, y: 31000.000000, z: 7200.000000}>",
+      "folder": "Nilin_V07/03_AlchemyCourt"
+    },
+    {
+      "label": "NB2_FurnaceEar_0065",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FBB20) {x: -435.000000, y: 31000.000000, z: 7840.000000}>",
+      "folder": "Nilin_V07/03_AlchemyCourt"
+    },
+    {
+      "label": "NB2_FurnaceEar_0066",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FBBC0) {x: 435.000000, y: 31000.000000, z: 7840.000000}>",
+      "folder": "Nilin_V07/03_AlchemyCourt"
+    },
+    {
+      "label": "NB2_FurnaceVentRim_0070",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FBC60) {x: 0.000000, y: 30572.000000, z: 7675.000000}>",
+      "folder": "Nilin_V07/03_AlchemyCourt"
+    },
+    {
+      "label": "NB2_FurnaceVentFire_0071",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000020E085FBD00) {x: 0.000000, y: 30559.000000, z: 7675.000000}>",
+      "folder": "Nilin_V07/03_AlchemyCourt"
+    },
+    {
+      "label": "NG_Nav_C_Court",
+      "class": "NavMeshBoundsVolume",
+      "location": "<Struct 'Vector' (0x0000020E085FBDA0) {x: 0.000000, y: 30000.000000, z: 7200.000000}>",
+      "folder": "Nilin_GameplayV01/Navigation"
+    }
+  ],
+  "stages": [
+    {
+      "id": "Cestablish",
+      "entry": "<Struct 'Transform' (0x0000020E2B468C80) {rotation: {x: 0.000000, y: -0.000000, z: 0.707107, w: 0.707107}, translation: {x: 0.000000, y: 27900.000000, z: 7291.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "points": [
+        {
+          "id": "Cestablish_P01",
+          "transform": "<Struct 'Transform' (0x0000020E350DCF00) {rotation: {x: -0.000000, y: 0.000000, z: -0.362523, w: 0.931975}, translation: {x: -1200.000000, y: 29000.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cestablish_P02",
+          "transform": "<Struct 'Transform' (0x0000020E350DE8D0) {rotation: {x: -0.000000, y: 0.000000, z: -0.931975, w: 0.362523}, translation: {x: 1200.000000, y: 29000.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cestablish_P03",
+          "transform": "<Struct 'Transform' (0x0000020E350DE940) {rotation: {x: -0.000000, y: 0.000000, z: -0.482704, w: 0.875783}, translation: {x: -1200.000000, y: 29800.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cestablish_P04",
+          "transform": "<Struct 'Transform' (0x0000020E350DC870) {rotation: {x: -0.000000, y: 0.000000, z: -0.875783, w: 0.482704}, translation: {x: 1200.000000, y: 29800.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cestablish_P05",
+          "transform": "<Struct 'Transform' (0x0000020E350DD4B0) {rotation: {x: -0.000000, y: 0.000000, z: -0.544914, w: 0.838492}, translation: {x: -1200.000000, y: 30600.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cestablish_P06",
+          "transform": "<Struct 'Transform' (0x0000020E350DC640) {rotation: {x: -0.000000, y: 0.000000, z: -0.838492, w: 0.544914}, translation: {x: 1200.000000, y: 30600.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cestablish_P07",
+          "transform": "<Struct 'Transform' (0x0000020E350DC330) {rotation: {x: -0.000000, y: 0.000000, z: -0.340425, w: 0.940272}, translation: {x: -1800.000000, y: 29400.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cestablish_P08",
+          "transform": "<Struct 'Transform' (0x0000020E350DC100) {rotation: {x: -0.000000, y: 0.000000, z: -0.940272, w: 0.340425}, translation: {x: 1800.000000, y: 29400.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        }
+      ]
+    },
+    {
+      "id": "Cinterrupt",
+      "entry": "<Struct 'Transform' (0x0000020E2B468B40) {rotation: {x: 0.000000, y: -0.000000, z: 0.707107, w: 0.707107}, translation: {x: 0.000000, y: 27900.000000, z: 7291.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "points": [
+        {
+          "id": "Cinterrupt_P01",
+          "transform": "<Struct 'Transform' (0x0000020E350DC170) {rotation: {x: -0.000000, y: 0.000000, z: -0.362523, w: 0.931975}, translation: {x: -1200.000000, y: 29000.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cinterrupt_P02",
+          "transform": "<Struct 'Transform' (0x0000020E350DC480) {rotation: {x: -0.000000, y: 0.000000, z: -0.931975, w: 0.362523}, translation: {x: 1200.000000, y: 29000.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cinterrupt_P03",
+          "transform": "<Struct 'Transform' (0x0000020E350DBDF0) {rotation: {x: -0.000000, y: 0.000000, z: -0.482704, w: 0.875783}, translation: {x: -1200.000000, y: 29800.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cinterrupt_P04",
+          "transform": "<Struct 'Transform' (0x0000020E350DBF40) {rotation: {x: -0.000000, y: 0.000000, z: -0.875783, w: 0.482704}, translation: {x: 1200.000000, y: 29800.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cinterrupt_P05",
+          "transform": "<Struct 'Transform' (0x0000020E350DC1E0) {rotation: {x: -0.000000, y: 0.000000, z: -0.544914, w: 0.838492}, translation: {x: -1200.000000, y: 30600.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cinterrupt_P06",
+          "transform": "<Struct 'Transform' (0x0000020E350DB760) {rotation: {x: -0.000000, y: 0.000000, z: -0.838492, w: 0.544914}, translation: {x: 1200.000000, y: 30600.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cinterrupt_P07",
+          "transform": "<Struct 'Transform' (0x0000020E350DB8B0) {rotation: {x: -0.000000, y: 0.000000, z: -0.340425, w: 0.940272}, translation: {x: -1800.000000, y: 29400.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cinterrupt_P08",
+          "transform": "<Struct 'Transform' (0x0000020E350DBA00) {rotation: {x: -0.000000, y: 0.000000, z: -0.940272, w: 0.340425}, translation: {x: 1800.000000, y: 29400.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        }
+      ]
+    },
+    {
+      "id": "Csiege",
+      "entry": "<Struct 'Transform' (0x0000020E2B468A00) {rotation: {x: 0.000000, y: -0.000000, z: 0.707107, w: 0.707107}, translation: {x: 0.000000, y: 27900.000000, z: 7291.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "points": [
+        {
+          "id": "Csiege_P01",
+          "transform": "<Struct 'Transform' (0x0000020E350DC8E0) {rotation: {x: -0.000000, y: 0.000000, z: -0.362523, w: 0.931975}, translation: {x: -1200.000000, y: 29000.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Csiege_P02",
+          "transform": "<Struct 'Transform' (0x0000020E350DC9C0) {rotation: {x: -0.000000, y: 0.000000, z: -0.931975, w: 0.362523}, translation: {x: 1200.000000, y: 29000.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Csiege_P03",
+          "transform": "<Struct 'Transform' (0x0000020E350DB680) {rotation: {x: -0.000000, y: 0.000000, z: -0.482704, w: 0.875783}, translation: {x: -1200.000000, y: 29800.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Csiege_P04",
+          "transform": "<Struct 'Transform' (0x0000020E350DB370) {rotation: {x: -0.000000, y: 0.000000, z: -0.875783, w: 0.482704}, translation: {x: 1200.000000, y: 29800.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Csiege_P05",
+          "transform": "<Struct 'Transform' (0x0000020E350DB680) {rotation: {x: -0.000000, y: 0.000000, z: -0.544914, w: 0.838492}, translation: {x: -1200.000000, y: 30600.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Csiege_P06",
+          "transform": "<Struct 'Transform' (0x0000020E350DC9C0) {rotation: {x: -0.000000, y: 0.000000, z: -0.838492, w: 0.544914}, translation: {x: 1200.000000, y: 30600.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Csiege_P07",
+          "transform": "<Struct 'Transform' (0x0000020E350DC8E0) {rotation: {x: -0.000000, y: 0.000000, z: -0.340425, w: 0.940272}, translation: {x: -1800.000000, y: 29400.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Csiege_P08",
+          "transform": "<Struct 'Transform' (0x0000020E350DBA00) {rotation: {x: -0.000000, y: 0.000000, z: -0.940272, w: 0.340425}, translation: {x: 1800.000000, y: 29400.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        }
+      ]
+    },
+    {
+      "id": "Cunseal",
+      "entry": "<Struct 'Transform' (0x0000020E2B4688C0) {rotation: {x: 0.000000, y: -0.000000, z: 0.707107, w: 0.707107}, translation: {x: 0.000000, y: 27900.000000, z: 7291.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "points": [
+        {
+          "id": "Cunseal_P01",
+          "transform": "<Struct 'Transform' (0x0000020E350DB8B0) {rotation: {x: -0.000000, y: 0.000000, z: -0.362523, w: 0.931975}, translation: {x: -1200.000000, y: 29000.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cunseal_P02",
+          "transform": "<Struct 'Transform' (0x0000020E350DB530) {rotation: {x: -0.000000, y: 0.000000, z: -0.931975, w: 0.362523}, translation: {x: 1200.000000, y: 29000.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cunseal_P03",
+          "transform": "<Struct 'Transform' (0x0000020E350DB5A0) {rotation: {x: -0.000000, y: 0.000000, z: -0.482704, w: 0.875783}, translation: {x: -1200.000000, y: 29800.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cunseal_P04",
+          "transform": "<Struct 'Transform' (0x0000020E350DB760) {rotation: {x: -0.000000, y: 0.000000, z: -0.875783, w: 0.482704}, translation: {x: 1200.000000, y: 29800.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cunseal_P05",
+          "transform": "<Struct 'Transform' (0x0000020E350DB6F0) {rotation: {x: -0.000000, y: 0.000000, z: -0.544914, w: 0.838492}, translation: {x: -1200.000000, y: 30600.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cunseal_P06",
+          "transform": "<Struct 'Transform' (0x0000020E350DB610) {rotation: {x: -0.000000, y: 0.000000, z: -0.838492, w: 0.544914}, translation: {x: 1200.000000, y: 30600.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cunseal_P07",
+          "transform": "<Struct 'Transform' (0x0000020E350DC1E0) {rotation: {x: -0.000000, y: 0.000000, z: -0.340425, w: 0.940272}, translation: {x: -1800.000000, y: 29400.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        },
+        {
+          "id": "Cunseal_P08",
+          "transform": "<Struct 'Transform' (0x0000020E350DBAE0) {rotation: {x: -0.000000, y: 0.000000, z: -0.940272, w: 0.340425}, translation: {x: 1800.000000, y: 29400.000000, z: 7290.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        }
+      ]
+    }
+  ],
+  "ground": [
+    {
+      "xy": [
+        0,
+        28300
+      ],
+      "hit": "<Struct 'Vector' (0x0000020E085FBDF0) {x: 0.000000, y: 28300.000000, z: 7200.000000}>",
+      "actor": "NB_C_AlchemyCourt_Floor_0642"
+    },
+    {
+      "xy": [
+        0,
+        28600
+      ],
+      "hit": "<Struct 'Vector' (0x0000020E08610060) {x: 0.000000, y: 28600.000000, z: 7200.000000}>",
+      "actor": "NB_C_AlchemyCourt_Floor_0642"
+    },
+    {
+      "xy": [
+        -1200,
+        29800
+      ],
+      "hit": "<Struct 'Vector' (0x0000020E085FBDF0) {x: -1200.000000, y: 29800.000000, z: 7200.000000}>",
+      "actor": "NB_C_AlchemyCourt_Floor_0642"
+    },
+    {
+      "xy": [
+        1200,
+        29800
+      ],
+      "hit": "<Struct 'Vector' (0x0000020E08610060) {x: 1200.000000, y: 29800.000000, z: 7200.000000}>",
+      "actor": "NB_C_AlchemyCourt_Floor_0642"
+    },
+    {
+      "xy": [
+        -1200,
+        30600
+      ],
+      "hit": "<Struct 'Vector' (0x0000020E085FBDF0) {x: -1200.000000, y: 30600.000000, z: 7200.000000}>",
+      "actor": "NB_C_AlchemyCourt_Floor_0642"
+    },
+    {
+      "xy": [
+        1200,
+        30600
+      ],
+      "hit": "<Struct 'Vector' (0x0000020E08610060) {x: 1200.000000, y: 30600.000000, z: 7200.000000}>",
+      "actor": "NB_C_AlchemyCourt_Floor_0642"
+    }
+  ]
+}

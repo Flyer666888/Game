@@ -1,0 +1,466 @@
+{
+  "world": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01",
+  "busy": false,
+  "navs": [
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.RecastNavMesh-SwordDisciple",
+      "runtime_generation": "<RuntimeGenerationType.DYNAMIC: 2>",
+      "force_rebuild_on_load": "True",
+      "fixed_tile_pool_size": "True",
+      "tile_pool_size": "2048",
+      "tile_size_uu": "1000.0",
+      "agent_radius": "28.0",
+      "agent_height": "176.0",
+      "min_region_area": "0.0",
+      "resolutions": [
+        {
+          "cell_size": 20.0,
+          "cell_height": 5.0,
+          "agent_max_step_height": 35.0
+        },
+        {
+          "cell_size": 20.0,
+          "cell_height": 5.0,
+          "agent_max_step_height": 35.0
+        },
+        {
+          "cell_size": 20.0,
+          "cell_height": 5.0,
+          "agent_max_step_height": 35.0
+        }
+      ]
+    }
+  ],
+  "volumes": [
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.NavMeshBoundsVolume_22",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3600.0,
+          3500.0,
+          1150.0
+        ]
+      ],
+      "scale": [
+        36.0,
+        35.0,
+        11.5
+      ]
+    },
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.NavMeshBoundsVolume_23",
+      "bounds": [
+        [
+          0.0,
+          14000.0,
+          3000.0
+        ],
+        [
+          3600.0,
+          3600.0,
+          1400.0
+        ]
+      ],
+      "scale": [
+        36.0,
+        36.0,
+        14.0
+      ]
+    },
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.NavMeshBoundsVolume_24",
+      "bounds": [
+        [
+          0.0,
+          30000.0,
+          7200.0
+        ],
+        [
+          3900.0,
+          3900.0,
+          1250.0
+        ]
+      ],
+      "scale": [
+        39.0,
+        39.0,
+        12.5
+      ]
+    },
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.NavMeshBoundsVolume_25",
+      "bounds": [
+        [
+          -20800.0,
+          62000.0,
+          13200.0
+        ],
+        [
+          5400.0,
+          5400.0,
+          1250.0
+        ]
+      ],
+      "scale": [
+        54.0,
+        54.0,
+        12.5
+      ]
+    },
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.NavMeshBoundsVolume_26",
+      "bounds": [
+        [
+          -800.0,
+          4527.5,
+          740.0
+        ],
+        [
+          1900.0,
+          1700.0,
+          1500.0
+        ]
+      ],
+      "scale": [
+        19.0,
+        17.0,
+        15.0
+      ]
+    },
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.NavMeshBoundsVolume_27",
+      "bounds": [
+        [
+          800.0,
+          17707.5,
+          3540.0
+        ],
+        [
+          1900.0,
+          1700.0,
+          1500.0
+        ]
+      ],
+      "scale": [
+        19.0,
+        17.0,
+        15.0
+      ]
+    },
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.NavMeshBoundsVolume_28",
+      "bounds": [
+        [
+          -800.0,
+          23370.3571428571,
+          5780.0
+        ],
+        [
+          1900.0,
+          1700.0,
+          1500.0
+        ]
+      ],
+      "scale": [
+        19.0,
+        17.0,
+        15.0
+      ]
+    },
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.NavMeshBoundsVolume_29",
+      "bounds": [
+        [
+          -4600.0,
+          33200.0,
+          7200.0
+        ],
+        [
+          2000.0,
+          2300.0,
+          1250.0
+        ]
+      ],
+      "scale": [
+        20.0,
+        23.0,
+        12.5
+      ]
+    },
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.NavMeshBoundsVolume_30",
+      "bounds": [
+        [
+          -8200.0,
+          39700.0,
+          9000.0
+        ],
+        [
+          2000.0,
+          2300.0,
+          1250.0
+        ]
+      ],
+      "scale": [
+        20.0,
+        23.0,
+        12.5
+      ]
+    },
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.NavMeshBoundsVolume_31",
+      "bounds": [
+        [
+          -13000.0,
+          46600.0,
+          10600.0
+        ],
+        [
+          2000.0,
+          2300.0,
+          1250.0
+        ]
+      ],
+      "scale": [
+        20.0,
+        23.0,
+        12.5
+      ]
+    },
+    {
+      "actor": "/Game/ReversedScale/Maps/L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.NavMeshBoundsVolume_32",
+      "bounds": [
+        [
+          -18000.0,
+          53500.0,
+          12200.0
+        ],
+        [
+          2000.0,
+          2300.0,
+          1250.0
+        ]
+      ],
+      "scale": [
+        20.0,
+        23.0,
+        12.5
+      ]
+    }
+  ],
+  "points": [
+    {
+      "stage": "Aoutside",
+      "ground": [
+        -800.0,
+        -1100.0,
+        0.0
+      ],
+      "projection": [
+        -800.0,
+        -1100.0,
+        5.0
+      ]
+    },
+    {
+      "stage": "Ainside",
+      "ground": [
+        -800.0,
+        1000.0,
+        0.0
+      ],
+      "projection": [
+        -800.0,
+        1000.0,
+        5.0
+      ]
+    },
+    {
+      "stage": "R01",
+      "ground": [
+        -740.0,
+        4772.5,
+        879.1999984741212
+      ],
+      "projection": [
+        -740.0,
+        4772.5,
+        880.0
+      ]
+    },
+    {
+      "stage": "Bcourt",
+      "ground": [
+        -800.0,
+        14000.0,
+        2800.0
+      ],
+      "projection": [
+        -800.0,
+        14000.0,
+        2805.0
+      ]
+    },
+    {
+      "stage": "Bexit",
+      "ground": [
+        -650.0,
+        15900.0,
+        2800.0
+      ],
+      "projection": [
+        -650.0,
+        15900.0,
+        2805.0
+      ]
+    },
+    {
+      "stage": "R02",
+      "ground": [
+        740.0,
+        17952.499999999996,
+        3679.19999847412
+      ],
+      "projection": [
+        740.0,
+        17952.499999999996,
+        3680.0
+      ]
+    },
+    {
+      "stage": "R03",
+      "ground": [
+        -740.0,
+        23615.357142857098,
+        5919.199998474121
+      ],
+      "projection": [
+        -740.0,
+        23615.357142857098,
+        5920.0
+      ]
+    },
+    {
+      "stage": "Cestablish",
+      "ground": [
+        -1200.0,
+        29000.0,
+        7200.0
+      ],
+      "projection": [
+        -1200.0,
+        29000.0,
+        7205.0
+      ]
+    },
+    {
+      "stage": "Cinterrupt",
+      "ground": [
+        -1200.0,
+        29000.0,
+        7200.0
+      ],
+      "projection": [
+        -1200.0,
+        29000.0,
+        7205.0
+      ]
+    },
+    {
+      "stage": "Csiege",
+      "ground": [
+        -1200.0,
+        29000.0,
+        7200.0
+      ],
+      "projection": [
+        -1200.0,
+        29000.0,
+        7205.0
+      ]
+    },
+    {
+      "stage": "Cunseal",
+      "ground": [
+        -1200.0,
+        29000.0,
+        7200.0
+      ],
+      "projection": [
+        -1200.0,
+        29000.0,
+        7205.0
+      ]
+    },
+    {
+      "stage": "GM01",
+      "ground": [
+        -4600.0,
+        33600.0,
+        7200.0
+      ],
+      "projection": [
+        -4600.0,
+        33600.0,
+        7205.0
+      ]
+    },
+    {
+      "stage": "GM02",
+      "ground": [
+        -8800.0,
+        39600.0,
+        9000.0
+      ],
+      "projection": [
+        -8800.0,
+        39600.0,
+        9005.0
+      ]
+    },
+    {
+      "stage": "GM03",
+      "ground": [
+        -13600.0,
+        46500.0,
+        10600.0
+      ],
+      "projection": [
+        -13600.0,
+        46500.0,
+        10605.0
+      ]
+    },
+    {
+      "stage": "GM04",
+      "ground": [
+        -18000.0,
+        53900.0,
+        12200.0
+      ],
+      "projection": [
+        -18000.0,
+        53900.0,
+        12205.0
+      ]
+    },
+    {
+      "stage": "Boss",
+      "ground": [
+        -20800.0,
+        62600.0,
+        13200.000003814697
+      ],
+      "projection": [
+        -20800.0,
+        62600.0,
+        13205.0
+      ]
+    }
+  ]
+}

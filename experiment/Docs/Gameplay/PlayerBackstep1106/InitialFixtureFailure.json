@@ -1,0 +1,193 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "张浩翔的拯救者",
+			"instance": "4FA26959425DC521FC50C0BDC785B3AB",
+			"instanceName": "张浩翔的拯救者-1164",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9818] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+			"cPUModel": "Intel(R) Core(TM) i9-14900HX",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.11.06-08.50.19",
+	"succeeded": 0,
+	"succeededWithWarnings": 0,
+	"failed": 2,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.13468240201473236,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "CursorReleaseClearsBackwardMovement",
+			"fullTestPath": "Nilin.Desktop.Input.CursorReleaseClearsBackwardMovement",
+			"tags": [],
+			"state": "Fail",
+			"deviceInstance": [
+				"4FA26959425DC521FC50C0BDC785B3AB"
+			],
+			"duration": 0.11559949815273285,
+			"dateTime": "2026.11.06-08.50.19",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_1.NilinDesktopInput_34B9036D44E98547AF05248587EA8087:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.50.19"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_1.NilinDesktopInput_34B9036D44E98547AF05248587EA8087:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.50.19"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_1.NilinDesktopInput_34B9036D44E98547AF05248587EA8087:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.50.19"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_1.NilinDesktopInput_34B9036D44E98547AF05248587EA8087:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.50.19"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogStreaming: FlushAsyncLoading(372): 1 QueuedPackages, 0 AsyncPackages",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.50.19"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Native level pawn, controller and input fixture are ready' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 133,
+					"timestamp": "2026.11.06-08.50.19"
+				}
+			],
+			"warnings": 4,
+			"errors": 1,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RecaptureRearmsWalkingAndPreservesHeldMoveOnSlash",
+			"fullTestPath": "Nilin.Desktop.Input.RecaptureRearmsWalkingAndPreservesHeldMoveOnSlash",
+			"tags": [],
+			"state": "Fail",
+			"deviceInstance": [
+				"4FA26959425DC521FC50C0BDC785B3AB"
+			],
+			"duration": 0.019082900136709213,
+			"dateTime": "2026.11.06-08.50.19",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_2.NilinDesktopInput_62F121544CE5421F0D3E0AA4F0B96D5A:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.50.19"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_2.NilinDesktopInput_62F121544CE5421F0D3E0AA4F0B96D5A:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.50.19"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_2.NilinDesktopInput_62F121544CE5421F0D3E0AA4F0B96D5A:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.50.19"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_2.NilinDesktopInput_62F121544CE5421F0D3E0AA4F0B96D5A:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.50.19"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Native level pawn, controller and input fixture are ready' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 163,
+					"timestamp": "2026.11.06-08.50.19"
+				}
+			],
+			"warnings": 4,
+			"errors": 1,
+			"artifacts": []
+		}
+	]
+}

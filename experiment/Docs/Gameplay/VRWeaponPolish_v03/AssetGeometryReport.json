@@ -1,0 +1,196 @@
+{
+  "state": "built",
+  "source_blend": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV02\\SM_PlayerSword_A_DetailV02.blend",
+  "source_sha256": "ebc5d4dfc669fb16810e65ef1f1e5060024a27d37839975600b2eb88770b1898",
+  "output_fbx": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\SM_PlayerSword_A_DetailV03.fbx",
+  "output_blend": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\SM_PlayerSword_A_DetailV03.blend",
+  "fbx_sha256": "2eaf912baaa3374a4a547842dfd4f1a196c270cb651a748d939480c65779dcd5",
+  "blend_sha256": "8d6db3dc38dfcdcaf536c0b4da855d33cb4fdeadd00ba4871b5a632254f6f468",
+  "triangles_before": 13580,
+  "triangles_after": 18668,
+  "vertices_after": 9478,
+  "triangles_by_material": {
+    "BladeSteel": 4312,
+    "BladeEdge": 1048,
+    "BladeFuller": 624,
+    "Guard03": 8528,
+    "Grip04": 292,
+    "Pommel03": 168,
+    "GoldDetail": 3696
+  },
+  "bounds_cm": {
+    "min": [
+      -6.619999885559082,
+      -1.4212368726730347,
+      -13.375218391418457
+    ],
+    "max": [
+      6.619999885559082,
+      1.4212368726730347,
+      64.9390869140625
+    ]
+  },
+  "blade_sample_cm": [
+    [
+      0,
+      0,
+      8.42
+    ],
+    [
+      0,
+      0,
+      36.68
+    ],
+    [
+      0,
+      0,
+      64.94
+    ]
+  ],
+  "slot_order": [
+    "BladeSteel",
+    "BladeEdge",
+    "BladeFuller",
+    "Guard03",
+    "Grip04",
+    "Pommel03",
+    "GoldDetail"
+  ],
+  "material_contract": {
+    "BladeSteel": {
+      "base_color_linear": [
+        0.52,
+        0.55,
+        0.58
+      ],
+      "metallic": 1.0,
+      "roughness": 0.275,
+      "texture_set": "SteelSurface",
+      "uv_scale": 1,
+      "normal_strength": 0.07,
+      "roughness_offset": 0.0,
+      "roughness_variation_scale": 0.35,
+      "roughness_texture_mean": 0.2750002068,
+      "opacity": 1.0,
+      "emissive": 0.0
+    },
+    "BladeEdge": {
+      "base_color_linear": [
+        0.61,
+        0.64,
+        0.67
+      ],
+      "metallic": 1.0,
+      "roughness": 0.195,
+      "texture_set": "SteelSurface",
+      "uv_scale": 1,
+      "normal_strength": 0.04,
+      "roughness_offset": -0.08,
+      "roughness_variation_scale": 0.35,
+      "roughness_texture_mean": 0.2750002068,
+      "opacity": 1.0,
+      "emissive": 0.0
+    },
+    "BladeFuller": {
+      "base_color_linear": [
+        0.52,
+        0.55,
+        0.58
+      ],
+      "metallic": 1.0,
+      "roughness": 0.275,
+      "texture_set": "SteelSurface",
+      "uv_scale": 1,
+      "normal_strength": 0.07,
+      "roughness_offset": 0.0,
+      "roughness_variation_scale": 0.35,
+      "roughness_texture_mean": 0.2750002068,
+      "opacity": 1.0,
+      "emissive": 0.0
+    },
+    "Guard03": {
+      "base_color_linear": [
+        0.48,
+        0.5,
+        0.52
+      ],
+      "metallic": 0.98,
+      "roughness": 0.335,
+      "texture_set": "AgedSilver",
+      "uv_scale": 1,
+      "normal_strength": 0.1,
+      "roughness_offset": 0.0,
+      "roughness_variation_scale": 0.4,
+      "roughness_texture_mean": 0.3350003159,
+      "opacity": 1.0,
+      "emissive": 0.0
+    },
+    "Grip04": {
+      "base_color_linear": [
+        0.012,
+        0.019,
+        0.024
+      ],
+      "metallic": 0.0,
+      "roughness": 0.61,
+      "texture_set": "DarkLeather",
+      "uv_scale": 4,
+      "normal_strength": 0.35,
+      "roughness_offset": 0.0,
+      "roughness_variation_scale": 0.8,
+      "roughness_texture_mean": 0.610002773,
+      "opacity": 1.0,
+      "emissive": 0.0
+    },
+    "Pommel03": {
+      "base_color_linear": [
+        0.42,
+        0.62,
+        0.7
+      ],
+      "metallic": 0.0,
+      "roughness": 0.285,
+      "texture_set": "IceJade",
+      "uv_scale": 2,
+      "normal_strength": 0.2,
+      "roughness_offset": 0.0,
+      "roughness_variation_scale": 1.0,
+      "roughness_texture_mean": 0.2851041843,
+      "opacity": 1.0,
+      "emissive": 0.0
+    },
+    "GoldDetail": {
+      "base_color_linear": [
+        0.3,
+        0.22,
+        0.12
+      ],
+      "metallic": 0.94,
+      "roughness": 0.28,
+      "texture_set": "AgedSilver",
+      "uv_scale": 1,
+      "normal_strength": 0.08,
+      "roughness_offset": -0.055,
+      "roughness_variation_scale": 0.4,
+      "roughness_texture_mean": 0.3350003159,
+      "opacity": 1.0,
+      "emissive": 0.0
+    }
+  },
+  "uv_layers": [
+    "UVChannel_0",
+    "UVChannel_1"
+  ],
+  "changes": [
+    "V02 physical blade and grip retained, including repaired UVs",
+    "Thin rounded old-silver guard with shallow long-snouted dragon relief in both wings",
+    "Swept horns, solid shallow whiskers and restrained wing scales",
+    "Small octagonal ice-jade seal on a quiet cast central collar",
+    "Dragon scales replace heart/cloud decoration at blade root",
+    "Opaque ten-sided ice-blue jade stone in metal pommel setting",
+    "Nine frozen PBR maps shared with UE, DirectX green channel inverted in Blender preview only",
+    "Fine-surface normal strength and roughness variation reduced for believable polish"
+  ],
+  "license": "Derived from user project sword A and original local procedural geometry; no external provider assets",
+  "limits": "Static offline build. UE import and VR acceptance owned by integration."
+}

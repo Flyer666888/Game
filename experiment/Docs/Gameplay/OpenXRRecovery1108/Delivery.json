@@ -1,0 +1,36 @@
+{
+  "Status": "Passed",
+  "CompletedAt": "2026-11-08T16:49:20.0778929+08:00",
+  "RootCause": "Updating a static OpenXR HUD swapchain more than once caused XR_ERROR_CALL_ORDER_INVALID.",
+  "Fix": "Use a live HUD composition layer, enforce live mode for older serialized defaults, remove repeated manual update marks.",
+  "Build": "Editor Development succeeded",
+  "Automation": {
+    "Clean": 77,
+    "Passed": 111,
+    "WithWarnings": 34,
+    "Report": "Automation/index.json",
+    "Failed": 0
+  },
+  "Runtime": {
+    "Alive": true,
+    "Log": "D:\\game design\\experiment\\Saved\\Logs\\VRGameplay_20261108_164518_021.log",
+    "DynamicHUD": true,
+    "ProcessId": 52448,
+    "UptimeSeconds": 241.0,
+    "XrFatalOrUnacquiredWarnings": 0,
+    "OriginalRenderArguments": true
+  },
+  "UserVerification": {
+    "Confirmation": "已看到游戏场景和血量 HUD",
+    "Device": "Quest 2"
+  },
+  "MapSHA256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+  "MapUnchanged": true,
+  "SourceBeforeSHA256": "b9babd9a4bef452b4d33a7be1e979947797d77faef63f8b4de526a01479cf683",
+  "SourceAfterSHA256": "b4d0fceb620ed83a3b92ed472f3d0dc48987ecf2c6e285d3419983549ab3fb4f",
+  "ModuleSHA256": "4d8d32098a368db619f335f911ffebb5f3035c8029de896a2ef3c7b7b026c2c0",
+  "EntryPoint": "D:\\game design\\experiment\\Run_Gameplay_VR.cmd",
+  "GlobalOpenXRRegistryChanged": false,
+  "SaveGamesEdited": false,
+  "HistoricalExperiments": "HistoricalProfilePreflights are not the final launcher configuration."
+}

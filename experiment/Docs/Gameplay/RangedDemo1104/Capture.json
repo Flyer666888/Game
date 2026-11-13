@@ -1,0 +1,1783 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "both_live_casters": true,
+    "native_projectile_emitted": true,
+    "projectile_visible_in_capture": true,
+    "player_hit": true,
+    "recorded_frames": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [
+    {
+      "game_time": 2.698227807879448,
+      "phase": "stage_active",
+      "origin": "setup_skip_prior_encounters",
+      "source_id": "123160624df7414c783e9181286cce4b",
+      "target_id": "ba6f79b04fe0c298751b3e8c7832f272",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 3.3483167104423046,
+      "phase": "stage_active",
+      "origin": "setup_skip_prior_encounters",
+      "source_id": "123160624df7414c783e9181286cce4b",
+      "target_id": "cdce4c6145035ad0bfeec8b09239d8b2",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 5.3983274102211,
+      "phase": "stage_active",
+      "origin": "setup_skip_prior_encounters",
+      "source_id": "123160624df7414c783e9181286cce4b",
+      "target_id": "15df0b8045921566691d2f93f6f28b5b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 6.048330508172512,
+      "phase": "stage_active",
+      "origin": "setup_skip_prior_encounters",
+      "source_id": "123160624df7414c783e9181286cce4b",
+      "target_id": "c9a21b8f49bc623dcfcfe1bc09d157c3",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 6.698333907872438,
+      "phase": "stage_active",
+      "origin": "setup_skip_prior_encounters",
+      "source_id": "123160624df7414c783e9181286cce4b",
+      "target_id": "b085f313479c65130874a89dfd28955b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 7.348337609320879,
+      "phase": "stage_active",
+      "origin": "setup_skip_prior_encounters",
+      "source_id": "123160624df7414c783e9181286cce4b",
+      "target_id": "530c83a64ba8a18f79e5aeb08a9aa6b3",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 7.9983433075249195,
+      "phase": "stage_active",
+      "origin": "setup_skip_prior_encounters",
+      "source_id": "123160624df7414c783e9181286cce4b",
+      "target_id": "be9eee924cf484b8e4ee4cbe4b6f2f41",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 8.64834700897336,
+      "phase": "stage_active",
+      "origin": "setup_skip_prior_encounters",
+      "source_id": "123160624df7414c783e9181286cce4b",
+      "target_id": "2c7a59b6473e372d92dc0f888a2d8c16",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 14.106887867674232,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "ed1e1e214ca8ee0a7a555ca86efa354a",
+      "target_id": "123160624df7414c783e9181286cce4b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 17.324987892992795,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "62a53778449a0baa7908b18eff3084c1",
+      "target_id": "123160624df7414c783e9181286cce4b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    }
+  ],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": "Saved main level, native R01 AI. Earlier encounters cleared with a test hit fixture. Stationary player on the authored route and a fixed observer camera.",
+  "elapsed_seconds": 41.23399999999674,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.f78afe011d164655a204e185d21df7b7",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\e7f2e4012633cf6ca0171a4c2004a2d98e2159a8.nlrun",
+    "test_run_ids": [
+      "3d15381b423fd45053612db451cbdbf8",
+      "9b8fd8fe45d92acb57bdabbfc03424fd"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\e7f2e4012633cf6ca0171a4c2004a2d98e2159a8.nlrun"
+    ],
+    "temporary_assets_removed": true
+  },
+  "frames": [
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0000.png",
+      "t": 0.0,
+      "states": [
+        "<NLEnemyState.APPROACH: 1>",
+        "<NLEnemyState.APPROACH: 1>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0001.png",
+      "t": 0.10000000149011612,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0002.png",
+      "t": 0.15413365326821804,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0003.png",
+      "t": 0.2049300791695714,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0004.png",
+      "t": 0.2558542797341943,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0005.png",
+      "t": 0.30681975465267897,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0006.png",
+      "t": 0.36026125494390726,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0007.png",
+      "t": 0.41116927843540907,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0008.png",
+      "t": 0.4627200039103627,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0009.png",
+      "t": 0.5134959788993001,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0010.png",
+      "t": 0.564225030131638,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0011.png",
+      "t": 0.6151416534557939,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0012.png",
+      "t": 0.6665664529427886,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0013.png",
+      "t": 0.7176565025001764,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0014.png",
+      "t": 0.7688976274803281,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0015.png",
+      "t": 0.8202586276456714,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0016.png",
+      "t": 0.8714723028242588,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0017.png",
+      "t": 0.9229205278679729,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0018.png",
+      "t": 0.9751425292342901,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0019.png",
+      "t": 1.026170128956437,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0020.png",
+      "t": 1.07712865434587,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0021.png",
+      "t": 1.1283660791814327,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0022.png",
+      "t": 1.1793482024222612,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0023.png",
+      "t": 1.2306942287832499,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0024.png",
+      "t": 1.282160579226911,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0025.png",
+      "t": 1.3336902037262917,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0026.png",
+      "t": 1.385404328815639,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0027.png",
+      "t": 1.4364370526745915,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0028.png",
+      "t": 1.4875988541170955,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0029.png",
+      "t": 1.5387572292238474,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0030.png",
+      "t": 1.590320029295981,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0031.png",
+      "t": 1.6418334795162082,
+      "states": [
+        "<NLEnemyState.TELEGRAPH: 3>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0032.png",
+      "t": 1.6931756548583508,
+      "states": [
+        "<NLEnemyState.ATTACK: 4>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -1055.2828059137437,
+          4736.951672103838,
+          996.7228583897581
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0033.png",
+      "t": 1.7453456055372953,
+      "states": [
+        "<NLEnemyState.ATTACK: 4>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -1005.2108003089576,
+          4727.013421200156,
+          985.9651087397058
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0034.png",
+      "t": 1.7966591315343976,
+      "states": [
+        "<NLEnemyState.ATTACK: 4>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -955.9607794082245,
+          4717.238317151271,
+          975.3839588794075
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0035.png",
+      "t": 1.8479469306766987,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -906.735450791096,
+          4707.468114006732,
+          964.8081140473797
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0036.png",
+      "t": 1.9002208299934864,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -856.5636767044741,
+          4697.510061136007,
+          954.0289295788574
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0037.png",
+      "t": 1.951855355873704,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -807.0055645033409,
+          4687.673807376667,
+          943.3815876609607
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0038.png",
+      "t": 2.0035897055640817,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -757.351642773604,
+          4677.818537420098,
+          932.713661488242
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0039.png",
+      "t": 2.0554051054641604,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -707.6199301603871,
+          4667.947827592315,
+          922.029022287167
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0040.png",
+      "t": 2.1086054304614663,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -656.5589853679543,
+          4657.8132928438645,
+          911.058803412618
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0041.png",
+      "t": 2.1615129811689258,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -605.7790413372884,
+          4647.734530897818,
+          900.1489563128773
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0042.png",
+      "t": 2.2135282829403877,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -555.855465640169,
+          4637.825740241357,
+          889.423096174099
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0043.png",
+      "t": 2.263768808916211,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -507.6352954941367,
+          4628.2550401317585,
+          879.0632052081104
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0044.png",
+      "t": 2.315147082321346,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -458.32313091613923,
+          4618.467601856409,
+          868.4687040527267
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0045.png",
+      "t": 2.366811557672918,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -408.7362736217483,
+          4608.6256427943645,
+          857.815186378273
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0046.png",
+      "t": 2.418492832221091,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -359.1332926880706,
+          4598.780483525522,
+          847.1582046110032
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0047.png",
+      "t": 2.4702109079807997,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -309.4949904545582,
+          4588.928313713847,
+          836.493634218186
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0048.png",
+      "t": 2.5215126061812043,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -260.25632171143366,
+          4579.155462831963,
+          825.9149233189013
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0049.png",
+      "t": 2.5726602310314775,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -211.16553046389674,
+          4569.411962554999,
+          815.3679832475909
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0050.png",
+      "t": 2.6239823820069432,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -161.90723142681625,
+          4559.635215468353,
+          804.7850548661944
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0051.png",
+      "t": 2.6768107572570443,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -111.20327891795579,
+          4549.571536257682,
+          793.891534209887
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0052.png",
+      "t": 2.7280546575784683,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 100.0,
+      "projectiles": [
+        [
+          -62.02008378909764,
+          4539.809695733589,
+          783.324741572059
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0053.png",
+      "t": 2.779331107623875,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0054.png",
+      "t": 2.8315168833360076,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0055.png",
+      "t": 2.8833664832636714,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0056.png",
+      "t": 2.9349969075992703,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0057.png",
+      "t": 2.9865332329645753,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0058.png",
+      "t": 3.0381005574017763,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0059.png",
+      "t": 3.089417857117951,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0060.png",
+      "t": 3.140787531621754,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0061.png",
+      "t": 3.193437331356108,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0062.png",
+      "t": 3.2447062069550157,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0063.png",
+      "t": 3.2959095062687993,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0064.png",
+      "t": 3.3476701555773616,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0065.png",
+      "t": 3.400099406018853,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0066.png",
+      "t": 3.4512450294569135,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0067.png",
+      "t": 3.5028096549212933,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0068.png",
+      "t": 3.554090730845928,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0069.png",
+      "t": 3.606904179789126,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0070.png",
+      "t": 3.6583463037386537,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0071.png",
+      "t": 3.709868679754436,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0072.png",
+      "t": 3.761033604852855,
+      "states": [
+        "<NLEnemyState.RECOVER: 5>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0073.png",
+      "t": 3.812688854523003,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0074.png",
+      "t": 3.8643578561022878,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0075.png",
+      "t": 3.91582238022238,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0076.png",
+      "t": 3.9673309298232198,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0077.png",
+      "t": 4.018674778752029,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0078.png",
+      "t": 4.070682427845895,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0079.png",
+      "t": 4.124739428982139,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0080.png",
+      "t": 4.1759270541369915,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0081.png",
+      "t": 4.227287003770471,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0082.png",
+      "t": 4.278653853572905,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0083.png",
+      "t": 4.329663403332233,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0084.png",
+      "t": 4.381090053357184,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0085.png",
+      "t": 4.4329194547608495,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0086.png",
+      "t": 4.4847571309655905,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0087.png",
+      "t": 4.537188755348325,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0088.png",
+      "t": 4.589222706854343,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0089.png",
+      "t": 4.6410999819636345,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0090.png",
+      "t": 4.694362205453217,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0091.png",
+      "t": 4.74656520690769,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0092.png",
+      "t": 4.798059431836009,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0093.png",
+      "t": 4.849391981959343,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0094.png",
+      "t": 4.901387630961835,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0095.png",
+      "t": 4.952779630199075,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0096.png",
+      "t": 5.0040853302925825,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0097.png",
+      "t": 5.055981731042266,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0098.png",
+      "t": 5.107420430518687,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0099.png",
+      "t": 5.158818781375885,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0100.png",
+      "t": 5.212076482363045,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.TELEGRAPH: 3>"
+      ],
+      "hp": 90.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0101.png",
+      "t": 5.264080758206546,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.ATTACK: 4>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -678.6220394764692,
+          4736.02553622861,
+          1001.2879753592396
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0102.png",
+      "t": 5.315511533990502,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.ATTACK: 4>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -631.8779514447162,
+          4721.662112326464,
+          985.3566544589949
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0103.png",
+      "t": 5.366811933927238,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.ATTACK: 4>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -585.252358613294,
+          4707.3350993773265,
+          969.4657190949987
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0104.png",
+      "t": 5.41824140958488,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -538.5094522323706,
+          4692.972038570334,
+          953.5348009250104
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0105.png",
+      "t": 5.469806983135641,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -491.64285003313796,
+          4678.570968775509,
+          937.5617247440633
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0106.png",
+      "t": 5.520890358835459,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -445.214504858996,
+          4664.304565666771,
+          921.73801533007
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0107.png",
+      "t": 5.572483108378947,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -398.3232031101837,
+          4649.895906246908,
+          905.7565210482032
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0108.png",
+      "t": 5.624126359820366,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -351.3860015061451,
+          4635.473142817204,
+          889.7593831768758
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0109.png",
+      "t": 5.675540134310722,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -304.65736550583745,
+          4621.1144669824,
+          873.8333286382584
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0110.png",
+      "t": 5.727118233218789,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -257.77937933668375,
+          4606.7098991455205,
+          857.8563725724838
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0111.png",
+      "t": 5.77913683373481,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -210.50103276801272,
+          4592.182309417017,
+          841.7429656683457
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0112.png",
+      "t": 5.83052315749228,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -163.79734602143574,
+          4577.83129993581,
+          825.8254143348212
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0113.png",
+      "t": 5.882000431418419,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -117.0109970434229,
+          4563.454890180025,
+          809.8796900581333
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0114.png",
+      "t": 5.9334194315597415,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 90.0,
+      "projectiles": [
+        [
+          -70.27761158551785,
+          4549.094754941999,
+          793.9520168092946
+        ]
+      ]
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0115.png",
+      "t": 5.984931082464755,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0116.png",
+      "t": 6.037156783044338,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0117.png",
+      "t": 6.088637383654714,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0118.png",
+      "t": 6.140371134504676,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0119.png",
+      "t": 6.193130260333419,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0120.png",
+      "t": 6.244443736039102,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0121.png",
+      "t": 6.295921736396849,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0122.png",
+      "t": 6.349565586075187,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0123.png",
+      "t": 6.4014842370525,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0124.png",
+      "t": 6.453247312456369,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0125.png",
+      "t": 6.504435637965798,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0126.png",
+      "t": 6.55617946293205,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0127.png",
+      "t": 6.607823813334107,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0128.png",
+      "t": 6.65939306281507,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0129.png",
+      "t": 6.710974861867726,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0130.png",
+      "t": 6.762311811558902,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0131.png",
+      "t": 6.8134097112342715,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0132.png",
+      "t": 6.8653020625934005,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0133.png",
+      "t": 6.916757662780583,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0134.png",
+      "t": 6.968380537815392,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0135.png",
+      "t": 7.019834462553263,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0136.png",
+      "t": 7.071403187699616,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0137.png",
+      "t": 7.12262271437794,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0138.png",
+      "t": 7.173877390101552,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0139.png",
+      "t": 7.2254402888938785,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\RangedDemo1104\\Frames_f78afe011d164655a204e185d21df7b7\\frame_0140.png",
+      "t": 7.276924489066005,
+      "states": [
+        "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "<NLEnemyState.RECOVER: 5>"
+      ],
+      "hp": 80.0,
+      "projectiles": []
+    }
+  ],
+  "casters": [
+    "BP_Level_rock_talisman_C",
+    "BP_Level_rock_talisman_C"
+  ],
+  "caster_positions_cm": [
+    [
+      -1150.0,
+      4772.5,
+      969.1999984741212
+    ],
+    [
+      -740.0,
+      4772.5,
+      969.1999984741212
+    ]
+  ],
+  "projectile_count": 2,
+  "health_after": 80.0
+}

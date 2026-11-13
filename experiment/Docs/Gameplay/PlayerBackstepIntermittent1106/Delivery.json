@@ -1,0 +1,51 @@
+{
+  "state": "passed",
+  "completed_utc": "2026-11-06T09:38:52.833089+00:00",
+  "symptom": "Intermittent continuing backwards movement after desktop attack, including after tapping S again.",
+  "reproduction": "In a focused native level pawn with real UEnhancedPlayerInput, held S plus another press and a final release in the same input frame leaves legacy bDown true while the latest raw value is zero. Actual attack binding and CharacterMovement reproduce continued backwards travel on the prior version without Tab or focus loss.",
+  "change": "Read the last raw W/A/S/D sample instead of legacy bDown when producing keyboard locomotion; retain prior focus/cursor/pause cleanup and ordinary braking.",
+  "source_changes": [
+    {
+      "path": "Source/experiment/Private/Player/NLDesktopPlayerCharacter.cpp",
+      "before_sha256": "e06f97bea1e83c0375f47f4eefcdddbd03bb6e6c12277cca2478e0508f48e315",
+      "after_sha256": "85dcc1960e838776c70ccdfd7edd3627aaefa627cc0d8927d38ff474c5b234f3"
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLDesktopMovementInputTests.cpp",
+      "before_sha256": "b08f3f4cab72ee5ae38f87ae535c7f63285072f43fbcfb32163753581ac47fb8",
+      "after_sha256": "c819df9de2001b999b4c6a2871a6cebc31b2e1168542f55c2b29d8ef190eecae"
+    }
+  ],
+  "before": {
+    "passed": 2,
+    "failed": 2,
+    "report": "BeforeAutomation/index.json"
+  },
+  "after": {
+    "passed": 111,
+    "failed": 0,
+    "clean": 77,
+    "with_warnings": 34,
+    "report": "AfterAutomation/index.json"
+  },
+  "new_coverage": [
+    "Focused same-frame release with the real attack binding, followed by continued position/velocity checks.",
+    "All four movement keys at 15/30/60/120 Hz with release-last and press-last batches.",
+    "Existing cursor, focus, fresh movement and held-W slashing regressions remain passing."
+  ],
+  "map_sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+  "map_unchanged": true,
+  "module": {
+    "path": "D:\\game design\\experiment\\Binaries\\Win64\\UnrealEditor-experiment.dll",
+    "sha256": "c1fadd9dd06c84abe76ee8f59740dc33697f6b7e4efcbd4f14eb2f39485e1daa"
+  },
+  "supplemental_trace": "TraceAnalysis.json",
+  "manual_window_limit": "Window automation was interrupted/activation failed; no completed manual continuous keyboard playthrough is claimed. Native coalesced-event regressions are the primary repair evidence.",
+  "interrupted_test_cleanup": [
+    {
+      "path": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\eac3b4df306bf282c8d2cda5d4c9d12a6db79389.nlrun",
+      "sha256": "dcfc30227a933f027edf0cba1a3f7b81e8a4743c6a348507e174fa402147572c"
+    }
+  ],
+  "entry_point": "D:\\game design\\experiment\\Run_Gameplay_Demo.cmd"
+}

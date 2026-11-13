@@ -1,0 +1,44 @@
+《逆鳞》VR 启动崩溃修复记录（2026-11-08）
+
+结果
+已修复并编译。最终使用原生 DX12 / SM6 启动，没有保留实验性渲染参数。
+用户确认“已看到游戏场景和血量 HUD”。游戏进程保留供继续试玩。
+
+直接原因与修复
+VRCombatHUD 每 0.05 秒刷新画布，却设置 bLiveTexture=false，并重复 MarkTextureForUpdate。
+UE5.8 将该层创建为 OpenXR 静态图像交换链；静态交换链只允许获取一次图像。
+反复提交后 xrAcquireSwapchainImage 返回 XR_ERROR_CALL_ORDER_INVALID，继而 wait 致命退出。
+NLVRPlayerCharacter.cpp 改用实时纹理，初始化时兼容旧序列化默认值，删除重复手动更新标记。
+画布仍按 20Hz 刷新，血量 HUD 仍通过头显合成层显示。
+
+运行时排查
+SteamVR 原日志还存在 Meta/Oculus 共享纹理创建失败（0x887A0005）。
+已重启故障 SteamVR 会话，并通过 Windows 管理员授权重启 OVRService。
+MetaServiceRestart.json 记录服务重启成功。服务重置后共享纹理恢复创建，旧 HUD 代码仍会崩溃。
+因此运行时重置不能替代 HUD 代码修复。
+
+已撤回的诊断参数
+DX11 / norhithread 首次 SM5 编译耗时，未完成渲染验证，已结束该次测试。
+DX12 / norhithread、关闭提交线程、xr.OpenXRAcquireMode=1 均未解决旧模块崩溃。
+实时 HUD + 获取模式 1 可运行，但有未获取图像警告；最终已恢复原生参数并复测。
+历史参数的文件预检仅保留在 HistoricalProfilePreflights，不能当作成功修复记录。
+
+最终验证
+Build_CombatModule.ps1 -Target Editor 成功。
+现有 Nilin 自动化测试 111 项通过，0 失败（77 clean，34 with warnings）。
+主关卡日志：Saved/Logs/VRGameplay_20261108_164518_021.log。
+日志确认 live OpenXR HUD、头显追踪与持续进程存活，无 XR_ERROR / fatal / unacquired-image 警告。
+MainFinal.json / LabFinal.json：最终入口文件预检通过，未启动额外应用。
+入口新增 SteamVR 后台连接检查；串流断开时明确提示错误，不再直接落入无头显桌面模式。
+后台连接检查不代表真实帧率、控制器追踪或头显画面的验收；本次画面由用户确认。
+主地图 SHA256 与修复前一致；未修改引擎、全局 OpenXR 注册表或游戏存档。
+
+入口
+D:\game design\experiment\Run_Gameplay_VR.cmd
+
+依据
+本机 UE5.8 OpenXRHMD.cpp ConfigureLayerSwapchains / UpdateLayerSwapchainTexture。
+本机 OpenXRHMD_Swapchain.cpp 对静态图像标志的映射。
+https://registry.khronos.org/OpenXR/specs/1.1-khr/html/xrspec.html
+https://dev.epicgames.com/documentation/unreal-engine/API/Runtime/Engine/UStereoLayerComponent
+https://raw.githubusercontent.com/ValveSoftware/openvr/master/headers/openvr.h

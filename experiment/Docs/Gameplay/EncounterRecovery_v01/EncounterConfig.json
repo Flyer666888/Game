@@ -1,0 +1,1466 @@
+{
+  "schema_version": 1,
+  "source_map": "/Game/ReversedScale/Maps/L_NilinBlockoutV10",
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "units": "metres",
+  "total_enemy_budget": 109,
+  "baseline_enemy_budget": 103,
+  "new_rock_sentry_budget": 6,
+  "stage_count": 16,
+  "safe_rest_node_indices": [
+    2,
+    4
+  ],
+  "validation_required": "UE floor traces, spawn capsule sweeps, reachable NavMesh and ranged firing lanes",
+  "stages": [
+    {
+      "id": "Aoutside",
+      "label": "山门外 · 初次交锋",
+      "required": "",
+      "trigger_center_m": [
+        0,
+        -19,
+        0
+      ],
+      "trigger_extent_m": [
+        14,
+        8,
+        3
+      ],
+      "entry_ground_m": [
+        0,
+        -21,
+        0
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "Aoutside_P01",
+          "ground_m": [
+            -8.0,
+            -11.0,
+            0.0
+          ],
+          "yaw": -51.34019174590991
+        },
+        {
+          "id": "Aoutside_P02",
+          "ground_m": [
+            8.0,
+            -11.0,
+            0.0
+          ],
+          "yaw": -128.6598082540901
+        }
+      ],
+      "waves": [
+        {
+          "id": "Aoutside_W01",
+          "entry_class_key": "sword",
+          "count": 2,
+          "point_ids": [
+            "Aoutside_P01",
+            "Aoutside_P02"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        }
+      ],
+      "enemy_budget": 2
+    },
+    {
+      "id": "Ainside",
+      "label": "山门内 · 清理守卫",
+      "required": "Aoutside",
+      "trigger_center_m": [
+        0,
+        12,
+        0
+      ],
+      "trigger_extent_m": [
+        18,
+        10,
+        3
+      ],
+      "entry_ground_m": [
+        0,
+        6,
+        0
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "Ainside_P01",
+          "ground_m": [
+            -8.0,
+            10.0,
+            0.0
+          ],
+          "yaw": -26.56505117707799
+        },
+        {
+          "id": "Ainside_P02",
+          "ground_m": [
+            8.0,
+            10.0,
+            0.0
+          ],
+          "yaw": -153.434948822922
+        },
+        {
+          "id": "Ainside_P03",
+          "ground_m": [
+            -12.0,
+            15.0,
+            0.0
+          ],
+          "yaw": -36.86989764584402
+        },
+        {
+          "id": "Ainside_P04",
+          "ground_m": [
+            12.0,
+            15.0,
+            0.0
+          ],
+          "yaw": -143.13010235415598
+        },
+        {
+          "id": "Ainside_P05",
+          "ground_m": [
+            -6.0,
+            21.0,
+            0.0
+          ],
+          "yaw": -68.19859051364818
+        },
+        {
+          "id": "Ainside_P06",
+          "ground_m": [
+            6.0,
+            21.0,
+            0.0
+          ],
+          "yaw": -111.80140948635182
+        }
+      ],
+      "waves": [
+        {
+          "id": "Ainside_W01",
+          "entry_class_key": "sword",
+          "count": 6,
+          "point_ids": [
+            "Ainside_P01",
+            "Ainside_P02",
+            "Ainside_P03",
+            "Ainside_P04",
+            "Ainside_P05",
+            "Ainside_P06"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        }
+      ],
+      "enemy_budget": 6
+    },
+    {
+      "id": "R01",
+      "label": "R01 · 岩台持符弟子",
+      "required": "Ainside",
+      "trigger_center_m": [
+        0.0,
+        45.275,
+        6.4
+      ],
+      "trigger_extent_m": [
+        5,
+        4,
+        3
+      ],
+      "entry_ground_m": [
+        0.0,
+        42.395,
+        5.44
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "R01_P01",
+          "ground_m": [
+            -7.4,
+            47.725,
+            8.791999984741212
+          ],
+          "yaw": -35.764084410218786
+        },
+        {
+          "id": "R01_P02",
+          "ground_m": [
+            -11.5,
+            47.725,
+            8.791999984741212
+          ],
+          "yaw": -24.866697555364514
+        }
+      ],
+      "waves": [
+        {
+          "id": "R01_W01",
+          "entry_class_key": "talisman",
+          "count": 2,
+          "point_ids": [
+            "R01_P01",
+            "R01_P02"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 2
+        }
+      ],
+      "stationary_ranged": true,
+      "preserve_saved_spawn_ground": true,
+      "design_note": "Keep both sentries on the saved raised rock feet; alternate telegraphed shots.",
+      "enemy_budget": 2
+    },
+    {
+      "id": "Bcourt",
+      "label": "演武场 · 六波守阵",
+      "required": "R01",
+      "trigger_center_m": [
+        0,
+        126,
+        28
+      ],
+      "trigger_extent_m": [
+        14,
+        9,
+        3
+      ],
+      "entry_ground_m": [
+        0,
+        126,
+        28
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "Bcourt_P01",
+          "ground_m": [
+            -8.0,
+            140.0,
+            28.0
+          ],
+          "yaw": -60.25511870305778
+        },
+        {
+          "id": "Bcourt_P02",
+          "ground_m": [
+            8.0,
+            140.0,
+            28.0
+          ],
+          "yaw": -119.74488129694222
+        },
+        {
+          "id": "Bcourt_P03",
+          "ground_m": [
+            0.0,
+            148.0,
+            28.0
+          ],
+          "yaw": -90.0
+        },
+        {
+          "id": "Bcourt_P04",
+          "ground_m": [
+            -8.0,
+            154.0,
+            28.0
+          ],
+          "yaw": -74.05460409907715
+        },
+        {
+          "id": "Bcourt_P05",
+          "ground_m": [
+            8.0,
+            154.0,
+            28.0
+          ],
+          "yaw": -105.94539590092286
+        },
+        {
+          "id": "Bcourt_P06",
+          "ground_m": [
+            0.0,
+            157.0,
+            28.0
+          ],
+          "yaw": -90.0
+        }
+      ],
+      "waves": [
+        {
+          "id": "Bcourt_W01",
+          "entry_class_key": "sword",
+          "count": 6,
+          "point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        },
+        {
+          "id": "Bcourt_W02",
+          "entry_class_key": "sword",
+          "count": 6,
+          "point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        },
+        {
+          "id": "Bcourt_W03",
+          "entry_class_key": "sword",
+          "count": 6,
+          "point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        },
+        {
+          "id": "Bcourt_W04",
+          "entry_class_key": "sword",
+          "count": 6,
+          "point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        },
+        {
+          "id": "Bcourt_W05",
+          "entry_class_key": "sword",
+          "count": 6,
+          "point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        },
+        {
+          "id": "Bcourt_W06",
+          "entry_class_key": "sword",
+          "count": 6,
+          "point_ids": [
+            "Bcourt_P01",
+            "Bcourt_P02",
+            "Bcourt_P03",
+            "Bcourt_P04",
+            "Bcourt_P05",
+            "Bcourt_P06"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        }
+      ],
+      "enemy_budget": 36
+    },
+    {
+      "id": "Bexit",
+      "label": "演武场出口 · 断后守卫",
+      "required": "Bcourt",
+      "trigger_center_m": [
+        0,
+        157.5,
+        28
+      ],
+      "trigger_extent_m": [
+        14,
+        6,
+        3
+      ],
+      "entry_ground_m": [
+        0,
+        155,
+        28
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "Bexit_P01",
+          "ground_m": [
+            -6.5,
+            159.0,
+            28.0
+          ],
+          "yaw": -26.56505117707799
+        },
+        {
+          "id": "Bexit_P02",
+          "ground_m": [
+            6.939339828220179,
+            160.06066017177983,
+            28.0
+          ],
+          "yaw": -153.434948822922
+        },
+        {
+          "id": "Bexit_P03",
+          "ground_m": [
+            -12.0,
+            153.0,
+            28.0
+          ],
+          "yaw": 9.462322208025617
+        },
+        {
+          "id": "Bexit_P04",
+          "ground_m": [
+            12.0,
+            153.0,
+            28.0
+          ],
+          "yaw": 170.53767779197437
+        },
+        {
+          "id": "Bexit_P05",
+          "ground_m": [
+            -5.0,
+            161.0,
+            28.0
+          ],
+          "yaw": -50.19442890773481
+        },
+        {
+          "id": "Bexit_P06",
+          "ground_m": [
+            5.0,
+            161.0,
+            28.0
+          ],
+          "yaw": -129.8055710922652
+        }
+      ],
+      "waves": [
+        {
+          "id": "Bexit_W01",
+          "entry_class_key": "sword",
+          "count": 6,
+          "point_ids": [
+            "Bexit_P01",
+            "Bexit_P02",
+            "Bexit_P03",
+            "Bexit_P04",
+            "Bexit_P05",
+            "Bexit_P06"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        }
+      ],
+      "enemy_budget": 6
+    },
+    {
+      "id": "R02",
+      "label": "R02 · 岩台持符弟子",
+      "required": "Bexit",
+      "trigger_center_m": [
+        0.0,
+        177.075,
+        34.4
+      ],
+      "trigger_extent_m": [
+        5,
+        4,
+        3
+      ],
+      "entry_ground_m": [
+        0.0,
+        174.1625,
+        33.12
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "R02_P01",
+          "ground_m": [
+            7.4,
+            179.52499999999998,
+            36.7919999847412
+          ],
+          "yaw": -144.0705778722187
+        },
+        {
+          "id": "R02_P02",
+          "ground_m": [
+            11.5,
+            179.52499999999998,
+            36.7919999847412
+          ],
+          "yaw": -155.00015579221545
+        }
+      ],
+      "waves": [
+        {
+          "id": "R02_W01",
+          "entry_class_key": "talisman",
+          "count": 2,
+          "point_ids": [
+            "R02_P01",
+            "R02_P02"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 2
+        }
+      ],
+      "stationary_ranged": true,
+      "preserve_saved_spawn_ground": true,
+      "design_note": "Keep both sentries on the saved raised rock feet; alternate telegraphed shots.",
+      "enemy_budget": 2
+    },
+    {
+      "id": "R03",
+      "label": "R03 · 岩台持符弟子",
+      "required": "R02",
+      "trigger_center_m": [
+        0.0,
+        233.703571428571,
+        56.8
+      ],
+      "trigger_extent_m": [
+        5,
+        4,
+        3
+      ],
+      "entry_ground_m": [
+        0.0,
+        230.657142857143,
+        55.68
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "R03_P01",
+          "ground_m": [
+            -7.4,
+            236.15357142857098,
+            59.19199998474121
+          ],
+          "yaw": -36.60351081900205
+        },
+        {
+          "id": "R03_P02",
+          "ground_m": [
+            -11.5,
+            236.15357142857098,
+            59.19199998474121
+          ],
+          "yaw": -25.545482070559427
+        }
+      ],
+      "waves": [
+        {
+          "id": "R03_W01",
+          "entry_class_key": "talisman",
+          "count": 2,
+          "point_ids": [
+            "R03_P01",
+            "R03_P02"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 2
+        }
+      ],
+      "stationary_ranged": true,
+      "preserve_saved_spawn_ground": true,
+      "design_note": "Keep both sentries on the saved raised rock feet; alternate telegraphed shots.",
+      "enemy_budget": 2
+    },
+    {
+      "id": "Cestablish",
+      "label": "炼丹院 · 建立战线",
+      "required": "R03",
+      "trigger_center_m": [
+        0,
+        300,
+        72
+      ],
+      "trigger_extent_m": [
+        29,
+        28,
+        3
+      ],
+      "entry_ground_m": [
+        0,
+        279,
+        72
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "Cestablish_P01",
+          "ground_m": [
+            -12.0,
+            290.0,
+            72.0
+          ],
+          "yaw": -42.510447078000844
+        },
+        {
+          "id": "Cestablish_P02",
+          "ground_m": [
+            12.0,
+            290.0,
+            72.0
+          ],
+          "yaw": -137.48955292199918
+        },
+        {
+          "id": "Cestablish_P03",
+          "ground_m": [
+            -12.0,
+            298.0,
+            72.0
+          ],
+          "yaw": -57.724355685422374
+        },
+        {
+          "id": "Cestablish_P04",
+          "ground_m": [
+            12.0,
+            298.0,
+            72.0
+          ],
+          "yaw": -122.27564431457762
+        },
+        {
+          "id": "Cestablish_P05",
+          "ground_m": [
+            -12.0,
+            306.0,
+            72.0
+          ],
+          "yaw": -66.03751102542182
+        },
+        {
+          "id": "Cestablish_P06",
+          "ground_m": [
+            12.0,
+            306.0,
+            72.0
+          ],
+          "yaw": -113.96248897457819
+        },
+        {
+          "id": "Cestablish_P07",
+          "ground_m": [
+            -18.0,
+            294.0,
+            72.0
+          ],
+          "yaw": -39.80557109226519
+        },
+        {
+          "id": "Cestablish_P08",
+          "ground_m": [
+            18.0,
+            294.0,
+            72.0
+          ],
+          "yaw": -140.19442890773482
+        }
+      ],
+      "waves": [
+        {
+          "id": "Cestablish_W01",
+          "entry_class_key": "sword",
+          "count": 4,
+          "point_ids": [
+            "Cestablish_P01",
+            "Cestablish_P02",
+            "Cestablish_P03",
+            "Cestablish_P04",
+            "Cestablish_P05",
+            "Cestablish_P06",
+            "Cestablish_P07",
+            "Cestablish_P08"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        },
+        {
+          "id": "Cestablish_W02",
+          "entry_class_key": "sword",
+          "count": 4,
+          "point_ids": [
+            "Cestablish_P01",
+            "Cestablish_P02",
+            "Cestablish_P03",
+            "Cestablish_P04",
+            "Cestablish_P05",
+            "Cestablish_P06",
+            "Cestablish_P07",
+            "Cestablish_P08"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        }
+      ],
+      "design_note": "Shared courtyard trigger; advance when predecessor clears and player remains inside.",
+      "enemy_budget": 8
+    },
+    {
+      "id": "Cinterrupt",
+      "label": "炼丹院 · 打断施法",
+      "required": "Cestablish",
+      "trigger_center_m": [
+        0,
+        300,
+        72
+      ],
+      "trigger_extent_m": [
+        29,
+        28,
+        3
+      ],
+      "entry_ground_m": [
+        0,
+        279,
+        72
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "Cinterrupt_P01",
+          "ground_m": [
+            -12.0,
+            290.0,
+            72.0
+          ],
+          "yaw": -42.510447078000844
+        },
+        {
+          "id": "Cinterrupt_P02",
+          "ground_m": [
+            12.0,
+            290.0,
+            72.0
+          ],
+          "yaw": -137.48955292199918
+        },
+        {
+          "id": "Cinterrupt_P03",
+          "ground_m": [
+            -12.0,
+            298.0,
+            72.0
+          ],
+          "yaw": -57.724355685422374
+        },
+        {
+          "id": "Cinterrupt_P04",
+          "ground_m": [
+            12.0,
+            298.0,
+            72.0
+          ],
+          "yaw": -122.27564431457762
+        },
+        {
+          "id": "Cinterrupt_P05",
+          "ground_m": [
+            -12.0,
+            306.0,
+            72.0
+          ],
+          "yaw": -66.03751102542182
+        },
+        {
+          "id": "Cinterrupt_P06",
+          "ground_m": [
+            12.0,
+            306.0,
+            72.0
+          ],
+          "yaw": -113.96248897457819
+        },
+        {
+          "id": "Cinterrupt_P07",
+          "ground_m": [
+            -18.0,
+            294.0,
+            72.0
+          ],
+          "yaw": -39.80557109226519
+        },
+        {
+          "id": "Cinterrupt_P08",
+          "ground_m": [
+            18.0,
+            294.0,
+            72.0
+          ],
+          "yaw": -140.19442890773482
+        }
+      ],
+      "waves": [
+        {
+          "id": "Cinterrupt_W01",
+          "entry_class_key": "talisman",
+          "count": 5,
+          "point_ids": [
+            "Cinterrupt_P01",
+            "Cinterrupt_P02",
+            "Cinterrupt_P03",
+            "Cinterrupt_P04",
+            "Cinterrupt_P05",
+            "Cinterrupt_P06",
+            "Cinterrupt_P07",
+            "Cinterrupt_P08"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        },
+        {
+          "id": "Cinterrupt_W02",
+          "entry_class_key": "sword",
+          "count": 5,
+          "point_ids": [
+            "Cinterrupt_P01",
+            "Cinterrupt_P02",
+            "Cinterrupt_P03",
+            "Cinterrupt_P04",
+            "Cinterrupt_P05",
+            "Cinterrupt_P06",
+            "Cinterrupt_P07",
+            "Cinterrupt_P08"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        }
+      ],
+      "design_note": "Shared courtyard trigger; advance when predecessor clears and player remains inside.",
+      "enemy_budget": 10
+    },
+    {
+      "id": "Csiege",
+      "label": "炼丹院 · 阵地围攻",
+      "required": "Cinterrupt",
+      "trigger_center_m": [
+        0,
+        300,
+        72
+      ],
+      "trigger_extent_m": [
+        29,
+        28,
+        3
+      ],
+      "entry_ground_m": [
+        0,
+        279,
+        72
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "Csiege_P01",
+          "ground_m": [
+            -12.0,
+            290.0,
+            72.0
+          ],
+          "yaw": -42.510447078000844
+        },
+        {
+          "id": "Csiege_P02",
+          "ground_m": [
+            12.0,
+            290.0,
+            72.0
+          ],
+          "yaw": -137.48955292199918
+        },
+        {
+          "id": "Csiege_P03",
+          "ground_m": [
+            -12.0,
+            298.0,
+            72.0
+          ],
+          "yaw": -57.724355685422374
+        },
+        {
+          "id": "Csiege_P04",
+          "ground_m": [
+            12.0,
+            298.0,
+            72.0
+          ],
+          "yaw": -122.27564431457762
+        },
+        {
+          "id": "Csiege_P05",
+          "ground_m": [
+            -12.0,
+            306.0,
+            72.0
+          ],
+          "yaw": -66.03751102542182
+        },
+        {
+          "id": "Csiege_P06",
+          "ground_m": [
+            12.0,
+            306.0,
+            72.0
+          ],
+          "yaw": -113.96248897457819
+        },
+        {
+          "id": "Csiege_P07",
+          "ground_m": [
+            -18.0,
+            294.0,
+            72.0
+          ],
+          "yaw": -39.80557109226519
+        },
+        {
+          "id": "Csiege_P08",
+          "ground_m": [
+            18.0,
+            294.0,
+            72.0
+          ],
+          "yaw": -140.19442890773482
+        }
+      ],
+      "waves": [
+        {
+          "id": "Csiege_W01",
+          "entry_class_key": "sword",
+          "count": 6,
+          "point_ids": [
+            "Csiege_P01",
+            "Csiege_P02",
+            "Csiege_P03",
+            "Csiege_P04",
+            "Csiege_P05",
+            "Csiege_P06",
+            "Csiege_P07",
+            "Csiege_P08"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        },
+        {
+          "id": "Csiege_W02",
+          "entry_class_key": "talisman",
+          "count": 6,
+          "point_ids": [
+            "Csiege_P01",
+            "Csiege_P02",
+            "Csiege_P03",
+            "Csiege_P04",
+            "Csiege_P05",
+            "Csiege_P06",
+            "Csiege_P07",
+            "Csiege_P08"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        }
+      ],
+      "design_note": "Shared courtyard trigger; advance when predecessor clears and player remains inside.",
+      "enemy_budget": 12
+    },
+    {
+      "id": "Cunseal",
+      "label": "炼丹院 · 解封守阵",
+      "required": "Csiege",
+      "trigger_center_m": [
+        0,
+        300,
+        72
+      ],
+      "trigger_extent_m": [
+        29,
+        28,
+        3
+      ],
+      "entry_ground_m": [
+        0,
+        279,
+        72
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "Cunseal_P01",
+          "ground_m": [
+            -12.0,
+            290.0,
+            72.0
+          ],
+          "yaw": -42.510447078000844
+        },
+        {
+          "id": "Cunseal_P02",
+          "ground_m": [
+            12.0,
+            290.0,
+            72.0
+          ],
+          "yaw": -137.48955292199918
+        },
+        {
+          "id": "Cunseal_P03",
+          "ground_m": [
+            -12.0,
+            298.0,
+            72.0
+          ],
+          "yaw": -57.724355685422374
+        },
+        {
+          "id": "Cunseal_P04",
+          "ground_m": [
+            12.0,
+            298.0,
+            72.0
+          ],
+          "yaw": -122.27564431457762
+        },
+        {
+          "id": "Cunseal_P05",
+          "ground_m": [
+            -12.0,
+            306.0,
+            72.0
+          ],
+          "yaw": -66.03751102542182
+        },
+        {
+          "id": "Cunseal_P06",
+          "ground_m": [
+            12.0,
+            306.0,
+            72.0
+          ],
+          "yaw": -113.96248897457819
+        },
+        {
+          "id": "Cunseal_P07",
+          "ground_m": [
+            -18.0,
+            294.0,
+            72.0
+          ],
+          "yaw": -39.80557109226519
+        },
+        {
+          "id": "Cunseal_P08",
+          "ground_m": [
+            18.0,
+            294.0,
+            72.0
+          ],
+          "yaw": -140.19442890773482
+        }
+      ],
+      "waves": [
+        {
+          "id": "Cunseal_W01",
+          "entry_class_key": "sword",
+          "count": 7,
+          "point_ids": [
+            "Cunseal_P01",
+            "Cunseal_P02",
+            "Cunseal_P03",
+            "Cunseal_P04",
+            "Cunseal_P05",
+            "Cunseal_P06",
+            "Cunseal_P07",
+            "Cunseal_P08"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 2.5,
+          "max_alive": 4
+        },
+        {
+          "id": "Cunseal_W02",
+          "entry_class_key": "talisman",
+          "count": 7,
+          "point_ids": [
+            "Cunseal_P01",
+            "Cunseal_P02",
+            "Cunseal_P03",
+            "Cunseal_P04",
+            "Cunseal_P05",
+            "Cunseal_P06",
+            "Cunseal_P07",
+            "Cunseal_P08"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 3.0,
+          "max_alive": 4
+        }
+      ],
+      "design_note": "Shared courtyard trigger; advance when predecessor clears and player remains inside.",
+      "enemy_budget": 14
+    },
+    {
+      "id": "GM01",
+      "label": "御风桥 · 问剑宗师",
+      "required": "Cunseal",
+      "trigger_center_m": [
+        -46,
+        332,
+        72
+      ],
+      "trigger_extent_m": [
+        10,
+        9,
+        3
+      ],
+      "entry_ground_m": [
+        -42.16918295455541,
+        324.97683541668493,
+        72
+      ],
+      "entry_yaw": 109.16357925465454,
+      "spawn_points": [
+        {
+          "id": "GM01_Master",
+          "ground_m": [
+            -46.0,
+            336.0,
+            72.0
+          ],
+          "yaw": -70.83642074534546
+        }
+      ],
+      "waves": [
+        {
+          "id": "GM01_W01",
+          "entry_class_key": "GM01",
+          "count": 1,
+          "point_ids": [
+            "GM01_Master"
+          ],
+          "spawn_interval": 0.0,
+          "intermission": 3.0,
+          "max_alive": 1
+        }
+      ],
+      "master_id": "GM01",
+      "seal_id": "SwordSeal",
+      "first_clear_health_reward": 25.0,
+      "enemy_budget": 1
+    },
+    {
+      "id": "GM02",
+      "label": "御风桥 · 镇符宗师",
+      "required": "GM01",
+      "trigger_center_m": [
+        -82,
+        397,
+        90
+      ],
+      "trigger_extent_m": [
+        10,
+        9,
+        3
+      ],
+      "entry_ground_m": [
+        -74.35134518337108,
+        383.1899288033089,
+        90
+      ],
+      "entry_yaw": 113.24142951089487,
+      "spawn_points": [
+        {
+          "id": "GM02_Guard01",
+          "ground_m": [
+            -88.0,
+            396.0,
+            90.0
+          ],
+          "yaw": -43.18467359937445
+        },
+        {
+          "id": "GM02_Guard02",
+          "ground_m": [
+            -76.0,
+            396.0,
+            90.0
+          ],
+          "yaw": -82.66635257550587
+        },
+        {
+          "id": "GM02_Master",
+          "ground_m": [
+            -82.0,
+            401.0,
+            90.0
+          ],
+          "yaw": -66.75857048910514
+        }
+      ],
+      "waves": [
+        {
+          "id": "GM02_W01",
+          "entry_class_key": "sword",
+          "count": 2,
+          "point_ids": [
+            "GM02_Guard01",
+            "GM02_Guard02"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 3.0,
+          "max_alive": 4
+        },
+        {
+          "id": "GM02_W02",
+          "entry_class_key": "GM02",
+          "count": 1,
+          "point_ids": [
+            "GM02_Master"
+          ],
+          "spawn_interval": 0.0,
+          "intermission": 3.0,
+          "max_alive": 1
+        }
+      ],
+      "master_id": "GM02",
+      "seal_id": "TalismanSeal",
+      "first_clear_health_reward": 25.0,
+      "enemy_budget": 3
+    },
+    {
+      "id": "GM03",
+      "label": "御风桥 · 丹火宗师",
+      "required": "GM02",
+      "trigger_center_m": [
+        -130,
+        466,
+        106
+      ],
+      "trigger_extent_m": [
+        10,
+        9,
+        3
+      ],
+      "entry_ground_m": [
+        -120.73006373486297,
+        452.6744666188655,
+        106
+      ],
+      "entry_yaw": 118.14877610994607,
+      "spawn_points": [
+        {
+          "id": "GM03_Guard01",
+          "ground_m": [
+            -136.0,
+            465.0,
+            106.0
+          ],
+          "yaw": -38.90965271740831
+        },
+        {
+          "id": "GM03_Guard02",
+          "ground_m": [
+            -124.0,
+            465.0,
+            106.0
+          ],
+          "yaw": -75.14183375072852
+        },
+        {
+          "id": "GM03_Master",
+          "ground_m": [
+            -130.0,
+            470.0,
+            106.0
+          ],
+          "yaw": -61.85122389005394
+        }
+      ],
+      "waves": [
+        {
+          "id": "GM03_W01",
+          "entry_class_key": "talisman",
+          "count": 2,
+          "point_ids": [
+            "GM03_Guard01",
+            "GM03_Guard02"
+          ],
+          "spawn_interval": 0.65,
+          "intermission": 3.0,
+          "max_alive": 4
+        },
+        {
+          "id": "GM03_W02",
+          "entry_class_key": "GM03",
+          "count": 1,
+          "point_ids": [
+            "GM03_Master"
+          ],
+          "spawn_interval": 0.0,
+          "intermission": 3.0,
+          "max_alive": 1
+        }
+      ],
+      "master_id": "GM03",
+      "seal_id": "AlchemySeal",
+      "first_clear_health_reward": 25.0,
+      "enemy_budget": 3
+    },
+    {
+      "id": "GM04",
+      "label": "御风桥 · 御风宗师",
+      "required": "GM03",
+      "trigger_center_m": [
+        -180,
+        535,
+        122
+      ],
+      "trigger_extent_m": [
+        10,
+        9,
+        3
+      ],
+      "entry_ground_m": [
+        -170.43641354117972,
+        521.802250686828,
+        122
+      ],
+      "entry_yaw": 119.07822730081664,
+      "spawn_points": [
+        {
+          "id": "GM04_Master",
+          "ground_m": [
+            -180.0,
+            539.0,
+            122.0
+          ],
+          "yaw": -60.92177269918336
+        }
+      ],
+      "waves": [
+        {
+          "id": "GM04_W01",
+          "entry_class_key": "GM04",
+          "count": 1,
+          "point_ids": [
+            "GM04_Master"
+          ],
+          "spawn_interval": 0.0,
+          "intermission": 3.0,
+          "max_alive": 1
+        }
+      ],
+      "master_id": "GM04",
+      "seal_id": "WindSeal",
+      "first_clear_health_reward": 25.0,
+      "enemy_budget": 1
+    },
+    {
+      "id": "Boss",
+      "label": "山顶 · 最终决战",
+      "required": "GM04",
+      "trigger_center_m": [
+        -208,
+        590,
+        132
+      ],
+      "trigger_extent_m": [
+        20,
+        12,
+        3
+      ],
+      "entry_ground_m": [
+        -208,
+        590,
+        132
+      ],
+      "entry_yaw": 90.0,
+      "spawn_points": [
+        {
+          "id": "Boss_P01",
+          "ground_m": [
+            -208.0,
+            626.0,
+            132.00000003814696
+          ],
+          "yaw": -90.0
+        }
+      ],
+      "waves": [
+        {
+          "id": "Boss_W01",
+          "entry_class_key": "boss",
+          "count": 1,
+          "point_ids": [
+            "Boss_P01"
+          ],
+          "spawn_interval": 0.0,
+          "intermission": 0.0,
+          "max_alive": 1
+        }
+      ],
+      "required_seal_ids": [
+        "SwordSeal",
+        "TalismanSeal",
+        "AlchemySeal",
+        "WindSeal"
+      ],
+      "enemy_budget": 1
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "state": "built",
+  "source_blend": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\Over9000\\SelectedA\\SM_PlayerSword_A.blend",
+  "source_sha256": "36a2a8b28bc8263038d5946e949c2c761da399da45ed3cb5cd73234cfabc397b",
+  "output_fbx": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV01\\SM_PlayerSword_A_DetailV01.fbx",
+  "output_blend": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV01\\SM_PlayerSword_A_DetailV01.blend",
+  "triangles_before": 1594,
+  "triangles_after": 11878,
+  "vertices_after": 6097,
+  "triangles_by_material": {
+    "BladeEdge": 856,
+    "BladeSteel": 2894,
+    "BladeFuller": 568,
+    "Guard03": 2300,
+    "Grip04": 292,
+    "Pommel03": 2216,
+    "GoldDetail": 2752
+  },
+  "bounds_cm": {
+    "min": [
+      -7.5204362869262695,
+      -1.8007644414901733,
+      -13.375218391418457
+    ],
+    "max": [
+      7.52043342590332,
+      1.8007643222808838,
+      64.9390869140625
+    ]
+  },
+  "blade_sample_cm": [
+    [
+      0,
+      0,
+      8.42
+    ],
+    [
+      0,
+      0,
+      36.68
+    ],
+    [
+      0,
+      0,
+      64.94
+    ]
+  ],
+  "slot_order": [
+    "BladeSteel",
+    "BladeEdge",
+    "BladeFuller",
+    "Guard03",
+    "Grip04",
+    "Pommel03",
+    "GoldDetail"
+  ],
+  "material_contract": {
+    "BladeSteel": {
+      "base_color_linear": [
+        0.43,
+        0.49,
+        0.56
+      ],
+      "metallic": 0.95,
+      "roughness": 0.26
+    },
+    "BladeEdge": {
+      "base_color_linear": [
+        0.68,
+        0.75,
+        0.83
+      ],
+      "metallic": 0.96,
+      "roughness": 0.17
+    },
+    "BladeFuller": {
+      "base_color_linear": [
+        0.24,
+        0.3,
+        0.36
+      ],
+      "metallic": 0.91,
+      "roughness": 0.33
+    },
+    "GoldDetail": {
+      "base_color_linear": [
+        0.48,
+        0.29,
+        0.09
+      ],
+      "metallic": 0.92,
+      "roughness": 0.28
+    },
+    "Guard03": {
+      "existing_ue_material": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_03"
+    },
+    "Grip04": {
+      "existing_ue_material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01"
+    },
+    "Pommel03": {
+      "existing_ue_material": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_03"
+    }
+  },
+  "uv_layers": [
+    "UVChannel_0",
+    "UVChannel_1"
+  ],
+  "changes": [
+    "Actual central ridge with paired shallow channels",
+    "Dedicated narrow physical cutting edge bands",
+    "Smooth original A silhouette through 70+ blade sections",
+    "Two-segment 0.48mm guard and 0.28mm pommel chamfers",
+    "Restrained symmetric cloud inlay near forte",
+    "Original grip geometry and pivot retained"
+  ],
+  "license": "Derived only from user project selected A source; retains source package terms; no external assets or providers",
+  "fbx_sha256": "d17258e79a595034209ef154c85cb8d1f347e3747f73a62786f975853b78a036",
+  "limits": "Blender source validation only. UE import, shading, gameplay collision and real-device acceptance owned by integration."
+}

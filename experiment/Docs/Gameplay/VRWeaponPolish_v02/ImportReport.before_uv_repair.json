@@ -1,0 +1,143 @@
+{
+  "state": "passed",
+  "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV02",
+  "destination": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01",
+  "stable_runtime_asset_updated": true,
+  "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\VRWeaponPolish_v02\\Backups\\Content\\ReversedScale\\Weapons\\SelectedSwordA_DetailV01",
+  "source_sha256": "98c02e30c1eaae11760502018715cb1d4571cc6b88c146098bd9817a0eb193c3",
+  "runtime_material_contract": {
+    "BladeSteel": {
+      "base_color_linear": [
+        0.52,
+        0.54,
+        0.56
+      ],
+      "metallic": 0.94,
+      "roughness": 0.26
+    },
+    "BladeEdge": {
+      "base_color_linear": [
+        0.65,
+        0.68,
+        0.7
+      ],
+      "metallic": 0.96,
+      "roughness": 0.2
+    },
+    "BladeFuller": {
+      "base_color_linear": [
+        0.52,
+        0.54,
+        0.56
+      ],
+      "metallic": 0.94,
+      "roughness": 0.26
+    },
+    "Guard03": {
+      "base_color_linear": [
+        0.31,
+        0.205,
+        0.085
+      ],
+      "metallic": 0.88,
+      "roughness": 0.32
+    },
+    "Grip04": {
+      "existing_ue_material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01"
+    },
+    "Pommel03": {
+      "base_color_linear": [
+        0.035,
+        0.12,
+        0.085
+      ],
+      "metallic": 0.08,
+      "roughness": 0.22
+    },
+    "GoldDetail": {
+      "base_color_linear": [
+        0.51,
+        0.34,
+        0.14
+      ],
+      "metallic": 0.92,
+      "roughness": 0.26
+    }
+  },
+  "bounds_cm": {
+    "origin": [
+      0.0,
+      0.0,
+      25.78193426132202
+    ],
+    "extent": [
+      6.650000095367432,
+      1.4212368726730347,
+      39.15715265274048
+    ],
+    "tip_z": 64.9390869140625,
+    "bottom_z": -13.375218391418457
+  },
+  "materials": [
+    {
+      "slot": "BladeSteel",
+      "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_BladeSteel.M_BladeSteel"
+    },
+    {
+      "slot": "BladeEdge",
+      "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_BladeEdge.M_BladeEdge"
+    },
+    {
+      "slot": "BladeFuller",
+      "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_BladeFuller.M_BladeFuller"
+    },
+    {
+      "slot": "Guard03",
+      "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_Guard03.M_Guard03"
+    },
+    {
+      "slot": "Grip04",
+      "path": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01"
+    },
+    {
+      "slot": "Pommel03",
+      "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_Pommel03.M_Pommel03"
+    },
+    {
+      "slot": "GoldDetail",
+      "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_GoldDetail.M_GoldDetail"
+    }
+  ],
+  "mesh": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/SM_PlayerSword_A_DetailV01.SM_PlayerSword_A_DetailV01",
+  "lod0_sections": 7,
+  "lod0_triangles": 13564,
+  "lod0_vertices": 11709,
+  "uv_channels": 2,
+  "blade_samples_cm": [
+    [
+      0,
+      0,
+      8.42
+    ],
+    [
+      0,
+      0,
+      36.68
+    ],
+    [
+      0,
+      0,
+      64.94
+    ]
+  ],
+  "collision": "Native sampled blade sweep; no mesh-body collision or navigation",
+  "readback_materials": [
+    "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_BladeSteel.M_BladeSteel",
+    "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_BladeEdge.M_BladeEdge",
+    "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_BladeFuller.M_BladeFuller",
+    "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_Guard03.M_Guard03",
+    "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01",
+    "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_Pommel03.M_Pommel03",
+    "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V02/M_GoldDetail.M_GoldDetail"
+  ]
+}

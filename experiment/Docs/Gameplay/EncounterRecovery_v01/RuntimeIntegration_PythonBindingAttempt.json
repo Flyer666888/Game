@@ -1,0 +1,41 @@
+{
+  "kind": "Real PIE resolver-driven encounter/recovery integration",
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "state": "failed",
+  "success": false,
+  "deadline_seconds": 600,
+  "stages": [],
+  "perfect_parry": {
+    "results": []
+  },
+  "retry": {},
+  "master_rewards": [],
+  "rock_r01_ai": {
+    "state": "pending",
+    "duration_game_seconds": 12.0
+  },
+  "total_counted_spawns": 0,
+  "total_resolver_defeats": 0,
+  "failures": [
+    {
+      "error": "Traceback (most recent call last):\n  File \"D:\\game design\\experiment\\Scripts\\Editor\\Gameplay\\runtime_encounter_recovery_v01.py\", line 680, in tick\n    if not self.prepare_services(world):\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\game design\\experiment\\Scripts\\Editor\\Gameplay\\runtime_encounter_recovery_v01.py\", line 177, in prepare_services\n    self.resolver = unreal.SubsystemBlueprintLibrary.get_world_subsystem(world, unreal.NLCombatResolverSubsystem)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'unreal' has no attribute 'SubsystemBlueprintLibrary'\n",
+      "phase": "world_wait",
+      "stage_index": 0
+    }
+  ],
+  "cleanup": {
+    "state": "not_needed",
+    "deleted_only_test_run": false
+  },
+  "scope": [
+    "The actual saved gameplay map, possessed level player and finite encounter director run in PIE.",
+    "Stage entries use explicit setup teleports; this is not a continuous traversal test.",
+    "R01's two actual rock casters run live AI for 12 game seconds, observing Telegraph/Attack, emitted projectiles and stationary feet.",
+    "Other enemy AI is locally paused for deterministic orchestration/reward checks; automatic health protection may assist the R01 observation.",
+    "Defeats use Resolver.ResolveContact with a transient 999-damage test definition.",
+    "Perfect parries use live spawned enemies and Resolver.ResolveGuardContact, with real release/rearm timing.",
+    "No combat/death/reward delegates are broadcast manually and no stage-completion state is written.",
+    "This does not verify human combat, AI attack readability, VR gestures, headset performance or difficulty balance."
+  ],
+  "elapsed_seconds": 19.734000000004016
+}

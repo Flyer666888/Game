@@ -1,0 +1,935 @@
+{
+  "state": "passed",
+  "meshes": [
+    {
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Native_v07_Fitted.PHYS_SK_WuxiaMale_Native_v07_Fitted",
+      "state": "passed",
+      "body_count": 26,
+      "constraint_count": 25,
+      "capsule_count": 26,
+      "bone_names_match": true,
+      "constraints_valid": true,
+      "shapes_valid": true,
+      "preview_mesh_matches": true,
+      "mesh_height_cm": 180,
+      "min_world_capsule_radius_cm": 1.9518363286460672,
+      "max_world_capsule_radius_cm": 16.11272394657135,
+      "body_bones": [
+        "Hips",
+        "Spine",
+        "Spine1",
+        "Spine2",
+        "Neck",
+        "Head",
+        "LeftShoulder",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "LeftHandThumb1",
+        "LeftHandIndex2",
+        "RightShoulder",
+        "RightArm",
+        "RightForeArm",
+        "RightHandThumb1",
+        "RightHandIndex1",
+        "RightHandIndex2",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase"
+      ],
+      "constraint_bones": [
+        [
+          "Spine",
+          "Hips"
+        ],
+        [
+          "Spine1",
+          "Spine"
+        ],
+        [
+          "Spine2",
+          "Spine1"
+        ],
+        [
+          "Neck",
+          "Spine2"
+        ],
+        [
+          "Head",
+          "Neck"
+        ],
+        [
+          "LeftShoulder",
+          "Spine2"
+        ],
+        [
+          "LeftArm",
+          "LeftShoulder"
+        ],
+        [
+          "LeftForeArm",
+          "LeftArm"
+        ],
+        [
+          "LeftHand",
+          "LeftForeArm"
+        ],
+        [
+          "LeftHandThumb1",
+          "LeftHand"
+        ],
+        [
+          "LeftHandIndex2",
+          "LeftHand"
+        ],
+        [
+          "RightShoulder",
+          "Spine2"
+        ],
+        [
+          "RightArm",
+          "RightShoulder"
+        ],
+        [
+          "RightForeArm",
+          "RightArm"
+        ],
+        [
+          "RightHandThumb1",
+          "RightForeArm"
+        ],
+        [
+          "RightHandIndex1",
+          "RightForeArm"
+        ],
+        [
+          "RightHandIndex2",
+          "RightHandIndex1"
+        ],
+        [
+          "LeftUpLeg",
+          "Hips"
+        ],
+        [
+          "LeftLeg",
+          "LeftUpLeg"
+        ],
+        [
+          "LeftFoot",
+          "LeftLeg"
+        ],
+        [
+          "LeftToeBase",
+          "LeftFoot"
+        ],
+        [
+          "RightUpLeg",
+          "Hips"
+        ],
+        [
+          "RightLeg",
+          "RightUpLeg"
+        ],
+        [
+          "RightFoot",
+          "RightLeg"
+        ],
+        [
+          "RightToeBase",
+          "RightFoot"
+        ]
+      ],
+      "capsules": [
+        {
+          "bone": "Hips",
+          "local_radius": 0.1225329264998436,
+          "local_length": 0.032520659267902374,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 12.25329264998436,
+          "world_total_length_cm": 27.758651226758957,
+          "fit_skin_vertices": "12722",
+          "measured_skin_radius_cm": "12.253293",
+          "measured_skin_length_cm": "27.758652"
+        },
+        {
+          "bone": "Spine",
+          "local_radius": 0.14252741634845734,
+          "local_length": 0,
+          "bind_and_component_scale": 100.00000429153351,
+          "world_radius_cm": 14.252742246506918,
+          "world_total_length_cm": 28.505484493013835,
+          "fit_skin_vertices": "6027",
+          "measured_skin_radius_cm": "14.252743",
+          "measured_skin_length_cm": "7.562616"
+        },
+        {
+          "bone": "Spine1",
+          "local_radius": 0.1611272394657135,
+          "local_length": 0,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 16.11272394657135,
+          "world_total_length_cm": 32.2254478931427,
+          "fit_skin_vertices": "7790",
+          "measured_skin_radius_cm": "16.112723",
+          "measured_skin_length_cm": "12.655246"
+        },
+        {
+          "bone": "Spine2",
+          "local_radius": 0.1416749507188797,
+          "local_length": 0,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 14.16749507188797,
+          "world_total_length_cm": 28.33499014377594,
+          "fit_skin_vertices": "9510",
+          "measured_skin_radius_cm": "14.167495",
+          "measured_skin_length_cm": "17.48274"
+        },
+        {
+          "bone": "Neck",
+          "local_radius": 0.054999999701976776,
+          "local_length": 0,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 5.499999970197678,
+          "world_total_length_cm": 10.999999940395355,
+          "fit_skin_vertices": "1552",
+          "measured_skin_radius_cm": "8.036866",
+          "measured_skin_length_cm": "5.555208"
+        },
+        {
+          "bone": "Head",
+          "local_radius": 0.08715242147445679,
+          "local_length": 0.07096980512142181,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 8.715242147445679,
+          "world_total_length_cm": 24.52746480703354,
+          "fit_skin_vertices": "14559",
+          "measured_skin_radius_cm": "8.715242",
+          "measured_skin_length_cm": "24.527465"
+        },
+        {
+          "bone": "LeftShoulder",
+          "local_radius": 0.07000000029802322,
+          "local_length": 0,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 7.000000029802322,
+          "world_total_length_cm": 14.000000059604645,
+          "fit_skin_vertices": "2032",
+          "measured_skin_radius_cm": "7.310047",
+          "measured_skin_length_cm": "10.273092"
+        },
+        {
+          "bone": "LeftArm",
+          "local_radius": 0.06499999016523361,
+          "local_length": 0.08166267722845078,
+          "bind_and_component_scale": 100.00001192092896,
+          "world_radius_cm": 6.499999791383626,
+          "world_total_length_cm": 21.166268279107303,
+          "fit_skin_vertices": "8580",
+          "measured_skin_radius_cm": "8.107355",
+          "measured_skin_length_cm": "21.166268"
+        },
+        {
+          "bone": "LeftForeArm",
+          "local_radius": 0.04999998211860657,
+          "local_length": 0.07999996840953827,
+          "bind_and_component_scale": 100.00003576278971,
+          "world_radius_cm": 4.999999999999503,
+          "world_total_length_cm": 17.99999970197488,
+          "fit_skin_vertices": "6165",
+          "measured_skin_radius_cm": "6.180109",
+          "measured_skin_length_cm": "16.703169"
+        },
+        {
+          "bone": "LeftHand",
+          "local_radius": 0.039560869336128235,
+          "local_length": 0.03827285394072533,
+          "bind_and_component_scale": 100.00001192092327,
+          "world_radius_cm": 3.9560874052149115,
+          "world_total_length_cm": 11.73946066075011,
+          "fit_skin_vertices": "2998",
+          "measured_skin_radius_cm": "3.956087",
+          "measured_skin_length_cm": "11.73946"
+        },
+        {
+          "bone": "LeftHandThumb1",
+          "local_radius": 0.019518358632922173,
+          "local_length": 0.04096326604485512,
+          "bind_and_component_scale": 100.00002384185365,
+          "world_radius_cm": 1.9518363286460672,
+          "world_total_length_cm": 8.00000023841784,
+          "fit_skin_vertices": "754",
+          "measured_skin_radius_cm": "1.951836",
+          "measured_skin_length_cm": "8.175088"
+        },
+        {
+          "bone": "LeftHandIndex2",
+          "local_radius": 0.021999996155500412,
+          "local_length": 0.013997184112668037,
+          "bind_and_component_scale": 100.00001788138775,
+          "world_radius_cm": 2.2000000089405027,
+          "world_total_length_cm": 5.799718679436886,
+          "fit_skin_vertices": "1762",
+          "measured_skin_radius_cm": "2.99035",
+          "measured_skin_length_cm": "5.799719"
+        },
+        {
+          "bone": "RightShoulder",
+          "local_radius": 0.06775148212909698,
+          "local_length": 0,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 6.7751482129096985,
+          "world_total_length_cm": 13.550296425819397,
+          "fit_skin_vertices": "1929",
+          "measured_skin_radius_cm": "6.775149",
+          "measured_skin_length_cm": "8.523231"
+        },
+        {
+          "bone": "RightArm",
+          "local_radius": 0.06499999016523361,
+          "local_length": 0.15221506357192993,
+          "bind_and_component_scale": 100.00001192092896,
+          "world_radius_cm": 6.499999791383626,
+          "world_total_length_cm": 28.221507754505204,
+          "fit_skin_vertices": "11391",
+          "measured_skin_radius_cm": "8.190317",
+          "measured_skin_length_cm": "28.221509"
+        },
+        {
+          "bone": "RightForeArm",
+          "local_radius": 0.05000000074505806,
+          "local_length": 0.10989892482757568,
+          "bind_and_component_scale": 99.99999999999858,
+          "world_radius_cm": 5.000000074505735,
+          "world_total_length_cm": 20.989892631768882,
+          "fit_skin_vertices": "6762",
+          "measured_skin_radius_cm": "5.544555",
+          "measured_skin_length_cm": "20.989892"
+        },
+        {
+          "bone": "RightHandThumb1",
+          "local_radius": 0.020764248445630074,
+          "local_length": 0.03847150132060051,
+          "bind_and_component_scale": 100.0000042915296,
+          "world_radius_cm": 2.0764249336733944,
+          "world_total_length_cm": 8.000000164508426,
+          "fit_skin_vertices": "864",
+          "measured_skin_radius_cm": "2.076425",
+          "measured_skin_length_cm": "8.052752"
+        },
+        {
+          "bone": "RightHandIndex1",
+          "local_radius": 0.02199999801814556,
+          "local_length": 0.03599999472498894,
+          "bind_and_component_scale": 100.0000102519947,
+          "world_radius_cm": 2.2000000273584193,
+          "world_total_length_cm": 7.999999896287487,
+          "fit_skin_vertices": "1776",
+          "measured_skin_radius_cm": "3.669283",
+          "measured_skin_length_cm": "8.608526"
+        },
+        {
+          "bone": "RightHandIndex2",
+          "local_radius": 0.02199999988079071,
+          "local_length": 0.00895362626761198,
+          "bind_and_component_scale": 100.0000042915296,
+          "world_radius_cm": 2.2000000824927217,
+          "world_total_length_cm": 5.295362830171394,
+          "fit_skin_vertices": "1380",
+          "measured_skin_radius_cm": "2.430201",
+          "measured_skin_length_cm": "5.295363"
+        },
+        {
+          "bone": "LeftUpLeg",
+          "local_radius": 0.10000000149011612,
+          "local_length": 0.20403777062892914,
+          "bind_and_component_scale": 100,
+          "world_radius_cm": 10.000000149011612,
+          "world_total_length_cm": 40.40377736091614,
+          "fit_skin_vertices": "24967",
+          "measured_skin_radius_cm": "13.923866",
+          "measured_skin_length_cm": "40.403777"
+        },
+        {
+          "bone": "LeftLeg",
+          "local_radius": 0.06999999284744263,
+          "local_length": 0.19839291274547577,
+          "bind_and_component_scale": 100.00001192092896,
+          "world_radius_cm": 7.000000119209204,
+          "world_total_length_cm": 33.8392938779938,
+          "fit_skin_vertices": "47338",
+          "measured_skin_radius_cm": "14.318149",
+          "measured_skin_length_cm": "33.839293"
+        },
+        {
+          "bone": "LeftFoot",
+          "local_radius": 0.05499998852610588,
+          "local_length": 0.019999995827674866,
+          "bind_and_component_scale": 100.00002384185933,
+          "world_radius_cm": 5.500000163912578,
+          "world_total_length_cm": 13.00000038742973,
+          "fit_skin_vertices": "2733",
+          "measured_skin_radius_cm": "5.634536",
+          "measured_skin_length_cm": "11.578728"
+        },
+        {
+          "bone": "LeftToeBase",
+          "local_radius": 0.03999999165534973,
+          "local_length": 0.049999989569187164,
+          "bind_and_component_scale": 100.00002384185933,
+          "world_radius_cm": 4.000000119209147,
+          "world_total_length_cm": 13.00000038742973,
+          "fit_skin_vertices": "6241",
+          "measured_skin_radius_cm": "14.082325",
+          "measured_skin_length_cm": "16.208598"
+        },
+        {
+          "bone": "RightUpLeg",
+          "local_radius": 0.09999997168779373,
+          "local_length": 0.17264853417873383,
+          "bind_and_component_scale": 100.0000281333896,
+          "world_radius_cm": 9.999999982117536,
+          "world_total_length_cm": 37.264858239296935,
+          "fit_skin_vertices": "17623",
+          "measured_skin_radius_cm": "13.00594",
+          "measured_skin_length_cm": "37.264858"
+        },
+        {
+          "bone": "RightLeg",
+          "local_radius": 0.07000000029802322,
+          "local_length": 0.20627348124980927,
+          "bind_and_component_scale": 100.00000429152499,
+          "world_radius_cm": 7.0000003302090725,
+          "world_total_length_cm": 34.62734967062687,
+          "fit_skin_vertices": "44242",
+          "measured_skin_radius_cm": "13.033489",
+          "measured_skin_length_cm": "34.62735"
+        },
+        {
+          "bone": "RightFoot",
+          "local_radius": 0.05499999225139618,
+          "local_length": 0.019999997690320015,
+          "bind_and_component_scale": 100.00001192092896,
+          "world_radius_cm": 5.499999880790618,
+          "world_total_length_cm": 12.999999769031788,
+          "fit_skin_vertices": "3184",
+          "measured_skin_radius_cm": "5.946994",
+          "measured_skin_length_cm": "12.028916"
+        },
+        {
+          "bone": "RightToeBase",
+          "local_radius": 0.039999984204769135,
+          "local_length": 0.04999997839331627,
+          "bind_and_component_scale": 100.00004005431339,
+          "world_radius_cm": 4.000000022648816,
+          "world_total_length_cm": 12.999999887344064,
+          "fit_skin_vertices": "5990",
+          "measured_skin_radius_cm": "14.236326",
+          "measured_skin_length_cm": "14.183823"
+        }
+      ],
+      "factory_reference_before_fit": "{\r\n\t\"state\": \"failed\",\r\n\t\"body_count\": 26,\r\n\t\"constraint_count\": 25,\r\n\t\"capsule_count\": 26,\r\n\t\"bone_names_match\": true,\r\n\t\"constraints_valid\": true,\r\n\t\"shapes_valid\": false,\r\n\t\"preview_mesh_matches\": true,\r\n\t\"mesh_height_cm\": 180,\r\n\t\"min_world_capsule_radius_cm\": 50.499999523162124,\r\n\t\"max_world_capsule_radius_cm\": 50.500019750590909,\r\n\t\"body_bones\": [\r\n\t\t\"Hips\",\r\n\t\t\"Spine\",\r\n\t\t\"Spine1\",\r\n\t\t\"Spine2\",\r\n\t\t\"Neck\",\r\n\t\t\"Head\",\r\n\t\t\"LeftShoulder\",\r\n\t\t\"LeftArm\",\r\n\t\t\"LeftForeArm\",\r\n\t\t\"LeftHand\",\r\n\t\t\"LeftHandThumb1\",\r\n\t\t\"LeftHandIndex2\",\r\n\t\t\"RightShoulder\",\r\n\t\t\"RightArm\",\r\n\t\t\"RightForeArm\",\r\n\t\t\"RightHandThumb1\",\r\n\t\t\"RightHandIndex1\",\r\n\t\t\"RightHandIndex2\",\r\n\t\t\"LeftUpLeg\",\r\n\t\t\"LeftLeg\",\r\n\t\t\"LeftFoot\",\r\n\t\t\"LeftToeBase\",\r\n\t\t\"RightUpLeg\",\r\n\t\t\"RightLeg\",\r\n\t\t\"RightFoot\",\r\n\t\t\"RightToeBase\"\r\n\t],\r\n\t\"constraint_bones\": [\r\n\t\t[\r\n\t\t\t\"Spine\",\r\n\t\t\t\"Hips\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"Spine1\",\r\n\t\t\t\"Spine\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"Spine2\",\r\n\t\t\t\"Spine1\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"Neck\",\r\n\t\t\t\"Spine2\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"Head\",\r\n\t\t\t\"Neck\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"LeftShoulder\",\r\n\t\t\t\"Spine2\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"LeftArm\",\r\n\t\t\t\"LeftShoulder\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"LeftForeArm\",\r\n\t\t\t\"LeftArm\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"LeftHand\",\r\n\t\t\t\"LeftForeArm\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"LeftHandThumb1\",\r\n\t\t\t\"LeftHand\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"LeftHandIndex2\",\r\n\t\t\t\"LeftHand\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"RightShoulder\",\r\n\t\t\t\"Spine2\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"RightArm\",\r\n\t\t\t\"RightShoulder\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"RightForeArm\",\r\n\t\t\t\"RightArm\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"RightHandThumb1\",\r\n\t\t\t\"RightForeArm\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"RightHandIndex1\",\r\n\t\t\t\"RightForeArm\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"RightHandIndex2\",\r\n\t\t\t\"RightHandIndex1\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"LeftUpLeg\",\r\n\t\t\t\"Hips\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"LeftLeg\",\r\n\t\t\t\"LeftUpLeg\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"LeftFoot\",\r\n\t\t\t\"LeftLeg\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"LeftToeBase\",\r\n\t\t\t\"LeftFoot\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"RightUpLeg\",\r\n\t\t\t\"Hips\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"RightLeg\",\r\n\t\t\t\"RightUpLeg\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"RightFoot\",\r\n\t\t\t\"RightLeg\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"RightToeBase\",\r\n\t\t\t\"RightFoot\"\r\n\t\t]\r\n\t],\r\n\t\"capsules\": [\r\n\t\t{\r\n\t\t\t\"bone\": \"Hips\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100,\r\n\t\t\t\"world_radius_cm\": 50.499999523162842,\r\n\t\t\t\"world_total_length_cm\": 151.49999856948853,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"Spine\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00000429153351,\r\n\t\t\t\"world_radius_cm\": 50.500001690387244,\r\n\t\t\t\"world_total_length_cm\": 151.50000507116175,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"Spine1\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100,\r\n\t\t\t\"world_radius_cm\": 50.499999523162842,\r\n\t\t\t\"world_total_length_cm\": 151.49999856948853,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"Spine2\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100,\r\n\t\t\t\"world_radius_cm\": 50.499999523162842,\r\n\t\t\t\"world_total_length_cm\": 151.49999856948853,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"Neck\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100,\r\n\t\t\t\"world_radius_cm\": 50.499999523162842,\r\n\t\t\t\"world_total_length_cm\": 151.49999856948853,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"Head\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100,\r\n\t\t\t\"world_radius_cm\": 50.499999523162842,\r\n\t\t\t\"world_total_length_cm\": 151.49999856948853,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"LeftShoulder\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100,\r\n\t\t\t\"world_radius_cm\": 50.499999523162842,\r\n\t\t\t\"world_total_length_cm\": 151.49999856948853,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"LeftArm\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00001192092896,\r\n\t\t\t\"world_radius_cm\": 50.500005543231907,\r\n\t\t\t\"world_total_length_cm\": 151.50001662969572,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"LeftForeArm\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00003576278971,\r\n\t\t\t\"world_radius_cm\": 50.500017583371474,\r\n\t\t\t\"world_total_length_cm\": 151.50005275011441,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"LeftHand\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00001192092327,\r\n\t\t\t\"world_radius_cm\": 50.500005543229037,\r\n\t\t\t\"world_total_length_cm\": 151.50001662968711,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"LeftHandThumb1\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00002384185365,\r\n\t\t\t\"world_radius_cm\": 50.50001156329882,\r\n\t\t\t\"world_total_length_cm\": 151.50003468989647,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"LeftHandIndex2\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00001788138775,\r\n\t\t\t\"world_radius_cm\": 50.500008553263569,\r\n\t\t\t\"world_total_length_cm\": 151.50002565979071,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"RightShoulder\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100,\r\n\t\t\t\"world_radius_cm\": 50.499999523162842,\r\n\t\t\t\"world_total_length_cm\": 151.49999856948853,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"RightArm\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00001192092896,\r\n\t\t\t\"world_radius_cm\": 50.500005543231907,\r\n\t\t\t\"world_total_length_cm\": 151.50001662969572,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"RightForeArm\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 99.999999999998579,\r\n\t\t\t\"world_radius_cm\": 50.499999523162124,\r\n\t\t\t\"world_total_length_cm\": 151.49999856948637,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"RightHandThumb1\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00000429152961,\r\n\t\t\t\"world_radius_cm\": 50.500001690385275,\r\n\t\t\t\"world_total_length_cm\": 151.50000507115581,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"RightHandIndex1\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00001025199469,\r\n\t\t\t\"world_radius_cm\": 50.500004700420114,\r\n\t\t\t\"world_total_length_cm\": 151.50001410126035,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"RightHandIndex2\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00000429152961,\r\n\t\t\t\"world_radius_cm\": 50.500001690385275,\r\n\t\t\t\"world_total_length_cm\": 151.50000507115581,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"LeftUpLeg\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100,\r\n\t\t\t\"world_radius_cm\": 50.499999523162842,\r\n\t\t\t\"world_total_length_cm\": 151.49999856948853,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"LeftLeg\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00001192092896,\r\n\t\t\t\"world_radius_cm\": 50.500005543231907,\r\n\t\t\t\"world_total_length_cm\": 151.50001662969572,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"LeftFoot\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00002384185933,\r\n\t\t\t\"world_radius_cm\": 50.50001156330169,\r\n\t\t\t\"world_total_length_cm\": 151.50003468990508,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"LeftToeBase\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00002384185933,\r\n\t\t\t\"world_radius_cm\": 50.50001156330169,\r\n\t\t\t\"world_total_length_cm\": 151.50003468990508,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"RightUpLeg\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00002813338961,\r\n\t\t\t\"world_radius_cm\": 50.500013730524458,\r\n\t\t\t\"world_total_length_cm\": 151.50004119157339,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"RightLeg\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00000429152499,\r\n\t\t\t\"world_radius_cm\": 50.500001690382938,\r\n\t\t\t\"world_total_length_cm\": 151.50000507114882,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"RightFoot\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00001192092896,\r\n\t\t\t\"world_radius_cm\": 50.500005543231907,\r\n\t\t\t\"world_total_length_cm\": 151.50001662969572,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"RightToeBase\",\r\n\t\t\t\"local_radius\": 0.50499999523162842,\r\n\t\t\t\"local_length\": 0.50499999523162842,\r\n\t\t\t\"bind_and_component_scale\": 100.00004005431339,\r\n\t\t\t\"world_radius_cm\": 50.500019750590909,\r\n\t\t\t\"world_total_length_cm\": 151.50005925177274,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t}\r\n\t],\r\n\t\"factory_reference_before_fit\": \"\"\r\n}",
+      "mesh_component_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Shoulder_v02_Fitted.PHYS_SK_WuxiaMale_Shoulder_v02_Fitted",
+      "state": "passed",
+      "body_count": 20,
+      "constraint_count": 19,
+      "capsule_count": 20,
+      "bone_names_match": true,
+      "constraints_valid": true,
+      "shapes_valid": true,
+      "preview_mesh_matches": true,
+      "mesh_height_cm": 179.99329685233533,
+      "min_world_capsule_radius_cm": 3.9865128961829583,
+      "max_world_capsule_radius_cm": 16.504152297973633,
+      "body_bones": [
+        "pelvis",
+        "spine_01",
+        "spine_02",
+        "spine_03",
+        "neck_01",
+        "head",
+        "clavicle_l",
+        "upperarm_l",
+        "lowerarm_l",
+        "hand_l",
+        "clavicle_r",
+        "upperarm_r",
+        "lowerarm_r",
+        "hand_r",
+        "thigh_l",
+        "calf_l",
+        "foot_l",
+        "thigh_r",
+        "calf_r",
+        "foot_r"
+      ],
+      "constraint_bones": [
+        [
+          "spine_01",
+          "pelvis"
+        ],
+        [
+          "spine_02",
+          "spine_01"
+        ],
+        [
+          "spine_03",
+          "spine_02"
+        ],
+        [
+          "neck_01",
+          "spine_03"
+        ],
+        [
+          "head",
+          "neck_01"
+        ],
+        [
+          "clavicle_l",
+          "spine_03"
+        ],
+        [
+          "upperarm_l",
+          "clavicle_l"
+        ],
+        [
+          "lowerarm_l",
+          "upperarm_l"
+        ],
+        [
+          "hand_l",
+          "lowerarm_l"
+        ],
+        [
+          "clavicle_r",
+          "spine_03"
+        ],
+        [
+          "upperarm_r",
+          "clavicle_r"
+        ],
+        [
+          "lowerarm_r",
+          "upperarm_r"
+        ],
+        [
+          "hand_r",
+          "lowerarm_r"
+        ],
+        [
+          "thigh_l",
+          "pelvis"
+        ],
+        [
+          "calf_l",
+          "thigh_l"
+        ],
+        [
+          "foot_l",
+          "calf_l"
+        ],
+        [
+          "thigh_r",
+          "pelvis"
+        ],
+        [
+          "calf_r",
+          "thigh_r"
+        ],
+        [
+          "foot_r",
+          "calf_r"
+        ]
+      ],
+      "capsules": [
+        {
+          "bone": "pelvis",
+          "local_radius": 14.560688972473145,
+          "local_length": 8.40153694152832,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 14.560688972473145,
+          "world_total_length_cm": 37.52291488647461,
+          "fit_skin_vertices": "3193",
+          "measured_skin_radius_cm": "14.560689",
+          "measured_skin_length_cm": "37.522915"
+        },
+        {
+          "bone": "spine_01",
+          "local_radius": 13.374689102172852,
+          "local_length": 0,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 13.374689102172852,
+          "world_total_length_cm": 26.749378204345703,
+          "fit_skin_vertices": "816",
+          "measured_skin_radius_cm": "13.374689",
+          "measured_skin_length_cm": "10.829529"
+        },
+        {
+          "bone": "spine_02",
+          "local_radius": 16.504152297973633,
+          "local_length": 0,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 16.504152297973633,
+          "world_total_length_cm": 33.008304595947266,
+          "fit_skin_vertices": "847",
+          "measured_skin_radius_cm": "16.504152",
+          "measured_skin_length_cm": "9.18924"
+        },
+        {
+          "bone": "spine_03",
+          "local_radius": 11.330857276916504,
+          "local_length": 0,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 11.330857276916504,
+          "world_total_length_cm": 22.661714553833008,
+          "fit_skin_vertices": "744",
+          "measured_skin_radius_cm": "11.330857",
+          "measured_skin_length_cm": "15.136414"
+        },
+        {
+          "bone": "neck_01",
+          "local_radius": 5.5,
+          "local_length": 0,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 5.5,
+          "world_total_length_cm": 11,
+          "fit_skin_vertices": "994",
+          "measured_skin_radius_cm": "5.595981",
+          "measured_skin_length_cm": "4.625259"
+        },
+        {
+          "bone": "head",
+          "local_radius": 8.671323776245117,
+          "local_length": 10.657353401184082,
+          "bind_and_component_scale": 1,
+          "world_radius_cm": 8.671323776245117,
+          "world_total_length_cm": 28.000000953674316,
+          "fit_skin_vertices": "17505",
+          "measured_skin_radius_cm": "8.671323",
+          "measured_skin_length_cm": "32.470091"
+        },
+        {
+          "bone": "clavicle_l",
+          "local_radius": 6.999999046325684,
+          "local_length": 0,
+          "bind_and_component_scale": 1.0000001192092896,
+          "world_radius_cm": 6.999999880790597,
+          "world_total_length_cm": 13.999999761581194,
+          "fit_skin_vertices": "982",
+          "measured_skin_radius_cm": "7.270831",
+          "measured_skin_length_cm": "7.116437"
+        },
+        {
+          "bone": "upperarm_l",
+          "local_radius": 6.499999046325684,
+          "local_length": 13.638514518737793,
+          "bind_and_component_scale": 1.0000001788139343,
+          "world_radius_cm": 6.500000208616086,
+          "world_total_length_cm": 26.638517374726405,
+          "fit_skin_vertices": "1178",
+          "measured_skin_radius_cm": "10.718613",
+          "measured_skin_length_cm": "26.638517"
+        },
+        {
+          "bone": "lowerarm_l",
+          "local_radius": 4.999998569488525,
+          "local_length": 11.476102828979492,
+          "bind_and_component_scale": 1.000000298023231,
+          "world_radius_cm": 5.000000059604254,
+          "world_total_length_cm": 21.476106368333244,
+          "fit_skin_vertices": "778",
+          "measured_skin_radius_cm": "6.782039",
+          "measured_skin_length_cm": "21.476106"
+        },
+        {
+          "bone": "hand_l",
+          "local_radius": 3.9865119457244873,
+          "local_length": 2.855588674545288,
+          "bind_and_component_scale": 1.0000002384185684,
+          "world_radius_cm": 3.9865128961829583,
+          "world_total_length_cm": 10.828615147736569,
+          "fit_skin_vertices": "719",
+          "measured_skin_radius_cm": "3.986513",
+          "measured_skin_length_cm": "10.828615"
+        },
+        {
+          "bone": "clavicle_r",
+          "local_radius": 6.999999046325684,
+          "local_length": 0,
+          "bind_and_component_scale": 1.0000001192092896,
+          "world_radius_cm": 6.999999880790597,
+          "world_total_length_cm": 13.999999761581194,
+          "fit_skin_vertices": "954",
+          "measured_skin_radius_cm": "7.246721",
+          "measured_skin_length_cm": "7.756949"
+        },
+        {
+          "bone": "upperarm_r",
+          "local_radius": 6.499999046325684,
+          "local_length": 12.826326370239258,
+          "bind_and_component_scale": 1.0000001788139343,
+          "world_radius_cm": 6.500000208616086,
+          "world_total_length_cm": 25.82632908099731,
+          "fit_skin_vertices": "1081",
+          "measured_skin_radius_cm": "10.414707",
+          "measured_skin_length_cm": "25.826329"
+        },
+        {
+          "bone": "lowerarm_r",
+          "local_radius": 4.999998569488525,
+          "local_length": 11.193314552307129,
+          "bind_and_component_scale": 1.000000298023231,
+          "world_radius_cm": 5.000000059604254,
+          "world_total_length_cm": 21.193318007383404,
+          "fit_skin_vertices": "769",
+          "measured_skin_radius_cm": "6.980033",
+          "measured_skin_length_cm": "21.193318"
+        },
+        {
+          "bone": "hand_r",
+          "local_radius": 4.126185894012451,
+          "local_length": 2.2040305137634277,
+          "bind_and_component_scale": 1.0000002384185684,
+          "world_radius_cm": 4.126186877771785,
+          "world_total_length_cm": 10.456404794788797,
+          "fit_skin_vertices": "760",
+          "measured_skin_radius_cm": "4.126187",
+          "measured_skin_length_cm": "10.456405"
+        },
+        {
+          "bone": "thigh_l",
+          "local_radius": 9.999946594238281,
+          "local_length": 29.999839782714844,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 10.000000238132088,
+          "world_total_length_cm": 50.00000119066044,
+          "fit_skin_vertices": "2414",
+          "measured_skin_radius_cm": "14.678024",
+          "measured_skin_length_cm": "56.782001"
+        },
+        {
+          "bone": "calf_l",
+          "local_radius": 6.999962329864502,
+          "local_length": 11.9999361038208,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 6.999999880588632,
+          "world_total_length_cm": 26.000000237671657,
+          "fit_skin_vertices": "4038",
+          "measured_skin_radius_cm": "13.188658",
+          "measured_skin_length_cm": "25.161455"
+        },
+        {
+          "bone": "foot_l",
+          "local_radius": 5.499970436096191,
+          "local_length": 13.376738548278809,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 5.499999940236762,
+          "world_total_length_cm": 24.37681018716978,
+          "fit_skin_vertices": "512",
+          "measured_skin_radius_cm": "5.723842",
+          "measured_skin_length_cm": "24.376811"
+        },
+        {
+          "bone": "thigh_r",
+          "local_radius": 9.999946594238281,
+          "local_length": 29.999839782714844,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 10.000000238132088,
+          "world_total_length_cm": 50.00000119066044,
+          "fit_skin_vertices": "1912",
+          "measured_skin_radius_cm": "14.008855",
+          "measured_skin_length_cm": "56.054397"
+        },
+        {
+          "bone": "calf_r",
+          "local_radius": 6.999962329864502,
+          "local_length": 11.9999361038208,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 6.999999880588632,
+          "world_total_length_cm": 26.000000237671657,
+          "fit_skin_vertices": "4620",
+          "measured_skin_radius_cm": "13.919076",
+          "measured_skin_length_cm": "25.664139"
+        },
+        {
+          "bone": "foot_r",
+          "local_radius": 5.398241996765137,
+          "local_length": 13.362791061401367,
+          "bind_and_component_scale": 1.0000053644180298,
+          "world_radius_cm": 5.398270955191833,
+          "world_total_length_cm": 24.159404655382332,
+          "fit_skin_vertices": "549",
+          "measured_skin_radius_cm": "5.398271",
+          "measured_skin_length_cm": "24.159405"
+        }
+      ],
+      "factory_reference_before_fit": "{\r\n\t\"state\": \"failed\",\r\n\t\"body_count\": 20,\r\n\t\"constraint_count\": 19,\r\n\t\"capsule_count\": 20,\r\n\t\"bone_names_match\": true,\r\n\t\"constraints_valid\": true,\r\n\t\"shapes_valid\": false,\r\n\t\"preview_mesh_matches\": true,\r\n\t\"mesh_height_cm\": 179.99329685233533,\r\n\t\"min_world_capsule_radius_cm\": 4.7071394920349121,\r\n\t\"max_world_capsule_radius_cm\": 23.471467996882666,\r\n\t\"body_bones\": [\r\n\t\t\"pelvis\",\r\n\t\t\"spine_01\",\r\n\t\t\"spine_02\",\r\n\t\t\"spine_03\",\r\n\t\t\"neck_01\",\r\n\t\t\"head\",\r\n\t\t\"clavicle_l\",\r\n\t\t\"upperarm_l\",\r\n\t\t\"lowerarm_l\",\r\n\t\t\"hand_l\",\r\n\t\t\"clavicle_r\",\r\n\t\t\"upperarm_r\",\r\n\t\t\"lowerarm_r\",\r\n\t\t\"hand_r\",\r\n\t\t\"thigh_l\",\r\n\t\t\"calf_l\",\r\n\t\t\"foot_l\",\r\n\t\t\"thigh_r\",\r\n\t\t\"calf_r\",\r\n\t\t\"foot_r\"\r\n\t],\r\n\t\"constraint_bones\": [\r\n\t\t[\r\n\t\t\t\"spine_01\",\r\n\t\t\t\"pelvis\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"spine_02\",\r\n\t\t\t\"spine_01\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"spine_03\",\r\n\t\t\t\"spine_02\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"neck_01\",\r\n\t\t\t\"spine_03\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"head\",\r\n\t\t\t\"neck_01\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"clavicle_l\",\r\n\t\t\t\"spine_03\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"upperarm_l\",\r\n\t\t\t\"clavicle_l\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"lowerarm_l\",\r\n\t\t\t\"upperarm_l\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"hand_l\",\r\n\t\t\t\"lowerarm_l\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"clavicle_r\",\r\n\t\t\t\"spine_03\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"upperarm_r\",\r\n\t\t\t\"clavicle_r\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"lowerarm_r\",\r\n\t\t\t\"upperarm_r\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"hand_r\",\r\n\t\t\t\"lowerarm_r\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"thigh_l\",\r\n\t\t\t\"pelvis\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"calf_l\",\r\n\t\t\t\"thigh_l\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"foot_l\",\r\n\t\t\t\"calf_l\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"thigh_r\",\r\n\t\t\t\"pelvis\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"calf_r\",\r\n\t\t\t\"thigh_r\"\r\n\t\t],\r\n\t\t[\r\n\t\t\t\"foot_r\",\r\n\t\t\t\"calf_r\"\r\n\t\t]\r\n\t],\r\n\t\"capsules\": [\r\n\t\t{\r\n\t\t\t\"bone\": \"pelvis\",\r\n\t\t\t\"local_radius\": 21.658901214599609,\r\n\t\t\t\"local_length\": 24.770750045776367,\r\n\t\t\t\"bind_and_component_scale\": 1,\r\n\t\t\t\"world_radius_cm\": 21.658901214599609,\r\n\t\t\t\"world_total_length_cm\": 68.088552474975586,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"spine_01\",\r\n\t\t\t\"local_radius\": 15.689290046691895,\r\n\t\t\t\"local_length\": 15.690070152282715,\r\n\t\t\t\"bind_and_component_scale\": 1,\r\n\t\t\t\"world_radius_cm\": 15.689290046691895,\r\n\t\t\t\"world_total_length_cm\": 47.068650245666504,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"spine_02\",\r\n\t\t\t\"local_radius\": 17.095844268798828,\r\n\t\t\t\"local_length\": 18.533134460449219,\r\n\t\t\t\"bind_and_component_scale\": 1,\r\n\t\t\t\"world_radius_cm\": 17.095844268798828,\r\n\t\t\t\"world_total_length_cm\": 52.724822998046875,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"spine_03\",\r\n\t\t\t\"local_radius\": 14.750771522521973,\r\n\t\t\t\"local_length\": 18.587112426757812,\r\n\t\t\t\"bind_and_component_scale\": 1,\r\n\t\t\t\"world_radius_cm\": 14.750771522521973,\r\n\t\t\t\"world_total_length_cm\": 48.088655471801758,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"neck_01\",\r\n\t\t\t\"local_radius\": 4.7071394920349121,\r\n\t\t\t\"local_length\": 9.7370901107788086,\r\n\t\t\t\"bind_and_component_scale\": 1,\r\n\t\t\t\"world_radius_cm\": 4.7071394920349121,\r\n\t\t\t\"world_total_length_cm\": 19.151369094848633,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"head\",\r\n\t\t\t\"local_radius\": 13.206780433654785,\r\n\t\t\t\"local_length\": 28.150701522827148,\r\n\t\t\t\"bind_and_component_scale\": 1,\r\n\t\t\t\"world_radius_cm\": 13.206780433654785,\r\n\t\t\t\"world_total_length_cm\": 54.564262390136719,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"clavicle_l\",\r\n\t\t\t\"local_radius\": 8.6345977783203125,\r\n\t\t\t\"local_length\": 12.74913501739502,\r\n\t\t\t\"bind_and_component_scale\": 1.0000001192092896,\r\n\t\t\t\"world_radius_cm\": 8.6345988076445792,\r\n\t\t\t\"world_total_length_cm\": 30.018334152499506,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"upperarm_l\",\r\n\t\t\t\"local_radius\": 15.464065551757812,\r\n\t\t\t\"local_length\": 16.793533325195312,\r\n\t\t\t\"bind_and_component_scale\": 1.0000001788139343,\r\n\t\t\t\"world_radius_cm\": 15.464068316948214,\r\n\t\t\t\"world_total_length_cm\": 47.721672962009507,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"lowerarm_l\",\r\n\t\t\t\"local_radius\": 8.7125844955444336,\r\n\t\t\t\"local_length\": 18.415874481201172,\r\n\t\t\t\"bind_and_component_scale\": 1.000000298023231,\r\n\t\t\t\"world_radius_cm\": 8.7125870920970154,\r\n\t\t\t\"world_total_length_cm\": 35.841054153753618,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"hand_l\",\r\n\t\t\t\"local_radius\": 6.4975094795227051,\r\n\t\t\t\"local_length\": 8.0446929931640625,\r\n\t\t\t\"bind_and_component_scale\": 1.0000002384185684,\r\n\t\t\t\"world_radius_cm\": 6.4975110286496136,\r\n\t\t\t\"world_total_length_cm\": 21.039716968467477,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"clavicle_r\",\r\n\t\t\t\"local_radius\": 10.143741607666016,\r\n\t\t\t\"local_length\": 13.149243354797363,\r\n\t\t\t\"bind_and_component_scale\": 1.0000001192092896,\r\n\t\t\t\"world_radius_cm\": 10.143742816894246,\r\n\t\t\t\"world_total_length_cm\": 33.436730556097814,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"upperarm_r\",\r\n\t\t\t\"local_radius\": 14.037510871887207,\r\n\t\t\t\"local_length\": 17.09600830078125,\r\n\t\t\t\"bind_and_component_scale\": 1.0000001788139343,\r\n\t\t\t\"world_radius_cm\": 14.037513381989754,\r\n\t\t\t\"world_total_length_cm\": 45.171038121765264,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"lowerarm_r\",\r\n\t\t\t\"local_radius\": 8.7680158615112305,\r\n\t\t\t\"local_length\": 17.409961700439453,\r\n\t\t\t\"bind_and_component_scale\": 1.000000298023231,\r\n\t\t\t\"world_radius_cm\": 8.7680184745836467,\r\n\t\t\t\"world_total_length_cm\": 34.946003838179784,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"hand_r\",\r\n\t\t\t\"local_radius\": 6.7535462379455566,\r\n\t\t\t\"local_length\": 8.2682075500488281,\r\n\t\t\t\"bind_and_component_scale\": 1.0000002384185684,\r\n\t\t\t\"world_radius_cm\": 6.7535478481163826,\r\n\t\t\t\"world_total_length_cm\": 21.775305217575802,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"thigh_l\",\r\n\t\t\t\"local_radius\": 22.850017547607422,\r\n\t\t\t\"local_length\": 41.449485778808594,\r\n\t\t\t\"bind_and_component_scale\": 1.0000053644180298,\r\n\t\t\t\"world_radius_cm\": 22.850140124653535,\r\n\t\t\t\"world_total_length_cm\": 87.149988380484501,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"calf_l\",\r\n\t\t\t\"local_radius\": 21.90843391418457,\r\n\t\t\t\"local_length\": 22.406679153442383,\r\n\t\t\t\"bind_and_component_scale\": 1.0000053644180298,\r\n\t\t\t\"world_radius_cm\": 21.908551440182464,\r\n\t\t\t\"world_total_length_cm\": 66.223902232600949,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"foot_l\",\r\n\t\t\t\"local_radius\": 8.0501575469970703,\r\n\t\t\t\"local_length\": 13.795035362243652,\r\n\t\t\t\"bind_and_component_scale\": 1.0000053644180298,\r\n\t\t\t\"world_radius_cm\": 8.050200731407358,\r\n\t\t\t\"world_total_length_cm\": 29.895510827394787,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"thigh_r\",\r\n\t\t\t\"local_radius\": 19.39910888671875,\r\n\t\t\t\"local_length\": 42.063228607177734,\r\n\t\t\t\"bind_and_component_scale\": 1.0000053644180298,\r\n\t\t\t\"world_radius_cm\": 19.399212951648224,\r\n\t\t\t\"world_total_length_cm\": 80.861880155216113,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"calf_r\",\r\n\t\t\t\"local_radius\": 23.471342086791992,\r\n\t\t\t\"local_length\": 24.774127960205078,\r\n\t\t\t\"bind_and_component_scale\": 1.0000053644180298,\r\n\t\t\t\"world_radius_cm\": 23.471467996882666,\r\n\t\t\t\"world_total_length_cm\": 71.717196852749112,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"bone\": \"foot_r\",\r\n\t\t\t\"local_radius\": 8.448430061340332,\r\n\t\t\t\"local_length\": 13.854399681091309,\r\n\t\t\t\"bind_and_component_scale\": 1.0000053644180298,\r\n\t\t\t\"world_radius_cm\": 8.4484753822508765,\r\n\t\t\t\"world_total_length_cm\": 30.751424766384503,\r\n\t\t\t\"fit_skin_vertices\": \"\",\r\n\t\t\t\"measured_skin_radius_cm\": \"\",\r\n\t\t\t\"measured_skin_length_cm\": \"\"\r\n\t\t}\r\n\t],\r\n\t\"factory_reference_before_fit\": \"\"\r\n}",
+      "mesh_component_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_boss.BP_Level_boss",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Native_v07_Fitted.PHYS_SK_WuxiaMale_Native_v07_Fitted",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_boss.uasset",
+        "sha256": "a691fbc42323825a8b2297433b9d29ab230bae6a834e80bfe3336ec744fc884d",
+        "source_sha256_before_this_run": "f924239912f20b0a23e917256a4468c536622a0a4350e4cef96f062bfd756440"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Walk_GripB.A_Wuxia_Walk_GripB",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Cast_GripB.A_Wuxia_Cast_GripB",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Hit_GripB.A_Wuxia_Hit_GripB",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Death_GripB.A_Wuxia_Death_GripB"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM01.BP_Level_GM01",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Native_v07_Fitted.PHYS_SK_WuxiaMale_Native_v07_Fitted",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM01.uasset",
+        "sha256": "e272415aed332dedb9215cc68eaebd51f41964a4b252596956f570082c5f385c",
+        "source_sha256_before_this_run": "5d01fc0a183cb7cf84f8510039abbcae5e5c75f629de05e8521f988d21f68345"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Walk_GripB.A_Wuxia_Walk_GripB",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Cast_GripB.A_Wuxia_Cast_GripB",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Hit_GripB.A_Wuxia_Hit_GripB",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Death_GripB.A_Wuxia_Death_GripB"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM02.BP_Level_GM02",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Shoulder_v02_Fitted.PHYS_SK_WuxiaMale_Shoulder_v02_Fitted",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM02.uasset",
+        "sha256": "e6bd5d1e188334aade70526ba312e2ff6be69d529ba9140404474a3272fa4f11",
+        "source_sha256_before_this_run": "9beaa8ea994b6806f04f4efa54391a25f368e696850d0123290921a9125b4f4b"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM03.BP_Level_GM03",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Shoulder_v02_Fitted.PHYS_SK_WuxiaMale_Shoulder_v02_Fitted",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM03.uasset",
+        "sha256": "da32637754f872cb510196b87af63df90fd647102786e91f14e182eacd30055e",
+        "source_sha256_before_this_run": "45e3b86895ce58eb17664f942c0f3364560f2d8b5e81d0b8f546ebc8e06a8024"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM04.BP_Level_GM04",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Native_v07_Fitted.PHYS_SK_WuxiaMale_Native_v07_Fitted",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM04.uasset",
+        "sha256": "ea1742b95a572d60985f3f6818c46f7c7b92b1b13e2d55476a86c8d425063c66",
+        "source_sha256_before_this_run": "7ed9fdda17a23d9eb968c99ce8db5206ab57982f39c2bccedfa11ec0f9ea5b3e"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Walk_GripB.A_Wuxia_Walk_GripB",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Cast_GripB.A_Wuxia_Cast_GripB",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Hit_GripB.A_Wuxia_Hit_GripB",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Death_GripB.A_Wuxia_Death_GripB"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_rock_talisman.BP_Level_rock_talisman",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Shoulder_v02_Fitted.PHYS_SK_WuxiaMale_Shoulder_v02_Fitted",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_rock_talisman.uasset",
+        "sha256": "acb7b5e8b2105382b90a01d6896fbd9beb777390fbeb2517f0b79a965f7fa860",
+        "source_sha256_before_this_run": "b470062357399aceaeead8b440f6d075f0f60939b9bf8597f1fbae3fb747afce"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword.BP_Level_sword",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Native_v07_Fitted.PHYS_SK_WuxiaMale_Native_v07_Fitted",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_sword.uasset",
+        "sha256": "e83b3ea11efa7181291c436318186e08e6fd338b05043fa3b21722d46e34ea7c",
+        "source_sha256_before_this_run": "753b2515cf9ae2545cf958c0036e4c0b595c10489a0785aac23cdc2672ad9e05"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Idle_GripB.A_Wuxia_Idle_GripB",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Walk_GripB.A_Wuxia_Walk_GripB",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Attack_GripB.A_Wuxia_Attack_GripB",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Cast_GripB.A_Wuxia_Cast_GripB",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Hit_GripB.A_Wuxia_Hit_GripB",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/HandGripPolish/GripB/A_Wuxia_Death_GripB.A_Wuxia_Death_GripB"
+      }
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_talisman.BP_Level_talisman",
+      "physics": "/Game/ReversedScale/Characters/Physics1111/PHYS_SK_WuxiaMale_Shoulder_v02_Fitted.PHYS_SK_WuxiaMale_Shoulder_v02_Fitted",
+      "backup": {
+        "path": "D:\\game design\\experiment\\Docs\\Gameplay\\Optimization1111\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_talisman.uasset",
+        "sha256": "4c2cb3d79b2532b2d365c7f1036ecdd51e48c84fb42040de27d34c1323d7126e",
+        "source_sha256_before_this_run": "2af834f448309c2d33a01a83dbe4130e3046a76473bd791347b5b66a3c2e5271"
+      },
+      "preserved": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Shoulder_v02.SK_WuxiaMale_Shoulder_v02",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted_Upright_v01.Wuxia_Idle_Planted_Upright_v01",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword_Upright_v01.Wuxia_Walk_Sword_Upright_v01",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman_Upright_v01.Wuxia_Cast_Talisman_Upright_v01",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword_Upright_v01.Wuxia_Hit_Sword_Upright_v01",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Restrained_v02.Wuxia_Death_Restrained_v02"
+      }
+    }
+  ],
+  "scope": "New physics packages and enemy ragdoll overrides only",
+  "protected_asset_count": 15
+}

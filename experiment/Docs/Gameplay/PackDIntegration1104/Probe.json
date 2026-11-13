@@ -1,0 +1,105 @@
+{
+  "api": {
+    "CurveVector": {},
+    "CurveVectorFactory": {},
+    "CurveBase": {},
+    "RichCurve": {},
+    "AnimationLibrary": {
+      "add_animation_notify_event": "X.add_animation_notify_event(animation_sequence_base, notify_track_name, start_time, notify_class) -> AnimNotify\r\nAdds an Animation Notify Event to Notify track in the given Animation with the given Notify creation data\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    notify_track_name (Name): \r\n    start_time (float): \r\n    notify_class (type(Class)): \r\n\r\nReturns:\r\n    AnimNotify:",
+      "add_animation_notify_event_from_source": "X.add_animation_notify_event_from_source(animation_sequence_base, start_time, notify_event, notify_track_name) -> AnimNotify\r\nExperimental: Adds a custom animation notify event to the specified animation sequence at the given time and on the specified notify track.\n\nA new notify event will be created using relevant data copied from the provided NotifyEvent. The UAnimNotify is extracted from\nNotifyEvent and, if it is not already owned by the animation sequence (not part of its outer), it will be automatically duplicated.\nOnly properties exposed to Blueprints in the NotifyEvent (such as TriggerWeightThreshold and NotifyTriggerChance) will be copied.\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): The animation sequence to which the new notify event will be added.\r\n    start_time (float): The time (in seconds) within the sequence where the notify should be placed.\r\n    notify_event (AnimNotifyEvent): The source notify event used to initialize the new one. Its UAnimNotify will be extracted and validated.\r\n    notify_track_name (Name): The name of the notify track to add the notify to.\r\n\r\nReturns:\r\n    AnimNotify: The UAnimNotify used in the new notify event (original or duplicated).",
+      "add_animation_notify_event_object": "X.add_animation_notify_event_object(animation_sequence_base, start_time, notify, notify_track_name) -> None\r\nAdds the specific Animation Notify to the Animation Sequence (requires Notify's outer to be the Animation Sequence)\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    start_time (float): \r\n    notify (AnimNotify): \r\n    notify_track_name (Name):",
+      "add_animation_notify_state_event": "X.add_animation_notify_state_event(animation_sequence_base, notify_track_name, start_time, duration, notify_state_class) -> AnimNotifyState\r\nAdds an Animation Notify State Event to Notify track in the given Animation with the given Notify State creation data\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    notify_track_name (Name): \r\n    start_time (float): \r\n    duration (float): \r\n    notify_state_class (type(Class)): \r\n\r\nReturns:\r\n    AnimNotifyState:",
+      "add_animation_notify_state_event_object": "X.add_animation_notify_state_event_object(animation_sequence_base, start_time, duration, notify_state, notify_track_name) -> None\r\nAdds the specific Animation Notify State to the Animation Sequence (requires Notify State's outer to be the Animation Sequence)\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    start_time (float): \r\n    duration (float): \r\n    notify_state (AnimNotifyState): \r\n    notify_track_name (Name):",
+      "add_animation_notify_track": "X.add_animation_notify_track(animation_sequence_base, notify_track_name, track_color=[1.000000, 1.000000, 1.000000, 1.000000]) -> None\r\nAdds an Animation Notify Track to the Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    notify_track_name (Name): \r\n    track_color (LinearColor):",
+      "add_curve": "X.add_curve(animation_sequence_base, curve_name, curve_type=RawCurveTrackTypes.RCT_FLOAT, meta_data_curve=False) -> None\r\nAdds an Animation Curve by Type and Name to the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n    curve_type (RawCurveTrackTypes): \r\n    meta_data_curve (bool):",
+      "add_curve_meta_data": "X.add_curve_meta_data(skeleton, curve_name, transact=True) -> bool\r\nAdds a curve metadata entry with the specified name on the skeleton\r\n\r\nArgs:\r\n    skeleton (Skeleton): \r\n    curve_name (Name): \r\n    transact (bool): If true record a new transaction\r\n\r\nReturns:\r\n    bool: true if an entry was added, false if an entry already existed",
+      "add_float_curve_key": "X.add_float_curve_key(animation_sequence_base, curve_name, time, value) -> None\r\nAdds a Float Key to the specified Animation Curve inside of the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n    time (float): \r\n    value (float):",
+      "add_float_curve_keys": "X.add_float_curve_keys(animation_sequence_base, curve_name, times, values) -> None\r\nAdds a multiple of Float Keys to the specified Animation Curve inside of the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n    times (Array[float]): \r\n    values (Array[float]):",
+      "add_transformation_curve_key": "X.add_transformation_curve_key(animation_sequence_base, curve_name, time, transform) -> None\r\nAdds a Transformation Key to the specified Animation Curve inside of the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n    time (float): \r\n    transform (Transform):",
+      "add_transformation_curve_keys": "X.add_transformation_curve_keys(animation_sequence_base, curve_name, times, transforms) -> None\r\nAdds a multiple of Transformation Keys to the specified Animation Curve inside of the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n    times (Array[float]): \r\n    transforms (Array[Transform]):",
+      "add_vector_curve_key": "X.add_vector_curve_key(animation_sequence_base, curve_name, time, vector) -> None\r\nAdds a Vector Key to the specified Animation Curve inside of the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n    time (float): \r\n    vector (Vector):",
+      "add_vector_curve_keys": "X.add_vector_curve_keys(animation_sequence_base, curve_name, times, vectors) -> None\r\nAdds a multiple of Vector Keys to the specified Animation Curve inside of the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n    times (Array[float]): \r\n    vectors (Array[Vector]):",
+      "copy_animation_curve_names_to_skeleton": "X.copy_animation_curve_names_to_skeleton(old_skeleton, new_skeleton, sequence_base, curve_type) -> None\r\nEnsures that any curve names that do not exist on the NewSkeleton are added to it, in which case the SmartName on the actual curve itself will also be updated\r\ndeprecated: It is no longer necessary to copy curve names to the skeleton. If metadata is required to be updated, please use the metadata setting APIs.\r\n\r\nArgs:\r\n    old_skeleton (Skeleton): \r\n    new_skeleton (Skeleton): \r\n    sequence_base (AnimSequenceBase): \r\n    curve_type (RawCurveTrackTypes):",
+      "does_curve_exist": "X.does_curve_exist(animation_sequence_base, curve_name, curve_type) -> bool\r\nChecks whether or not the given Curve Name exist on the Skeleton referenced by the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n    curve_type (RawCurveTrackTypes): \r\n\r\nReturns:\r\n    bool:",
+      "get_anim_notify_event_duration": "X.get_anim_notify_event_duration(notify_event) -> float\r\nReturns the duration for a NotifyEvent, only non-zero for Anim Notify States\r\n\r\nArgs:\r\n    notify_event (AnimNotifyEvent): \r\n\r\nReturns:\r\n    float:",
+      "get_anim_notify_event_trigger_time": "X.get_anim_notify_event_trigger_time(notify_event) -> float\r\nReturns the actual trigger time for a NotifyEvent\r\n\r\nArgs:\r\n    notify_event (AnimNotifyEvent): \r\n\r\nReturns:\r\n    float:",
+      "get_animation_curve_names": "X.get_animation_curve_names(animation_sequence_base, curve_type) -> Array[Name]\r\nRetrieves the Names of the individual float curves for the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_type (RawCurveTrackTypes): \r\n\r\nReturns:\r\n    Array[Name]: \r\n\r\n    curve_names (Array[Name]):",
+      "get_animation_notify_event_names": "X.get_animation_notify_event_names(animation_sequence_base) -> Array[Name]\r\nRetrieves all Unique Animation Notify Events found within the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n\r\nReturns:\r\n    Array[Name]: \r\n\r\n    event_names (Array[Name]):",
+      "get_animation_notify_events": "X.get_animation_notify_events(animation_sequence_base) -> Array[AnimNotifyEvent]\r\nRetrieves all Animation Notify Events found within the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n\r\nReturns:\r\n    Array[AnimNotifyEvent]: \r\n\r\n    notify_events (Array[AnimNotifyEvent]):",
+      "get_animation_notify_events_for_track": "X.get_animation_notify_events_for_track(animation_sequence_base, notify_track_name) -> Array[AnimNotifyEvent]\r\nRetrieves all Animation Notify Events for the given Notify Track Name from the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    notify_track_name (Name): \r\n\r\nReturns:\r\n    Array[AnimNotifyEvent]: \r\n\r\n    events (Array[AnimNotifyEvent]):",
+      "get_animation_notify_track_names": "X.get_animation_notify_track_names(animation_sequence_base) -> Array[Name]\r\nRetrieves all Unique Animation Notify Track Names found within the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n\r\nReturns:\r\n    Array[Name]: \r\n\r\n    track_names (Array[Name]):",
+      "get_curve_compression_settings": "X.get_curve_compression_settings(animation_sequence) -> AnimCurveCompressionSettings\r\nRetrieves the Curve Compression Settings for the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence (AnimSequence): \r\n\r\nReturns:\r\n    AnimCurveCompressionSettings: \r\n\r\n    compression_settings (AnimCurveCompressionSettings):",
+      "get_curve_meta_data_material": "X.get_curve_meta_data_material(skeleton, curve_name) -> bool\r\nGets the material flag for a curve's metadata\r\n\r\nArgs:\r\n    skeleton (Skeleton): \r\n    curve_name (Name): The name of the curve to check\r\n\r\nReturns:\r\n    bool: true if the flag has been set",
+      "get_curve_meta_data_morph_target": "X.get_curve_meta_data_morph_target(skeleton, curve_name) -> bool\r\nGets the morph target flag for a curve's metadata\r\n\r\nArgs:\r\n    skeleton (Skeleton): \r\n    curve_name (Name): The name of the curve to check\r\n\r\nReturns:\r\n    bool: true if the flag has been set",
+      "get_curve_meta_data_names": "X.get_curve_meta_data_names(skeleton) -> Array[Name]\r\nGet an array of all curve metadata names\r\n\r\nArgs:\r\n    skeleton (Skeleton): \r\n\r\nReturns:\r\n    Array[Name]: \r\n\r\n    out_names (Array[Name]): The array to receive the metadata names",
+      "get_float_keys": "X.get_float_keys(animation_sequence_base, curve_name) -> (times=Array[float], values=Array[float])\r\nRetrieves, a multiple of, Float Key(s) from the specified Animation Curve inside of the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n\r\nReturns:\r\n    tuple: \r\n\r\n    times (Array[float]): \r\n\r\n    values (Array[float]):",
+      "get_num_curve_meta_data": "X.get_num_curve_meta_data(skeleton) -> int32\r\n\r\n\r\nArgs:\r\n    skeleton (Skeleton): \r\n\r\nReturns:\r\n    int32: the number of curve metadata entries on the skeleton *",
+      "get_num_keys": "X.get_num_keys(animation_sequence_base) -> int32\r\nRetrieves the number of animation keys for the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n\r\nReturns:\r\n    int32: \r\n\r\n    num_keys (int32):",
+      "get_transformation_keys": "X.get_transformation_keys(animation_sequence_base, curve_name) -> (times=Array[float], values=Array[Transform])\r\nRetrieves, a multiple of, Transformation Key(s) from the specified Animation Curve inside of the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n\r\nReturns:\r\n    tuple: \r\n\r\n    times (Array[float]): \r\n\r\n    values (Array[Transform]):",
+      "get_vector_keys": "X.get_vector_keys(animation_sequence_base, curve_name) -> (times=Array[float], values=Array[Vector])\r\nRetrieves, a multiple of, Vector Key(s) from the specified Animation Curve inside of the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n\r\nReturns:\r\n    tuple: \r\n\r\n    times (Array[float]): \r\n\r\n    values (Array[Vector]):",
+      "is_valid_anim_notify_track_name": "X.is_valid_anim_notify_track_name(animation_sequence_base, notify_track_name) -> bool\r\nChecks whether or not the given Track Name is a valid Animation Notify Track in the Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    notify_track_name (Name): \r\n\r\nReturns:\r\n    bool:",
+      "remove_all_animation_notify_tracks": "X.remove_all_animation_notify_tracks(animation_sequence_base) -> None\r\nRemoves All Animation Notify Tracks from Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase):",
+      "remove_all_curve_data": "X.remove_all_curve_data(animation_sequence_base) -> None\r\nRemoves all Animation Curve Data from the given Animation Sequence (Raw Animation Curves [Names] may not be removed from the Skeleton)\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase):",
+      "remove_animation_notify_events_by_name": "X.remove_animation_notify_events_by_name(animation_sequence_base, notify_name) -> int32\r\nRemoves Animation Notify Events found by Name within the Animation Sequence, and returns the number of removed name instances\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    notify_name (Name): \r\n\r\nReturns:\r\n    int32:",
+      "remove_animation_notify_events_by_track": "X.remove_animation_notify_events_by_track(animation_sequence_base, notify_track_name) -> int32\r\nRemoves Animation Notify Events found by Track within the Animation Sequence, and returns the number of removed name instances\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    notify_track_name (Name): \r\n\r\nReturns:\r\n    int32:",
+      "remove_animation_notify_track": "X.remove_animation_notify_track(animation_sequence_base, notify_track_name) -> None\r\nRemoves an Animation Notify Track from Animation Sequence by Name\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    notify_track_name (Name):",
+      "remove_curve": "X.remove_curve(animation_sequence_base, curve_name, remove_name_from_skeleton=False) -> None\r\nRemoves an Animation Curve by Name from the given Animation Sequence (Raw Animation Curves [Names] may not be removed from the Skeleton)\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    curve_name (Name): \r\n    remove_name_from_skeleton (bool):",
+      "remove_curve_meta_data": "X.remove_curve_meta_data(skeleton, curve_name) -> bool\r\nRemoves a curve metadata entry for the specified name.\r\n\r\nArgs:\r\n    skeleton (Skeleton): \r\n    curve_name (Name): The name of the curve to remove the metadata for\r\n\r\nReturns:\r\n    bool: true if the entry was successfully removed (i.e. it existed)",
+      "rename_curve_meta_data": "X.rename_curve_meta_data(skeleton, old_name, new_name) -> bool\r\nRenames a curve metadata entry. Metadata is preserved, but assigned to a different curve name.\r\n\r\nArgs:\r\n    skeleton (Skeleton): \r\n    old_name (Name): The name of an existing curve entry\r\n    new_name (Name): The name to change the entry to\r\n\r\nReturns:\r\n    bool: true if the rename was successful (the old name was found and the new name didnt collide with an existing entry)",
+      "replace_anim_notify_states": "X.replace_anim_notify_states(animation_sequence_base, old_notify_class, new_notify_class, on_notify_state_replaced) -> None\r\nReplaces animation notifies in the specified Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): \r\n    old_notify_class (type(Class)): \r\n    new_notify_class (type(Class)): \r\n    on_notify_state_replaced (OnNotifyStateReplaced):",
+      "set_curve_compression_settings": "X.set_curve_compression_settings(animation_sequence, compression_settings) -> None\r\nSets the Curve Compression Settings for the given Animation Sequence\r\n\r\nArgs:\r\n    animation_sequence (AnimSequence): \r\n    compression_settings (AnimCurveCompressionSettings):",
+      "set_curve_meta_data_material": "X.set_curve_meta_data_material(skeleton, curve_name, override_material) -> None\r\nSet the material flag for a curve's metadata\r\n\r\nArgs:\r\n    skeleton (Skeleton): \r\n    curve_name (Name): The name of the curve to set\r\n    override_material (bool): Whether to set the material flag",
+      "set_curve_meta_data_morph_target": "X.set_curve_meta_data_morph_target(skeleton, curve_name, override_morph_target) -> None\r\nSet the morph target flag for a curve's metadata\r\n\r\nArgs:\r\n    skeleton (Skeleton): \r\n    curve_name (Name): The name of the curve to set\r\n    override_morph_target (bool): Whether to set the morph target flag"
+    }
+  },
+  "enemies": [
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword",
+      "role": "<NLEnemyRole.SWORD_DISCIPLE: 0>",
+      "attack": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x000002DB5A342300) Class 'AnimSequence'>",
+      "range": 130.0,
+      "timing": [
+        0.6700000166893005,
+        0.23999999463558197,
+        0.7400000095367432
+      ],
+      "show_sword": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM01",
+      "role": "<NLEnemyRole.GUARD_CAPTAIN: 2>",
+      "attack": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x000002DB5A342300) Class 'AnimSequence'>",
+      "range": 130.0,
+      "timing": [
+        0.8040000200271606,
+        0.2879999876022339,
+        0.8880000114440918
+      ],
+      "show_sword": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM04",
+      "role": "<NLEnemyRole.GUARD_CAPTAIN: 2>",
+      "attack": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x000002DB5A342300) Class 'AnimSequence'>",
+      "range": 130.0,
+      "timing": [
+        0.8040000200271606,
+        0.2879999876022339,
+        0.8880000114440918
+      ],
+      "show_sword": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_boss",
+      "role": "<NLEnemyRole.GUARD_CAPTAIN: 2>",
+      "attack": "<Object '/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07.A_Wuxia_Attack_Native_v07' (0x000002DB5A342300) Class 'AnimSequence'>",
+      "range": 130.0,
+      "timing": [
+        0.8040000200271606,
+        0.2879999876022339,
+        0.8880000114440918
+      ],
+      "show_sword": true
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "scope": "ENEMY-03 FormationBreaker: native brain + talisman component, no new skeleton or melee animations",
+  "state": "implemented_parent_build_passed_test_diagnostic_assertion_corrected_awaiting_rerun",
+  "files": [
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyBrainComponent.h",
+      "sha256": "80849d5c466d44e6be70d377f07dcb9bdb236f2564da3a8695c66c38251c7e93"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyBrainComponent.cpp",
+      "sha256": "5f68b2318993918d3080b383849cb6395521659c140dce4c040a97aae04727e7"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLTalismanAttackComponent.h",
+      "sha256": "7229036be4c2d3bb78c8de77fcca4d4996d1d7ee1565e894a24c23b324a62be6"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLTalismanAttackComponent.cpp",
+      "sha256": "79d8b9d58441bccf7867a48987a9f5636a2a1110b0fd943afdbceac57bd102a9"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyCharacter.cpp",
+      "sha256": "6321ab4599d9df8d84ee81ad353885d70caa7591c98e67790f43a101519a975f"
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLFormationBreakerTests.cpp",
+      "sha256": "3e3c355db2ae283e807541dd251652cbf1cb54673e839a305961f34cdfb6168d"
+    }
+  ],
+  "api": {
+    "role": "ENLEnemyRole::FormationBreaker",
+    "formation_objective_id": "Objective.Nilin.AlchemyRescue",
+    "ranged_attack_definition": "Attack.Enemy.FormationBreaker.Ritual",
+    "recommended": {
+      "max_health": 45,
+      "attack_range": 1000,
+      "minimum_ranged_distance": 350,
+      "preferred_ranged_distance": 650,
+      "telegraph_seconds": 1.8,
+      "attack_seconds": 1.7,
+      "recover_seconds": 1.2,
+      "projectile_speed": 1000,
+      "target_aim_offset": [
+        0,
+        0,
+        55
+      ]
+    }
+  },
+  "timing_notes": [
+    "Formation telegraph is never below 1.5 seconds.",
+    "Formation channel is clamped to .25–2.0 seconds; default authored1.7.",
+    "Projectile comes through original TalismanAttack and NLCombatProjectile; no direct ritual damage.",
+    "The 6-second AttackDirector timeout remains unchanged; configured full telegraph + channel + recovery must fit."
+  ],
+  "tests": [
+    "Nilin.Enemy.FormationBreaker.WarningChannelProjectileAndBoundedRelease",
+    "Nilin.Enemy.FormationBreaker.InterruptPauseDeathAndResetClearSources",
+    "Nilin.Enemy.FormationBreaker.TargetIdentityAndInactiveGate"
+  ],
+  "test_scope": "Native rule fixture bypasses navigation by putting brain at its casting state. It does not manually broadcast attack delegates, register interference, or apply ritual damage. Real map pathfinding/LOS and visual review are parent-owned."
+}

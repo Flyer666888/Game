@@ -1,0 +1,54 @@
+{
+  "state": "read_only_preparation",
+  "target_map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "implementation_must_wait_for_prior_three_items": true,
+  "scope": "Main-map environment polish using existing local AsianTemple assets; preserve all gameplay transforms, walkable surfaces, source maps and navigation.",
+  "palette": {
+    "floor": "Warm blue-grey stone with 2m tile seams and subdued stone grain",
+    "cliff": "Triplanar cool grey rock grain; rough, low metallic; far peaks desaturated jade blue",
+    "wood": "Deep red-brown timber, moderately rough",
+    "roof": "Dark green-blue glazed tiles, muted highlights",
+    "trim": "Aged warm brass with restrained metallic response",
+    "accents": "Jade ritual glow and warm existing lantern emissive"
+  },
+  "materials": {
+    "create_under": "/Game/ReversedScale/Environment/GDDOrdered1105/Materials",
+    "apply_as_main_map_component_overrides_only": true,
+    "source_flat_materials_must_remain_unchanged": true,
+    "custom_mesh_uv_warning": "ue_mesh_v02.py gives procedural surfaces XY-only UVs; direct existing rock materials stretch on vertical cliffs. New rock shader must use world triplanar projection.",
+    "rock_base_color": "/Game/AsianTemple/Environment/Texture/RockTilable/T_Cliff_01a_D",
+    "roof_base_color": "/Game/AsianTemple/Environment/Texture/Roof_01a/T_Roof_01a_D",
+    "wood_base_color": "/Game/AsianTemple/Environment/Texture/Wood_Red_Desaturated_01a/T_Wood_Red_Desaturated_01a_D"
+  },
+  "asset_groups": [
+    {"path": "/Game/AsianTemple/Environment/Mesh/SM_Dragon_Statue_01a", "role": "Gate guardian pair", "target_height_cm": 240, "instances": 2, "fit": "uniform scale from actual local Z height; place actual mesh bottom on floor", "placement_m": [[-17,-14,0],[17,-14,0]]},
+    {"path": "/Game/AsianTemple/Environment/Mesh/SM_Lamp_01a", "role": "Foreground framing and rhythmic progression", "target_height_cm": 190, "instances": 10, "fit": "uniform Z fit; preserve original material", "placement_m": [[-21,-4,0],[21,-4,0],[-21,14,0],[21,14,0],[-24,127,28],[24,127,28],[-24,150,28],[24,150,28],[-25,284,72],[25,284,72]]},
+    {"path": "/Game/AsianTemple/Environment/Mesh/SM_Tree_Big_01a", "role": "Foreground asymmetric pine silhouette", "target_height_cm": 1000, "instances": 2, "fit": "uniform Z fit; use floor trace; do not plant without supported floor", "placement_m": [[-26,9,0],[27,145,28]]},
+    {"path": "/Game/AsianTemple/Environment/Mesh/SM_Tree_Medium_01a", "role": "Middle distance jade-green tree groups", "target_height_cm": 720, "instances": 4, "fit": "uniform Z fit; use floor trace; cap projected crown overlap with combat space", "placement_m": [[26,18,0],[-28,145,28],[28,290,72],[-28,320,72]]},
+    {"path": "/Game/AsianTemple/Environment/Mesh/SM_Rock_01a", "role": "Natural detail outside rock-shelf firing lanes", "target_height_cm": 250, "instances": 6, "fit": "uniform Z fit, sink 15-25 percent into existing cover, no collision", "placement_policy": "Derive from actual R01/R02/R03 shelf bounds. No new geometry within 2m of spawn capsules or between caster hands and route firing targets."},
+    {"path": "/Game/AsianTemple/Environment/Mesh/SM_Rock_01b", "role": "Complementary boulders at plinth feet", "target_height_cm": 160, "instances": 6, "fit": "uniform Z fit, no collision; retain original collision cores"},
+    {"path": "/Game/AsianTemple/Environment/Mesh/SM_Rock_02a", "role": "Cliff-edge shape variation", "target_height_cm": 180, "instances": 6, "fit": "uniform Z fit, no collision; retain walkable edge silhouette"},
+    {"path": "/Game/AsianTemple/Environment/Mesh/SM_Cliff_01a", "role": "Distant east peak silhouette", "target_height_cm": 16000, "instances": 2, "fit": "uniform Z fit; far-field only, no collision", "placement_m": [[190,160,-65],[210,350,-65]]},
+    {"path": "/Game/AsianTemple/Environment/Mesh/SM_Cliff_01b", "role": "Distant west peak silhouette", "target_height_cm": 13000, "instances": 2, "fit": "uniform Z fit; far-field only, no collision", "placement_m": [[-250,180,-65],[-360,400,-65]]},
+    {"path": "/Game/AsianTemple/Environment/Mesh/SM_Cliff_01c", "role": "Distant sloping crag variation", "target_height_cm": 18000, "instances": 2, "fit": "uniform Z fit; far-field only, no collision", "placement_m": [[230,470,-65],[-360,620,-65]]}
+  ],
+  "batching": {
+    "total_instance_budget": 60,
+    "mesh_group_budget": 12,
+    "method": "One saved NLBlockoutMeshCluster/HISM component per mesh and material set, unless unique landmark needs a single StaticMeshActor",
+    "collision": "NoCollision for additions",
+    "can_ever_affect_navigation": false,
+    "dynamic_lights_added": 0,
+    "expensive_foliage_limit": 6,
+    "distant_rocks_limit": 8
+  },
+  "acceptance": [
+    "Backup the current main map before writing any art changes.",
+    "Read actual asset bounds and material slots using art_asset_audit.py before choosing final scale.",
+    "All stage trigger, entry, wave, seed, spawn-point and objective transforms must match baseline.",
+    "Existing collision/navigation settings and all existing mesh transforms remain identical.",
+    "Validate no new visual mesh obscures the rock-caster firing lanes or main ascent/boss landmark approach view.",
+    "Capture saved-map mountain gate, martial court, ranged rock and upper ascent views.",
+    "Run focused main-map movement/spawn checks after save; distinguish desktop visual QA from headset acceptance."
+  ]
+}

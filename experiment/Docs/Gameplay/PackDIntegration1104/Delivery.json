@@ -1,0 +1,78 @@
+{
+  "state": "verified",
+  "saved_enemies": [
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword",
+      "attack": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM01",
+      "attack": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM04",
+      "attack": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_boss",
+      "attack": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel"
+    }
+  ],
+  "original_rig_and_candidates_unchanged": true,
+  "reserved_C_reverse_grip": {
+    "candidate": "C",
+    "source_clip": "/Game/Animations/Sword/Anim_CSATLI_03",
+    "review_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_03",
+    "reverse_grip_required": true,
+    "status": "retained, not assigned to current enemy",
+    "grip_note": "User explicitly requires reverse grip for enemies using C. Do not treat a 180-degree cutting-edge roll as equivalent to reverse grip. Grip, blade sweep and native hit window must be validated when that later enemy is integrated.",
+    "asset_sha256_at_selection": "87f4dbc0f6303b36c7aa748e1652744eeb01661a737f19744579809f76f5aed8"
+  },
+  "live_checks": {
+    "chases_faster_than_player": true,
+    "closed_distance": true,
+    "native_attack_window": true,
+    "native_player_damage": true,
+    "player_retreats": true,
+    "resumes_chase_after_player_retreat": true,
+    "catches_retreating_player": true,
+    "uses_selected_D": true,
+    "curve_is_assigned": true,
+    "capsule_advances_during_D": true,
+    "body_stays_with_capsule": true,
+    "one_forward_damage_window": true
+  },
+  "live_summary": {
+    "total_attack_travel_cm": 354.34948280810926,
+    "max_body_offset_cm": 16.905710518747885,
+    "minimum_player_health": 60.0
+  },
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.b7922a0dfdba4d889eb19a7fd028957e",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\66019cf770eb3c2983cfc50182c779e55372fd7c.nlrun",
+    "test_run_ids": [
+      "7e41e36845f17424a89c57b369f4a3cc",
+      "b1b820654ed73cd4259deaa46da889b8"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\66019cf770eb3c2983cfc50182c779e55372fd7c.nlrun"
+    ],
+    "temporary_assets_removed": true
+  },
+  "entry": "D:/game design/experiment/Run_Gameplay_Demo.cmd",
+  "feedback_image": "D:\\game design\\experiment\\Docs\\Gameplay\\PackDIntegration1104\\EnemyStrike.png",
+  "final_automation": {
+    "passed": 95,
+    "report": "D:\\game design\\experiment\\Docs\\Gameplay\\PackDIntegration1104\\FinalAutomation\\index.json",
+    "failed": 0,
+    "fixture_warnings": 27
+  }
+}

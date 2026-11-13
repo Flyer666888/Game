@@ -1,0 +1,134 @@
+{
+  "success": true,
+  "before_damage": 10.0,
+  "after_damage": 30.0,
+  "backup_sha256": "f2e110c82ac058af4294b276659997d27494e2e6dfabc2741e4f526eac7da220",
+  "saved_sha256": "079674a0d488f3964928d7a0beccac04b5e782d65215b536116218dcef40d672",
+  "main_map_modified": false,
+  "main_map_stages": [
+    {
+      "stage_id": "Aoutside",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Aoutside_W01.DA_Aoutside_W01"
+      ]
+    },
+    {
+      "stage_id": "Ainside",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Ainside_W01.DA_Ainside_W01"
+      ]
+    },
+    {
+      "stage_id": "R01",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_R01_W01.DA_R01_W01"
+      ]
+    },
+    {
+      "stage_id": "Bcourt",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W01.DA_Bcourt_W01",
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W02.DA_Bcourt_W02",
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W03.DA_Bcourt_W03",
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W04.DA_Bcourt_W04",
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W05.DA_Bcourt_W05",
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bcourt_W06.DA_Bcourt_W06"
+      ]
+    },
+    {
+      "stage_id": "Bexit",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Bexit_W01.DA_Bexit_W01"
+      ]
+    },
+    {
+      "stage_id": "R02",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_R02_W01.DA_R02_W01"
+      ]
+    },
+    {
+      "stage_id": "R03",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_R03_W01.DA_R03_W01"
+      ]
+    },
+    {
+      "stage_id": "Cestablish",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Cestablish_W01.DA_Cestablish_W01",
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Cestablish_W02.DA_Cestablish_W02"
+      ]
+    },
+    {
+      "stage_id": "Cinterrupt",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Cinterrupt_W01.DA_Cinterrupt_W01",
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Cinterrupt_W02.DA_Cinterrupt_W02"
+      ]
+    },
+    {
+      "stage_id": "Csiege",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Csiege_W01.DA_Csiege_W01",
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Csiege_W02.DA_Csiege_W02"
+      ]
+    },
+    {
+      "stage_id": "Cunseal",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Cunseal_W01.DA_Cunseal_W01",
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Cunseal_W02.DA_Cunseal_W02"
+      ]
+    },
+    {
+      "stage_id": "GM01",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_GM01_W01.DA_GM01_W01"
+      ]
+    },
+    {
+      "stage_id": "GM02",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_GM02_W01.DA_GM02_W01",
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_GM02_W02.DA_GM02_W02"
+      ]
+    },
+    {
+      "stage_id": "GM03",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_GM03_W01.DA_GM03_W01",
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_GM03_W02.DA_GM03_W02"
+      ]
+    },
+    {
+      "stage_id": "GM04",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_GM04_W01.DA_GM04_W01"
+      ]
+    },
+    {
+      "stage_id": "Boss",
+      "objective_id": "None",
+      "waves": [
+        "/Game/ReversedScale/Gameplay/V01/Waves/DA_Boss_W01.DA_Boss_W01"
+      ]
+    }
+  ],
+  "scope": "Only the player melee definition changes. Blade Qi, enemy attacks, mesh, grip axes, and map are unchanged."
+}

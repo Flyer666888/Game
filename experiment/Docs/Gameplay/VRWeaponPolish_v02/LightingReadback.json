@@ -1,0 +1,49 @@
+{
+  "world": "/Game/ReversedScale/Maps/L_CombatLabVR.L_CombatLabVR",
+  "lights": [
+    {
+      "actor": "CombatLab_Sun",
+      "class": "DirectionalLight",
+      "rotation": "<Struct 'Rotator' (0x0000029E98733990) {pitch: -45.000000, yaw: -25.000000, roll: -0.000000}>",
+      "properties": {
+        "intensity": "4.0",
+        "light_color": "<Struct 'Color' (0x0000029E84B380B8) {b: 255, g: 255, r: 255, a: 255}>",
+        "indirect_lighting_intensity": "1.0",
+        "volumetric_scattering_intensity": "1.0",
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "visible": "True",
+        "affects_world": "True"
+      }
+    },
+    {
+      "actor": "CombatLab_Sky",
+      "class": "SkyLight",
+      "rotation": "<Struct 'Rotator' (0x0000029E987339E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "properties": {
+        "intensity": "0.6499999761581421",
+        "light_color": "<Struct 'Color' (0x0000029E84A639B8) {b: 255, g: 255, r: 255, a: 255}>",
+        "indirect_lighting_intensity": "1.0",
+        "volumetric_scattering_intensity": "1.0",
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "visible": "True",
+        "source_type": "<SkyLightSourceType.SLS_SPECIFIED_CUBEMAP: 1>",
+        "cubemap": "<Object '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap' (0x0000029DDBFFD200) Class 'TextureCube'>",
+        "lower_hemisphere_is_black": "False",
+        "lower_hemisphere_color": "<Struct 'LinearColor' (0x0000029E84A63A18) {r: 0.000000, g: 0.000000, b: 0.000000, a: 1.000000}>",
+        "real_time_capture": "False",
+        "source_cubemap_angle": "0.0",
+        "affects_world": "True"
+      }
+    }
+  ],
+  "console": {
+    "r.ForwardShading": 1,
+    "r.ReflectionEnvironment": 1,
+    "r.SkyLightingQuality": 1,
+    "r.DefaultFeature.AutoExposure": 0,
+    "r.ReflectionMethod": 0,
+    "r.SSR.Quality": 3,
+    "sg.ReflectionQuality": 3
+  },
+  "read_only": true
+}

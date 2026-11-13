@@ -1,0 +1,134 @@
+{
+  "state": "built",
+  "source_blend": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\Over9000\\SelectedA\\SM_PlayerSword_A.blend",
+  "source_sha256": "36a2a8b28bc8263038d5946e949c2c761da399da45ed3cb5cd73234cfabc397b",
+  "output_fbx": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV02\\SM_PlayerSword_A_DetailV02.fbx",
+  "output_blend": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV02\\SM_PlayerSword_A_DetailV02.blend",
+  "triangles_before": 11878,
+  "triangles_after": 13580,
+  "vertices_after": 6838,
+  "triangles_by_material": {
+    "BladeSteel": 4312,
+    "BladeEdge": 1048,
+    "BladeFuller": 624,
+    "Guard03": 1468,
+    "Grip04": 292,
+    "Pommel03": 768,
+    "GoldDetail": 5068
+  },
+  "bounds_cm": {
+    "min": [
+      -6.650000095367432,
+      -1.4212368726730347,
+      -13.375218391418457
+    ],
+    "max": [
+      6.650000095367432,
+      1.4212368726730347,
+      64.9390869140625
+    ]
+  },
+  "blade_sample_cm": [
+    [
+      0,
+      0,
+      8.42
+    ],
+    [
+      0,
+      0,
+      36.68
+    ],
+    [
+      0,
+      0,
+      64.94
+    ]
+  ],
+  "slot_order": [
+    "BladeSteel",
+    "BladeEdge",
+    "BladeFuller",
+    "Guard03",
+    "Grip04",
+    "Pommel03",
+    "GoldDetail"
+  ],
+  "material_contract": {
+    "BladeSteel": {
+      "base_color_linear": [
+        0.52,
+        0.54,
+        0.56
+      ],
+      "metallic": 0.94,
+      "roughness": 0.26
+    },
+    "BladeEdge": {
+      "base_color_linear": [
+        0.65,
+        0.68,
+        0.7
+      ],
+      "metallic": 0.96,
+      "roughness": 0.2
+    },
+    "BladeFuller": {
+      "base_color_linear": [
+        0.52,
+        0.54,
+        0.56
+      ],
+      "metallic": 0.94,
+      "roughness": 0.26
+    },
+    "Guard03": {
+      "base_color_linear": [
+        0.31,
+        0.205,
+        0.085
+      ],
+      "metallic": 0.88,
+      "roughness": 0.32
+    },
+    "Grip04": {
+      "existing_ue_material": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01"
+    },
+    "Pommel03": {
+      "base_color_linear": [
+        0.035,
+        0.12,
+        0.085
+      ],
+      "metallic": 0.08,
+      "roughness": 0.22
+    },
+    "GoldDetail": {
+      "base_color_linear": [
+        0.51,
+        0.34,
+        0.14
+      ],
+      "metallic": 0.92,
+      "roughness": 0.26
+    }
+  },
+  "uv_layers": [
+    "UVChannel_0",
+    "UVChannel_1"
+  ],
+  "changes": [
+    "Continuously tapering blade outline and thickness",
+    "Broad clean diamond planes, shallow channel fades out by z32cm",
+    "Single slim sculpted cloud-shoulder guard replaces three stacked guard plates",
+    "Physical beveled rim and centered blade-root collar",
+    "Near-flush cloud inlay, only 0.03mm above blade surface",
+    "Compact bronze leaf pommel with inset jade",
+    "Exact original contact grip geometry and nondegenerate UVs retained; 16 degenerate collar UV faces repaired"
+  ],
+  "license": "Derived from user project sword A plus local original procedural geometry; no external asset/provider",
+  "fbx_sha256": "693e225e1bb5f34635bfc7f4654bf1d5148c2c21d893cee9560e305752d818e9",
+  "limits": "Offline source; root owns UE import and real VR acceptance. Grip04 is the only retained textured material; remapped clean parameters for new guard/pommel geometry.",
+  "uv_repair_report": "D:\\game design\\experiment\\Docs\\Gameplay\\VRWeaponPolish_v02\\AssetUVRepairReport.json",
+  "uv_note": "Per-face box projection, maximizing minimum projected triangle area; 0.25 UV per centimeter; nondegenerate Grip04 UVs skipped"
+}

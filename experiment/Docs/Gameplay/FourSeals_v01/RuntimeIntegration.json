@@ -1,0 +1,1279 @@
+{
+  "kind": "Real resolver-driven Four Seals integration on saved map with isolated test LevelId/RunId",
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "state": "passed",
+  "success": true,
+  "deadline_seconds": 600,
+  "stages": [
+    {
+      "id": "Aoutside",
+      "index": 0,
+      "state": "passed",
+      "required": "None",
+      "expected_count": 2,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "Aoutside_W01",
+          "planned": 2,
+          "max_alive_limit": 4,
+          "max_alive_observed": 2,
+          "spawn_count": 2,
+          "resolver_defeats": 2
+        }
+      ],
+      "resolver_defeats": 2,
+      "warning_remaining_max": 1.9547866582870483,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 2,
+        "defeated": 2,
+        "planned": 2,
+        "completed_waves": 1,
+        "failed_spawns": 1,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "Ainside",
+      "index": 1,
+      "state": "passed",
+      "required": "Aoutside",
+      "expected_count": 6,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "Ainside_W01",
+          "planned": 6,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 6,
+          "resolver_defeats": 6
+        }
+      ],
+      "resolver_defeats": 6,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 6,
+        "defeated": 6,
+        "planned": 6,
+        "completed_waves": 1,
+        "failed_spawns": 4,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "R01",
+      "index": 2,
+      "state": "passed",
+      "required": "Ainside",
+      "expected_count": 2,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "R01_W01",
+          "planned": 2,
+          "max_alive_limit": 2,
+          "max_alive_observed": 2,
+          "spawn_count": 2,
+          "resolver_defeats": 2
+        }
+      ],
+      "resolver_defeats": 2,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 2,
+        "defeated": 2,
+        "planned": 2,
+        "completed_waves": 1,
+        "failed_spawns": 0,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "Bcourt",
+      "index": 3,
+      "state": "passed",
+      "required": "R01",
+      "expected_count": 36,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "Bcourt_W01",
+          "planned": 6,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 6,
+          "resolver_defeats": 6
+        },
+        {
+          "index": 1,
+          "id": "Bcourt_W02",
+          "planned": 6,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 6,
+          "resolver_defeats": 6
+        },
+        {
+          "index": 2,
+          "id": "Bcourt_W03",
+          "planned": 6,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 6,
+          "resolver_defeats": 6
+        },
+        {
+          "index": 3,
+          "id": "Bcourt_W04",
+          "planned": 6,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 6,
+          "resolver_defeats": 6
+        },
+        {
+          "index": 4,
+          "id": "Bcourt_W05",
+          "planned": 6,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 6,
+          "resolver_defeats": 6
+        },
+        {
+          "index": 5,
+          "id": "Bcourt_W06",
+          "planned": 6,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 6,
+          "resolver_defeats": 6
+        }
+      ],
+      "resolver_defeats": 36,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 36,
+        "defeated": 36,
+        "planned": 36,
+        "completed_waves": 6,
+        "failed_spawns": 11,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "Bexit",
+      "index": 4,
+      "state": "passed",
+      "required": "Bcourt",
+      "expected_count": 6,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "Bexit_W01",
+          "planned": 6,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 6,
+          "resolver_defeats": 6
+        }
+      ],
+      "resolver_defeats": 6,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 6,
+        "defeated": 6,
+        "planned": 6,
+        "completed_waves": 1,
+        "failed_spawns": 2,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "R02",
+      "index": 5,
+      "state": "passed",
+      "required": "Bexit",
+      "expected_count": 2,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "R02_W01",
+          "planned": 2,
+          "max_alive_limit": 2,
+          "max_alive_observed": 2,
+          "spawn_count": 2,
+          "resolver_defeats": 2
+        }
+      ],
+      "resolver_defeats": 2,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 2,
+        "defeated": 2,
+        "planned": 2,
+        "completed_waves": 1,
+        "failed_spawns": 0,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "R03",
+      "index": 6,
+      "state": "passed",
+      "required": "R02",
+      "expected_count": 2,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "R03_W01",
+          "planned": 2,
+          "max_alive_limit": 2,
+          "max_alive_observed": 2,
+          "spawn_count": 2,
+          "resolver_defeats": 2
+        }
+      ],
+      "resolver_defeats": 2,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 2,
+        "defeated": 2,
+        "planned": 2,
+        "completed_waves": 1,
+        "failed_spawns": 0,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "Cestablish",
+      "index": 7,
+      "state": "passed",
+      "required": "R03",
+      "expected_count": 8,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "Cestablish_W01",
+          "planned": 4,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 4,
+          "resolver_defeats": 4
+        },
+        {
+          "index": 1,
+          "id": "Cestablish_W02",
+          "planned": 4,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 4,
+          "resolver_defeats": 4
+        }
+      ],
+      "resolver_defeats": 8,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 8,
+        "defeated": 8,
+        "planned": 8,
+        "completed_waves": 2,
+        "failed_spawns": 1,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "Cinterrupt",
+      "index": 8,
+      "state": "passed",
+      "required": "Cestablish",
+      "expected_count": 10,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "Cinterrupt_W01",
+          "planned": 5,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 5,
+          "resolver_defeats": 5
+        },
+        {
+          "index": 1,
+          "id": "Cinterrupt_W02",
+          "planned": 5,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 5,
+          "resolver_defeats": 5
+        }
+      ],
+      "resolver_defeats": 10,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 10,
+        "defeated": 10,
+        "planned": 10,
+        "completed_waves": 2,
+        "failed_spawns": 1,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "Csiege",
+      "index": 9,
+      "state": "passed",
+      "required": "Cinterrupt",
+      "expected_count": 12,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "Csiege_W01",
+          "planned": 6,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 6,
+          "resolver_defeats": 6
+        },
+        {
+          "index": 1,
+          "id": "Csiege_W02",
+          "planned": 6,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 6,
+          "resolver_defeats": 6
+        }
+      ],
+      "resolver_defeats": 12,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 12,
+        "defeated": 12,
+        "planned": 12,
+        "completed_waves": 2,
+        "failed_spawns": 3,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "Cunseal",
+      "index": 10,
+      "state": "passed",
+      "required": "Csiege",
+      "expected_count": 14,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "Cunseal_W01",
+          "planned": 7,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 7,
+          "resolver_defeats": 7
+        },
+        {
+          "index": 1,
+          "id": "Cunseal_W02",
+          "planned": 7,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 7,
+          "resolver_defeats": 7
+        }
+      ],
+      "resolver_defeats": 14,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 14,
+        "defeated": 14,
+        "planned": 14,
+        "completed_waves": 2,
+        "failed_spawns": 0,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "GM01",
+      "index": 11,
+      "state": "passed",
+      "required": "Cunseal",
+      "expected_count": 1,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "GM01_W01",
+          "planned": 1,
+          "max_alive_limit": 1,
+          "max_alive_observed": 1,
+          "spawn_count": 1,
+          "resolver_defeats": 1
+        }
+      ],
+      "resolver_defeats": 1,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 1,
+        "defeated": 1,
+        "planned": 1,
+        "completed_waves": 1,
+        "failed_spawns": 0,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "GM02",
+      "index": 12,
+      "state": "passed",
+      "required": "GM01",
+      "expected_count": 3,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "GM02_W01",
+          "planned": 2,
+          "max_alive_limit": 4,
+          "max_alive_observed": 2,
+          "spawn_count": 2,
+          "resolver_defeats": 2
+        },
+        {
+          "index": 1,
+          "id": "GM02_W02",
+          "planned": 1,
+          "max_alive_limit": 1,
+          "max_alive_observed": 1,
+          "spawn_count": 1,
+          "resolver_defeats": 1
+        }
+      ],
+      "resolver_defeats": 3,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 3,
+        "defeated": 3,
+        "planned": 3,
+        "completed_waves": 2,
+        "failed_spawns": 1,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "GM03",
+      "index": 13,
+      "state": "passed",
+      "required": "GM02",
+      "expected_count": 3,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "GM03_W01",
+          "planned": 2,
+          "max_alive_limit": 4,
+          "max_alive_observed": 2,
+          "spawn_count": 2,
+          "resolver_defeats": 2
+        },
+        {
+          "index": 1,
+          "id": "GM03_W02",
+          "planned": 1,
+          "max_alive_limit": 1,
+          "max_alive_observed": 1,
+          "spawn_count": 1,
+          "resolver_defeats": 1
+        }
+      ],
+      "resolver_defeats": 3,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 3,
+        "defeated": 3,
+        "planned": 3,
+        "completed_waves": 2,
+        "failed_spawns": 1,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "GM04",
+      "index": 14,
+      "state": "passed",
+      "required": "GM03",
+      "expected_count": 1,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "GM04_W01",
+          "planned": 1,
+          "max_alive_limit": 1,
+          "max_alive_observed": 1,
+          "spawn_count": 1,
+          "resolver_defeats": 1
+        }
+      ],
+      "resolver_defeats": 1,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 1,
+        "defeated": 1,
+        "planned": 1,
+        "completed_waves": 1,
+        "failed_spawns": 0,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "Boss",
+      "index": 15,
+      "state": "passed",
+      "required": "GM04",
+      "expected_count": 1,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "Boss_W01",
+          "planned": 1,
+          "max_alive_limit": 1,
+          "max_alive_observed": 1,
+          "spawn_count": 1,
+          "resolver_defeats": 1
+        }
+      ],
+      "resolver_defeats": 1,
+      "warning_remaining_max": 2.0,
+      "runtime_totals": {
+        "spawned": 1,
+        "defeated": 1,
+        "planned": 1,
+        "completed_waves": 1,
+        "failed_spawns": 0,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    }
+  ],
+  "perfect_parry": {
+    "results": [
+      {
+        "kind": "ordinary",
+        "outcome": "<NLCombatOutcome.BLOCKED: 1>",
+        "health": 70.0,
+        "charges": 0,
+        "source_runtime_id": "c1fc03ea42376da4f62f8487995064db",
+        "attack_id": "ca8293444582cf8b9a7258b29ccbad77"
+      },
+      {
+        "kind": "perfect",
+        "outcome": "<NLCombatOutcome.PERFECT_PARRY: 2>",
+        "health": 70.0,
+        "charges": 1,
+        "source_runtime_id": "c1fc03ea42376da4f62f8487995064db",
+        "attack_id": "213f365e4dae1bdbe85c7a963dd01f38",
+        "duplicate_outcome": "<NLCombatOutcome.IGNORED: 5>"
+      },
+      {
+        "kind": "perfect",
+        "outcome": "<NLCombatOutcome.PERFECT_PARRY: 2>",
+        "health": 70.0,
+        "charges": 2,
+        "source_runtime_id": "c1fc03ea42376da4f62f8487995064db",
+        "attack_id": "4f7784144045c2079823b1a56cfc29a3",
+        "duplicate_outcome": "<NLCombatOutcome.IGNORED: 5>"
+      },
+      {
+        "kind": "perfect",
+        "outcome": "<NLCombatOutcome.PERFECT_PARRY: 2>",
+        "health": 80.0,
+        "charges": 0,
+        "source_runtime_id": "c1fc03ea42376da4f62f8487995064db",
+        "attack_id": "3a4480d1400eeabc9605e79bebf21806",
+        "duplicate_outcome": "<NLCombatOutcome.IGNORED: 5>"
+      }
+    ],
+    "success": true,
+    "last_recovered_health": 10.0,
+    "release_wait_game_seconds": 0.42
+  },
+  "retry": {
+    "success": true,
+    "stage": "Aoutside",
+    "entry_error_cm": 0.0,
+    "completed_before": 0,
+    "completed_after": 0,
+    "probe_enemies": "Initial probe controller was retired only by the real retry cleanup; its spawns are excluded from 109 final-run counts."
+  },
+  "master_rewards": [
+    {
+      "master_id": "GM01",
+      "success": true,
+      "pending_pickup_count": 1,
+      "full_health_collected": false,
+      "injured_collected": true,
+      "injured_health_before": 70.0,
+      "health_after": 95.0,
+      "second_collection": "Pickup already destroyed by its one-shot claim",
+      "duplicate_spawn_returned_none": true
+    },
+    {
+      "master_id": "GM02",
+      "success": true,
+      "pending_pickup_count": 1,
+      "full_health_collected": false,
+      "injured_collected": true,
+      "injured_health_before": 70.0,
+      "health_after": 95.0,
+      "second_collection": "Pickup already destroyed by its one-shot claim",
+      "duplicate_spawn_returned_none": true
+    },
+    {
+      "master_id": "GM03",
+      "success": true,
+      "pending_pickup_count": 1,
+      "full_health_collected": false,
+      "injured_collected": true,
+      "injured_health_before": 70.0,
+      "health_after": 95.0,
+      "second_collection": "Pickup already destroyed by its one-shot claim",
+      "duplicate_spawn_returned_none": true
+    },
+    {
+      "master_id": "GM04",
+      "success": true,
+      "pending_pickup_count": 1,
+      "full_health_collected": false,
+      "injured_collected": true,
+      "injured_health_before": 70.0,
+      "health_after": 95.0,
+      "second_collection": "Pickup already destroyed by its one-shot claim",
+      "duplicate_spawn_returned_none": true
+    }
+  ],
+  "rock_r01_ai": {
+    "state": "passed",
+    "duration_game_seconds": 12.0,
+    "start_game_time": 18.34522719308734,
+    "player_route_rest_m": [
+      0.0,
+      45.275,
+      6.4
+    ],
+    "casters": {
+      "e343cfe343ab3d4604edd4b30884fef2": {
+        "actor": "/Game/ReversedScale/Maps/UEDPIE_0_L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.BP_Level_rock_talisman_C_0",
+        "start_capsule_cm": [
+          -1150.0,
+          4772.5,
+          969.1999984741212
+        ],
+        "max_xy_displacement_cm": 0.0,
+        "state_transitions": [
+          {
+            "state": "<NLEnemyState.APPROACH: 1>",
+            "game_time": 18.34522719308734
+          },
+          {
+            "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+            "game_time": 18.37914339452982
+          },
+          {
+            "state": "<NLEnemyState.TELEGRAPH: 3>",
+            "game_time": 18.736401095986366
+          },
+          {
+            "state": "<NLEnemyState.ATTACK: 4>",
+            "game_time": 19.941448595374823
+          },
+          {
+            "state": "<NLEnemyState.RECOVER: 5>",
+            "game_time": 20.095862194895744
+          },
+          {
+            "state": "<NLEnemyState.APPROACH: 1>",
+            "game_time": 22.099003303796053
+          },
+          {
+            "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+            "game_time": 22.115670204162598
+          },
+          {
+            "state": "<NLEnemyState.TELEGRAPH: 3>",
+            "game_time": 25.748198106884956
+          },
+          {
+            "state": "<NLEnemyState.ATTACK: 4>",
+            "game_time": 26.956471607089043
+          },
+          {
+            "state": "<NLEnemyState.RECOVER: 5>",
+            "game_time": 27.11131040379405
+          },
+          {
+            "state": "<NLEnemyState.APPROACH: 1>",
+            "game_time": 29.126246005296707
+          },
+          {
+            "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+            "game_time": 29.142912704497576
+          }
+        ],
+        "observed_telegraph": true,
+        "observed_attack": true,
+        "observed_despawn": false,
+        "projectile_ids": [
+          "d7eb1c8844c6a682394ad29ea7ea6b02",
+          "e4fc61174a24691c3e138aa751aff8a6"
+        ]
+      },
+      "1dd689a1471d1e99bd860d86f1d53c7d": {
+        "actor": "/Game/ReversedScale/Maps/UEDPIE_0_L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.BP_Level_rock_talisman_C_1",
+        "start_capsule_cm": [
+          -740.0,
+          4772.5,
+          969.1999984741212
+        ],
+        "max_xy_displacement_cm": 0.0,
+        "state_transitions": [
+          {
+            "state": "<NLEnemyState.APPROACH: 1>",
+            "game_time": 18.34522719308734
+          },
+          {
+            "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+            "game_time": 18.37914339452982
+          },
+          {
+            "state": "<NLEnemyState.TELEGRAPH: 3>",
+            "game_time": 22.257165405899286
+          },
+          {
+            "state": "<NLEnemyState.ATTACK: 4>",
+            "game_time": 23.459271006286144
+          },
+          {
+            "state": "<NLEnemyState.RECOVER: 5>",
+            "game_time": 23.612881306558847
+          },
+          {
+            "state": "<NLEnemyState.APPROACH: 1>",
+            "game_time": 25.61092020571232
+          },
+          {
+            "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+            "game_time": 25.627587005496025
+          },
+          {
+            "state": "<NLEnemyState.TELEGRAPH: 3>",
+            "game_time": 29.250220105051994
+          }
+        ],
+        "observed_telegraph": true,
+        "observed_attack": true,
+        "observed_despawn": false,
+        "projectile_ids": [
+          "74f10bf14bcfba943dda869099930b79"
+        ]
+      }
+    },
+    "protective_heals": [],
+    "projectile_count": 3,
+    "automation_protection": "If player health falls below 50, RestoreResourcePreset(90,100) keeps observation alive; no player skill is inferred.",
+    "observed_game_seconds": 12.023119613528252,
+    "screenshot": "D:\\game design\\experiment\\Docs\\Gameplay\\FourSeals_v01\\Screenshots\\Gameplay_R01.png",
+    "success": true,
+    "no_navigation_failure": true
+  },
+  "total_counted_spawns": 109,
+  "total_resolver_defeats": 109,
+  "failures": [],
+  "cleanup": {
+    "state": "passed",
+    "file": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinMasterRewards\\72F97D974B4128F497A967B6E7D01161.nlmr",
+    "deleted_only_test_run": true,
+    "file_existed": true,
+    "removed_same_run_tmp": false
+  },
+  "scope": [
+    "The actual saved gameplay map, possessed level player and finite encounter director run in PIE.",
+    "Stage entries use explicit setup teleports; this is not a continuous traversal test.",
+    "R01's two actual rock casters run live AI for 12 game seconds, observing Telegraph/Attack, emitted projectiles and stationary feet.",
+    "Other enemy AI is locally paused for deterministic orchestration/reward checks; automatic health protection may assist the R01 observation.",
+    "Defeats use Resolver.ResolveContact with a transient 999-damage test definition.",
+    "Perfect parries use live spawned enemies and Resolver.ResolveGuardContact, with real release/rearm timing.",
+    "No combat/death/reward delegates are broadcast manually and no stage-completion state is written.",
+    "This does not verify human combat, AI attack readability, VR gestures, headset performance or difficulty balance.",
+    "Editor LevelId is changed only temporarily and restored without saving. The dedicated test profile and exact test run ledger are removed after PIE."
+  ],
+  "four_seals": [
+    {
+      "master": "GM01",
+      "seal": "SwordSeal",
+      "auto_collected_on_real_defeat": true,
+      "independent_of_full_health_and_healing_pickup": true,
+      "collected_count": 1
+    },
+    {
+      "master": "GM02",
+      "seal": "TalismanSeal",
+      "auto_collected_on_real_defeat": true,
+      "independent_of_full_health_and_healing_pickup": true,
+      "collected_count": 2
+    },
+    {
+      "master": "GM03",
+      "seal": "AlchemySeal",
+      "auto_collected_on_real_defeat": true,
+      "independent_of_full_health_and_healing_pickup": true,
+      "collected_count": 3
+    },
+    {
+      "master": "GM04",
+      "seal": "WindSeal",
+      "auto_collected_on_real_defeat": true,
+      "independent_of_full_health_and_healing_pickup": true,
+      "collected_count": 4
+    }
+  ],
+  "elapsed_seconds": 148.59400000000096,
+  "run_id_digits": "72f97d974b4128f497a967b6e7d01161",
+  "pawn_class": "/Script/experiment.NLLevelCombatCharacter",
+  "director_class": "/Script/experiment.NLLevelEncounterDirector",
+  "cold_pie_navigation": {
+    "success": true,
+    "checks": [
+      {
+        "stage": "Aoutside",
+        "point": "Aoutside_P01",
+        "passed": true
+      },
+      {
+        "stage": "Aoutside",
+        "point": "Aoutside_P02",
+        "passed": true
+      },
+      {
+        "stage": "Ainside",
+        "point": "Ainside_P01",
+        "passed": true
+      },
+      {
+        "stage": "Ainside",
+        "point": "Ainside_P02",
+        "passed": true
+      },
+      {
+        "stage": "Ainside",
+        "point": "Ainside_P03",
+        "passed": true
+      },
+      {
+        "stage": "Ainside",
+        "point": "Ainside_P04",
+        "passed": true
+      },
+      {
+        "stage": "Ainside",
+        "point": "Ainside_P05",
+        "passed": true
+      },
+      {
+        "stage": "Ainside",
+        "point": "Ainside_P06",
+        "passed": true
+      },
+      {
+        "stage": "R01",
+        "point": "R01_P01",
+        "passed": true
+      },
+      {
+        "stage": "R01",
+        "point": "R01_P02",
+        "passed": true
+      },
+      {
+        "stage": "Bcourt",
+        "point": "Bcourt_P01",
+        "passed": true
+      },
+      {
+        "stage": "Bcourt",
+        "point": "Bcourt_P02",
+        "passed": true
+      },
+      {
+        "stage": "Bcourt",
+        "point": "Bcourt_P03",
+        "passed": true
+      },
+      {
+        "stage": "Bcourt",
+        "point": "Bcourt_P04",
+        "passed": true
+      },
+      {
+        "stage": "Bcourt",
+        "point": "Bcourt_P05",
+        "passed": true
+      },
+      {
+        "stage": "Bcourt",
+        "point": "Bcourt_P06",
+        "passed": true
+      },
+      {
+        "stage": "Bexit",
+        "point": "Bexit_P01",
+        "passed": true
+      },
+      {
+        "stage": "Bexit",
+        "point": "Bexit_P02",
+        "passed": true
+      },
+      {
+        "stage": "Bexit",
+        "point": "Bexit_P03",
+        "passed": true
+      },
+      {
+        "stage": "Bexit",
+        "point": "Bexit_P04",
+        "passed": true
+      },
+      {
+        "stage": "Bexit",
+        "point": "Bexit_P05",
+        "passed": true
+      },
+      {
+        "stage": "Bexit",
+        "point": "Bexit_P06",
+        "passed": true
+      },
+      {
+        "stage": "R02",
+        "point": "R02_P01",
+        "passed": true
+      },
+      {
+        "stage": "R02",
+        "point": "R02_P02",
+        "passed": true
+      },
+      {
+        "stage": "R03",
+        "point": "R03_P01",
+        "passed": true
+      },
+      {
+        "stage": "R03",
+        "point": "R03_P02",
+        "passed": true
+      },
+      {
+        "stage": "Cestablish",
+        "point": "Cestablish_P01",
+        "passed": true
+      },
+      {
+        "stage": "Cestablish",
+        "point": "Cestablish_P02",
+        "passed": true
+      },
+      {
+        "stage": "Cestablish",
+        "point": "Cestablish_P03",
+        "passed": true
+      },
+      {
+        "stage": "Cestablish",
+        "point": "Cestablish_P04",
+        "passed": true
+      },
+      {
+        "stage": "Cestablish",
+        "point": "Cestablish_P05",
+        "passed": true
+      },
+      {
+        "stage": "Cestablish",
+        "point": "Cestablish_P06",
+        "passed": true
+      },
+      {
+        "stage": "Cestablish",
+        "point": "Cestablish_P07",
+        "passed": true
+      },
+      {
+        "stage": "Cestablish",
+        "point": "Cestablish_P08",
+        "passed": true
+      },
+      {
+        "stage": "Cinterrupt",
+        "point": "Cinterrupt_P01",
+        "passed": true
+      },
+      {
+        "stage": "Cinterrupt",
+        "point": "Cinterrupt_P02",
+        "passed": true
+      },
+      {
+        "stage": "Cinterrupt",
+        "point": "Cinterrupt_P03",
+        "passed": true
+      },
+      {
+        "stage": "Cinterrupt",
+        "point": "Cinterrupt_P04",
+        "passed": true
+      },
+      {
+        "stage": "Cinterrupt",
+        "point": "Cinterrupt_P05",
+        "passed": true
+      },
+      {
+        "stage": "Cinterrupt",
+        "point": "Cinterrupt_P06",
+        "passed": true
+      },
+      {
+        "stage": "Cinterrupt",
+        "point": "Cinterrupt_P07",
+        "passed": true
+      },
+      {
+        "stage": "Cinterrupt",
+        "point": "Cinterrupt_P08",
+        "passed": true
+      },
+      {
+        "stage": "Csiege",
+        "point": "Csiege_P01",
+        "passed": true
+      },
+      {
+        "stage": "Csiege",
+        "point": "Csiege_P02",
+        "passed": true
+      },
+      {
+        "stage": "Csiege",
+        "point": "Csiege_P03",
+        "passed": true
+      },
+      {
+        "stage": "Csiege",
+        "point": "Csiege_P04",
+        "passed": true
+      },
+      {
+        "stage": "Csiege",
+        "point": "Csiege_P05",
+        "passed": true
+      },
+      {
+        "stage": "Csiege",
+        "point": "Csiege_P06",
+        "passed": true
+      },
+      {
+        "stage": "Csiege",
+        "point": "Csiege_P07",
+        "passed": true
+      },
+      {
+        "stage": "Csiege",
+        "point": "Csiege_P08",
+        "passed": true
+      },
+      {
+        "stage": "Cunseal",
+        "point": "Cunseal_P01",
+        "passed": true
+      },
+      {
+        "stage": "Cunseal",
+        "point": "Cunseal_P02",
+        "passed": true
+      },
+      {
+        "stage": "Cunseal",
+        "point": "Cunseal_P03",
+        "passed": true
+      },
+      {
+        "stage": "Cunseal",
+        "point": "Cunseal_P04",
+        "passed": true
+      },
+      {
+        "stage": "Cunseal",
+        "point": "Cunseal_P05",
+        "passed": true
+      },
+      {
+        "stage": "Cunseal",
+        "point": "Cunseal_P06",
+        "passed": true
+      },
+      {
+        "stage": "Cunseal",
+        "point": "Cunseal_P07",
+        "passed": true
+      },
+      {
+        "stage": "Cunseal",
+        "point": "Cunseal_P08",
+        "passed": true
+      },
+      {
+        "stage": "GM01",
+        "point": "GM01_Master",
+        "passed": true
+      },
+      {
+        "stage": "GM02",
+        "point": "GM02_Guard01",
+        "passed": true
+      },
+      {
+        "stage": "GM02",
+        "point": "GM02_Guard02",
+        "passed": true
+      },
+      {
+        "stage": "GM02",
+        "point": "GM02_Master",
+        "passed": true
+      },
+      {
+        "stage": "GM03",
+        "point": "GM03_Guard01",
+        "passed": true
+      },
+      {
+        "stage": "GM03",
+        "point": "GM03_Guard02",
+        "passed": true
+      },
+      {
+        "stage": "GM03",
+        "point": "GM03_Master",
+        "passed": true
+      },
+      {
+        "stage": "GM04",
+        "point": "GM04_Master",
+        "passed": true
+      },
+      {
+        "stage": "Boss",
+        "point": "Boss_P01",
+        "passed": true
+      }
+    ],
+    "projection_extent_cm": [
+      60,
+      60,
+      180
+    ],
+    "nav_data": "/Game/ReversedScale/Maps/UEDPIE_0_L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.RecastNavMesh-SwordDisciple",
+    "game_time": 0.9945285953581333
+  },
+  "summit_empty_gate": {
+    "passed": true,
+    "stage": "Boss",
+    "missing": [
+      "SwordSeal",
+      "TalismanSeal",
+      "AlchemySeal",
+      "WindSeal"
+    ],
+    "accepted": false,
+    "controller_spawned": false
+  },
+  "boss_seals_retained_after_completion": true,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "original_level_id": "Level.Nilin.Playable",
+    "temporary_level_id": "Test.FourSeals.0eb92ed44af04e12a2549966da6efd12",
+    "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+    "map_sha256_before": "aa076122264e189969ff8ef57e6da2fc655eee886a2e81d99941c25890d8e8e2",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\059d43a3bd42c7786736c6bacceaabf4fb404287.nlrun",
+    "test_run_ids": [
+      "2ddb9c8949f08198f0cf71b3feb19850",
+      "72f97d974b4128f497a967b6e7d01161"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "aa076122264e189969ff8ef57e6da2fc655eee886a2e81d99941c25890d8e8e2"
+  }
+}

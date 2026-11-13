@@ -1,0 +1,299 @@
+{
+  "state": "passed",
+  "modified_existing_sources": [
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyCharacter.cpp",
+      "before_sha256": "1164e3a5262c78121e81eaa6d70f31c0a8bc9397bb03e8c8b2d2248070f5940b",
+      "after_sha256": "57b5676ab5967570b54b470a4a8b19a5fb4f1c1e70d6199f8ca22c268ccf4d2c"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLBladeComponent.cpp",
+      "before_sha256": "c1edfd8b38245fa1065304107582ddc6a1a3ac28f43425fb9c8b9415123381b7",
+      "after_sha256": "dadb10fb4cec8697d2e145f1d8794180dc223cdecd518958573476880f25407b"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatProjectile.cpp",
+      "before_sha256": "bc85d5d94196b30cc9fa90a17d8bb641b5fe5a3ad7919d3d87cff81d9b7fa35c",
+      "after_sha256": "d8a587f97367e4e5bfec426918f2b99646dffd83a233a96c6097a8d6c009b1e7"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatResolverSubsystem.cpp",
+      "before_sha256": "d38ef41970878161526c0d2ebb17f916d9dae245543c2dd5cd9532ce6343c802",
+      "after_sha256": "4a4af6c424790abb6d345356e26caaf2cd8d9dc59184910f51628a3b138351be"
+    },
+    {
+      "path": "Source/experiment/Private/Encounter/NLEncounterController.cpp",
+      "before_sha256": "8851913d681d2d98555b2ff215fe621ea52bdbd8326969a4aebaa71748e7d49f",
+      "after_sha256": "f04e8a438a69ebaf19fe4752edd4f9b5e935080afffe507e94ed6b9c000da801"
+    },
+    {
+      "path": "Source/experiment/Private/Encounter/NLLevelEncounterDirector.cpp",
+      "before_sha256": "ce6045038164bcf5c573e6db14500c62e73fc8cfabb39af03dff1fbb61b75b90",
+      "after_sha256": "16daf9b029a9ca939d11f90f4fbb8c265cb4f3b1a76ad545f896ee64f55309ca"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLCombatLabHUD.cpp",
+      "before_sha256": "99f1ce7d6582c0cf11278b0d89b301dcda5c7e3fcbd6296633685819adca8e24",
+      "after_sha256": "18d1a35c68bc0f4a15871c85ae7030364c74d0f108d5fdacdc752310776d9b14"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLDesktopPlayerCharacter.cpp",
+      "before_sha256": "d503fbed66ee80b2d8656a894a64b6d955a648af5bd7feafa7213bee6a8a689f",
+      "after_sha256": "ba350a2978235140751e79ca42a795254bcbcfde1500a7b244806cbfdd4a9c82"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLLevelCombatPlayer.cpp",
+      "before_sha256": "9b4fec347113ae45d00b3c756ecd2d9617788a88cd73db42b00630d8cc427c5a",
+      "after_sha256": "cc6b4391211a9dbad954b1378dd2b70896253c61731f33131d6bd2afe3d43138"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLVRPlayerCharacter.cpp",
+      "before_sha256": "1cb14bdcf6f57cba4a6b4668bf6f6d64475d9ffe5bad5c40836cb6a50ee6323e",
+      "after_sha256": "b9babd9a4bef452b4d33a7be1e979947797d77faef63f8b4de526a01479cf683"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyCharacter.h",
+      "before_sha256": "85aaed4cd80deeedcce8fc0f499c02cde7452c4d8ccc056bfdcd931160553c70",
+      "after_sha256": "02bf116fcac03003830c9046d64ef511c8c4ec784e5d452e4c402f15486f19ed"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLBladeComponent.h",
+      "before_sha256": "6342a4a66994cdfde2e9dffeff18685c346c6f5f650ba34461bbede8820fedd6",
+      "after_sha256": "8c3a45123e2151e4bc237c83dbbbba1d8014da56e2a825abd4690dcc456bdc44"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatTypes.h",
+      "before_sha256": "36fd566a30d25a72363b0b36754bc1056a6ed5b5b95eed2a192d4bb764a34890",
+      "after_sha256": "e1a4ee5ec71fdbe278d38d8fb9fce5d8a9d9ebc97ccc601799c5f8851a036e43"
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLEncounterController.h",
+      "before_sha256": "e03bd0e45d7019904abb735d7c2d2272478ef28d2ca5c0a242a37e951277b685",
+      "after_sha256": "0463583872557552d36de69a5bfaceb69b3b088904a573f9b432e349a6eebcc5"
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLLevelEncounterDirector.h",
+      "before_sha256": "5abe3a708ec7752530ce4d93adce5bcbbf4b4c1d9ccd230d05306af392e6facc",
+      "after_sha256": "6e05239b0009a5591967b04d5741ef3604fef7456456bc7c8497dc798d659a44"
+    },
+    {
+      "path": "Source/experiment/Public/Player/NLDesktopPlayerCharacter.h",
+      "before_sha256": "8312446258ca319101edb4f35153b8ed33b7f28ab9328601dd6b37eb5638eb7e",
+      "after_sha256": "5590e025e778910e0809b190811be9c130e8a81314d873ad48cf154b1c28ef27"
+    }
+  ],
+  "new_sources": [
+    {
+      "path": "Source/experiment/Public/Combat/NLWeakPointComponent.h",
+      "sha256": "843d7cafed7fa48f37ebd23d8260913bc590088713e831d5837f7f918372af8b"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLWeakPointComponent.cpp",
+      "sha256": "b8a41e2825f25d7e948b49fe6c6ada279236b3167f85b4c02e5b4b33ddbe5d48"
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLStagingQueueTests.cpp",
+      "sha256": "37c9d6ffaa7ab39ced6a595cc6d93d823cc800e96de897de3ad7d75e58224ee9"
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLWeakPointTests.cpp",
+      "sha256": "4b6ca52a4b9ac3b8b30a1b6f263748c94d6edfecec6fc0c00d2f9dbbb0064e5e"
+    },
+    {
+      "path": "Source/experiment/Public/Progression/NLOrdinaryLootSubsystem.h",
+      "sha256": "11bb7bc08214548b9efd98e15697611857761939976d2898f85df6985acae90c"
+    },
+    {
+      "path": "Source/experiment/Private/Progression/NLOrdinaryLootSubsystem.cpp",
+      "sha256": "3959498bbdb5c4449952ad59423b53e31180a6d1f3f6b07647b64ac0ebc6f658"
+    },
+    {
+      "path": "Source/experiment/Public/Pickup/NLOrdinarySupplyPickup.h",
+      "sha256": "7619ba92c5e0926205a6eeeba1e5a10b588116f62f40d1a22cb44ac5baf138f2"
+    },
+    {
+      "path": "Source/experiment/Private/Pickup/NLOrdinarySupplyPickup.cpp",
+      "sha256": "3187fbc7b5ecdd8f1de7f55c977320d706345104682bc4a392ccee45ec02b1b4"
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLOrdinaryLootTests.cpp",
+      "sha256": "53b16749add43f2f02d8c9d47da83d88593096f431ac809dab3c1ec2e98f27cd"
+    }
+  ],
+  "protected_prior_rig_animation_sword_and_talisman": [
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+      "matches": true,
+      "sha256": "c1fbac072ede781842eb56ad9b5d692ecde9af7640d0a04afa8f29924440e4c9"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07_Skeleton.SK_WuxiaMale_Native_v07_Skeleton",
+      "matches": true,
+      "sha256": "cc231a773d37e2cfdf5d2f59dcac19c45534d15dd08d4d7c545d66fd1885e217"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+      "matches": true,
+      "sha256": "94eeb991f937df171446e66f123d885e0fa779f53fdfa85688fc3c0c7fb6ef89"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Idle_Native_v07.A_Wuxia_Idle_Native_v07",
+      "matches": true,
+      "sha256": "42bc67fb56be1ae0cf75a338d0bd7331e1ad8db167a62ac7e7449465f6be9d88"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Walk_Native_v07.A_Wuxia_Walk_Native_v07",
+      "matches": true,
+      "sha256": "1a6b18119429bb4850c78474535f8fc8e8a70d22871b9d91f6ec39724dbac73d"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Hit_Native_v07.A_Wuxia_Hit_Native_v07",
+      "matches": true,
+      "sha256": "727efb248ab98d3b337134f2b128427eb9be94ef0e2f7785949d71034088c6bd"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Death_Native_v07.A_Wuxia_Death_Native_v07",
+      "matches": true,
+      "sha256": "61dbba075866d0dd62d4c7c3983806f8cb252ac00ad7abff460f7af95d78e2d0"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Cast_Native_v07.A_Wuxia_Cast_Native_v07",
+      "matches": true,
+      "sha256": "3738f4add6c2f36d4787848a8c9c62cd2eae9a7959d6f44dde3fa2ccd89d9cbc"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04.Pack_Anim_CSATLI_04",
+      "matches": true,
+      "sha256": "d61e36af3680d4fc1fd079febbced875ed500f6e06b5659be7415c8f5b3a48e3"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_03.Pack_Anim_CSATLI_03",
+      "matches": true,
+      "sha256": "87f4dbc0f6303b36c7aa748e1652744eeb01661a737f19744579809f76f5aed8"
+    },
+    {
+      "asset": "/Game/Animations/Sword/Anim_CSATLI_04.Anim_CSATLI_04",
+      "matches": true,
+      "sha256": "0ac51c7c9e28cb38f3d2e5fb6e4823151a020b93801592aa74767b494c635def"
+    },
+    {
+      "asset": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+      "matches": true,
+      "sha256": "3c512bfc3217aa0329860d6661c20e6a8322e5af35f877e679584d5c7e7977a6"
+    },
+    {
+      "asset": "ArtSource\\Weapons\\TalismanJade1104\\SM_Nilin_JadeTalisman.blend",
+      "matches": true,
+      "sha256": "6194af9b3e43535840abd3337e68e7c13ff22535a2e913e557e4b2ac3d2bd39d"
+    },
+    {
+      "asset": "ArtSource\\Weapons\\TalismanJade1104\\SM_Nilin_JadeTalisman.fbx",
+      "matches": true,
+      "sha256": "3f4c34ae0d96c0256bba1b30acc38ee4d10a4bc91b41aba3eb3b7147981d0b06"
+    },
+    {
+      "asset": "ArtSource\\Weapons\\TalismanJade1104\\SM_Nilin_JadeTalisman.glb",
+      "matches": true,
+      "sha256": "5a2d61c257954b66767cfffbea8350c2340514bb3b00334c9199905949954f2c"
+    },
+    {
+      "asset": "ArtSource\\Weapons\\TalismanJade1104\\T_JadeTalisman_BaseColor.png",
+      "matches": true,
+      "sha256": "6ab3268ff46dcfacb1871a42648c030d258537251db2c6831bacb78c7af426eb"
+    },
+    {
+      "asset": "ArtSource\\Weapons\\TalismanJade1104\\T_JadeTalisman_MetalRough.png",
+      "matches": true,
+      "sha256": "0a16f00ab06332d1db9aed5d9c067feb2fa358182930179dfce24719a98b46e2"
+    },
+    {
+      "asset": "ArtSource\\Weapons\\TalismanJade1104\\T_JadeTalisman_Emissive.png",
+      "matches": true,
+      "sha256": "3da7d34351da0fbd1506ff1cb817595f91e3931383a346b88f6a1fc5898de6e1"
+    },
+    {
+      "asset": "ArtSource\\Weapons\\TalismanJade1104\\T_JadeSeal_BaseColor.png",
+      "matches": true,
+      "sha256": "cd3a6306be9c5ad76a944f786cf4555f99b4e0f83dd5630f63d19af970e6f1b2"
+    }
+  ],
+  "content_files_written_since_window_start": [
+    {
+      "path": "Content/ReversedScale/Maps/L_NilinGameplayV01.umap",
+      "sha256": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_AgedGold.uasset",
+      "sha256": "a898d0be4dd55a8e91bec473875473c6480258845646194693a9a84c483537a7"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_CarvedStone.uasset",
+      "sha256": "9299554b03df7d8a0f6c9b9ede3aa75b369f7f2f65f7660b5a88b1ead9eaef6d"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_CloudSea.uasset",
+      "sha256": "6f05875c4fe535c3b3d566dc27ad4c033b5215d43d052e2e2b59fa639b83d1a7"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_DistantJadeRock.uasset",
+      "sha256": "d916eb702acbaa33e4ac9c5766d6f476a702f8b017909b1adcbb1965b50443ce"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_IndigoCloth.uasset",
+      "sha256": "06132f243d4928b15efba80ea5c5212a9cbf2ec79cb1907cfb3d09c08ab8db34"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_JadeRoof.uasset",
+      "sha256": "641d60696617e875d3f0108d694927e246e214293483f8b1c91e1d75ae212e06"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_JadeSeal.uasset",
+      "sha256": "63e44b3beb6b30f57eb5bdc5a019090152054105f4a45a8acd0003104e9e6c02"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_LanternAmber.uasset",
+      "sha256": "d2af603880c9022ab0844afea4363fa6d61a0abb335a3ac5b665414442e8e7cd"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_MountainRock.uasset",
+      "sha256": "37edf305f00016e8a28e88e031a3955b49779ebdf9ae6c086257f38d647c4d76"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_PaleRock.uasset",
+      "sha256": "188c9f4e48825fb4b4891d96a2778041040450787c8fb296bae240f060db284a"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_Pine.uasset",
+      "sha256": "fb05725b1673073942011e6ea89cd0b73f618f772c7e95a2fa4de1fbae3fa9a2"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_Redwood.uasset",
+      "sha256": "bedbb66cdf699ecee2e485354fa8ada1775337775e8ef89911d2e9cdb154fa98"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_SealBeacon.uasset",
+      "sha256": "af3eadb5bd90b3b87f1c482ef908ec2ace8083768e120c38f7ea5d26accfd24c"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_SealHalo.uasset",
+      "sha256": "35b82e52ef8ab90a6945857a49c06e41d79d58bf86f377adee11c686ff8de9b8"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_StoneFloor.uasset",
+      "sha256": "32779e754d75c459a22146536ef738499cb6bfb190aec102c76e329825f607a3"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Materials/M_NL1105_StoneJoint.uasset",
+      "sha256": "1a17bbc49f496912aa974c3a88a2b2b2294575806ce5ad896c841ddf7193475c"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Meshes/SM_NL1105_LanternStand.uasset",
+      "sha256": "2de6a5e5bd58f9e4cda0510fccd2ea9be6e33aac5b0b6d2a19967cd3b7ed9a4f"
+    },
+    {
+      "path": "Content/ReversedScale/Environment/GDD1105/Meshes/SM_NL1105_SealHalo.uasset",
+      "sha256": "89384c2581c1887397a2dac09f424c57f4832d3a3798946e38fc01ae45f7991e"
+    }
+  ],
+  "note": "Source comparison uses per-file initial backups. Content timestamps are an audit roster, not authorization to revert unrelated changes."
+}

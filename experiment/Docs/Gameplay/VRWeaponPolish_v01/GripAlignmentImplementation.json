@@ -1,0 +1,42 @@
+{
+  "state": "implemented_waiting_for_parent_build",
+  "controller_family": "PICO (user confirmed)",
+  "root_cause": "The legacy Right source resolves to OpenXR RightGrip. The authored sword had been aligned to UE grip +Z, but OpenXR grip -Z is the little-finger-to-thumb handle direction and UE converts this to +X.",
+  "fix": "Rotate the entire right hand and socket-attached sword by +90 degrees about grip +Y. Use explicit RightGrip source. Keep projectile origin/direction on the controller pose.",
+  "expected": {
+    "sword_tip_axis_in_grip": "UE +X",
+    "former_forward_edge_axis_in_grip": "UE -Z",
+    "physical_upright_grip": "tip world +Z",
+    "hand_weapon_socket_relation": "unchanged",
+    "desktop_pose": "unchanged",
+    "sword_qi": "unchanged controller +X, now aligned to blade axis"
+  },
+  "evidence": [
+    {
+      "source": "OpenXR 1.0 Standard pose identifiers",
+      "url": "https://registry.khronos.org/OpenXR/specs/1.0-khr/html/xrspec.html#semantic-paths-standard-pose-identifiers"
+    },
+    {
+      "source": "Local UE5.8 OpenXRInput.cpp",
+      "line": 1306,
+      "detail": "Right source delegates to RightGrip"
+    },
+    {
+      "source": "Local UE5.8 OpenXRCore.h",
+      "line": 83,
+      "detail": "ToFVector returns (-z,x,y), so OpenXR -Z becomes UE +X"
+    }
+  ],
+  "modified": [
+    "Source/experiment/Public/Player/NLVRPlayerCharacter.h",
+    "Source/experiment/Private/Player/NLVRPlayerCharacter.cpp"
+  ],
+  "new_test": "Source/experiment/Private/Tests/NLVRWeaponGripTests.cpp",
+  "test_name": "Nilin.VR.WeaponGrip.AuthoredHandAndBladeFollowGripAxis",
+  "test_scope": "Actual native BeginPlay, real hand mesh and grip animation, socket and weapon hierarchy, real combat sample positions under seven supplied controller rotations. No XR input emulation, save profile or encounter.",
+  "backups": "Docs/Gameplay/VRWeaponPolish_v01/Backups/Source",
+  "limitations": [
+    "Compile and native automation are pending parent execution.",
+    "PICO physical controller acceptance must be performed in the headset."
+  ]
+}

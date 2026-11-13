@@ -1,0 +1,223 @@
+{
+  "state": "passed",
+  "surface_authoring": {
+    "textures": {
+      "SteelSurface/roughness": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\SteelSurface_Roughness.png",
+        "sha256": "ff9b1987a1d733369e6ea84bf49147f86c003f32074822514594e521aa9dbb12",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_SteelSurface_Roughness.T_SteelSurface_Roughness",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+        "directx_normal": false
+      },
+      "SteelSurface/normal": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\SteelSurface_Normal.png",
+        "sha256": "eacb19503b4a51f5ed5e2d0dc8c09df61bc92d8b776c020d0c889a8faa2ce13b",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_SteelSurface_Normal.T_SteelSurface_Normal",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+        "directx_normal": true
+      },
+      "AgedSilver/roughness": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\AgedSilver_Roughness.png",
+        "sha256": "f68d47c528227fbfd153aa24d418c1b985971ffd2642ffad5bf78d63d4f8ed46",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_AgedSilver_Roughness.T_AgedSilver_Roughness",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+        "directx_normal": false
+      },
+      "AgedSilver/normal": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\AgedSilver_Normal.png",
+        "sha256": "cc80b2e69005a4d3a8acbc50418f8ce21c1a3a1a6bd464a6f89c3c18d8d91fec",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_AgedSilver_Normal.T_AgedSilver_Normal",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+        "directx_normal": true
+      },
+      "DarkLeather/roughness": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\DarkLeather_Roughness.png",
+        "sha256": "b24fb79d612d885abc4b30dcbe2e0717066c8627f484dcb7ea5fa20f384027fd",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_DarkLeather_Roughness.T_DarkLeather_Roughness",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+        "directx_normal": false
+      },
+      "DarkLeather/normal": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\DarkLeather_Normal.png",
+        "sha256": "efaa428f2285101ad85d05666c7645d9d8b9f7eb2ad6be04965a1ebf8d546b19",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_DarkLeather_Normal.T_DarkLeather_Normal",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+        "directx_normal": true
+      },
+      "IceJade/roughness": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_Roughness.png",
+        "sha256": "e2de083259bc6c15baf151fcfd708aa2798b6a089d481454358044e566e2e6cf",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_IceJade_Roughness.T_IceJade_Roughness",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+        "directx_normal": false
+      },
+      "IceJade/normal": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_Normal.png",
+        "sha256": "122b63ad8c8fae7330e73de7ca2a02e77df506469e388b4f7ddf1bada0c2798b",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_IceJade_Normal.T_IceJade_Normal",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+        "directx_normal": true
+      },
+      "IceJade/base_color": {
+        "source": "D:\\game design\\experiment\\ArtSource\\WeaponReview\\SelectedA_DetailV03\\Textures\\IceJade_BaseColor.png",
+        "sha256": "39bd0a0d7de6ff732c2113b61bf52efb995fbe2e3de2243dd28369b73c381a3c",
+        "asset": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Textures/V03/T_IceJade_BaseColor.T_IceJade_BaseColor",
+        "srgb": true,
+        "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+        "directx_normal": false
+      }
+    },
+    "materials": {
+      "BladeSteel": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_BladeSteel",
+        "surface_group": "SteelSurface",
+        "texture_samples": 2,
+        "uv_tiling": [
+          1.0,
+          1.0
+        ],
+        "normal_strength": 0.28,
+        "roughness_offset": 0.0,
+        "base_color_linear": [
+          0.52,
+          0.55,
+          0.58
+        ],
+        "base_color_from_texture": false,
+        "metallic": 0.98,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB00958320) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1115, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "BladeEdge": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_BladeEdge",
+        "surface_group": "SteelSurface",
+        "texture_samples": 2,
+        "uv_tiling": [
+          1.0,
+          1.0
+        ],
+        "normal_strength": 0.18,
+        "roughness_offset": -0.08,
+        "base_color_linear": [
+          0.64,
+          0.67,
+          0.7
+        ],
+        "base_color_from_texture": false,
+        "metallic": 0.98,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB00C01AA0) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1116, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "BladeFuller": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_BladeFuller",
+        "surface_group": "SteelSurface",
+        "texture_samples": 2,
+        "uv_tiling": [
+          1.0,
+          1.0
+        ],
+        "normal_strength": 0.24,
+        "roughness_offset": 0.055,
+        "base_color_linear": [
+          0.43,
+          0.47,
+          0.5
+        ],
+        "base_color_from_texture": false,
+        "metallic": 0.98,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB00C0E1A0) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1116, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "Guard03": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_Guard03",
+        "surface_group": "AgedSilver",
+        "texture_samples": 2,
+        "uv_tiling": [
+          1.0,
+          1.0
+        ],
+        "normal_strength": 0.28,
+        "roughness_offset": 0.0,
+        "base_color_linear": [
+          0.48,
+          0.5,
+          0.52
+        ],
+        "base_color_from_texture": false,
+        "metallic": 0.98,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB00C0E620) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1115, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "GoldDetail": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_GoldDetail",
+        "surface_group": "AgedSilver",
+        "texture_samples": 2,
+        "uv_tiling": [
+          1.0,
+          1.0
+        ],
+        "normal_strength": 0.2,
+        "roughness_offset": -0.055,
+        "base_color_linear": [
+          0.3,
+          0.22,
+          0.12
+        ],
+        "base_color_from_texture": false,
+        "metallic": 0.94,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB00C00860) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1116, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "Grip04": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_Grip04",
+        "surface_group": "DarkLeather",
+        "texture_samples": 2,
+        "uv_tiling": [
+          4.0,
+          4.0
+        ],
+        "normal_strength": 0.55,
+        "roughness_offset": 0.0,
+        "base_color_linear": [
+          0.012,
+          0.019,
+          0.024
+        ],
+        "base_color_from_texture": false,
+        "metallic": 0.0,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB00C08A00) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1115, num_samplers: 7, num_vertex_texture_samples: 3, num_pixel_texture_samples: 2, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      },
+      "Pommel03": {
+        "path": "/Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/Materials/V03/M_Pommel03",
+        "surface_group": "IceJade",
+        "texture_samples": 3,
+        "uv_tiling": [
+          2.0,
+          2.0
+        ],
+        "normal_strength": 0.3,
+        "roughness_offset": 0.0,
+        "base_color_linear": [
+          0.37,
+          0.6,
+          0.67
+        ],
+        "base_color_from_texture": true,
+        "metallic": 0.0,
+        "vertex_masks_used": false,
+        "statistics": "<Struct 'MaterialStatistics' (0x000001CB00C07320) {num_vertex_shader_instructions: 353, num_pixel_shader_instructions: 1120, num_samplers: 8, num_vertex_texture_samples: 3, num_pixel_texture_samples: 3, num_virtual_texture_samples: 0, num_uv_scalars: 2, num_interpolator_scalars: 0}>"
+      }
+    },
+    "vertex_masks_enabled": false
+  },
+  "scope": "Surface library only; runtime mesh has not been rebound."
+}

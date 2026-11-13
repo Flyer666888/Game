@@ -1,0 +1,212 @@
+Log started at 11/11/2026 17:31:29 (2026-11-11T09:31:29Z)
+Resolved project argument D:\game design\experiment\Saved\BuildRuntime\CombatProject\experiment.uproject to D:\game design\experiment\Saved\BuildRuntime\CombatProject\experiment.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: D:\game design\experiment\Saved\BuildRuntime\CombatProject\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\21475\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: D:\game design\experiment\Saved\BuildRuntime\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest.txt
+Deleting old log file: D:\game design\experiment\Saved\BuildRuntime\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest-backup-2026.11.05-13.40.00.txt
+Deleting old log file: D:\game design\experiment\Saved\BuildRuntime\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest-backup-2026.11.05-13.40.00.json
+
+Setting temp directory to 'C:\Users\21475\AppData\Local\Temp\UnrealBuildTool\ec13e8a6'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: "D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" experimentEditor Win64 Development "-Project=D:\game design\experiment\Saved\BuildRuntime\CombatProject\experiment.uproject" -NoHotReloadFromIDE -NoUBA -MaxParallelActions=4 -WaitMutex "-Log=D:\game design\experiment\Saved\BuildRuntime\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest.txt"
+Executing up to 4 actions based on MaxProcessorCount override
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Skipping D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Compiling D:\game design\experiment\Saved\BuildRuntime\CombatProject\Intermediate\Build\BuildRules\experimentModuleRules.dll: D:\game design\experiment\Saved\BuildRuntime\CombatProject\Source\experiment\experiment.Build.cs is newer
+D:\game design\experiment\Saved\BuildRuntime\CombatProject\Source\experiment\experiment.Build.cs has been modified since makefile was built.
+Invalidating makefile for experimentEditor (experiment.Build.cs modified)
+Compiler: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe
+Linker: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Library Manager: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe
+Resource Converter: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cvtres.exe
+Using EngineIncludeOrderVersion.Unreal5_8 for target experimentEditor.Target.cs
+Building UnrealEditor - experimentEditor - Win64 - Development
+VerseVMBytecodeGenerator.Generate, generating CPP headers in: 'D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode'
+	Writing out generated header file. Changed:False Path:'D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodeOps.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodesAndCaptures.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMMakeCapturesFuncs.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMCaptureSwitch.gen.h'
+UnrealHeaderTool needs to run because SavedTimestamp is older than the rules file (D:\game design\experiment\Saved\BuildRuntime\CombatProject\Source\experiment\experiment.Build.cs) for module experiment
+Found 5 shared PCH headers (listed in order of preference):
+	UnrealEd
+	Engine
+	Slate
+	CoreUObject
+	Core
+Parsing headers for experimentEditor
+  Running Internal UnrealHeaderTool "D:\game design\experiment\Saved\BuildRuntime\CombatProject\experiment.uproject" "D:\game design\experiment\Saved\BuildRuntime\CombatProject\Intermediate\Build\Win64\experimentEditor\experimentEditor.uhtmanifest" -WarningsAsErrors -installed
+Updating D:\game design\experiment\Saved\BuildRuntime\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\Definitions.experiment.h: contents have changed. Saving previous version to D:\game design\experiment\Saved\BuildRuntime\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\Definitions.experiment.h.old.
+Updating D:\game design\experiment\Saved\BuildRuntime\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\experiment.Shared.rsp: contents have changed. Saving previous version to D:\game design\experiment\Saved\BuildRuntime\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\experiment.Shared.rsp.old.
+Updating D:\game design\experiment\Saved\BuildRuntime\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\LiveCodingInfo.json: contents have changed. Saving previous version to D:\game design\experiment\Saved\BuildRuntime\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\LiveCodingInfo.json.old.
+UHT compiled-in object format Default
+Updating D:\game design\experiment\Saved\BuildRuntime\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.dll.rsp: contents have changed. Saving previous version to D:\game design\experiment\Saved\BuildRuntime\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.dll.rsp.old.
+Step - Parse Headers
+Reading engine version from file: D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Source\Runtime\Launch\Resources\Version.h
+Got engine version 5.8.2
+Step - Populate symbol table
+Step - Exports
+       Exporter Stats skipped
+       Exporter Json skipped
+       Running exporter CodeGen
+UHT processed experimentEditor in 1.8254145 seconds (0 generated files written)
+Deleting outdated item: D:\game design\experiment\Saved\BuildRuntime\CombatProject\Binaries\Win64\UnrealEditor-experiment.pdb
+Deleting outdated item: D:\game design\experiment\Saved\BuildRuntime\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.lib
+Building experimentEditor...
+===== Toolchain Information =====
+Using ISPC compiler (D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35229 toolchain (D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from experiment unity file: experiment.cpp, NLAttackDirectorSubsystem.cpp, NLEnemyAttackWindowNotifyState.cpp, NLEnemyBrainComponent.cpp, NLEnemyCharacter.cpp, NLGuardCaptainCharacter.cpp, NLTalismanAttackComponent.cpp, NLDeathBlendAnimInstance.cpp, NLBlockoutMeshCluster.cpp, NLBlockoutPlayer.cpp, NLAbilityComponent.cpp, NLBladeComponent.cpp, NLCombatIdentityComponent.cpp, NLCombatProjectile.cpp, NLCombatRecoveryComponent.cpp, NLCombatResolverSubsystem.cpp, NLCombatVitalsComponent.cpp, NLGuardComponent.cpp, NLTrainingEnemy.cpp, NLTrainingProjectileEmitter.cpp, NLWeakPointComponent.cpp, NLEncounterController.cpp, NLLevelEncounterDirector.cpp, NLRitualLabController.cpp, NLRitualObjective.cpp, NLHealingPickup.cpp, NLOrdinarySupplyPickup.cpp, NLCombatLabHUD.cpp, NLDesktopPlayerCharacter.cpp, NLLevelCombatPlayer.cpp, NLVRGameMode.cpp, NLVRPlayerCharacter.cpp, NLMasterRewardSubsystem.cpp, NLOrdinaryLootSubsystem.cpp, NLRunStateSubsystem.cpp, NLCheckpointService.cpp, NLAbilityTests.cpp, NLBladeQiGestureTests.cpp, NLBladeQiMotionTests.cpp, NLBladeQiProjectileTests.cpp, NLCombatRecoveryTests.cpp, NLDesktopMovementInputTests.cpp, NLEnemyAnimationTransitionTests.cpp, NLEnemyOptimizationTests.cpp, NLEnemyRootMotionTests.cpp, NLFormationBreakerTests.cpp, NLFourSealTests.cpp, NLHorizontalSwordQiTests.cpp, NLLevelEncounterTests.cpp, NLLevelObjectiveTests.cpp, NLLingQiProgressionTests.cpp, NLMasterRewardTests.cpp, NLOrdinaryLootTests.cpp, NLProgressionDamageTests.cpp, NLRitualObjectiveTests.cpp, NLRitualPhaseChainTests.cpp, NLSecondUpgradeTests.cpp, NLStagingQueueTests.cpp, NLTalismanVolleyTests.cpp, NLVRLevelFlowTests.cpp, NLVRWeaponGripTests.cpp, NLWeakPointTests.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 66 action(s)
+  CPU 24 physical cores, 24 logical cores
+  Memory 31.73 GB physical, 19.22 GB/33.73 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 4294767423 used. Action: Compile [x64] Module.experiment.cpp ()
+Cache bucket 416513229 used. Action: Link [x64] UnrealEditor-experiment.dll ()
+All processes queued
+[1/66] Compile [x64] NLAbilityComponent.cpp [NoUba]
+[2/66] Compile [x64] NLAbilityTests.cpp [NoUba]
+[3/66] Compile [x64] Module.experiment.cpp [NoUba]
+[4/66] Compile [x64] NLAttackDirectorSubsystem.cpp [NoUba]
+[5/66] Compile [x64] NLBladeQiGestureTests.cpp [NoUba]
+[6/66] Compile [x64] NLBladeComponent.cpp [NoUba]
+[7/66] Compile [x64] NLBladeQiMotionTests.cpp [NoUba]
+[8/66] Compile [x64] NLBlockoutMeshCluster.cpp [NoUba]
+[9/66] Compile [x64] NLBladeQiProjectileTests.cpp [NoUba]
+[10/66] Compile [x64] NLBlockoutPlayer.cpp [NoUba]
+[11/66] Compile [x64] NLCombatIdentityComponent.cpp [NoUba]
+[12/66] Compile [x64] NLCheckpointService.cpp [NoUba]
+[13/66] Compile [x64] NLCombatLabHUD.cpp [NoUba]
+[14/66] Compile [x64] NLCombatProjectile.cpp [NoUba]
+[15/66] Compile [x64] NLCombatRecoveryComponent.cpp [NoUba]
+[16/66] Compile [x64] NLCombatRecoveryTests.cpp [NoUba]
+[17/66] Compile [x64] NLCombatResolverSubsystem.cpp [NoUba]
+[18/66] Compile [x64] NLCombatVitalsComponent.cpp [NoUba]
+[19/66] Compile [x64] NLDeathBlendAnimInstance.cpp [NoUba]
+[20/66] Compile [x64] NLDesktopMovementInputTests.cpp [NoUba]
+[21/66] Compile [x64] NLEncounterController.cpp [NoUba]
+[22/66] Compile [x64] NLDesktopPlayerCharacter.cpp [NoUba]
+[23/66] Compile [x64] NLEnemyAttackWindowNotifyState.cpp [NoUba]
+[24/66] Compile [x64] NLEnemyAnimationTransitionTests.cpp [NoUba]
+[25/66] Compile [x64] NLEnemyBrainComponent.cpp [NoUba]
+[26/66] Compile [x64] NLEnemyCharacter.cpp [NoUba]
+[27/66] Compile [x64] NLEnemyRootMotionTests.cpp [NoUba]
+[28/66] Compile [x64] NLEnemyOptimizationTests.cpp [NoUba]
+[29/66] Compile [x64] NLFormationBreakerTests.cpp [NoUba]
+[30/66] Compile [x64] NLFourSealTests.cpp [NoUba]
+[31/66] Compile [x64] NLGuardComponent.cpp [NoUba]
+[32/66] Compile [x64] NLGuardCaptainCharacter.cpp [NoUba]
+[33/66] Compile [x64] NLHealingPickup.cpp [NoUba]
+[34/66] Compile [x64] NLHorizontalSwordQiTests.cpp [NoUba]
+[35/66] Compile [x64] NLLevelEncounterDirector.cpp [NoUba]
+[36/66] Compile [x64] NLLevelCombatPlayer.cpp [NoUba]
+[37/66] Compile [x64] NLLevelObjectiveTests.cpp [NoUba]
+[38/66] Compile [x64] NLLevelEncounterTests.cpp [NoUba]
+[39/66] Compile [x64] NLLingQiProgressionTests.cpp [NoUba]
+[40/66] Compile [x64] NLMasterRewardSubsystem.cpp [NoUba]
+[41/66] Compile [x64] NLMasterRewardTests.cpp [NoUba]
+[42/66] Compile [x64] NLOrdinaryLootSubsystem.cpp [NoUba]
+[43/66] Compile [x64] NLOrdinarySupplyPickup.cpp [NoUba]
+[44/66] Compile [x64] NLOrdinaryLootTests.cpp [NoUba]
+[45/66] Compile [x64] NLProgressionDamageTests.cpp [NoUba]
+[46/66] Compile [x64] NLRitualObjectiveTests.cpp [NoUba]
+[47/66] Compile [x64] NLRitualObjective.cpp [NoUba]
+[48/66] Compile [x64] NLRitualLabController.cpp [NoUba]
+[49/66] Compile [x64] NLSecondUpgradeTests.cpp [NoUba]
+[50/66] Compile [x64] NLRunStateSubsystem.cpp [NoUba]
+[51/66] Compile [x64] NLRitualPhaseChainTests.cpp [NoUba]
+[52/66] Compile [x64] NLTalismanAttackComponent.cpp [NoUba]
+[53/66] Compile [x64] NLStagingQueueTests.cpp [NoUba]
+[54/66] Compile [x64] NLTalismanVolleyTests.cpp [NoUba]
+[55/66] Compile [x64] NLTrainingEnemy.cpp [NoUba]
+[56/66] Compile [x64] NLTrainingProjectileEmitter.cpp [NoUba]
+[57/66] Compile [x64] NLVRGameMode.cpp [NoUba]
+[58/66] Compile [x64] NLVRLevelFlowTests.cpp [NoUba]
+[59/66] Compile [x64] NLVRPlayerCharacter.cpp [NoUba]
+[60/66] Compile [x64] NLVRWeaponGripTests.cpp [NoUba]
+[61/66] Compile [x64] experiment.cpp [NoUba]
+[62/66] Compile [x64] NLWeakPointComponent.cpp [NoUba]
+[63/66] Compile [x64] NLWeakPointTests.cpp [NoUba]
+[64/66] Link [x64] UnrealEditor-experiment.lib [NoUba]
+  ￕ�ￔￚﾴﾴﾽﾨ﾿￢ D:/game design/experiment/Saved/BuildRuntime/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/UnrealEditor-experiment.lib ﾺￍﾶￔￏ￳ D:/game design/experiment/Saved/BuildRuntime/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/UnrealEditor-experiment.exp
+[65/66] Link [x64] UnrealEditor-experiment.dll [NoUba]
+[66/66] WriteMetadata experimentEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 67.33 seconds
+Output binary: D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Binaries\Win64\UnrealEditor.exe
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.238 Main
+   0.010          [  0.010]  +0.078 Apply XmlConfig
+   0.096          [  0.096]  +0.038 AddTelemetry
+   0.151          [  0.150]  +0.087 RegisterPlatforms
+[  0.247]  +0.015 ParseCommandLine
+[  0.292]  +0.071 LoadMakefile
+   0.304          [  0.011]  +0.019 EngineRulesPlugins
+   0.326          [  0.033]  +0.011 EngineRulesFetchDirs
+   0.343          [  0.050]  +0.006 EngineRulesAssembly
+   0.350          [  0.057]  +0.000 ProgramRulesAssembly
+   0.350          [  0.058]  +1.767 ProjectRulesAssembly
+   0.376             0.083          [  0.025]  +0.000 FindPlugins
+   0.397             0.104          [  0.046]  +0.097 MakefileValid
+   0.494             0.202          [  0.143]  +1.623 <unknown>
+[  0.364]  +1.754 <unknown>
+[  2.118]  +0.093 CreateTargetRules
+[  2.246]  +0.004 CppDependencyCache
+[  2.259]  +1.284 experimentEditor Win64 Development
+   2.259          [  0.000]  +0.325 <unknown>
+   2.584          [  0.325]  +0.038 UHTModules
+   2.680          [  0.421]  +0.110 UHTManifest
+   2.790          [  0.531]  +1.829 UHT
+   2.790             0.531          [  0.000]  +0.730 <unknown>
+   3.520             1.261          [  0.730]  +0.000 WaitOnWrites
+   3.543             1.284          [  0.753]  +0.146 SavingMakefile
+   3.690             1.430          [  0.899]  +0.929 <unknown>
+[  3.543]  +1.078 <unknown>
+[  4.621]  +0.017 UHTTimestamps
+[  4.644]  +0.008 CppDependencyCache
+[  4.653]  +0.072 Preparing ActionGraph
+   4.661          [  0.008]  +0.003 LinkActions
+   4.665             0.012          [  0.003]  +0.000 DetectActionGraphCycles
+   4.666          [  0.012]  +0.000 GatherPrerequisiteActions
+   4.667          [  0.013]  +0.000 CppDependencyCacheWait
+   4.667          [  0.014]  +0.030 GatherOutdatedActions
+   4.701          [  0.048]  +0.003 LinkActions
+   4.701             0.048          [  0.000]  +0.000 DetectActionGraphCycles
+   4.705          [  0.052]  +0.010 DeleteOutdatedProducedItems
+   4.716          [  0.062]  +0.008 SaveActionHistory
+   4.725          [  0.071]  +0.000 CreateDirectoriesForProducedItems
+[  4.741]  +0.196 GarbageCollect
+[  4.938] +67.136 <unknown>
+[ 72.075]  +0.000 Deploying targets
+[ 72.076]  +0.000 DisconnectCache
+[ 72.081]  +0.000 SaveCasTable
+[ 72.085]  +0.233 Saving caches
+[ 72.319]  +0.002 TelemetryService.FlushEvents
+[ 72.323]
+
+Result: Succeeded
+Total execution time: 72.32 seconds

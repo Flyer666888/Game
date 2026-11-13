@@ -1,0 +1,5924 @@
+{
+  "state": "failed",
+  "success": false,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [
+    "Fixture placement stopped at GM02 stair entry outside the authored arena trigger. Product state remained AVAILABLE; rerun uses a valid inside-trigger setup position."
+  ],
+  "checks": {},
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [
+    {
+      "game_time": 2.6680878959596157,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "5461f35246e2c945cc52acb4520ea990",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 3.3316647969186306,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "6614871e47522e4dd7d69eb499fe3739",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 5.3870648965239525,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "e32896c04261677c2346eb9637656c57",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 6.065060097724199,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "75a1ba7a488327cf38d0288c94c62ffd",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 6.7324463948607445,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "7504a3994a6e9097f85eacb0aff27f62",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 7.383845794945955,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "9467154e4c803292ae53369f6b4fa33f",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 8.052915096282959,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "aa675f374670d5eb08b2a1a60dda97b4",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 8.717489495873451,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ee9606904a13fc688d6aaeb2408eb56f",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 10.78206979483366,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "2fb62a59401d86c69648cb940e8fad4c",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 11.433022197335958,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "f3a6317546554ba19415dca10b60b50c",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 13.474778596311808,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "be48aa664cd3aa47d7723ba4a55c38fb",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 14.125841096043587,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "520569ec48e76b581e0685ba8617e3de",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 14.779105298221111,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "4476543849bd1512166755885034953e",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 15.434901997447014,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "dabcda1843e809b69f518aa7f82590d7",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 16.100115798413754,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "78710846492407dae05bc3ad04062cfd",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 16.763852898031473,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "70ff43cb40e82b42609ee7bdb1866f0d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 19.306214097887278,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "afd038bf45527634bbbdfa91a3b8df4b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 19.95935459807515,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "a1cc03a8426aec733b0b02bac51273d1",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 20.625089798122644,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "f6e8d93446768a49969224bb88474763",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 21.279685497283936,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "1b1e12144ed08e56c81f4286f9f10f53",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 21.947000097483397,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "d7ac6ac24ea0ce7b95af169a77afae1e",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 22.61117759719491,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ba240cea43e4988b5895d0af22c22580",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 25.146789997816086,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "e1f336524a94f49710514e9ae86577ae",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 25.799224596470594,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "9a8bc022409cb49cd28a11955fdff7de",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 26.44938449561596,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "7a90ae3247e83207cb579ab22675d1bd",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 27.117095597088337,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "196ae4264b1e9407c204b287ac81621b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 27.771212596446276,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "1413107c4510336792b40d841688d35a",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 28.422774497419596,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "b3c32cbc48ad286b0771c580b9b529bb",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 30.98077229782939,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "71670e5348406fceda536d856c320a33",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 31.638762798160315,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "11bd70ec4fffbe9c3ce3c699a9e6de90",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 32.304273795336485,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "521a13b8477e765b40e50f9df40b3480",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 32.95706059783697,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "2249d34d45e1a99f9ad145bcc91f4d8b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 33.61009969562292,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "540b175646268ffc0d35cdb06fd089d1",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 34.261606995016336,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "099d0045478b88ea93e847b4d1bcd159",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 36.81118359789252,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "3169b0e74ceeec5af375eb86c438546e",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 37.4659237973392,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "86fa36e94f50e3feab4c76bc94b3fe2e",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 38.115977097302675,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "496921894994162742e2b8a32349a88d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 38.78049819543958,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "756aa1724bd0276af940aa82f2a0e04f",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 39.432135097682476,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "6ebde25644463bdf56af86a37a183f7a",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 40.086584597826004,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ce4cb57b411ccdaee4c5759cef5eb8f8",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 42.63813969492912,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "1d2b0c1448fb2704960eb7a85a5ca387",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 43.300985995680094,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "872c930d4c74f72cae9908b96fd6ce00",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 43.95383619517088,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "41c0171b4bce483189fc5080e9922725",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 44.61883929744363,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "5e00eb2c49fc134031468fad2db996ef",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 45.27032579481602,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "b932ec37497195bb924adcad8682d058",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 45.9389194957912,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "751c78bc44e638187a5ffcb100cdf6e6",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 48.065144795924425,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ef0620c441daed22bb9920950db6df21",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 48.72930059581995,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "20e347e042dfecd04ac08e8b26f7220b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 49.39515349641442,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "0b8c61144b07d7563edc388ca8d71029",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 50.06212079524994,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ddd68bd8471beca2c6387899b7d63e99",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 50.71986419707537,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "4226d44749fa6a67bb7a1984831b0ecd",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 51.378914296627045,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "eba15f4d4aca198d1f8787aea28cf64c",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 53.563013695180416,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "6f8383e449fee3ee12863ebe713bff0d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 54.226822696626186,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "d44cd62a4b8cd159c93c32be5ea5ab02",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 56.37726489827037,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "49514c2949a9c622e06d29a2b1fd0b7c",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 57.02985589578748,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "fcd2b8f04decfc730a3a0b9efea839a5",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 59.07590579614043,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "c643498840737227a41bac8e8b83755b",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 63.08144139498472,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "b994dacc4194fc8e747349ae98228b65",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 67.09653439745307,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "77697a7f40d9575da3ae00ab7e1f356d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 71.09878999739885,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "0cc8e0de4e92df1c71bfba8691e81b12",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 75.12488059699535,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ea90d34c468702d256419f95f34581e5",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 79.14094549790025,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "3665870146aa7760155c0a8696f55848",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 83.15288369730115,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "e9aca90c44fb05575c015b9c83fc98d4",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 87.1693898960948,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "a08eb7b0430b2e59dd2a0287637dd226",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 91.1789397969842,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "fff1defc4cdce40612c938ac0165a268",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 95.18101349845529,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "38ed416a4f0394c0270b4e89f6cb9a41",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 97.72968209534883,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "36e18fc442a34645255db086517e8732",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 101.73036399483681,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "1e5c29554e410db76b21bca7cef9eadb",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 105.73197989538312,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "90e2e7d04ce8682abc8c82a038a59275",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 109.73271199688315,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "a7622ef547a54f8fd5350f95c8f2f742",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 113.73618779703975,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "8a61f4124cabefcadc4dd2ba885b471c",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 117.74658889696002,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "6be0551d4274bcacd63de5be5d502736",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 121.18290549516678,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "458b865842ac78e1eba97cbbc27515d2",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 45.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 125.191022798419,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "53df803848c7fb816cdb3caef293a900",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 129.1949043981731,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "4ba626ac4c2bd4226238d0bd2e2dea1f",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 133.21308539807796,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "0ca6f5e644e1001ca32204be9bf4e756",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 137.21325459703803,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "67e171bc47960279ff5166b69abedb0d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 141.23708589747548,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "eb6ed07d4a7f4ce929003d8feec392d0",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 145.2653942964971,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "7559c5c44fe4779fc81030a21ae09a1e",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 149.27910489588976,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "79c3bc29479242688c88c9ac3202e3e8",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 153.2893464975059,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ae56c7de455419a14e3d109a79579281",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 157.2917299978435,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "928277f1484a9dbf50eb7c9fe96f5acd",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 159.85131679475307,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "91e98b704eaccc2cf6dd9dbf800cf6ad",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 163.86718049645424,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "25c3f2bc45c2da9991652bbfbec09157",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 167.86918339505792,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "6771f8d64d51faefa67de19614a3db59",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 45.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 171.87547179684043,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "3756839d44f7cfaf91cb728ff9da0ca4",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 175.89715769514441,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "d81a6a7341ceb22d80beea9caf529385",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 179.9081583954394,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "a7a6b9544d23f7f3aa3b73a59b7e3f8c",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 183.37820969522,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "a1104e4e4ad2d5de83e79b99a2336d12",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 187.384383097291,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "6c851ff1483075c6ea3eac940e9e203e",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 191.41257769614458,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "eb1856a741a470d42d5cbeb2eb475e4d",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 195.42909379675984,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "d72515c940b51495e0ef9abbf6f0c742",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 199.44554959610105,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "536a760e416122fb646e2988fc7d0dc9",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 203.44749769568443,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "965bfade4e1cff7b04b663a7638e78bd",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 207.46389519795775,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "a0cc957e46418591fe55bfa996188271",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 45.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 211.4770935960114,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "1c2b51014c5f0d57586beea545b60836",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 215.4839845970273,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ecf9d2164eab8428cb683d8af9105f62",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 219.48783089593053,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "d38b59c748c4b1146e5ae38b49eb4b96",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 222.0327629968524,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "44596f054147091718f387b1d3e80db9",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 226.06123199686408,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "3715b3cc4cfb88152d44c3843cc3e84a",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 230.08235609531403,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "14a6bc9a413f928064d168a294b6f5cb",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 234.09040349721909,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "1bb4df924ce036e0adc24d9271d945fe",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 238.0957430973649,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "404d5f3f4ab460b2b7bddeb2f5c8ab7a",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 242.1107583977282,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "58b8022c4cf6d7018776b19982051fe7",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 245.47721519693732,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "47fed5e543aaab28619caea386e6c171",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 249.493039496243,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "9f7c0228481606f29af2d8aae5a3dcc2",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 253.50072929635644,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "90e518fd481f9fcc6e517aa3b1c582e4",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 45.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 257.50917929783463,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "1bf71c0942d8a941e40f50bfc2934a50",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 261.5113986954093,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "c7dea6ca484ae8a9336b9e8442208119",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 45.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 265.5359688960016,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "5143df184ff7f998b5f72983705693ed",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 269.54258009791374,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ea5ef0b74442ca953a94beae5330d038",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 273.5600368976593,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "af3a6d93464c66603f178289d9812a86",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 277.57021689787507,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ec5af1804d107bf419c5108f6fbf105e",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 281.5714122951031,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "869dc92c4c2766a60bb14d8177b7a2b3",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 284.1315136961639,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ba0d441342eea666b75823a6602ce15e",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 288.1315836980939,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "ef6a592c498a95ed2f04fbbb07ea6646",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 292.15987629815936,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "f02f19d94ffdc83101f587b4967a2714",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 45.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 296.1623826958239,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "994b4e9d4976eb8c8c32ad84978e70aa",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 300.18645079806447,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "c093bc154f66419d1af088a38a2e605c",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 304.19422079622746,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "d9c7d86b4f4468268ca44a8181bb38c5",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    },
+    {
+      "game_time": 307.6644285954535,
+      "phase": "stage_active",
+      "origin": "full_rules_owned_999_fixture",
+      "source_id": "8d07685249b9da88e73cc2befa97ad36",
+      "target_id": "3d470b3e42d2bceeeb0d6aaa4b51eb15",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 90.0,
+      "target_defeated": true
+    }
+  ],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Actual saved L_NilinGameplayV01 with all 16 authored stages, wave assets, progression, ordinary supplies and four fixed master rewards.",
+    "Unique Test.Level01 identity. Only the original LevelId is changed temporarily; the stage array, waves, timing, objective percentage and source assets are never rewritten.",
+    "Stage-entry teleports and a position near the ritual are explicit setup. AI is paused and at most four real owned NPCs per callback are defeated via a labelled 999-damage production-resolver contact fixture.",
+    "All actual spawn intervals, alive caps, intermissions, dependencies and the ritual 240-effective-second rate remain active at global time dilation 1.",
+    "The player stays at full health to retain ordinary/master pickups for inspection. This is a rule integration check, not continuous human combat, difficulty, headset or performance acceptance."
+  ],
+  "elapsed_seconds": 469.76600000000326,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.e77c45ccae8f4736bf1560b88690a604",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\cb02f1fdc90c20f2792b0bb1f0ec9607de351293.nlrun",
+    "test_run_ids": [
+      "b96490aa45b6fc2a49ed04adb9aa888f",
+      "da2d309f466da8b81c1ec9b02f7412de"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "2e7d32f43632afda171067f853b4026154d86ee161da4cdda1326618fc7a02fb",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinMasterRewards\\B96490AA45B6FC2A49ED04ADB9AA888F.nlmr",
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\cb02f1fdc90c20f2792b0bb1f0ec9607de351293.nlrun"
+    ],
+    "temporary_assets_removed": true,
+    "ordinary_ledger_cleanup": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinOrdinaryLoot\\B96490AA45B6FC2A49ED04ADB9AA888F.nllo"
+    ]
+  },
+  "frames": [],
+  "stage_summaries": [
+    {
+      "stage": "Aoutside",
+      "entered_game_time": 0.6619715988636017,
+      "defeats": [
+        {
+          "stage": "Aoutside",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "5461f35246e2c945cc52acb4520ea990",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Aoutside.Wave.01.Spawn.0000",
+          "ordinary_eligible": true,
+          "game_time": 2.6680878959596157
+        },
+        {
+          "stage": "Aoutside",
+          "wave": 0,
+          "ordinal": 1,
+          "runtime_id": "6614871e47522e4dd7d69eb499fe3739",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Aoutside.Wave.01.Spawn.0001",
+          "ordinary_eligible": true,
+          "game_time": 3.3316647969186306
+        }
+      ],
+      "waves_observed": [
+        0
+      ],
+      "loot_before": 0,
+      "misses_before": 0,
+      "planned_candidates": 2,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 3.3511207960546017,
+      "actual_defeats": 2,
+      "loot_processed": 2,
+      "misses_after": 2,
+      "ordinary_eligible_defeats": 2
+    },
+    {
+      "stage": "Ainside",
+      "entered_game_time": 3.3768410980701447,
+      "defeats": [
+        {
+          "stage": "Ainside",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "e32896c04261677c2346eb9637656c57",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0000",
+          "ordinary_eligible": true,
+          "game_time": 5.3870648965239525
+        },
+        {
+          "stage": "Ainside",
+          "wave": 0,
+          "ordinal": 1,
+          "runtime_id": "75a1ba7a488327cf38d0288c94c62ffd",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0001",
+          "ordinary_eligible": true,
+          "game_time": 6.065060097724199
+        },
+        {
+          "stage": "Ainside",
+          "wave": 0,
+          "ordinal": 2,
+          "runtime_id": "7504a3994a6e9097f85eacb0aff27f62",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0002",
+          "ordinary_eligible": true,
+          "game_time": 6.7324463948607445
+        },
+        {
+          "stage": "Ainside",
+          "wave": 0,
+          "ordinal": 3,
+          "runtime_id": "9467154e4c803292ae53369f6b4fa33f",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0003",
+          "ordinary_eligible": true,
+          "game_time": 7.383845794945955
+        },
+        {
+          "stage": "Ainside",
+          "wave": 0,
+          "ordinal": 4,
+          "runtime_id": "aa675f374670d5eb08b2a1a60dda97b4",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0004",
+          "ordinary_eligible": true,
+          "game_time": 8.052915096282959
+        },
+        {
+          "stage": "Ainside",
+          "wave": 0,
+          "ordinal": 5,
+          "runtime_id": "ee9606904a13fc688d6aaeb2408eb56f",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0005",
+          "ordinary_eligible": true,
+          "game_time": 8.717489495873451
+        }
+      ],
+      "waves_observed": [
+        0
+      ],
+      "loot_before": 2,
+      "misses_before": 2,
+      "planned_candidates": 6,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 8.73717649653554,
+      "actual_defeats": 6,
+      "loot_processed": 8,
+      "misses_after": 0,
+      "ordinary_eligible_defeats": 6
+    },
+    {
+      "stage": "R01",
+      "entered_game_time": 8.755483597517014,
+      "defeats": [
+        {
+          "stage": "R01",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "2fb62a59401d86c69648cb940e8fad4c",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R01.Wave.01.Spawn.0000",
+          "ordinary_eligible": true,
+          "game_time": 10.78206979483366
+        },
+        {
+          "stage": "R01",
+          "wave": 0,
+          "ordinal": 1,
+          "runtime_id": "f3a6317546554ba19415dca10b60b50c",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R01.Wave.01.Spawn.0001",
+          "ordinary_eligible": true,
+          "game_time": 11.433022197335958
+        }
+      ],
+      "waves_observed": [
+        0
+      ],
+      "loot_before": 8,
+      "misses_before": 0,
+      "planned_candidates": 2,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 11.458009395748377,
+      "actual_defeats": 2,
+      "loot_processed": 10,
+      "misses_after": 2,
+      "ordinary_eligible_defeats": 2
+    },
+    {
+      "stage": "Bcourt",
+      "entered_game_time": 11.474676094949245,
+      "defeats": [
+        {
+          "stage": "Bcourt",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "be48aa664cd3aa47d7723ba4a55c38fb",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0000",
+          "ordinary_eligible": true,
+          "game_time": 13.474778596311808
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 0,
+          "ordinal": 1,
+          "runtime_id": "520569ec48e76b581e0685ba8617e3de",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0001",
+          "ordinary_eligible": true,
+          "game_time": 14.125841096043587
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 0,
+          "ordinal": 2,
+          "runtime_id": "4476543849bd1512166755885034953e",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0002",
+          "ordinary_eligible": true,
+          "game_time": 14.779105298221111
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 0,
+          "ordinal": 3,
+          "runtime_id": "dabcda1843e809b69f518aa7f82590d7",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0003",
+          "ordinary_eligible": true,
+          "game_time": 15.434901997447014
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 0,
+          "ordinal": 4,
+          "runtime_id": "78710846492407dae05bc3ad04062cfd",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0004",
+          "ordinary_eligible": true,
+          "game_time": 16.100115798413754
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 0,
+          "ordinal": 5,
+          "runtime_id": "70ff43cb40e82b42609ee7bdb1866f0d",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0005",
+          "ordinary_eligible": true,
+          "game_time": 16.763852898031473
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 1,
+          "ordinal": 6,
+          "runtime_id": "afd038bf45527634bbbdfa91a3b8df4b",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0006",
+          "ordinary_eligible": true,
+          "game_time": 19.306214097887278
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 1,
+          "ordinal": 7,
+          "runtime_id": "a1cc03a8426aec733b0b02bac51273d1",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0007",
+          "ordinary_eligible": true,
+          "game_time": 19.95935459807515
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 1,
+          "ordinal": 8,
+          "runtime_id": "f6e8d93446768a49969224bb88474763",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0008",
+          "ordinary_eligible": true,
+          "game_time": 20.625089798122644
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 1,
+          "ordinal": 9,
+          "runtime_id": "1b1e12144ed08e56c81f4286f9f10f53",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0009",
+          "ordinary_eligible": true,
+          "game_time": 21.279685497283936
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 1,
+          "ordinal": 10,
+          "runtime_id": "d7ac6ac24ea0ce7b95af169a77afae1e",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0010",
+          "ordinary_eligible": true,
+          "game_time": 21.947000097483397
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 1,
+          "ordinal": 11,
+          "runtime_id": "ba240cea43e4988b5895d0af22c22580",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0011",
+          "ordinary_eligible": true,
+          "game_time": 22.61117759719491
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 2,
+          "ordinal": 12,
+          "runtime_id": "e1f336524a94f49710514e9ae86577ae",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0012",
+          "ordinary_eligible": true,
+          "game_time": 25.146789997816086
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 2,
+          "ordinal": 13,
+          "runtime_id": "9a8bc022409cb49cd28a11955fdff7de",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0013",
+          "ordinary_eligible": true,
+          "game_time": 25.799224596470594
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 2,
+          "ordinal": 14,
+          "runtime_id": "7a90ae3247e83207cb579ab22675d1bd",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0014",
+          "ordinary_eligible": true,
+          "game_time": 26.44938449561596
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 2,
+          "ordinal": 15,
+          "runtime_id": "196ae4264b1e9407c204b287ac81621b",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0015",
+          "ordinary_eligible": true,
+          "game_time": 27.117095597088337
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 2,
+          "ordinal": 16,
+          "runtime_id": "1413107c4510336792b40d841688d35a",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0016",
+          "ordinary_eligible": true,
+          "game_time": 27.771212596446276
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 2,
+          "ordinal": 17,
+          "runtime_id": "b3c32cbc48ad286b0771c580b9b529bb",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0017",
+          "ordinary_eligible": true,
+          "game_time": 28.422774497419596
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 3,
+          "ordinal": 18,
+          "runtime_id": "71670e5348406fceda536d856c320a33",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0018",
+          "ordinary_eligible": true,
+          "game_time": 30.98077229782939
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 3,
+          "ordinal": 19,
+          "runtime_id": "11bd70ec4fffbe9c3ce3c699a9e6de90",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0019",
+          "ordinary_eligible": true,
+          "game_time": 31.638762798160315
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 3,
+          "ordinal": 20,
+          "runtime_id": "521a13b8477e765b40e50f9df40b3480",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0020",
+          "ordinary_eligible": true,
+          "game_time": 32.304273795336485
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 3,
+          "ordinal": 21,
+          "runtime_id": "2249d34d45e1a99f9ad145bcc91f4d8b",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0021",
+          "ordinary_eligible": true,
+          "game_time": 32.95706059783697
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 3,
+          "ordinal": 22,
+          "runtime_id": "540b175646268ffc0d35cdb06fd089d1",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0022",
+          "ordinary_eligible": true,
+          "game_time": 33.61009969562292
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 3,
+          "ordinal": 23,
+          "runtime_id": "099d0045478b88ea93e847b4d1bcd159",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0023",
+          "ordinary_eligible": true,
+          "game_time": 34.261606995016336
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 4,
+          "ordinal": 24,
+          "runtime_id": "3169b0e74ceeec5af375eb86c438546e",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0024",
+          "ordinary_eligible": true,
+          "game_time": 36.81118359789252
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 4,
+          "ordinal": 25,
+          "runtime_id": "86fa36e94f50e3feab4c76bc94b3fe2e",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0025",
+          "ordinary_eligible": true,
+          "game_time": 37.4659237973392
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 4,
+          "ordinal": 26,
+          "runtime_id": "496921894994162742e2b8a32349a88d",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0026",
+          "ordinary_eligible": true,
+          "game_time": 38.115977097302675
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 4,
+          "ordinal": 27,
+          "runtime_id": "756aa1724bd0276af940aa82f2a0e04f",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0027",
+          "ordinary_eligible": true,
+          "game_time": 38.78049819543958
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 4,
+          "ordinal": 28,
+          "runtime_id": "6ebde25644463bdf56af86a37a183f7a",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0028",
+          "ordinary_eligible": true,
+          "game_time": 39.432135097682476
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 4,
+          "ordinal": 29,
+          "runtime_id": "ce4cb57b411ccdaee4c5759cef5eb8f8",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0029",
+          "ordinary_eligible": true,
+          "game_time": 40.086584597826004
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 5,
+          "ordinal": 30,
+          "runtime_id": "1d2b0c1448fb2704960eb7a85a5ca387",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0030",
+          "ordinary_eligible": true,
+          "game_time": 42.63813969492912
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 5,
+          "ordinal": 31,
+          "runtime_id": "872c930d4c74f72cae9908b96fd6ce00",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0031",
+          "ordinary_eligible": true,
+          "game_time": 43.300985995680094
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 5,
+          "ordinal": 32,
+          "runtime_id": "41c0171b4bce483189fc5080e9922725",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0032",
+          "ordinary_eligible": true,
+          "game_time": 43.95383619517088
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 5,
+          "ordinal": 33,
+          "runtime_id": "5e00eb2c49fc134031468fad2db996ef",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0033",
+          "ordinary_eligible": true,
+          "game_time": 44.61883929744363
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 5,
+          "ordinal": 34,
+          "runtime_id": "b932ec37497195bb924adcad8682d058",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0034",
+          "ordinary_eligible": true,
+          "game_time": 45.27032579481602
+        },
+        {
+          "stage": "Bcourt",
+          "wave": 5,
+          "ordinal": 35,
+          "runtime_id": "751c78bc44e638187a5ffcb100cdf6e6",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0035",
+          "ordinary_eligible": true,
+          "game_time": 45.9389194957912
+        }
+      ],
+      "waves_observed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "loot_before": 10,
+      "misses_before": 2,
+      "planned_candidates": 36,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 45.95943249762058,
+      "actual_defeats": 36,
+      "loot_processed": 46,
+      "misses_after": 2,
+      "ordinary_eligible_defeats": 36
+    },
+    {
+      "stage": "Bexit",
+      "entered_game_time": 45.97609919682145,
+      "defeats": [
+        {
+          "stage": "Bexit",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "ef0620c441daed22bb9920950db6df21",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0000",
+          "ordinary_eligible": true,
+          "game_time": 48.065144795924425
+        },
+        {
+          "stage": "Bexit",
+          "wave": 0,
+          "ordinal": 1,
+          "runtime_id": "20e347e042dfecd04ac08e8b26f7220b",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0001",
+          "ordinary_eligible": true,
+          "game_time": 48.72930059581995
+        },
+        {
+          "stage": "Bexit",
+          "wave": 0,
+          "ordinal": 2,
+          "runtime_id": "0b8c61144b07d7563edc388ca8d71029",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0002",
+          "ordinary_eligible": true,
+          "game_time": 49.39515349641442
+        },
+        {
+          "stage": "Bexit",
+          "wave": 0,
+          "ordinal": 3,
+          "runtime_id": "ddd68bd8471beca2c6387899b7d63e99",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0003",
+          "ordinary_eligible": true,
+          "game_time": 50.06212079524994
+        },
+        {
+          "stage": "Bexit",
+          "wave": 0,
+          "ordinal": 4,
+          "runtime_id": "4226d44749fa6a67bb7a1984831b0ecd",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0004",
+          "ordinary_eligible": true,
+          "game_time": 50.71986419707537
+        },
+        {
+          "stage": "Bexit",
+          "wave": 0,
+          "ordinal": 5,
+          "runtime_id": "eba15f4d4aca198d1f8787aea28cf64c",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0005",
+          "ordinary_eligible": true,
+          "game_time": 51.378914296627045
+        }
+      ],
+      "waves_observed": [
+        0
+      ],
+      "loot_before": 46,
+      "misses_before": 2,
+      "planned_candidates": 6,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 51.398046497255564,
+      "actual_defeats": 6,
+      "loot_processed": 52,
+      "misses_after": 0,
+      "ordinary_eligible_defeats": 6
+    },
+    {
+      "stage": "R02",
+      "entered_game_time": 51.41471319645643,
+      "defeats": [
+        {
+          "stage": "R02",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "6f8383e449fee3ee12863ebe713bff0d",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R02.Wave.01.Spawn.0000",
+          "ordinary_eligible": true,
+          "game_time": 53.563013695180416
+        },
+        {
+          "stage": "R02",
+          "wave": 0,
+          "ordinal": 1,
+          "runtime_id": "d44cd62a4b8cd159c93c32be5ea5ab02",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R02.Wave.01.Spawn.0001",
+          "ordinary_eligible": true,
+          "game_time": 54.226822696626186
+        }
+      ],
+      "waves_observed": [
+        0
+      ],
+      "loot_before": 52,
+      "misses_before": 0,
+      "planned_candidates": 2,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 54.243491396307945,
+      "actual_defeats": 2,
+      "loot_processed": 54,
+      "misses_after": 2,
+      "ordinary_eligible_defeats": 2
+    },
+    {
+      "stage": "R03",
+      "entered_game_time": 54.26016139611602,
+      "defeats": [
+        {
+          "stage": "R03",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "49514c2949a9c622e06d29a2b1fd0b7c",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R03.Wave.01.Spawn.0000",
+          "ordinary_eligible": true,
+          "game_time": 56.37726489827037
+        },
+        {
+          "stage": "R03",
+          "wave": 0,
+          "ordinal": 1,
+          "runtime_id": "fcd2b8f04decfc730a3a0b9efea839a5",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R03.Wave.01.Spawn.0001",
+          "ordinary_eligible": true,
+          "game_time": 57.02985589578748
+        }
+      ],
+      "waves_observed": [
+        0
+      ],
+      "loot_before": 54,
+      "misses_before": 2,
+      "planned_candidates": 2,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 57.04733429476619,
+      "actual_defeats": 2,
+      "loot_processed": 56,
+      "misses_after": 0,
+      "ordinary_eligible_defeats": 2
+    },
+    {
+      "stage": "Cestablish",
+      "entered_game_time": 57.06400099769235,
+      "defeats": [
+        {
+          "stage": "Cestablish",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "c643498840737227a41bac8e8b83755b",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0000",
+          "ordinary_eligible": true,
+          "game_time": 59.07590579614043
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 0,
+          "ordinal": 1,
+          "runtime_id": "b994dacc4194fc8e747349ae98228b65",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0001",
+          "ordinary_eligible": true,
+          "game_time": 63.08144139498472
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 0,
+          "ordinal": 2,
+          "runtime_id": "77697a7f40d9575da3ae00ab7e1f356d",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0002",
+          "ordinary_eligible": true,
+          "game_time": 67.09653439745307
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 0,
+          "ordinal": 3,
+          "runtime_id": "0cc8e0de4e92df1c71bfba8691e81b12",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0003",
+          "ordinary_eligible": true,
+          "game_time": 71.09878999739885
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 0,
+          "ordinal": 4,
+          "runtime_id": "ea90d34c468702d256419f95f34581e5",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0004",
+          "ordinary_eligible": true,
+          "game_time": 75.12488059699535
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 0,
+          "ordinal": 5,
+          "runtime_id": "3665870146aa7760155c0a8696f55848",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0005",
+          "ordinary_eligible": true,
+          "game_time": 79.14094549790025
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 0,
+          "ordinal": 6,
+          "runtime_id": "e9aca90c44fb05575c015b9c83fc98d4",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0006",
+          "ordinary_eligible": true,
+          "game_time": 83.15288369730115
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 0,
+          "ordinal": 7,
+          "runtime_id": "a08eb7b0430b2e59dd2a0287637dd226",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0007",
+          "ordinary_eligible": true,
+          "game_time": 87.1693898960948
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 0,
+          "ordinal": 8,
+          "runtime_id": "fff1defc4cdce40612c938ac0165a268",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0008",
+          "ordinary_eligible": true,
+          "game_time": 91.1789397969842
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 0,
+          "ordinal": 9,
+          "runtime_id": "38ed416a4f0394c0270b4e89f6cb9a41",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0009",
+          "ordinary_eligible": true,
+          "game_time": 95.18101349845529
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 1,
+          "ordinal": 10,
+          "runtime_id": "36e18fc442a34645255db086517e8732",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0010",
+          "ordinary_eligible": true,
+          "game_time": 97.72968209534883
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 1,
+          "ordinal": 11,
+          "runtime_id": "1e5c29554e410db76b21bca7cef9eadb",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0011",
+          "ordinary_eligible": true,
+          "game_time": 101.73036399483681
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 1,
+          "ordinal": 12,
+          "runtime_id": "90e2e7d04ce8682abc8c82a038a59275",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0012",
+          "ordinary_eligible": true,
+          "game_time": 105.73197989538312
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 1,
+          "ordinal": 13,
+          "runtime_id": "a7622ef547a54f8fd5350f95c8f2f742",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0013",
+          "ordinary_eligible": true,
+          "game_time": 109.73271199688315
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 1,
+          "ordinal": 14,
+          "runtime_id": "8a61f4124cabefcadc4dd2ba885b471c",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0014",
+          "ordinary_eligible": true,
+          "game_time": 113.73618779703975
+        },
+        {
+          "stage": "Cestablish",
+          "wave": 1,
+          "ordinal": 15,
+          "runtime_id": "6be0551d4274bcacd63de5be5d502736",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0015",
+          "ordinary_eligible": true,
+          "game_time": 117.74658889696002
+        }
+      ],
+      "waves_observed": [
+        0,
+        1
+      ],
+      "loot_before": 56,
+      "misses_before": 0,
+      "planned_candidates": 20,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 119.10397289693356,
+      "actual_defeats": 16,
+      "loot_processed": 72,
+      "misses_after": 1,
+      "ordinary_eligible_defeats": 16,
+      "ritual_progress_at_completion": 25.0
+    },
+    {
+      "stage": "Cinterrupt",
+      "entered_game_time": 119.12063969671726,
+      "defeats": [
+        {
+          "stage": "Cinterrupt",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "458b865842ac78e1eba97cbbc27515d2",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0000",
+          "ordinary_eligible": true,
+          "game_time": 121.18290549516678
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 0,
+          "ordinal": 1,
+          "runtime_id": "53df803848c7fb816cdb3caef293a900",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0001",
+          "ordinary_eligible": true,
+          "game_time": 125.191022798419
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 0,
+          "ordinal": 2,
+          "runtime_id": "4ba626ac4c2bd4226238d0bd2e2dea1f",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0002",
+          "ordinary_eligible": true,
+          "game_time": 129.1949043981731
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 0,
+          "ordinal": 3,
+          "runtime_id": "0ca6f5e644e1001ca32204be9bf4e756",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0003",
+          "ordinary_eligible": true,
+          "game_time": 133.21308539807796
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 0,
+          "ordinal": 4,
+          "runtime_id": "67e171bc47960279ff5166b69abedb0d",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0004",
+          "ordinary_eligible": true,
+          "game_time": 137.21325459703803
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 0,
+          "ordinal": 5,
+          "runtime_id": "eb6ed07d4a7f4ce929003d8feec392d0",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0005",
+          "ordinary_eligible": true,
+          "game_time": 141.23708589747548
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 0,
+          "ordinal": 6,
+          "runtime_id": "7559c5c44fe4779fc81030a21ae09a1e",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0006",
+          "ordinary_eligible": true,
+          "game_time": 145.2653942964971
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 0,
+          "ordinal": 7,
+          "runtime_id": "79c3bc29479242688c88c9ac3202e3e8",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0007",
+          "ordinary_eligible": true,
+          "game_time": 149.27910489588976
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 0,
+          "ordinal": 8,
+          "runtime_id": "ae56c7de455419a14e3d109a79579281",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0008",
+          "ordinary_eligible": true,
+          "game_time": 153.2893464975059
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 0,
+          "ordinal": 9,
+          "runtime_id": "928277f1484a9dbf50eb7c9fe96f5acd",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0009",
+          "ordinary_eligible": true,
+          "game_time": 157.2917299978435
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 1,
+          "ordinal": 10,
+          "runtime_id": "91e98b704eaccc2cf6dd9dbf800cf6ad",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0010",
+          "ordinary_eligible": true,
+          "game_time": 159.85131679475307
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 1,
+          "ordinal": 11,
+          "runtime_id": "25c3f2bc45c2da9991652bbfbec09157",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0011",
+          "ordinary_eligible": true,
+          "game_time": 163.86718049645424
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 1,
+          "ordinal": 12,
+          "runtime_id": "6771f8d64d51faefa67de19614a3db59",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0012",
+          "ordinary_eligible": true,
+          "game_time": 167.86918339505792
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 1,
+          "ordinal": 13,
+          "runtime_id": "3756839d44f7cfaf91cb728ff9da0ca4",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0013",
+          "ordinary_eligible": true,
+          "game_time": 171.87547179684043
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 1,
+          "ordinal": 14,
+          "runtime_id": "d81a6a7341ceb22d80beea9caf529385",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0014",
+          "ordinary_eligible": true,
+          "game_time": 175.89715769514441
+        },
+        {
+          "stage": "Cinterrupt",
+          "wave": 1,
+          "ordinal": 15,
+          "runtime_id": "a7a6b9544d23f7f3aa3b73a59b7e3f8c",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0015",
+          "ordinary_eligible": true,
+          "game_time": 179.9081583954394
+        }
+      ],
+      "waves_observed": [
+        0,
+        1
+      ],
+      "loot_before": 72,
+      "misses_before": 1,
+      "planned_candidates": 20,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 181.1947643980384,
+      "actual_defeats": 16,
+      "loot_processed": 88,
+      "misses_after": 3,
+      "ordinary_eligible_defeats": 16,
+      "ritual_progress_at_completion": 50.0
+    },
+    {
+      "stage": "Csiege",
+      "entered_game_time": 181.21144109591842,
+      "defeats": [
+        {
+          "stage": "Csiege",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "a1104e4e4ad2d5de83e79b99a2336d12",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0000",
+          "ordinary_eligible": true,
+          "game_time": 183.37820969522
+        },
+        {
+          "stage": "Csiege",
+          "wave": 0,
+          "ordinal": 1,
+          "runtime_id": "6c851ff1483075c6ea3eac940e9e203e",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0001",
+          "ordinary_eligible": true,
+          "game_time": 187.384383097291
+        },
+        {
+          "stage": "Csiege",
+          "wave": 0,
+          "ordinal": 2,
+          "runtime_id": "eb1856a741a470d42d5cbeb2eb475e4d",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0002",
+          "ordinary_eligible": true,
+          "game_time": 191.41257769614458
+        },
+        {
+          "stage": "Csiege",
+          "wave": 0,
+          "ordinal": 3,
+          "runtime_id": "d72515c940b51495e0ef9abbf6f0c742",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0003",
+          "ordinary_eligible": true,
+          "game_time": 195.42909379675984
+        },
+        {
+          "stage": "Csiege",
+          "wave": 0,
+          "ordinal": 4,
+          "runtime_id": "536a760e416122fb646e2988fc7d0dc9",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0004",
+          "ordinary_eligible": true,
+          "game_time": 199.44554959610105
+        },
+        {
+          "stage": "Csiege",
+          "wave": 0,
+          "ordinal": 5,
+          "runtime_id": "965bfade4e1cff7b04b663a7638e78bd",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0005",
+          "ordinary_eligible": true,
+          "game_time": 203.44749769568443
+        },
+        {
+          "stage": "Csiege",
+          "wave": 0,
+          "ordinal": 6,
+          "runtime_id": "a0cc957e46418591fe55bfa996188271",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0006",
+          "ordinary_eligible": true,
+          "game_time": 207.46389519795775
+        },
+        {
+          "stage": "Csiege",
+          "wave": 0,
+          "ordinal": 7,
+          "runtime_id": "1c2b51014c5f0d57586beea545b60836",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0007",
+          "ordinary_eligible": true,
+          "game_time": 211.4770935960114
+        },
+        {
+          "stage": "Csiege",
+          "wave": 0,
+          "ordinal": 8,
+          "runtime_id": "ecf9d2164eab8428cb683d8af9105f62",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0008",
+          "ordinary_eligible": true,
+          "game_time": 215.4839845970273
+        },
+        {
+          "stage": "Csiege",
+          "wave": 0,
+          "ordinal": 9,
+          "runtime_id": "d38b59c748c4b1146e5ae38b49eb4b96",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0009",
+          "ordinary_eligible": true,
+          "game_time": 219.48783089593053
+        },
+        {
+          "stage": "Csiege",
+          "wave": 1,
+          "ordinal": 10,
+          "runtime_id": "44596f054147091718f387b1d3e80db9",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0010",
+          "ordinary_eligible": true,
+          "game_time": 222.0327629968524
+        },
+        {
+          "stage": "Csiege",
+          "wave": 1,
+          "ordinal": 11,
+          "runtime_id": "3715b3cc4cfb88152d44c3843cc3e84a",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0011",
+          "ordinary_eligible": true,
+          "game_time": 226.06123199686408
+        },
+        {
+          "stage": "Csiege",
+          "wave": 1,
+          "ordinal": 12,
+          "runtime_id": "14a6bc9a413f928064d168a294b6f5cb",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0012",
+          "ordinary_eligible": true,
+          "game_time": 230.08235609531403
+        },
+        {
+          "stage": "Csiege",
+          "wave": 1,
+          "ordinal": 13,
+          "runtime_id": "1bb4df924ce036e0adc24d9271d945fe",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0013",
+          "ordinary_eligible": true,
+          "game_time": 234.09040349721909
+        },
+        {
+          "stage": "Csiege",
+          "wave": 1,
+          "ordinal": 14,
+          "runtime_id": "404d5f3f4ab460b2b7bddeb2f5c8ab7a",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0014",
+          "ordinary_eligible": true,
+          "game_time": 238.0957430973649
+        },
+        {
+          "stage": "Csiege",
+          "wave": 1,
+          "ordinal": 15,
+          "runtime_id": "58b8022c4cf6d7018776b19982051fe7",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0015",
+          "ordinary_eligible": true,
+          "game_time": 242.1107583977282
+        }
+      ],
+      "waves_observed": [
+        0,
+        1
+      ],
+      "loot_before": 88,
+      "misses_before": 3,
+      "planned_candidates": 20,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 243.3986405953765,
+      "actual_defeats": 16,
+      "loot_processed": 104,
+      "misses_after": 3,
+      "ordinary_eligible_defeats": 16,
+      "ritual_progress_at_completion": 75.0
+    },
+    {
+      "stage": "Cunseal",
+      "entered_game_time": 243.41811019554734,
+      "defeats": [
+        {
+          "stage": "Cunseal",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "47fed5e543aaab28619caea386e6c171",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0000",
+          "ordinary_eligible": true,
+          "game_time": 245.47721519693732
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 0,
+          "ordinal": 1,
+          "runtime_id": "9f7c0228481606f29af2d8aae5a3dcc2",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0001",
+          "ordinary_eligible": true,
+          "game_time": 249.493039496243
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 0,
+          "ordinal": 2,
+          "runtime_id": "90e518fd481f9fcc6e517aa3b1c582e4",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0002",
+          "ordinary_eligible": true,
+          "game_time": 253.50072929635644
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 0,
+          "ordinal": 3,
+          "runtime_id": "1bf71c0942d8a941e40f50bfc2934a50",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0003",
+          "ordinary_eligible": true,
+          "game_time": 257.50917929783463
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 0,
+          "ordinal": 4,
+          "runtime_id": "c7dea6ca484ae8a9336b9e8442208119",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0004",
+          "ordinary_eligible": true,
+          "game_time": 261.5113986954093
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 0,
+          "ordinal": 5,
+          "runtime_id": "5143df184ff7f998b5f72983705693ed",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0005",
+          "ordinary_eligible": true,
+          "game_time": 265.5359688960016
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 0,
+          "ordinal": 6,
+          "runtime_id": "ea5ef0b74442ca953a94beae5330d038",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0006",
+          "ordinary_eligible": true,
+          "game_time": 269.54258009791374
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 0,
+          "ordinal": 7,
+          "runtime_id": "af3a6d93464c66603f178289d9812a86",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0007",
+          "ordinary_eligible": true,
+          "game_time": 273.5600368976593
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 0,
+          "ordinal": 8,
+          "runtime_id": "ec5af1804d107bf419c5108f6fbf105e",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0008",
+          "ordinary_eligible": true,
+          "game_time": 277.57021689787507
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 0,
+          "ordinal": 9,
+          "runtime_id": "869dc92c4c2766a60bb14d8177b7a2b3",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0009",
+          "ordinary_eligible": true,
+          "game_time": 281.5714122951031
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 1,
+          "ordinal": 10,
+          "runtime_id": "ba0d441342eea666b75823a6602ce15e",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0010",
+          "ordinary_eligible": true,
+          "game_time": 284.1315136961639
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 1,
+          "ordinal": 11,
+          "runtime_id": "ef6a592c498a95ed2f04fbbb07ea6646",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0011",
+          "ordinary_eligible": true,
+          "game_time": 288.1315836980939
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 1,
+          "ordinal": 12,
+          "runtime_id": "f02f19d94ffdc83101f587b4967a2714",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0012",
+          "ordinary_eligible": true,
+          "game_time": 292.15987629815936
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 1,
+          "ordinal": 13,
+          "runtime_id": "994b4e9d4976eb8c8c32ad84978e70aa",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0013",
+          "ordinary_eligible": true,
+          "game_time": 296.1623826958239
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 1,
+          "ordinal": 14,
+          "runtime_id": "c093bc154f66419d1af088a38a2e605c",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0014",
+          "ordinary_eligible": true,
+          "game_time": 300.18645079806447
+        },
+        {
+          "stage": "Cunseal",
+          "wave": 1,
+          "ordinal": 15,
+          "runtime_id": "d9c7d86b4f4468268ca44a8181bb38c5",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0015",
+          "ordinary_eligible": true,
+          "game_time": 304.19422079622746
+        }
+      ],
+      "waves_observed": [
+        0,
+        1
+      ],
+      "loot_before": 104,
+      "misses_before": 3,
+      "planned_candidates": 20,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 305.4979441948235,
+      "actual_defeats": 16,
+      "loot_processed": 120,
+      "misses_after": 4,
+      "ordinary_eligible_defeats": 16,
+      "ritual_progress_at_completion": 100.0
+    },
+    {
+      "stage": "GM01",
+      "entered_game_time": 305.51461519673467,
+      "defeats": [
+        {
+          "stage": "GM01",
+          "wave": 0,
+          "ordinal": 0,
+          "runtime_id": "3d470b3e42d2bceeeb0d6aaa4b51eb15",
+          "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.GM01.Wave.01.Spawn.0000",
+          "ordinary_eligible": false,
+          "game_time": 307.6644285954535
+        }
+      ],
+      "waves_observed": [
+        0
+      ],
+      "loot_before": 120,
+      "misses_before": 4,
+      "planned_candidates": 1,
+      "max_alive_observed": 1,
+      "failed_spawn_attempts": 0,
+      "completed_game_time": 307.6926181949675,
+      "actual_defeats": 1,
+      "loot_processed": 120,
+      "misses_after": 4,
+      "ordinary_eligible_defeats": 0
+    },
+    {
+      "stage": "GM02",
+      "entered_game_time": 307.7110577970743,
+      "defeats": [],
+      "waves_observed": [],
+      "loot_before": 120,
+      "misses_before": 4,
+      "planned_candidates": 0,
+      "max_alive_observed": 0,
+      "failed_spawn_attempts": 0
+    }
+  ],
+  "owned_defeats": [
+    {
+      "stage": "Aoutside",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "5461f35246e2c945cc52acb4520ea990",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Aoutside.Wave.01.Spawn.0000",
+      "ordinary_eligible": true,
+      "game_time": 2.6680878959596157
+    },
+    {
+      "stage": "Aoutside",
+      "wave": 0,
+      "ordinal": 1,
+      "runtime_id": "6614871e47522e4dd7d69eb499fe3739",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Aoutside.Wave.01.Spawn.0001",
+      "ordinary_eligible": true,
+      "game_time": 3.3316647969186306
+    },
+    {
+      "stage": "Ainside",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "e32896c04261677c2346eb9637656c57",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0000",
+      "ordinary_eligible": true,
+      "game_time": 5.3870648965239525
+    },
+    {
+      "stage": "Ainside",
+      "wave": 0,
+      "ordinal": 1,
+      "runtime_id": "75a1ba7a488327cf38d0288c94c62ffd",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0001",
+      "ordinary_eligible": true,
+      "game_time": 6.065060097724199
+    },
+    {
+      "stage": "Ainside",
+      "wave": 0,
+      "ordinal": 2,
+      "runtime_id": "7504a3994a6e9097f85eacb0aff27f62",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0002",
+      "ordinary_eligible": true,
+      "game_time": 6.7324463948607445
+    },
+    {
+      "stage": "Ainside",
+      "wave": 0,
+      "ordinal": 3,
+      "runtime_id": "9467154e4c803292ae53369f6b4fa33f",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0003",
+      "ordinary_eligible": true,
+      "game_time": 7.383845794945955
+    },
+    {
+      "stage": "Ainside",
+      "wave": 0,
+      "ordinal": 4,
+      "runtime_id": "aa675f374670d5eb08b2a1a60dda97b4",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0004",
+      "ordinary_eligible": true,
+      "game_time": 8.052915096282959
+    },
+    {
+      "stage": "Ainside",
+      "wave": 0,
+      "ordinal": 5,
+      "runtime_id": "ee9606904a13fc688d6aaeb2408eb56f",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0005",
+      "ordinary_eligible": true,
+      "game_time": 8.717489495873451
+    },
+    {
+      "stage": "R01",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "2fb62a59401d86c69648cb940e8fad4c",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R01.Wave.01.Spawn.0000",
+      "ordinary_eligible": true,
+      "game_time": 10.78206979483366
+    },
+    {
+      "stage": "R01",
+      "wave": 0,
+      "ordinal": 1,
+      "runtime_id": "f3a6317546554ba19415dca10b60b50c",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R01.Wave.01.Spawn.0001",
+      "ordinary_eligible": true,
+      "game_time": 11.433022197335958
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "be48aa664cd3aa47d7723ba4a55c38fb",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0000",
+      "ordinary_eligible": true,
+      "game_time": 13.474778596311808
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 0,
+      "ordinal": 1,
+      "runtime_id": "520569ec48e76b581e0685ba8617e3de",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0001",
+      "ordinary_eligible": true,
+      "game_time": 14.125841096043587
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 0,
+      "ordinal": 2,
+      "runtime_id": "4476543849bd1512166755885034953e",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0002",
+      "ordinary_eligible": true,
+      "game_time": 14.779105298221111
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 0,
+      "ordinal": 3,
+      "runtime_id": "dabcda1843e809b69f518aa7f82590d7",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0003",
+      "ordinary_eligible": true,
+      "game_time": 15.434901997447014
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 0,
+      "ordinal": 4,
+      "runtime_id": "78710846492407dae05bc3ad04062cfd",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0004",
+      "ordinary_eligible": true,
+      "game_time": 16.100115798413754
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 0,
+      "ordinal": 5,
+      "runtime_id": "70ff43cb40e82b42609ee7bdb1866f0d",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0005",
+      "ordinary_eligible": true,
+      "game_time": 16.763852898031473
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 1,
+      "ordinal": 6,
+      "runtime_id": "afd038bf45527634bbbdfa91a3b8df4b",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0006",
+      "ordinary_eligible": true,
+      "game_time": 19.306214097887278
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 1,
+      "ordinal": 7,
+      "runtime_id": "a1cc03a8426aec733b0b02bac51273d1",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0007",
+      "ordinary_eligible": true,
+      "game_time": 19.95935459807515
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 1,
+      "ordinal": 8,
+      "runtime_id": "f6e8d93446768a49969224bb88474763",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0008",
+      "ordinary_eligible": true,
+      "game_time": 20.625089798122644
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 1,
+      "ordinal": 9,
+      "runtime_id": "1b1e12144ed08e56c81f4286f9f10f53",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0009",
+      "ordinary_eligible": true,
+      "game_time": 21.279685497283936
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 1,
+      "ordinal": 10,
+      "runtime_id": "d7ac6ac24ea0ce7b95af169a77afae1e",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0010",
+      "ordinary_eligible": true,
+      "game_time": 21.947000097483397
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 1,
+      "ordinal": 11,
+      "runtime_id": "ba240cea43e4988b5895d0af22c22580",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0011",
+      "ordinary_eligible": true,
+      "game_time": 22.61117759719491
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 2,
+      "ordinal": 12,
+      "runtime_id": "e1f336524a94f49710514e9ae86577ae",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0012",
+      "ordinary_eligible": true,
+      "game_time": 25.146789997816086
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 2,
+      "ordinal": 13,
+      "runtime_id": "9a8bc022409cb49cd28a11955fdff7de",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0013",
+      "ordinary_eligible": true,
+      "game_time": 25.799224596470594
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 2,
+      "ordinal": 14,
+      "runtime_id": "7a90ae3247e83207cb579ab22675d1bd",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0014",
+      "ordinary_eligible": true,
+      "game_time": 26.44938449561596
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 2,
+      "ordinal": 15,
+      "runtime_id": "196ae4264b1e9407c204b287ac81621b",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0015",
+      "ordinary_eligible": true,
+      "game_time": 27.117095597088337
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 2,
+      "ordinal": 16,
+      "runtime_id": "1413107c4510336792b40d841688d35a",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0016",
+      "ordinary_eligible": true,
+      "game_time": 27.771212596446276
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 2,
+      "ordinal": 17,
+      "runtime_id": "b3c32cbc48ad286b0771c580b9b529bb",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0017",
+      "ordinary_eligible": true,
+      "game_time": 28.422774497419596
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 3,
+      "ordinal": 18,
+      "runtime_id": "71670e5348406fceda536d856c320a33",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0018",
+      "ordinary_eligible": true,
+      "game_time": 30.98077229782939
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 3,
+      "ordinal": 19,
+      "runtime_id": "11bd70ec4fffbe9c3ce3c699a9e6de90",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0019",
+      "ordinary_eligible": true,
+      "game_time": 31.638762798160315
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 3,
+      "ordinal": 20,
+      "runtime_id": "521a13b8477e765b40e50f9df40b3480",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0020",
+      "ordinary_eligible": true,
+      "game_time": 32.304273795336485
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 3,
+      "ordinal": 21,
+      "runtime_id": "2249d34d45e1a99f9ad145bcc91f4d8b",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0021",
+      "ordinary_eligible": true,
+      "game_time": 32.95706059783697
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 3,
+      "ordinal": 22,
+      "runtime_id": "540b175646268ffc0d35cdb06fd089d1",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0022",
+      "ordinary_eligible": true,
+      "game_time": 33.61009969562292
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 3,
+      "ordinal": 23,
+      "runtime_id": "099d0045478b88ea93e847b4d1bcd159",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0023",
+      "ordinary_eligible": true,
+      "game_time": 34.261606995016336
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 4,
+      "ordinal": 24,
+      "runtime_id": "3169b0e74ceeec5af375eb86c438546e",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0024",
+      "ordinary_eligible": true,
+      "game_time": 36.81118359789252
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 4,
+      "ordinal": 25,
+      "runtime_id": "86fa36e94f50e3feab4c76bc94b3fe2e",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0025",
+      "ordinary_eligible": true,
+      "game_time": 37.4659237973392
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 4,
+      "ordinal": 26,
+      "runtime_id": "496921894994162742e2b8a32349a88d",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0026",
+      "ordinary_eligible": true,
+      "game_time": 38.115977097302675
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 4,
+      "ordinal": 27,
+      "runtime_id": "756aa1724bd0276af940aa82f2a0e04f",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0027",
+      "ordinary_eligible": true,
+      "game_time": 38.78049819543958
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 4,
+      "ordinal": 28,
+      "runtime_id": "6ebde25644463bdf56af86a37a183f7a",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0028",
+      "ordinary_eligible": true,
+      "game_time": 39.432135097682476
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 4,
+      "ordinal": 29,
+      "runtime_id": "ce4cb57b411ccdaee4c5759cef5eb8f8",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0029",
+      "ordinary_eligible": true,
+      "game_time": 40.086584597826004
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 5,
+      "ordinal": 30,
+      "runtime_id": "1d2b0c1448fb2704960eb7a85a5ca387",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0030",
+      "ordinary_eligible": true,
+      "game_time": 42.63813969492912
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 5,
+      "ordinal": 31,
+      "runtime_id": "872c930d4c74f72cae9908b96fd6ce00",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0031",
+      "ordinary_eligible": true,
+      "game_time": 43.300985995680094
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 5,
+      "ordinal": 32,
+      "runtime_id": "41c0171b4bce483189fc5080e9922725",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0032",
+      "ordinary_eligible": true,
+      "game_time": 43.95383619517088
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 5,
+      "ordinal": 33,
+      "runtime_id": "5e00eb2c49fc134031468fad2db996ef",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0033",
+      "ordinary_eligible": true,
+      "game_time": 44.61883929744363
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 5,
+      "ordinal": 34,
+      "runtime_id": "b932ec37497195bb924adcad8682d058",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0034",
+      "ordinary_eligible": true,
+      "game_time": 45.27032579481602
+    },
+    {
+      "stage": "Bcourt",
+      "wave": 5,
+      "ordinal": 35,
+      "runtime_id": "751c78bc44e638187a5ffcb100cdf6e6",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0035",
+      "ordinary_eligible": true,
+      "game_time": 45.9389194957912
+    },
+    {
+      "stage": "Bexit",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "ef0620c441daed22bb9920950db6df21",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0000",
+      "ordinary_eligible": true,
+      "game_time": 48.065144795924425
+    },
+    {
+      "stage": "Bexit",
+      "wave": 0,
+      "ordinal": 1,
+      "runtime_id": "20e347e042dfecd04ac08e8b26f7220b",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0001",
+      "ordinary_eligible": true,
+      "game_time": 48.72930059581995
+    },
+    {
+      "stage": "Bexit",
+      "wave": 0,
+      "ordinal": 2,
+      "runtime_id": "0b8c61144b07d7563edc388ca8d71029",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0002",
+      "ordinary_eligible": true,
+      "game_time": 49.39515349641442
+    },
+    {
+      "stage": "Bexit",
+      "wave": 0,
+      "ordinal": 3,
+      "runtime_id": "ddd68bd8471beca2c6387899b7d63e99",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0003",
+      "ordinary_eligible": true,
+      "game_time": 50.06212079524994
+    },
+    {
+      "stage": "Bexit",
+      "wave": 0,
+      "ordinal": 4,
+      "runtime_id": "4226d44749fa6a67bb7a1984831b0ecd",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0004",
+      "ordinary_eligible": true,
+      "game_time": 50.71986419707537
+    },
+    {
+      "stage": "Bexit",
+      "wave": 0,
+      "ordinal": 5,
+      "runtime_id": "eba15f4d4aca198d1f8787aea28cf64c",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0005",
+      "ordinary_eligible": true,
+      "game_time": 51.378914296627045
+    },
+    {
+      "stage": "R02",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "6f8383e449fee3ee12863ebe713bff0d",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R02.Wave.01.Spawn.0000",
+      "ordinary_eligible": true,
+      "game_time": 53.563013695180416
+    },
+    {
+      "stage": "R02",
+      "wave": 0,
+      "ordinal": 1,
+      "runtime_id": "d44cd62a4b8cd159c93c32be5ea5ab02",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R02.Wave.01.Spawn.0001",
+      "ordinary_eligible": true,
+      "game_time": 54.226822696626186
+    },
+    {
+      "stage": "R03",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "49514c2949a9c622e06d29a2b1fd0b7c",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R03.Wave.01.Spawn.0000",
+      "ordinary_eligible": true,
+      "game_time": 56.37726489827037
+    },
+    {
+      "stage": "R03",
+      "wave": 0,
+      "ordinal": 1,
+      "runtime_id": "fcd2b8f04decfc730a3a0b9efea839a5",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R03.Wave.01.Spawn.0001",
+      "ordinary_eligible": true,
+      "game_time": 57.02985589578748
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "c643498840737227a41bac8e8b83755b",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0000",
+      "ordinary_eligible": true,
+      "game_time": 59.07590579614043
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 0,
+      "ordinal": 1,
+      "runtime_id": "b994dacc4194fc8e747349ae98228b65",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0001",
+      "ordinary_eligible": true,
+      "game_time": 63.08144139498472
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 0,
+      "ordinal": 2,
+      "runtime_id": "77697a7f40d9575da3ae00ab7e1f356d",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0002",
+      "ordinary_eligible": true,
+      "game_time": 67.09653439745307
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 0,
+      "ordinal": 3,
+      "runtime_id": "0cc8e0de4e92df1c71bfba8691e81b12",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0003",
+      "ordinary_eligible": true,
+      "game_time": 71.09878999739885
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 0,
+      "ordinal": 4,
+      "runtime_id": "ea90d34c468702d256419f95f34581e5",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0004",
+      "ordinary_eligible": true,
+      "game_time": 75.12488059699535
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 0,
+      "ordinal": 5,
+      "runtime_id": "3665870146aa7760155c0a8696f55848",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0005",
+      "ordinary_eligible": true,
+      "game_time": 79.14094549790025
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 0,
+      "ordinal": 6,
+      "runtime_id": "e9aca90c44fb05575c015b9c83fc98d4",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0006",
+      "ordinary_eligible": true,
+      "game_time": 83.15288369730115
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 0,
+      "ordinal": 7,
+      "runtime_id": "a08eb7b0430b2e59dd2a0287637dd226",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0007",
+      "ordinary_eligible": true,
+      "game_time": 87.1693898960948
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 0,
+      "ordinal": 8,
+      "runtime_id": "fff1defc4cdce40612c938ac0165a268",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0008",
+      "ordinary_eligible": true,
+      "game_time": 91.1789397969842
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 0,
+      "ordinal": 9,
+      "runtime_id": "38ed416a4f0394c0270b4e89f6cb9a41",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0009",
+      "ordinary_eligible": true,
+      "game_time": 95.18101349845529
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 1,
+      "ordinal": 10,
+      "runtime_id": "36e18fc442a34645255db086517e8732",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0010",
+      "ordinary_eligible": true,
+      "game_time": 97.72968209534883
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 1,
+      "ordinal": 11,
+      "runtime_id": "1e5c29554e410db76b21bca7cef9eadb",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0011",
+      "ordinary_eligible": true,
+      "game_time": 101.73036399483681
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 1,
+      "ordinal": 12,
+      "runtime_id": "90e2e7d04ce8682abc8c82a038a59275",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0012",
+      "ordinary_eligible": true,
+      "game_time": 105.73197989538312
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 1,
+      "ordinal": 13,
+      "runtime_id": "a7622ef547a54f8fd5350f95c8f2f742",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0013",
+      "ordinary_eligible": true,
+      "game_time": 109.73271199688315
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 1,
+      "ordinal": 14,
+      "runtime_id": "8a61f4124cabefcadc4dd2ba885b471c",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0014",
+      "ordinary_eligible": true,
+      "game_time": 113.73618779703975
+    },
+    {
+      "stage": "Cestablish",
+      "wave": 1,
+      "ordinal": 15,
+      "runtime_id": "6be0551d4274bcacd63de5be5d502736",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0015",
+      "ordinary_eligible": true,
+      "game_time": 117.74658889696002
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "458b865842ac78e1eba97cbbc27515d2",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0000",
+      "ordinary_eligible": true,
+      "game_time": 121.18290549516678
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 0,
+      "ordinal": 1,
+      "runtime_id": "53df803848c7fb816cdb3caef293a900",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0001",
+      "ordinary_eligible": true,
+      "game_time": 125.191022798419
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 0,
+      "ordinal": 2,
+      "runtime_id": "4ba626ac4c2bd4226238d0bd2e2dea1f",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0002",
+      "ordinary_eligible": true,
+      "game_time": 129.1949043981731
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 0,
+      "ordinal": 3,
+      "runtime_id": "0ca6f5e644e1001ca32204be9bf4e756",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0003",
+      "ordinary_eligible": true,
+      "game_time": 133.21308539807796
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 0,
+      "ordinal": 4,
+      "runtime_id": "67e171bc47960279ff5166b69abedb0d",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0004",
+      "ordinary_eligible": true,
+      "game_time": 137.21325459703803
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 0,
+      "ordinal": 5,
+      "runtime_id": "eb6ed07d4a7f4ce929003d8feec392d0",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0005",
+      "ordinary_eligible": true,
+      "game_time": 141.23708589747548
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 0,
+      "ordinal": 6,
+      "runtime_id": "7559c5c44fe4779fc81030a21ae09a1e",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0006",
+      "ordinary_eligible": true,
+      "game_time": 145.2653942964971
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 0,
+      "ordinal": 7,
+      "runtime_id": "79c3bc29479242688c88c9ac3202e3e8",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0007",
+      "ordinary_eligible": true,
+      "game_time": 149.27910489588976
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 0,
+      "ordinal": 8,
+      "runtime_id": "ae56c7de455419a14e3d109a79579281",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0008",
+      "ordinary_eligible": true,
+      "game_time": 153.2893464975059
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 0,
+      "ordinal": 9,
+      "runtime_id": "928277f1484a9dbf50eb7c9fe96f5acd",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0009",
+      "ordinary_eligible": true,
+      "game_time": 157.2917299978435
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 1,
+      "ordinal": 10,
+      "runtime_id": "91e98b704eaccc2cf6dd9dbf800cf6ad",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0010",
+      "ordinary_eligible": true,
+      "game_time": 159.85131679475307
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 1,
+      "ordinal": 11,
+      "runtime_id": "25c3f2bc45c2da9991652bbfbec09157",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0011",
+      "ordinary_eligible": true,
+      "game_time": 163.86718049645424
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 1,
+      "ordinal": 12,
+      "runtime_id": "6771f8d64d51faefa67de19614a3db59",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0012",
+      "ordinary_eligible": true,
+      "game_time": 167.86918339505792
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 1,
+      "ordinal": 13,
+      "runtime_id": "3756839d44f7cfaf91cb728ff9da0ca4",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0013",
+      "ordinary_eligible": true,
+      "game_time": 171.87547179684043
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 1,
+      "ordinal": 14,
+      "runtime_id": "d81a6a7341ceb22d80beea9caf529385",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0014",
+      "ordinary_eligible": true,
+      "game_time": 175.89715769514441
+    },
+    {
+      "stage": "Cinterrupt",
+      "wave": 1,
+      "ordinal": 15,
+      "runtime_id": "a7a6b9544d23f7f3aa3b73a59b7e3f8c",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0015",
+      "ordinary_eligible": true,
+      "game_time": 179.9081583954394
+    },
+    {
+      "stage": "Csiege",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "a1104e4e4ad2d5de83e79b99a2336d12",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0000",
+      "ordinary_eligible": true,
+      "game_time": 183.37820969522
+    },
+    {
+      "stage": "Csiege",
+      "wave": 0,
+      "ordinal": 1,
+      "runtime_id": "6c851ff1483075c6ea3eac940e9e203e",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0001",
+      "ordinary_eligible": true,
+      "game_time": 187.384383097291
+    },
+    {
+      "stage": "Csiege",
+      "wave": 0,
+      "ordinal": 2,
+      "runtime_id": "eb1856a741a470d42d5cbeb2eb475e4d",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0002",
+      "ordinary_eligible": true,
+      "game_time": 191.41257769614458
+    },
+    {
+      "stage": "Csiege",
+      "wave": 0,
+      "ordinal": 3,
+      "runtime_id": "d72515c940b51495e0ef9abbf6f0c742",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0003",
+      "ordinary_eligible": true,
+      "game_time": 195.42909379675984
+    },
+    {
+      "stage": "Csiege",
+      "wave": 0,
+      "ordinal": 4,
+      "runtime_id": "536a760e416122fb646e2988fc7d0dc9",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0004",
+      "ordinary_eligible": true,
+      "game_time": 199.44554959610105
+    },
+    {
+      "stage": "Csiege",
+      "wave": 0,
+      "ordinal": 5,
+      "runtime_id": "965bfade4e1cff7b04b663a7638e78bd",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0005",
+      "ordinary_eligible": true,
+      "game_time": 203.44749769568443
+    },
+    {
+      "stage": "Csiege",
+      "wave": 0,
+      "ordinal": 6,
+      "runtime_id": "a0cc957e46418591fe55bfa996188271",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0006",
+      "ordinary_eligible": true,
+      "game_time": 207.46389519795775
+    },
+    {
+      "stage": "Csiege",
+      "wave": 0,
+      "ordinal": 7,
+      "runtime_id": "1c2b51014c5f0d57586beea545b60836",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0007",
+      "ordinary_eligible": true,
+      "game_time": 211.4770935960114
+    },
+    {
+      "stage": "Csiege",
+      "wave": 0,
+      "ordinal": 8,
+      "runtime_id": "ecf9d2164eab8428cb683d8af9105f62",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0008",
+      "ordinary_eligible": true,
+      "game_time": 215.4839845970273
+    },
+    {
+      "stage": "Csiege",
+      "wave": 0,
+      "ordinal": 9,
+      "runtime_id": "d38b59c748c4b1146e5ae38b49eb4b96",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0009",
+      "ordinary_eligible": true,
+      "game_time": 219.48783089593053
+    },
+    {
+      "stage": "Csiege",
+      "wave": 1,
+      "ordinal": 10,
+      "runtime_id": "44596f054147091718f387b1d3e80db9",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0010",
+      "ordinary_eligible": true,
+      "game_time": 222.0327629968524
+    },
+    {
+      "stage": "Csiege",
+      "wave": 1,
+      "ordinal": 11,
+      "runtime_id": "3715b3cc4cfb88152d44c3843cc3e84a",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0011",
+      "ordinary_eligible": true,
+      "game_time": 226.06123199686408
+    },
+    {
+      "stage": "Csiege",
+      "wave": 1,
+      "ordinal": 12,
+      "runtime_id": "14a6bc9a413f928064d168a294b6f5cb",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0012",
+      "ordinary_eligible": true,
+      "game_time": 230.08235609531403
+    },
+    {
+      "stage": "Csiege",
+      "wave": 1,
+      "ordinal": 13,
+      "runtime_id": "1bb4df924ce036e0adc24d9271d945fe",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0013",
+      "ordinary_eligible": true,
+      "game_time": 234.09040349721909
+    },
+    {
+      "stage": "Csiege",
+      "wave": 1,
+      "ordinal": 14,
+      "runtime_id": "404d5f3f4ab460b2b7bddeb2f5c8ab7a",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0014",
+      "ordinary_eligible": true,
+      "game_time": 238.0957430973649
+    },
+    {
+      "stage": "Csiege",
+      "wave": 1,
+      "ordinal": 15,
+      "runtime_id": "58b8022c4cf6d7018776b19982051fe7",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0015",
+      "ordinary_eligible": true,
+      "game_time": 242.1107583977282
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "47fed5e543aaab28619caea386e6c171",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0000",
+      "ordinary_eligible": true,
+      "game_time": 245.47721519693732
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 0,
+      "ordinal": 1,
+      "runtime_id": "9f7c0228481606f29af2d8aae5a3dcc2",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0001",
+      "ordinary_eligible": true,
+      "game_time": 249.493039496243
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 0,
+      "ordinal": 2,
+      "runtime_id": "90e518fd481f9fcc6e517aa3b1c582e4",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0002",
+      "ordinary_eligible": true,
+      "game_time": 253.50072929635644
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 0,
+      "ordinal": 3,
+      "runtime_id": "1bf71c0942d8a941e40f50bfc2934a50",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0003",
+      "ordinary_eligible": true,
+      "game_time": 257.50917929783463
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 0,
+      "ordinal": 4,
+      "runtime_id": "c7dea6ca484ae8a9336b9e8442208119",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0004",
+      "ordinary_eligible": true,
+      "game_time": 261.5113986954093
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 0,
+      "ordinal": 5,
+      "runtime_id": "5143df184ff7f998b5f72983705693ed",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0005",
+      "ordinary_eligible": true,
+      "game_time": 265.5359688960016
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 0,
+      "ordinal": 6,
+      "runtime_id": "ea5ef0b74442ca953a94beae5330d038",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0006",
+      "ordinary_eligible": true,
+      "game_time": 269.54258009791374
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 0,
+      "ordinal": 7,
+      "runtime_id": "af3a6d93464c66603f178289d9812a86",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0007",
+      "ordinary_eligible": true,
+      "game_time": 273.5600368976593
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 0,
+      "ordinal": 8,
+      "runtime_id": "ec5af1804d107bf419c5108f6fbf105e",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0008",
+      "ordinary_eligible": true,
+      "game_time": 277.57021689787507
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 0,
+      "ordinal": 9,
+      "runtime_id": "869dc92c4c2766a60bb14d8177b7a2b3",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0009",
+      "ordinary_eligible": true,
+      "game_time": 281.5714122951031
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 1,
+      "ordinal": 10,
+      "runtime_id": "ba0d441342eea666b75823a6602ce15e",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0010",
+      "ordinary_eligible": true,
+      "game_time": 284.1315136961639
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 1,
+      "ordinal": 11,
+      "runtime_id": "ef6a592c498a95ed2f04fbbb07ea6646",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0011",
+      "ordinary_eligible": true,
+      "game_time": 288.1315836980939
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 1,
+      "ordinal": 12,
+      "runtime_id": "f02f19d94ffdc83101f587b4967a2714",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0012",
+      "ordinary_eligible": true,
+      "game_time": 292.15987629815936
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 1,
+      "ordinal": 13,
+      "runtime_id": "994b4e9d4976eb8c8c32ad84978e70aa",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0013",
+      "ordinary_eligible": true,
+      "game_time": 296.1623826958239
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 1,
+      "ordinal": 14,
+      "runtime_id": "c093bc154f66419d1af088a38a2e605c",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0014",
+      "ordinary_eligible": true,
+      "game_time": 300.18645079806447
+    },
+    {
+      "stage": "Cunseal",
+      "wave": 1,
+      "ordinal": 15,
+      "runtime_id": "d9c7d86b4f4468268ca44a8181bb38c5",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0015",
+      "ordinary_eligible": true,
+      "game_time": 304.19422079622746
+    },
+    {
+      "stage": "GM01",
+      "wave": 0,
+      "ordinal": 0,
+      "runtime_id": "3d470b3e42d2bceeeb0d6aaa4b51eb15",
+      "event": "Test.Level01.e77c45ccae8f4736bf1560b88690a604.GM01.Wave.01.Spawn.0000",
+      "ordinary_eligible": false,
+      "game_time": 307.6644285954535
+    }
+  ],
+  "progress_samples": [
+    {
+      "stage": "Aoutside",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 0.6619715988636017,
+      "total_defeats": 0,
+      "loot_processed": 0,
+      "loot_misses": 0,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Aoutside",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 2.6680878959596157,
+      "total_defeats": 1,
+      "loot_processed": 1,
+      "loot_misses": 1,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Ainside",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 4.677355997264385,
+      "total_defeats": 2,
+      "loot_processed": 2,
+      "loot_misses": 2,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Ainside",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 6.687432896345854,
+      "total_defeats": 4,
+      "loot_processed": 4,
+      "loot_misses": 1,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Ainside",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 8.687915496528149,
+      "total_defeats": 7,
+      "loot_processed": 7,
+      "loot_misses": 4,
+      "ritual_progress": null
+    },
+    {
+      "stage": "R01",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 10.687986698001623,
+      "total_defeats": 8,
+      "loot_processed": 8,
+      "loot_misses": 0,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 12.715637095272541,
+      "total_defeats": 10,
+      "loot_processed": 10,
+      "loot_misses": 2,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 14.732945796102285,
+      "total_defeats": 12,
+      "loot_processed": 12,
+      "loot_misses": 1,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 16.73523859679699,
+      "total_defeats": 15,
+      "loot_processed": 15,
+      "loot_misses": 2,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 18.747923094779253,
+      "total_defeats": 16,
+      "loot_processed": 16,
+      "loot_misses": 3,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 20.749254196882248,
+      "total_defeats": 19,
+      "loot_processed": 19,
+      "loot_misses": 2,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 22.754393197596073,
+      "total_defeats": 22,
+      "loot_processed": 22,
+      "loot_misses": 0,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 24.75453869625926,
+      "total_defeats": 22,
+      "loot_processed": 22,
+      "loot_misses": 0,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 26.775240994989872,
+      "total_defeats": 25,
+      "loot_processed": 25,
+      "loot_misses": 0,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 28.782601796090603,
+      "total_defeats": 28,
+      "loot_processed": 28,
+      "loot_misses": 0,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 30.797747496515512,
+      "total_defeats": 28,
+      "loot_processed": 28,
+      "loot_misses": 0,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 32.80255139619112,
+      "total_defeats": 31,
+      "loot_processed": 31,
+      "loot_misses": 3,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 34.80544389784336,
+      "total_defeats": 34,
+      "loot_processed": 34,
+      "loot_misses": 0,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 36.81118359789252,
+      "total_defeats": 35,
+      "loot_processed": 35,
+      "loot_misses": 1,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 38.8254834972322,
+      "total_defeats": 38,
+      "loot_processed": 38,
+      "loot_misses": 4,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 40.84031069651246,
+      "total_defeats": 40,
+      "loot_processed": 40,
+      "loot_misses": 0,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 42.854880195111036,
+      "total_defeats": 41,
+      "loot_processed": 41,
+      "loot_misses": 1,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bcourt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 44.865159295499325,
+      "total_defeats": 44,
+      "loot_processed": 44,
+      "loot_misses": 0,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bexit",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 46.86710639670491,
+      "total_defeats": 46,
+      "loot_processed": 46,
+      "loot_misses": 2,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bexit",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 48.88280429691076,
+      "total_defeats": 48,
+      "loot_processed": 48,
+      "loot_misses": 4,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Bexit",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 50.88572549819946,
+      "total_defeats": 51,
+      "loot_processed": 51,
+      "loot_misses": 2,
+      "ritual_progress": null
+    },
+    {
+      "stage": "R02",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 52.89387669786811,
+      "total_defeats": 52,
+      "loot_processed": 52,
+      "loot_misses": 0,
+      "ritual_progress": null
+    },
+    {
+      "stage": "R03",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 54.907427195459604,
+      "total_defeats": 54,
+      "loot_processed": 54,
+      "loot_misses": 2,
+      "ritual_progress": null
+    },
+    {
+      "stage": "R03",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 56.9217930957675,
+      "total_defeats": 55,
+      "loot_processed": 55,
+      "loot_misses": 3,
+      "ritual_progress": null
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 58.93340639770031,
+      "total_defeats": 56,
+      "loot_processed": 56,
+      "loot_misses": 0,
+      "ritual_progress": 0.0
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 60.93851709738374,
+      "total_defeats": 57,
+      "loot_processed": 57,
+      "loot_misses": 1,
+      "ritual_progress": 0.7830329537391663
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 62.939771097153425,
+      "total_defeats": 57,
+      "loot_processed": 57,
+      "loot_misses": 1,
+      "ritual_progress": 1.616889238357544
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 64.94017879664898,
+      "total_defeats": 58,
+      "loot_processed": 58,
+      "loot_misses": 2,
+      "ritual_progress": 2.450392723083496
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 66.95431579649448,
+      "total_defeats": 58,
+      "loot_processed": 58,
+      "loot_misses": 2,
+      "ritual_progress": 3.2896173000335693
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 68.95578049495816,
+      "total_defeats": 59,
+      "loot_processed": 59,
+      "loot_misses": 3,
+      "ritual_progress": 4.123559951782227
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 70.957304995507,
+      "total_defeats": 59,
+      "loot_processed": 59,
+      "loot_misses": 3,
+      "ritual_progress": 4.957531929016113
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 72.96928999572992,
+      "total_defeats": 60,
+      "loot_processed": 60,
+      "loot_misses": 4,
+      "ritual_progress": 5.795864105224609
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 74.97160139679909,
+      "total_defeats": 60,
+      "loot_processed": 60,
+      "loot_misses": 4,
+      "ritual_progress": 6.630167007446289
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 77.00140069797635,
+      "total_defeats": 61,
+      "loot_processed": 61,
+      "loot_misses": 0,
+      "ritual_progress": 7.475920677185059
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 79.01557499542832,
+      "total_defeats": 61,
+      "loot_processed": 61,
+      "loot_misses": 0,
+      "ritual_progress": 8.315167427062988
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 81.02713229507208,
+      "total_defeats": 62,
+      "loot_processed": 62,
+      "loot_misses": 0,
+      "ritual_progress": 9.153322219848633
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 83.04351759701967,
+      "total_defeats": 62,
+      "loot_processed": 62,
+      "loot_misses": 0,
+      "ritual_progress": 9.993491172790527
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 85.04396499693394,
+      "total_defeats": 63,
+      "loot_processed": 63,
+      "loot_misses": 0,
+      "ritual_progress": 10.827014923095703
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 87.04621019586921,
+      "total_defeats": 63,
+      "loot_processed": 63,
+      "loot_misses": 0,
+      "ritual_progress": 11.661288261413574
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 89.05822829529643,
+      "total_defeats": 64,
+      "loot_processed": 64,
+      "loot_misses": 0,
+      "ritual_progress": 12.49963665008545
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 91.07041669636965,
+      "total_defeats": 64,
+      "loot_processed": 64,
+      "loot_misses": 0,
+      "ritual_progress": 13.338053703308105
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 93.07463739812374,
+      "total_defeats": 65,
+      "loot_processed": 65,
+      "loot_misses": 1,
+      "ritual_progress": 14.173147201538086
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 95.07481959834695,
+      "total_defeats": 65,
+      "loot_processed": 65,
+      "loot_misses": 1,
+      "ritual_progress": 15.006562232971191
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 97.07730109617114,
+      "total_defeats": 66,
+      "loot_processed": 66,
+      "loot_misses": 2,
+      "ritual_progress": 15.840935707092285
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 99.09512449800968,
+      "total_defeats": 67,
+      "loot_processed": 67,
+      "loot_misses": 0,
+      "ritual_progress": 16.68170166015625
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 101.10849859565496,
+      "total_defeats": 67,
+      "loot_processed": 67,
+      "loot_misses": 0,
+      "ritual_progress": 17.520612716674805
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 103.1154323965311,
+      "total_defeats": 68,
+      "loot_processed": 68,
+      "loot_misses": 1,
+      "ritual_progress": 18.35683822631836
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 105.12738029658794,
+      "total_defeats": 68,
+      "loot_processed": 68,
+      "loot_misses": 1,
+      "ritual_progress": 19.195146560668945
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 107.15482749789953,
+      "total_defeats": 69,
+      "loot_processed": 69,
+      "loot_misses": 2,
+      "ritual_progress": 20.0399169921875
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 109.16447139531374,
+      "total_defeats": 69,
+      "loot_processed": 69,
+      "loot_misses": 2,
+      "ritual_progress": 20.877269744873047
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 111.17933279648423,
+      "total_defeats": 70,
+      "loot_processed": 70,
+      "loot_misses": 3,
+      "ritual_progress": 21.716796875
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 113.19433219730854,
+      "total_defeats": 70,
+      "loot_processed": 70,
+      "loot_misses": 3,
+      "ritual_progress": 22.556385040283203
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 115.21107589825988,
+      "total_defeats": 71,
+      "loot_processed": 71,
+      "loot_misses": 0,
+      "ritual_progress": 23.39669418334961
+    },
+    {
+      "stage": "Cestablish",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 117.22204899787903,
+      "total_defeats": 71,
+      "loot_processed": 71,
+      "loot_misses": 0,
+      "ritual_progress": 24.234594345092773
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 119.22925669699907,
+      "total_defeats": 72,
+      "loot_processed": 72,
+      "loot_misses": 1,
+      "ritual_progress": 25.0
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 121.23024859651923,
+      "total_defeats": 73,
+      "loot_processed": 73,
+      "loot_misses": 2,
+      "ritual_progress": 25.031591415405273
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 123.2360309958458,
+      "total_defeats": 73,
+      "loot_processed": 73,
+      "loot_misses": 2,
+      "ritual_progress": 25.86733627319336
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 125.23705239593983,
+      "total_defeats": 74,
+      "loot_processed": 74,
+      "loot_misses": 3,
+      "ritual_progress": 26.70109748840332
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 127.25026229768991,
+      "total_defeats": 74,
+      "loot_processed": 74,
+      "loot_misses": 3,
+      "ritual_progress": 27.539926528930664
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 129.257039796561,
+      "total_defeats": 75,
+      "loot_processed": 75,
+      "loot_misses": 0,
+      "ritual_progress": 28.376087188720703
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 131.26028369739652,
+      "total_defeats": 75,
+      "loot_processed": 75,
+      "loot_misses": 0,
+      "ritual_progress": 29.21076774597168
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 133.27634939551353,
+      "total_defeats": 76,
+      "loot_processed": 76,
+      "loot_misses": 1,
+      "ritual_progress": 30.05080223083496
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 135.30500799790025,
+      "total_defeats": 76,
+      "loot_processed": 76,
+      "loot_misses": 1,
+      "ritual_progress": 30.896080017089844
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 137.30848649516702,
+      "total_defeats": 77,
+      "loot_processed": 77,
+      "loot_misses": 2,
+      "ritual_progress": 31.730865478515625
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 139.30936649814248,
+      "total_defeats": 77,
+      "loot_processed": 77,
+      "loot_misses": 2,
+      "ritual_progress": 32.564552307128906
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 141.3174132965505,
+      "total_defeats": 78,
+      "loot_processed": 78,
+      "loot_misses": 3,
+      "ritual_progress": 33.401180267333984
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 143.33741399645805,
+      "total_defeats": 78,
+      "loot_processed": 78,
+      "loot_misses": 3,
+      "ritual_progress": 34.242801666259766
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 145.34471429511905,
+      "total_defeats": 79,
+      "loot_processed": 79,
+      "loot_misses": 4,
+      "ritual_progress": 35.07915496826172
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 147.34698009490967,
+      "total_defeats": 79,
+      "loot_processed": 79,
+      "loot_misses": 4,
+      "ritual_progress": 35.913414001464844
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 149.3718649968505,
+      "total_defeats": 80,
+      "loot_processed": 80,
+      "loot_misses": 0,
+      "ritual_progress": 36.757080078125
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 151.38051149621606,
+      "total_defeats": 80,
+      "loot_processed": 80,
+      "loot_misses": 0,
+      "ritual_progress": 37.59398651123047
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 153.3958573974669,
+      "total_defeats": 81,
+      "loot_processed": 81,
+      "loot_misses": 1,
+      "ritual_progress": 38.43366622924805
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 155.40833159536123,
+      "total_defeats": 81,
+      "loot_processed": 81,
+      "loot_misses": 1,
+      "ritual_progress": 39.27214813232422
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 157.41461839526892,
+      "total_defeats": 82,
+      "loot_processed": 82,
+      "loot_misses": 2,
+      "ritual_progress": 40.108062744140625
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 159.4179185964167,
+      "total_defeats": 82,
+      "loot_processed": 82,
+      "loot_misses": 2,
+      "ritual_progress": 40.94270706176758
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 161.43304579705,
+      "total_defeats": 83,
+      "loot_processed": 83,
+      "loot_misses": 3,
+      "ritual_progress": 41.78231430053711
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 163.43463499844074,
+      "total_defeats": 83,
+      "loot_processed": 83,
+      "loot_misses": 3,
+      "ritual_progress": 42.61629104614258
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 165.43735329806805,
+      "total_defeats": 84,
+      "loot_processed": 84,
+      "loot_misses": 4,
+      "ritual_progress": 43.45072937011719
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 167.4503821954131,
+      "total_defeats": 84,
+      "loot_processed": 84,
+      "loot_misses": 4,
+      "ritual_progress": 44.28944778442383
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 169.47007999569178,
+      "total_defeats": 85,
+      "loot_processed": 85,
+      "loot_misses": 0,
+      "ritual_progress": 45.1309700012207
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 171.48498249799013,
+      "total_defeats": 85,
+      "loot_processed": 85,
+      "loot_misses": 0,
+      "ritual_progress": 45.97045135498047
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 173.4905101954937,
+      "total_defeats": 86,
+      "loot_processed": 86,
+      "loot_misses": 1,
+      "ritual_progress": 46.80604553222656
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 175.49572129547596,
+      "total_defeats": 86,
+      "loot_processed": 86,
+      "loot_misses": 1,
+      "ritual_progress": 47.64149856567383
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 177.5123009979725,
+      "total_defeats": 87,
+      "loot_processed": 87,
+      "loot_misses": 2,
+      "ritual_progress": 48.481685638427734
+    },
+    {
+      "stage": "Cinterrupt",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 179.518460996449,
+      "total_defeats": 87,
+      "loot_processed": 87,
+      "loot_misses": 2,
+      "ritual_progress": 49.31755447387695
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 181.53490449488163,
+      "total_defeats": 88,
+      "loot_processed": 88,
+      "loot_misses": 3,
+      "ritual_progress": 50.0
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 183.53683629631996,
+      "total_defeats": 89,
+      "loot_processed": 89,
+      "loot_misses": 4,
+      "ritual_progress": 50.07817459106445
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 185.53857219591737,
+      "total_defeats": 89,
+      "loot_processed": 89,
+      "loot_misses": 4,
+      "ritual_progress": 50.91218185424805
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 187.5533002950251,
+      "total_defeats": 90,
+      "loot_processed": 90,
+      "loot_misses": 0,
+      "ritual_progress": 51.751617431640625
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 189.56583179533482,
+      "total_defeats": 90,
+      "loot_processed": 90,
+      "loot_misses": 0,
+      "ritual_progress": 52.59013366699219
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 191.56786029785872,
+      "total_defeats": 91,
+      "loot_processed": 91,
+      "loot_misses": 0,
+      "ritual_progress": 53.424259185791016
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 193.58312859758735,
+      "total_defeats": 91,
+      "loot_processed": 91,
+      "loot_misses": 0,
+      "ritual_progress": 54.263916015625
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 195.5995920971036,
+      "total_defeats": 92,
+      "loot_processed": 92,
+      "loot_misses": 1,
+      "ritual_progress": 55.104042053222656
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 197.62614669650793,
+      "total_defeats": 92,
+      "loot_processed": 92,
+      "loot_misses": 1,
+      "ritual_progress": 55.94841003417969
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 199.63967949524522,
+      "total_defeats": 93,
+      "loot_processed": 93,
+      "loot_misses": 2,
+      "ritual_progress": 56.78736877441406
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 201.6426069959998,
+      "total_defeats": 93,
+      "loot_processed": 93,
+      "loot_misses": 2,
+      "ritual_progress": 57.621883392333984
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 203.66267209500074,
+      "total_defeats": 94,
+      "loot_processed": 94,
+      "loot_misses": 3,
+      "ritual_progress": 58.463523864746094
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 205.66332409530878,
+      "total_defeats": 94,
+      "loot_processed": 94,
+      "loot_misses": 3,
+      "ritual_progress": 59.297096252441406
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 207.68345699831843,
+      "total_defeats": 95,
+      "loot_processed": 95,
+      "loot_misses": 4,
+      "ritual_progress": 60.13878631591797
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 209.6871196962893,
+      "total_defeats": 95,
+      "loot_processed": 95,
+      "loot_misses": 4,
+      "ritual_progress": 60.9736213684082
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 211.70940689742565,
+      "total_defeats": 96,
+      "loot_processed": 96,
+      "loot_misses": 0,
+      "ritual_progress": 61.81620407104492
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 213.73291639611125,
+      "total_defeats": 96,
+      "loot_processed": 96,
+      "loot_misses": 0,
+      "ritual_progress": 62.6592903137207
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 215.74846839532256,
+      "total_defeats": 97,
+      "loot_processed": 97,
+      "loot_misses": 1,
+      "ritual_progress": 63.499061584472656
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 217.76484809815884,
+      "total_defeats": 97,
+      "loot_processed": 97,
+      "loot_misses": 1,
+      "ritual_progress": 64.33917999267578
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 219.76784659549594,
+      "total_defeats": 98,
+      "loot_processed": 98,
+      "loot_misses": 2,
+      "ritual_progress": 65.17366027832031
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 221.77129369601607,
+      "total_defeats": 98,
+      "loot_processed": 98,
+      "loot_misses": 2,
+      "ritual_progress": 66.00831604003906
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 223.78833289816976,
+      "total_defeats": 99,
+      "loot_processed": 99,
+      "loot_misses": 3,
+      "ritual_progress": 66.8486328125
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 225.8128430955112,
+      "total_defeats": 99,
+      "loot_processed": 99,
+      "loot_misses": 3,
+      "ritual_progress": 67.69207763671875
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 227.8192701973021,
+      "total_defeats": 100,
+      "loot_processed": 100,
+      "loot_misses": 4,
+      "ritual_progress": 68.52799224853516
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 229.82046249508858,
+      "total_defeats": 100,
+      "loot_processed": 100,
+      "loot_misses": 4,
+      "ritual_progress": 69.36167907714844
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 231.8371012955904,
+      "total_defeats": 101,
+      "loot_processed": 101,
+      "loot_misses": 0,
+      "ritual_progress": 70.20182037353516
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 233.85717699676752,
+      "total_defeats": 101,
+      "loot_processed": 101,
+      "loot_misses": 0,
+      "ritual_progress": 71.04341125488281
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 235.86179199814796,
+      "total_defeats": 102,
+      "loot_processed": 102,
+      "loot_misses": 1,
+      "ritual_progress": 71.8785629272461
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 237.87396869808435,
+      "total_defeats": 102,
+      "loot_processed": 102,
+      "loot_misses": 1,
+      "ritual_progress": 72.71687316894531
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 239.875747397542,
+      "total_defeats": 103,
+      "loot_processed": 103,
+      "loot_misses": 2,
+      "ritual_progress": 73.5508041381836
+    },
+    {
+      "stage": "Csiege",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 241.87818199768662,
+      "total_defeats": 103,
+      "loot_processed": 103,
+      "loot_misses": 2,
+      "ritual_progress": 74.3850326538086
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 243.895607996732,
+      "total_defeats": 104,
+      "loot_processed": 104,
+      "loot_misses": 3,
+      "ritual_progress": 75.0
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 245.897058095783,
+      "total_defeats": 105,
+      "loot_processed": 105,
+      "loot_misses": 0,
+      "ritual_progress": 75.18185424804688
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 247.92442669719458,
+      "total_defeats": 105,
+      "loot_processed": 105,
+      "loot_misses": 0,
+      "ritual_progress": 76.02650451660156
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 249.9317131973803,
+      "total_defeats": 106,
+      "loot_processed": 106,
+      "loot_misses": 1,
+      "ritual_progress": 76.86277770996094
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 251.95914479717612,
+      "total_defeats": 106,
+      "loot_processed": 106,
+      "loot_misses": 1,
+      "ritual_progress": 77.70743560791016
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 253.9789517968893,
+      "total_defeats": 107,
+      "loot_processed": 107,
+      "loot_misses": 2,
+      "ritual_progress": 78.54891967773438
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 255.99437299743295,
+      "total_defeats": 107,
+      "loot_processed": 107,
+      "loot_misses": 2,
+      "ritual_progress": 79.38856506347656
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 258.02074659615755,
+      "total_defeats": 108,
+      "loot_processed": 108,
+      "loot_misses": 3,
+      "ritual_progress": 80.23277282714844
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 260.03612249717116,
+      "total_defeats": 108,
+      "loot_processed": 108,
+      "loot_misses": 3,
+      "ritual_progress": 81.07240295410156
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 262.03693349659443,
+      "total_defeats": 109,
+      "loot_processed": 109,
+      "loot_misses": 4,
+      "ritual_progress": 81.90596771240234
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 264.04019639641047,
+      "total_defeats": 109,
+      "loot_processed": 109,
+      "loot_misses": 4,
+      "ritual_progress": 82.74053192138672
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 266.0567828975618,
+      "total_defeats": 110,
+      "loot_processed": 110,
+      "loot_misses": 0,
+      "ritual_progress": 83.58069610595703
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 268.0720687955618,
+      "total_defeats": 110,
+      "loot_processed": 110,
+      "loot_misses": 0,
+      "ritual_progress": 84.4202880859375
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 270.08443209528923,
+      "total_defeats": 111,
+      "loot_processed": 111,
+      "loot_misses": 1,
+      "ritual_progress": 85.25865173339844
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 272.0847961977124,
+      "total_defeats": 111,
+      "loot_processed": 111,
+      "loot_misses": 1,
+      "ritual_progress": 86.0920181274414
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 274.08812119811773,
+      "total_defeats": 112,
+      "loot_processed": 112,
+      "loot_misses": 0,
+      "ritual_progress": 86.92664337158203
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 276.09532979503274,
+      "total_defeats": 112,
+      "loot_processed": 112,
+      "loot_misses": 0,
+      "ritual_progress": 87.76286315917969
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 278.09667199477553,
+      "total_defeats": 113,
+      "loot_processed": 113,
+      "loot_misses": 1,
+      "ritual_progress": 88.59663391113281
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 280.0969988964498,
+      "total_defeats": 113,
+      "loot_processed": 113,
+      "loot_misses": 1,
+      "ritual_progress": 89.43000030517578
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 282.0990978963673,
+      "total_defeats": 114,
+      "loot_processed": 114,
+      "loot_misses": 2,
+      "ritual_progress": 90.26410675048828
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 284.114846996963,
+      "total_defeats": 114,
+      "loot_processed": 114,
+      "loot_misses": 2,
+      "ritual_progress": 91.1038818359375
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 286.13444389775395,
+      "total_defeats": 115,
+      "loot_processed": 115,
+      "loot_misses": 3,
+      "ritual_progress": 91.94526672363281
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 288.1494256965816,
+      "total_defeats": 116,
+      "loot_processed": 116,
+      "loot_misses": 0,
+      "ritual_progress": 92.78473663330078
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 290.16150959581137,
+      "total_defeats": 116,
+      "loot_processed": 116,
+      "loot_misses": 0,
+      "ritual_progress": 93.62298583984375
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 292.1798819974065,
+      "total_defeats": 117,
+      "loot_processed": 117,
+      "loot_misses": 1,
+      "ritual_progress": 94.46388244628906
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 294.1844648979604,
+      "total_defeats": 117,
+      "loot_processed": 117,
+      "loot_misses": 1,
+      "ritual_progress": 95.29898834228516
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 296.196382496506,
+      "total_defeats": 118,
+      "loot_processed": 118,
+      "loot_misses": 2,
+      "ritual_progress": 96.13719940185547
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 298.2001074962318,
+      "total_defeats": 118,
+      "loot_processed": 118,
+      "loot_misses": 2,
+      "ritual_progress": 96.97195434570312
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 300.203117698431,
+      "total_defeats": 119,
+      "loot_processed": 119,
+      "loot_misses": 3,
+      "ritual_progress": 97.80644226074219
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 302.22873179614544,
+      "total_defeats": 119,
+      "loot_processed": 119,
+      "loot_misses": 3,
+      "ritual_progress": 98.65036010742188
+    },
+    {
+      "stage": "Cunseal",
+      "state": "<NLLevelStageState.ACTIVE: 4>",
+      "game_time": 304.2403196953237,
+      "total_defeats": 120,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 99.48844909667969
+    },
+    {
+      "stage": "GM01",
+      "state": "<NLLevelStageState.WARNING: 3>",
+      "game_time": 306.241532497108,
+      "total_defeats": 120,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 308.24452589824796,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 310.24902529641986,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 312.26211789622903,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 314.2639239951968,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 316.26770509779453,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 318.2712691947818,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 320.2826085947454,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 322.3101066984236,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 324.3245262950659,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 326.34090419486165,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 328.3505504950881,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 330.3643284961581,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 332.36554479599,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 334.39246459677815,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 336.4112336970866,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 338.4272126965225,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 340.4416453950107,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 342.44175589829683,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 344.47139889746904,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 346.4844085983932,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 348.4880950972438,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 350.49015909805894,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 352.4960141964257,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 354.49968329817057,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 356.5121842958033,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 358.51627899706364,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 360.52133959531784,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 362.52231569588184,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 364.52508119493723,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 366.53564259782434,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 368.5395755954087,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 370.55142249539495,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 372.5646034963429,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 374.5787740983069,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 376.5837864950299,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 378.59736089780927,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 380.62027989700437,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 382.6226384975016,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 384.62387589737773,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 386.6459141969681,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 388.65904869511724,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 390.6599771976471,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 392.68507899716496,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 394.6876340955496,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 396.69598899781704,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 398.6960176974535,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 400.6960752978921,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 402.6960866972804,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 404.69612239673734,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 406.696142796427,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 408.696152895689,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 410.69616309553385,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 412.69619819521904,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 414.6962582953274,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 416.69627989828587,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 418.6963200978935,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 420.696349196136,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 422.6963615976274,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 424.6963954977691,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 426.6964214965701,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 428.6964613981545,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 430.69660579785705,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 432.6966586969793,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 434.69672859832644,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 436.6967461965978,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 438.7139490954578,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 440.71565509587526,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 442.7224576957524,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 444.7249606959522,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 446.74122059717774,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 448.74706449732184,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 450.7577714957297,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 452.7697470970452,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 454.7866291962564,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 456.80272759497166,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 458.8031412959099,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 460.8246650956571,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 462.83045249804854,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 464.8430211953819,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 466.85915199667215,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    },
+    {
+      "stage": "GM02",
+      "state": "<NLLevelStageState.AVAILABLE: 2>",
+      "game_time": 468.8747196979821,
+      "total_defeats": 121,
+      "loot_processed": 120,
+      "loot_misses": 4,
+      "ritual_progress": 100.0
+    }
+  ],
+  "ordinary_events": [
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Aoutside.Wave.01.Spawn.0000",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Aoutside.Wave.01.Spawn.0001",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0000",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0001",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0002",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0003",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0004",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Ainside.Wave.01.Spawn.0005",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R01.Wave.01.Spawn.0000",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R01.Wave.01.Spawn.0001",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0000",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0001",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0002",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0003",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0004",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.01.Spawn.0005",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0006",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0007",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0008",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0009",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0010",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.02.Spawn.0011",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0012",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0013",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0014",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0015",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0016",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.03.Spawn.0017",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0018",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0019",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0020",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0021",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0022",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.04.Spawn.0023",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0024",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0025",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0026",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0027",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0028",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.05.Spawn.0029",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0030",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0031",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0032",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0033",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0034",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bcourt.Wave.06.Spawn.0035",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0000",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0001",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0002",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0003",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0004",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Bexit.Wave.01.Spawn.0005",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R02.Wave.01.Spawn.0000",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R02.Wave.01.Spawn.0001",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R03.Wave.01.Spawn.0000",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.R03.Wave.01.Spawn.0001",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0000",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0001",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0002",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0003",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0004",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0005",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0006",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0007",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0008",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.01.Spawn.0009",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0010",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0011",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0012",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0013",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0014",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cestablish.Wave.02.Spawn.0015",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0000",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0001",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0002",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0003",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0004",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0005",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0006",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0007",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0008",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.01.Spawn.0009",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0010",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0011",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0012",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0013",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0014",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cinterrupt.Wave.02.Spawn.0015",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0000",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0001",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0002",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0003",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0004",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0005",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0006",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0007",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0008",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.01.Spawn.0009",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0010",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0011",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0012",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0013",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0014",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Csiege.Wave.02.Spawn.0015",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0000",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0001",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0002",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0003",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0004",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0005",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0006",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0007",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0008",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.01.Spawn.0009",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0010",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0011",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0012",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0013",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0014",
+    "Test.Level01.e77c45ccae8f4736bf1560b88690a604.Cunseal.Wave.02.Spawn.0015"
+  ]
+}

@@ -1,0 +1,488 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "张浩翔的拯救者",
+			"instance": "2F99E98C4A1735B01BA346A840BD55BE",
+			"instanceName": "张浩翔的拯救者-69256",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9711] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+			"cPUModel": "Intel(R) Core(TM) i9-14900HX",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.10.26-14.51.52",
+	"succeeded": 13,
+	"succeededWithWarnings": 3,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.31661990284919739,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "BufferAndRelease",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.BufferAndRelease",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.016564700752496719,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Conditions",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.Conditions",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.016291800886392593,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "EdgesAndSwingIdentity",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.EdgesAndSwingIdentity",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.016693800687789917,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Invalidation",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.Invalidation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.016599897295236588,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InvalidNumbers",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.InvalidNumbers",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.016670700162649155,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ButtonAndOneCut",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.ButtonAndOneCut",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.02000880241394043,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DiscontinuitiesRequireFreshInput",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.DiscontinuitiesRequireFreshInput",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.018973499536514282,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ReleaseAndNewSwing",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.ReleaseAndNewSwing",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.018569000065326691,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "TrackingSpaceMotionIsExcluded",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.TrackingSpaceMotionIsExcluded",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.018714100122451782,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FriendlyAndNeutralFiltering",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.FriendlyAndNeutralFiltering",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.015895701944828033,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "HighSpeedSingleDamage",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.HighSpeedSingleDamage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.018332600593566895,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LaunchExitCooldownAndState",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.LaunchExitCooldownAndState",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.018575999885797501,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_7.NilinBladeQiTest_227B4C2143573E2E20A1A9ACB02B0C8B:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_7.NilinBladeQiTest_227B4C2143573E2E20A1A9ACB02B0C8B:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_7.NilinBladeQiTest_227B4C2143573E2E20A1A9ACB02B0C8B:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_7.NilinBladeQiTest_227B4C2143573E2E20A1A9ACB02B0C8B:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Lifetime",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.Lifetime",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.018838498741388321,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "TrackedHandOriginOcclusion",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.TrackedHandOriginOcclusion",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.018544699996709824,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_9.NilinBladeQiTest_77B56E6B468E7D4E7B4685A0EEC0F3BF:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_9.NilinBladeQiTest_77B56E6B468E7D4E7B4685A0EEC0F3BF:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_9.NilinBladeQiTest_77B56E6B468E7D4E7B4685A0EEC0F3BF:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_9.NilinBladeQiTest_77B56E6B468E7D4E7B4685A0EEC0F3BF:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "WorldOcclusion",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.WorldOcclusion",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.017651598900556564,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AuthoredHandAndBladeFollowGripAxis",
+			"fullTestPath": "Nilin.VR.WeaponGrip.AuthoredHandAndBladeFollowGripAxis",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"2F99E98C4A1735B01BA346A840BD55BE"
+			],
+			"duration": 0.049694500863552094,
+			"dateTime": "2026.10.26-14.51.52",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_11.NilinVRGrip_D25872CF423D97F9AD7F2CB632E34490:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_11.NilinVRGrip_D25872CF423D97F9AD7F2CB632E34490:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_11.NilinVRGrip_D25872CF423D97F9AD7F2CB632E34490:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHMD: SetSpectatorScreenMode called, but the SpectatorScreenController was not found.  Perhaps this platform does not support spectator screen?  Ignoring this call.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogLinker: [AssetLog] D:\\game design\\experiment\\Content\\ModularWeapons\\Textures\\Swords\\Hilts\\Hilts_01_normal.uasset: Asset has been saved with empty engine version. The asset will be loaded but may be incompatible.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogLinker: [AssetLog] D:\\game design\\experiment\\Content\\ModularWeapons\\Textures\\Swords\\Hilts\\Hilts_01_PSED.uasset: Asset has been saved with empty engine version. The asset will be loaded but may be incompatible.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogLinker: [AssetLog] D:\\game design\\experiment\\Content\\ModularWeapons\\Textures\\Swords\\Hilts\\Hilts_01_RAOD.uasset: Asset has been saved with empty engine version. The asset will be loaded but may be incompatible.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogLinker: [AssetLog] D:\\game design\\experiment\\Content\\ModularWeapons\\Textures\\Swords\\Blades\\Blades_01_normal.uasset: Asset has been saved with empty engine version. The asset will be loaded but may be incompatible.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogLinker: [AssetLog] D:\\game design\\experiment\\Content\\ModularWeapons\\Textures\\Swords\\Blades\\Blades_01_PSED.uasset: Asset has been saved with empty engine version. The asset will be loaded but may be incompatible.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogLinker: [AssetLog] D:\\game design\\experiment\\Content\\ModularWeapons\\Textures\\Swords\\Blades\\Blades_01_RAOD.uasset: Asset has been saved with empty engine version. The asset will be loaded but may be incompatible.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.26-14.51.52"
+				}
+			],
+			"warnings": 10,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

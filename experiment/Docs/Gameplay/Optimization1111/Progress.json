@@ -1,0 +1,32 @@
+{
+  "UpdatedAt": "2026-11-11T17:05:26.9082020+08:00",
+  "Phase": "Integration compile and asset validation",
+  "BaselineTests": {
+    "Passed": 111,
+    "Failed": 0
+  },
+  "Wine": {
+    "Triangles": 2812,
+    "HeightCm": 28.65,
+    "Import": "passed"
+  },
+  "ImplementedCode": [
+    "Desktop eye -8cm",
+    "Walk-rate and movement sync",
+    "Ranged engagement and faster cast",
+    "Visible navigation recovery and stable staging previews",
+    "Ragdoll lifecycle",
+    "Desktop crosshair and tracked VR swing direction",
+    "Pawn collision combat boundaries and HUD hint",
+    "Random 2-4 golden orbs",
+    "Wine health pickup"
+  ],
+  "Pending": [
+    "Successful integration build",
+    "Physics asset generation and dynamic fall validation",
+    "Map tree placement plan/apply",
+    "All new regressions",
+    "Actual rendered capture and gameplay verification"
+  ],
+  "Deadline": "2026-11-11T19:35:34+08:00"
+}

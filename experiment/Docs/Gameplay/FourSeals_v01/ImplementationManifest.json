@@ -1,0 +1,62 @@
+{
+  "save_version_changed": false,
+  "retry": "R preserves all acquired seals",
+  "test_prefixes": [
+    "Nilin.Progression.FourSeals",
+    "Nilin.LevelEncounter.FourSeals"
+  ],
+  "manual_new_trial": "Ctrl+N while idle",
+  "files": [
+    {
+      "path": "Source/experiment/Public/Progression/NLRunStateSubsystem.h",
+      "sha256": "042171F26ACAD3D2242BD0782372DAC4939BAC8D135CE2F1440B10700B58468E"
+    },
+    {
+      "path": "Source/experiment/Private/Progression/NLRunStateSubsystem.cpp",
+      "sha256": "662EBAE960391F16179FFE8FC29A3099F694AD295C4B088C1C664F14413A6240"
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLLevelEncounterTypes.h",
+      "sha256": "D6D6A4BC37C9192C68271FBEFEE79ED0AA040140750F25B812D9F9544F0D9B8A"
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLLevelEncounterDirector.h",
+      "sha256": "A6B08F620C7179B0520BB18666EC6438A20600FCFACD6A4BFC7CE5769A409BF1"
+    },
+    {
+      "path": "Source/experiment/Private/Encounter/NLLevelEncounterDirector.cpp",
+      "sha256": "C33ECD65F38D90ECA5BDAAAC85B41A40A096EC4E8A237D9284806413D50168C5"
+    },
+    {
+      "path": "Source/experiment/Public/Player/NLLevelCombatPlayer.h",
+      "sha256": "50414920D0EE479BBEE74632F0206B8CEAAFC588F52E9ED98AA6A18E0E4317DE"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLLevelCombatPlayer.cpp",
+      "sha256": "E3C72FD4E34BFD16DBE2F94E09A353DEF589372ACA99109488275BBC693B7449"
+    },
+    {
+      "path": "Source/experiment/Private/Tests/NLFourSealTests.cpp",
+      "sha256": "DF41F1679DC274CA892796CEC97BE26D9B73E9385AC2E338568B4909FF7A744B"
+    },
+    {
+      "path": "Scripts/Editor/Gameplay/build_gameplay_v01.py",
+      "sha256": "09620EDA2D12CD6DDA1E41BC71A97FBBDE8441F54A62A44345C36A57730CEEBC"
+    },
+    {
+      "path": "Scripts/Editor/FourSealsV01/wire_seal_gates.py",
+      "sha256": "1DA64B6ABBE6057FA5613CF93B9D68CDCB29601A71E82DD2AA15A2366B1B9D35"
+    },
+    {
+      "path": "Scripts/Editor/FourSealsV01/runtime_four_seals.py",
+      "sha256": "7F6C62D6224358A19D76162202173308401874556095E4B207F92B9676944F9A"
+    },
+    {
+      "path": "Scripts/Editor/FourSealsV01/restore_fixture_editor.py",
+      "sha256": "1A67F9827ED32D9B4C3B27517675431C3BD31258490387B43089312D7D4569A5"
+    }
+  ],
+  "backup_root": "Docs/Gameplay/FourSeals_v01/Backups",
+  "state": "source_frozen_pending_build_and_runtime",
+  "marker_bytes": 48
+}

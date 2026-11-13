@@ -1,0 +1,240 @@
+{
+  "kind": "Real PIE resolver-driven encounter/recovery integration",
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "state": "failed",
+  "success": false,
+  "deadline_seconds": 600,
+  "stages": [
+    {
+      "id": "Aoutside",
+      "index": 0,
+      "state": "passed",
+      "required": "None",
+      "expected_count": 2,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "Aoutside_W01",
+          "planned": 2,
+          "max_alive_limit": 4,
+          "max_alive_observed": 2,
+          "spawn_count": 2,
+          "resolver_defeats": 2
+        }
+      ],
+      "resolver_defeats": 2,
+      "warning_remaining_max": 1.9666664600372314,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 2,
+        "defeated": 2,
+        "planned": 2,
+        "completed_waves": 1,
+        "failed_spawns": 1,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "Ainside",
+      "index": 1,
+      "state": "passed",
+      "required": "Aoutside",
+      "expected_count": 6,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "Ainside_W01",
+          "planned": 6,
+          "max_alive_limit": 4,
+          "max_alive_observed": 4,
+          "spawn_count": 6,
+          "resolver_defeats": 6
+        }
+      ],
+      "resolver_defeats": 6,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false,
+      "runtime_totals": {
+        "spawned": 6,
+        "defeated": 6,
+        "planned": 6,
+        "completed_waves": 1,
+        "failed_spawns": 4,
+        "snapshot_source": "OnEncounterCompleted listener; the script never broadcasts this event",
+        "controller_state": "<NLEncounterState.COMPLETED: 4>"
+      }
+    },
+    {
+      "id": "R01",
+      "index": 2,
+      "state": "active",
+      "required": "Ainside",
+      "expected_count": 2,
+      "warning_observed": true,
+      "busy_rejection_verified": true,
+      "waves": [
+        {
+          "index": 0,
+          "id": "R01_W01",
+          "planned": 2,
+          "max_alive_limit": 2,
+          "max_alive_observed": 2,
+          "spawn_count": 2,
+          "resolver_defeats": 0
+        }
+      ],
+      "resolver_defeats": 0,
+      "warning_remaining_max": 2.0,
+      "busy_next_stage_accepted": false
+    }
+  ],
+  "perfect_parry": {
+    "results": [
+      {
+        "kind": "ordinary",
+        "outcome": "<NLCombatOutcome.BLOCKED: 1>",
+        "health": 70.0,
+        "charges": 0,
+        "source_runtime_id": "92b1ac834172b895a78637934f420df1",
+        "attack_id": "87b8416240a273240b5f55b0bcf9f879"
+      },
+      {
+        "kind": "perfect",
+        "outcome": "<NLCombatOutcome.PERFECT_PARRY: 2>",
+        "health": 70.0,
+        "charges": 1,
+        "source_runtime_id": "92b1ac834172b895a78637934f420df1",
+        "attack_id": "a2d4a1fc4e17fe0f726a20bc21ab2ae3",
+        "duplicate_outcome": "<NLCombatOutcome.IGNORED: 5>"
+      },
+      {
+        "kind": "perfect",
+        "outcome": "<NLCombatOutcome.PERFECT_PARRY: 2>",
+        "health": 70.0,
+        "charges": 2,
+        "source_runtime_id": "92b1ac834172b895a78637934f420df1",
+        "attack_id": "01daced24b829c0aefa4568ddb5182c7",
+        "duplicate_outcome": "<NLCombatOutcome.IGNORED: 5>"
+      },
+      {
+        "kind": "perfect",
+        "outcome": "<NLCombatOutcome.PERFECT_PARRY: 2>",
+        "health": 80.0,
+        "charges": 0,
+        "source_runtime_id": "92b1ac834172b895a78637934f420df1",
+        "attack_id": "f1990db64c199b45a4d36592084a117f",
+        "duplicate_outcome": "<NLCombatOutcome.IGNORED: 5>"
+      }
+    ],
+    "success": true,
+    "last_recovered_health": 10.0,
+    "release_wait_game_seconds": 0.42
+  },
+  "retry": {
+    "success": true,
+    "stage": "Aoutside",
+    "entry_error_cm": 0.0,
+    "completed_before": 0,
+    "completed_after": 0,
+    "probe_enemies": "Initial probe controller was retired only by the real retry cleanup; its spawns are excluded from 109 final-run counts."
+  },
+  "master_rewards": [],
+  "rock_r01_ai": {
+    "state": "observing",
+    "duration_game_seconds": 12.0,
+    "start_game_time": 16.969814997166395,
+    "player_route_rest_m": [
+      0.0,
+      45.275,
+      6.4
+    ],
+    "casters": {
+      "d2d3467042ba311917767dbff6dbe222": {
+        "actor": "/Game/ReversedScale/Maps/UEDPIE_0_L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.BP_Level_rock_talisman_C_0",
+        "start_capsule_cm": [
+          -1150.0,
+          4772.5,
+          969.1999984741212
+        ],
+        "max_xy_displacement_cm": 0.0,
+        "state_transitions": [
+          {
+            "state": "<NLEnemyState.APPROACH: 1>",
+            "game_time": 16.969814997166395
+          },
+          {
+            "state": "<NLEnemyState.DESPAWN: 8>",
+            "game_time": 26.953289609402418
+          }
+        ],
+        "observed_telegraph": false,
+        "observed_attack": false,
+        "observed_despawn": true,
+        "projectile_ids": []
+      },
+      "39e94a6a4b1d2da82dc8fc9f9fda8076": {
+        "actor": "/Game/ReversedScale/Maps/UEDPIE_0_L_NilinGameplayV01.L_NilinGameplayV01:PersistentLevel.BP_Level_rock_talisman_C_1",
+        "start_capsule_cm": [
+          -740.0,
+          4772.5,
+          969.1999984741212
+        ],
+        "max_xy_displacement_cm": 0.0,
+        "state_transitions": [
+          {
+            "state": "<NLEnemyState.APPROACH: 1>",
+            "game_time": 16.969814997166395
+          },
+          {
+            "state": "<NLEnemyState.PAUSED: 9>",
+            "game_time": 26.953289609402418
+          }
+        ],
+        "observed_telegraph": false,
+        "observed_attack": false,
+        "observed_despawn": false,
+        "projectile_ids": []
+      }
+    },
+    "protective_heals": [],
+    "projectile_count": 0,
+    "automation_protection": "If player health falls below 50, RestoreResourcePreset(90,100) keeps observation alive; no player skill is inferred.",
+    "observed_game_seconds": 9.966807812452316,
+    "screenshot": "D:\\game design\\experiment\\Docs\\Gameplay\\EncounterRecovery_v01\\Screenshots\\Gameplay_R01.png"
+  },
+  "total_counted_spawns": 8,
+  "total_resolver_defeats": 8,
+  "failures": [
+    {
+      "error": "Traceback (most recent call last):\n  File \"D:\\game design\\experiment\\Scripts\\Editor\\Gameplay\\runtime_encounter_recovery_v01.py\", line 734, in tick\n    self.encounter_step(world)\n  File \"D:\\game design\\experiment\\Scripts\\Editor\\Gameplay\\runtime_encounter_recovery_v01.py\", line 520, in encounter_step\n    self.require(status != unreal.NLLevelStageState.FAILED, \"Stage failed during real runtime\", stage=str(stage_id), reason=str(self.director.get_failure_reason()))\n  File \"D:\\game design\\experiment\\Scripts\\Editor\\Gameplay\\runtime_encounter_recovery_v01.py\", line 116, in require\n    raise RuntimeError(message + (\": \" + json.dumps(evidence, ensure_ascii=False) if evidence else \"\"))\nRuntimeError: Stage failed during real runtime: {\"stage\": \"R01\", \"reason\": \"NavigationFailed\"}\n",
+      "phase": "stage_wait",
+      "stage_index": 2
+    }
+  ],
+  "cleanup": {
+    "state": "passed",
+    "file": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinMasterRewards\\7FB4D4E045A7EC975922FE95F4297938.nlmr",
+    "deleted_only_test_run": true,
+    "file_existed": false,
+    "removed_same_run_tmp": false
+  },
+  "scope": [
+    "The actual saved gameplay map, possessed level player and finite encounter director run in PIE.",
+    "Stage entries use explicit setup teleports; this is not a continuous traversal test.",
+    "R01's two actual rock casters run live AI for 12 game seconds, observing Telegraph/Attack, emitted projectiles and stationary feet.",
+    "Other enemy AI is locally paused for deterministic orchestration/reward checks; automatic health protection may assist the R01 observation.",
+    "Defeats use Resolver.ResolveContact with a transient 999-damage test definition.",
+    "Perfect parries use live spawned enemies and Resolver.ResolveGuardContact, with real release/rearm timing.",
+    "No combat/death/reward delegates are broadcast manually and no stage-completion state is written.",
+    "This does not verify human combat, AI attack readability, VR gestures, headset performance or difficulty balance."
+  ],
+  "elapsed_seconds": 32.48500000000058,
+  "run_id_digits": "7fb4d4e045a7ec975922fe95f4297938",
+  "pawn_class": "/Script/experiment.NLLevelCombatCharacter",
+  "director_class": "/Script/experiment.NLLevelEncounterDirector"
+}

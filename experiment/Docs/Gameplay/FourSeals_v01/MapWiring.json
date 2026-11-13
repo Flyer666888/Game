@@ -1,0 +1,222 @@
+{
+  "state": "passed",
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\FourSeals_v01\\Backups\\Content\\ReversedScale\\Maps\\L_NilinGameplayV01.umap",
+  "backup_sha256": "59141685f42598ff2f04119747c02a71938083675cf5b66de8e673aa46a038b0",
+  "records": [
+    {
+      "stage": "Aoutside",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "Ainside",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "R01",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "Bcourt",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "Bexit",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "R02",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "R03",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "Cestablish",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "Cinterrupt",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "Csiege",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "Cunseal",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "GM01",
+      "before": {
+        "master_id": "GM01",
+        "seal_id": "SwordSeal",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "GM01",
+        "seal_id": "SwordSeal",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "GM02",
+      "before": {
+        "master_id": "GM02",
+        "seal_id": "TalismanSeal",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "GM02",
+        "seal_id": "TalismanSeal",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "GM03",
+      "before": {
+        "master_id": "GM03",
+        "seal_id": "AlchemySeal",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "GM03",
+        "seal_id": "AlchemySeal",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "GM04",
+      "before": {
+        "master_id": "GM04",
+        "seal_id": "WindSeal",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "GM04",
+        "seal_id": "WindSeal",
+        "required_seal_ids": []
+      }
+    },
+    {
+      "stage": "Boss",
+      "before": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": []
+      },
+      "after": {
+        "master_id": "None",
+        "seal_id": "None",
+        "required_seal_ids": [
+          "SwordSeal",
+          "TalismanSeal",
+          "AlchemySeal",
+          "WindSeal"
+        ]
+      }
+    }
+  ],
+  "scope": "Existing stage quest identities and Boss RequiredSealIds only. No spawn, wave, actor transform, whitebox or navigation rebuild."
+}

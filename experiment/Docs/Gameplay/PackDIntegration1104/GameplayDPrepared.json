@@ -1,0 +1,19 @@
+{
+  "state": "prepared",
+  "animation": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/A_Wuxia_Attack_PackD.A_Wuxia_Attack_PackD",
+  "source": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04.Pack_Anim_CSATLI_04",
+  "root_curve": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackCombat/D/CV_PackD_GroundTravel.CV_PackD_GroundTravel",
+  "duration": 2.3333332538604736,
+  "frames": 70,
+  "root_distance_cm": 284.69471462206354,
+  "reconstruction_max_error_cm": 5.388331990273973e-05,
+  "curve_key_max_error_cm": 1.5241807610568041e-05,
+  "protected_sha256": {
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07": "c1fbac072ede781842eb56ad9b5d692ecde9af7640d0a04afa8f29924440e4c9",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07_Skeleton.SK_WuxiaMale_Native_v07_Skeleton": "cc231a773d37e2cfdf5d2f59dcac19c45534d15dd08d4d7c545d66fd1885e217",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04.Pack_Anim_CSATLI_04": "d61e36af3680d4fc1fd079febbced875ed500f6e06b5659be7415c8f5b3a48e3",
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_03.Pack_Anim_CSATLI_03": "87f4dbc0f6303b36c7aa748e1652744eeb01661a737f19744579809f76f5aed8",
+    "/Game/Animations/Sword/Anim_CSATLI_04.Anim_CSATLI_04": "0ac51c7c9e28cb38f3d2e5fb6e4823151a020b93801592aa74767b494c635def"
+  },
+  "note": "Only new gameplay Hips planar translation split. Actor curve plus body pose reconstructs selected D; rotations/scales/timing unchanged."
+}

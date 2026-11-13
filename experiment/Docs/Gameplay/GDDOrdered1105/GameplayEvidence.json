@@ -1,0 +1,79 @@
+{
+  "state": "composed",
+  "created_utc": "2026-11-05T15:00:41.443786+00:00",
+  "output": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\GameplayEvidence.png",
+  "output_sha256": "7f0c289aea2c743e14f546a1b637c20d6c5e384e8435d7f81586b3ae2b0087f6",
+  "dimensions": [
+    1328,
+    2510
+  ],
+  "source_images": [
+    {
+      "index": 0,
+      "caption": "候场补位",
+      "source": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\Queue_FourActive.png",
+      "sha256": "a94e40fd21dea94c687d210246182353941a744f923cad2246f5b97e0f808d01",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "display_rectangle": [
+        24,
+        162,
+        1280,
+        720
+      ],
+      "resized": false,
+      "cropped": false,
+      "color_adjusted": false
+    },
+    {
+      "index": 1,
+      "caption": "头部弱点 ×1.5",
+      "source": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\Weak_SphereHead.png",
+      "sha256": "28732ce52ddd30cc603ca7eb951356eafb26ea16186bb5186dc93cb285e1a69e",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "display_rectangle": [
+        24,
+        952,
+        1280,
+        720
+      ],
+      "resized": false,
+      "cropped": false,
+      "color_adjusted": false
+    },
+    {
+      "index": 2,
+      "caption": "还元补给拾取",
+      "source": "D:\\game design\\experiment\\Docs\\Gameplay\\GDDOrdered1105\\Loot_Collected.png",
+      "sha256": "2140c60511ca4693271b51f86d4f334d909c0829db9578dbbba68e0db0ac99d8",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "display_rectangle": [
+        24,
+        1742,
+        1280,
+        720
+      ],
+      "resized": false,
+      "cropped": false,
+      "color_adjusted": false
+    }
+  ],
+  "fixture_notice": "自动化验证截图：使用受控姿态／伤害夹具，非人工头显试玩",
+  "layout": "Three full-resolution frames stacked vertically with separate caption bands.",
+  "scene_pixels_identical_to_sources": true,
+  "resizing": false,
+  "cropping": false,
+  "color_adjustments": false,
+  "ai_generated_scene_content": false,
+  "scene_comparison_unchanged": true,
+  "weakpoint_selection": "Sphere-head frame retains the visible in-game x1.5 feedback without the floating blade fixture visible in the blade-head frame.",
+  "visual_review": "passed: all three screenshots remain complete, Chinese headings and fixture notice sit in separate bands, original in-game weakpoint and healing feedback remain visible"
+}

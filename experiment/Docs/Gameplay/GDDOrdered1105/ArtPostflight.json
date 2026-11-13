@@ -1,0 +1,564 @@
+{
+  "state": "passed",
+  "checks": {
+    "all_new_materials_support_instancing": true,
+    "cosmetic_meshes_have_no_collision": true,
+    "cosmetic_meshes_do_not_affect_navigation": true,
+    "all_decor_materials_support_instancing": true,
+    "all_16_stages_present": true,
+    "spawn_projection_and_path": true,
+    "baked_static_nav_retained": true,
+    "saved_art_map_hash_matches": true
+  },
+  "materials": [
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_StoneFloor.M_NL1105_StoneFloor",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_CarvedStone.M_NL1105_CarvedStone",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_MountainRock.M_NL1105_MountainRock",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_PaleRock.M_NL1105_PaleRock",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_JadeRoof.M_NL1105_JadeRoof",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_Redwood.M_NL1105_Redwood",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_AgedGold.M_NL1105_AgedGold",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_JadeSeal.M_NL1105_JadeSeal",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_LanternAmber.M_NL1105_LanternAmber",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_StoneJoint.M_NL1105_StoneJoint",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_Pine.M_NL1105_Pine",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_IndigoCloth.M_NL1105_IndigoCloth",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_CloudSea.M_NL1105_CloudSea",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_DistantJadeRock.M_NL1105_DistantJadeRock",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_SealBeacon.M_NL1105_SealBeacon",
+      "instanced_usage": true
+    },
+    {
+      "asset": "/Game/ReversedScale/Environment/GDD1105/Materials/M_NL1105_SealHalo.M_NL1105_SealHalo",
+      "instanced_usage": true
+    }
+  ],
+  "cosmetic_components": [
+    {
+      "actor": "NL1105_Art_SM_Dragon_Statue_01a",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_Cube",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_SM_Lamp_01a",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_SM_NL1105_LanternStand",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_SM_Tree_Big_01a",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_SM_Tree_Medium_01a",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_SM_Rock_01a",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_SM_Rock_01b",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_SM_Rock_02a",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_SM_Cliff_01a_Far",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_SM_Cliff_01c_Far",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_SealGuideHalo",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    },
+    {
+      "actor": "NL1105_Art_SealGuideBeam",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "navigation": false,
+      "materials_support_instancing": true
+    }
+  ],
+  "spawn_checks": [
+    {
+      "stage": "Aoutside",
+      "point": "Aoutside_P01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Aoutside",
+      "point": "Aoutside_P02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P03",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P04",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P05",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Ainside",
+      "point": "Ainside_P06",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "R01",
+      "point": "R01_P01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "R01",
+      "point": "R01_P02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P03",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P04",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P05",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bcourt",
+      "point": "Bcourt_P06",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P03",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P04",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P05",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Bexit",
+      "point": "Bexit_P06",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "R02",
+      "point": "R02_P01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "R02",
+      "point": "R02_P02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "R03",
+      "point": "R03_P01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "R03",
+      "point": "R03_P02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P03",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P04",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P05",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P06",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P07",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cestablish",
+      "point": "Cestablish_P08",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P03",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P04",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P05",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P06",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P07",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cinterrupt",
+      "point": "Cinterrupt_P08",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P03",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P04",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P05",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P06",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P07",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Csiege",
+      "point": "Csiege_P08",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P03",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P04",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P05",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P06",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P07",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Cunseal",
+      "point": "Cunseal_P08",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "GM01",
+      "point": "GM01_Master",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "GM02",
+      "point": "GM02_Guard01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "GM02",
+      "point": "GM02_Guard02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "GM02",
+      "point": "GM02_Master",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "GM03",
+      "point": "GM03_Guard01",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "GM03",
+      "point": "GM03_Guard02",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "GM03",
+      "point": "GM03_Master",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "GM04",
+      "point": "GM04_Master",
+      "projection": true,
+      "path": true
+    },
+    {
+      "stage": "Boss",
+      "point": "Boss_P01",
+      "projection": true,
+      "path": true
+    }
+  ],
+  "spawn_reference_count": 67
+}

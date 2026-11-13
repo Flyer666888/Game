@@ -1,0 +1,33 @@
+四宗师遗印 / Four Seals v01
+
+当前状态：源码与验证脚本已完成，等待主代理统一构建、接线和运行。本文不代表已通过实玩。
+
+规则
+1. GM01/GM02/GM03/GM04 对应剑印/符印/丹印/风印。
+2. 真正被当前遭遇控制器拥有的宗师，在最后一波最后一名敌人被击败时，先持久记录击败，再自动收取对应遗印。满血也会获得。
+3. 四印是关键物品，额外25HP恢复补给仍是独立可拾取奖励。领取补给、死亡、R重试、进入Boss战不会消耗印记。
+4. Boss除既有前置段外，还必须满足四印全持有。缺印显示具体名称；之前只打败第四宗师不能绕过该门槛。
+5. 宗师击败记录原本已存入每Run的持久ledger，本版严格映射为四印，因此已有v2检查点/ledger自然兼容，不改检查点格式。
+6. 当前关卡新增LevelId到RunId的固定48字节续接记录，含关卡SHA1身份、RunGuid和CRC，使用同目录临时文件原子替换。损坏记录保留并拒读，不隐式新开空进度。
+7. Ctrl+N（空闲且未暂停）显式开始新试炼；旧Run ledger保留，可恢复。R继续当前试炼并保留印记。
+8. 跨进程恢复的是四印/宗师击败与既有补给账本；本版没有把所有普通区域通关/玩家位置改造成新的全关卡检查点系统。
+
+编辑器执行顺序
+1. 完成C++构建后，在非PIE状态执行 Scripts/Editor/FourSealsV01/wire_seal_gates.py。
+2. 运行 Nilin.Progression.FourSeals 与 Nilin.LevelEncounter.FourSeals 测试，并回归旧MasterRewards/LevelEncounter测试。
+3. 执行 runtime_four_seals.py：真实保存地图、真实波次/EnemyOwned身份、通过CombatResolver的测试接触击败109名敌人；观察四印自动收取、补给独立、空库存Boss入口拒绝、持印进入Boss。
+
+运行验证边界
+实跑脚本用进入区域的测试传送、短时AI观察以及999伤害测试定义隔离编排。它不代表人工连续通关、VR手柄输入、平衡或头显性能验收。
+
+隔离与失败恢复
+脚本在BeginPlay前临时替换Editor Director.LevelId为随机Test.FourSeals.<guid>；真实GameMode只加载该测试profile。Player必须禁用CheckpointContext，否则测试拒绝继续。
+结束PIE后先恢复Editor原LevelId，不保存地图，并核对磁盘map hash；只清除确切的测试marker与测试Run ledger。已存在的用户文件不在清理范围。
+FixtureIsolation.json记录了原身份、临时身份、测试Run及地图hash。若脚本被外部打断：先结束PIE，再执行 restore_fixture_editor.py。该恢复脚本只恢复Editor身份，不保存地图、不删除文件。
+
+能力接线
+Stage入口记录BurstEnergy；R恢复该入口能量、清技能暂停状态。四印持续保留。通用能力组件由COMBAT05模块提供。
+
+已确认设计出处
+Docs/LevelDesign/Blockout_v04/Plan/BridgeGrandmasterEncounterAnnotations.json：fixed_drop、auto_collect、preserved_on_checkpoint_retry、consumed=false、save_progress_on_grandmaster_defeat、defeated_grandmasters_respawn=false、duplicate_rewards=false。
+Docs/Gameplay/EncounterRecovery_v01/EncounterConfig.json：各master_id/seal_id以及Boss.required_seal_ids。

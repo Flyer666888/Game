@@ -1,0 +1,34 @@
+VR 握剑朝向与剑身细化（2026-10-26）
+
+试玩：D:\game design\experiment\Run_VR_Demo.cmd
+使用 PICO 串流连接 SteamVR，确认头显和两个手柄就绪后双击。须重新启动 Demo 才会加载本轮编译和资产。
+
+1. 握剑朝向
+原实现将剑尖放在 OpenXR Grip 的 UE +Z，而标准握柄长度方向经 UE 坐标转换后为 +X，因此偏转约90度。
+现在明确使用 RightGrip，并将右手和手上附着的剑作为整体转正。竖直握柄时剑身竖直、剑尖朝上；翻腕或斜握时正常随动，不固定世界朝向。
+保持手部网格、握姿动画、手—剑插槽关系和桌面握持变换。剑气仍沿右手 Grip +X 发射，现在与剑尖轴一致。
+
+2. 玩家剑 A 精细版
+新增 /Game/ReversedScale/Weapons/SelectedSwordA_DetailV01/SM_PlayerSword_A_DetailV01。
+真实几何增加剑脊、两侧浅槽、双刃锋口、护手/剑首倒角和近护手的少量对称云纹。
+从原版1,594三角形增加为11,878三角形，7材质槽。替换刃面与护手材质，改善粗划痕及旧法线纹理在新倒角上的拉伸；保留握柄纹理。
+总长78.314cm、握柄原点与尺寸、剑尖Z=64.9391cm、攻击采样位置保持一致。挥剑伤害仍为10，剑气伤害仍为15。
+玩家加载顺序：精细版 A → 原版 A → 原始月曜备用武器；未覆盖旧 A 资产或地图。
+
+3. 已完成验证
+UE5.8 Editor Development 编译成功（Build_02.log）。首次新增测试的 TObjectPtr 模板类型错误已修复，初次构建日志保留。
+16项自动化测试全部通过：13项无警告、3项带警告、0失败。范围为实际手—剑组件的7组姿态，以及现有剑气手势、挥击采样、释放/冷却、遮挡和伤害测试。
+警告涉及无头测试缺少观战屏、初始化时手网格尚未加载，以及原有素材空引擎版本；完整内容保留于 Automation_01/index.json。
+独立 FBX 重新导入验证通过：0退化面、刃体0非流形边，握柄顶点最大偏差约0.000000507cm。
+UE 导入保存并重新加载通过；实际 VR Pawn 在 PIE 装备了新模型。7组姿态下剑刃采样轴与 Grip +X 点积均接近1。
+Screenshots/After_Upright.png 与 Blade_Closeup.png 是真实 UE 渲染，但手柄姿态由脚本提供，不是头显录屏。Before_Upright.png 在隔离 PIE 中临时重建旧变换作为比较。
+首次截图脚本调用了 Python 未暴露的材质清理接口，姿态检查已通过但截图失败；修正后重跑成功，失败报告另存保留。
+原剑、手网格、握姿动画、VR测试场和爬山关卡文件哈希未变；测试关闭了临时检查点写入，结束后恢复，编辑器已正常关闭。
+VR启动前检查通过。未自动替用户启动真实头显试玩。
+
+4. 验收边界
+以上验证不能替代物理 PICO 手柄的握持验收。本机以 SteamVR/OpenXR 接收串流姿态，仍请实际复测“手柄竖直、剑尖朝上”和翻腕随动。
+本轮没有修改敌人动作、地图或奖励规则，也没有进行全关卡性能基准或完整 VR 通关验收。
+
+恢复点：Backups/Source 保存修改前代码，Backups/VRDemo_操作说明.txt 保存旧操作说明；原 A .uasset/.blend/.fbx 保持原位。
+主要报告：FinalReport.json、ImportReport.json、RuntimeGripReport.json、AssetReadbackReport.json、Automation_01/index.json。

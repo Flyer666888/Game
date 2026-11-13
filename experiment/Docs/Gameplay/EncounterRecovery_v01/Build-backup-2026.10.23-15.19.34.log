@@ -1,0 +1,123 @@
+Log started at 10/23/2026 23:19:34 (2026-10-23T15:19:34Z)
+Resolved project argument D:\game design\experiment\experiment.uproject to D:\game design\experiment\experiment.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\game design\experiment\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\game design\experiment\Intermediate\Build\XmlConfigCache.bin): D:\game design\experiment\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\game design\experiment\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: D:\game design\experiment\Docs\Gameplay\EncounterRecovery_v01\Build.log
+
+Setting temp directory to 'C:\Users\21475\AppData\Local\Temp\UnrealBuildTool\d662bf54'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: D:\浏览器下载\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll experimentEditor Win64 Development "-Project=D:\game design\experiment\experiment.uproject" -NoHotReloadFromIDE -NoUBA -MaxParallelActions=4 -WaitMutex "-Log=D:\game design\experiment\Docs\Gameplay\EncounterRecovery_v01\Build.log"
+Executing up to 4 actions based on MaxProcessorCount override
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Skipping D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Building UnrealEditor - experimentEditor - Win64 - Development
+UnrealHeaderTool needs to run because SavedTimestamp is older than HeaderFileTimestamp (D:\game design\experiment\Source\experiment\Public\AI\NLEnemyBrainComponent.h) for module experiment
+Parsing headers for experimentEditor
+  Running Internal UnrealHeaderTool "D:\game design\experiment\experiment.uproject" "D:\game design\experiment\Intermediate\Build\Win64\experimentEditor\experimentEditor.uhtmanifest" -WarningsAsErrors -installed
+UHT compiled-in object format Default
+Step - Parse Headers
+Reading engine version from file: D:\浏览器下载\UE_5.8\Engine\Source\Runtime\Launch\Resources\Version.h
+Got engine version 5.8.2
+Step - Populate symbol table
+Step - Exports
+       Exporter Stats skipped
+       Exporter Json skipped
+       Running exporter CodeGen
+UHT processed experimentEditor in 0.9606053 seconds (2 generated files written)
+Deleting outdated item: D:\game design\experiment\Binaries\Win64\UnrealEditor-experiment.pdb
+Deleting outdated item: D:\game design\experiment\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.lib
+Building experimentEditor...
+===== Toolchain Information =====
+Using ISPC compiler (D:\浏览器下载\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35229 toolchain (D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from experiment unity file: experiment.cpp, NLAttackDirectorSubsystem.cpp, NLEnemyAttackWindowNotifyState.cpp, NLEnemyBrainComponent.cpp, NLEnemyCharacter.cpp, NLGuardCaptainCharacter.cpp, NLTalismanAttackComponent.cpp, NLDeathBlendAnimInstance.cpp, NLBlockoutMeshCluster.cpp, NLBlockoutPlayer.cpp, NLBladeComponent.cpp, NLCombatIdentityComponent.cpp, NLCombatProjectile.cpp, NLCombatRecoveryComponent.cpp, NLCombatResolverSubsystem.cpp, NLCombatVitalsComponent.cpp, NLGuardComponent.cpp, NLTrainingEnemy.cpp, NLTrainingProjectileEmitter.cpp, NLEncounterController.cpp, NLLevelEncounterDirector.cpp, NLHealingPickup.cpp, NLCombatLabHUD.cpp, NLDesktopPlayerCharacter.cpp, NLLevelCombatPlayer.cpp, NLVRGameMode.cpp, NLVRPlayerCharacter.cpp, NLMasterRewardSubsystem.cpp, NLRunStateSubsystem.cpp, NLCheckpointService.cpp, NLBladeQiGestureTests.cpp, NLBladeQiMotionTests.cpp, NLBladeQiProjectileTests.cpp, NLCombatRecoveryTests.cpp, NLLevelEncounterTests.cpp, NLMasterRewardTests.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 11 action(s)
+  CPU 24 physical cores, 24 logical cores
+  Memory 31.73 GB physical, 25.65 GB/33.73 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 1547992475 used. Action: Compile [x64] Module.experiment.cpp ()
+Cache bucket 416513229 used. Action: Link [x64] UnrealEditor-experiment.dll ()
+All processes queued
+[1/11] Compile [x64] Module.experiment.cpp [NoUba]
+[2/11] Compile [x64] NLCombatLabHUD.cpp [NoUba]
+[3/11] Compile [x64] NLCombatProjectile.cpp [NoUba]
+[4/11] Compile [x64] NLEncounterController.cpp [NoUba]
+[5/11] Compile [x64] NLEnemyBrainComponent.cpp [NoUba]
+[6/11] Compile [x64] NLEnemyCharacter.cpp [NoUba]
+[7/11] Compile [x64] NLGuardCaptainCharacter.cpp [NoUba]
+[8/11] Compile [x64] NLTalismanAttackComponent.cpp [NoUba]
+[9/11] Link [x64] UnrealEditor-experiment.lib [NoUba]
+  ￕ�ￔￚﾴﾴﾽﾨ﾿￢ D:/game design/experiment/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/UnrealEditor-experiment.lib ﾺￍﾶￔￏ￳ D:/game design/experiment/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/UnrealEditor-experiment.exp
+[10/11] Link [x64] UnrealEditor-experiment.dll [NoUba]
+[11/11] WriteMetadata experimentEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 19.19 seconds
+Output binary: D:\浏览器下载\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.212 Main
+   0.009          [  0.009]  +0.054 Apply XmlConfig
+   0.070          [  0.070]  +0.057 AddTelemetry
+   0.143          [  0.143]  +0.069 RegisterPlatforms
+[  0.221]  +0.015 ParseCommandLine
+[  0.265]  +0.092 LoadMakefile
+   0.275          [  0.009]  +0.020 EngineRulesPlugins
+   0.297          [  0.031]  +0.002 EngineRulesFetchDirs
+   0.305          [  0.039]  +0.006 EngineRulesAssembly
+   0.311          [  0.045]  +0.000 ProgramRulesAssembly
+   0.312          [  0.046]  +0.010 ProjectRulesAssembly
+   0.323          [  0.057]  +0.159 CreateTargetRules
+   0.367             0.101          [  0.044]  +0.000 FindPlugins
+   0.378             0.112          [  0.055]  +0.071 MakefileValid
+[  0.515]  +0.003 CppDependencyCache
+[  0.528]  +0.078 experimentEditor Win64 Development
+[  0.607]  +1.096 UHTWait
+   0.607          [  0.000]  +0.104 UHTManifest
+   0.712          [  0.105]  +0.984 UHT
+[  1.719]  +0.011 UHTTimestamps
+   1.729          [  0.009]  +0.006 CppDependencyCache
+[  1.735]  +0.066 Preparing ActionGraph
+   1.745          [  0.010]  +0.003 LinkActions
+   1.749             0.014          [  0.003]  +0.000 DetectActionGraphCycles
+   1.749          [  0.014]  +0.000 GatherPrerequisiteActions
+   1.751          [  0.015]  +0.000 CppDependencyCacheWait
+   1.751          [  0.016]  +0.034 GatherOutdatedActions
+   1.789          [  0.053]  +0.002 LinkActions
+   1.789             0.053          [  0.000]  +0.000 DetectActionGraphCycles
+   1.792          [  0.056]  +0.007 DeleteOutdatedProducedItems
+   1.799          [  0.064]  +0.000 SaveActionHistory
+   1.801          [  0.066]  +0.000 CreateDirectoriesForProducedItems
+[  1.811]  +0.171 GarbageCollect
+[  1.983] +19.018 <unknown>
+[ 21.001]  +0.000 Deploying targets
+[ 21.002]  +0.000 DisconnectCache
+[ 21.005]  +0.000 SaveCasTable
+[ 21.007]  +0.064 Saving caches
+[ 21.072]  +0.001 TelemetryService.FlushEvents
+[ 21.074]
+
+Result: Succeeded
+Total execution time: 21.07 seconds

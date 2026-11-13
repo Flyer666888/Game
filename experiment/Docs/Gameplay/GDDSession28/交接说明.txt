@@ -1,0 +1,52 @@
+GDD 推进交接 — 2026-10-28
+
+本轮范围
+用户授权继续按 GDD 工作两小时。计划窗口为北京时间 15:17:09–17:17:09；最后编译、失败修复与回归验收延长到约 17:39。没有把未完成的第二关或真实头显体验标为通过。
+
+已完成并可使用
+1. LEVEL-01：玩家普通近战 DA_YueyaoMelee 从 10 改为 30 伤害，与 GDD §9.2 普通弟子 30 生命、一刀击杀规则对齐。剑气与敌人伤害未调整。
+   在保存的主关卡进行实际 CharacterMovement + StartDesktopSlash + 原生刀刃碰撞检查：一个活跃剑兵被单次 30 伤害击杀，灵气事件只结算一次。另一个敌人暂停以隔离检查。不是头显挥动，也不是全程连续通关。
+   既有 40 灵气升级、1.25 倍伤害倍率和 Bexit 升级保底保留；实际运行再次验证独立 10 伤害测试定义升级后为 12.5。
+
+2. 主关卡 VR 路由：现有 NLVRGameMode / NLVRPlayerCharacter 识别 LevelEncounterDirector，使用主关卡区域推进、阶段状态与空间文字提示；没有 Director 时仍走原实验室流程。
+   新入口 Run_Gameplay_VR.cmd 加载 L_NilinGameplayV01?game=/Script/experiment.NLVRGameMode。
+   原 Run_VR_Demo.cmd 仍进入战斗测试场。新入口仅用于独立试玩，拒绝 -Editor，避免编辑器忽略 URL 的 GameMode 选择。
+   设备、双手柄、输入和重定位连续就绪 3 秒后才允许区域触发及开战倒计时；未就绪不会提前刷怪。
+   主地图以无头显模式在真实 PIE 检查：生成原生 VR 玩家；6 秒内不激活遭遇、不刷敌。此测试不证明 PICO 追踪或帧率。
+
+3. 统一阶段重试：桌面与 VR 共用重试恢复。先校验阶段/祭坛，恢复入口成长快照，再清理弹体、战斗和追踪状态并重定位。
+   修复回调重入、祭坛丢失时半恢复、重复恢复成长与重复通知等问题。自动化覆盖连续重试、快照失败、回调销毁目标及已准备恢复不再重复执行。
+
+4. OBJ-01：Director 已支持可选 ObjectiveStableId。进入阶段捕获祭坛入口快照、Warning 时冻结、开战后启动；波次打完不会跳过祭坛；进度达 100% 停止后续刷怪，等待剩余敌人与飞行弹体清除；失败、暂停和重试衔接已覆盖。
+   修复祭坛失败回调的递归状态切换，以及 AI PossessedBy 改写敌人 Owner 后漏记弹体的问题。弹体在创建时从 Encounter 正式生成记录确定归属，供暂停和清理使用；不依赖 AI Pawn 的 Actor Owner。
+   新的祭坛阶段测试保留真实 AIController 占有，验证暂停/恢复弹体、施法者死亡后仍等待飞行弹体、最终清理后再完成。
+
+验证证据
+- Build_Final.log：experimentEditor Win64 Development，Succeeded，exit 0。
+- Automation_Final/index.json：65 项全部成功，51 项无警告、14 项带警告，0 失败、0 未运行。
+  警告包含无渲染测试世界缺少手部 SkeletalMesh、无 HMD spectator，以及故意触发的失败路径。它们不等于真实头显验收。
+- Automation/index.json 保留首次 1 项失败结果，失败揭示并促成本轮弹体归属修复；以 Automation_Final 为最终结果。
+- MeleeRuntime/RuntimeFirstLevel.json：原生移动/挥剑碰撞击杀与倍率检查，success=true。
+- VRRuntime/RuntimeFirstLevel.json：主地图 VR 玩家与无设备准备门检查，success=true。
+- 两个 Runtime 报告中的 FixtureIsolation：只清理精确生成的测试资源和测试存档，恢复 LevelId / GameMode，未保存主地图修改。
+- VRMainLauncherPreflight.json、VRLabLauncherPreflight.json、VRLauncherChecks.json：入口文件与 SteamVR 路径预检通过；预检不启动 SteamVR。
+- SourceChanges.json：本轮 15 个既有源文件变更的前后哈希；另新增 NLLevelObjectiveTests.cpp、NLVRLevelFlowTests.cpp。
+- MeleeGDDAlignment.json：资产修改前后哈希与真实主地图阶段列表。
+
+未完成 / 下一步顺序
+1. PICO 实机验收首关：握持轴、移动、阶段推进、失败重试、舒适度、帧率与连续通关时间。本轮未物理操作头显。战斗开始后的追踪丢失尚不会自动暂停整场。
+2. 主地图炼丹阶段仍为 Cestablish / Cinterrupt / Csiege / Cunseal，所有 ObjectiveStableId 当前仍为 None；本轮未把祭坛代码能力冒充已配置完成的主地图玩法。
+   下一步应先确定四阶段共享祭坛的连续进度/阶段快照规则，再配置目标，并实现 ENEMY-03 真实干扰施法、打断、目标伤害与可读提示。保留 GDD 240 秒有效救援规则，避免清完敌人后无事可做地空等。
+3. 主关卡 Director 使用运行中入口快照；祭坛主地图磁盘检查点、第二次升级、完整 Boss 多阶段仍未完成。
+4. 最后才扩展第二关与 Boss 的整段实测；不要把独立实验室或手动规则探针称为全流程验收。
+
+恢复与注意事项
+Backups/Source 包含本轮原始 Source；修改前近战资产位于 Backups/DA_YueyaoMelee.uasset；启动/构建脚本原件也在 Backups。恢复 Source 后需要重新构建模块，不能只覆盖部分头文件。
+Build_CombatModule.ps1 的默认缓存已改为本工程 Saved/BuildRuntime，支持可选 -BuildRoot，并继续验证 Junction 目标；不再依赖过期聊天的缓存目录。
+主地图文件哈希仍为 bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81。
+本轮没有修改刀剑网格、PICO 握持轴、敌人动画或白模地形。创建的隐藏 UE 测试/编辑器进程均已正常退出。
+
+试玩
+主关卡 VR：D:\game design\experiment\Run_Gameplay_VR.cmd
+键鼠主关卡：D:\game design\experiment\Run_Gameplay_Demo.cmd
+VR 操作补充：D:\game design\experiment\主关卡VR_操作说明.txt

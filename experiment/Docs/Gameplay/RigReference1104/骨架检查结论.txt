@@ -1,0 +1,23 @@
+2026-11-04 骨架参考检查
+
+输入：C:/Users/21475/Desktop/Game model/古代男青年走路动画.fbx
+参考图：C:/Users/21475/Desktop/Game model/调整骨骼朝向.png
+检查方式：Blender 5.2后台导入，不启用automatic_bone_orientation，不保存或覆盖FBX、blend或UE资产。
+
+实测：
+- 用户FBX：1套骨架，41骨（含末端骨），根mixamorig:Hips，34个蒙皮顶点组；1个动画Armature|mixamo.com|Layer0，帧1–32，30fps。包含肩、上臂、前臂、手掌及拇指/食指链。未发现独立twist辅助骨。
+- 当前敌人源FBX：23骨，root→pelvis，20个蒙皮顶点组；无指骨或twist辅助骨。当前FBX不含动画，攻击由项目动画资源另行绑定。
+- 两份网格均无未赋权顶点，权重总和误差约百万分之二；这只证明基础完整性，不代表动作变形质量。
+- 旧prepare_wuxia_enemy.py从静态网格重新搭23骨原型，不是从本次用户FBX删骨。后续曾修肩部权重并替换右手，现有右手仍由hand_r整体驱动。
+
+已定位的动作缺陷：
+- 当前v06起手0.133秒附近，右前臂单帧变化21.25度（60fps）；每帧网格搜索肘平面且只有软连续性惩罚，存在方向跳变。
+- 当前动作基础v04把右锁骨运动缩到15%；v06胸胯使用相同时间曲线，缺少明确发力先后。
+- 战斗命中测试不能作为自然动作验收标准。应增加关节角速度/加速度与视觉回放。
+
+截图解释：Hips旋转能提示整体朝向/参考姿势的检查方向，无法单独证明肩肘局部轴错误。不能把截图中的旋转数值直接复制到现有root/pelvis骨架。
+
+建议：以用户FBX原有骨架和权重建立独立对照；先验证抬臂、弯肘、前臂旋转三个基础动作，分离蒙皮缺陷与动画缺陷。统一朝向/单位和重定向参考姿势，再用明确的全身攻击关键姿态、连续肘方向、骨盆到胸肩再到剑手的发力时序重做。IK仅用于握剑、足部接触等局部修正。走路FBX可提供骨架和自然联动参考，本身不包含劈砍动作。
+
+原始结构数据：provided_rig.json、current_rig.json；概览Summary.json。
+官方参考：https://dev.epicgames.com/documentation/unreal-engine/retargeting-bipeds-with-ik-rig-in-unreal-engine

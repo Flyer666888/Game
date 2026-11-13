@@ -1,0 +1,169 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "central_damage_multiplier_10_to_12_5": true,
+    "one_native_sweep_kills_ordinary_30_hp_enemy": true,
+    "defeat_reward_awarded_once": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [
+    {
+      "game_time": 2.4291598051786423,
+      "phase": "damage_level1",
+      "origin": "ten_damage_multiplier_fixture",
+      "source_id": "82a927b149770292a051a5bc4ebfc6a9",
+      "target_id": "c30c286c4e52a974754992b873198e71",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    },
+    {
+      "game_time": 3.2291696034371853,
+      "phase": "damage_level2",
+      "origin": "ten_damage_multiplier_fixture",
+      "source_id": "82a927b149770292a051a5bc4ebfc6a9",
+      "target_id": "c30c286c4e52a974754992b873198e71",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 12.5,
+      "target_defeated": false
+    },
+    {
+      "game_time": 7.379422806203365,
+      "phase": "physical_opening",
+      "origin": "engine_physical",
+      "source_id": "82a927b149770292a051a5bc4ebfc6a9",
+      "target_id": "970feb3541001bf3e9ff95bc6c8e8e44",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 30.0,
+      "target_defeated": true
+    }
+  ],
+  "physical_opening": {
+    "state": "passed",
+    "native_blade_results": [
+      {
+        "game_time": 7.379422806203365,
+        "phase": "physical_opening",
+        "origin": "engine_physical",
+        "source_id": "82a927b149770292a051a5bc4ebfc6a9",
+        "target_id": "970feb3541001bf3e9ff95bc6c8e8e44",
+        "outcome": "<NLCombatOutcome.HIT: 0>",
+        "damage": 30.0,
+        "target_defeated": true
+      }
+    ],
+    "walked_cm": 969.0292047968173,
+    "health_after": 100.0,
+    "real_ai_telegraph_observed": false,
+    "game_seconds": 4.15025320276618,
+    "ai_states": [
+      {
+        "state": "<NLEnemyState.SPAWN: 0>",
+        "game_time": 5.2291971035301685
+      },
+      {
+        "state": "<NLEnemyState.APPROACH: 1>",
+        "game_time": 5.5625343061983585
+      },
+      {
+        "state": "<NLEnemyState.WAIT_FOR_SLOT: 2>",
+        "game_time": 7.246088705956936
+      }
+    ],
+    "max_reservations": 0,
+    "spawn_observation": {
+      "failed_attempts_start": 0,
+      "failed_attempts_end": 1,
+      "failed_attempts_delta": 1,
+      "samples": [
+        {
+          "failed_attempts": 0,
+          "spawned": 1,
+          "alive": 1,
+          "game_time": 5.2291971035301685
+        },
+        {
+          "failed_attempts": 1,
+          "spawned": 1,
+          "alive": 1,
+          "game_time": 5.879202805459499
+        },
+        {
+          "failed_attempts": 1,
+          "spawned": 2,
+          "alive": 2,
+          "game_time": 6.379312604665756
+        },
+        {
+          "failed_attempts": 1,
+          "spawned": 2,
+          "alive": 1,
+          "game_time": 7.379422806203365
+        }
+      ],
+      "scope": "Only the opening live-target observation. The other opening enemy is paused; this is not a full-live-AI spawn benchmark."
+    },
+    "progression_after_first_defeat": {
+      "ling_qi": 1.0,
+      "level": 1,
+      "burst_energy": 18.0,
+      "event_ids": [
+        "Test.Level01.95e0fe003f0f43e19ff9c79905e90b44.Aoutside.Wave.01.Spawn.0000"
+      ],
+      "damage_multiplier": 1.0
+    },
+    "duplicate_reward_rejected": true,
+    "scope": "One live AI and scripted CharacterMovement/StartDesktopSlash. Other owned AI paused; no player heals, teleports, direct resolver calls or damage edits inside this phase."
+  },
+  "damage_multiplier": {
+    "level1": {
+      "damage": 10.0,
+      "health_before": 30.0
+    },
+    "level2": {
+      "damage": 12.5,
+      "health_before": 20.0
+    }
+  },
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Saved main map, actual CharacterMovement and StartDesktopSlash native sweep against one live sword AI.",
+    "Other enemy paused. Scripted automation, not physical VR input or continuous playthrough.",
+    "10-damage fixture checks 1.25 upgrade multiplier before isolated opening. No healing/invulnerability during opening.",
+    "No map or user profile saved; unique test run and fixture assets cleaned by existing probe."
+  ],
+  "elapsed_seconds": 7.875,
+  "ordinary_melee_definition_damage": 30.0,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.95e0fe003f0f43e19ff9c79905e90b44",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\64feca372d10420b5f0c9f974f4b5e0cc3e899dd.nlrun",
+    "test_run_ids": [
+      "3db6b3fe444e14f182145f9ec586edb5",
+      "8450ada34742409c13495bb7f57143b2"
+    ],
+    "original_level_id": "Level.Nilin.Playable",
+    "map_sha256_before": "bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81",
+    "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+    "temporary_assets": [
+      "/Game/ReversedScale/Tests/TransientIntegration/DA_Level01_DamageTen_95e0fe003f0f43e19ff9c79905e90b44",
+      "/Game/ReversedScale/Tests/TransientIntegration/DA_Level01_EnemyDeathContact_95e0fe003f0f43e19ff9c79905e90b44"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "bab0bd005d11f9206effad341caf04c158a69dd46e9f098fc589e4a547e5ad81",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\64feca372d10420b5f0c9f974f4b5e0cc3e899dd.nlrun"
+    ],
+    "temporary_assets_removed": true
+  }
+}

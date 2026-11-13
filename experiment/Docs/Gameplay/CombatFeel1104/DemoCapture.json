@@ -1,0 +1,703 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "all_frames_captured": true,
+    "animated_hand_moves": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [
+    {
+      "game_time": 8.746617794036865,
+      "phase": "stage_active",
+      "origin": "engine_physical",
+      "source_id": "80f36892424e95dcad1c428b1387fd43",
+      "target_id": "6fdb79bc43b1e629eaf4eaa7c071ea01",
+      "outcome": "<NLCombatOutcome.HIT: 0>",
+      "damage": 10.0,
+      "target_defeated": false
+    }
+  ],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Current saved v06 UE animation sampled at 30 fps on actual equipped mesh/materials.",
+    "AI is held still while the animation clip is sampled; this is animation review, not real-time gameplay recording.",
+    "No new source rig has been applied."
+  ],
+  "elapsed_seconds": 20.282000000000153,
+  "frames": [
+    {
+      "index": 0,
+      "animation_time": 0.0,
+      "actual_time": 0.0,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -835.8867001187583,
+        -1090.3045349537908,
+        101.30174044926116
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_000.png"
+    },
+    {
+      "index": 1,
+      "animation_time": 0.03333333333333333,
+      "actual_time": 0.03333333507180214,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -835.3986644691681,
+        -1089.909816266463,
+        101.26294616958737
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_001.png"
+    },
+    {
+      "index": 2,
+      "animation_time": 0.06666666666666667,
+      "actual_time": 0.06666667014360428,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -832.7256755353493,
+        -1087.9373627631267,
+        101.21105138876447
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_002.png"
+    },
+    {
+      "index": 3,
+      "animation_time": 0.1,
+      "actual_time": 0.10000000149011612,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -824.7206744576781,
+        -1082.6000234660805,
+        101.2809499532392
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_003.png"
+    },
+    {
+      "index": 4,
+      "animation_time": 0.13333333333333333,
+      "actual_time": 0.13333334028720856,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -811.4516370919382,
+        -1074.1446466283237,
+        104.06113650378263
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_004.png"
+    },
+    {
+      "index": 5,
+      "animation_time": 0.16666666666666666,
+      "actual_time": 0.1666666716337204,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -797.4627247927426,
+        -1068.7283958251141,
+        111.69603624193633
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_005.png"
+    },
+    {
+      "index": 6,
+      "animation_time": 0.2,
+      "actual_time": 0.20000000298023224,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -788.494393180867,
+        -1066.1006988764502,
+        117.2846208123263
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_006.png"
+    },
+    {
+      "index": 7,
+      "animation_time": 0.23333333333333334,
+      "actual_time": 0.23333333432674408,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -784.7142861394507,
+        -1064.455749432006,
+        120.03978004811863
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_007.png"
+    },
+    {
+      "index": 8,
+      "animation_time": 0.26666666666666666,
+      "actual_time": 0.2666666805744171,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -782.9726223657926,
+        -1063.4515217209826,
+        122.14246566185632
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_008.png"
+    },
+    {
+      "index": 9,
+      "animation_time": 0.3,
+      "actual_time": 0.30000001192092896,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -782.2950172884441,
+        -1063.0024493854526,
+        124.11336774352597
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_009.png"
+    },
+    {
+      "index": 10,
+      "animation_time": 0.3333333333333333,
+      "actual_time": 0.3333333432674408,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -782.1774482712243,
+        -1062.965656813414,
+        125.86238261639762
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_010.png"
+    },
+    {
+      "index": 11,
+      "animation_time": 0.36666666666666664,
+      "actual_time": 0.36666667461395264,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -782.1811450861321,
+        -1063.22420020091,
+        127.29318857175511
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_011.png"
+    },
+    {
+      "index": 12,
+      "animation_time": 0.4,
+      "actual_time": 0.4000000059604645,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -781.8894908124716,
+        -1063.628540330761,
+        128.3870083900652
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_012.png"
+    },
+    {
+      "index": 13,
+      "animation_time": 0.43333333333333335,
+      "actual_time": 0.4333333373069763,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -780.7979140813726,
+        -1064.051970634914,
+        128.98290481199192
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_013.png"
+    },
+    {
+      "index": 14,
+      "animation_time": 0.4666666666666667,
+      "actual_time": 0.46666666865348816,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -778.8491279602715,
+        -1064.8285473886128,
+        128.61607575374032
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_014.png"
+    },
+    {
+      "index": 15,
+      "animation_time": 0.5,
+      "actual_time": 0.5,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -776.360793392353,
+        -1066.16710470371,
+        127.1824742208551
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_015.png"
+    },
+    {
+      "index": 16,
+      "animation_time": 0.5333333333333333,
+      "actual_time": 0.5333333611488342,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -773.6460200218651,
+        -1067.9327384172243,
+        125.20583325872977
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_016.png"
+    },
+    {
+      "index": 17,
+      "animation_time": 0.5666666666666667,
+      "actual_time": 0.5666666626930237,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -771.2874337675943,
+        -1069.7694049475201,
+        123.14077175012599
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_017.png"
+    },
+    {
+      "index": 18,
+      "animation_time": 0.6,
+      "actual_time": 0.6000000238418579,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -768.914539383801,
+        -1071.8436435992282,
+        121.04581883781158
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_018.png"
+    },
+    {
+      "index": 19,
+      "animation_time": 0.6333333333333333,
+      "actual_time": 0.6333333253860474,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -766.7081303583604,
+        -1074.3342716191223,
+        118.50223822183645
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_019.png"
+    },
+    {
+      "index": 20,
+      "animation_time": 0.6666666666666666,
+      "actual_time": 0.6666666865348816,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -765.1069214251437,
+        -1077.6180136272037,
+        116.19590714736397
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_020.png"
+    },
+    {
+      "index": 21,
+      "animation_time": 0.7,
+      "actual_time": 0.699999988079071,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -764.2140403956846,
+        -1082.0273911120978,
+        114.3657701725253
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_021.png"
+    },
+    {
+      "index": 22,
+      "animation_time": 0.7333333333333333,
+      "actual_time": 0.7333333492279053,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -763.6339214193224,
+        -1087.2605746043737,
+        112.72631821221213
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_022.png"
+    },
+    {
+      "index": 23,
+      "animation_time": 0.7666666666666667,
+      "actual_time": 0.7666666507720947,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -763.5109391164482,
+        -1092.52844882579,
+        111.2761901811329
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_023.png"
+    },
+    {
+      "index": 24,
+      "animation_time": 0.8,
+      "actual_time": 0.800000011920929,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -764.0031461131683,
+        -1096.997591320154,
+        109.99989106100756
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_024.png"
+    },
+    {
+      "index": 25,
+      "animation_time": 0.8333333333333334,
+      "actual_time": 0.8333333134651184,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -765.2674966450071,
+        -1101.1021016804855,
+        108.77190475083648
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_025.png"
+    },
+    {
+      "index": 26,
+      "animation_time": 0.8666666666666667,
+      "actual_time": 0.8666666746139526,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -767.1527798981015,
+        -1105.220163202486,
+        107.59394139198307
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_026.png"
+    },
+    {
+      "index": 27,
+      "animation_time": 0.9,
+      "actual_time": 0.8999999761581421,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -769.2620515152448,
+        -1108.5070787826915,
+        106.63803495760243
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_027.png"
+    },
+    {
+      "index": 28,
+      "animation_time": 0.9333333333333333,
+      "actual_time": 0.9333333373069763,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -771.2020107953944,
+        -1110.0861691437412,
+        106.080047466301
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_028.png"
+    },
+    {
+      "index": 29,
+      "animation_time": 0.9666666666666667,
+      "actual_time": 0.9666666388511658,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -772.669730683422,
+        -1109.1697306787487,
+        106.09704855255444
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_029.png"
+    },
+    {
+      "index": 30,
+      "animation_time": 1.0,
+      "actual_time": 1.0,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -773.8493155720512,
+        -1106.0307636765401,
+        106.65819530929268
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_030.png"
+    },
+    {
+      "index": 31,
+      "animation_time": 1.0333333333333334,
+      "actual_time": 1.0333333015441895,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -775.0006159997316,
+        -1101.5788339079984,
+        107.23598994679904
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_031.png"
+    },
+    {
+      "index": 32,
+      "animation_time": 1.0666666666666667,
+      "actual_time": 1.0666667222976685,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -775.91777530856,
+        -1096.424448291554,
+        108.38524066372364
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_032.png"
+    },
+    {
+      "index": 33,
+      "animation_time": 1.1,
+      "actual_time": 1.100000023841858,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -776.8989313102475,
+        -1091.6365849804256,
+        109.39964576191477
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_033.png"
+    },
+    {
+      "index": 34,
+      "animation_time": 1.1333333333333333,
+      "actual_time": 1.1333333253860474,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -778.0783644169446,
+        -1087.745160069892,
+        109.86540084038697
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_034.png"
+    },
+    {
+      "index": 35,
+      "animation_time": 1.1666666666666667,
+      "actual_time": 1.1666666269302368,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -778.736787200897,
+        -1084.4502378108311,
+        110.06356542129188
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_035.png"
+    },
+    {
+      "index": 36,
+      "animation_time": 1.2,
+      "actual_time": 1.2000000476837158,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -778.9849963935263,
+        -1081.129264612359,
+        110.03070868750883
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_036.png"
+    },
+    {
+      "index": 37,
+      "animation_time": 1.2333333333333334,
+      "actual_time": 1.2333333492279053,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -779.415100069923,
+        -1078.032209689751,
+        109.7386328437871
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_037.png"
+    },
+    {
+      "index": 38,
+      "animation_time": 1.2666666666666666,
+      "actual_time": 1.2666666507720947,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -780.6755998409427,
+        -1075.2564183857119,
+        108.8211578398121
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_038.png"
+    },
+    {
+      "index": 39,
+      "animation_time": 1.3,
+      "actual_time": 1.2999999523162842,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -785.1271287691923,
+        -1072.3502131026744,
+        105.89045482583394
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_039.png"
+    },
+    {
+      "index": 40,
+      "animation_time": 1.3333333333333333,
+      "actual_time": 1.3333333730697632,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -795.0230318902376,
+        -1070.8252365656133,
+        101.13097993167457
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_040.png"
+    },
+    {
+      "index": 41,
+      "animation_time": 1.3666666666666667,
+      "actual_time": 1.3666666746139526,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -809.2345072907749,
+        -1074.1161994652336,
+        97.28653651478399
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_041.png"
+    },
+    {
+      "index": 42,
+      "animation_time": 1.4,
+      "actual_time": 1.399999976158142,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -822.7959599950673,
+        -1081.482453286578,
+        96.86520875768821
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_042.png"
+    },
+    {
+      "index": 43,
+      "animation_time": 1.4333333333333333,
+      "actual_time": 1.4333332777023315,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -831.5420708089147,
+        -1087.2081254661045,
+        99.30321997436599
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_043.png"
+    },
+    {
+      "index": 44,
+      "animation_time": 1.4666666666666666,
+      "actual_time": 1.4666666984558105,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -835.0848802791922,
+        -1089.6910604020436,
+        100.91604616737443
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_044.png"
+    },
+    {
+      "index": 45,
+      "animation_time": 1.5,
+      "actual_time": 1.5,
+      "instance": "AnimSingleNodeInstance",
+      "asset": "<Object '/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06' (0x00000189A3072300) Class 'AnimSequence'>",
+      "paused": false,
+      "hand_world": [
+        -835.8867001187583,
+        -1090.3045349537908,
+        101.30174044926116
+      ],
+      "file": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatFeel1104\\DemoFrames\\frame_045.png"
+    }
+  ],
+  "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Flow_v06.Wuxia_Attack_Sword_Flow_v06",
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04.SK_WuxiaMale_Hands_v04",
+  "duration_seconds": 1.5,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.c017a572028c4437b1c00196c8c0b37c",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\bc3cc872ae65812bebc1ce0f9d9a41313fadf99f.nlrun",
+    "test_run_ids": [
+      "1fc849ab4028116c3b581cb3fe1fd918",
+      "2e9b6cb64e3f1835e5dd4490cc360fa8"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\bc3cc872ae65812bebc1ce0f9d9a41313fadf99f.nlrun"
+    ],
+    "temporary_assets_removed": true
+  }
+}

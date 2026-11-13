@@ -1,0 +1,196 @@
+{
+  "state": "passed",
+  "context": "/Game/ReversedScale/Player/VR/Input/IMC_NilinVR",
+  "added_mappings": [
+    {
+      "action": "IA_VRPulse",
+      "key": "OculusTouch_Left_X_Click"
+    },
+    {
+      "action": "IA_VRBurst",
+      "key": "OculusTouch_Right_A_Click"
+    },
+    {
+      "action": "IA_VRPulse",
+      "key": "PICO_Left_X_Click"
+    },
+    {
+      "action": "IA_VRBurst",
+      "key": "PICO_Right_A_Click"
+    },
+    {
+      "action": "IA_VRPulse",
+      "key": "HPMixedRealityController_Left_X_Click"
+    },
+    {
+      "action": "IA_VRBurst",
+      "key": "HPMixedRealityController_Right_A_Click"
+    },
+    {
+      "action": "IA_VRPulse",
+      "key": "ValveIndex_Left_A_Click"
+    },
+    {
+      "action": "IA_VRBurst",
+      "key": "ValveIndex_Right_A_Click"
+    },
+    {
+      "action": "IA_VRPulse",
+      "key": "Vive_Left_Grip_Click"
+    },
+    {
+      "action": "IA_VRBurst",
+      "key": "Vive_Right_Grip_Click"
+    },
+    {
+      "action": "IA_VRPulse",
+      "key": "MixedReality_Left_Grip_Click"
+    },
+    {
+      "action": "IA_VRBurst",
+      "key": "MixedReality_Right_Grip_Click"
+    }
+  ],
+  "removed_conflicting_mappings": [
+    {
+      "action": "IA_VRStart",
+      "key": "OculusTouch_Right_A_Click"
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "OculusTouch_Left_X_Click"
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "PICO_Right_A_Click"
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "PICO_Left_X_Click"
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "HPMixedRealityController_Right_A_Click"
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "HPMixedRealityController_Left_X_Click"
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "ValveIndex_Right_A_Click"
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "ValveIndex_Left_A_Click"
+    },
+    {
+      "action": "IA_VRReset",
+      "key": "Vive_Right_Grip_Click"
+    },
+    {
+      "action": "IA_VRReset",
+      "key": "MixedReality_Right_Grip_Click"
+    }
+  ],
+  "skipped_optional_keys": [],
+  "mapping_count": 55,
+  "enemies": [
+    {
+      "enemy": "sword",
+      "control_response_scale": 1.0
+    },
+    {
+      "enemy": "talisman",
+      "control_response_scale": 1.0
+    },
+    {
+      "enemy": "rock_talisman",
+      "control_response_scale": 1.0
+    },
+    {
+      "enemy": "GM01",
+      "control_response_scale": 0.5
+    },
+    {
+      "enemy": "GM02",
+      "control_response_scale": 0.5
+    },
+    {
+      "enemy": "GM03",
+      "control_response_scale": 0.5
+    },
+    {
+      "enemy": "GM04",
+      "control_response_scale": 0.5
+    },
+    {
+      "enemy": "boss",
+      "control_response_scale": 0.0
+    }
+  ],
+  "backups": [
+    {
+      "asset": "/Game/ReversedScale/Player/VR/Input/IMC_NilinVR",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatSkills_v01\\Backups\\Assets\\ReversedScale\\Player\\VR\\Input\\IMC_NilinVR.uasset",
+      "sha256": "730eadc0fd903f881606033a1f52fc12342132eb786f2a9d3f1c0aeff3f5a8c5"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_sword",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatSkills_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_sword.uasset",
+      "sha256": "e05ab1a9e162cbc60fa664f1397353b72bd29d47d5ea83e6370a48556281db7e"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_talisman",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatSkills_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_talisman.uasset",
+      "sha256": "db92eeb15ac548f5691639b1c97a6659b45f8888defff932ecffec77f5129059"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_rock_talisman",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatSkills_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_rock_talisman.uasset",
+      "sha256": "a8eaf78291a393489134fe7660e3473afde79c25f8fb63c0e1f8e6aa7f98e29d"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM01",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatSkills_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM01.uasset",
+      "sha256": "5ef9235787b661e8fe88e3e40e37072d68cf058a16ba15767db783c4c8e93450"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM02",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatSkills_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM02.uasset",
+      "sha256": "29525d30f5bb17fc40c2b6a46bac43832e5b75a3a7116048ffcf001fab375d4b"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM03",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatSkills_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM03.uasset",
+      "sha256": "ace6edb3eda3a7536dd415aea73eb0e5267fd953939d0fbb73948a2236bcb2d1"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM04",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatSkills_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM04.uasset",
+      "sha256": "cb6adb21422776d07c32d8046007f70119b8c2be7e2a51265c9b36634113d77b"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_boss",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\CombatSkills_v01\\Backups\\Assets\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_boss.uasset",
+      "sha256": "292c6b0af1e0360385a6bc7768490ccdc1f6904d4ef2bdedf42ee69cd46c6950"
+    }
+  ],
+  "input_routing": "A/X primary has one InputAction. Ready press starts and returns; running press activates ability. Wand right grip retries only when paused/dead/finished.",
+  "gdd_defaults": {
+    "pulse_cooldown_seconds": 8,
+    "pulse_radius_cm": 250
+  },
+  "prototype_tuning_not_fixed_by_gdd": {
+    "burst_max_energy": 100,
+    "hit_energy": 3,
+    "defeat_energy": 15,
+    "perfect_parry_energy": 12,
+    "burst_radius_cm": 400,
+    "pulse_stagger_seconds": 1,
+    "burst_stagger_seconds": 2,
+    "pulse_knockback_cm": 60,
+    "burst_knockback_cm": 100
+  },
+  "hardware_validation": "Input assets only; actual controller behavior still requires tracked play."
+}

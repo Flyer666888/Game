@@ -1,0 +1,19 @@
+{
+  "completed_at": "2026-11-04T15:25:01.2181075+08:00",
+  "build": "Succeeded",
+  "target_eye_height_cm": 150.5,
+  "measured_enemy_idle_mean_cm": 150.50594042290126,
+  "runtime_neutral_enemy_eye_cm": 150.456,
+  "supplied_pose_player_eye_cm": 150.5,
+  "verification_mode": "Native Unreal world, supplied tracking poses, NullRHI, no physical HMD",
+  "automation": {
+    "succeeded": 64,
+    "succeeded_with_warnings": 22,
+    "failed": 0,
+    "not_run": 0,
+    "eye_height_test": "Success",
+    "report": "Saved/Automation/VREyeHeight_20261104_Final/index.json"
+  },
+  "map_sha256": "D446AECFC1CAB0B62F82BBC67C74A4941B0D1664B89BCD95D0F916DB0185EE7D",
+  "physical_pico_validation": "Pending user headset verification"
+}

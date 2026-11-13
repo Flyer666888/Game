@@ -1,0 +1,277 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "张浩翔的拯救者",
+			"instance": "9632C61C4F9BEF4DF8737DA64705DBA9",
+			"instanceName": "张浩翔的拯救者-39200",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9818] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+			"cPUModel": "Intel(R) Core(TM) i9-14900HX",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.11.06-08.57.09",
+	"succeeded": 0,
+	"succeededWithWarnings": 0,
+	"failed": 2,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.13540729880332947,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "CursorReleaseClearsBackwardMovement",
+			"fullTestPath": "Nilin.Desktop.Input.CursorReleaseClearsBackwardMovement",
+			"tags": [],
+			"state": "Fail",
+			"deviceInstance": [
+				"9632C61C4F9BEF4DF8737DA64705DBA9"
+			],
+			"duration": 0.11545070260763168,
+			"dateTime": "2026.11.06-08.57.09",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_1.NilinDesktopInput_EBCA699245CAA09643126EAC869A4FAF:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_1.NilinDesktopInput_EBCA699245CAA09643126EAC869A4FAF:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_1.NilinDesktopInput_EBCA699245CAA09643126EAC869A4FAF:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogStreaming: FlushAsyncLoading(372): 1 QueuedPackages, 0 AsyncPackages",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Cursor release clears the missing-key-up S cache' to be false.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 165,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Cursor release cancels walking momentum immediately' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 166,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Cursor release consumes the queued movement vector' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 170,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Released-cursor key events cannot move the player' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 175,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Released cursor leaves no movement input queued' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 176,
+					"timestamp": "2026.11.06-08.57.09"
+				}
+			],
+			"warnings": 3,
+			"errors": 5,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RecaptureRearmsWalkingAndPreservesHeldMoveOnSlash",
+			"fullTestPath": "Nilin.Desktop.Input.RecaptureRearmsWalkingAndPreservesHeldMoveOnSlash",
+			"tags": [],
+			"state": "Fail",
+			"deviceInstance": [
+				"9632C61C4F9BEF4DF8737DA64705DBA9"
+			],
+			"duration": 0.019956599920988083,
+			"dateTime": "2026.11.06-08.57.09",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_2.NilinDesktopInput_EF921A344F5CDF644A68F58A1BC85DB6:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_2.NilinDesktopInput_EF921A344F5CDF644A68F58A1BC85DB6:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLLevelCombatCharacter /Temp/Untitled_2.NilinDesktopInput_EF921A344F5CDF644A68F58A1BC85DB6:PersistentLevel.NLLevelCombatCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Recapture discards S cached while the cursor was released' to be false.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 192,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Recapture clears queued movement' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 193,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Recapture clears old walking momentum' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 194,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Recapture alone does not restart backward walking' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 199,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'A fresh W press resumes real forward walking' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 203,
+					"timestamp": "2026.11.06-08.57.09"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Expected 'Intentional forward walking continues during the slash' to be true.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\game design\\experiment\\Saved\\BuildRuntime\\CombatProject\\Source\\experiment\\Private\\Tests\\NLDesktopMovementInputTests.cpp",
+					"lineNumber": 211,
+					"timestamp": "2026.11.06-08.57.09"
+				}
+			],
+			"warnings": 3,
+			"errors": 6,
+			"artifacts": []
+		}
+	]
+}
