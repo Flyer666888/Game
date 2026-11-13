@@ -1,0 +1,32 @@
+{
+  "asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman.Wuxia_Cast_Talisman",
+  "source_asset_preserved": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted",
+  "pose_source": "..\\..\\..\\..\\CombatProject\\ArtSource\\WuxiaMale\\SwordCombat\\SwordCandidatePoses.json",
+  "mesh_preserved": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+  "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+  "duration_seconds": 2.0,
+  "changed_bones": [
+    "upperarm_l",
+    "lowerarm_l",
+    "hand_l"
+  ],
+  "translation_and_scale_tracks_preserved": true,
+  "lower_body_and_root": "Exact exported planted idle local transforms at every key.",
+  "raise_end_seconds": 0.6,
+  "release_start_seconds": 1.1,
+  "release_end_seconds": 1.25,
+  "settled_seconds": 2.0,
+  "hand_l_at_raise_end_cm": [
+    15.675360887642864,
+    53.888119124877306,
+    122.75142784720498
+  ],
+  "hand_l_at_release_end_cm": [
+    15.710515279640319,
+    58.87361691350553,
+    122.69902547247999
+  ],
+  "root_motion_enabled": false,
+  "damage_notify_count": 0,
+  "scope": "Only a new animation and its pose report. Mesh, face, feet, morphs, hilt and source clips are preserved."
+}

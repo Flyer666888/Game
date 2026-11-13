@@ -1,0 +1,56 @@
+{
+  "input": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\EnemyReactionRevision\\SelectedRawPoses.json",
+  "source_blend": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\CombatProject\\ArtSource\\WuxiaMale\\FootCorrection\\WuxiaMaleFeet.blend",
+  "source_mesh": "SK_WuxiaMale_Feet",
+  "vertices": 43210,
+  "weighted_bones": 20,
+  "ground_clearance_cm": 0.15,
+  "descent_phase": [
+    0.35,
+    0.6
+  ],
+  "clips": [
+    {
+      "name": "Wuxia_Hit_Sword",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+      "role": "hit",
+      "frames": 25,
+      "raw_min_z_range_cm": [
+        0.000919153683226594,
+        0.000919153683226594
+      ],
+      "grounded_min_z_range_cm": [
+        0.000919153683226594,
+        0.000919153683226594
+      ],
+      "root_offset_z_range_cm": [
+        0.0,
+        0.0
+      ],
+      "final_raw_min_z_cm": 0.000919153683226594,
+      "final_grounded_min_z_cm": 0.000919153683226594,
+      "final_root_offset_z_cm": 0.0
+    },
+    {
+      "name": "Wuxia_Death_Collapse",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse",
+      "role": "death",
+      "frames": 85,
+      "raw_min_z_range_cm": [
+        -48.89421074135516,
+        6.094457298303635
+      ],
+      "grounded_min_z_range_cm": [
+        0.1499989742286516,
+        6.094457298303635
+      ],
+      "root_offset_z_range_cm": [
+        0.0,
+        49.04421074135516
+      ],
+      "final_raw_min_z_cm": -16.318485560648867,
+      "final_grounded_min_z_cm": 0.14999999999999858,
+      "final_root_offset_z_cm": 16.468485560648865
+    }
+  ]
+}

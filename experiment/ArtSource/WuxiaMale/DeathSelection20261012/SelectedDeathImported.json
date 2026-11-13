@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-12",
+  "asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+  "old_asset_preserved": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural",
+  "source_asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/NaturalDeathCandidates/NaturalCandidate_Anim_DeathPL.NaturalCandidate_Anim_DeathPL",
+  "duration_seconds": 3.299999952316284,
+  "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+  "force_root_lock": false,
+  "enable_root_motion": false,
+  "morph_curves": [
+    {
+      "name": "EnemyDeathRobe_1",
+      "skipped_empty_morph": true
+    },
+    {
+      "name": "EnemyDeathRobe_2",
+      "skipped_empty_morph": true
+    },
+    {
+      "name": "EnemyDeathRobe_3",
+      "skipped_empty_morph": true
+    },
+    {
+      "name": "EnemyDeathRobe_4",
+      "keys": 100,
+      "interpolation": "Linear"
+    },
+    {
+      "name": "EnemyDeathRobe_5",
+      "keys": 100,
+      "interpolation": "Linear"
+    },
+    {
+      "name": "EnemyDeathRobe_6",
+      "keys": 100,
+      "interpolation": "Linear"
+    },
+    {
+      "name": "EnemyDeathRobe_7",
+      "keys": 100,
+      "interpolation": "Linear"
+    },
+    {
+      "name": "EnemyDeathRobe_8",
+      "keys": 100,
+      "interpolation": "Linear"
+    },
+    {
+      "name": "EnemyGrip_R",
+      "keys": 100,
+      "interpolation": "Linear"
+    }
+  ],
+  "maps": [
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel_BeforeDeathGrounded_20261012",
+      "actors": [
+        {
+          "name": "SwordDisciple_1",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat"
+        },
+        {
+          "name": "SwordDisciple_2",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat"
+        }
+      ]
+    },
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabReflection",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabReflection_BeforeDeathGrounded_20261012",
+      "actors": [
+        {
+          "name": "TrainingDisciple_1",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat"
+        },
+        {
+          "name": "TrainingDisciple_2",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat"
+        }
+      ]
+    },
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabGuard",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabGuard_BeforeDeathGrounded_20261012",
+      "actors": [
+        {
+          "name": "TrainingDisciple_1",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat"
+        },
+        {
+          "name": "TrainingDisciple_2",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat"
+        }
+      ]
+    },
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabMelee",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabMelee_BeforeDeathGrounded_20261012",
+      "actors": [
+        {
+          "name": "TrainingDisciple_1",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat"
+        },
+        {
+          "name": "TrainingDisciple_2",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat"
+        }
+      ]
+    }
+  ],
+  "prefab": {
+    "asset": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple",
+    "backup": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple_BeforeDeathGrounded_20261012",
+    "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded"
+  },
+  "compressed_final_bones_cm": {
+    "root": [
+      -2.3589749336242676,
+      71.36383819580078,
+      12.39374828338623
+    ],
+    "pelvis": [
+      11.919309139251709,
+      87.97439754301618,
+      24.090863591804727
+    ],
+    "head": [
+      -13.797233609940777,
+      129.1297347979416,
+      18.645108610961117
+    ],
+    "hand_l": [
+      -38.168802620231254,
+      154.80999713726072,
+      3.2531112744667965
+    ],
+    "hand_r": [
+      -54.55294507268573,
+      121.0805701283875,
+      6.1009037135026105
+    ],
+    "foot_l": [
+      47.0071763558441,
+      38.09930059179649,
+      12.7687009689898
+    ],
+    "foot_r": [
+      4.787090579193666,
+      22.913345165642298,
+      4.806292335917135
+    ]
+  },
+  "authoring": {
+    "full_source_sequence": false,
+    "source_time_scale": 1.0,
+    "entry_blend_seconds": 0.0,
+    "root_xy_scale": 0.27,
+    "invented_root_fall_rotation": false,
+    "lower_body_idle_lock": false,
+    "grounding": "body/boots plus garment-only corrective morphs",
+    "prone_calf_contact_applied": false,
+    "baked_idle_entry_removed": true,
+    "runtime_entry_blend_only": true,
+    "root_support_smoothed": true,
+    "left_arm_contact_ik": true,
+    "held_sword_preserved": true,
+    "preview_grip_weight": 1.0,
+    "full_source_fall_retained_to_seconds": 1.65,
+    "source_second_head_raise_removed": true,
+    "continuous_relaxation_seconds": [
+      1.65,
+      2.55
+    ]
+  },
+  "scope": "Animation authoring and saved references; no gameplay input or automated tests."
+}

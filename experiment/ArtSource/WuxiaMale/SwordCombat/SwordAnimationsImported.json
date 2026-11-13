@@ -1,0 +1,42 @@
+[
+  {
+    "asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+    "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+    "duration_seconds": 1.2000000476837158,
+    "root_motion_enabled": false,
+    "timing": {
+      "duration_seconds": 1.2,
+      "loop": true,
+      "source_walk_speed_cm_s": 178.60353908964746,
+      "gait_stride_scale": 0.6876401880937324,
+      "recommended_walk_speed_cm_s": 122.81497121381146
+    },
+    "damage_notify": null
+  },
+  {
+    "asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+    "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+    "duration_seconds": 2.3333332538604736,
+    "root_motion_enabled": false,
+    "timing": {
+      "duration_seconds": 2.3333333333333335,
+      "loop": false,
+      "peak_sword_hand_speed_seconds": 0.9,
+      "peak_sword_hand_speed_cm_s": 946.3860907540242,
+      "suggested_active_start_seconds": 0.8,
+      "suggested_active_end_seconds": 1.03,
+      "suggested_telegraph_seconds": 0.8,
+      "suggested_attack_seconds": 0.22999999999999998,
+      "suggested_recover_seconds": 1.3033333333333335,
+      "telegraph_minimum_seconds": 0.65,
+      "notes": "Timing is an authoring suggestion; enemy attack scheduling must clamp hit time after its readable warning."
+    },
+    "damage_notify": {
+      "class": "/Script/experiment.NLEnemyAttackWindowNotifyState",
+      "start_seconds": 0.8,
+      "end_seconds": 1.03,
+      "track": "NLAttackDamage",
+      "event_count": 1
+    }
+  }
+]

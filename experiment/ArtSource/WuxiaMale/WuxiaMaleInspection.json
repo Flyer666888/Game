@@ -1,0 +1,791 @@
+{
+  "blender_version": "5.1.2",
+  "file_version": [
+    5,
+    1,
+    29
+  ],
+  "file": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\WuxiaMaleImport\\WuxiaMaleSource.blend",
+  "scene": "Scene",
+  "unit_system": "METRIC",
+  "unit_scale": 1.0,
+  "objects": [
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "parent": null,
+      "location": [
+        7.358891487121582,
+        -6.925790786743164,
+        4.958309173583984
+      ],
+      "rotation_euler": [
+        1.1093189716339111,
+        0.0,
+        0.8149281740188599
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          0.6859206557273865,
+          -0.32401347160339355,
+          0.6515582203865051,
+          7.358891487121582
+        ],
+        [
+          0.7276763319969177,
+          0.305420845746994,
+          -0.6141703724861145,
+          -6.925790786743164
+        ],
+        [
+          0.0,
+          0.8953956365585327,
+          0.44527140259742737,
+          4.958309173583984
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hidden_render": false,
+      "modifiers": []
+    },
+    {
+      "name": "Light",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        4.076245307922363,
+        1.0054539442062378,
+        5.903861999511719
+      ],
+      "rotation_euler": [
+        0.6503279805183411,
+        0.055217113345861435,
+        1.8663908243179321
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          -0.29086464643478394,
+          -0.7711008191108704,
+          0.5663931965827942,
+          4.076245307922363
+        ],
+        [
+          0.9551711678504944,
+          -0.1998833566904068,
+          0.21839119493961334,
+          1.0054539442062378
+        ],
+        [
+          -0.05518905818462372,
+          0.6045247316360474,
+          0.7946722507476807,
+          5.903861999511719
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hidden_render": false,
+      "modifiers": []
+    },
+    {
+      "name": "tripo_node_f05e5449-02a3-4819-9cc0-0c1e8c93d000",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "dimensions": [
+        23.260498046875,
+        56.219482421875,
+        100.0
+      ],
+      "matrix_world": [
+        [
+          100.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          100.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hidden_render": false,
+      "modifiers": [],
+      "vertices": 186599,
+      "polygons": 345510,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "tripo_material_f05e5449-02a3-4819-9cc0-0c1e8c93d000"
+      ],
+      "vertex_groups": [],
+      "bounds_world": [
+        [
+          -11.6302490234375,
+          -28.1097412109375,
+          -50.0
+        ],
+        [
+          -11.6302490234375,
+          -28.1097412109375,
+          50.0
+        ],
+        [
+          -11.6302490234375,
+          28.1097412109375,
+          50.0
+        ],
+        [
+          -11.6302490234375,
+          28.1097412109375,
+          -50.0
+        ],
+        [
+          11.6302490234375,
+          -28.1097412109375,
+          -50.0
+        ],
+        [
+          11.6302490234375,
+          -28.1097412109375,
+          50.0
+        ],
+        [
+          11.6302490234375,
+          28.1097412109375,
+          50.0
+        ],
+        [
+          11.6302490234375,
+          28.1097412109375,
+          -50.0
+        ]
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "use_nodes": true,
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "values": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "values": {
+            "Base Color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.5,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        }
+      ],
+      "links": [
+        {
+          "from_node": "Principled BSDF",
+          "from_socket": "BSDF",
+          "to_node": "Material Output",
+          "to_socket": "Surface"
+        }
+      ]
+    },
+    {
+      "name": "tripo_material_f05e5449-02a3-4819-9cc0-0c1e8c93d000",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "use_nodes": true,
+      "nodes": [
+        {
+          "name": "原理化 BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "values": {
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "材质输出",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "values": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "图像纹理",
+          "type": "TEX_IMAGE",
+          "image": "Color_f05e5449-02a3-4819-9cc0-0c1e8c93d000",
+          "values": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "分离颜色",
+          "type": "SEPARATE_COLOR",
+          "image": null,
+          "values": {}
+        },
+        {
+          "name": "图像纹理.001",
+          "type": "TEX_IMAGE",
+          "image": "ORM_f05e5449-02a3-4819-9cc0-0c1e8c93d000",
+          "values": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "法线贴图",
+          "type": "NORMAL_MAP",
+          "image": null,
+          "values": {
+            "Strength": 1.0
+          }
+        },
+        {
+          "name": "图像纹理.002",
+          "type": "TEX_IMAGE",
+          "image": "NormalGL_f05e5449-02a3-4819-9cc0-0c1e8c93d000",
+          "values": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "links": [
+        {
+          "from_node": "原理化 BSDF",
+          "from_socket": "BSDF",
+          "to_node": "材质输出",
+          "to_socket": "Surface"
+        },
+        {
+          "from_node": "图像纹理",
+          "from_socket": "Color",
+          "to_node": "原理化 BSDF",
+          "to_socket": "Base Color"
+        },
+        {
+          "from_node": "分离颜色",
+          "from_socket": "Blue",
+          "to_node": "原理化 BSDF",
+          "to_socket": "Metallic"
+        },
+        {
+          "from_node": "分离颜色",
+          "from_socket": "Green",
+          "to_node": "原理化 BSDF",
+          "to_socket": "Roughness"
+        },
+        {
+          "from_node": "图像纹理.001",
+          "from_socket": "Color",
+          "to_node": "分离颜色",
+          "to_socket": "Color"
+        },
+        {
+          "from_node": "法线贴图",
+          "from_socket": "Normal",
+          "to_node": "原理化 BSDF",
+          "to_socket": "Normal"
+        },
+        {
+          "from_node": "图像纹理.002",
+          "from_socket": "Color",
+          "to_node": "法线贴图",
+          "to_socket": "Color"
+        }
+      ]
+    },
+    {
+      "name": "tripo_material_f2b68ec3-02ba-4958-a346-87e053d4cfe6",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "use_nodes": true,
+      "nodes": [
+        {
+          "name": "原理化 BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "values": {
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "材质输出",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "values": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "图像纹理",
+          "type": "TEX_IMAGE",
+          "image": "Color_f2b68ec3-02ba-4958-a346-87e053d4cfe6",
+          "values": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "分离颜色",
+          "type": "SEPARATE_COLOR",
+          "image": null,
+          "values": {}
+        },
+        {
+          "name": "图像纹理.001",
+          "type": "TEX_IMAGE",
+          "image": "ORM_f2b68ec3-02ba-4958-a346-87e053d4cfe6",
+          "values": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "法线贴图",
+          "type": "NORMAL_MAP",
+          "image": null,
+          "values": {
+            "Strength": 1.0
+          }
+        },
+        {
+          "name": "图像纹理.002",
+          "type": "TEX_IMAGE",
+          "image": "NormalGL_f2b68ec3-02ba-4958-a346-87e053d4cfe6",
+          "values": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "links": [
+        {
+          "from_node": "原理化 BSDF",
+          "from_socket": "BSDF",
+          "to_node": "材质输出",
+          "to_socket": "Surface"
+        },
+        {
+          "from_node": "图像纹理",
+          "from_socket": "Color",
+          "to_node": "原理化 BSDF",
+          "to_socket": "Base Color"
+        },
+        {
+          "from_node": "分离颜色",
+          "from_socket": "Blue",
+          "to_node": "原理化 BSDF",
+          "to_socket": "Metallic"
+        },
+        {
+          "from_node": "分离颜色",
+          "from_socket": "Green",
+          "to_node": "原理化 BSDF",
+          "to_socket": "Roughness"
+        },
+        {
+          "from_node": "图像纹理.001",
+          "from_socket": "Color",
+          "to_node": "分离颜色",
+          "to_socket": "Color"
+        },
+        {
+          "from_node": "法线贴图",
+          "from_socket": "Normal",
+          "to_node": "原理化 BSDF",
+          "to_socket": "Normal"
+        },
+        {
+          "from_node": "图像纹理.002",
+          "from_socket": "Color",
+          "to_node": "法线贴图",
+          "to_socket": "Color"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Color_f05e5449-02a3-4819-9cc0-0c1e8c93d000",
+      "filepath": "",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "source": "FILE"
+    },
+    {
+      "name": "Color_f2b68ec3-02ba-4958-a346-87e053d4cfe6",
+      "filepath": "//..\\textures\\Color_f2b68ec3-02ba-4958-a346-87e053d4cfe6.jpg",
+      "packed": false,
+      "size": [
+        0,
+        0
+      ],
+      "source": "FILE"
+    },
+    {
+      "name": "NormalGL_f05e5449-02a3-4819-9cc0-0c1e8c93d000",
+      "filepath": "",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "source": "FILE"
+    },
+    {
+      "name": "NormalGL_f2b68ec3-02ba-4958-a346-87e053d4cfe6",
+      "filepath": "//..\\textures\\NormalGL_f2b68ec3-02ba-4958-a346-87e053d4cfe6.jpg",
+      "packed": false,
+      "size": [
+        0,
+        0
+      ],
+      "source": "FILE"
+    },
+    {
+      "name": "ORM_f05e5449-02a3-4819-9cc0-0c1e8c93d000",
+      "filepath": "",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "source": "FILE"
+    },
+    {
+      "name": "ORM_f2b68ec3-02ba-4958-a346-87e053d4cfe6",
+      "filepath": "//..\\textures\\ORM_f2b68ec3-02ba-4958-a346-87e053d4cfe6.jpg",
+      "packed": false,
+      "size": [
+        0,
+        0
+      ],
+      "source": "FILE"
+    },
+    {
+      "name": "Render Result",
+      "filepath": "",
+      "packed": false,
+      "size": [
+        0,
+        0
+      ],
+      "source": "VIEWER"
+    },
+    {
+      "name": "Viewer Node",
+      "filepath": "",
+      "packed": false,
+      "size": [
+        256,
+        256
+      ],
+      "source": "VIEWER"
+    }
+  ],
+  "actions": []
+}

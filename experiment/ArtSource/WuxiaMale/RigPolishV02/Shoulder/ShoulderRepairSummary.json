@@ -1,0 +1,268 @@
+{
+  "source": "D:\\game design\\experiment\\ArtSource\\WuxiaMale\\GripRefinement\\WuxiaMaleCombat.blend",
+  "derivative_blend": "D:\\game design\\experiment\\ArtSource\\WuxiaMale\\RigPolishV02\\Shoulder\\WuxiaMaleShoulder_v02.blend",
+  "derivative_fbx": "D:\\game design\\experiment\\ArtSource\\WuxiaMale\\RigPolishV02\\Shoulder\\WuxiaMaleShoulder_v02.fbx",
+  "unchanged_invariants": {
+    "basis": "e383a7299e2ccde686c67f96e29a170ea44dec5e96e7711c23d13dbb1873797f",
+    "vertices": 43210,
+    "polygons": "e3c3bf4739e6a376bc22258c2fc3ed7d850d10130e96972ee7e1f62ce2334b4d",
+    "uv": "d6bda42835ea557712aa9c6159d562f487f6ce47cbf0a6f4f2d4b406bb7d5d51",
+    "morphs": {
+      "Basis": {
+        "coordinates": "a7ed24aa929c24b693c07b09112d9bc8db4c932937dc3c520b706cff68366b5d",
+        "value": 1.0
+      },
+      "EnemyGrip_R": {
+        "coordinates": "30c4bab384c82fe5f9f087e42d6daec5848651b0ebaa9d437a3832c1b7f58542",
+        "value": 0.0
+      },
+      "EnemyDeathRobe_1": {
+        "coordinates": "a7ed24aa929c24b693c07b09112d9bc8db4c932937dc3c520b706cff68366b5d",
+        "value": 0.0
+      },
+      "EnemyDeathRobe_2": {
+        "coordinates": "a7ed24aa929c24b693c07b09112d9bc8db4c932937dc3c520b706cff68366b5d",
+        "value": 0.0
+      },
+      "EnemyDeathRobe_3": {
+        "coordinates": "a7ed24aa929c24b693c07b09112d9bc8db4c932937dc3c520b706cff68366b5d",
+        "value": 0.0
+      },
+      "EnemyDeathRobe_4": {
+        "coordinates": "66f57ce5591b9eef3b21570ce9739315d6c9dbc3d69793a12237ee00d0baf1c8",
+        "value": 0.0
+      },
+      "EnemyDeathRobe_5": {
+        "coordinates": "6dac35adb7f92750a01939c1d3079ecbb38489d20fc3890f3250cf9e38e13856",
+        "value": 0.0
+      },
+      "EnemyDeathRobe_6": {
+        "coordinates": "183b3fca62223da5e27c4a30763fc737b959230d9d6ca0e8c32f3487f7bd2b39",
+        "value": 0.0
+      },
+      "EnemyDeathRobe_7": {
+        "coordinates": "7ee61079e9cfa8ed8f91bff7d6fdbaa9c57490547a55dd83a62ef7f00d49e62c",
+        "value": 0.0
+      },
+      "EnemyDeathRobe_8": {
+        "coordinates": "c9ba8c6bc87d0779481f27a9fa6d3c8d0c7d0be2eac2559ae114baa8030d010a",
+        "value": 0.0
+      }
+    },
+    "skeleton": "b0e8f412b60311db3a853d650deb71064a0d2fd8c5d1d6cbb1f3d13c9cfd6371",
+    "material_slots": [
+      "M_WuxiaMale.001",
+      "M_WuxiaMale_Skin"
+    ],
+    "material_indices": "d51a329a5f301a10b4b783601b78c23c639d9179d77958d726e7ebefe4a2bc3f"
+  },
+  "changed_vertices": 8971,
+  "changed_bounds_cm": {
+    "min": [
+      -32.96224594116211,
+      -15.209394454956055,
+      119.0088882446289
+    ],
+    "max": [
+      32.86354064941406,
+      19.138290405273438,
+      153.995361328125
+    ]
+  },
+  "grip_overlap": 0,
+  "robe_overlap": 0,
+  "max_influences": 4,
+  "max_pruned_weight": 0.04424998059778358,
+  "weight_sum_error": 7.068000229537574e-08,
+  "reason": "Old optimize_wuxia_face head mask was global by z, binding shoulder tops to head; top-four nearest-bone discontinuities pulled collar triangles apart.",
+  "metrics": [
+    {
+      "pose": "Reference",
+      "variant": "Before",
+      "edge_count": 27717,
+      "max_edge_ratio": 1.0000233681591386,
+      "p95_edge_ratio": 1.0000040827843706,
+      "p99_edge_ratio": 1.0000090754535822,
+      "edges_over_2x": 0,
+      "edges_over_4x": 0,
+      "triangle_count": 20099,
+      "normal_flips": 0
+    },
+    {
+      "pose": "Reference",
+      "variant": "After",
+      "edge_count": 27717,
+      "max_edge_ratio": 1.0000048100828083,
+      "p95_edge_ratio": 1.0000007878888277,
+      "p99_edge_ratio": 1.0000011441342815,
+      "edges_over_2x": 0,
+      "edges_over_4x": 0,
+      "triangle_count": 20099,
+      "normal_flips": 0
+    },
+    {
+      "pose": "Idle_0",
+      "variant": "Before",
+      "edge_count": 27717,
+      "max_edge_ratio": 4.185482614474667,
+      "p95_edge_ratio": 1.9955573037172534,
+      "p99_edge_ratio": 2.82244318751679,
+      "edges_over_2x": 1375,
+      "edges_over_4x": 2,
+      "triangle_count": 20099,
+      "normal_flips": 749
+    },
+    {
+      "pose": "Idle_0",
+      "variant": "After",
+      "edge_count": 27717,
+      "max_edge_ratio": 3.3177161046010077,
+      "p95_edge_ratio": 1.503462034310179,
+      "p99_edge_ratio": 2.2271006560533606,
+      "edges_over_2x": 472,
+      "edges_over_4x": 0,
+      "triangle_count": 20099,
+      "normal_flips": 739
+    },
+    {
+      "pose": "Attack_0.6",
+      "variant": "Before",
+      "edge_count": 27717,
+      "max_edge_ratio": 9.927731070754612,
+      "p95_edge_ratio": 3.583030509794611,
+      "p99_edge_ratio": 5.64256167777122,
+      "edges_over_2x": 3987,
+      "edges_over_4x": 1069,
+      "triangle_count": 20099,
+      "normal_flips": 2047
+    },
+    {
+      "pose": "Attack_0.6",
+      "variant": "After",
+      "edge_count": 27717,
+      "max_edge_ratio": 6.020468461966046,
+      "p95_edge_ratio": 2.2303145180868267,
+      "p99_edge_ratio": 3.660644813744651,
+      "edges_over_2x": 1828,
+      "edges_over_4x": 166,
+      "triangle_count": 20099,
+      "normal_flips": 1506
+    },
+    {
+      "pose": "Attack_1.1",
+      "variant": "Before",
+      "edge_count": 27717,
+      "max_edge_ratio": 8.420402772748467,
+      "p95_edge_ratio": 2.5714631214617607,
+      "p99_edge_ratio": 3.8503046627844655,
+      "edges_over_2x": 2655,
+      "edges_over_4x": 226,
+      "triangle_count": 20099,
+      "normal_flips": 1405
+    },
+    {
+      "pose": "Attack_1.1",
+      "variant": "After",
+      "edge_count": 27717,
+      "max_edge_ratio": 3.997045967974917,
+      "p95_edge_ratio": 1.7039197380836788,
+      "p99_edge_ratio": 2.6496065102822843,
+      "edges_over_2x": 849,
+      "edges_over_4x": 0,
+      "triangle_count": 20099,
+      "normal_flips": 1024
+    },
+    {
+      "pose": "Attack_1.5",
+      "variant": "Before",
+      "edge_count": 27717,
+      "max_edge_ratio": 8.428153263076616,
+      "p95_edge_ratio": 2.902413003078048,
+      "p99_edge_ratio": 4.129649476164195,
+      "edges_over_2x": 3257,
+      "edges_over_4x": 336,
+      "triangle_count": 20099,
+      "normal_flips": 1244
+    },
+    {
+      "pose": "Attack_1.5",
+      "variant": "After",
+      "edge_count": 27717,
+      "max_edge_ratio": 7.014009896185012,
+      "p95_edge_ratio": 1.8491898058903642,
+      "p99_edge_ratio": 2.883341108410469,
+      "edges_over_2x": 1120,
+      "edges_over_4x": 26,
+      "triangle_count": 20099,
+      "normal_flips": 1191
+    },
+    {
+      "pose": "Cast_1.1",
+      "variant": "Before",
+      "edge_count": 27717,
+      "max_edge_ratio": 6.38111703020734,
+      "p95_edge_ratio": 2.0178425193507494,
+      "p99_edge_ratio": 2.84704478763951,
+      "edges_over_2x": 1436,
+      "edges_over_4x": 7,
+      "triangle_count": 20099,
+      "normal_flips": 642
+    },
+    {
+      "pose": "Cast_1.1",
+      "variant": "After",
+      "edge_count": 27717,
+      "max_edge_ratio": 4.5016438923737745,
+      "p95_edge_ratio": 1.555317713936997,
+      "p99_edge_ratio": 2.239899270509942,
+      "edges_over_2x": 491,
+      "edges_over_4x": 2,
+      "triangle_count": 20099,
+      "normal_flips": 743
+    },
+    {
+      "pose": "Hit_0.3",
+      "variant": "Before",
+      "edge_count": 27717,
+      "max_edge_ratio": 7.52460032065036,
+      "p95_edge_ratio": 1.4484850250868053,
+      "p99_edge_ratio": 2.2233355268051183,
+      "edges_over_2x": 465,
+      "edges_over_4x": 5,
+      "triangle_count": 20099,
+      "normal_flips": 374
+    },
+    {
+      "pose": "Hit_0.3",
+      "variant": "After",
+      "edge_count": 27717,
+      "max_edge_ratio": 5.260994200699721,
+      "p95_edge_ratio": 1.3818045805215524,
+      "p99_edge_ratio": 1.865791489970957,
+      "edges_over_2x": 197,
+      "edges_over_4x": 2,
+      "triangle_count": 20099,
+      "normal_flips": 323
+    }
+  ],
+  "images": [
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Reference_Before_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Reference_After_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Idle_0_Before_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Idle_0_Before_Back.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Idle_0_After_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Idle_0_After_Back.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Attack_0.6_Before_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Attack_0.6_After_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Attack_1.1_Before_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Attack_1.1_Before_Back.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Attack_1.1_After_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Attack_1.1_After_Back.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Attack_1.5_Before_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Attack_1.5_After_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Cast_1.1_Before_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Cast_1.1_After_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Hit_0.3_Before_Front.png",
+    "D:\\game design\\experiment\\Docs\\Gameplay\\RigPolish_v02\\ShoulderCandidate\\Hit_0.3_After_Front.png"
+  ]
+}

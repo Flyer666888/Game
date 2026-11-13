@@ -1,0 +1,2153 @@
+{
+  "source_blend": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\CombatProject\\ArtSource\\WuxiaMale\\FootCorrection\\WuxiaMaleFeet.blend",
+  "mesh": "SK_WuxiaMale_Feet",
+  "vertices": 43210,
+  "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+  "scope": "Only animation tracks; source mesh, UVs, weights and materials remain unchanged.",
+  "clips": [
+    {
+      "name": "Wuxia_Walk_Sword",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword",
+      "source_asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/SwordCombatCandidates/Sword_Anim_CS_W_FWD.Sword_Anim_CS_W_FWD",
+      "source_clip": "Anim_CS_W_FWD",
+      "role": "walk",
+      "duration": 1.2,
+      "frames": 36,
+      "timing": {
+        "duration_seconds": 1.2,
+        "loop": true,
+        "source_walk_speed_cm_s": 178.60353908964746,
+        "gait_stride_scale": 0.6876401880937324,
+        "recommended_walk_speed_cm_s": 122.81497121381146
+      },
+      "raw_root_distance_cm": 214.32424690757693,
+      "root_xy_scale": 0.0,
+      "root_xy_limit_cm": 0.0,
+      "planted_idle_lower_body": false,
+      "walk_authoring": {
+        "lower_body_source_weight": 0.68,
+        "retains_alternating_steps": true,
+        "before": {
+          "max_swing_sole_clearance_cm": {
+            "l": 16.554057201405406,
+            "r": 16.623907519117086
+          },
+          "max_sole_vertex_height_cm": {
+            "l": 43.10944031088687,
+            "r": 41.800543434262444
+          },
+          "foot_forward_range_cm": {
+            "l": 99.36587142944336,
+            "r": 101.54010009765625
+          }
+        },
+        "after": {
+          "max_swing_sole_clearance_cm": {
+            "l": 7.616190071377112,
+            "r": 7.456140732143891
+          },
+          "max_sole_vertex_height_cm": {
+            "l": 29.89270576947803,
+            "r": 28.510745842944416
+          },
+          "foot_forward_range_cm": {
+            "l": 68.61389541625977,
+            "r": 69.53712463378906
+          }
+        },
+        "metric_definition": "Swing clearance is the maximum over frames of each boot lowest sole point above the 0.15 cm planted clearance; stride scale uses both ankle forward ranges."
+      },
+      "grounded_sole_z_range_cm": [
+        0.1499999999999999,
+        0.15000000000000036
+      ],
+      "grounding": [
+        {
+          "time": 0.0,
+          "raw_sole_min_cm": 0.26368583744020424,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 5.1716384995506495
+          },
+          "sole_max_by_side_cm": {
+            "l": 7.5976772891833235,
+            "r": 20.358547511168137
+          },
+          "foot_forward_by_side_cm": {
+            "l": 1.3243868350982666,
+            "r": -11.508578300476074
+          },
+          "root_z_offset_cm": -0.11368583744020425
+        },
+        {
+          "time": 0.03333333333333333,
+          "raw_sole_min_cm": 0.178300263191719,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 3.8488117825952184
+          },
+          "sole_max_by_side_cm": {
+            "l": 7.848879409933412,
+            "r": 16.320742579451732
+          },
+          "foot_forward_by_side_cm": {
+            "l": -2.9120213985443115,
+            "r": -5.052145004272461
+          },
+          "root_z_offset_cm": -0.028300263191718994
+        },
+        {
+          "time": 0.06666666666666667,
+          "raw_sole_min_cm": 0.03876187561710154,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 2.58184677331503
+          },
+          "sole_max_by_side_cm": {
+            "l": 8.2215357072519,
+            "r": 12.295710055647474
+          },
+          "foot_forward_by_side_cm": {
+            "l": -7.056513786315918,
+            "r": 1.472458839416504
+          },
+          "root_z_offset_cm": 0.11123812438289846
+        },
+        {
+          "time": 0.1,
+          "raw_sole_min_cm": -0.1594472116786676,
+          "grounded_sole_min_cm": 0.15000000000000002,
+          "grounded_mesh_min_cm": 0.15000000000000002,
+          "sole_min_by_side_cm": {
+            "l": 0.15000000000000002,
+            "r": 1.0246927595668596
+          },
+          "sole_max_by_side_cm": {
+            "l": 8.712206075519378,
+            "r": 8.502657009332639
+          },
+          "foot_forward_by_side_cm": {
+            "l": -11.191234588623047,
+            "r": 7.950793266296387
+          },
+          "root_z_offset_cm": 0.3094472116786676
+        },
+        {
+          "time": 0.13333333333333333,
+          "raw_sole_min_cm": -0.861012259607441,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 0.5899763518077461,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 9.721266925480926,
+            "r": 6.373534009572801
+          },
+          "foot_forward_by_side_cm": {
+            "l": -15.356892585754395,
+            "r": 14.220141410827637
+          },
+          "root_z_offset_cm": 1.011012259607441
+        },
+        {
+          "time": 0.16666666666666666,
+          "raw_sole_min_cm": -1.7082792554026298,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 1.1411515214542045,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 10.981583862902832,
+            "r": 6.685696976076537
+          },
+          "foot_forward_by_side_cm": {
+            "l": -19.47988510131836,
+            "r": 19.894840240478516
+          },
+          "root_z_offset_cm": 1.8582792554026297
+        },
+        {
+          "time": 0.2,
+          "raw_sole_min_cm": -2.8829991946848494,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 2.0698192286403567,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 12.849795976770766,
+            "r": 8.564740970059875
+          },
+          "foot_forward_by_side_cm": {
+            "l": -23.39353370666504,
+            "r": 24.332073211669922
+          },
+          "root_z_offset_cm": 3.0329991946848494
+        },
+        {
+          "time": 0.23333333333333334,
+          "raw_sole_min_cm": -3.705010703484028,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 2.785558786715064,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 14.853398687639205,
+            "r": 9.316245395024824
+          },
+          "foot_forward_by_side_cm": {
+            "l": -26.884777069091797,
+            "r": 26.597450256347656
+          },
+          "root_z_offset_cm": 3.855010703484028
+        },
+        {
+          "time": 0.26666666666666666,
+          "raw_sole_min_cm": -4.474789551450847,
+          "grounded_sole_min_cm": 0.15000000000000036,
+          "grounded_mesh_min_cm": 0.15000000000000036,
+          "sole_min_by_side_cm": {
+            "l": 3.528668410661803,
+            "r": 0.15000000000000036
+          },
+          "sole_max_by_side_cm": {
+            "l": 17.577548590512542,
+            "r": 8.753696320061353
+          },
+          "foot_forward_by_side_cm": {
+            "l": -29.689363479614258,
+            "r": 26.45016098022461
+          },
+          "root_z_offset_cm": 4.6247895514508475
+        },
+        {
+          "time": 0.3,
+          "raw_sole_min_cm": -4.323592207427925,
+          "grounded_sole_min_cm": 0.15000000000000036,
+          "grounded_mesh_min_cm": 0.15000000000000036,
+          "sole_min_by_side_cm": {
+            "l": 3.223288412385381,
+            "r": 0.15000000000000036
+          },
+          "sole_max_by_side_cm": {
+            "l": 19.920228575687762,
+            "r": 7.203720524050494
+          },
+          "foot_forward_by_side_cm": {
+            "l": -31.651010513305664,
+            "r": 24.93072509765625
+          },
+          "root_z_offset_cm": 4.4735922074279255
+        },
+        {
+          "time": 0.3333333333333333,
+          "raw_sole_min_cm": -3.4326574841687822,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 2.3825857558797146,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 21.57201622838837,
+            "r": 5.9335418398111095
+          },
+          "foot_forward_by_side_cm": {
+            "l": -32.45236587524414,
+            "r": 24.22333335876465
+          },
+          "root_z_offset_cm": 3.582657484168782
+        },
+        {
+          "time": 0.36666666666666664,
+          "raw_sole_min_cm": -3.153648762455391,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 2.6978903536076424,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 24.362476246892225,
+            "r": 6.472640354726474
+          },
+          "foot_forward_by_side_cm": {
+            "l": -31.689903259277344,
+            "r": 22.525367736816406
+          },
+          "root_z_offset_cm": 3.3036487624553907
+        },
+        {
+          "time": 0.4,
+          "raw_sole_min_cm": -2.526714918476616,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 3.4230371503287773,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 26.827512741992233,
+            "r": 6.885784636819128
+          },
+          "foot_forward_by_side_cm": {
+            "l": -29.75434684753418,
+            "r": 19.520877838134766
+          },
+          "root_z_offset_cm": 2.6767149184766157
+        },
+        {
+          "time": 0.43333333333333335,
+          "raw_sole_min_cm": -1.8757146549991646,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 4.861057129955542,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 28.90319668398358,
+            "r": 6.937974284276434
+          },
+          "foot_forward_by_side_cm": {
+            "l": -26.978647232055664,
+            "r": 15.709214210510254
+          },
+          "root_z_offset_cm": 2.0257146549991645
+        },
+        {
+          "time": 0.4666666666666667,
+          "raw_sole_min_cm": -1.4815414623367733,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 6.494372005490877,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 29.89270576947803,
+            "r": 7.047774289974738
+          },
+          "foot_forward_by_side_cm": {
+            "l": -23.33791732788086,
+            "r": 11.626243591308594
+          },
+          "root_z_offset_cm": 1.6315414623367732
+        },
+        {
+          "time": 0.5,
+          "raw_sole_min_cm": -1.1997045531489992,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 7.41349466404721,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 29.784954343083346,
+            "r": 7.249410143531195
+          },
+          "foot_forward_by_side_cm": {
+            "l": -18.88456153869629,
+            "r": 7.360527038574219
+          },
+          "root_z_offset_cm": 1.349704553148999
+        },
+        {
+          "time": 0.5333333333333333,
+          "raw_sole_min_cm": -1.031385426304844,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 7.766190071377112,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 28.351073082497095,
+            "r": 7.4102656104061335
+          },
+          "foot_forward_by_side_cm": {
+            "l": -13.898913383483887,
+            "r": 3.068232536315918
+          },
+          "root_z_offset_cm": 1.181385426304844
+        },
+        {
+          "time": 0.5666666666666667,
+          "raw_sole_min_cm": -0.9365928857633801,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 7.57682603683579,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 26.091990898713007,
+            "r": 7.556454974433345
+          },
+          "foot_forward_by_side_cm": {
+            "l": -8.492281913757324,
+            "r": -1.240782618522644
+          },
+          "root_z_offset_cm": 1.08659288576338
+        },
+        {
+          "time": 0.6,
+          "raw_sole_min_cm": -0.895725651204252,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 7.079380921155478,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 22.98894244072284,
+            "r": 7.724548683887241
+          },
+          "foot_forward_by_side_cm": {
+            "l": -2.8016276359558105,
+            "r": -5.522010803222656
+          },
+          "root_z_offset_cm": 1.0457256512042519
+        },
+        {
+          "time": 0.6333333333333333,
+          "raw_sole_min_cm": -0.8958635306083806,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 6.505113336004721,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 19.453909843385063,
+            "r": 7.955630099173588
+          },
+          "foot_forward_by_side_cm": {
+            "l": 3.1751654148101807,
+            "r": -9.721071243286133
+          },
+          "root_z_offset_cm": 1.0458635306083806
+        },
+        {
+          "time": 0.6666666666666666,
+          "raw_sole_min_cm": -0.9397373789168562,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 5.663066597056028,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 15.64687014635833,
+            "r": 8.235947161034472
+          },
+          "foot_forward_by_side_cm": {
+            "l": 9.402114868164062,
+            "r": -13.878944396972656
+          },
+          "root_z_offset_cm": 1.089737378916856
+        },
+        {
+          "time": 0.7,
+          "raw_sole_min_cm": -1.0377054861086847,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 4.7239959433981,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 11.86827334812329,
+            "r": 8.548012503284257
+          },
+          "foot_forward_by_side_cm": {
+            "l": 15.818902015686035,
+            "r": -18.03019905090332
+          },
+          "root_z_offset_cm": 1.1877054861086846
+        },
+        {
+          "time": 0.7333333333333333,
+          "raw_sole_min_cm": -1.2175945841835976,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 3.9068495258058302,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 9.371507328627606,
+            "r": 8.874187359739912
+          },
+          "foot_forward_by_side_cm": {
+            "l": 22.344554901123047,
+            "r": -22.182525634765625
+          },
+          "root_z_offset_cm": 1.3675945841835975
+        },
+        {
+          "time": 0.7666666666666667,
+          "raw_sole_min_cm": -1.482783129397724,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 2.907559648474526,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 9.851330176340108,
+            "r": 9.24575956989287
+          },
+          "foot_forward_by_side_cm": {
+            "l": 28.5322322845459,
+            "r": -26.336225509643555
+          },
+          "root_z_offset_cm": 1.632783129397724
+        },
+        {
+          "time": 0.8,
+          "raw_sole_min_cm": -1.7345867926204193,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 1.9472634719990523,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 11.18771326052889,
+            "r": 9.82488223166535
+          },
+          "foot_forward_by_side_cm": {
+            "l": 33.444366455078125,
+            "r": -30.497589111328125
+          },
+          "root_z_offset_cm": 1.8845867926204192
+        },
+        {
+          "time": 0.8333333333333334,
+          "raw_sole_min_cm": -1.8621636100225558,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 1.2833322731239014,
+            "r": 0.1499999999999999
+          },
+          "sole_max_by_side_cm": {
+            "l": 11.40433780761923,
+            "r": 10.852199364623596
+          },
+          "foot_forward_by_side_cm": {
+            "l": 36.161529541015625,
+            "r": -34.56816482543945
+          },
+          "root_z_offset_cm": 2.0121636100225557
+        },
+        {
+          "time": 0.8666666666666667,
+          "raw_sole_min_cm": -1.7121581935498327,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 0.1499999999999999,
+            "r": 0.16368475966381046
+          },
+          "sole_max_by_side_cm": {
+            "l": 10.000645657163973,
+            "r": 12.389935951470706
+          },
+          "foot_forward_by_side_cm": {
+            "l": 35.975101470947266,
+            "r": -38.15398025512695
+          },
+          "root_z_offset_cm": 1.8621581935498326
+        },
+        {
+          "time": 0.9,
+          "raw_sole_min_cm": -1.3076113439272241,
+          "grounded_sole_min_cm": 0.1499999999999999,
+          "grounded_mesh_min_cm": 0.1499999999999999,
+          "sole_min_by_side_cm": {
+            "l": 0.1499999999999999,
+            "r": 0.32684899994677385
+          },
+          "sole_max_by_side_cm": {
+            "l": 8.011486108146213,
+            "r": 14.663365176942703
+          },
+          "foot_forward_by_side_cm": {
+            "l": 34.347755432128906,
+            "r": -41.12860870361328
+          },
+          "root_z_offset_cm": 1.457611343927224
+        },
+        {
+          "time": 0.9333333333333333,
+          "raw_sole_min_cm": -0.3317577420441613,
+          "grounded_sole_min_cm": 0.15000000000000002,
+          "grounded_mesh_min_cm": 0.15000000000000002,
+          "sole_min_by_side_cm": {
+            "l": 0.15000000000000002,
+            "r": 0.2624675432808862
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.733276713526971,
+            "r": 17.24358573212508
+          },
+          "foot_forward_by_side_cm": {
+            "l": 32.46038055419922,
+            "r": -42.939674377441406
+          },
+          "root_z_offset_cm": 0.48175774204416133
+        },
+        {
+          "time": 0.9666666666666667,
+          "raw_sole_min_cm": -0.37301716027306986,
+          "grounded_sole_min_cm": 0.15000000000000002,
+          "grounded_mesh_min_cm": 0.15000000000000002,
+          "sole_min_by_side_cm": {
+            "l": 0.15000000000000002,
+            "r": 1.6707587214828825
+          },
+          "sole_max_by_side_cm": {
+            "l": 6.0351527734135795,
+            "r": 21.687737924518586
+          },
+          "foot_forward_by_side_cm": {
+            "l": 30.119661331176758,
+            "r": -42.903377532958984
+          },
+          "root_z_offset_cm": 0.5230171602730699
+        },
+        {
+          "time": 1.0,
+          "raw_sole_min_cm": -0.3273559487697444,
+          "grounded_sole_min_cm": 0.15000000000000002,
+          "grounded_mesh_min_cm": 0.15000000000000002,
+          "sole_min_by_side_cm": {
+            "l": 0.15000000000000002,
+            "r": 3.9722092673168876
+          },
+          "sole_max_by_side_cm": {
+            "l": 6.487152757580329,
+            "r": 25.669845322175465
+          },
+          "foot_forward_by_side_cm": {
+            "l": 26.85372543334961,
+            "r": -41.02062225341797
+          },
+          "root_z_offset_cm": 0.4773559487697444
+        },
+        {
+          "time": 1.0333333333333334,
+          "raw_sole_min_cm": -0.07050928003062196,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 5.89478980420139
+          },
+          "sole_max_by_side_cm": {
+            "l": 6.65369936950676,
+            "r": 27.54908632079582
+          },
+          "foot_forward_by_side_cm": {
+            "l": 22.861303329467773,
+            "r": -37.81275177001953
+          },
+          "root_z_offset_cm": 0.22050928003062195
+        },
+        {
+          "time": 1.0666666666666667,
+          "raw_sole_min_cm": 0.15954339625273928,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 7.278315732909973
+          },
+          "sole_max_by_side_cm": {
+            "l": 6.817247811108042,
+            "r": 28.510745842944416
+          },
+          "foot_forward_by_side_cm": {
+            "l": 18.575328826904297,
+            "r": -33.77748107910156
+          },
+          "root_z_offset_cm": -0.009543396252739283
+        },
+        {
+          "time": 1.1,
+          "raw_sole_min_cm": 0.33575894079348445,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 7.606140732143891
+          },
+          "sole_max_by_side_cm": {
+            "l": 7.010251270659544,
+            "r": 28.316803135723255
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.259071350097656,
+            "r": -28.80109977722168
+          },
+          "root_z_offset_cm": -0.18575894079348446
+        },
+        {
+          "time": 1.1333333333333333,
+          "raw_sole_min_cm": 0.2649491424470829,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 6.544321139990634
+          },
+          "sole_max_by_side_cm": {
+            "l": 7.275211555231204,
+            "r": 25.014607680222685
+          },
+          "foot_forward_by_side_cm": {
+            "l": 7.745848655700684,
+            "r": -20.310483932495117
+          },
+          "root_z_offset_cm": -0.1149491424470829
+        },
+        {
+          "time": 1.1666666666666667,
+          "raw_sole_min_cm": 0.2707798997756241,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 5.44305151015931
+          },
+          "sole_max_by_side_cm": {
+            "l": 7.519489390458449,
+            "r": 21.28870776487604
+          },
+          "foot_forward_by_side_cm": {
+            "l": 2.4400179386138916,
+            "r": -13.082005500793457
+          },
+          "root_z_offset_cm": -0.12077989977562412
+        },
+        {
+          "time": 1.2,
+          "raw_sole_min_cm": 0.26368583744020424,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 5.1716384995506495
+          },
+          "sole_max_by_side_cm": {
+            "l": 7.5976772891833235,
+            "r": 20.358547511168137
+          },
+          "foot_forward_by_side_cm": {
+            "l": 1.3243868350982666,
+            "r": -11.508578300476074
+          },
+          "root_z_offset_cm": -0.11368583744020425
+        }
+      ]
+    },
+    {
+      "name": "Wuxia_Attack_Sword",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword",
+      "source_asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/SwordCombatCandidates/Sword_Anim_CSATLI_02.Sword_Anim_CSATLI_02",
+      "source_clip": "Anim_CSATLI_02",
+      "role": "attack",
+      "duration": 2.3333333333333335,
+      "frames": 70,
+      "timing": {
+        "duration_seconds": 2.3333333333333335,
+        "loop": false,
+        "peak_sword_hand_speed_seconds": 0.9,
+        "peak_sword_hand_speed_cm_s": 946.3860907540242,
+        "suggested_active_start_seconds": 0.8,
+        "suggested_active_end_seconds": 1.03,
+        "suggested_telegraph_seconds": 0.8,
+        "suggested_attack_seconds": 0.22999999999999998,
+        "suggested_recover_seconds": 1.3033333333333335,
+        "telegraph_minimum_seconds": 0.65,
+        "notes": "Timing is an authoring suggestion; enemy attack scheduling must clamp hit time after its readable warning."
+      },
+      "raw_root_distance_cm": 142.28075925160127,
+      "root_xy_scale": 0.04,
+      "root_xy_limit_cm": 6.0,
+      "planted_idle_lower_body": true,
+      "walk_authoring": null,
+      "grounded_sole_z_range_cm": [
+        0.15,
+        0.15
+      ],
+      "grounding": [
+        {
+          "time": 0.0,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.766221046447754,
+            "r": -10.636849403381348
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.03333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.766221046447754,
+            "r": -10.636849403381348
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.06666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.766221046447754,
+            "r": -10.636849403381348
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.1,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.766221046447754,
+            "r": -10.636849403381348
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.13333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.766221046447754,
+            "r": -10.636849403381348
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.16666666666666666,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.766221046447754,
+            "r": -10.636849403381348
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.2,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.766221046447754,
+            "r": -10.636849403381348
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.23333333333333334,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.766221046447754,
+            "r": -10.636849403381348
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.26666666666666666,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.77900218963623,
+            "r": -10.624068260192871
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.3,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.811781883239746,
+            "r": -10.591288566589355
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.3333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.856215476989746,
+            "r": -10.546854972839355
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.36666666666666664,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.903958320617676,
+            "r": -10.499113082885742
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.4,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.946663856506348,
+            "r": -10.45640754699707
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.43333333333333335,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.975987434387207,
+            "r": -10.427083015441895
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.4666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 9.007817268371582,
+            "r": -10.39525318145752
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.5,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 9.063668251037598,
+            "r": -10.33940315246582
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.5333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 9.143631935119629,
+            "r": -10.259439468383789
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.5666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 9.247801780700684,
+            "r": -10.155269622802734
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.6,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 9.384587287902832,
+            "r": -10.01848316192627
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.6333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 9.54872989654541,
+            "r": -9.854341506958008
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.6666666666666666,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 9.740336418151855,
+            "r": -9.662734985351562
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.7,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 9.959519386291504,
+            "r": -9.443551063537598
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.7333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 10.206391334533691,
+            "r": -9.196680068969727
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.7666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 10.48038387298584,
+            "r": -8.922686576843262
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.8,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 10.7883939743042,
+            "r": -8.614676475524902
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.8333333333333334,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 11.14693546295166,
+            "r": -8.256134986877441
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.8666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 11.545929908752441,
+            "r": -7.857141971588135
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.9,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 11.95858097076416,
+            "r": -7.4444899559021
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.9333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 12.359793663024902,
+            "r": -7.043277263641357
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 0.9666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 12.724471092224121,
+            "r": -6.678600788116455
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.0,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.02751636505127,
+            "r": -6.375555515289307
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.0333333333333334,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.241120338439941,
+            "r": -6.161951541900635
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.0666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.383240699768066,
+            "r": -6.01983118057251
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.1,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.500327110290527,
+            "r": -5.902744770050049
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.1333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.598904609680176,
+            "r": -5.8041672706604
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.1666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.67478084564209,
+            "r": -5.728291988372803
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.2,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.73841381072998,
+            "r": -5.664658069610596
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.2333333333333334,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.791518211364746,
+            "r": -5.611552715301514
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.2666666666666666,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.836949348449707,
+            "r": -5.566121578216553
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.3,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.875264167785645,
+            "r": -5.527807712554932
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.3333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.908167839050293,
+            "r": -5.494903087615967
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.3666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.937371253967285,
+            "r": -5.465700626373291
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.4,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.964577674865723,
+            "r": -5.4384942054748535
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.4333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.991496086120605,
+            "r": -5.411574840545654
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.4666666666666666,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.02003002166748,
+            "r": -5.383041858673096
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.5,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.049983024597168,
+            "r": -5.353087902069092
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.5333333333333334,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.079459190368652,
+            "r": -5.323612689971924
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.5666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.107888221740723,
+            "r": -5.2951836585998535
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.6,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.135323524475098,
+            "r": -5.2677483558654785
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.6333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.161751747131348,
+            "r": -5.2413201332092285
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.6666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.187155723571777,
+            "r": -5.215916156768799
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.7,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.211522102355957,
+            "r": -5.191549777984619
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.7333333333333334,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.234835624694824,
+            "r": -5.168236255645752
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.7666666666666666,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.257081031799316,
+            "r": -5.14599084854126
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.8,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.278243064880371,
+            "r": -5.124827861785889
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.8333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.298308372497559,
+            "r": -5.104762554168701
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.8666666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.31726360321045,
+            "r": -5.085808277130127
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.9,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.335089683532715,
+            "r": -5.067982196807861
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.9333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.351773262023926,
+            "r": -5.05129861831665
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 1.9666666666666666,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.36729907989502,
+            "r": -5.035772800445557
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 2.0,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.381653785705566,
+            "r": -5.02141809463501
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 2.033333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.394820213317871,
+            "r": -5.008250713348389
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 2.066666666666667,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 14.213351249694824,
+            "r": -5.1897196769714355
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 2.1,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 13.704339027404785,
+            "r": -5.698732852935791
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 2.1333333333333333,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 12.959429740905762,
+            "r": -6.4436421394348145
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 2.1666666666666665,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 12.071253776550293,
+            "r": -7.3318190574646
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 2.2,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 11.133213996887207,
+            "r": -8.269857406616211
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 2.2333333333333334,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 10.239291191101074,
+            "r": -9.163780212402344
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 2.2666666666666666,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 9.483832359313965,
+            "r": -9.919239044189453
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 2.3,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.961331367492676,
+            "r": -10.441739082336426
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        },
+        {
+          "time": 2.3333333333333335,
+          "raw_sole_min_cm": 0.0009299937022407383,
+          "grounded_sole_min_cm": 0.15,
+          "grounded_mesh_min_cm": 0.15,
+          "sole_min_by_side_cm": {
+            "l": 0.15,
+            "r": 0.15004280284042504
+          },
+          "sole_max_by_side_cm": {
+            "l": 5.127928607495223,
+            "r": 5.053922771133049
+          },
+          "foot_forward_by_side_cm": {
+            "l": 8.766221046447754,
+            "r": -10.636849403381348
+          },
+          "root_z_offset_cm": 0.14907000629775927
+        }
+      ]
+    }
+  ]
+}

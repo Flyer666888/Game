@@ -1,0 +1,47 @@
+{
+  "before": {
+    "vertices": 37194,
+    "triangles": 50000,
+    "face_triangles": 3123
+  },
+  "after": {
+    "vertices": 43210,
+    "triangles": 65000,
+    "face_triangles": 19745,
+    "skin_triangles": 10128,
+    "source_head_vertices_protected": 17581
+  },
+  "source_polygons": 345510,
+  "textures": {
+    "BaseColor": {
+      "filename": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\WuxiaFaceOptimization\\Textures\\T_WuxiaFace_BaseColor.png",
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "ORM": {
+      "filename": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\WuxiaFaceOptimization\\Textures\\T_WuxiaFace_ORM.png",
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "NormalGL": {
+      "filename": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\WuxiaFaceOptimization\\Textures\\T_WuxiaFace_NormalGL.png",
+      "size": [
+        4096,
+        4096
+      ]
+    }
+  },
+  "minimum_face_head_weight": 1.0,
+  "changes": [
+    "Source head topology protected during body decimation",
+    "Original 4K facial maps recovered without upscaling",
+    "Separate facial skin material slot",
+    "Rigid face/head weights, smooth neck transition"
+  ],
+  "skeleton_unchanged": true,
+  "face_identity_preserved": true
+}

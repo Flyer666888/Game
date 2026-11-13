@@ -1,0 +1,1032 @@
+{
+  "state": "passed",
+  "source": "CompactAttackPoses.json",
+  "actual_mesh_vertices": 43210,
+  "frames": 71,
+  "minimum_blade_body_vertex_clearance_cm": 15.225647926330566,
+  "minimum_skin_height_cm": 0.14999224832739688,
+  "minimum_sword_height_cm": 58.215877012597865,
+  "maximum_wrist_deviation_from_idle_deg": 103.87448706776,
+  "method": "Actual held blade-axis samples beyond inner 25 percent, nearest skinned torso/head/left-arm vertices. A coarse self-clearance diagnostic, not continuous triangle collision proof.",
+  "frames_data": [
+    {
+      "time": 0.0,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 60.915579989465,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 24.285219192504883,
+      "closest_body_vertex": 8540,
+      "closest_body_weights": {
+        "spine_01": 0.31920817494392395,
+        "pelvis": 0.25910913944244385,
+        "thigh_r": 0.22245997190475464,
+        "spine_02": 0.19922268390655518
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 0.0
+    },
+    {
+      "time": 0.033333332198006764,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 59.72304424034285,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 24.629207611083984,
+      "closest_body_vertex": 8540,
+      "closest_body_weights": {
+        "spine_01": 0.31920817494392395,
+        "pelvis": 0.25910913944244385,
+        "thigh_r": 0.22245997190475464,
+        "spine_02": 0.19922268390655518
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 2.596294658623615
+    },
+    {
+      "time": 0.06666666439601353,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 59.636810869152924,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 24.488643646240234,
+      "closest_body_vertex": 8540,
+      "closest_body_weights": {
+        "spine_01": 0.31920817494392395,
+        "pelvis": 0.25910913944244385,
+        "thigh_r": 0.22245997190475464,
+        "spine_02": 0.19922268390655518
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 11.896421034353407
+    },
+    {
+      "time": 0.0999999965940203,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 68.77083896840921,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 21.325712203979492,
+      "closest_body_vertex": 8540,
+      "closest_body_weights": {
+        "spine_01": 0.31920817494392395,
+        "pelvis": 0.25910913944244385,
+        "thigh_r": 0.22245997190475464,
+        "spine_02": 0.19922268390655518
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 29.62295481754274
+    },
+    {
+      "time": 0.13333332879202706,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 83.3752895184458,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 15.627480506896973,
+      "closest_body_vertex": 8552,
+      "closest_body_weights": {
+        "spine_01": 0.33128464221954346,
+        "pelvis": 0.2996717095375061,
+        "thigh_r": 0.19006571173667908,
+        "spine_02": 0.17897795140743256
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 53.150032593404525
+    },
+    {
+      "time": 0.16666666099003383,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 92.28627180306408,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 16.412446975708008,
+      "closest_body_vertex": 9134,
+      "closest_body_weights": {
+        "spine_01": 0.36322668194770813,
+        "spine_02": 0.312747061252594,
+        "pelvis": 0.22130092978477478,
+        "upperarm_r": 0.1027253046631813
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 76.40844712036134
+    },
+    {
+      "time": 0.1999999931880406,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 99.39188850538423,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 18.535961151123047,
+      "closest_body_vertex": 10471,
+      "closest_body_weights": {
+        "spine_02": 0.3564949631690979,
+        "spine_01": 0.302060604095459,
+        "upperarm_r": 0.185582235455513,
+        "spine_03": 0.15586218237876892
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 93.05509415871157
+    },
+    {
+      "time": 0.23333332538604737,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 102.13966589753008,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 20.901687622070312,
+      "closest_body_vertex": 10483,
+      "closest_body_weights": {
+        "spine_02": 0.6001757979393005,
+        "spine_01": 0.162269726395607,
+        "spine_03": 0.1430058777332306,
+        "upperarm_r": 0.09454859793186188
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 97.0231314371569
+    },
+    {
+      "time": 0.2666666575840541,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 102.94049495371914,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 22.5444393157959,
+      "closest_body_vertex": 10286,
+      "closest_body_weights": {
+        "spine_03": 0.5350560545921326,
+        "spine_02": 0.4113360643386841,
+        "clavicle_r": 0.05360788106918335
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 95.43140578294407
+    },
+    {
+      "time": 0.2999999897820609,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 104.06394840988838,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 24.145750045776367,
+      "closest_body_vertex": 10286,
+      "closest_body_weights": {
+        "spine_03": 0.5350560545921326,
+        "spine_02": 0.4113360643386841,
+        "clavicle_r": 0.05360788106918335
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 93.21857007903436
+    },
+    {
+      "time": 0.33333332198006765,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 105.58339512340166,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 25.929670333862305,
+      "closest_body_vertex": 10289,
+      "closest_body_weights": {
+        "spine_03": 0.7228549718856812,
+        "clavicle_r": 0.22483715415000916,
+        "spine_02": 0.052307888865470886
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 91.68905111910377
+    },
+    {
+      "time": 0.3666666541780744,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 107.37295973337999,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 27.734392166137695,
+      "closest_body_vertex": 10289,
+      "closest_body_weights": {
+        "spine_03": 0.7228549718856812,
+        "clavicle_r": 0.22483715415000916,
+        "spine_02": 0.052307888865470886
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 91.43936116803019
+    },
+    {
+      "time": 0.3999999863760812,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 109.31741840048905,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 29.64630699157715,
+      "closest_body_vertex": 10289,
+      "closest_body_weights": {
+        "spine_03": 0.7228549718856812,
+        "clavicle_r": 0.22483715415000916,
+        "spine_02": 0.052307888865470886
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 92.26830824465567
+    },
+    {
+      "time": 0.43333331857408797,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 111.3066171071892,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 31.19919204711914,
+      "closest_body_vertex": 20016,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 93.89362634856175
+    },
+    {
+      "time": 0.46666665077209474,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 113.29565611821874,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 31.551515579223633,
+      "closest_body_vertex": 20016,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 96.01552909916606
+    },
+    {
+      "time": 0.4999999829701015,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 115.25140681828103,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 32.141292572021484,
+      "closest_body_vertex": 20011,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 98.43141907514759
+    },
+    {
+      "time": 0.5333333151681082,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 117.14890343914999,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 32.93051528930664,
+      "closest_body_vertex": 20011,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 100.8275388033837
+    },
+    {
+      "time": 0.566666647366115,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 118.9665040385709,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 33.967559814453125,
+      "closest_body_vertex": 22058,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 102.72104863826668
+    },
+    {
+      "time": 0.5999999795641218,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 120.73175880672957,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 35.201419830322266,
+      "closest_body_vertex": 22058,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 103.87448706776
+    },
+    {
+      "time": 0.6333333117621286,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 122.67472602701885,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 36.4773063659668,
+      "closest_body_vertex": 22061,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 103.76722395880086
+    },
+    {
+      "time": 0.6666666439601353,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 124.52875646349571,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 38.000858306884766,
+      "closest_body_vertex": 22061,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 101.68001628382048
+    },
+    {
+      "time": 0.6999999761581421,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 125.8243268329949,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 39.20182800292969,
+      "closest_body_vertex": 22061,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 98.25152502184318
+    },
+    {
+      "time": 0.7333333083561488,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 126.20119264669614,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 39.39873504638672,
+      "closest_body_vertex": 22061,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 94.39451249960457
+    },
+    {
+      "time": 0.7666666405541557,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 125.29535410604194,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 39.18273162841797,
+      "closest_body_vertex": 22060,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 87.66398878612212
+    },
+    {
+      "time": 0.7999999727521624,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 123.37645017440906,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 38.83772659301758,
+      "closest_body_vertex": 22060,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 85.52347594161357
+    },
+    {
+      "time": 0.8333333049501691,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 119.30431164453032,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 39.304786682128906,
+      "closest_body_vertex": 20019,
+      "closest_body_weights": {
+        "head": 1.0
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 85.42874969953878
+    },
+    {
+      "time": 0.8666666371481759,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 114.53752144823439,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 41.953887939453125,
+      "closest_body_vertex": 35599,
+      "closest_body_weights": {
+        "spine_03": 0.6934453845024109,
+        "clavicle_l": 0.20291611552238464,
+        "spine_02": 0.10363847762346268
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 80.75874032231248
+    },
+    {
+      "time": 0.8999999693461826,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 108.18468380811743,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 41.685306549072266,
+      "closest_body_vertex": 35797,
+      "closest_body_weights": {
+        "spine_03": 0.5650553107261658,
+        "spine_02": 0.35901403427124023,
+        "clavicle_l": 0.07593067735433578
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 66.71923157569516
+    },
+    {
+      "time": 0.9333333015441895,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 103.02702892358622,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 40.23897171020508,
+      "closest_body_vertex": 36119,
+      "closest_body_weights": {
+        "spine_02": 0.5182623863220215,
+        "spine_03": 0.43010661005973816,
+        "clavicle_l": 0.04223404824733734,
+        "upperarm_l": 0.009396925568580627
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 52.199357442699686
+    },
+    {
+      "time": 0.9666666337421962,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 98.13331523076342,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 37.85895919799805,
+      "closest_body_vertex": 36136,
+      "closest_body_weights": {
+        "spine_03": 0.45822077989578247,
+        "clavicle_l": 0.2601337432861328,
+        "upperarm_l": 0.17990094423294067,
+        "spine_02": 0.10174451768398285
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 43.92267870150847
+    },
+    {
+      "time": 0.999999965940203,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 93.37971505769872,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 32.15743637084961,
+      "closest_body_vertex": 39458,
+      "closest_body_weights": {
+        "upperarm_l": 0.5620168447494507,
+        "lowerarm_l": 0.43704038858413696,
+        "hand_l": 0.00047815684229135513,
+        "clavicle_l": 0.00046461442252621055
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 40.916085743146226
+    },
+    {
+      "time": 1.0333332981382097,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 90.34681482762262,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 27.32596206665039,
+      "closest_body_vertex": 39456,
+      "closest_body_weights": {
+        "upperarm_l": 0.5044188499450684,
+        "lowerarm_l": 0.4940439462661743,
+        "hand_l": 0.0009234866010956466,
+        "clavicle_l": 0.0006137036834843457
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 53.3894608055724
+    },
+    {
+      "time": 1.0666666303362164,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 87.71081406127678,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 24.088022232055664,
+      "closest_body_vertex": 39456,
+      "closest_body_weights": {
+        "upperarm_l": 0.5044188499450684,
+        "lowerarm_l": 0.4940439462661743,
+        "hand_l": 0.0009234866010956466,
+        "clavicle_l": 0.0006137036834843457
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 53.347086927030354
+    },
+    {
+      "time": 1.0999999625342234,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 85.05076661666877,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 21.861066818237305,
+      "closest_body_vertex": 39456,
+      "closest_body_weights": {
+        "upperarm_l": 0.5044188499450684,
+        "lowerarm_l": 0.4940439462661743,
+        "hand_l": 0.0009234866010956466,
+        "clavicle_l": 0.0006137036834843457
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 51.96062666684436
+    },
+    {
+      "time": 1.13333329473223,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 82.88746042161557,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 20.47849464416504,
+      "closest_body_vertex": 39456,
+      "closest_body_weights": {
+        "upperarm_l": 0.5044188499450684,
+        "lowerarm_l": 0.4940439462661743,
+        "hand_l": 0.0009234866010956466,
+        "clavicle_l": 0.0006137036834843457
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 50.35819380121875
+    },
+    {
+      "time": 1.1666666269302368,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 81.65384396621701,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 19.795015335083008,
+      "closest_body_vertex": 39362,
+      "closest_body_weights": {
+        "lowerarm_l": 0.7470777630805969,
+        "upperarm_l": 0.24914269149303436,
+        "hand_l": 0.003450379939749837,
+        "clavicle_l": 0.0003291916800662875
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 49.041024870027556
+    },
+    {
+      "time": 1.1999999591282435,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 82.24728897293058,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 18.994043350219727,
+      "closest_body_vertex": 39364,
+      "closest_body_weights": {
+        "lowerarm_l": 0.7251165509223938,
+        "upperarm_l": 0.2728443741798401,
+        "hand_l": 0.0018094484694302082,
+        "clavicle_l": 0.00022964128584135324
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 45.41783374650408
+    },
+    {
+      "time": 1.2333332913262502,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 85.35179544757409,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 17.732999801635742,
+      "closest_body_vertex": 39457,
+      "closest_body_weights": {
+        "upperarm_l": 0.5002689361572266,
+        "lowerarm_l": 0.498586505651474,
+        "hand_l": 0.0007271409267559648,
+        "clavicle_l": 0.000417417089920491
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 38.431916236284884
+    },
+    {
+      "time": 1.2666666235242572,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 89.91015690043943,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 16.768089294433594,
+      "closest_body_vertex": 39457,
+      "closest_body_weights": {
+        "upperarm_l": 0.5002689361572266,
+        "lowerarm_l": 0.498586505651474,
+        "hand_l": 0.0007271409267559648,
+        "clavicle_l": 0.000417417089920491
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 33.30879459146537
+    },
+    {
+      "time": 1.299999955722264,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 94.38878356387708,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 16.532485961914062,
+      "closest_body_vertex": 39458,
+      "closest_body_weights": {
+        "upperarm_l": 0.5620168447494507,
+        "lowerarm_l": 0.43704038858413696,
+        "hand_l": 0.00047815684229135513,
+        "clavicle_l": 0.00046461442252621055
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 30.09091631001664
+    },
+    {
+      "time": 1.3333332879202706,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 95.26428563714212,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 17.11661720275879,
+      "closest_body_vertex": 39463,
+      "closest_body_weights": {
+        "upperarm_l": 0.6618348360061646,
+        "lowerarm_l": 0.33750399947166443,
+        "clavicle_l": 0.00036795868072658777,
+        "hand_l": 0.0002932086063083261
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 28.816828517906934
+    },
+    {
+      "time": 1.3666666201182773,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 96.34436618892018,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 18.30951690673828,
+      "closest_body_vertex": 35449,
+      "closest_body_weights": {
+        "spine_01": 0.3132000267505646,
+        "spine_02": 0.3061058819293976,
+        "upperarm_l": 0.23236429691314697,
+        "pelvis": 0.14832979440689087
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 29.096658837383487
+    },
+    {
+      "time": 1.3999999523162843,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 96.88926687894762,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 16.72967529296875,
+      "closest_body_vertex": 36050,
+      "closest_body_weights": {
+        "spine_02": 0.6929543018341064,
+        "spine_03": 0.18073053658008575,
+        "upperarm_l": 0.08338817209005356,
+        "spine_01": 0.04292701184749603
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 30.22287739612904
+    },
+    {
+      "time": 1.433333284514291,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 96.83460215713065,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 15.423981666564941,
+      "closest_body_vertex": 36115,
+      "closest_body_weights": {
+        "spine_02": 0.6861121654510498,
+        "spine_03": 0.23256251215934753,
+        "upperarm_l": 0.055953942239284515,
+        "spine_01": 0.02537134476006031
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 31.603163496919706
+    },
+    {
+      "time": 1.4666666167122977,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 97.00219678434783,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 15.225647926330566,
+      "closest_body_vertex": 35796,
+      "closest_body_weights": {
+        "spine_02": 0.6647577285766602,
+        "spine_03": 0.2972976565361023,
+        "upperarm_l": 0.022110914811491966,
+        "spine_01": 0.015833670273423195
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 32.944975272911115
+    },
+    {
+      "time": 1.4999999489103044,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 97.26881635487291,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 15.603140830993652,
+      "closest_body_vertex": 35796,
+      "closest_body_weights": {
+        "spine_02": 0.6647577285766602,
+        "spine_03": 0.2972976565361023,
+        "upperarm_l": 0.022110914811491966,
+        "spine_01": 0.015833670273423195
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 34.27309155613444
+    },
+    {
+      "time": 1.5333332811083114,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 97.4897552639291,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 16.55076026916504,
+      "closest_body_vertex": 35796,
+      "closest_body_weights": {
+        "spine_02": 0.6647577285766602,
+        "spine_03": 0.2972976565361023,
+        "upperarm_l": 0.022110914811491966,
+        "spine_01": 0.015833670273423195
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 35.80359669800862
+    },
+    {
+      "time": 1.566666613306318,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 97.54392623485992,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 17.64520835876465,
+      "closest_body_vertex": 35796,
+      "closest_body_weights": {
+        "spine_02": 0.6647577285766602,
+        "spine_03": 0.2972976565361023,
+        "upperarm_l": 0.022110914811491966,
+        "spine_01": 0.015833670273423195
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 37.82928665400593
+    },
+    {
+      "time": 1.5999999455043248,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 97.44040151063098,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 18.340797424316406,
+      "closest_body_vertex": 28677,
+      "closest_body_weights": {
+        "spine_02": 0.7163244485855103,
+        "spine_03": 0.22313837707042694,
+        "spine_01": 0.044869907200336456,
+        "clavicle_l": 0.015667282044887543
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 40.91372115026455
+    },
+    {
+      "time": 1.6333332777023315,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 97.2266890379991,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 19.02779769897461,
+      "closest_body_vertex": 28663,
+      "closest_body_weights": {
+        "spine_02": 0.6390724182128906,
+        "spine_01": 0.1715485155582428,
+        "spine_03": 0.15400174260139465,
+        "pelvis": 0.03537728637456894
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 45.27106198819635
+    },
+    {
+      "time": 1.6666666099003382,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 96.96644796694098,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 19.79344367980957,
+      "closest_body_vertex": 28662,
+      "closest_body_weights": {
+        "spine_02": 0.6578348278999329,
+        "spine_01": 0.15682747960090637,
+        "spine_03": 0.15364426374435425,
+        "pelvis": 0.031693439930677414
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 50.81293365721322
+    },
+    {
+      "time": 1.6999999420983452,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 95.90164196811553,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 20.361238479614258,
+      "closest_body_vertex": 17701,
+      "closest_body_weights": {
+        "spine_01": 0.370919406414032,
+        "spine_02": 0.3575221300125122,
+        "pelvis": 0.1729234904050827,
+        "spine_03": 0.09863494336605072
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 56.942265486087145
+    },
+    {
+      "time": 1.7333332742963519,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 93.59440626903073,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 20.407756805419922,
+      "closest_body_vertex": 10665,
+      "closest_body_weights": {
+        "spine_01": 0.36473584175109863,
+        "pelvis": 0.3470575511455536,
+        "spine_02": 0.18482492864131927,
+        "thigh_r": 0.1033816859126091
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 62.69335256526064
+    },
+    {
+      "time": 1.7666666064943586,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 86.1875897452221,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 20.145978927612305,
+      "closest_body_vertex": 10665,
+      "closest_body_weights": {
+        "spine_01": 0.36473584175109863,
+        "pelvis": 0.3470575511455536,
+        "spine_02": 0.18482492864131927,
+        "thigh_r": 0.1033816859126091
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 67.37359038846344
+    },
+    {
+      "time": 1.7999999386923653,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 78.1675070894888,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 20.006837844848633,
+      "closest_body_vertex": 10662,
+      "closest_body_weights": {
+        "spine_01": 0.3473168611526489,
+        "pelvis": 0.33602944016456604,
+        "spine_02": 0.16461989283561707,
+        "thigh_r": 0.15203380584716797
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 70.37658832152181
+    },
+    {
+      "time": 1.8333332708903722,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 71.85396700108288,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 20.16445541381836,
+      "closest_body_vertex": 10662,
+      "closest_body_weights": {
+        "spine_01": 0.3473168611526489,
+        "pelvis": 0.33602944016456604,
+        "spine_02": 0.16461989283561707,
+        "thigh_r": 0.15203380584716797
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 70.9946940247638
+    },
+    {
+      "time": 1.866666603088379,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 67.36286783342548,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 20.57244873046875,
+      "closest_body_vertex": 10661,
+      "closest_body_weights": {
+        "spine_01": 0.3394791781902313,
+        "pelvis": 0.32561036944389343,
+        "thigh_r": 0.1713932454586029,
+        "spine_02": 0.16351720690727234
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 69.13355970581668
+    },
+    {
+      "time": 1.8999999352863857,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 64.61990883035314,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 21.10652732849121,
+      "closest_body_vertex": 8556,
+      "closest_body_weights": {
+        "spine_01": 0.3394791781902313,
+        "pelvis": 0.32561036944389343,
+        "thigh_r": 0.1713932454586029,
+        "spine_02": 0.16351720690727234
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 66.04880858811947
+    },
+    {
+      "time": 1.9333332674843924,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 62.99084762582424,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 21.695741653442383,
+      "closest_body_vertex": 8556,
+      "closest_body_weights": {
+        "spine_01": 0.3394791781902313,
+        "pelvis": 0.32561036944389343,
+        "thigh_r": 0.1713932454586029,
+        "spine_02": 0.16351720690727234
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 62.11395418011395
+    },
+    {
+      "time": 1.966666599682399,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 61.80473750577791,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 21.95793342590332,
+      "closest_body_vertex": 8552,
+      "closest_body_weights": {
+        "spine_01": 0.33128464221954346,
+        "pelvis": 0.2996717095375061,
+        "thigh_r": 0.19006571173667908,
+        "spine_02": 0.17897795140743256
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 57.22810284874165
+    },
+    {
+      "time": 1.999999931880406,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 60.95583316185419,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 22.436161041259766,
+      "closest_body_vertex": 8552,
+      "closest_body_weights": {
+        "spine_01": 0.33128464221954346,
+        "pelvis": 0.2996717095375061,
+        "thigh_r": 0.19006571173667908,
+        "spine_02": 0.17897795140743256
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 51.67128773739521
+    },
+    {
+      "time": 2.0333332640784127,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 60.16087381613337,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 23.36830711364746,
+      "closest_body_vertex": 8546,
+      "closest_body_weights": {
+        "spine_01": 0.3290576636791229,
+        "pelvis": 0.26788777112960815,
+        "spine_02": 0.21261925995349884,
+        "thigh_r": 0.19043530523777008
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 44.72409502704324
+    },
+    {
+      "time": 2.0666665962764195,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 59.29323109684688,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 24.252836227416992,
+      "closest_body_vertex": 8540,
+      "closest_body_weights": {
+        "spine_01": 0.31920817494392395,
+        "pelvis": 0.25910913944244385,
+        "thigh_r": 0.22245997190475464,
+        "spine_02": 0.19922268390655518
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 38.02284769735541
+    },
+    {
+      "time": 2.099999928474426,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 58.59639449775081,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 25.092472076416016,
+      "closest_body_vertex": 8540,
+      "closest_body_weights": {
+        "spine_01": 0.31920817494392395,
+        "pelvis": 0.25910913944244385,
+        "thigh_r": 0.22245997190475464,
+        "spine_02": 0.19922268390655518
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 31.49414641998532
+    },
+    {
+      "time": 2.133333260672433,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 58.215877012597865,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 25.780834197998047,
+      "closest_body_vertex": 8540,
+      "closest_body_weights": {
+        "spine_01": 0.31920817494392395,
+        "pelvis": 0.25910913944244385,
+        "thigh_r": 0.22245997190475464,
+        "spine_02": 0.19922268390655518
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 24.856070645728998
+    },
+    {
+      "time": 2.1666665928704396,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 58.24400313532913,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 26.061933517456055,
+      "closest_body_vertex": 8540,
+      "closest_body_weights": {
+        "spine_01": 0.31920817494392395,
+        "pelvis": 0.25910913944244385,
+        "thigh_r": 0.22245997190475464,
+        "spine_02": 0.19922268390655518
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 18.436589869383198
+    },
+    {
+      "time": 2.1999999250684468,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 58.6916580827031,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 25.8994140625,
+      "closest_body_vertex": 8540,
+      "closest_body_weights": {
+        "spine_01": 0.31920817494392395,
+        "pelvis": 0.25910913944244385,
+        "thigh_r": 0.22245997190475464,
+        "spine_02": 0.19922268390655518
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 12.538769387198712
+    },
+    {
+      "time": 2.2333332572664535,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 59.41140067813128,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 25.41556167602539,
+      "closest_body_vertex": 8537,
+      "closest_body_weights": {
+        "spine_01": 0.3340522348880768,
+        "pelvis": 0.2576698064804077,
+        "thigh_r": 0.20492181181907654,
+        "spine_02": 0.20335614681243896
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 7.489517378268155
+    },
+    {
+      "time": 2.26666658946446,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 60.15532297718065,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 24.859785079956055,
+      "closest_body_vertex": 8537,
+      "closest_body_weights": {
+        "spine_01": 0.3340522348880768,
+        "pelvis": 0.2576698064804077,
+        "thigh_r": 0.20492181181907654,
+        "spine_02": 0.20335614681243896
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 3.534043617273047
+    },
+    {
+      "time": 2.299999921662467,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 60.70807071008556,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 24.450971603393555,
+      "closest_body_vertex": 8540,
+      "closest_body_weights": {
+        "spine_01": 0.31920817494392395,
+        "pelvis": 0.25910913944244385,
+        "thigh_r": 0.22245997190475464,
+        "spine_02": 0.19922268390655518
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 0.9371094528652382
+    },
+    {
+      "time": 2.3333332538604736,
+      "skin_min_z_cm": 0.14999224832739688,
+      "sword_min_z_cm": 60.915579989465,
+      "blade_to_torso_head_left_arm_vertex_clearance_cm": 24.285219192504883,
+      "closest_body_vertex": 8540,
+      "closest_body_weights": {
+        "spine_01": 0.31920817494392395,
+        "pelvis": 0.25910913944244385,
+        "thigh_r": 0.22245997190475464,
+        "spine_02": 0.19922268390655518
+      },
+      "blade_fraction": 0.25,
+      "wrist_rotation_from_idle_deg": 0.0
+    }
+  ]
+}

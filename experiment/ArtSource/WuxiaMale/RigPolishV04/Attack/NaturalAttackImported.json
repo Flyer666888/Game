@@ -1,0 +1,477 @@
+{
+  "state": "passed",
+  "asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Natural_v04.Wuxia_Attack_Sword_Natural_v04",
+  "source": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword_Upright_v01.Wuxia_Attack_Sword_Upright_v01",
+  "source_sha256": "755768fd863fbeca117ac73bd1b6296c4b215f3134637ea68f66d5bc01e30408",
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Hands_v04.SK_WuxiaMale_Hands_v04",
+  "metadata_unchanged": true,
+  "source_signature": {
+    "duration": 2.3333332538604736,
+    "frame_rate": [
+      30,
+      1
+    ],
+    "frames": 70,
+    "keys": 71,
+    "tracks": [
+      "ball_l",
+      "ball_r",
+      "calf_l",
+      "calf_r",
+      "clavicle_l",
+      "clavicle_r",
+      "foot_l",
+      "foot_r",
+      "hand_l",
+      "hand_r",
+      "head",
+      "lowerarm_l",
+      "lowerarm_r",
+      "neck_01",
+      "pelvis",
+      "root",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "thigh_l",
+      "thigh_r",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "root_motion": false,
+    "rate_scale": 1.0,
+    "notifies": [
+      {
+        "track": "NLAttackDamage",
+        "name": "NL Enemy Sword Attack Window",
+        "start": 0.800000011920929,
+        "duration": 0.23000000417232513,
+        "state_class": "/Script/experiment.NLEnemyAttackWindowNotifyState",
+        "notify_class": null
+      }
+    ],
+    "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton"
+  },
+  "candidate_signature": {
+    "duration": 2.3333332538604736,
+    "frame_rate": [
+      30,
+      1
+    ],
+    "frames": 70,
+    "keys": 71,
+    "tracks": [
+      "ball_l",
+      "ball_r",
+      "calf_l",
+      "calf_r",
+      "clavicle_l",
+      "clavicle_r",
+      "foot_l",
+      "foot_r",
+      "hand_l",
+      "hand_r",
+      "head",
+      "lowerarm_l",
+      "lowerarm_r",
+      "neck_01",
+      "pelvis",
+      "root",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "thigh_l",
+      "thigh_r",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "root_motion": false,
+    "rate_scale": 1.0,
+    "notifies": [
+      {
+        "track": "NLAttackDamage",
+        "name": "NL Enemy Sword Attack Window",
+        "start": 0.800000011920929,
+        "duration": 0.23000000417232513,
+        "state_class": "/Script/experiment.NLEnemyAttackWindowNotifyState",
+        "notify_class": null
+      }
+    ],
+    "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton"
+  },
+  "changed_tracks": [
+    "spine_01",
+    "spine_02",
+    "spine_03",
+    "neck_01",
+    "head",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "hand_l",
+    "clavicle_r",
+    "upperarm_r",
+    "lowerarm_r",
+    "hand_r"
+  ],
+  "maximum_imported_bone_error_cm": 0.048669985564020114,
+  "maximum_lower_body_error_cm": 0.0,
+  "compressed_pose_checks": [
+    {
+      "time": 0.0,
+      "max_imported_bone_position_error_cm": 0.00022887445483351265,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.033333332198006764,
+      "max_imported_bone_position_error_cm": 0.0018676591605642531,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.06666666439601353,
+      "max_imported_bone_position_error_cm": 0.002730136019890479,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.0999999965940203,
+      "max_imported_bone_position_error_cm": 0.016639393874591176,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.13333332879202706,
+      "max_imported_bone_position_error_cm": 0.03647229285664075,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.16666666099003383,
+      "max_imported_bone_position_error_cm": 0.037744227964035315,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.1999999931880406,
+      "max_imported_bone_position_error_cm": 0.01784215833085393,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.23333332538604737,
+      "max_imported_bone_position_error_cm": 0.002419635830171105,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.2666666575840541,
+      "max_imported_bone_position_error_cm": 0.0004146263171918423,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.2999999897820609,
+      "max_imported_bone_position_error_cm": 0.0003513997935479963,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.33333332198006765,
+      "max_imported_bone_position_error_cm": 0.0003637638286306903,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.3666666541780744,
+      "max_imported_bone_position_error_cm": 0.0001895786525620408,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.3999999863760812,
+      "max_imported_bone_position_error_cm": 0.00025391442204344056,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.43333331857408797,
+      "max_imported_bone_position_error_cm": 0.00048328911454728005,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.46666665077209474,
+      "max_imported_bone_position_error_cm": 0.00046240888018819976,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.4999999829701015,
+      "max_imported_bone_position_error_cm": 0.00046838124320078354,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.5333333151681082,
+      "max_imported_bone_position_error_cm": 0.0008283878928415374,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.566666647366115,
+      "max_imported_bone_position_error_cm": 0.0002764610333198894,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.5999999795641218,
+      "max_imported_bone_position_error_cm": 0.00037367003298986886,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.6333333117621286,
+      "max_imported_bone_position_error_cm": 0.0007707352840599263,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.6666666439601353,
+      "max_imported_bone_position_error_cm": 0.0005801427112953593,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.6999999761581421,
+      "max_imported_bone_position_error_cm": 0.0002473889198061428,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.7333333083561488,
+      "max_imported_bone_position_error_cm": 0.0006946367195842465,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.7666666405541557,
+      "max_imported_bone_position_error_cm": 0.0004901808682943512,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.7999999727521624,
+      "max_imported_bone_position_error_cm": 0.0008160192376658903,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.8333333049501691,
+      "max_imported_bone_position_error_cm": 0.0006462887663010512,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.8666666371481759,
+      "max_imported_bone_position_error_cm": 0.00026821482162519,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.8999999693461826,
+      "max_imported_bone_position_error_cm": 7.485879656700094e-05,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.9333333015441895,
+      "max_imported_bone_position_error_cm": 0.00024107363476551783,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.9666666337421962,
+      "max_imported_bone_position_error_cm": 0.00010410079493249214,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 0.999999965940203,
+      "max_imported_bone_position_error_cm": 0.0001537781394030108,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.0333332981382097,
+      "max_imported_bone_position_error_cm": 0.00045225071276272776,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.0666666303362164,
+      "max_imported_bone_position_error_cm": 0.0002514500787707561,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.0999999625342234,
+      "max_imported_bone_position_error_cm": 0.00013827015476085855,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.13333329473223,
+      "max_imported_bone_position_error_cm": 0.0004623534414378783,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.1666666269302368,
+      "max_imported_bone_position_error_cm": 0.00017923321996310583,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.1999999591282435,
+      "max_imported_bone_position_error_cm": 0.0003652572286892211,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.2333332913262502,
+      "max_imported_bone_position_error_cm": 0.00027680966473985446,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.2666666235242572,
+      "max_imported_bone_position_error_cm": 0.0003291407517227625,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.299999955722264,
+      "max_imported_bone_position_error_cm": 0.00025377101185450974,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.3333332879202706,
+      "max_imported_bone_position_error_cm": 0.0008937253152706627,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.3666666201182773,
+      "max_imported_bone_position_error_cm": 0.0011808237678831686,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.3999999523162843,
+      "max_imported_bone_position_error_cm": 0.00012365374017384557,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.433333284514291,
+      "max_imported_bone_position_error_cm": 0.0012798809481766172,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.4666666167122977,
+      "max_imported_bone_position_error_cm": 3.848593576090644e-05,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.4999999489103044,
+      "max_imported_bone_position_error_cm": 0.001049018977724437,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.5333332811083114,
+      "max_imported_bone_position_error_cm": 0.0010824893896654506,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.566666613306318,
+      "max_imported_bone_position_error_cm": 0.001078530356580871,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.5999999455043248,
+      "max_imported_bone_position_error_cm": 0.001015333426407146,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.6333332777023315,
+      "max_imported_bone_position_error_cm": 0.0005825557830534475,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.6666666099003382,
+      "max_imported_bone_position_error_cm": 0.0006071637656123185,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.6999999420983452,
+      "max_imported_bone_position_error_cm": 0.00014733021790605189,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.7333332742963519,
+      "max_imported_bone_position_error_cm": 0.0002856259770457272,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.7666666064943586,
+      "max_imported_bone_position_error_cm": 5.321426697150092e-05,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.7999999386923653,
+      "max_imported_bone_position_error_cm": 0.0001289085621292317,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.8333332708903722,
+      "max_imported_bone_position_error_cm": 0.00041680492220744507,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.866666603088379,
+      "max_imported_bone_position_error_cm": 0.0002306329557985124,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.8999999352863857,
+      "max_imported_bone_position_error_cm": 0.00010705357958536247,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.9333332674843924,
+      "max_imported_bone_position_error_cm": 0.0003133596400999885,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.966666599682399,
+      "max_imported_bone_position_error_cm": 0.00045837478139954435,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 1.999999931880406,
+      "max_imported_bone_position_error_cm": 0.0007156310457901272,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 2.0333332640784127,
+      "max_imported_bone_position_error_cm": 0.0038036525043679535,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 2.0666665962764195,
+      "max_imported_bone_position_error_cm": 0.004761794153934145,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 2.099999928474426,
+      "max_imported_bone_position_error_cm": 0.003710683047784336,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 2.133333260672433,
+      "max_imported_bone_position_error_cm": 0.048669985564020114,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 2.1666665928704396,
+      "max_imported_bone_position_error_cm": 0.020352283947209938,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 2.1999999250684468,
+      "max_imported_bone_position_error_cm": 0.005261898780420232,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 2.2333332572664535,
+      "max_imported_bone_position_error_cm": 0.0015614772956339962,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 2.26666658946446,
+      "max_imported_bone_position_error_cm": 0.0002298509275190826,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 2.299999921662467,
+      "max_imported_bone_position_error_cm": 0.0005347705136976496,
+      "max_lower_body_position_error_cm": 0.0
+    },
+    {
+      "time": 2.3333332538604736,
+      "max_imported_bone_position_error_cm": 0.00022887445483351265,
+      "max_lower_body_position_error_cm": 0.0
+    }
+  ],
+  "scope": "Independent candidate only. Original animation, mesh, level and BP references unchanged."
+}
