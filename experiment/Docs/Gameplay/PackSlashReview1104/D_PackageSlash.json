@@ -1,0 +1,50 @@
+{
+  "capture": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\CandidateCapture.json",
+  "output": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\D_PackageSlash.mp4",
+  "poster": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\D_PackageSlash.png",
+  "frames": 237,
+  "fps": 30,
+  "duration_seconds": 7.9,
+  "width": 960,
+  "height": 720,
+  "sections": [
+    {
+      "key": "D",
+      "label": "D · 轻攻击 04",
+      "source_asset": "/Game/Animations/Sword/Anim_CSATLI_04",
+      "retargeted_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04",
+      "source_duration_seconds": 2.3333332538604736,
+      "start_frame": 1,
+      "end_frame": 83,
+      "motion_frames": 71,
+      "endpoint_hold_frames": 12,
+      "speed": 1.0,
+      "source_frame_count": 71
+    },
+    {
+      "key": "D",
+      "label": "D · 轻攻击 04",
+      "source_asset": "/Game/Animations/Sword/Anim_CSATLI_04",
+      "retargeted_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04",
+      "source_duration_seconds": 2.3333332538604736,
+      "start_frame": 84,
+      "end_frame": 237,
+      "motion_frames": 142,
+      "endpoint_hold_frames": 12,
+      "speed": 0.5,
+      "source_frame_count": 71
+    }
+  ],
+  "bytes": 2251141,
+  "decoded_video": {
+    "frames": 237,
+    "fps": 30.0,
+    "width": 960,
+    "height": 720
+  },
+  "checks": {
+    "all_source_samples_shown": true,
+    "decoded_dimensions_fps_and_frames_match": true
+  },
+  "note": "Complete Unreal samples, including final endpoint, shown once at 1x and twice at 0.5x. Each section adds 0.4 seconds of endpoint hold. No invented intermediate frames. AI and collision held for animation preview; not a manual gameplay or headset test."
+}

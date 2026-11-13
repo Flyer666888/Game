@@ -1,0 +1,23 @@
+{
+  "scope": "Read-only attachment audit against V3 original-package retargets. No animation, skeleton, mesh or gameplay asset edited.",
+  "preview_recommendation": {
+    "bone": "RightHand",
+    "translation": [0.0, -0.065, 0.035],
+    "quaternion_xyzw": [0.6478549549891027, -0.7340261699903499, -0.1434502798824248, 0.1446082856098504],
+    "scale": [0.01, 0.01, 0.01],
+    "use_for": "Uniform A/B/C/D comparison capture; binding preview only"
+  },
+  "evidence": [
+    "Source-to-native RightHand quaternion mapping is constant over all six clips, maximum measured drift below 0.00032 degrees.",
+    "The original heavy clips' RightHand-minus-LeftHand axis is approximately source hand -Y during the two-handed strike. This is grip-axis inference, not an authored package socket; source mannequin has no sockets.",
+    "The proposed attachment reproduces source hand -Y as weapon tip axis and source hand +X as cutting edge; existing attachment instead points near source +Z.",
+    "Observed GripKeyframes/A_002, A_003 and D_003: blade no longer points down through the back during the same pre-swing pose; blade extends visibly in front at the heavy finish and above shoulder for D.",
+    "Weapon pivot already lies at the leather grip center: ArtSource/Weapons/Yueyao/prepare_yueyao_weapon.py line52. Slender revision preserves the original grip pivot. No -9cm pivot compensation is warranted."
+  ],
+  "limits": [
+    "Source grip-axis sign assumes the right hand is the forward hand during the two-handed attack; confirmed visually for these preview keyframes but no original weapon mesh/socket exists to prove author intent.",
+    "Source light03 has a different cut plane and mixed up/down movement. Cutting-edge velocity statistics alone are insufficient to reverse the blade only for that clip; keep one binding for fair comparison and inspect its eventual attack window if selected.",
+    "No human gameplay or headset validation is claimed."
+  ],
+  "supporting_files": ["PackGripCandidates.json", "SourceToNativeHandMapping.json", "GripDirectionAudit.json"]
+}

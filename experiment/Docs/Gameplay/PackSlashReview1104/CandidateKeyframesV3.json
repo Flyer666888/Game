@@ -1,0 +1,535 @@
+{
+  "state": "passed",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_NilinGameplayV01",
+  "deadline_seconds": 600,
+  "failures": [],
+  "checks": {
+    "all_clips_captured": true,
+    "all_frames_exist": true,
+    "every_clip_animates": true
+  },
+  "stages": [],
+  "retry_attempts": [],
+  "combat_results": [],
+  "physical_opening": {},
+  "damage_multiplier": {},
+  "threshold": {},
+  "fallback": {},
+  "mixed_ai": {
+    "state": "pending"
+  },
+  "scope": [
+    "Original supplied sword animations retargeted to the confirmed native41 rig; sampled in Unreal on actual mesh and materials.",
+    "AI/collision held during animation comparison. No manual playthrough or headset test claimed. No saved gameplay asset edited."
+  ],
+  "elapsed_seconds": 13.438000000000102,
+  "fixture_isolation": {
+    "state": "restored_without_saving_map",
+    "temporary_level_id": "Test.Level01.ed654c716822447ba77329c6048444a0",
+    "test_marker": "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\4d6635331801427037c646bd1ce273094f174459.nlrun",
+    "test_run_ids": [
+      "444780364e598e24698e8fbbdf58a946",
+      "f0e015d94492e8c56e028ea93d050984"
+    ],
+    "player_checkpoint_context": "Disabled; no main profile used",
+    "restored_level_id": "Level.Nilin.Playable",
+    "map_sha256_after": "d446aecfc1cab0b62f82bbc67c74a4941b0d1664b89bcd95d0f916db0185ee7d",
+    "removed_only_exact_test_paths": [
+      "D:\\game design\\experiment\\Saved\\SaveGames\\NilinLevelRuns\\4d6635331801427037c646bd1ce273094f174459.nlrun"
+    ],
+    "temporary_assets_removed": true
+  },
+  "frames": [],
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07.SK_WuxiaMale_Native_v07",
+  "clips": [
+    {
+      "key": "A",
+      "label": "A · Anim_CSAT_heavy_01",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSAT_heavy_01",
+      "source_asset": "/Game/Animations/Sword/Anim_CSAT_heavy_01",
+      "duration_seconds": 3.3333332538604736,
+      "fps": 30,
+      "frames": [
+        {
+          "index": 0,
+          "animation_time": 0.0,
+          "actual_time": 0.0,
+          "hand_world": [
+            -835.9825478179176,
+            -1091.0900481136555,
+            99.42809544864599
+          ],
+          "head_world": [
+            -790.7594548425835,
+            -1098.0292332782014,
+            144.37874564367957
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\A_000.png"
+        },
+        {
+          "index": 1,
+          "animation_time": 0.49999998807907103,
+          "actual_time": 0.5,
+          "hand_world": [
+            -853.0377005803181,
+            -1094.0578523111058,
+            148.26226963461292
+          ],
+          "head_world": [
+            -826.2413191061189,
+            -1100.2266978982213,
+            141.81440212211868
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\A_001.png"
+        },
+        {
+          "index": 2,
+          "animation_time": 0.9999999761581421,
+          "actual_time": 1.0,
+          "hand_world": [
+            -708.8222518943039,
+            -1101.1311558166542,
+            148.48521506033038
+          ],
+          "head_world": [
+            -683.8979905697945,
+            -1107.4248981546612,
+            136.35277173252086
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\A_002.png"
+        },
+        {
+          "index": 3,
+          "animation_time": 1.4999999642372133,
+          "actual_time": 1.5,
+          "hand_world": [
+            -513.2689236675677,
+            -1078.7623298802373,
+            53.33565080544507
+          ],
+          "head_world": [
+            -516.8047748804106,
+            -1087.1260232736952,
+            93.79885033949651
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\A_003.png"
+        },
+        {
+          "index": 4,
+          "animation_time": 1.9999999523162841,
+          "actual_time": 2.0,
+          "hand_world": [
+            -532.3635801906137,
+            -1063.3804914338266,
+            50.36401785738555
+          ],
+          "head_world": [
+            -538.3031710229056,
+            -1089.490833592046,
+            100.36361439378956
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\A_004.png"
+        },
+        {
+          "index": 5,
+          "animation_time": 2.4999999403953552,
+          "actual_time": 2.5,
+          "hand_world": [
+            -562.3252673328133,
+            -1074.7594551253137,
+            104.14131577235862
+          ],
+          "head_world": [
+            -518.4203943292466,
+            -1104.4611335834813,
+            137.29424554790083
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\A_005.png"
+        },
+        {
+          "index": 6,
+          "animation_time": 3.2999999213218687,
+          "actual_time": 3.299999952316284,
+          "hand_world": [
+            -574.5621888962716,
+            -1090.7527428244525,
+            99.41098696538796
+          ],
+          "head_world": [
+            -528.8197783402867,
+            -1097.8370859080599,
+            144.1474273469836
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\A_006.png"
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "label": "B · Anim_CSAT_heavy_02",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSAT_heavy_02",
+      "source_asset": "/Game/Animations/Sword/Anim_CSAT_heavy_02",
+      "duration_seconds": 3.3333332538604736,
+      "fps": 30,
+      "frames": [
+        {
+          "index": 0,
+          "animation_time": 0.0,
+          "actual_time": 0.0,
+          "hand_world": [
+            -652.6559638627065,
+            -1071.0961438987256,
+            50.34951577914947
+          ],
+          "head_world": [
+            -664.7206742369074,
+            -1089.8097457905321,
+            99.32603707982382
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\B_000.png"
+        },
+        {
+          "index": 1,
+          "animation_time": 0.49999998807907103,
+          "actual_time": 0.5,
+          "hand_world": [
+            -740.7552702213925,
+            -1101.6837210896929,
+            96.85842277434656
+          ],
+          "head_world": [
+            -706.4612784316466,
+            -1111.2611072830236,
+            127.95293244773748
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\B_001.png"
+        },
+        {
+          "index": 2,
+          "animation_time": 0.9999999761581421,
+          "actual_time": 1.0,
+          "hand_world": [
+            -631.2440928932838,
+            -1100.3574160974451,
+            162.7179215462317
+          ],
+          "head_world": [
+            -617.5451297346576,
+            -1103.9907569696145,
+            144.32352006812894
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\B_002.png"
+        },
+        {
+          "index": 3,
+          "animation_time": 1.4999999642372133,
+          "actual_time": 1.5,
+          "hand_world": [
+            -500.20864349592506,
+            -1078.641270992327,
+            44.6251221625791
+          ],
+          "head_world": [
+            -515.2490087561632,
+            -1087.1755878929782,
+            85.8015377218707
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\B_003.png"
+        },
+        {
+          "index": 4,
+          "animation_time": 1.9999999523162841,
+          "actual_time": 2.0,
+          "hand_world": [
+            -512.500783840577,
+            -1079.3502827932825,
+            54.09832938011815
+          ],
+          "head_world": [
+            -531.9230825118257,
+            -1089.7542800453443,
+            97.99319585001693
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\B_004.png"
+        },
+        {
+          "index": 5,
+          "animation_time": 2.4999999403953552,
+          "actual_time": 2.5,
+          "hand_world": [
+            -518.6308874128017,
+            -1065.2916435118923,
+            75.36070190802941
+          ],
+          "head_world": [
+            -507.5610135855276,
+            -1093.3749415513746,
+            124.53056612545114
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\B_005.png"
+        },
+        {
+          "index": 6,
+          "animation_time": 3.2999999213218687,
+          "actual_time": 3.299999952316284,
+          "hand_world": [
+            -550.1577408464775,
+            -1091.3089945377478,
+            99.98718903415588
+          ],
+          "head_world": [
+            -504.55640414444514,
+            -1098.437516685642,
+            144.33072465948229
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\B_006.png"
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "label": "C · Anim_CSATLI_03",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_03",
+      "source_asset": "/Game/Animations/Sword/Anim_CSATLI_03",
+      "duration_seconds": 2.3333332538604736,
+      "fps": 30,
+      "frames": [
+        {
+          "index": 0,
+          "animation_time": 0.0,
+          "actual_time": 0.0,
+          "hand_world": [
+            -844.2459981143245,
+            -1134.0500204727896,
+            109.25335324510817
+          ],
+          "head_world": [
+            -786.6979899547895,
+            -1107.6473446280036,
+            118.3821785488285
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\C_000.png"
+        },
+        {
+          "index": 1,
+          "animation_time": 0.349999988079071,
+          "actual_time": 0.3499999940395355,
+          "hand_world": [
+            -806.5590738760476,
+            -1146.9447246075265,
+            123.50530382498306
+          ],
+          "head_world": [
+            -786.6383949521731,
+            -1096.035493372645,
+            110.40875478493086
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\C_001.png"
+        },
+        {
+          "index": 2,
+          "animation_time": 0.699999976158142,
+          "actual_time": 0.699999988079071,
+          "hand_world": [
+            -742.2145609948055,
+            -1063.0586408578206,
+            76.77872389959902
+          ],
+          "head_world": [
+            -737.765183605421,
+            -1102.9011356120593,
+            128.71348771601555
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\C_002.png"
+        },
+        {
+          "index": 3,
+          "animation_time": 1.049999964237213,
+          "actual_time": 1.0499999523162842,
+          "hand_world": [
+            -679.8938688637822,
+            -1103.9657716505465,
+            140.62263814936497
+          ],
+          "head_world": [
+            -657.2506165280183,
+            -1091.7429461440956,
+            140.09689878093099
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\C_003.png"
+        },
+        {
+          "index": 4,
+          "animation_time": 1.399999952316284,
+          "actual_time": 1.399999976158142,
+          "hand_world": [
+            -665.5044343668785,
+            -1102.138084741549,
+            124.83962894599216
+          ],
+          "head_world": [
+            -642.9782789038304,
+            -1100.7834934663715,
+            132.25508687633828
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\C_004.png"
+        },
+        {
+          "index": 5,
+          "animation_time": 1.7499999403953552,
+          "actual_time": 1.75,
+          "hand_world": [
+            -599.6278928439298,
+            -1100.7104067581568,
+            110.39311674848469
+          ],
+          "head_world": [
+            -617.8493669308494,
+            -1094.516869788398,
+            128.7415613662238
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\C_005.png"
+        },
+        {
+          "index": 6,
+          "animation_time": 2.309999921321869,
+          "actual_time": 2.309999942779541,
+          "hand_world": [
+            -606.9273359944068,
+            -1090.1899133254717,
+            99.28816738542508
+          ],
+          "head_world": [
+            -561.635854327123,
+            -1098.0731158290992,
+            143.97784577693287
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\C_006.png"
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "label": "D · Anim_CSATLI_04",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04",
+      "source_asset": "/Game/Animations/Sword/Anim_CSATLI_04",
+      "duration_seconds": 2.3333332538604736,
+      "fps": 30,
+      "frames": [
+        {
+          "index": 0,
+          "animation_time": 0.0,
+          "actual_time": 0.0,
+          "hand_world": [
+            -835.7470296981239,
+            -1109.6827094401108,
+            151.58245827947346
+          ],
+          "head_world": [
+            -815.6563692790378,
+            -1088.7371250593278,
+            142.6120567238311
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\D_000.png"
+        },
+        {
+          "index": 1,
+          "animation_time": 0.349999988079071,
+          "actual_time": 0.3499999940395355,
+          "hand_world": [
+            -743.5017850435943,
+            -1124.1088831975446,
+            159.76866187998067
+          ],
+          "head_world": [
+            -731.3172137146117,
+            -1102.1537605324204,
+            146.565322202152
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\D_001.png"
+        },
+        {
+          "index": 2,
+          "animation_time": 0.699999976158142,
+          "actual_time": 0.699999988079071,
+          "hand_world": [
+            -661.39624696816,
+            -1074.3624829414716,
+            108.34731155973154
+          ],
+          "head_world": [
+            -674.4248615981697,
+            -1110.92173102914,
+            132.38809724192564
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\D_002.png"
+        },
+        {
+          "index": 3,
+          "animation_time": 1.049999964237213,
+          "actual_time": 1.0499999523162842,
+          "hand_world": [
+            -627.0722066411436,
+            -1113.1103701027105,
+            135.00578935065425
+          ],
+          "head_world": [
+            -610.2024676920605,
+            -1097.4023934826523,
+            140.91600831614141
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\D_003.png"
+        },
+        {
+          "index": 4,
+          "animation_time": 1.399999952316284,
+          "actual_time": 1.399999976158142,
+          "hand_world": [
+            -592.0782590236022,
+            -1101.7625593086896,
+            112.61775341395881
+          ],
+          "head_world": [
+            -575.6987697632759,
+            -1096.4043260191424,
+            116.08674508830211
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\D_004.png"
+        },
+        {
+          "index": 5,
+          "animation_time": 1.7499999403953552,
+          "actual_time": 1.75,
+          "hand_world": [
+            -546.6507474249945,
+            -1095.2404988218634,
+            113.11356449062188
+          ],
+          "head_world": [
+            -556.4141242099122,
+            -1088.4319127162305,
+            122.7365292315099
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\D_005.png"
+        },
+        {
+          "index": 6,
+          "animation_time": 2.309999921321869,
+          "actual_time": 2.309999942779541,
+          "hand_world": [
+            -551.5817323370593,
+            -1088.4079144319385,
+            98.57379567325022
+          ],
+          "head_world": [
+            -507.4949025936459,
+            -1097.6825698082926,
+            143.82559709281554
+          ],
+          "file": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\KeyframesV3\\D_006.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "note": "Read-only binding candidates from constant retarget hand mapping. Source shaft -Y inferred from two-handed grip line; edge +X supported for heavy01/02 descent, not all light slash clips. Visual QA required.",
+  "source_to_target_hand_q_xyzw": [
+    0.6204695480365366,
+    0.5603561312685863,
+    0.35584913252761374,
+    0.4176002167005951
+  ],
+  "translation": [
+    0,
+    -0.065,
+    0.035
+  ],
+  "scale": [
+    0.01,
+    0.01,
+    0.01
+  ],
+  "quaternions_xyzw": {
+    "shaft_source_negativeY_edge_source_positiveX": [
+      0.6478549549891027,
+      -0.7340261699903499,
+      -0.1434502798824248,
+      0.1446082856098504
+    ],
+    "shaft_source_negativeY_edge_source_negativeX": [
+      0.7340261699903499,
+      0.6478549549891027,
+      -0.1446082856098504,
+      -0.1434502798824248
+    ]
+  }
+}

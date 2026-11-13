@@ -1,0 +1,110 @@
+{
+  "state": "passed",
+  "blueprints": [
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple",
+      "role": "<NLEnemyRole.TALISMAN_CASTER: 1>",
+      "changed": true,
+      "before": {
+        "muzzle_socket_name": "hand_l",
+        "muzzle_local_offset": "<Struct 'Vector' (0x000002324A24AD80) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "talisman_hand_transform": "<Struct 'Transform' (0x000002324A24ADC0) {rotation: {x: 0.000000, y: -0.707107, z: 0.000000, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 7.000000}, scale3d: {x: 0.050000, y: 0.120000, z: 1.000000}}>",
+        "projectile_material": "<Object '/Game/ReversedScale/Combat/Materials/M_TalismanCast.M_TalismanCast' (0x0000023201796200) Class 'Material'>"
+      },
+      "socket": "hand_l",
+      "timings_and_speed": [
+        1.100000023841858,
+        0.15000000596046448,
+        2.0,
+        700.0
+      ],
+      "mesh": "/Game/ReversedScale/Weapons/TalismanJade1104/SM_Nilin_JadeTalisman.SM_Nilin_JadeTalisman",
+      "orb": "/Game/ReversedScale/Weapons/TalismanJade1104/M_TalismanGoldenOrb.M_TalismanGoldenOrb",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\JadeTalismanCast1104\\Backups\\Content\\ReversedScale\\Characters\\WuxiaMale\\BP_EnemyTalismanDisciple.uasset"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_talisman",
+      "role": "<NLEnemyRole.TALISMAN_CASTER: 1>",
+      "changed": true,
+      "before": {
+        "muzzle_socket_name": "hand_l",
+        "muzzle_local_offset": "<Struct 'Vector' (0x0000023230FB9200) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "talisman_hand_transform": "<Struct 'Transform' (0x0000023230FB9240) {rotation: {x: 0.000000, y: -0.707107, z: 0.000000, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 7.000000}, scale3d: {x: 0.050000, y: 0.120000, z: 1.000000}}>",
+        "projectile_material": "<Object '/Game/ReversedScale/Combat/Materials/M_TalismanCast.M_TalismanCast' (0x0000023201796200) Class 'Material'>"
+      },
+      "socket": "hand_l",
+      "timings_and_speed": [
+        1.2000000476837158,
+        0.15000000596046448,
+        2.0,
+        1000.0
+      ],
+      "mesh": "/Game/ReversedScale/Weapons/TalismanJade1104/SM_Nilin_JadeTalisman.SM_Nilin_JadeTalisman",
+      "orb": "/Game/ReversedScale/Weapons/TalismanJade1104/M_TalismanGoldenOrb.M_TalismanGoldenOrb",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\JadeTalismanCast1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_talisman.uasset"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_rock_talisman",
+      "role": "<NLEnemyRole.TALISMAN_CASTER: 1>",
+      "changed": true,
+      "before": {
+        "muzzle_socket_name": "hand_l",
+        "muzzle_local_offset": "<Struct 'Vector' (0x0000023230FBBA00) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "talisman_hand_transform": "<Struct 'Transform' (0x0000023230FBBA40) {rotation: {x: 0.000000, y: -0.707107, z: 0.000000, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 7.000000}, scale3d: {x: 0.050000, y: 0.120000, z: 1.000000}}>",
+        "projectile_material": "<Object '/Game/ReversedScale/Combat/Materials/M_TalismanCast.M_TalismanCast' (0x0000023201796200) Class 'Material'>"
+      },
+      "socket": "hand_l",
+      "timings_and_speed": [
+        1.2000000476837158,
+        0.15000000596046448,
+        2.0,
+        1000.0
+      ],
+      "mesh": "/Game/ReversedScale/Weapons/TalismanJade1104/SM_Nilin_JadeTalisman.SM_Nilin_JadeTalisman",
+      "orb": "/Game/ReversedScale/Weapons/TalismanJade1104/M_TalismanGoldenOrb.M_TalismanGoldenOrb",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\JadeTalismanCast1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_rock_talisman.uasset"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM02",
+      "role": "<NLEnemyRole.TALISMAN_CASTER: 1>",
+      "changed": true,
+      "before": {
+        "muzzle_socket_name": "hand_l",
+        "muzzle_local_offset": "<Struct 'Vector' (0x0000023230FBC180) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "talisman_hand_transform": "<Struct 'Transform' (0x0000023230FBC1C0) {rotation: {x: 0.000000, y: -0.707107, z: 0.000000, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 7.000000}, scale3d: {x: 0.050000, y: 0.120000, z: 1.000000}}>",
+        "projectile_material": "<Object '/Game/ReversedScale/Combat/Materials/M_TalismanCast.M_TalismanCast' (0x0000023201796200) Class 'Material'>"
+      },
+      "socket": "hand_l",
+      "timings_and_speed": [
+        1.2000000476837158,
+        0.15000000596046448,
+        2.0,
+        1000.0
+      ],
+      "mesh": "/Game/ReversedScale/Weapons/TalismanJade1104/SM_Nilin_JadeTalisman.SM_Nilin_JadeTalisman",
+      "orb": "/Game/ReversedScale/Weapons/TalismanJade1104/M_TalismanGoldenOrb.M_TalismanGoldenOrb",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\JadeTalismanCast1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM02.uasset"
+    },
+    {
+      "asset": "/Game/ReversedScale/Gameplay/V01/Enemies/BP_Level_GM03",
+      "role": "<NLEnemyRole.TALISMAN_CASTER: 1>",
+      "changed": true,
+      "before": {
+        "muzzle_socket_name": "hand_l",
+        "muzzle_local_offset": "<Struct 'Vector' (0x0000023230FBC900) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "talisman_hand_transform": "<Struct 'Transform' (0x0000023230FBC940) {rotation: {x: 0.000000, y: -0.707107, z: 0.000000, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 7.000000}, scale3d: {x: 0.050000, y: 0.120000, z: 1.000000}}>",
+        "projectile_material": "<Object '/Game/ReversedScale/Combat/Materials/M_TalismanCast.M_TalismanCast' (0x0000023201796200) Class 'Material'>"
+      },
+      "socket": "hand_l",
+      "timings_and_speed": [
+        1.2000000476837158,
+        0.15000000596046448,
+        2.0,
+        1000.0
+      ],
+      "mesh": "/Game/ReversedScale/Weapons/TalismanJade1104/SM_Nilin_JadeTalisman.SM_Nilin_JadeTalisman",
+      "orb": "/Game/ReversedScale/Weapons/TalismanJade1104/M_TalismanGoldenOrb.M_TalismanGoldenOrb",
+      "backup": "D:\\game design\\experiment\\Docs\\Gameplay\\JadeTalismanCast1104\\Backups\\Content\\ReversedScale\\Gameplay\\V01\\Enemies\\BP_Level_GM03.uasset"
+    }
+  ]
+}

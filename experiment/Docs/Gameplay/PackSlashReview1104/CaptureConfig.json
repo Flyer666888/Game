@@ -1,0 +1,49 @@
+{
+  "fps": 30,
+  "report": "CandidateCapture.json",
+  "frame_folder": "CandidateFrames",
+  "clips": [
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSAT_heavy_01",
+      "source_asset": "/Game/Animations/Sword/Anim_CSAT_heavy_01",
+      "label": "A · 重劈 01",
+      "key": "A"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSAT_heavy_02",
+      "source_asset": "/Game/Animations/Sword/Anim_CSAT_heavy_02",
+      "label": "B · 重劈 02",
+      "key": "B"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_03",
+      "source_asset": "/Game/Animations/Sword/Anim_CSATLI_03",
+      "label": "C · 轻攻击 03",
+      "key": "C"
+    },
+    {
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04",
+      "source_asset": "/Game/Animations/Sword/Anim_CSATLI_04",
+      "label": "D · 轻攻击 04",
+      "key": "D"
+    }
+  ],
+  "grip_override": {
+    "translation": [
+      0,
+      -0.065,
+      0.035
+    ],
+    "scale": [
+      0.01,
+      0.01,
+      0.01
+    ],
+    "quaternion_xyzw": [
+      0.647854955,
+      -0.73402617,
+      -0.14345028,
+      0.144608286
+    ]
+  }
+}

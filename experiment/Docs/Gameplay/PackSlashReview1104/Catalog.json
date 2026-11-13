@@ -1,0 +1,802 @@
+{
+  "generated_date": "2026-11-04",
+  "method": "Read-only inventory, source code/history inspection and prior contact-sheet inspection. No UE operations or asset changes.",
+  "project_root": "D:\\game design\\experiment",
+  "total_pack_animation_assets": 3583,
+  "sword_animation_assets": 164,
+  "categories": [
+    {
+      "folder": "Bow",
+      "count": 98
+    },
+    {
+      "folder": "CoverEyes",
+      "count": 15
+    },
+    {
+      "folder": "Death",
+      "count": 6
+    },
+    {
+      "folder": "ExtremeCombat",
+      "count": 126
+    },
+    {
+      "folder": "ExtremeLocomotion",
+      "count": 79
+    },
+    {
+      "folder": "GetHit",
+      "count": 7
+    },
+    {
+      "folder": "GetUp",
+      "count": 1
+    },
+    {
+      "folder": "Jump",
+      "count": 6
+    },
+    {
+      "folder": "MocapCMU-InPlace",
+      "count": 2548
+    },
+    {
+      "folder": "NPC",
+      "count": 464
+    },
+    {
+      "folder": "Sword",
+      "count": 164
+    },
+    {
+      "folder": "Unarmed",
+      "count": 69
+    }
+  ],
+  "original_source_mesh": "/Game/Character/Mesh/SK_Mannequin",
+  "original_source_skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton",
+  "first_preview_order": [
+    "/Game/Animations/Sword/Anim_CSAT_heavy_01",
+    "/Game/Animations/Sword/Anim_CSAT_heavy_02",
+    "/Game/Animations/Sword/Anim_CSATLI_03",
+    "/Game/Animations/Sword/Anim_CSATLI_04"
+  ],
+  "recommendation_basis": "Four existing pack attack variants not used by the previous SwordCombat selection. Heavy names suggest an emphasis worth checking, not proof of visual quality. Compare originals on source mannequin before judging new-rig retarget.",
+  "known_previous_selection": {
+    "source": "/Game/Animations/Sword/Anim_CSATLI_02",
+    "output": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword",
+    "source_duration_seconds": 2.3333332538604736,
+    "old_target_bones": 23,
+    "modifications": [
+      "pelvis and both leg chains replaced with standing pose",
+      "root horizontal displacement multiplied by 0.04 and clamped to 6 cm",
+      "upper body blended to standing pose for 0.18 s entry and 0.30 s exit"
+    ],
+    "source_evidence": [
+      "Saved/Scripts/prepare_sword_combat.py:29-32",
+      "Saved/Scripts/bake_sword_combat.py:118-149",
+      "Docs/AI/State.md:20"
+    ],
+    "baseline_01_root_range_cm": 358.6158752441407,
+    "baseline_02_root_range_cm": 142.28076171875,
+    "root_range_evidence": "ArtSource/WuxiaMale/SwordCombat/SwordCandidateSummary.json"
+  },
+  "current_v07": {
+    "attack": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/A_Wuxia_Attack_Native_v07",
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07",
+    "classification": "procedurally authored continuous IK motion, not an original pack clip",
+    "authoring_script": "Scripts/Editor/SlashRevision1104/bake_large_slash.py",
+    "supplied_walk_fbx": "C:/Users/21475/Desktop/Game model/古代男青年走路动画.fbx",
+    "target_bones": 41
+  },
+  "native_retarget_workflow": {
+    "setup": "Saved/Scripts/import_wuxia_enemy.py:87-138",
+    "batch": "Saved/Scripts/prepare_sword_combat.py:14-45",
+    "source_rig": "/Game/ReversedScale/Characters/WuxiaMale/IK_Mannequin_Source",
+    "old_target_rig": "/Game/ReversedScale/Characters/WuxiaMale/IK_WuxiaMale",
+    "old_retargeter": "/Game/ReversedScale/Characters/WuxiaMale/RTG_Mannequin_WuxiaMale_SwordCombat",
+    "notes": [
+      "Use native IKRigController and IKRetargeterController chain mapping plus IKRetargetBatchOperation.",
+      "Old target paths and chain bone names belong to the obsolete 23-bone target, not the accepted 41-bone Mixamo skeleton.",
+      "Avoid replaying bake_sword_combat.py because it intentionally removes source pelvis/leg action.",
+      "DE and COAT suffix meanings are not verified.",
+      "Content/3583AnimationsPack is Character support; animation runtime paths are /Game/Animations/."
+    ]
+  },
+  "sword_attack_candidates": [
+    {
+      "name": "Anim_CSAT_heavy_01",
+      "asset_path": "/Game/Animations/Sword/Anim_CSAT_heavy_01",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_CSAT_heavy_01.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSAT_heavy_01.uasset",
+      "exists_in_project": true,
+      "source_sha256": "D15FE6C32A6975CE26360A2401ED7A66D972051886300FC81B006854D0C7F04F",
+      "project_sha256": "D15FE6C32A6975CE26360A2401ED7A66D972051886300FC81B006854D0C7F04F",
+      "project_identical_to_inbox": true,
+      "category": "sword_attack_named_candidate",
+      "first_preview": true,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_CSAT_heavy_02",
+      "asset_path": "/Game/Animations/Sword/Anim_CSAT_heavy_02",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_CSAT_heavy_02.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSAT_heavy_02.uasset",
+      "exists_in_project": true,
+      "source_sha256": "227A54D5C960506F2D59D239912394611716444B399CE462AF56D6CF48B7C71A",
+      "project_sha256": "227A54D5C960506F2D59D239912394611716444B399CE462AF56D6CF48B7C71A",
+      "project_identical_to_inbox": true,
+      "category": "sword_attack_named_candidate",
+      "first_preview": true,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_CSATLI_01_DE",
+      "asset_path": "/Game/Animations/Sword/Anim_CSATLI_01_DE",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_CSATLI_01_DE.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_01_DE.uasset",
+      "exists_in_project": true,
+      "source_sha256": "5436E08B9DF702C650B576133D3FD78D80B8FB64334D5E92FB53F0879B4EC15B",
+      "project_sha256": "5436E08B9DF702C650B576133D3FD78D80B8FB64334D5E92FB53F0879B4EC15B",
+      "project_identical_to_inbox": true,
+      "category": "sword_attack_named_candidate",
+      "first_preview": false,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_CSATLI_01",
+      "asset_path": "/Game/Animations/Sword/Anim_CSATLI_01",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_CSATLI_01.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_01.uasset",
+      "exists_in_project": true,
+      "source_sha256": "90A1BD3BBB7F7E9DFDA59B2090D363EA67EBB0E8FE841CBC92D85A8515C4D0F1",
+      "project_sha256": "90A1BD3BBB7F7E9DFDA59B2090D363EA67EBB0E8FE841CBC92D85A8515C4D0F1",
+      "project_identical_to_inbox": true,
+      "category": "sword_attack_named_candidate",
+      "first_preview": false,
+      "historical_use": "Previously retargeted and previewed; not selected for Wuxia_Attack_Sword.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_CSATLI_02_DE",
+      "asset_path": "/Game/Animations/Sword/Anim_CSATLI_02_DE",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_CSATLI_02_DE.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_02_DE.uasset",
+      "exists_in_project": true,
+      "source_sha256": "3304847154868BDBD3A92D691059B41D74ADC675A3124614184022070F7558D5",
+      "project_sha256": "3304847154868BDBD3A92D691059B41D74ADC675A3124614184022070F7558D5",
+      "project_identical_to_inbox": true,
+      "category": "sword_attack_named_candidate",
+      "first_preview": false,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_CSATLI_02",
+      "asset_path": "/Game/Animations/Sword/Anim_CSATLI_02",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_CSATLI_02.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_02.uasset",
+      "exists_in_project": true,
+      "source_sha256": "C58AC7B90DA04B72A4B1C32AAE2D56823387F1BBF23AE9966354CA3AD86321B0",
+      "project_sha256": "C58AC7B90DA04B72A4B1C32AAE2D56823387F1BBF23AE9966354CA3AD86321B0",
+      "project_identical_to_inbox": true,
+      "category": "sword_attack_named_candidate",
+      "first_preview": false,
+      "historical_use": "Previously selected source for Wuxia_Attack_Sword; authored output froze pelvis/legs and reduced root translation.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_CSATLI_03_DE",
+      "asset_path": "/Game/Animations/Sword/Anim_CSATLI_03_DE",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_CSATLI_03_DE.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_03_DE.uasset",
+      "exists_in_project": true,
+      "source_sha256": "3A1B4B0B99FE546FA5E11CD835AC132E66D618770B96752E1E29B7E37843ED1F",
+      "project_sha256": "3A1B4B0B99FE546FA5E11CD835AC132E66D618770B96752E1E29B7E37843ED1F",
+      "project_identical_to_inbox": true,
+      "category": "sword_attack_named_candidate",
+      "first_preview": false,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_CSATLI_03",
+      "asset_path": "/Game/Animations/Sword/Anim_CSATLI_03",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_CSATLI_03.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_03.uasset",
+      "exists_in_project": true,
+      "source_sha256": "FB6BE2B356E0E49560CA8D9F18930ACCB4CEE1B29A7C3E33258410C10D001CB4",
+      "project_sha256": "FB6BE2B356E0E49560CA8D9F18930ACCB4CEE1B29A7C3E33258410C10D001CB4",
+      "project_identical_to_inbox": true,
+      "category": "sword_attack_named_candidate",
+      "first_preview": true,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_CSATLI_04_DE",
+      "asset_path": "/Game/Animations/Sword/Anim_CSATLI_04_DE",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_CSATLI_04_DE.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_04_DE.uasset",
+      "exists_in_project": true,
+      "source_sha256": "0516EE4B91F2C14D873C34D8D8E39E59F5644D22BDE38F9840563453F6B94E66",
+      "project_sha256": "0516EE4B91F2C14D873C34D8D8E39E59F5644D22BDE38F9840563453F6B94E66",
+      "project_identical_to_inbox": true,
+      "category": "sword_attack_named_candidate",
+      "first_preview": false,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_CSATLI_04",
+      "asset_path": "/Game/Animations/Sword/Anim_CSATLI_04",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_CSATLI_04.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_04.uasset",
+      "exists_in_project": true,
+      "source_sha256": "0AC51C7C9E28CB38F3D2E5FB6E4823151A020B93801592AA74767B494C635DEF",
+      "project_sha256": "0AC51C7C9E28CB38F3D2E5FB6E4823151A020B93801592AA74767B494C635DEF",
+      "project_identical_to_inbox": true,
+      "category": "sword_attack_named_candidate",
+      "first_preview": true,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_CS_COAT_01",
+      "asset_path": "/Game/Animations/Sword/Anim_CS_COAT_01",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_CS_COAT_01.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CS_COAT_01.uasset",
+      "exists_in_project": true,
+      "source_sha256": "1EEAC4578EC9839A0FD85FB1003758A7D5CA5C540353460A3684D4EBD9CC1543",
+      "project_sha256": "1EEAC4578EC9839A0FD85FB1003758A7D5CA5C540353460A3684D4EBD9CC1543",
+      "project_identical_to_inbox": true,
+      "category": "secondary_name_only_candidate",
+      "first_preview": false,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_IN_cut_TR_E",
+      "asset_path": "/Game/Animations/Sword/Anim_IN_cut_TR_E",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_IN_cut_TR_E.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_IN_cut_TR_E.uasset",
+      "exists_in_project": true,
+      "source_sha256": "8330B72B0C5B634DA8C6B8FCB1FDA2DA73B1C57FB3192BB0B404044135DAE480",
+      "project_sha256": "8330B72B0C5B634DA8C6B8FCB1FDA2DA73B1C57FB3192BB0B404044135DAE480",
+      "project_identical_to_inbox": true,
+      "category": "secondary_name_only_candidate",
+      "first_preview": false,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_IN_TR_SAT_1",
+      "asset_path": "/Game/Animations/Sword/Anim_IN_TR_SAT_1",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_IN_TR_SAT_1.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_IN_TR_SAT_1.uasset",
+      "exists_in_project": true,
+      "source_sha256": "4CA586EBA5EBED70EFF8F8ACF28B4C49CFE147DB6CBFBA52C2718DFB127B31B9",
+      "project_sha256": "4CA586EBA5EBED70EFF8F8ACF28B4C49CFE147DB6CBFBA52C2718DFB127B31B9",
+      "project_identical_to_inbox": true,
+      "category": "secondary_name_only_candidate",
+      "first_preview": false,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_IN_TR_SAT_2",
+      "asset_path": "/Game/Animations/Sword/Anim_IN_TR_SAT_2",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_IN_TR_SAT_2.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_IN_TR_SAT_2.uasset",
+      "exists_in_project": true,
+      "source_sha256": "FF0587B32EEFA0F0B3BADEF7019A13ABF81D58CA17CB318ADA1DA101B6A178F6",
+      "project_sha256": "FF0587B32EEFA0F0B3BADEF7019A13ABF81D58CA17CB318ADA1DA101B6A178F6",
+      "project_identical_to_inbox": true,
+      "category": "secondary_name_only_candidate",
+      "first_preview": false,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    },
+    {
+      "name": "Anim_IN_TR_SAT_3",
+      "asset_path": "/Game/Animations/Sword/Anim_IN_TR_SAT_3",
+      "inbox_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\Sword\\Anim_IN_TR_SAT_3.uasset",
+      "project_file": "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_IN_TR_SAT_3.uasset",
+      "exists_in_project": true,
+      "source_sha256": "308667DAA0EA3B4C769A30CD03B74A0FD54946CC3E0BA55689B50A7B1E6F02C1",
+      "project_sha256": "308667DAA0EA3B4C769A30CD03B74A0FD54946CC3E0BA55689B50A7B1E6F02C1",
+      "project_identical_to_inbox": true,
+      "category": "secondary_name_only_candidate",
+      "first_preview": false,
+      "historical_use": "No earlier inspection/retarget record found in the reviewed Sword workflow.",
+      "verification": "Name/path inventory only. New source playback, duration, single-hand suitability and blade swing direction still need UE preview."
+    }
+  ],
+  "additional_unverified_combat_names": [
+    {
+      "name": "Anim_Alt_SL3",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_Alt_SL3.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_Alt_SL3",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_Alt_SL5",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_Alt_SL5.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_Alt_SL5",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_Alt_SL6",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_Alt_SL6.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_Alt_SL6",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_DH_Attack",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_DH_Attack.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_DH_Attack",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SL1",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SL1.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SL1",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SL2",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SL2.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SL2",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SL3",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SL3.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SL3",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SL3B",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SL3B.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SL3B",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SL5",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SL5.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SL5",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SL5B",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SL5B.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SL5B",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLB_1",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLB_1.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLB_1",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLB_2",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLB_2.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLB_2",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLB_3",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLB_3.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLB_3",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLB_4",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLB_4.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLB_4",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLB_5",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLB_5.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLB_5",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLB_8",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLB_8.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLB_8",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLB_8A",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLB_8A.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLB_8A",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLB_8B",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLB_8B.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLB_8B",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLCRZ_2",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLCRZ_2.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLCRZ_2",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLCRZ_3",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLCRZ_3.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLCRZ_3",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLCRZ_6",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLCRZ_6.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLCRZ_6",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLD_1",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLD_1.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLD_1",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLD_2",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLD_2.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLD_2",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLD_3",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLD_3.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLD_3",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLD_4B",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLD_4B.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLD_4B",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLE_1",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLE_1.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLE_1",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLE_2",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLE_2.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLE_2",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLE_3",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLE_3.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLE_3",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLE_3A",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLE_3A.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLE_3A",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLE_3B",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLE_3B.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLE_3B",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLE_4",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLE_4.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLE_4",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLE_5",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLE_5.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLE_5",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLF_1",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLF_1.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLF_1",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLF_2",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLF_2.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLF_2",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLF_2B",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLF_2B.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLF_2B",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLF_3",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLF_3.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLF_3",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLF_4",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLF_4.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLF_4",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLF_4B",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLF_4B.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLF_4B",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLFL_1_Loop",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLFL_1_Loop.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLFL_1_Loop",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLFL_1",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLFL_1.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLFL_1",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLFromAir_1",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLFromAir_1.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLFromAir_1",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLO",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLO.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLO",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SLStrong_1",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SLStrong_1.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SLStrong_1",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_SWDFromAir_1",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_SWDFromAir_1.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_SWDFromAir_1",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    },
+    {
+      "name": "Anim_T_Attack_1",
+      "source_file": "D:\\game design\\experiment\\AssetInbox\\3583AnimationsPack\\Animations\\ExtremeCombat\\Anim_T_Attack_1.uasset",
+      "asset_path": "/Game/Animations/ExtremeCombat/Anim_T_Attack_1",
+      "exists_in_project": true,
+      "verification": "Opaque name: not confirmed as a sword/slash. Not in first preview set."
+    }
+  ],
+  "all_sword_names": [
+    "Anim_CR_F_01",
+    "Anim_CS_cLEse_E",
+    "Anim_CS_cLEse_loop",
+    "Anim_CS_cLEse_ST",
+    "Anim_CS_CO_bash",
+    "Anim_CS_COAT_01",
+    "Anim_CS_CR_IDL_01",
+    "Anim_CS_CR_IDL_02",
+    "Anim_CS_CR_IDL_03",
+    "Anim_CS_CR_W_to_CRST_L",
+    "Anim_CS_CR_W_to_CRST_R",
+    "Anim_CS_CR_W_TURN_180_L",
+    "Anim_CS_CR_W_TURN_180_R",
+    "Anim_CS_CR_W",
+    "Anim_CS_CRST_to_W_180_L",
+    "Anim_CS_CRST_to_W_180_R",
+    "Anim_CS_CRST_to_W_90_L",
+    "Anim_CS_CRST_to_W_90_R",
+    "Anim_CS_CRST_to_W",
+    "Anim_CS_CRST_toST",
+    "Anim_CS_DODGE_B",
+    "Anim_CS_DODGE_F",
+    "Anim_CS_DODGE_L",
+    "Anim_CS_DODGE_R",
+    "Anim_CS_EQ",
+    "Anim_CS_F_01",
+    "Anim_CS_F_SP_01",
+    "Anim_CS_GH_B_01",
+    "Anim_CS_GH_B_02",
+    "Anim_CS_GH_F_01",
+    "Anim_CS_GH_F_02",
+    "Anim_CS_GH_F_03",
+    "Anim_CS_GH_F_L_01",
+    "Anim_CS_GH_F_L_02",
+    "Anim_CS_GH_F_L_03",
+    "Anim_CS_GH_F_R_01",
+    "Anim_CS_GH_F_R_02",
+    "Anim_CS_GH_F_R_03",
+    "Anim_CS_GH_L_01",
+    "Anim_CS_GH_L_02",
+    "Anim_CS_GH_R_01",
+    "Anim_CS_GH_R_02",
+    "Anim_CS_IDL_01",
+    "Anim_CS_IDL_02",
+    "Anim_CS_IDL_03",
+    "Anim_CS_JU_in_PL_fall_loop",
+    "Anim_CS_JU_in_PL",
+    "Anim_CS_JU_land_hard",
+    "Anim_CS_JU_land",
+    "Anim_CS_KD_F_01",
+    "Anim_CS_KD_F",
+    "Anim_CS_KD_getB",
+    "Anim_CS_R_JU_L",
+    "Anim_CS_R_JU_R",
+    "Anim_CS_R_toST_L",
+    "Anim_CS_R_toST_R",
+    "Anim_CS_R_TURN_180_L",
+    "Anim_CS_R_TURN_180_R",
+    "Anim_CS_R",
+    "Anim_CS_SP",
+    "Anim_CS_spit",
+    "Anim_CS_unEQ_to_BOW_EQ",
+    "Anim_CS_unEQ",
+    "Anim_CS_W_B_L_toST_L",
+    "Anim_CS_W_B_L",
+    "Anim_CS_W_B_R_toST_L",
+    "Anim_CS_W_B_R",
+    "Anim_CS_W_B_toST_L",
+    "Anim_CS_W_B",
+    "Anim_CS_W_FWD_L_toST_L",
+    "Anim_CS_W_FWD_L",
+    "Anim_CS_W_FWD_R_toST_L",
+    "Anim_CS_W_FWD_R",
+    "Anim_CS_W_FWD_toST_L",
+    "Anim_CS_W_FWD_toST_R",
+    "Anim_CS_W_FWD",
+    "Anim_CS_W_L_toST_L",
+    "Anim_CS_W_L2",
+    "Anim_CS_W_R_toST_L",
+    "Anim_CS_W_R",
+    "Anim_CS_W_TURN_180_L",
+    "Anim_CS_W_TURN_180_R",
+    "Anim_CSAT_heavy_01",
+    "Anim_CSAT_heavy_02",
+    "Anim_CSATLI_01_DE",
+    "Anim_CSATLI_01",
+    "Anim_CSATLI_02_DE",
+    "Anim_CSATLI_02",
+    "Anim_CSATLI_03_DE",
+    "Anim_CSATLI_03",
+    "Anim_CSATLI_04_DE",
+    "Anim_CSATLI_04",
+    "Anim_CSBL_break_01",
+    "Anim_CSBL_hit_F_L_01",
+    "Anim_CSBL_hit_F_R_01",
+    "Anim_CSBL_W_BWD_L_toST_L",
+    "Anim_CSBL_W_BWD_L_toST_R",
+    "Anim_CSBL_W_BWD_L",
+    "Anim_CSBL_W_BWD_R_toST_L",
+    "Anim_CSBL_W_BWD_R_toST_R",
+    "Anim_CSBL_W_BWD_R",
+    "Anim_CSBL_W_BWD_toST_L",
+    "Anim_CSBL_W_BWD_toST_R",
+    "Anim_CSBL_W_BWD",
+    "Anim_CSBL_W_FWD_L_toST_L",
+    "Anim_CSBL_W_FWD_L_toST_R",
+    "Anim_CSBL_W_FWD_L",
+    "Anim_CSBL_W_FWD_R_toST_L",
+    "Anim_CSBL_W_FWD_R_toST_R",
+    "Anim_CSBL_W_FWD_R",
+    "Anim_CSBL_W_FWD_toST_L",
+    "Anim_CSBL_W_FWD_toST_R",
+    "Anim_CSBL_W_FWD",
+    "Anim_CSBL_W_L_toST_L",
+    "Anim_CSBL_W_L_toST_R",
+    "Anim_CSBL_W_L",
+    "Anim_CSBL_W_R_toST_L",
+    "Anim_CSBL_W_R_toST_R",
+    "Anim_CSBL_W_R",
+    "Anim_CSBLST_to_W_180_L",
+    "Anim_CSBLST_to_W_180_R",
+    "Anim_CSBLST_to_W_90_L",
+    "Anim_CSBLST_to_W_90_R",
+    "Anim_CSBLST_to_W_BWD_L",
+    "Anim_CSBLST_to_W_BWD_R",
+    "Anim_CSBLST_to_W_BWD",
+    "Anim_CSBLST_to_W_FWD_L",
+    "Anim_CSBLST_to_W_FWD_LLeg",
+    "Anim_CSBLST_to_W_FWD_R",
+    "Anim_CSBLST_to_W_FWD",
+    "Anim_CSBLST_to_W_L",
+    "Anim_CSBLST_to_W_R",
+    "Anim_CSBLST",
+    "Anim_CSST_to_CRST",
+    "Anim_CSST_to_R_180_L",
+    "Anim_CSST_to_R_180_R",
+    "Anim_CSST_to_R_90_L",
+    "Anim_CSST_to_R_90_R",
+    "Anim_CSST_to_R_L",
+    "Anim_CSST_to_R",
+    "Anim_CSST_to_SP_180_L",
+    "Anim_CSST_to_SP_180_R",
+    "Anim_CSST_to_SP_90_L",
+    "Anim_CSST_to_SP_90_R",
+    "Anim_CSST_to_SP_L",
+    "Anim_CSST_to_SP",
+    "Anim_CSST_to_W_180_L",
+    "Anim_CSST_to_W_180_R",
+    "Anim_CSST_to_W_90_L",
+    "Anim_CSST_to_W_90_R",
+    "Anim_CSST_to_W_B",
+    "Anim_CSST_to_W_FWD_L",
+    "Anim_CSST_to_W_FWD",
+    "Anim_CSST_to_W_L",
+    "Anim_CSST_to_W_R",
+    "Anim_CSST",
+    "Anim_IN_cut_TR_E",
+    "Anim_IN_SW_floor_ST",
+    "Anim_IN_TR_S_EQ",
+    "Anim_IN_TR_S_unEQ",
+    "Anim_IN_TR_SAT_1",
+    "Anim_IN_TR_SAT_2",
+    "Anim_IN_TR_SAT_3",
+    "Anim_ST_01"
+  ]
+}

@@ -1,0 +1,4 @@
+D:\game design\experiment\Scripts\Editor\PackSlashReview1104\encode_pack_comparison.py:132: DeprecationWarning: 'ImageStrip.frame_final_duration' is expected to be removed in Blender 6.0
+  strip.frame_final_duration = len(ordered)
+D:\game design\experiment\Scripts\Editor\PackSlashReview1104\encode_pack_comparison.py:165: DeprecationWarning: 'MovieStrip.frame_duration' is expected to be removed in Blender 6.0
+  decoded_meta = {'frames': decoded.frame_duration, 'fps': decoded.fps,

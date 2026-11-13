@@ -1,0 +1,82 @@
+{
+  "state": "passed",
+  "asset": "/Game/ReversedScale/Weapons/TalismanJade1104/SM_Nilin_JadeTalisman.SM_Nilin_JadeTalisman",
+  "mesh": {
+    "bounds_origin_cm": [
+      0.11744800209999084,
+      0.006430864334106445,
+      -0.022763729095458984
+    ],
+    "dimensions_cm": [
+      1.8261112570762634,
+      6.617002487182617,
+      16.11279010772705
+    ],
+    "triangles": 3832,
+    "source_triangles": 3836,
+    "source_triangle_difference": 4,
+    "uv_channels": 2,
+    "thin_axis": "X",
+    "force_front_x_axis": true,
+    "remove_degenerates": false,
+    "front_probe": {
+      "seal_center_cm": [
+        0.7553939809306309,
+        -0.03278529515428557,
+        5.752387421635481
+      ],
+      "signed_seal_offset_cm": 0.21146100659209943,
+      "front_axis": "+X"
+    }
+  },
+  "materials": [
+    {
+      "index": 0,
+      "slot": "M_JadeTalisman_PaperAndFoil",
+      "imported_slot": "M_JadeTalisman_PaperAndFoil",
+      "material": "/Game/ReversedScale/Weapons/TalismanJade1104/M_JadeTalisman_PaperAndFoil.M_JadeTalisman_PaperAndFoil"
+    },
+    {
+      "index": 1,
+      "slot": "M_JadeTalisman_GildedBrass",
+      "imported_slot": "M_JadeTalisman_GildedBrass",
+      "material": "/Game/ReversedScale/Weapons/TalismanJade1104/M_JadeTalisman_GildedBrass.M_JadeTalisman_GildedBrass"
+    },
+    {
+      "index": 2,
+      "slot": "M_JadeTalisman_PolishedJade",
+      "imported_slot": "M_JadeTalisman_PolishedJade",
+      "material": "/Game/ReversedScale/Weapons/TalismanJade1104/M_JadeTalisman_PolishedJade.M_JadeTalisman_PolishedJade"
+    }
+  ],
+  "textures": {
+    "paper": "/Game/ReversedScale/Weapons/TalismanJade1104/Textures/T_JadeTalisman_BaseColor.T_JadeTalisman_BaseColor",
+    "metal_rough": "/Game/ReversedScale/Weapons/TalismanJade1104/Textures/T_JadeTalisman_MetalRough.T_JadeTalisman_MetalRough",
+    "emissive": "/Game/ReversedScale/Weapons/TalismanJade1104/Textures/T_JadeTalisman_Emissive.T_JadeTalisman_Emissive",
+    "jade": "/Game/ReversedScale/Weapons/TalismanJade1104/Textures/T_JadeSeal_BaseColor.T_JadeSeal_BaseColor"
+  },
+  "orb": {
+    "material": "/Game/ReversedScale/Weapons/TalismanJade1104/M_TalismanGoldenOrb.M_TalismanGoldenOrb",
+    "color_parameter": "Color",
+    "color_default_linear": [
+      1.0,
+      0.61,
+      0.13,
+      1.0
+    ],
+    "glow_parameter": "GlowStrength",
+    "glow_default": 1.1,
+    "glow_clamp": [
+      0.25,
+      1.8
+    ]
+  },
+  "sha256": {
+    "SM_Nilin_JadeTalisman.fbx": "3f4c34ae0d96c0256bba1b30acc38ee4d10a4bc91b41aba3eb3b7147981d0b06",
+    "T_JadeTalisman_BaseColor.png": "6ab3268ff46dcfacb1871a42648c030d258537251db2c6831bacb78c7af426eb",
+    "T_JadeTalisman_MetalRough.png": "0a16f00ab06332d1db9aed5d9c067feb2fa358182930179dfce24719a98b46e2",
+    "T_JadeTalisman_Emissive.png": "3da7d34351da0fbd1506ff1cb817595f91e3931383a346b88f6a1fc5898de6e1",
+    "T_JadeSeal_BaseColor.png": "cd3a6306be9c5ad76a944f786cf4555f99b4e0f83dd5630f63d19af970e6f1b2"
+  },
+  "validated_in_unreal": true
+}

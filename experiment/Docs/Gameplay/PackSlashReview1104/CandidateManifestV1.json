@@ -1,0 +1,439 @@
+{
+  "state": "retargeted_review_only",
+  "source_mesh": "/Game/Character/Mesh/SK_Mannequin",
+  "target_mesh": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07",
+  "target_skeleton": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07_Skeleton.SK_WuxiaMale_Native_v07_Skeleton",
+  "source_rig": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/RetargetSetup/IK_PackSource_1104.IK_PackSource_1104",
+  "target_rig": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/RetargetSetup/IK_Native41_1104.IK_Native41_1104",
+  "retargeter": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/RetargetSetup/RTG_Pack_Native41_1104.RTG_Pack_Native41_1104",
+  "chain_mapping": {
+    "Spine": "Spine",
+    "Head": "Head",
+    "LeftClavicle": "LeftClavicle",
+    "LeftArm": "LeftArm",
+    "LeftLeg": "LeftLeg",
+    "LeftToe": "LeftToe",
+    "LeftThumb": "LeftThumb",
+    "LeftIndex": "LeftIndex",
+    "RightClavicle": "RightClavicle",
+    "RightArm": "RightArm",
+    "RightLeg": "RightLeg",
+    "RightToe": "RightToe",
+    "RightThumb": "RightThumb",
+    "RightIndex": "RightIndex"
+  },
+  "retarget_pose_offsets": {
+    "Hips": [
+      -0.0006583997816633958,
+      -6.758246382375922e-05,
+      0.0005078620666198145,
+      0.9965140162590523
+    ],
+    "Spine": [
+      -0.12321946488311866,
+      -6.653033967392048e-09,
+      0.05911004061960065,
+      0.9904364430589543
+    ],
+    "Spine1": [
+      0.12167590919235133,
+      4.911920351880425e-09,
+      -0.05931815821259729,
+      0.990608298733645
+    ],
+    "Spine2": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "Neck": [
+      0.03627589099399756,
+      -0.007444430383857982,
+      -0.15896878335312367,
+      0.986324403243318
+    ],
+    "Head": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "HeadTop_End": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "LeftShoulder": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "LeftArm": [
+      -0.2515159491132156,
+      2.0036013023428394e-07,
+      -0.3264312338457802,
+      0.9085931968754478
+    ],
+    "LeftForeArm": [
+      -0.2640140680792185,
+      -1.728515703985636e-08,
+      0.0037464338035478667,
+      0.9631293502401385
+    ],
+    "LeftHand": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "LeftHandThumb1": [
+      -0.33697453789166615,
+      0.06964173516091059,
+      0.23736971431311785,
+      0.9082646726073638
+    ],
+    "LeftHandThumb2": [
+      0.16643210316244106,
+      -0.01813685364705235,
+      0.1323324362285599,
+      0.9757005881577555
+    ],
+    "LeftHandThumb3": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "LeftHandThumb4": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "LeftHandIndex1": [
+      -0.1343833310602888,
+      -0.03014939365769242,
+      0.1856735642773554,
+      0.9722704685545138
+    ],
+    "LeftHandIndex2": [
+      0.19763391626979276,
+      -0.017657609294449407,
+      0.22485029397392858,
+      0.9510976535384676
+    ],
+    "LeftHandIndex3": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "LeftHandIndex4": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "RightShoulder": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "RightArm": [
+      -0.27030986928756223,
+      2.3396090997579683e-07,
+      -0.401740951650705,
+      0.8727801548372298
+    ],
+    "RightForeArm": [
+      0.3151436764771065,
+      -7.080010704655917e-08,
+      -0.16286329082848608,
+      0.9345378532505666
+    ],
+    "RightHand": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "RightHandThumb1": [
+      0.3818788192716049,
+      0.07972402248861139,
+      -0.07691492216673373,
+      0.9173334963361888
+    ],
+    "RightHandThumb2": [
+      -0.10410408764721416,
+      -0.0034076339640705558,
+      0.22129455850095756,
+      0.9688924973761792
+    ],
+    "RightHandThumb3": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "RightHandThumb4": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "RightHandIndex1": [
+      0.23841609767278393,
+      -0.03839493164375247,
+      0.30638263307297314,
+      0.9184521722046163
+    ],
+    "RightHandIndex2": [
+      -0.4070218350658572,
+      -0.3067663005342973,
+      -0.1923233835755719,
+      0.8305488342903858
+    ],
+    "RightHandIndex3": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "RightHandIndex4": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "LeftUpLeg": [
+      -0.1322363223184248,
+      3.483689744637803e-10,
+      -0.024083366404278172,
+      0.9908195741918095
+    ],
+    "LeftLeg": [
+      0.10116078114541023,
+      3.1820726156886553e-09,
+      -0.06525777426758138,
+      0.9925830007404557
+    ],
+    "LeftFoot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "LeftToeBase": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "LeftToe_End": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "RightUpLeg": [
+      0.1266610598976776,
+      -4.112594502762147e-10,
+      -0.027245427781870047,
+      0.9914276713775133
+    ],
+    "RightLeg": [
+      -0.18721853782764658,
+      3.272798453201441e-09,
+      -0.06346910307492723,
+      0.9800428261205196
+    ],
+    "RightFoot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "RightToeBase": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "RightToe_End": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "coordinate_conversion": "constant root yaw -90 degrees, source +Y to native +X",
+  "unit_repair": "existing target local bind scale and fixed bone offsets; all retargeted rotations and complete pelvis displacement retained",
+  "clips": [
+    {
+      "name": "Pack_Anim_CSATLI_01",
+      "source": "/Game/Animations/Sword/Anim_CSATLI_01.Anim_CSATLI_01",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/Pack_Anim_CSATLI_01.Pack_Anim_CSATLI_01",
+      "duration": 2.3333332538604736,
+      "source_duration": 2.3333332538604736,
+      "frames": 70,
+      "root_scale_before_repair": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "root_scale_after_repair": [
+        100.0,
+        99.99999237060547,
+        100.0
+      ],
+      "pelvis_range_cm": [
+        402.4590492248535,
+        35.23709487915039,
+        38.25579071044922
+      ]
+    },
+    {
+      "name": "Pack_Anim_CSATLI_02",
+      "source": "/Game/Animations/Sword/Anim_CSATLI_02.Anim_CSATLI_02",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/Pack_Anim_CSATLI_02.Pack_Anim_CSATLI_02",
+      "duration": 2.3333332538604736,
+      "source_duration": 2.3333332538604736,
+      "frames": 70,
+      "root_scale_before_repair": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "root_scale_after_repair": [
+        100.0,
+        99.99999237060547,
+        100.0
+      ],
+      "pelvis_range_cm": [
+        156.2050769329071,
+        53.86214637756348,
+        40.75648498535156
+      ]
+    },
+    {
+      "name": "Pack_Anim_CSATLI_03",
+      "source": "/Game/Animations/Sword/Anim_CSATLI_03.Anim_CSATLI_03",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/Pack_Anim_CSATLI_03.Pack_Anim_CSATLI_03",
+      "duration": 2.3333332538604736,
+      "source_duration": 2.3333332538604736,
+      "frames": 70,
+      "root_scale_before_repair": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "root_scale_after_repair": [
+        100.0,
+        99.99999237060547,
+        100.0
+      ],
+      "pelvis_range_cm": [
+        229.468958735466,
+        34.74616718292236,
+        31.703590393066406
+      ]
+    },
+    {
+      "name": "Pack_Anim_CSATLI_04",
+      "source": "/Game/Animations/Sword/Anim_CSATLI_04.Anim_CSATLI_04",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/Pack_Anim_CSATLI_04.Pack_Anim_CSATLI_04",
+      "duration": 2.3333332538604736,
+      "source_duration": 2.3333332538604736,
+      "frames": 70,
+      "root_scale_before_repair": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "root_scale_after_repair": [
+        100.0,
+        99.99999237060547,
+        100.0
+      ],
+      "pelvis_range_cm": [
+        292.0200080871582,
+        28.41051959991455,
+        32.531524658203125
+      ]
+    },
+    {
+      "name": "Pack_Anim_CSAT_heavy_01",
+      "source": "/Game/Animations/Sword/Anim_CSAT_heavy_01.Anim_CSAT_heavy_01",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/Pack_Anim_CSAT_heavy_01.Pack_Anim_CSAT_heavy_01",
+      "duration": 3.3333332538604736,
+      "source_duration": 3.3333332538604736,
+      "frames": 100,
+      "root_scale_before_repair": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "root_scale_after_repair": [
+        100.0,
+        99.99999237060547,
+        100.0
+      ],
+      "pelvis_range_cm": [
+        286.974214553833,
+        39.05706977844238,
+        35.470829010009766
+      ]
+    },
+    {
+      "name": "Pack_Anim_CSAT_heavy_02",
+      "source": "/Game/Animations/Sword/Anim_CSAT_heavy_02.Anim_CSAT_heavy_02",
+      "asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/Pack_Anim_CSAT_heavy_02.Pack_Anim_CSAT_heavy_02",
+      "duration": 3.3333332538604736,
+      "source_duration": 3.3333332538604736,
+      "frames": 100,
+      "root_scale_before_repair": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "root_scale_after_repair": [
+        100.0,
+        99.99999237060547,
+        100.0
+      ],
+      "pelvis_range_cm": [
+        222.58990478515625,
+        52.38683319091797,
+        36.113922119140625
+      ]
+    }
+  ],
+  "protected_assets_sha256_before": {
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Characters\\WuxiaMale\\NativeRigV07\\SK_WuxiaMale_Native_v07.uasset": "c1fbac072ede781842eb56ad9b5d692ecde9af7640d0a04afa8f29924440e4c9",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Characters\\WuxiaMale\\NativeRigV07\\SK_WuxiaMale_Native_v07_Skeleton.uasset": "cc231a773d37e2cfdf5d2f59dcac19c45534d15dd08d4d7c545d66fd1885e217",
+    "D:\\game design\\experiment\\Content\\Character\\Mesh\\SK_Mannequin.uasset": "c483355b3050b7198c8f5c50531f21eca43f42da039d688f2f6fd922352132bb",
+    "D:\\game design\\experiment\\Content\\3583AnimationsPack\\Character\\Mesh\\UE4_Mannequin_Skeleton.uasset": "485256679f9df11f0bc8bd8231a100f36b8e6d7f7c3ae2ebe910afe239bfa3e4",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_01.uasset": "90a1bd3bbb7f7e9dfda59b2090d363ea67ebb0e8fe841cbc92d85a8515c4d0f1",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_02.uasset": "c58ac7b90da04b72a4b1c32aae2d56823387f1bbf23ae9966354ca3ad86321b0",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_03.uasset": "fb6be2b356e0e49560ca8d9f18930accb4cee1b29a7c3e33258410c10d001cb4",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_04.uasset": "0ac51c7c9e28cb38f3d2e5fb6e4823151a020b93801592aa74767b494c635def",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSAT_heavy_01.uasset": "d15fe6c32a6975ce26360a2401ed7a66d972051886300fc81b006854d0c7f04f",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSAT_heavy_02.uasset": "227a54d5c960506f2d59d239912394611716444b399ce462af56d6cf48b7c71a"
+  },
+  "protected_assets_sha256_after": {
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Characters\\WuxiaMale\\NativeRigV07\\SK_WuxiaMale_Native_v07.uasset": "c1fbac072ede781842eb56ad9b5d692ecde9af7640d0a04afa8f29924440e4c9",
+    "D:\\game design\\experiment\\Content\\ReversedScale\\Characters\\WuxiaMale\\NativeRigV07\\SK_WuxiaMale_Native_v07_Skeleton.uasset": "cc231a773d37e2cfdf5d2f59dcac19c45534d15dd08d4d7c545d66fd1885e217",
+    "D:\\game design\\experiment\\Content\\Character\\Mesh\\SK_Mannequin.uasset": "c483355b3050b7198c8f5c50531f21eca43f42da039d688f2f6fd922352132bb",
+    "D:\\game design\\experiment\\Content\\3583AnimationsPack\\Character\\Mesh\\UE4_Mannequin_Skeleton.uasset": "485256679f9df11f0bc8bd8231a100f36b8e6d7f7c3ae2ebe910afe239bfa3e4",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_01.uasset": "90a1bd3bbb7f7e9dfda59b2090d363ea67ebb0e8fe841cbc92d85a8515c4d0f1",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_02.uasset": "c58ac7b90da04b72a4b1c32aae2d56823387f1bbf23ae9966354ca3ad86321b0",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_03.uasset": "fb6be2b356e0e49560ca8d9f18930accb4cee1b29a7c3e33258410c10d001cb4",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSATLI_04.uasset": "0ac51c7c9e28cb38f3d2e5fb6e4823151a020b93801592aa74767b494c635def",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSAT_heavy_01.uasset": "d15fe6c32a6975ce26360a2401ed7a66d972051886300fc81b006854d0c7f04f",
+    "D:\\game design\\experiment\\Content\\Animations\\Sword\\Anim_CSAT_heavy_02.uasset": "227a54d5c960506f2d59d239912394611716444b399ce462af56d6cf48b7c71a"
+  }
+}

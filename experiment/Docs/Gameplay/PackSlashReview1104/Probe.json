@@ -1,0 +1,4097 @@
+{
+  "api": {
+    "IKRigController": {
+      "add_retarget_chain": "x.add_retarget_chain(chain_name, start_bone_name, end_bone_name, goal_name) -> Name\r\nAdd a new chain with the given Chain and Bone names. Returns newly created chain name (uniquified).\nNote: only the ChainName is required here, all else can be set later.\r\n\r\nArgs:\r\n    chain_name (Name): \r\n    start_bone_name (Name): \r\n    end_bone_name (Name): \r\n    goal_name (Name): \r\n\r\nReturns:\r\n    Name:",
+      "add_solver": "x.add_solver(ik_rig_solver_type) -> int32\r\nAdd a new solver of the given type to the bottom of the stack. Returns the stack index.\nThe type here is the full package path of the UStruct type. For example: /Script/IKRig.FullBodyIKSolver\r\n\r\nArgs:\r\n    ik_rig_solver_type (str): \r\n\r\nReturns:\r\n    int32:",
+      "apply_auto_generated_retarget_definition": "x.apply_auto_generated_retarget_definition() -> bool\r\nAnalyse the skeleton to see if it matches a known template and automatically generates all retarget chains and sets the pelvis\nReturns true if a matching skeletal template was found and the retarget definition for it was applied.\r\n\r\nReturns:\r\n    bool:",
+      "connect_goal_to_solver": "x.connect_goal_to_solver(goal_name, solver_index) -> bool\r\nConnect the given Goal to the given Solver. This creates an \"Effector\" with settings specific to this Solver.\r\n\r\nArgs:\r\n    goal_name (Name): \r\n    solver_index (int32): \r\n\r\nReturns:\r\n    bool:",
+      "disconnect_goal_from_solver": "x.disconnect_goal_from_solver(goal_to_remove, solver_index) -> bool\r\nDisconnect the given Goal from the given Solver. This removes the Effector that associates the Goal with the Solver.\r\n\r\nArgs:\r\n    goal_to_remove (Name): \r\n    solver_index (int32): \r\n\r\nReturns:\r\n    bool:",
+      "does_solver_have_custom_goal_settings": "x.does_solver_have_custom_goal_settings(goal_name, solver_index) -> bool\r\nreturns true if the goal has custom settings for the given solver\r\n\r\nArgs:\r\n    goal_name (Name): \r\n    solver_index (int32): \r\n\r\nReturns:\r\n    bool:",
+      "get_editor_property": "get_editor_property(self, name: str) -> object -- get the value of any property visible to the editor",
+      "get_goal_settings_for_solver": "x.get_goal_settings_for_solver(goal_name, solver_index) -> Object\r\nGet Goal Settings for Solver\r\n\r\nArgs:\r\n    goal_name (Name): \r\n    solver_index (int32): \r\n\r\nReturns:\r\n    Object:",
+      "get_index_of_solver": "x.get_index_of_solver(controller) -> int32\r\nGet the index for a given solver in the stack\nThe input here is a solver controller (as returned by GetSolverController())\r\n\r\nArgs:\r\n    controller (IKRigSolverControllerBase): \r\n\r\nReturns:\r\n    int32:",
+      "get_num_solvers": "x.get_num_solvers() -> int32\r\nGet the number of solvers in the stack.\r\n\r\nReturns:\r\n    int32:",
+      "get_ref_pose_transform_of_bone": "x.get_ref_pose_transform_of_bone(bone_name) -> Transform\r\nGet the global-space retarget pose transform of the given Bone.\r\n\r\nArgs:\r\n    bone_name (Name): \r\n\r\nReturns:\r\n    Transform:",
+      "get_retarget_chain_end_bone": "x.get_retarget_chain_end_bone(chain_name) -> Name\r\nGet the Start Bone name for the given Chain.\r\n\r\nArgs:\r\n    chain_name (Name): \r\n\r\nReturns:\r\n    Name:",
+      "get_retarget_chain_goal": "x.get_retarget_chain_goal(chain_name) -> Name\r\nGet the Goal name for the given Chain.\r\n\r\nArgs:\r\n    chain_name (Name): \r\n\r\nReturns:\r\n    Name:",
+      "get_retarget_chain_start_bone": "x.get_retarget_chain_start_bone(chain_name) -> Name\r\nGet the End Bone name for the given Chain.\r\n\r\nArgs:\r\n    chain_name (Name): \r\n\r\nReturns:\r\n    Name:",
+      "get_retarget_chains": "x.get_retarget_chains() -> Array[BoneChain]\r\nGet read-only access to the list of Chains.\r\n\r\nReturns:\r\n    Array[BoneChain]:",
+      "get_retarget_root": "x.get_retarget_root() -> Name\r\nGet the name of the Pelvis Bone of the retargeting (can only be one).\r\n\r\nReturns:\r\n    Name:",
+      "get_skeletal_mesh": "x.get_skeletal_mesh() -> SkeletalMesh\r\nGet the skeletal mesh this asset is initialized with\r\n\r\nReturns:\r\n    SkeletalMesh:",
+      "get_solver_controller": "x.get_solver_controller(solver_index) -> IKRigSolverControllerBase\r\nGet a controller to customize the settings for a given solver in the stack\r\n\r\nArgs:\r\n    solver_index (int32): \r\n\r\nReturns:\r\n    IKRigSolverControllerBase:",
+      "get_solver_enabled": "x.get_solver_enabled(solver_index) -> bool\r\nGet enabled status of the given solver.\r\n\r\nArgs:\r\n    solver_index (int32): \r\n\r\nReturns:\r\n    bool:",
+      "is_editor_property_overridden": "x.is_editor_property_overridden(property_name) -> EditorPropertyValueState\r\nAttempts to query whether the value of a named property on the given object overrides the value of its archetype (ie, would ResetEditorProperty do anything?).\r\n\r\nArgs:\r\n    property_name (Name): The name of the object property to query the value of.\r\n\r\nReturns:\r\n    EditorPropertyValueState: What state the requested property is in.",
+      "is_goal_connected_to_any_solver": "x.is_goal_connected_to_any_solver(goal_name) -> bool\r\nReturns true if the given Goal is connected to ANY solver. False otherwise.\r\n\r\nArgs:\r\n    goal_name (Name): \r\n\r\nReturns:\r\n    bool:",
+      "is_goal_connected_to_solver": "x.is_goal_connected_to_solver(goal_name, solver_index) -> bool\r\nReturns true if the given Goal is connected to the given Solver. False otherwise.\r\n\r\nArgs:\r\n    goal_name (Name): \r\n    solver_index (int32): \r\n\r\nReturns:\r\n    bool:",
+      "is_skeletal_mesh_compatible": "x.is_skeletal_mesh_compatible(skeletal_mesh_to_check) -> bool\r\nReturns true if the provided skeletal mesh could be used with this IK Rig.\r\n\r\nArgs:\r\n    skeletal_mesh_to_check (SkeletalMesh): \r\n\r\nReturns:\r\n    bool:",
+      "move_solver_in_stack": "x.move_solver_in_stack(solver_to_move_index, target_solver_index) -> bool\r\nMove the solver at the given index to the target index.\r\n\r\nArgs:\r\n    solver_to_move_index (int32): \r\n    target_solver_index (int32): \r\n\r\nReturns:\r\n    bool:",
+      "remove_retarget_chain": "x.remove_retarget_chain(chain_name) -> bool\r\nRemove a Chain with the given name. Returns true if a Chain was removed.\r\n\r\nArgs:\r\n    chain_name (Name): \r\n\r\nReturns:\r\n    bool:",
+      "remove_solver": "x.remove_solver(solver_index) -> bool\r\nRemove the solver at the given stack index.\r\n\r\nArgs:\r\n    solver_index (int32): \r\n\r\nReturns:\r\n    bool:",
+      "rename_retarget_chain": "x.rename_retarget_chain(chain_name, new_chain_name) -> Name\r\nRenamed the given Chain. Returns the new name (same as old if unsuccessful).\r\n\r\nArgs:\r\n    chain_name (Name): \r\n    new_chain_name (Name): \r\n\r\nReturns:\r\n    Name:",
+      "reset_editor_property": "x.reset_editor_property(property_name, change_notify_mode=PropertyAccessChangeNotifyMode.DEFAULT) -> bool\r\nAttempts to reset the value of a named property on the given object so that it matches the value of the archetype.\r\n\r\nArgs:\r\n    property_name (Name): The name of the object property to reset the value of.\r\n    change_notify_mode (PropertyAccessChangeNotifyMode): When to emit property change notifications.\r\n\r\nReturns:\r\n    bool: Whether the property value was found and correctly reset.",
+      "set_editor_properties": "set_editor_properties(self, properties: Mapping[str, object]) -> None -- set the value of any properties visible to the editor (from a name->value dict), ensuring that the pre/post change notifications are called",
+      "set_editor_property": "set_editor_property(self, name: str, value: object, notify_mode: PropertyAccessChangeNotifyMode=PropertyAccessChangeNotifyMode.DEFAULT) -> None -- set the value of any property visible to the editor, ensuring that the pre/post change notifications are called",
+      "set_retarget_chain_end_bone": "x.set_retarget_chain_end_bone(chain_name, end_bone_name) -> bool\r\nSet the End Bone for the given Chain. Returns true if operation was successful.\r\n\r\nArgs:\r\n    chain_name (Name): \r\n    end_bone_name (Name): \r\n\r\nReturns:\r\n    bool:",
+      "set_retarget_chain_goal": "x.set_retarget_chain_goal(chain_name, goal_name) -> bool\r\nSet the Goal for the given Chain. Returns true if operation was successful.\r\n\r\nArgs:\r\n    chain_name (Name): \r\n    goal_name (Name): \r\n\r\nReturns:\r\n    bool:",
+      "set_retarget_chain_start_bone": "x.set_retarget_chain_start_bone(chain_name, start_bone_name) -> bool\r\nSet the Start Bone for the given Chain. Returns true if operation was successful.\r\n\r\nArgs:\r\n    chain_name (Name): \r\n    start_bone_name (Name): \r\n\r\nReturns:\r\n    bool:",
+      "set_retarget_root": "x.set_retarget_root(root_bone_name) -> bool\r\nSet the Pelvis Bone of the retargeting (can only be one).\r\n\r\nArgs:\r\n    root_bone_name (Name): \r\n\r\nReturns:\r\n    bool:",
+      "set_skeletal_mesh": "x.set_skeletal_mesh(skeletal_mesh) -> bool\r\nSets the preview mesh to use. Loads the hierarchy into the asset's IKRigSkeleton.\nReturns true if the mesh was able to be set. False if it was incompatible for any reason.\r\n\r\nArgs:\r\n    skeletal_mesh (SkeletalMesh): \r\n\r\nReturns:\r\n    bool:",
+      "set_solver_enabled": "x.set_solver_enabled(solver_index, is_enabled) -> bool\r\nSet enabled/disabled status of the given solver.\r\n\r\nArgs:\r\n    solver_index (int32): \r\n    is_enabled (bool): \r\n\r\nReturns:\r\n    bool:"
+    },
+    "IKRetargeterController": {
+      "add_default_ops": "x.add_default_ops() -> None\r\nAutomatically add basic retargeting operations\nAdds these ops in the following order: Pelvis Motion, FK Chains, IK Chains, IK Solve and Root Motion\nIf any of these ops are already present, they will not be re-added.",
+      "add_new_retarget_override_set": "x.add_new_retarget_override_set(override_set_name) -> Name\r\nAdd a new override set to store retarget op setting overrides.\r\n\r\nArgs:\r\n    override_set_name (Name): The name of the new set.\r\n\r\nReturns:\r\n    Name: The name of the new retarget override set (guaranteed unique).",
+      "add_retarget_op": "x.add_retarget_op(ik_retarget_op_type) -> int32\r\nAdd a new retarget op of the given type to the bottom of the stack. Returns the stack index.\r\n\r\nArgs:\r\n    ik_retarget_op_type (str): \r\n\r\nReturns:\r\n    int32:",
+      "assign_ik_rig_to_all_ops": "x.assign_ik_rig_to_all_ops(source_or_target, ik_rig) -> None\r\nForce all ops to use the assigned IK Rig and update their chain mappings.\nNOTE: some ops may not reference an IK Rig at all; the exact behavior is op-dependent\r\n\r\nArgs:\r\n    source_or_target (RetargetSourceOrTarget): whether to assign the provided IK Rig as a source or target IK Rig\r\n    ik_rig (IKRigDefinition): the IK Rig asset to assign",
+      "auto_map_chains": "x.auto_map_chains(auto_map_type, force_remap, op_name=\"None\") -> None\r\nUse string comparision to find \"best\" Source chain to map to each Target chain or clear the mappings\r\n\r\nArgs:\r\n    auto_map_type (AutoMapChainType): an enum specifying the type of mapping to perform (ie, Exact, Fuzzy or Clear)\r\n    force_remap (bool): if false, will only remap those mappings that unset/None\r\n    op_name (Name): if specified, will auto-map only the chain mapping in the specified op, otherwise applies to all ops",
+      "create_retarget_pose": "x.create_retarget_pose(new_pose_name, source_or_target) -> Name\r\nAdd new retarget pose.\r\n\r\nArgs:\r\n    new_pose_name (Name): The name to assign to the new retarget pose\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether the pose applies to the source or target skeleton\r\n\r\nReturns:\r\n    Name: The name of the newly created retarget pose",
+      "duplicate_retarget_override_set": "x.duplicate_retarget_override_set(override_set_name) -> Name\r\nDuplicate an existing override set, creating a new set with all the same property overrides.\r\n\r\nArgs:\r\n    override_set_name (Name): The name of the override set to duplicate.\r\n\r\nReturns:\r\n    Name: The name of the new duplicated override set (guaranteed unique).",
+      "duplicate_retarget_pose": "x.duplicate_retarget_pose(pose_to_duplicate, new_name, source_or_target) -> Name\r\nDuplicate a retarget pose.\r\n\r\nArgs:\r\n    pose_to_duplicate (Name): The name of the retarget pose to duplicate\r\n    new_name (Name): The name to assign to the duplicated pose\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether the pose belongs to the source or target skeleton\r\n\r\nReturns:\r\n    Name: The name of the new duplicated pose, or NAME_None if PoseToDuplicate is not found",
+      "get_all_chain_settings": "x.get_all_chain_settings() -> Array[RetargetChainSettings]\r\nGet All Chain Settings\r\n\r\nReturns:\r\n    Array[RetargetChainSettings]:",
+      "get_current_retarget_pose": "x.get_current_retarget_pose(source_or_target) -> IKRetargetPose\r\nGet the current retarget pose.\r\n\r\nArgs:\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether to retrieve the pose from the source or target skeleton\r\n\r\nReturns:\r\n    IKRetargetPose: A reference to the current retarget pose data",
+      "get_current_retarget_pose_name": "x.get_current_retarget_pose_name(source_or_target) -> Name\r\nGet the name of the current retarget pose.\r\n\r\nArgs:\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether to retrieve the pose from the source or target skeleton\r\n\r\nReturns:\r\n    Name: The name of the current retarget pose",
+      "get_editor_property": "get_editor_property(self, name: str) -> object -- get the value of any property visible to the editor",
+      "get_index_of_op_by_name": "x.get_index_of_op_by_name(op_name) -> int32\r\nGet the index of an op.\r\n\r\nArgs:\r\n    op_name (Name): the name of the op to get the index of\r\n\r\nReturns:\r\n    int32: the integer index of the op in the stack or -1 if op not found.",
+      "get_num_retarget_ops": "x.get_num_retarget_ops() -> int32\r\nGet the number of Ops in the stack.\r\n\r\nReturns:\r\n    int32: int, the number of ops",
+      "get_op_controller": "x.get_op_controller(op_index) -> IKRetargetOpControllerBase\r\nGet a controller to get/set the settings for a given op in the stack\nNOTE: the returned UIKRetargetOpControllerBase* should be cast to the type specific to your op to get full functionality for that op.\r\n\r\nArgs:\r\n    op_index (int32): \r\n\r\nReturns:\r\n    IKRetargetOpControllerBase: a pointer to the base op controller UClass or null if the op was not found",
+      "get_op_name": "x.get_op_name(op_index) -> Name\r\nGet the name of the op at the given index in the stack.\r\n\r\nArgs:\r\n    op_index (int32): the index of the op to get the name of\r\n\r\nReturns:\r\n    Name: the name of the op or None if the index was invalid",
+      "get_parent_op_by_name": "x.get_parent_op_by_name(op_name) -> Name\r\nGet the name of the parent op for the given op.\r\n\r\nArgs:\r\n    op_name (Name): the name of the op to get the parent of\r\n\r\nReturns:\r\n    Name: the name of the parent op or None if the op was not found or did not have a parent",
+      "get_preview_mesh": "x.get_preview_mesh(source_or_target) -> SkeletalMesh\r\nGet the preview skeletal mesh\r\n\r\nArgs:\r\n    source_or_target (RetargetSourceOrTarget): an enum specifying either \"Source\" or \"Target\"\r\n\r\nReturns:\r\n    SkeletalMesh: the skeletal mesh asset currently being used as a preview mesh",
+      "get_retarget_chain_settings": "x.get_retarget_chain_settings(target_chain_name) -> TargetChainSettings\r\nGet Retarget Chain Settings\r\n\r\nArgs:\r\n    target_chain_name (Name): \r\n\r\nReturns:\r\n    TargetChainSettings:",
+      "get_retarget_op_enabled": "x.get_retarget_op_enabled(retarget_op_index) -> bool\r\nGet enabled status of the given Op.\r\n\r\nArgs:\r\n    retarget_op_index (int32): the index of the op to get the enabled state for\r\n\r\nReturns:\r\n    bool: true if op is enabled, false if op is disabled or not found",
+      "get_retarget_poses": "x.get_retarget_poses(source_or_target) -> Map[Name, IKRetargetPose]\r\nGet access to array of retarget poses.\r\n\r\nArgs:\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether to retrieve poses from the source or target skeleton\r\n\r\nReturns:\r\n    Map[Name, IKRetargetPose]: A reference to the map of retarget pose names to their pose data",
+      "get_root_offset_in_retarget_pose": "x.get_root_offset_in_retarget_pose(source_or_target) -> Vector\r\nGet the translation offset on the retarget pelvis bone for the current retarget pose.\r\n\r\nArgs:\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether the pelvis bone belongs to the source or target skeleton\r\n\r\nReturns:\r\n    Vector: The vector representing the translation offset of the pelvis bone",
+      "get_rotation_offset_for_retarget_pose_bone": "x.get_rotation_offset_for_retarget_pose_bone(bone_name, source_or_target) -> Quat\r\nGet a delta rotation for a given bone in the current retarget pose.\r\n\r\nArgs:\r\n    bone_name (Name): The name of the bone to retrieve the rotation offset for\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether the bone belongs to the source or target skeleton\r\n\r\nReturns:\r\n    Quat: The quaternion representing the rotation offset for the specified bone",
+      "get_source_chain": "x.get_source_chain(target_chain_name, op_name=\"None\") -> Name\r\nGet the name of the source chain mapped to a given target chain (the chain animation is copied FROM).\r\n\r\nArgs:\r\n    target_chain_name (Name): the name of the target retarget chain to get a mapping for\r\n    op_name (Name): if specified, will get the source chain for that op (otherwise gets the first chain mapping in the op stack)\r\n\r\nReturns:\r\n    Name: the name of the source chain mapped to the given target chain (or None if not mapped)",
+      "get_target_ik_rig_for_op": "x.get_target_ik_rig_for_op(op_name) -> IKRigDefinition\r\nGet the target IK Rig associated with the given Op. May be different than the default IK Rig.\nNOTE: all ops use the global SOURCE IK rig, but each op may use its own custom TARGET IK Rig.\nNOTE: not all ops maintain their own target IK Rig in which case this function returns nullptr\nNOTE: some ops may refer to the target IK Rig used by their parent op. In that case, this function returns the parent Op's IK Rig.\r\n\r\nArgs:\r\n    op_name (Name): the name of the retarget op\r\n\r\nReturns:\r\n    IKRigDefinition: the IK Rig assset associated with this op",
+      "is_editor_property_overridden": "x.is_editor_property_overridden(property_name) -> EditorPropertyValueState\r\nAttempts to query whether the value of a named property on the given object overrides the value of its archetype (ie, would ResetEditorProperty do anything?).\r\n\r\nArgs:\r\n    property_name (Name): The name of the object property to query the value of.\r\n\r\nReturns:\r\n    EditorPropertyValueState: What state the requested property is in.",
+      "move_retarget_op_in_stack": "x.move_retarget_op_in_stack(op_to_move_index, target_index) -> bool\r\nMove the retarget op at the given index to the target index.\nNOTE: due to constraints on execution order, the actual index may differ from what is requested\r\nInOpToMoveIndex: the index of the op to be moved\r\nInTargetIndex: the index where the op should be moved to\r\n\r\nArgs:\r\n    op_to_move_index (int32): \r\n    target_index (int32): \r\n\r\nReturns:\r\n    bool:",
+      "remove_all_ops": "x.remove_all_ops() -> bool\r\nRemove all ops in the stack.\r\n\r\nReturns:\r\n    bool: true if any ops were removed, false otherwise",
+      "remove_retarget_op": "x.remove_retarget_op(op_index) -> bool\r\nRemove the retarget op at the given stack index\nNOTE: if this op is a parent, all it's children will be removed as well\r\n\r\nArgs:\r\n    op_index (int32): \r\n\r\nReturns:\r\n    bool: true if op was found and removed, false otherwise",
+      "remove_retarget_override_set": "x.remove_retarget_override_set(override_set_name) -> bool\r\nRemove an override set by name.\r\n\r\nArgs:\r\n    override_set_name (Name): The name of the override set to remove.\r\n\r\nReturns:\r\n    bool: True if the override set was removed, false otherwise.",
+      "remove_retarget_pose": "x.remove_retarget_pose(pose_to_remove, source_or_target) -> bool\r\nRemove a retarget pose.\r\n\r\nArgs:\r\n    pose_to_remove (Name): The name of the retarget pose to remove\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether the pose belongs to the source or target skeleton\r\n\r\nReturns:\r\n    bool: True if the pose was found and successfully removed, false otherwise",
+      "rename_retarget_override_set": "x.rename_retarget_override_set(override_set_name, new_name) -> bool\r\nRename an existing override set.\r\n\r\nArgs:\r\n    override_set_name (Name): The name of the override set to rename.\r\n    new_name (Name): The new name.\r\n\r\nReturns:\r\n    bool: True if the override set was renamed, false otherwise.",
+      "rename_retarget_pose": "x.rename_retarget_pose(old_pose_name, new_pose_name, source_or_target) -> bool\r\nRename current retarget pose.\r\n\r\nArgs:\r\n    old_pose_name (Name): The current name of the retarget pose to rename\r\n    new_pose_name (Name): The new name to assign to the retarget pose\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether the pose belongs to the source or target skeleton\r\n\r\nReturns:\r\n    bool: True if the pose was found and successfully renamed, false otherwise",
+      "reset_chain_settings_in_all_ops": "x.reset_chain_settings_in_all_ops(target_chain_name) -> None\r\nTell each op to reset any settings associated with this chain\r\n\r\nArgs:\r\n    target_chain_name (Name):",
+      "reset_chain_settings_to_default": "x.reset_chain_settings_to_default(target_chain_name, op_name) -> None\r\nReset the settings for the given chain in the given op back to the defaults.\r\n\r\nArgs:\r\n    target_chain_name (Name): the name of the chain\r\n    op_name (Name): the name of the op containing the chain settings",
+      "reset_editor_property": "x.reset_editor_property(property_name, change_notify_mode=PropertyAccessChangeNotifyMode.DEFAULT) -> bool\r\nAttempts to reset the value of a named property on the given object so that it matches the value of the archetype.\r\n\r\nArgs:\r\n    property_name (Name): The name of the object property to reset the value of.\r\n    change_notify_mode (PropertyAccessChangeNotifyMode): When to emit property change notifications.\r\n\r\nReturns:\r\n    bool: Whether the property value was found and correctly reset.",
+      "reset_retarget_pose": "x.reset_retarget_pose(pose_to_reset, bones_to_reset, source_or_target) -> None\r\nReset a retarget pose for the specified bones.\r\n\r\nArgs:\r\n    pose_to_reset (Name): The name of the retarget pose to reset\r\n    bones_to_reset (Array[Name]): The array of bone names to reset; if empty, resets all bones to the reference pose\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether the pose belongs to the source or target skeleton",
+      "run_op_initial_setup": "x.run_op_initial_setup(op_index) -> None\r\nForce the op to run the initial setup. This is normally run when an Op is added through the editor UI.\nNOTE: ops may not have custom initial setup routines; the exact behavior is op-dependent\r\n\r\nArgs:\r\n    op_index (int32): the index of the op to run setup on",
+      "set_current_retarget_pose": "x.set_current_retarget_pose(current_pose, source_or_target) -> bool\r\nChange which retarget pose is used by the retargeter at runtime.\r\n\r\nArgs:\r\n    current_pose (Name): The name of the retarget pose to set as current\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether the pose applies to the source or target skeleton\r\n\r\nReturns:\r\n    bool: True if the current pose was successfully set, false otherwise",
+      "set_editor_properties": "set_editor_properties(self, properties: Mapping[str, object]) -> None -- set the value of any properties visible to the editor (from a name->value dict), ensuring that the pre/post change notifications are called",
+      "set_editor_property": "set_editor_property(self, name: str, value: object, notify_mode: PropertyAccessChangeNotifyMode=PropertyAccessChangeNotifyMode.DEFAULT) -> None -- set the value of any property visible to the editor, ensuring that the pre/post change notifications are called",
+      "set_op_name": "x.set_op_name(name, op_index) -> Name\r\nSet the name of the op at the given index in the stack.\r\n\r\nArgs:\r\n    name (Name): the new name to use\r\n    op_index (int32): the index of the op to be renamed\r\n\r\nReturns:\r\n    Name: the new name of the op (after it's made unique)",
+      "set_parent_op_by_name": "x.set_parent_op_by_name(child_op_name, parent_op_name) -> bool\r\nSet the name of the op to parent this op to\nChildren ops are forced to execute before their parent\r\n\r\nArgs:\r\n    child_op_name (Name): the op to be parented\r\n    parent_op_name (Name): the name of the op to parent to\r\n\r\nReturns:\r\n    bool: true if both parent and child were found, and the parent relationship was allowed",
+      "set_preview_mesh": "x.set_preview_mesh(source_or_target, preview_mesh) -> None\r\nSet the preview skeletal mesh for either source or target\r\n\r\nArgs:\r\n    source_or_target (RetargetSourceOrTarget): an enum specifying either \"Source\" or \"Target\"\r\n    preview_mesh (SkeletalMesh): a skeletal mesh asset to use as the preview mesh in the retarget editor (may be used on other meshes at runtime)",
+      "set_retarget_chain_settings": "x.set_retarget_chain_settings(target_chain_name, settings) -> bool\r\nSet Retarget Chain Settings\r\n\r\nArgs:\r\n    target_chain_name (Name): \r\n    settings (TargetChainSettings): \r\n\r\nReturns:\r\n    bool:",
+      "set_retarget_op_enabled": "x.set_retarget_op_enabled(retarget_op_index, is_enabled) -> bool\r\nToggle an op on/off.\r\n\r\nArgs:\r\n    retarget_op_index (int32): the index of the op to modify\r\n    is_enabled (bool): if true, turns the op On, else Off\r\n\r\nReturns:\r\n    bool: true if op was found at index",
+      "set_root_offset_in_retarget_pose": "x.set_root_offset_in_retarget_pose(translation_offset, source_or_target) -> None\r\nSet the translation offset on the retarget pelvis bone for the current retarget pose.\r\n\r\nArgs:\r\n    translation_offset (Vector): The vector representing the translation offset to apply to the pelvis bone\r\n    source_or_target (RetargetSourceOrTarget): Specifies whether the pelvis bone belongs to the source or target skeleton",
+      "set_rotation_offset_for_retarget_pose_bone": "x.set_rotation_offset_for_retarget_pose_bone(bone_name, rotation_offset, skeleton_mode) -> None\r\nSet a delta rotation for a given bone in the current retarget pose.\r\n\r\nArgs:\r\n    bone_name (Name): The name of the bone to apply the rotation offset to\r\n    rotation_offset (Quat): The quaternion representing the rotation offset to apply\r\n    skeleton_mode (RetargetSourceOrTarget): Specifies whether the bone belongs to the source or target skeleton",
+      "set_source_chain": "x.set_source_chain(source_chain_name, target_chain_name, op_name=\"None\") -> bool\r\nAssign a source chain to the given target chain. Animation will be copied from the source to the target.\r\n\r\nArgs:\r\n    source_chain_name (Name): the name of the source retarget chain to assign\r\n    target_chain_name (Name): the name of the target chain to map\r\n    op_name (Name): if specified, will set the source chain only for that op (otherwise applies to all ops with a chain mapping)\r\n\r\nReturns:\r\n    bool:"
+    },
+    "IKRetargetBatchOperationInputs": {
+      "assets_to_retarget": "(Array[AssetData]):  [Read-Write] A list of animation assets to retarget (sequences, blendspaces or montages)",
+      "copy": "copy(self) -> Any -- copy this Unreal struct",
+      "get_editor_property": "get_editor_property(self, name: Union[Name, str]) -> object -- get the value of any property visible to the editor",
+      "ik_retarget_asset": "(IKRetargeter):  [Read-Write] The IK Retargeter asset with IK Rigs appropriate for the source and target skeletal mesh",
+      "set_editor_properties": "set_editor_properties(self, properties: Mapping[str, object]) -> None -- set the value of any properties visible to the editor (from a name->value dict), ensuring that the pre/post change notifications are called",
+      "set_editor_property": "set_editor_property(self, name: Union[Name, str], value: object, notify_mode: PropertyAccessChangeNotifyMode=PropertyAccessChangeNotifyMode.DEFAULT) -> None -- set the value of any property visible to the editor, ensuring that the pre/post change notifications are called",
+      "source_mesh": "(SkeletalMesh):  [Read-Write] The skeletal mesh with desired proportions to playback the assets to retarget",
+      "target_mesh": "(SkeletalMesh):  [Read-Write] The skeletal mesh to retarget the animation onto"
+    },
+    "IKRigDefinitionFactory": {
+      "get_editor_property": "get_editor_property(self, name: str) -> object -- get the value of any property visible to the editor",
+      "is_editor_property_overridden": "x.is_editor_property_overridden(property_name) -> EditorPropertyValueState\r\nAttempts to query whether the value of a named property on the given object overrides the value of its archetype (ie, would ResetEditorProperty do anything?).\r\n\r\nArgs:\r\n    property_name (Name): The name of the object property to query the value of.\r\n\r\nReturns:\r\n    EditorPropertyValueState: What state the requested property is in.",
+      "reset_editor_property": "x.reset_editor_property(property_name, change_notify_mode=PropertyAccessChangeNotifyMode.DEFAULT) -> bool\r\nAttempts to reset the value of a named property on the given object so that it matches the value of the archetype.\r\n\r\nArgs:\r\n    property_name (Name): The name of the object property to reset the value of.\r\n    change_notify_mode (PropertyAccessChangeNotifyMode): When to emit property change notifications.\r\n\r\nReturns:\r\n    bool: Whether the property value was found and correctly reset.",
+      "set_editor_properties": "set_editor_properties(self, properties: Mapping[str, object]) -> None -- set the value of any properties visible to the editor (from a name->value dict), ensuring that the pre/post change notifications are called",
+      "set_editor_property": "set_editor_property(self, name: str, value: object, notify_mode: PropertyAccessChangeNotifyMode=PropertyAccessChangeNotifyMode.DEFAULT) -> None -- set the value of any property visible to the editor, ensuring that the pre/post change notifications are called"
+    },
+    "IKRetargetFactory": {
+      "get_editor_property": "get_editor_property(self, name: str) -> object -- get the value of any property visible to the editor",
+      "is_editor_property_overridden": "x.is_editor_property_overridden(property_name) -> EditorPropertyValueState\r\nAttempts to query whether the value of a named property on the given object overrides the value of its archetype (ie, would ResetEditorProperty do anything?).\r\n\r\nArgs:\r\n    property_name (Name): The name of the object property to query the value of.\r\n\r\nReturns:\r\n    EditorPropertyValueState: What state the requested property is in.",
+      "reset_editor_property": "x.reset_editor_property(property_name, change_notify_mode=PropertyAccessChangeNotifyMode.DEFAULT) -> bool\r\nAttempts to reset the value of a named property on the given object so that it matches the value of the archetype.\r\n\r\nArgs:\r\n    property_name (Name): The name of the object property to reset the value of.\r\n    change_notify_mode (PropertyAccessChangeNotifyMode): When to emit property change notifications.\r\n\r\nReturns:\r\n    bool: Whether the property value was found and correctly reset.",
+      "set_editor_properties": "set_editor_properties(self, properties: Mapping[str, object]) -> None -- set the value of any properties visible to the editor (from a name->value dict), ensuring that the pre/post change notifications are called",
+      "set_editor_property": "set_editor_property(self, name: str, value: object, notify_mode: PropertyAccessChangeNotifyMode=PropertyAccessChangeNotifyMode.DEFAULT) -> None -- set the value of any property visible to the editor, ensuring that the pre/post change notifications are called"
+    }
+  },
+  "assets": {
+    "/Game/Character/Mesh/SK_Mannequin": {
+      "skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton",
+      "reference": {
+        "root": {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pelvis": {
+          "p": [
+            1.3536841578012896e-28,
+            -1.0561532974243164,
+            96.75060272216797
+          ],
+          "q": [
+            0.001285225658440546,
+            0.7071055348452582,
+            -0.001285225658440546,
+            -0.7071055348452582
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "spine_01": {
+          "p": [
+            2.3949498153541526e-06,
+            -0.16545175720732574,
+            107.55631182460607
+          ],
+          "q": [
+            -0.04539802976530222,
+            -0.7056478684239248,
+            0.04539802976530222,
+            0.7056478684239248
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "spine_02": {
+          "p": [
+            6.287115022374223e-06,
+            -1.5165850008483979,
+            126.76313078678534
+          ],
+          "q": [
+            -0.041328603513016655,
+            0.7058978999337718,
+            0.041328603513016655,
+            -0.7058978999337718
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "spine_03": {
+          "p": [
+            9.006142054346356e-06,
+            -3.4987591213199702,
+            140.02978728676283
+          ],
+          "q": [
+            0.05843631209935724,
+            -0.7046879343900047,
+            -0.05843631209935724,
+            0.7046879343900047
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "clavicle_l": {
+          "p": [
+            3.7819939670212364,
+            -2.761440287206044,
+            152.2011725013703
+          ],
+          "q": [
+            -0.01948938053202738,
+            -0.08264927293909723,
+            0.22868439554180914,
+            -0.9697899308858428
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "upperarm_l": {
+          "p": [
+            17.700227395587337,
+            -9.711994295839121,
+            149.53007698204087
+          ],
+          "q": [
+            -0.0026431885972322683,
+            0.41961801577612906,
+            -0.038741658017342306,
+            0.9068696762955742
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "lowerarm_l": {
+          "p": [
+            37.26461574174209,
+            -11.91120014492435,
+            126.44524661922765
+          ],
+          "q": [
+            -0.1539125033997519,
+            -0.32959075552077616,
+            -0.17923275152246707,
+            -0.9140876691821636
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "hand_l": {
+          "p": [
+            56.64601646457171,
+            -0.33548706008829043,
+            111.67966359688097
+          ],
+          "q": [
+            0.6787945715934672,
+            0.3891361510359118,
+            -0.06954110909889019,
+            0.6188496152040698
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_01_l": {
+          "p": [
+            63.04232466338989,
+            6.766254936788829,
+            103.8151092804444
+          ],
+          "q": [
+            -0.4858896744923745,
+            -0.5345506873715485,
+            0.15554961137274637,
+            -0.6737736273219022
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_02_l": {
+          "p": [
+            64.67208740660728,
+            8.094757069553733,
+            100.07858818416396
+          ],
+          "q": [
+            0.4187950048597514,
+            0.5822514268627443,
+            -0.22003531832468168,
+            0.6611945519162417
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_03_l": {
+          "p": [
+            65.43614995535282,
+            8.76236878985909,
+            96.84002200419347
+          ],
+          "q": [
+            -0.46027235076155115,
+            -0.5530250231110158,
+            0.1550099233645816,
+            -0.6769670666193204
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_01_l": {
+          "p": [
+            64.49005144895348,
+            4.479352090696641,
+            103.48145840371768
+          ],
+          "q": [
+            -0.5650422571645136,
+            -0.48210692461276966,
+            0.21835276917762092,
+            -0.6329470998404585
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_02_l": {
+          "p": [
+            66.53084144252786,
+            5.7248752298020715,
+            99.50440973630792
+          ],
+          "q": [
+            0.5235647669816482,
+            0.5407372654787971,
+            -0.28932699911930476,
+            0.5914159444407152
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_03_l": {
+          "p": [
+            67.43497451345785,
+            6.5422043614717325,
+            96.06514072927304
+          ],
+          "q": [
+            -0.5785207170963764,
+            -0.4429969045460515,
+            0.22695681379889765,
+            -0.6461871876870297
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_01_l": {
+          "p": [
+            64.02502102404239,
+            -0.1590427703203252,
+            103.01751086995772
+          ],
+          "q": [
+            -0.6645697114191212,
+            -0.3472901907295644,
+            0.334156489579565,
+            -0.5710305335708646
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_02_l": {
+          "p": [
+            65.93713098081342,
+            0.12652844550595832,
+            100.01514745110741
+          ],
+          "q": [
+            0.6179365650980119,
+            0.408004411471157,
+            -0.39172993021176716,
+            0.5461082517373113
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_03_l": {
+          "p": [
+            67.01243615033931,
+            0.354594195503372,
+            97.23923444140719
+          ],
+          "q": [
+            -0.6251948149744161,
+            -0.43313005430502444,
+            0.37401985810046373,
+            -0.5306964549895367
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_01_l": {
+          "p": [
+            64.57561868548085,
+            2.0825170994838773,
+            103.03930737328824
+          ],
+          "q": [
+            -0.6363263322285747,
+            -0.4266854633071997,
+            0.3005591896933977,
+            -0.5680600842595915
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_02_l": {
+          "p": [
+            66.5922680329519,
+            2.975423900491715,
+            99.19713245590603
+          ],
+          "q": [
+            0.5757818479389921,
+            0.49079483874599245,
+            -0.3715523332579522,
+            0.5380932052696745
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_03_l": {
+          "p": [
+            67.43409972017743,
+            3.5501908384178247,
+            95.87326881756186
+          ],
+          "q": [
+            -0.6368821520504107,
+            -0.43696990193657487,
+            0.29367462015048273,
+            -0.5631992960935057
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_01_l": {
+          "p": [
+            57.477997254239305,
+            3.876438147783115,
+            107.63917661228393
+          ],
+          "q": [
+            -0.12557892896509412,
+            -0.48483984458977814,
+            -0.4981975467450822,
+            -0.707784728464141
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_02_l": {
+          "p": [
+            57.60747284317395,
+            7.0766744196322335,
+            105.46752357183593
+          ],
+          "q": [
+            0.015848512004729504,
+            0.5553492399104445,
+            0.41211345956590617,
+            0.7221484036532387
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_03_l": {
+          "p": [
+            57.78417501221163,
+            9.566042438655668,
+            102.26236319505277
+          ],
+          "q": [
+            -0.05946574232634535,
+            -0.5428063863116235,
+            -0.49947079134017347,
+            -0.6725724948696021
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "lowerarm_twist_01_l": {
+          "p": [
+            47.52155003774884,
+            -6.092834481240204,
+            118.93912686156418
+          ],
+          "q": [
+            0.15391250339975188,
+            0.32959075552077616,
+            0.17923275152246707,
+            0.9140876691821636
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "upperarm_twist_01_l": {
+          "p": [
+            27.73542161374456,
+            -10.795618562637156,
+            137.58049134352765
+          ],
+          "q": [
+            0.00264318859723227,
+            -0.41961801577612906,
+            0.038741658017342306,
+            -0.9068696762955742
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "clavicle_r": {
+          "p": [
+            -3.781990154836704,
+            -2.7614425935274944,
+            152.20127630830075
+          ],
+          "q": [
+            0.9697899308858428,
+            0.22868439554180917,
+            0.08264927293909721,
+            -0.019489380532027402
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "upperarm_r": {
+          "p": [
+            -17.7001565506746,
+            -9.711970965349778,
+            149.5302043806651
+          ],
+          "q": [
+            -0.9068696762955742,
+            -0.0387416580173423,
+            -0.419618015776129,
+            -0.002643188597232258
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "lowerarm_r": {
+          "p": [
+            -37.26462076954937,
+            -11.91118954019391,
+            126.4452816045508
+          ],
+          "q": [
+            0.9140876691821636,
+            -0.17923275152246707,
+            0.3295907555207761,
+            -0.1539125033997519
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "hand_r": {
+          "p": [
+            -56.64608911452393,
+            -0.3354104971747933,
+            111.67965437278706
+          ],
+          "q": [
+            -0.6188496152040698,
+            -0.06954110909889016,
+            -0.38913615103591176,
+            0.6787945715934672
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_01_r": {
+          "p": [
+            -63.04210475389557,
+            6.7662649179973835,
+            103.81499970853717
+          ],
+          "q": [
+            0.6737736273219022,
+            0.15554961137274634,
+            0.5345506873715484,
+            -0.4858896744923745
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_02_r": {
+          "p": [
+            -64.67204947147492,
+            8.094809347593168,
+            100.07835470974078
+          ],
+          "q": [
+            -0.6611945519162417,
+            -0.22003531832468165,
+            -0.5822514268627441,
+            0.4187950048597514
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_03_r": {
+          "p": [
+            -65.43621505086739,
+            8.76247924101678,
+            96.83981658451415
+          ],
+          "q": [
+            0.6769670666193204,
+            0.15500992336458158,
+            0.5530250231110155,
+            -0.46027235076155115
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_01_r": {
+          "p": [
+            -64.48994689844771,
+            4.479377743449547,
+            103.48148945460906
+          ],
+          "q": [
+            0.6329470998404585,
+            0.21835276917762092,
+            0.48210692461276966,
+            -0.5650422571645136
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_02_r": {
+          "p": [
+            -66.53070066762504,
+            5.724921612359433,
+            99.50420169296363
+          ],
+          "q": [
+            -0.5914159444407152,
+            -0.28932699911930476,
+            -0.5407372654787971,
+            0.5235647669816482
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_03_r": {
+          "p": [
+            -67.43488070488075,
+            6.542272695563528,
+            96.06488068902735
+          ],
+          "q": [
+            0.6461871876870297,
+            0.22695681379889765,
+            0.4429969045460515,
+            -0.5785207170963764
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_01_r": {
+          "p": [
+            -64.02489807722017,
+            -0.15896372398751657,
+            103.01739372798917
+          ],
+          "q": [
+            0.5710305335708646,
+            0.33415648957956495,
+            0.34729019072956435,
+            -0.6645697114191212
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_02_r": {
+          "p": [
+            -65.93698272862687,
+            0.12661387484611408,
+            100.0149240568567
+          ],
+          "q": [
+            -0.5461082517373114,
+            -0.3917299302117671,
+            -0.40800441147115696,
+            0.6179365650980119
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_03_r": {
+          "p": [
+            -67.01250608682768,
+            0.35460620332414905,
+            97.23931698870462
+          ],
+          "q": [
+            0.5306964608740016,
+            0.37401985117729336,
+            0.43313006184009795,
+            -0.6251948091876003
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_01_r": {
+          "p": [
+            -64.57560609841772,
+            2.082614881590116,
+            103.03905729110875
+          ],
+          "q": [
+            0.5680600842595915,
+            0.30055918969339773,
+            0.42668546330719964,
+            -0.6363263322285747
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_02_r": {
+          "p": [
+            -66.59218966019714,
+            2.975441437858615,
+            99.1971898725313
+          ],
+          "q": [
+            -0.5380932052696745,
+            -0.3715523332579522,
+            -0.4907948387459924,
+            0.5757818479389921
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_03_r": {
+          "p": [
+            -67.43409260152931,
+            3.5502110205396753,
+            95.87333800475908
+          ],
+          "q": [
+            0.5631992960935057,
+            0.29367462015048273,
+            0.4369699019365748,
+            -0.6368821520504107
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_01_r": {
+          "p": [
+            -57.47805193274129,
+            3.8765289738800615,
+            107.63900399799758
+          ],
+          "q": [
+            0.707784728464141,
+            -0.4981975467450822,
+            0.484839844589778,
+            -0.1255789289650941
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_02_r": {
+          "p": [
+            -57.60741240375456,
+            7.076716790712708,
+            105.46745579422694
+          ],
+          "q": [
+            -0.7221484129482326,
+            0.41211345624376855,
+            -0.5553492343579942,
+            0.01584849423323849
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_03_r": {
+          "p": [
+            -57.784111077579496,
+            9.566087597558742,
+            102.26229132714461
+          ],
+          "q": [
+            0.6725725061235104,
+            -0.4994707805492824,
+            0.5428063859982566,
+            -0.05946573631086211
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "lowerarm_twist_01_r": {
+          "p": [
+            -57.20216682039964,
+            -0.0032924954955699803,
+            111.25601687287265
+          ],
+          "q": [
+            -0.8896376480092991,
+            0.13921967849531539,
+            -0.3483853187177175,
+            0.2603655205880453
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "upperarm_twist_01_r": {
+          "p": [
+            -18.001249064187668,
+            -9.745820009510608,
+            149.17493450858106
+          ],
+          "q": [
+            0.8936162130396039,
+            0.11084837644268927,
+            0.4065622232326977,
+            -0.1544982209253198
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "neck_01": {
+          "p": [
+            1.2793295510959979e-05,
+            -5.8758154608516255,
+            156.42091324857353
+          ],
+          "q": [
+            0.08634153787342785,
+            0.7018155406271938,
+            -0.08634153787342785,
+            -0.7018155406271938
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "head": {
+          "p": [
+            1.4385840145791917e-05,
+            -3.978920272563759,
+            165.515958227006
+          ],
+          "q": [
+            0.008153641179534918,
+            -0.7070597035855866,
+            -0.008153641179534918,
+            0.7070597035855866
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thigh_l": {
+          "p": [
+            9.005807467476036,
+            -0.5300000246858303,
+            95.29985011341589
+          ],
+          "q": [
+            -0.05938647384519392,
+            -0.7478082963654976,
+            -0.044688042300507755,
+            0.6597414106851727
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "calf_l": {
+          "p": [
+            14.217839706297216,
+            -1.8009580208985911,
+            53.067200574352604
+          ],
+          "q": [
+            0.0750812420691755,
+            0.7310199663608673,
+            -0.03413305183397293,
+            -0.6773531619864293
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "calf_twist_01_l": {
+          "p": [
+            15.732081529253719,
+            -5.307410622273393,
+            32.94722319306965
+          ],
+          "q": [
+            -0.08248031669951784,
+            -0.7318283685981509,
+            0.03738010619612665,
+            0.6754455443046715
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "foot_l": {
+          "p": [
+            17.076246920760266,
+            -8.072125373892328,
+            13.46574887277071
+          ],
+          "q": [
+            -0.020529847362314963,
+            -0.7122327266034542,
+            -0.011723980344890701,
+            0.701544958995816
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ball_l": {
+          "p": [
+            17.90867631829241,
+            8.357095619666774,
+            2.812013433032689
+          ],
+          "q": [
+            0.5261665011212678,
+            0.4805034318057219,
+            -0.4959434939587919,
+            -0.4962910999771814
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thigh_twist_01_l": {
+          "p": [
+            11.707642469282248,
+            -1.2111016395314378,
+            73.38200913847618
+          ],
+          "q": [
+            0.028385401508282098,
+            0.7490429143559522,
+            0.008836292980020588,
+            -0.6618539077633705
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thigh_r": {
+          "p": [
+            -9.00580143375744,
+            -0.529995302078856,
+            95.3000382666534
+          ],
+          "q": [
+            0.6597414106851727,
+            0.04468804230050775,
+            -0.7478082963654975,
+            0.05938647384519391
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "calf_r": {
+          "p": [
+            -14.217859012968795,
+            -1.8009611963004786,
+            53.06717675296218
+          ],
+          "q": [
+            -0.6773531619864293,
+            0.03413305183397292,
+            0.7310199663608672,
+            -0.07508124206917548
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "calf_twist_01_r": {
+          "p": [
+            -15.732128029791806,
+            -5.307430858246537,
+            32.947070513528516
+          ],
+          "q": [
+            0.675445380567272,
+            -0.03738124535205033,
+            -0.7318285963589582,
+            0.08247905842890342
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "foot_r": {
+          "p": [
+            -17.076264688658462,
+            -8.072146568125712,
+            13.465596144598813
+          ],
+          "q": [
+            0.701544958995816,
+            0.011723980344890712,
+            -0.712232726603454,
+            0.02052984736231494
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ball_r": {
+          "p": [
+            -17.908688660005016,
+            8.357008125201071,
+            2.8118822897110505
+          ],
+          "q": [
+            -0.4962910999771814,
+            0.4959434939587919,
+            0.48050343180572186,
+            -0.5261665011212677
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thigh_twist_01_r": {
+          "p": [
+            -11.707617911469178,
+            -1.21109652451019,
+            73.38219307148226
+          ],
+          "q": [
+            -0.6618542877552333,
+            -0.008835023985367715,
+            0.7490426601082539,
+            -0.028384332854619033
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_foot_root": {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.0,
+            0.0,
+            0.0,
+            -0.9999999403953552
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_foot_l": {
+          "p": [
+            17.076271057128906,
+            -8.072127342224121,
+            13.465730667114258
+          ],
+          "q": [
+            -0.020529850093731206,
+            -0.7122327856878741,
+            -0.01172397774613032,
+            0.7015450178655946
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_foot_r": {
+          "p": [
+            -17.0762882232666,
+            -8.072148323059082,
+            13.46557331085205
+          ],
+          "q": [
+            0.7015450178655946,
+            0.01172397774613032,
+            -0.7122327856878741,
+            0.020529850093731206
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_hand_root": {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.0,
+            0.0,
+            0.0,
+            -0.9999999403953552
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_hand_gun": {
+          "p": [
+            -56.64609909057617,
+            -0.33541175723075867,
+            111.67965698242188
+          ],
+          "q": [
+            -0.6188496578425351,
+            -0.0695411297952453,
+            -0.389136142186155,
+            0.6787945819619523
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_hand_l": {
+          "p": [
+            56.645996283758464,
+            -0.33547804838653406,
+            111.67967327015052
+          ],
+          "q": [
+            0.6787945824129891,
+            0.3891361811125133,
+            -0.06954115325529904,
+            0.6188496487926015
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_hand_r": {
+          "p": [
+            -56.64609909057619,
+            -0.3354117572307398,
+            111.67965698242186
+          ],
+          "q": [
+            0.618849657842535,
+            0.06954112979524535,
+            0.389136142186155,
+            -0.6787945819619524
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "local_reference": {
+        "root": {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pelvis": {
+          "p": [
+            1.3536841578012896e-28,
+            -1.0561532974243164,
+            96.75060272216797
+          ],
+          "q": [
+            0.0012852257350459695,
+            0.7071055769920349,
+            -0.0012852257350459695,
+            -0.7071055769920349
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "spine_01": {
+          "p": [
+            10.808877944946289,
+            0.8514151573181152,
+            -6.091093883615895e-13
+          ],
+          "q": [
+            -6.150969983955428e-33,
+            -3.844992889549258e-34,
+            -0.062388576567173004,
+            -0.9980519413948059
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "spine_02": {
+          "p": [
+            18.875349044799805,
+            -3.8011586666107178,
+            5.966093397091754e-08
+          ],
+          "q": [
+            -6.157053534562918e-33,
+            2.559818505677619e-32,
+            0.12241965532302856,
+            -0.9924784302711487
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "spine_03": {
+          "p": [
+            13.407328605651855,
+            -0.42047739028930664,
+            -5.575239163564671e-13
+          ],
+          "q": [
+            0.0,
+            -0.0,
+            0.02425260841846466,
+            -0.9997058510780334
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "clavicle_l": {
+          "p": [
+            11.883687973022461,
+            2.7320878505706787,
+            -3.7819831371307373
+          ],
+          "q": [
+            0.20891791582107544,
+            -0.7294167876243591,
+            0.12304386496543884,
+            -0.6396598219871521
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "upperarm_l": {
+          "p": [
+            15.784872055053711,
+            -1.431796459172574e-09,
+            6.359101689668023e-09
+          ],
+          "q": [
+            0.11299581080675125,
+            -0.33062976598739624,
+            -0.16141915321350098,
+            -0.922962486743927
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "lowerarm_l": {
+          "p": [
+            30.339929580688477,
+            -8.407475604599313e-09,
+            3.197513365194027e-09
+          ],
+          "q": [
+            -0.054016515612602234,
+            0.07918272912502289,
+            -0.26340970396995544,
+            -0.9599102139472961
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "hand_l": {
+          "p": [
+            26.975143432617188,
+            -1.572960428575243e-09,
+            -9.620762853046472e-09
+          ],
+          "q": [
+            -0.617895245552063,
+            -0.019371984526515007,
+            0.010653295554220676,
+            -0.7859495878219604
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_01_l": {
+          "p": [
+            12.068114280700684,
+            -1.7634615898132324,
+            -2.1093976497650146
+          ],
+          "q": [
+            0.13330453634262085,
+            0.003180114319548011,
+            0.22317975759506226,
+            -0.9656140804290771
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_02_l": {
+          "p": [
+            4.2874979972839355,
+            2.9850326654923265e-08,
+            5.048416795716548e-09
+          ],
+          "q": [
+            0.01204353105276823,
+            0.0029058358632028103,
+            0.10444825887680054,
+            -0.9944531321525574
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_03_l": {
+          "p": [
+            3.3937902450561523,
+            -1.1695462376337673e-08,
+            -2.34923547282051e-09
+          ],
+          "q": [
+            0.010611145757138729,
+            -0.007850885391235352,
+            -0.08285508304834366,
+            -0.9964742064476013
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_01_l": {
+          "p": [
+            12.244280815124512,
+            -1.293643593788147,
+            0.5711619853973389
+          ],
+          "q": [
+            0.028522171080112457,
+            0.05687393248081207,
+            0.19848491251468658,
+            -0.9780365824699402
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_02_l": {
+          "p": [
+            4.640374183654785,
+            3.6481679899225128e-09,
+            1.8308643490172472e-09
+          ],
+          "q": [
+            -0.01862887479364872,
+            -0.007972199469804764,
+            0.10711660236120224,
+            -0.9940399527549744
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_03_l": {
+          "p": [
+            3.64884352684021,
+            1.998945720060874e-08,
+            1.6076331377234965e-09
+          ],
+          "q": [
+            0.001621426548808813,
+            0.03886699676513672,
+            -0.13362368941307068,
+            -0.990268349647522
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_01_l": {
+          "p": [
+            10.140665054321289,
+            -2.263151168823242,
+            4.643147945404053
+          ],
+          "q": [
+            -0.12953773140907288,
+            0.1878969520330429,
+            0.14421314001083374,
+            -0.9628692865371704
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_02_l": {
+          "p": [
+            3.5709807872772217,
+            -1.8669879864319228e-08,
+            3.9181990985071025e-10
+          ],
+          "q": [
+            0.010359718464314938,
+            0.01051939744502306,
+            0.09774821996688843,
+            -0.9951016306877136
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_03_l": {
+          "p": [
+            2.985630750656128,
+            3.005878568274056e-08,
+            -4.0375400800485295e-09
+          ],
+          "q": [
+            0.0035809518303722143,
+            -0.03379638493061066,
+            0.008930303156375885,
+            -0.9993824362754822
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_01_l": {
+          "p": [
+            11.497884750366211,
+            -1.7535265684127808,
+            2.846912384033203
+          ],
+          "q": [
+            -0.09548048675060272,
+            0.11676570773124695,
+            0.18851163983345032,
+            -0.9704187512397766
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_02_l": {
+          "p": [
+            4.430177211761475,
+            -4.666517838813888e-09,
+            -9.403358092185954e-10
+          ],
+          "q": [
+            0.004301111213862896,
+            0.01416760217398405,
+            0.1159631535410881,
+            -0.9931431412696838
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_03_l": {
+          "p": [
+            3.4766523838043213,
+            1.6786373180366354e-08,
+            2.768651086171303e-09
+          ],
+          "q": [
+            -0.00019882837659679353,
+            -0.026257768273353577,
+            -0.11221285909414291,
+            -0.9933372139930725
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_01_l": {
+          "p": [
+            4.762036323547363,
+            -2.3749806880950928,
+            -2.5378196239471436
+          ],
+          "q": [
+            0.6303090453147888,
+            -0.3715250790119171,
+            -0.07729015499353409,
+            -0.6772782206535339
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_02_l": {
+          "p": [
+            3.8696718215942383,
+            -5.011877135530085e-09,
+            9.984972848542384e-09
+          ],
+          "q": [
+            0.0026046857237815857,
+            -0.08679848909378052,
+            0.13014115393161774,
+            -0.9876854419708252
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_03_l": {
+          "p": [
+            4.062171459197998,
+            -1.072194777407276e-09,
+            -5.127418489792035e-10
+          ],
+          "q": [
+            0.02139909379184246,
+            -0.0018833780195564032,
+            -0.10793746262788773,
+            -0.9939255714416504
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "lowerarm_twist_01_l": {
+          "p": [
+            13.975005149841309,
+            -0.15025866031646729,
+            0.27675360441207886
+          ],
+          "q": [
+            2.7755575615628914e-17,
+            2.7755575615628914e-17,
+            1.3877787807814457e-17,
+            -1.0
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "upperarm_twist_01_l": {
+          "p": [
+            15.641756057739258,
+            0.048337358981370926,
+            -0.07161462306976318
+          ],
+          "q": [
+            1.734723475976807e-18,
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "clavicle_r": {
+          "p": [
+            11.8837890625,
+            2.732102394104004,
+            3.7820026874542236
+          ],
+          "q": [
+            0.7294167876243591,
+            0.20891791582107544,
+            -0.6396598219871521,
+            -0.12304386496543884
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "upperarm_r": {
+          "p": [
+            -15.784797668457031,
+            7.013959930191049e-06,
+            -1.1171471669513267e-05
+          ],
+          "q": [
+            0.11299581080675125,
+            -0.33062976598739624,
+            -0.16141915321350098,
+            -0.922962486743927
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "lowerarm_r": {
+          "p": [
+            -30.340049743652344,
+            4.085021373612108e-06,
+            1.7513536931801355e-06
+          ],
+          "q": [
+            -0.054016515612602234,
+            0.07918272912502289,
+            -0.26340970396995544,
+            -0.9599102139472961
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "hand_r": {
+          "p": [
+            -26.975244522094727,
+            -2.5634119083406404e-05,
+            -1.1905384553756448e-06
+          ],
+          "q": [
+            -0.617895245552063,
+            -0.019371984526515007,
+            0.010653295554220676,
+            -0.7859495878219604
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_01_r": {
+          "p": [
+            -12.067941665649414,
+            1.7637253999710083,
+            2.1094281673431396
+          ],
+          "q": [
+            0.13330453634262085,
+            0.003180114319548011,
+            0.22317975759506226,
+            -0.9656140804290771
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_02_r": {
+          "p": [
+            -4.287688255310059,
+            -9.245983528671786e-05,
+            -7.426209776895121e-05
+          ],
+          "q": [
+            0.01204353105276823,
+            0.0029058358632028103,
+            0.10444825887680054,
+            -0.9944531321525574
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "index_03_r": {
+          "p": [
+            -3.3937981128692627,
+            -0.0001206969900522381,
+            -1.2407956091919914e-05
+          ],
+          "q": [
+            0.010611145757138729,
+            -0.007850885391235352,
+            -0.08285508304834366,
+            -0.9964742064476013
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_01_r": {
+          "p": [
+            -12.244112968444824,
+            1.2937241792678833,
+            -0.5711302161216736
+          ],
+          "q": [
+            0.028522171080112457,
+            0.05687393248081207,
+            0.19848491251468658,
+            -0.9780365824699402
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_02_r": {
+          "p": [
+            -4.640568733215332,
+            0.00014491056208498776,
+            7.636955160705838e-06
+          ],
+          "q": [
+            -0.01862887479364872,
+            -0.007972199469804764,
+            0.10711660236120224,
+            -0.9940399527549744
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "middle_03_r": {
+          "p": [
+            -3.648909091949463,
+            -3.29968097503297e-05,
+            -2.2666431505058426e-06
+          ],
+          "q": [
+            0.001621426548808813,
+            0.03886699676513672,
+            -0.13362368941307068,
+            -0.990268349647522
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_01_r": {
+          "p": [
+            -10.140592575073242,
+            2.263354778289795,
+            -4.643094539642334
+          ],
+          "q": [
+            -0.12953773140907288,
+            0.1878969520330429,
+            0.14421314001083374,
+            -0.9628692865371704
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_02_r": {
+          "p": [
+            -3.571057081222534,
+            7.801967876730487e-05,
+            -8.107984285743441e-06
+          ],
+          "q": [
+            0.010359718464314938,
+            0.01051939744502306,
+            0.09774821996688843,
+            -0.9951016306877136
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "pinky_03_r": {
+          "p": [
+            -2.985419273376465,
+            -0.00031727668829262257,
+            -3.5056928027188405e-05
+          ],
+          "q": [
+            0.0035809644032269716,
+            -0.033796388655900955,
+            0.00893030408769846,
+            -0.9993824362754822
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_01_r": {
+          "p": [
+            -11.497973442077637,
+            1.7537660598754883,
+            -2.846914768218994
+          ],
+          "q": [
+            -0.09548048675060272,
+            0.11676570773124695,
+            0.18851163983345032,
+            -0.9704187512397766
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_02_r": {
+          "p": [
+            -4.429864406585693,
+            -8.44798851176165e-05,
+            -1.837869785958901e-05
+          ],
+          "q": [
+            0.004301111213862896,
+            0.01416760217398405,
+            0.1159631535410881,
+            -0.9931431412696838
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ring_03_r": {
+          "p": [
+            -3.476658821105957,
+            -7.194164209067822e-05,
+            -2.843127731466666e-06
+          ],
+          "q": [
+            -0.00019882837659679353,
+            -0.026257768273353577,
+            -0.11221285909414291,
+            -0.9933372139930725
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_01_r": {
+          "p": [
+            -4.762124538421631,
+            2.375119924545288,
+            2.537801742553711
+          ],
+          "q": [
+            0.6303090453147888,
+            -0.3715250790119171,
+            -0.07729015499353409,
+            -0.6772782206535339
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_02_r": {
+          "p": [
+            -3.8695690631866455,
+            -0.00011357050243532285,
+            5.5954889830900356e-05
+          ],
+          "q": [
+            0.0026047006249427795,
+            -0.08679848909378052,
+            0.13014116883277893,
+            -0.9876854419708252
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thumb_03_r": {
+          "p": [
+            -4.06217622756958,
+            -2.0121733541600406e-06,
+            3.204959284630604e-06
+          ],
+          "q": [
+            0.021399078890681267,
+            -0.0018833739450201392,
+            -0.10793746262788773,
+            -0.9939255714416504
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "lowerarm_twist_01_r": {
+          "p": [
+            -27.749191284179688,
+            -2.4331944587174803e-05,
+            -6.578326974704396e-06
+          ],
+          "q": [
+            -0.11762712150812149,
+            -5.186097524162873e-17,
+            3.409250702672415e-17,
+            -0.9930578470230103
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "upperarm_twist_01_r": {
+          "p": [
+            -0.4669252336025238,
+            3.700793968164362e-06,
+            -1.1559803851923789e-06
+          ],
+          "q": [
+            -0.17323486506938934,
+            7.870211923369252e-17,
+            -3.3218150649476e-17,
+            -0.9848805665969849
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "neck_01": {
+          "p": [
+            16.55878257751465,
+            0.3553175628185272,
+            -5.965974025912146e-08
+          ],
+          "q": [
+            -6.033745279187614e-33,
+            -1.2554644253701778e-33,
+            -0.20371074974536896,
+            -0.9790311455726624
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "head": {
+          "p": [
+            9.283613204956055,
+            -0.3641568720340729,
+            2.9273693708751483e-15
+          ],
+          "q": [
+            -4.293711684859261e-33,
+            -4.9170831716612344e-32,
+            0.13354197144508362,
+            -0.9910431504249573
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thigh_l": {
+          "p": [
+            -1.4488286972045898,
+            0.5314235091209412,
+            -9.005809783935547
+          ],
+          "q": [
+            0.07370486855506897,
+            0.062138836830854416,
+            -0.008584325201809406,
+            -0.9953052997589111
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "calf_l": {
+          "p": [
+            -42.57203674316406,
+            -1.7074142100170775e-10,
+            -4.667910502575978e-10
+          ],
+          "q": [
+            -0.048884253948926926,
+            -0.018863899633288383,
+            -0.06552226841449738,
+            -0.9964744448661804
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "calf_twist_01_l": {
+          "p": [
+            -20.476776123046875,
+            -0.31201687455177307,
+            -0.07830753177404404
+          ],
+          "q": [
+            0.0028089452534914017,
+            0.0019333207746967673,
+            -0.007612692657858133,
+            -0.9999651908874512
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "foot_l": {
+          "p": [
+            -40.19668960571289,
+            3.933848802262219e-09,
+            1.8994583683706878e-10
+          ],
+          "q": [
+            -0.005885771010071039,
+            -0.03199128806591034,
+            0.07035475224256516,
+            -0.9969915151596069
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ball_l": {
+          "p": [
+            -10.453837394714355,
+            16.57785415649414,
+            0.08015594631433487
+          ],
+          "q": [
+            8.007621363503858e-05,
+            -2.9593022190965712e-05,
+            -0.7186337113380432,
+            -0.695388674736023
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thigh_twist_01_l": {
+          "p": [
+            -22.09423828125,
+            -0.021721942350268364,
+            -8.137933036778122e-05
+          ],
+          "q": [
+            -0.04744356498122215,
+            -2.1482490410562605e-05,
+            -0.000491108454298228,
+            -0.998873770236969
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thigh_r": {
+          "p": [
+            -1.4486445188522339,
+            0.5314275622367859,
+            9.005803108215332
+          ],
+          "q": [
+            0.062138836830854416,
+            -0.07370486855506897,
+            0.9953052997589111,
+            -0.008584325201809406
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "calf_r": {
+          "p": [
+            42.57225036621094,
+            1.6233628912232234e-06,
+            -5.836755576638097e-07
+          ],
+          "q": [
+            -0.048884253948926926,
+            -0.018863899633288383,
+            -0.06552226841449738,
+            -0.9964744448661804
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "calf_twist_01_r": {
+          "p": [
+            20.47690773010254,
+            0.31201258301734924,
+            0.07832517474889755
+          ],
+          "q": [
+            0.002807280281558633,
+            0.001933723222464323,
+            -0.007612532936036587,
+            -0.9999651908874512
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "foot_r": {
+          "p": [
+            40.19681930541992,
+            -1.6769354260759428e-06,
+            -1.0918018233496696e-05
+          ],
+          "q": [
+            -0.005885771010071039,
+            -0.03199128806591034,
+            0.07035475224256516,
+            -0.9969915151596069
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ball_r": {
+          "p": [
+            10.453816413879395,
+            -16.577796936035156,
+            -0.08015844970941544
+          ],
+          "q": [
+            8.007621363503858e-05,
+            -2.9593022190965712e-05,
+            -0.7186337113380432,
+            -0.695388674736023
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thigh_twist_01_r": {
+          "p": [
+            22.094240188598633,
+            0.02172425389289856,
+            6.261454109335318e-05
+          ],
+          "q": [
+            -0.047445230185985565,
+            -2.1906784240854904e-05,
+            -0.0004911785945296288,
+            -0.9988737106323242
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_foot_root": {
+          "p": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "q": [
+            0.0,
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_foot_l": {
+          "p": [
+            17.076271057128906,
+            -8.072127342224121,
+            13.465730667114258
+          ],
+          "q": [
+            0.0205298513174057,
+            0.7122328281402588,
+            0.011723978444933891,
+            -0.7015450596809387
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_foot_r": {
+          "p": [
+            -17.0762882232666,
+            -8.072148323059082,
+            13.46557331085205
+          ],
+          "q": [
+            -0.7015450596809387,
+            -0.011723978444933891,
+            0.7122328281402588,
+            -0.0205298513174057
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_hand_root": {
+          "p": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "q": [
+            0.0,
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_hand_gun": {
+          "p": [
+            -56.64609909057617,
+            -0.33541175723075867,
+            111.67965698242188
+          ],
+          "q": [
+            0.6188496947288513,
+            0.06954113394021988,
+            0.3891361653804779,
+            -0.6787946224212646
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_hand_l": {
+          "p": [
+            77.88542938232422,
+            69.60191345214844,
+            43.869503021240234
+          ],
+          "q": [
+            0.6874741315841675,
+            0.614358127117157,
+            0.38722530007362366,
+            2.0388498086555164e-15
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ik_hand_r": {
+          "p": [
+            -3.552713678800501e-14,
+            -0.0,
+            3.552713678800501e-15
+          ],
+          "q": [
+            -2.3592239273284576e-16,
+            -2.7755575615628914e-17,
+            -2.7755575615628914e-17,
+            -1.0
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07": {
+      "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/SK_WuxiaMale_Native_v07_Skeleton.SK_WuxiaMale_Native_v07_Skeleton",
+      "reference": {
+        "Hips": {
+          "p": [
+            0.0,
+            0.0,
+            105.32538604736328
+          ],
+          "q": [
+            -0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "s": [
+            100.0,
+            99.99999237060547,
+            100.0
+          ]
+        },
+        "Spine": {
+          "p": [
+            -1.030222326517105,
+            -5.456366025669013e-08,
+            113.06720701399257
+          ],
+          "q": [
+            0.465856853232919,
+            -0.4658568557979738,
+            0.5319561915806132,
+            -0.5319561940996631
+          ],
+          "s": [
+            100.0,
+            100.00000429153351,
+            100.0
+          ]
+        },
+        "Spine1": {
+          "p": [
+            -2.2321481243077743,
+            -1.0076029433037093e-07,
+            122.09931970014921
+          ],
+          "q": [
+            -0.46585686322523995,
+            0.46585686559609546,
+            -0.5319561829800425,
+            0.5319561853688943
+          ],
+          "s": [
+            100.0,
+            99.99999833106878,
+            100.0
+          ]
+        },
+        "Spine2": {
+          "p": [
+            -3.6057795723436294,
+            -1.5023015187409783e-07,
+            132.42175424913918
+          ],
+          "q": [
+            0.4658568303605295,
+            -0.465856833086418,
+            0.5319562114486992,
+            -0.5319562141513919
+          ],
+          "s": [
+            100.0,
+            99.99999833106878,
+            100.0
+          ]
+        },
+        "Neck": {
+          "p": [
+            -5.151110419637072,
+            -2.1461240251596791e-07,
+            144.0344864854039
+          ],
+          "q": [
+            -0.5000000007021025,
+            0.5000000010580355,
+            -0.49999999896510233,
+            0.4999999992747603
+          ],
+          "s": [
+            100.0,
+            99.99999833106878,
+            100.0
+          ]
+        },
+        "Head": {
+          "p": [
+            -4.657503317822496,
+            -2.1257242366345963e-07,
+            154.57499925698065
+          ],
+          "q": [
+            0.5000000009251391,
+            -0.500000000834999,
+            0.4999999991881389,
+            -0.4999999990517238
+          ],
+          "s": [
+            100.0,
+            99.99999833106878,
+            100.0
+          ]
+        },
+        "HeadTop_End": {
+          "p": [
+            -3.6875359057202513,
+            -1.6718935214043995e-07,
+            175.28769343360418
+          ],
+          "q": [
+            -0.5000000007847938,
+            0.5000000009753442,
+            -0.49999999904779363,
+            0.4999999991920691
+          ],
+          "s": [
+            100.0,
+            99.99999833106878,
+            100.0
+          ]
+        },
+        "LeftShoulder": {
+          "p": [
+            -5.186406701028641,
+            -5.442865764499075,
+            141.33961725354212
+          ],
+          "q": [
+            -0.01962131126530306,
+            -0.971893646145291,
+            -0.22311030532689127,
+            -0.07252266117279427
+          ],
+          "s": [
+            100.0,
+            99.99998641014002,
+            100.0
+          ]
+        },
+        "LeftArm": {
+          "p": [
+            -5.256995549208723,
+            -16.433294679385263,
+            136.00700889037057
+          ],
+          "q": [
+            0.0020531991868368875,
+            0.8911852982559092,
+            0.45092575986884487,
+            0.049502602278373616
+          ],
+          "s": [
+            100.0,
+            99.99999833106736,
+            100.00001192092896
+          ]
+        },
+        "LeftForeArm": {
+          "p": [
+            -4.2660745272478575,
+            -30.778697632744866,
+            116.56981667561013
+          ],
+          "q": [
+            0.13204101577920152,
+            -0.8788645266733106,
+            -0.443603341271836,
+            -0.11566498830570149
+          ],
+          "s": [
+            100.00001192092896,
+            99.99999237060298,
+            100.00003576278971
+          ]
+        },
+        "LeftHand": {
+          "p": [
+            2.2324995516096378,
+            -41.87584959675057,
+            102.02394304520517
+          ],
+          "q": [
+            -0.3496599687898874,
+            0.819885645414624,
+            0.4429210565796974,
+            -0.0966766378564409
+          ],
+          "s": [
+            99.9999880790682,
+            99.99998044967494,
+            100.00001192092327
+          ]
+        },
+        "LeftHandThumb1": {
+          "p": [
+            5.797058709548921,
+            -42.346584088150294,
+            98.66332427679122
+          ],
+          "q": [
+            0.41893194096832065,
+            -0.7867468828312824,
+            -0.4495985232843288,
+            0.058193977801207566
+          ],
+          "s": [
+            100.0000238418508,
+            99.99998044967494,
+            100.00002384185365
+          ]
+        },
+        "LeftHandThumb2": {
+          "p": [
+            8.648703481467027,
+            -42.72316366776361,
+            95.97483280294107
+          ],
+          "q": [
+            -0.4127198805476186,
+            0.7470705662408839,
+            0.5128309591522059,
+            -0.09247851962652745
+          ],
+          "s": [
+            99.99999999998721,
+            99.99997448921162,
+            100.00001192092185
+          ]
+        },
+        "LeftHandThumb3": {
+          "p": [
+            10.678409942693184,
+            -42.9145133216249,
+            93.1915763968814
+          ],
+          "q": [
+            0.4188829507132345,
+            -0.7863663583461414,
+            -0.45026339758961587,
+            0.05854824381873814
+          ],
+          "s": [
+            99.99999999998721,
+            99.99997448921162,
+            100.00001192092185
+          ]
+        },
+        "LeftHandThumb4": {
+          "p": [
+            11.161733579391669,
+            -44.24386712120047,
+            91.31468468650561
+          ],
+          "q": [
+            -0.4188829438968933,
+            0.786366315921273,
+            0.4502634733369844,
+            -0.05854827986536009
+          ],
+          "s": [
+            100.00001192091617,
+            99.99997448921162,
+            100.00002384185223
+          ]
+        },
+        "LeftHandIndex1": {
+          "p": [
+            5.4341070146953445,
+            -44.14107163688803,
+            96.2962898543248
+          ],
+          "q": [
+            0.2696716517441769,
+            -0.8657627763041927,
+            -0.4005238742142622,
+            0.131577511741264
+          ],
+          "s": [
+            99.99999999999574,
+            100.00000429152819,
+            100.00002384185365
+          ]
+        },
+        "LeftHandIndex2": {
+          "p": [
+            6.43894723525092,
+            -47.88755516691174,
+            91.98561396104665
+          ],
+          "q": [
+            -0.24290923824152177,
+            0.7836253887247078,
+            0.5439634635676311,
+            -0.17615363302095685
+          ],
+          "s": [
+            99.99998807906678,
+            99.99998641013399,
+            100.00001788138775
+          ]
+        },
+        "LeftHandIndex3": {
+          "p": [
+            7.165695887781272,
+            -48.54988626396215,
+            89.38363960956369
+          ],
+          "q": [
+            0.21838109347824478,
+            -0.7076113577596962,
+            -0.6397282973761236,
+            0.20577553284337047
+          ],
+          "s": [
+            99.99998807906678,
+            99.99998641013399,
+            100.00002980231883
+          ]
+        },
+        "LeftHandIndex4": {
+          "p": [
+            8.187872244699761,
+            -48.31160589481407,
+            85.3657641340324
+          ],
+          "q": [
+            -0.21838109966721111,
+            0.7076113210823312,
+            0.6397283281882419,
+            -0.20577555660898308
+          ],
+          "s": [
+            99.99998211860301,
+            99.99998044967032,
+            100.00001788138633
+          ]
+        },
+        "RightShoulder": {
+          "p": [
+            -5.115816682170213,
+            5.442866111421085,
+            141.33961632850938
+          ],
+          "q": [
+            -0.9719975186518031,
+            -0.013385159007344771,
+            -0.07111639959257296,
+            -0.22357128384941602
+          ],
+          "s": [
+            100.0,
+            99.99999833106878,
+            100.0
+          ]
+        },
+        "RightArm": {
+          "p": [
+            -5.045225547454512,
+            16.4332895110068,
+            136.00700353336322
+          ],
+          "q": [
+            0.8916985433404153,
+            -0.003526122890886295,
+            0.03909540219519688,
+            0.4509244102830724
+          ],
+          "s": [
+            100.00001192092896,
+            99.99999833106878,
+            100.00001192092896
+          ]
+        },
+        "RightForeArm": {
+          "p": [
+            -4.040687497927023,
+            30.778687512233763,
+            116.56980598360923
+          ],
+          "q": [
+            -0.8809011343665756,
+            0.1327898616619504,
+            -0.10369511006320598,
+            -0.44229782755566566
+          ],
+          "s": [
+            99.99999999999858,
+            99.99998641014002,
+            99.99999403953339
+          ]
+        },
+        "RightHand": {
+          "p": [
+            2.2613735448256014,
+            41.87586447488016,
+            102.02390481667584
+          ],
+          "q": [
+            0.8512299419131812,
+            -0.29147601522387195,
+            -0.14879087057276152,
+            0.4102567432400061
+          ],
+          "s": [
+            100.00001192092753,
+            100.0000102519947,
+            99.99998807906927
+          ]
+        },
+        "RightHandThumb1": {
+          "p": [
+            5.983761838770294,
+            42.36517140845397,
+            98.57943891422057
+          ],
+          "q": [
+            -0.7883368679536136,
+            0.4336768450843713,
+            0.07593624404203124,
+            -0.42974767422703253
+          ],
+          "s": [
+            99.99999999999716,
+            100.0000042915296,
+            99.9999821186055
+          ]
+        },
+        "RightHandThumb2": {
+          "p": [
+            8.961656758916419,
+            42.75661607471251,
+            95.82384653154386
+          ],
+          "q": [
+            0.7480165145474553,
+            -0.4254393014463125,
+            -0.11333003697601428,
+            0.49661755654443696
+          ],
+          "s": [
+            99.99999999999716,
+            100.0000042915296,
+            99.9999821186055
+          ]
+        },
+        "RightHandThumb3": {
+          "p": [
+            10.76399062098108,
+            43.155007258707236,
+            93.0700393573657
+          ],
+          "q": [
+            -0.7422267380224065,
+            0.42410126853297114,
+            0.11824026456414098,
+            -0.5052294758118793
+          ],
+          "s": [
+            99.9999880790682,
+            100.0000042915296,
+            99.99999403953233
+          ]
+        },
+        "RightHandThumb4": {
+          "p": [
+            11.45853236558491,
+            44.18350249646939,
+            90.71316675960718
+          ],
+          "q": [
+            0.7422265463300345,
+            -0.42410168541054033,
+            -0.11823966806974238,
+            0.5052295470869527
+          ],
+          "s": [
+            99.99999999999574,
+            100.0000042915296,
+            99.99998211860408
+          ]
+        },
+        "RightHandIndex1": {
+          "p": [
+            5.327911294617279,
+            45.909413843149906,
+            96.06703285667442
+          ],
+          "q": [
+            -0.7364352861257576,
+            0.2641889435518305,
+            0.2060968571859192,
+            -0.5877000569269407
+          ],
+          "s": [
+            99.99999403953197,
+            100.0000102519947,
+            99.9999999999968
+          ]
+        },
+        "RightHandIndex2": {
+          "p": [
+            5.467121260913118,
+            47.62684254078621,
+            89.89099170301195
+          ],
+          "q": [
+            0.9205064691930687,
+            -0.32812572722323957,
+            -0.06785667443159266,
+            0.20098959934040522
+          ],
+          "s": [
+            99.99999403953197,
+            100.0000042915296,
+            99.99998211860337
+          ]
+        },
+        "RightHandIndex3": {
+          "p": [
+            8.323398925407806,
+            48.18770618065138,
+            88.88425509580128
+          ],
+          "q": [
+            -0.7090682756599666,
+            0.2545835557238527,
+            0.21784610931343298,
+            -0.6204453773416344
+          ],
+          "s": [
+            100.00000596046021,
+            100.0000042915296,
+            99.9999940395302
+          ]
+        },
+        "RightHandIndex4": {
+          "p": [
+            7.9823403407287294,
+            49.053351869758515,
+            85.53669778315992
+          ],
+          "q": [
+            0.7090675705897425,
+            -0.2545856618327961,
+            -0.21784840804545552,
+            0.6204445118132487
+          ],
+          "s": [
+            100.00001788138988,
+            99.99999833106487,
+            99.99998211860195
+          ]
+        },
+        "LeftUpLeg": {
+          "p": [
+            -0.4257973749190569,
+            -12.730500102043152,
+            101.02437704833102
+          ],
+          "q": [
+            0.5018870391173565,
+            0.5018870909178442,
+            0.4981058287850258,
+            0.49810574305705324
+          ],
+          "s": [
+            100.0,
+            99.99999237060547,
+            100.0
+          ]
+        },
+        "LeftLeg": {
+          "p": [
+            -0.7631203066042076,
+            -12.730498714122099,
+            56.42100285294219
+          ],
+          "q": [
+            -0.5234750207107027,
+            -0.5433315628140822,
+            -0.45271603187849163,
+            -0.4751977588563832
+          ],
+          "s": [
+            100.0,
+            99.99999237060547,
+            100.00001192092896
+          ]
+        },
+        "LeftFoot": {
+          "p": [
+            -7.310526213743117,
+            -14.71690979579801,
+            9.67325621689222
+          ],
+          "q": [
+            0.22985994310215963,
+            0.2671433807615571,
+            0.6768549947138751,
+            0.6462709468970722
+          ],
+          "s": [
+            100.00001192092896,
+            99.99999237060547,
+            100.00002384185933
+          ]
+        },
+        "LeftToeBase": {
+          "p": [
+            1.6835331810217102,
+            -14.454562713619499,
+            1.7951935648420818
+          ],
+          "q": [
+            -0.008980445285898944,
+            -0.0015829573388624618,
+            -0.7140949815668378,
+            -0.6999894307413423
+          ],
+          "s": [
+            100.00000596046377,
+            99.99998044967742,
+            100.00002384185933
+          ]
+        },
+        "LeftToe_End": {
+          "p": [
+            7.221902396574629,
+            -14.34362444717954,
+            1.7130157266551942
+          ],
+          "q": [
+            0.008981301619434733,
+            0.0015835982774879092,
+            0.7140948740449549,
+            0.6999895279934103
+          ],
+          "s": [
+            100.00001788139343,
+            99.99999237060405,
+            100.00001788139343
+          ]
+        },
+        "RightUpLeg": {
+          "p": [
+            -0.7465446833521128,
+            12.730500102043152,
+            101.02437481315701
+          ],
+          "q": [
+            0.5024836230228822,
+            0.502483665066735,
+            0.49750399525737493,
+            0.497503919218582
+          ],
+          "s": [
+            100.0,
+            100.0000281333896,
+            100.0
+          ]
+        },
+        "RightLeg": {
+          "p": [
+            -1.1907829677823933,
+            12.730501485289238,
+            56.42097362427039
+          ],
+          "q": [
+            -0.5425543902066818,
+            -0.5226117087792208,
+            -0.4760956947608017,
+            -0.45370103035429404
+          ],
+          "s": [
+            99.99999403953552,
+            100.00000429152499,
+            100.0
+          ]
+        },
+        "RightFoot": {
+          "p": [
+            -7.569642341922176,
+            14.716912236996542,
+            9.673265005505826
+          ],
+          "q": [
+            0.2516673877359071,
+            0.21557167176687916,
+            0.6528922944374531,
+            0.6811196900295982
+          ],
+          "s": [
+            99.99999403953552,
+            100.00000429152499,
+            100.00001192092896
+          ]
+        },
+        "RightToeBase": {
+          "p": [
+            2.2841283156823753,
+            14.454565656223437,
+            1.7951835125989248
+          ],
+          "q": [
+            -0.0020723090941061444,
+            -0.008268915230919188,
+            -0.7001305446905401,
+            -0.713963970356523
+          ],
+          "s": [
+            99.9999880790714,
+            100.00004005431339,
+            100.00002384185933
+          ]
+        },
+        "RightToe_End": {
+          "p": [
+            7.935052353081203,
+            14.343627897628764,
+            1.713007606045568
+          ],
+          "q": [
+            0.0020728890477117157,
+            0.00826982782477183,
+            0.7001307313767485,
+            0.7139637750338625
+          ],
+          "s": [
+            99.9999880790714,
+            100.00001621244593,
+            99.99999403952984
+          ]
+        }
+      },
+      "local_reference": {
+        "Hips": {
+          "p": [
+            0.0,
+            0.0,
+            105.32538604736328
+          ],
+          "q": [
+            -0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "s": [
+            100.0,
+            99.99999237060547,
+            100.0
+          ]
+        },
+        "Spine": {
+          "p": [
+            5.45636591464671e-10,
+            -0.07741821557283401,
+            -0.010302223265171051
+          ],
+          "q": [
+            -0.06609933832469174,
+            -2.3002513120477126e-11,
+            -2.5420523499074354e-09,
+            -0.9978130473555845
+          ],
+          "s": [
+            1.0,
+            1.0000001192092896,
+            1.0
+          ]
+        },
+        "Spine1": {
+          "p": [
+            6.494290968574656e-15,
+            -0.09111732989549637,
+            -1.0255551075033509e-08
+          ],
+          "q": [
+            1.860157183841693e-08,
+            4.265186467899973e-11,
+            1.597287163646044e-10,
+            -1.0
+          ],
+          "s": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ]
+        },
+        "Spine2": {
+          "p": [
+            9.943914384947204e-15,
+            -0.10413429886102676,
+            -8.622964564608537e-09
+          ],
+          "q": [
+            -6.144715314349003e-08,
+            -4.265690231597389e-11,
+            -3.3234423546524226e-10,
+            -0.9999999999999982
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Neck": {
+          "p": [
+            9.429218690570895e-12,
+            -0.11715101450681686,
+            4.087045013534407e-08
+          ],
+          "q": [
+            0.06609938283286018,
+            -3.34866474299703e-11,
+            2.3837523029021368e-09,
+            -0.997813044407175
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Head": {
+          "p": [
+            -9.078485185831653e-11,
+            -0.10540512949228287,
+            0.0049360706470906734
+          ],
+          "q": [
+            -9.71445146547012e-17,
+            -3.0064449536124866e-24,
+            4.460730673727653e-10,
+            -1.0
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HeadTop_End": {
+          "p": [
+            -4.073537340776312e-10,
+            -0.2071269452571869,
+            0.009699673391878605
+          ],
+          "q": [
+            -5.327262258846532e-23,
+            5.029964979192227e-25,
+            -2.806905541330451e-10,
+            -1.0
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "LeftShoulder": {
+          "p": [
+            0.05442865565419197,
+            -0.0904843658208847,
+            -0.0039046301972121
+          ],
+          "q": [
+            -0.5767194666823954,
+            0.3897199060442748,
+            0.6191678088093514,
+            0.36351654173729353
+          ],
+          "s": [
+            1.0,
+            0.9999998807907104,
+            1.0
+          ]
+        },
+        "LeftArm": {
+          "p": [
+            -4.608161852104331e-09,
+            -0.12216024845838547,
+            1.0612409084842511e-07
+          ],
+          "q": [
+            0.24024165940185416,
+            -0.02490952960003798,
+            -0.00616706250006574,
+            -0.9703738597896528
+          ],
+          "s": [
+            1.0,
+            1.0000001192092896,
+            1.0000001192092896
+          ]
+        },
+        "LeftForeArm": {
+          "p": [
+            3.6697838101673597e-09,
+            -0.24178026616573334,
+            -1.5122979846182716e-07
+          ],
+          "q": [
+            0.00580397863520879,
+            -0.0008786454131651908,
+            0.14967429893033843,
+            -0.9887179304806563
+          ],
+          "s": [
+            1.0000001192092896,
+            0.9999999403953552,
+            1.000000238418579
+          ]
+        },
+        "LeftHand": {
+          "p": [
+            1.3714648083862357e-08,
+            -0.1941547691822052,
+            7.06980074482999e-08
+          ],
+          "q": [
+            0.07877229064355205,
+            -0.2764243154023823,
+            0.10492867111811156,
+            -0.9520370255712113
+          ],
+          "s": [
+            0.9999997615814209,
+            0.9999998807907104,
+            0.9999997615814209
+          ]
+        },
+        "LeftHandThumb1": {
+          "p": [
+            -0.018079126253724098,
+            -0.04577432945370674,
+            -1.0560903263012733e-07
+          ],
+          "q": [
+            -2.1224574175381006e-07,
+            4.6411828215800025e-07,
+            0.08607272979134861,
+            -0.9962888562992186
+          ],
+          "s": [
+            1.0000003576278687,
+            1.0,
+            1.0000001192092896
+          ]
+        },
+        "LeftHandThumb2": {
+          "p": [
+            -0.007968566380441189,
+            -0.03855736181139946,
+            -1.4130859149474873e-08
+          ],
+          "q": [
+            0.0823107293195989,
+            8.411847208107172e-07,
+            -1.7525918975316027e-07,
+            -0.9966067147265955
+          ],
+          "s": [
+            0.9999997615814209,
+            0.9999999403953552,
+            0.9999998807907104
+          ]
+        },
+        "LeftHandThumb3": {
+          "p": [
+            -0.0037376622203737497,
+            -0.03429744020104408,
+            1.4523742208893964e-07
+          ],
+          "q": [
+            -0.08146813338446945,
+            -1.1626767425607708e-06,
+            4.341115605626708e-07,
+            -0.9966759469563365
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "LeftHandThumb4": {
+          "p": [
+            0.011706228367984295,
+            -0.02037927880883217,
+            1.5316594215164514e-08
+          ],
+          "q": [
+            9.416594792810386e-08,
+            3.968677830812322e-09,
+            6.153135778674796e-10,
+            -0.9999999999999956
+          ],
+          "s": [
+            1.0000001192092896,
+            1.0,
+            1.0000001192092896
+          ]
+        },
+        "LeftHandIndex1": {
+          "p": [
+            9.601339456821734e-08,
+            -0.06931205838918686,
+            0.003820165991783142
+          ],
+          "q": [
+            -0.03514434848081772,
+            -0.0035755663044485272,
+            -0.10117981808396528,
+            -0.9942407829635421
+          ],
+          "s": [
+            1.0000001192092896,
+            1.000000238418579,
+            1.0000001192092896
+          ]
+        },
+        "LeftHandIndex2": {
+          "p": [
+            0.012694678269326687,
+            -0.05658287554979324,
+            7.303125215685213e-08
+          ],
+          "q": [
+            0.17262488983239324,
+            7.96931221221447e-07,
+            -1.529762306055457e-07,
+            -0.9849876382014628
+          ],
+          "s": [
+            0.9999998807907104,
+            0.9999998211860657,
+            0.9999999403953552
+          ]
+        },
+        "LeftHandIndex3": {
+          "p": [
+            -0.0024753096513450146,
+            -0.027705319225788116,
+            -2.0158884339593897e-08
+          ],
+          "q": [
+            0.127908765615246,
+            1.9569329096985727e-06,
+            -2.7445127985270135e-07,
+            -0.9917859384337325
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0000001192092896
+          ]
+        },
+        "LeftHandIndex4": {
+          "p": [
+            -0.010219399817287922,
+            -0.04024995490908623,
+            -4.593942293240616e-08
+          ],
+          "q": [
+            4.9182975914163696e-08,
+            -2.159459455697285e-08,
+            3.525871150600319e-09,
+            -0.9999999999999987
+          ],
+          "s": [
+            0.9999999403953552,
+            0.9999999403953552,
+            0.9999998807907104
+          ]
+        },
+        "RightShoulder": {
+          "p": [
+            -0.05442866310477257,
+            -0.09039124101400375,
+            -0.0032048996072262526
+          ],
+          "q": [
+            0.5809619506703931,
+            0.3868981653069083,
+            0.6158081973926183,
+            -0.365476792121544
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "RightArm": {
+          "p": [
+            -7.887170028197943e-09,
+            -0.12216020375490189,
+            1.2503400625973882e-07
+          ],
+          "q": [
+            0.23971328309276266,
+            0.03223779075354491,
+            0.007964601796714873,
+            -0.9702756473675094
+          ],
+          "s": [
+            1.0000001192092896,
+            1.0,
+            1.0000001192092896
+          ]
+        },
+        "RightForeArm": {
+          "p": [
+            3.422017336163208e-09,
+            -0.2417858988046646,
+            -1.4311073925910023e-07
+          ],
+          "q": [
+            0.0020023353699313295,
+            0.00029299911453406616,
+            -0.14476920545597746,
+            -0.9894633808060966
+          ],
+          "s": [
+            0.9999998807907104,
+            0.9999998807907104,
+            0.9999998211860657
+          ]
+        },
+        "RightHand": {
+          "p": [
+            -5.467247277124443e-08,
+            -0.19350624084472656,
+            -2.1671048955340666e-08
+          ],
+          "q": [
+            0.034881033042464954,
+            0.2937797013240973,
+            -0.03537534926330306,
+            -0.9545812617521434
+          ],
+          "s": [
+            1.0000001192092896,
+            1.000000238418579,
+            0.9999999403953552
+          ]
+        },
+        "RightHandThumb1": {
+          "p": [
+            0.02671271748840809,
+            -0.04338691383600235,
+            -5.673766878544484e-08
+          ],
+          "q": [
+            1.0244011878972099e-08,
+            -4.1383492616484465e-07,
+            -0.17216660112537147,
+            -0.9850678461186143
+          ],
+          "s": [
+            0.9999998807907104,
+            0.9999999403953552,
+            0.9999999403953552
+          ]
+        },
+        "RightHandThumb2": {
+          "p": [
+            0.008329974487423897,
+            -0.039900489151477814,
+            1.7080945724501362e-07
+          ],
+          "q": [
+            0.08688592195619221,
+            6.969842185191291e-07,
+            3.534579086039539e-09,
+            -0.9962182675324402
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "RightHandThumb3": {
+          "p": [
+            0.0010843134950846434,
+            -0.033134300261735916,
+            -1.2697925910742924e-07
+          ],
+          "q": [
+            0.01155780561938345,
+            7.473605196687401e-07,
+            1.883337192040268e-07,
+            -0.9999332063336384
+          ],
+          "s": [
+            0.9999998807907104,
+            1.0,
+            1.0000001192092896
+          ]
+        },
+        "RightHandThumb4": {
+          "p": [
+            -0.009414250031113625,
+            -0.024917379021644592,
+            -2.820504718670236e-09
+          ],
+          "q": [
+            -1.5251484342111516e-07,
+            -2.396773481904572e-07,
+            -7.005087923060091e-07,
+            -0.9999999999997145
+          ],
+          "s": [
+            1.0000001192092896,
+            1.0,
+            0.9999998807907104
+          ]
+        },
+        "RightHandIndex1": {
+          "p": [
+            7.954268710363976e-08,
+            -0.07814960181713104,
+            -0.0028962506912648678
+          ],
+          "q": [
+            0.21890373100325755,
+            0.0029457932693913802,
+            -0.013124094088266687,
+            -0.9756537485241523
+          ],
+          "s": [
+            0.9999998211860657,
+            1.0,
+            1.0000001192092896
+          ]
+        },
+        "RightHandIndex2": {
+          "p": [
+            -0.0101943863555789,
+            -0.06330336630344391,
+            -7.521175859892537e-08
+          ],
+          "q": [
+            -0.4426645692593613,
+            -1.1622157818929062e-06,
+            3.1449107894074565e-07,
+            -0.8966872805616095
+          ],
+          "s": [
+            1.0,
+            0.9999999403953552,
+            0.9999998211860657
+          ]
+        },
+        "RightHandIndex3": {
+          "p": [
+            0.018537944182753563,
+            -0.024596452713012695,
+            7.433152404701104e-08
+          ],
+          "q": [
+            0.4828143545788525,
+            -1.7059986018563803e-06,
+            1.1758637895247522e-06,
+            -0.8757227295259117
+          ],
+          "s": [
+            1.0000001192092896,
+            1.0,
+            1.0000001192092896
+          ]
+        },
+        "RightHandIndex4": {
+          "p": [
+            -0.008343580178916454,
+            -0.03372780606150627,
+            -7.694644210687329e-08
+          ],
+          "q": [
+            -4.984942592018295e-08,
+            3.310629608658966e-06,
+            -5.8084673071016214e-08,
+            -0.999999999994517
+          ],
+          "s": [
+            1.0000001192092896,
+            0.9999999403953552,
+            0.9999998807907104
+          ]
+        },
+        "LeftUpLeg": {
+          "p": [
+            0.12730500102043152,
+            0.04301009327173233,
+            -0.004257973749190569
+          ],
+          "q": [
+            -6.876423010619435e-08,
+            0.003781279096560855,
+            0.9999928509386399,
+            -1.6963742470086354e-08
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "LeftLeg": {
+          "p": [
+            -1.0219578516768024e-09,
+            -0.44604653120040894,
+            -8.407800011767108e-10
+          ],
+          "q": [
+            -0.06567460412448262,
+            0.0013926992201592052,
+            0.02116403206638174,
+            -0.9976156526983065
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0000001192092896
+          ]
+        },
+        "LeftFoot": {
+          "p": [
+            7.55024132104154e-09,
+            -0.4724580943584442,
+            -1.1333628258114459e-08
+          ],
+          "q": [
+            0.4758943582940981,
+            -0.026061933299249176,
+            -0.014110033298353803,
+            -0.8790029819840621
+          ],
+          "s": [
+            1.0000001192092896,
+            1.0,
+            1.0000001192092896
+          ]
+        },
+        "LeftToeBase": {
+          "p": [
+            -6.487013592959556e-09,
+            -0.11959340423345566,
+            1.588261255847101e-07
+          ],
+          "q": [
+            0.3447900448232414,
+            0.027911151101339945,
+            0.010257294501976929,
+            -0.9382087084143299
+          ],
+          "s": [
+            0.9999999403953552,
+            0.9999998807907104,
+            1.0
+          ]
+        },
+        "LeftToe_End": {
+          "p": [
+            2.7847417705118005e-09,
+            -0.05540090799331665,
+            -5.971409144933659e-09
+          ],
+          "q": [
+            -1.056412315846795e-06,
+            1.6397275714998158e-07,
+            1.4911177004242246e-07,
+            -0.9999999999994176
+          ],
+          "s": [
+            1.0000001192092896,
+            1.0000001192092896,
+            0.9999999403953552
+          ]
+        },
+        "RightUpLeg": {
+          "p": [
+            -0.12730500102043152,
+            0.04301011562347412,
+            -0.007465446833521128
+          ],
+          "q": [
+            -5.904132288561146e-08,
+            0.004979686806830116,
+            0.9999876012827871,
+            -1.6997470081923674e-08
+          ],
+          "s": [
+            1.0,
+            1.0000003576278687,
+            1.0
+          ]
+        },
+        "RightLeg": {
+          "p": [
+            -1.0687154494704032e-09,
+            -0.4460560083389282,
+            1.7647059369352291e-09
+          ],
+          "q": [
+            -0.06271670147547662,
+            -0.0013313296069536972,
+            -0.02116229244048245,
+            -0.9978060935353006
+          ],
+          "s": [
+            0.9999999403953552,
+            0.9999997615814209,
+            1.0
+          ]
+        },
+        "RightFoot": {
+          "p": [
+            -7.377603861158377e-09,
+            -0.4722270369529724,
+            -2.5883251097980065e-09
+          ],
+          "q": [
+            0.4939391377635618,
+            0.023744214627319737,
+            0.013495278715900862,
+            -0.8690674415196449
+          ],
+          "s": [
+            1.0,
+            1.0,
+            1.0000001192092896
+          ]
+        },
+        "RightToeBase": {
+          "p": [
+            -9.32215815652171e-09,
+            -0.1261862814426422,
+            -2.0770803743630495e-08
+          ],
+          "q": [
+            0.3237995577657314,
+            -0.026568744925041854,
+            -0.00909683966838931,
+            -0.9457088324066094
+          ],
+          "s": [
+            0.9999999403953552,
+            1.0000003576278687,
+            1.0000001192092896
+          ]
+        },
+        "RightToe_End": {
+          "p": [
+            -4.702308764592544e-09,
+            -0.05652607977390289,
+            3.1427034308251223e-09
+          ],
+          "q": [
+            -1.0518618864801117e-06,
+            -2.475178746406809e-07,
+            -2.7294299798069334e-07,
+            -0.9999999999993789
+          ],
+          "s": [
+            1.0,
+            0.9999997615814209,
+            0.9999997019767761
+          ]
+        }
+      }
+    },
+    "/Game/Animations/Sword/Anim_CSATLI_01": {
+      "duration": 2.3333332538604736,
+      "skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton"
+    },
+    "/Game/Animations/Sword/Anim_CSATLI_02": {
+      "duration": 2.3333332538604736,
+      "skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton"
+    },
+    "/Game/Animations/Sword/Anim_CSATLI_03": {
+      "duration": 2.3333332538604736,
+      "skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton"
+    },
+    "/Game/Animations/Sword/Anim_CSATLI_04": {
+      "duration": 2.3333332538604736,
+      "skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton"
+    },
+    "/Game/Animations/Sword/Anim_CSAT_heavy_01": {
+      "duration": 3.3333332538604736,
+      "skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton"
+    },
+    "/Game/Animations/Sword/Anim_CSAT_heavy_02": {
+      "duration": 3.3333332538604736,
+      "skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton"
+    }
+  },
+  "old_retargeter": {
+    "<RetargetSourceOrTarget.SOURCE: 0>": {
+      "rig": "/Game/ReversedScale/Characters/WuxiaMale/IK_Mannequin_Source.IK_Mannequin_Source",
+      "pose_names": "{\"Default Pose\": {}}",
+      "current_pose": "Default Pose",
+      "chains": "[{chain_name: \"Spine\", ik_goal_name: \"\"}, {chain_name: \"Head\", ik_goal_name: \"\"}, {chain_name: \"LeftClavicle\", ik_goal_name: \"\"}, {chain_name: \"RightClavicle\", ik_goal_name: \"\"}, {chain_name: \"LeftArm\", ik_goal_name: \"\"}, {chain_name: \"RightArm\", ik_goal_name: \"\"}, {chain_name: \"LeftLeg\", ik_goal_name: \"\"}, {chain_name: \"RightLeg\", ik_goal_name: \"\"}, {chain_name: \"LeftToe\", ik_goal_name: \"\"}, {chain_name: \"RightToe\", ik_goal_name: \"\"}]",
+      "root": "pelvis"
+    },
+    "<RetargetSourceOrTarget.TARGET: 1>": {
+      "rig": "/Game/ReversedScale/Characters/WuxiaMale/IK_WuxiaMale.IK_WuxiaMale",
+      "pose_names": "{\"Default Pose\": {}}",
+      "current_pose": "Default Pose",
+      "chains": "[{chain_name: \"Spine\", ik_goal_name: \"\"}, {chain_name: \"Head\", ik_goal_name: \"\"}, {chain_name: \"LeftClavicle\", ik_goal_name: \"\"}, {chain_name: \"RightClavicle\", ik_goal_name: \"\"}, {chain_name: \"LeftArm\", ik_goal_name: \"\"}, {chain_name: \"RightArm\", ik_goal_name: \"\"}, {chain_name: \"LeftLeg\", ik_goal_name: \"\"}, {chain_name: \"RightLeg\", ik_goal_name: \"\"}, {chain_name: \"LeftToe\", ik_goal_name: \"\"}, {chain_name: \"RightToe\", ik_goal_name: \"\"}]",
+      "root": "pelvis"
+    }
+  }
+}

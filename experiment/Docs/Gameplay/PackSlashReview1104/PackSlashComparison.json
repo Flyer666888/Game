@@ -1,0 +1,128 @@
+{
+  "capture": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\CandidateCapture.json",
+  "output": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\PackSlashComparison.mp4",
+  "poster": "D:\\game design\\experiment\\Docs\\Gameplay\\PackSlashReview1104\\PackSlashComparison.png",
+  "frames": 1128,
+  "fps": 30,
+  "duration_seconds": 37.6,
+  "width": 960,
+  "height": 720,
+  "sections": [
+    {
+      "key": "A",
+      "label": "A · 重劈 01",
+      "source_asset": "/Game/Animations/Sword/Anim_CSAT_heavy_01",
+      "retargeted_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSAT_heavy_01",
+      "source_duration_seconds": 3.3333332538604736,
+      "start_frame": 1,
+      "end_frame": 113,
+      "motion_frames": 101,
+      "endpoint_hold_frames": 12,
+      "speed": 1.0,
+      "source_frame_count": 101
+    },
+    {
+      "key": "A",
+      "label": "A · 重劈 01",
+      "source_asset": "/Game/Animations/Sword/Anim_CSAT_heavy_01",
+      "retargeted_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSAT_heavy_01",
+      "source_duration_seconds": 3.3333332538604736,
+      "start_frame": 114,
+      "end_frame": 327,
+      "motion_frames": 202,
+      "endpoint_hold_frames": 12,
+      "speed": 0.5,
+      "source_frame_count": 101
+    },
+    {
+      "key": "B",
+      "label": "B · 重劈 02",
+      "source_asset": "/Game/Animations/Sword/Anim_CSAT_heavy_02",
+      "retargeted_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSAT_heavy_02",
+      "source_duration_seconds": 3.3333332538604736,
+      "start_frame": 328,
+      "end_frame": 440,
+      "motion_frames": 101,
+      "endpoint_hold_frames": 12,
+      "speed": 1.0,
+      "source_frame_count": 101
+    },
+    {
+      "key": "B",
+      "label": "B · 重劈 02",
+      "source_asset": "/Game/Animations/Sword/Anim_CSAT_heavy_02",
+      "retargeted_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSAT_heavy_02",
+      "source_duration_seconds": 3.3333332538604736,
+      "start_frame": 441,
+      "end_frame": 654,
+      "motion_frames": 202,
+      "endpoint_hold_frames": 12,
+      "speed": 0.5,
+      "source_frame_count": 101
+    },
+    {
+      "key": "C",
+      "label": "C · 轻攻击 03",
+      "source_asset": "/Game/Animations/Sword/Anim_CSATLI_03",
+      "retargeted_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_03",
+      "source_duration_seconds": 2.3333332538604736,
+      "start_frame": 655,
+      "end_frame": 737,
+      "motion_frames": 71,
+      "endpoint_hold_frames": 12,
+      "speed": 1.0,
+      "source_frame_count": 71
+    },
+    {
+      "key": "C",
+      "label": "C · 轻攻击 03",
+      "source_asset": "/Game/Animations/Sword/Anim_CSATLI_03",
+      "retargeted_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_03",
+      "source_duration_seconds": 2.3333332538604736,
+      "start_frame": 738,
+      "end_frame": 891,
+      "motion_frames": 142,
+      "endpoint_hold_frames": 12,
+      "speed": 0.5,
+      "source_frame_count": 71
+    },
+    {
+      "key": "D",
+      "label": "D · 轻攻击 04",
+      "source_asset": "/Game/Animations/Sword/Anim_CSATLI_04",
+      "retargeted_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04",
+      "source_duration_seconds": 2.3333332538604736,
+      "start_frame": 892,
+      "end_frame": 974,
+      "motion_frames": 71,
+      "endpoint_hold_frames": 12,
+      "speed": 1.0,
+      "source_frame_count": 71
+    },
+    {
+      "key": "D",
+      "label": "D · 轻攻击 04",
+      "source_asset": "/Game/Animations/Sword/Anim_CSATLI_04",
+      "retargeted_asset": "/Game/ReversedScale/Characters/WuxiaMale/NativeRigV07/PackSlashCandidates/V3/Pack_Anim_CSATLI_04",
+      "source_duration_seconds": 2.3333332538604736,
+      "start_frame": 975,
+      "end_frame": 1128,
+      "motion_frames": 142,
+      "endpoint_hold_frames": 12,
+      "speed": 0.5,
+      "source_frame_count": 71
+    }
+  ],
+  "bytes": 9920920,
+  "decoded_video": {
+    "frames": 1128,
+    "fps": 30.0,
+    "width": 960,
+    "height": 720
+  },
+  "checks": {
+    "all_source_samples_shown": true,
+    "decoded_dimensions_fps_and_frames_match": true
+  },
+  "note": "Complete Unreal samples, including final endpoint, shown once at 1x and twice at 0.5x. Each section adds 0.4 seconds of endpoint hold. No invented intermediate frames. AI and collision held for animation preview; not a manual gameplay or headset test."
+}

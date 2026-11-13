@@ -1,0 +1,22 @@
+{
+  "hit_caster_count": 2,
+  "state": "complete",
+  "mesh": "/Game/ReversedScale/Weapons/TalismanJade1104/SM_Nilin_JadeTalisman",
+  "runtime_checks": {
+    "both_live_casters": true,
+    "both_use_floating_jade_talismans": true,
+    "both_charge_with_visible_authored_talisman": true,
+    "both_native_casters_hit_player": true,
+    "native_orb_uses_configured_material": true,
+    "projectile_in_capture": true,
+    "recorded_frames": true
+  },
+  "tests_with_fixture_warnings": 28,
+  "test_count": 96,
+  "demo": "JadeTalismanAttackDemo.mp4",
+  "health_after": 80.0,
+  "fixture_isolation": "restored_without_saving_map",
+  "scope": "Saved main level. Native enemy AI and collision. Editor observer capture, not headset capture.",
+  "editor_build": "passed",
+  "failed": 0
+}

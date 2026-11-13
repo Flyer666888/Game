@@ -1,0 +1,10 @@
+{
+  "triangles": 3832,
+  "bounds": "<Struct 'BoxSphereBounds' (0x000002328AC50BC0) {origin: {x: 0.117448, y: 0.006431, z: -0.022764}, box_extent: {x: 0.913056, y: 3.308501, z: 8.056395}, sphere_radius: 8.725244}>",
+  "build_settings": "<Struct 'MeshBuildSettings' (0x0000023230FA8C50) {use_mikk_t_space: True, recompute_normals: False, recompute_tangents: True, compute_weighted_normals: True, remove_degenerates: True, build_reversed_index_buffer: True, use_high_precision_tangent_basis: False, use_full_precision_u_vs: False, use_backwards_compatible_f16_trunc_u_vs: False, generate_lightmap_u_vs: False, generate_distance_field_as_if_two_sided: False, support_face_remap: False, min_lightmap_resolution: 64, src_lightmap_index: 0, dst_lightmap_index: 1, build_scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}, distance_field_resolution_scale: 1.000000, distance_field_replacement_mesh: None, max_lumen_mesh_cards: 12}>",
+  "description_methods": [
+    "build_from_static_mesh_descriptions",
+    "create_static_mesh_description",
+    "get_static_mesh_description"
+  ]
+}
