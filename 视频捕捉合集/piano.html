@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>手掌钢琴 · 小星星</title>
+<style>
+  /* ============================================================
+     全局样式
+     ============================================================ */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f1440 0%, #1a1f4d 45%, #2b1a5e 100%);
+    color: #eef0ff;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    padding: 20px;
+  }
+
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 18px; }
+  .back {
+    color: #9aa2d8; text-decoration: none; font-size: 14px;
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 6px 14px; border-radius: 999px; transition: 0.2s;
+  }
+  .back:hover { color: #fff; background: rgba(255,255,255,0.1); }
+  h1 { font-size: 24px; letter-spacing: 2px; }
+
+  main {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 18px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+
+  .panel {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 16px;
+    padding: 18px;
+  }
+  .panel h3 { font-size: 15px; color: #9aa2d8; margin-bottom: 12px; letter-spacing: 1px; }
+
+  /* ---------- 怎么玩:步骤列表 ---------- */
+  .steps { font-size: 14px; color: #c6cbf2; line-height: 1.9; }
+  .steps b { color: #7dd3fc; }
+  .steps .tip { margin-top: 10px; font-size: 13px; color: #9aa2d8; }
+  .steps .tip em { font-style: normal; color: #fde68a; }
+
+  /* ---------- 按钮 ---------- */
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #081f3a;
+    background: linear-gradient(135deg, #60a5fa, #3b82f6);
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .btn:hover { filter: brightness(1.1); }
+  .btn:disabled { filter: grayscale(0.8); cursor: not-allowed; }
+
+  .btn2 {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 11px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 12px;
+    font-size: 15px;
+    color: #dbe3ff;
+    background: rgba(255,255,255,0.08);
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .btn2:hover { background: rgba(255,255,255,0.15); }
+  .btn2:disabled { filter: grayscale(0.8); cursor: not-allowed; }
+
+  .game-msg {
+    text-align: center;
+    font-size: 15px;
+    min-height: 24px;
+    margin: 12px 0;
+    color: #fde68a;
+    line-height: 1.6;
+  }
+
+  /* ---------- 迷你琴键说明书(HTML 版小钢琴) ---------- */
+  .mini-piano {
+    position: relative;
+    display: flex;
+    height: 84px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .mini-piano .wk {
+    flex: 1;
+    position: relative;
+    background: #f5f7ff;
+    border-right: 1px solid #c9cfea;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #5a6191;
+    transition: 0.1s;
+  }
+  .mini-piano .wk:last-child { border-right: none; }
+  .mini-piano .wk::before {           /* 白键顶上一条该键的"颜色条" */
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 9px;
+    background: var(--c);
+  }
+  .mini-piano .wk.on { background: var(--c); color: #fff; }
+  .legend-note { margin-top: 10px; font-size: 12.5px; color: #9aa2d8; line-height: 1.9; }
+  .legend-note i { font-style: normal; margin-right: 4px; }
+
+  /* ---------- 顶部 HUD:得分 / 连击 / 进度 ---------- */
+  .hud {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .hud .box {
+    flex: 1;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 14px;
+    padding: 12px 16px;
+    text-align: center;
+  }
+  .hud .label { font-size: 12px; color: #9aa2d8; margin-bottom: 4px; }
+  .hud .big   { font-size: 30px; font-weight: bold; line-height: 1.15; }
+  .hud .big.warm { color: #fde68a; }
+
+  /* ---------- 摄像头画面区 ---------- */
+  .camera-box {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #000;
+    min-height: 480px;
+  }
+  video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    /* 用 contain:视频和 canvas 完全重叠、坐标一一对齐。
+       (cover 会把画面上下裁掉一截,画在底部的琴键就看不见了) */
+    object-fit: contain;
+    transform: scaleX(-1);   /* 只有视频做镜像,canvas 不镜像!原因见第 2 部分 */
+  }
+  canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .cam-info {
+    position: absolute;
+    bottom: 10px; left: 10px;
+    z-index: 5;
+    font-size: 12px;
+    color: #a5f3fc;
+    background: rgba(0,0,0,0.45);
+    padding: 4px 10px;
+    border-radius: 8px;
+  }
+
+  /* 没检测到手时的提示(琴键在上方,提示放下面不挡琴键) */
+  .hand-hint {
+    position: absolute;
+    bottom: 14px; left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    font-size: 14px;
+    color: #fde68a;
+    background: rgba(0,0,0,0.55);
+    padding: 8px 18px;
+    border-radius: 999px;
+    display: none;
+    white-space: nowrap;
+  }
+
+  /* ---------- 加载/错误提示遮罩 ---------- */
+  .overlay {
+    position: absolute; inset: 0; z-index: 10;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 14px;
+    background: rgba(5, 8, 30, 0.92);
+    text-align: center; padding: 24px;
+    line-height: 1.9; font-size: 15px;
+  }
+  .overlay .spinner {
+    width: 42px; height: 42px;
+    border: 4px solid rgba(255,255,255,0.2);
+    border-top-color: #60a5fa;
+    border-radius: 50%;
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .overlay .retry {
+    padding: 10px 26px; border: none; border-radius: 10px;
+    background: #60a5fa; color: #081f3a;
+    font-size: 15px; font-weight: bold; cursor: pointer;
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+  <!-- ===================== 顶栏 ===================== -->
+  <header>
+    <a class="back" href="index.html">← 返回菜单</a>
+    <h1>🎹 手掌钢琴 · 小星星</h1>
+  </header>
+
+  <main>
+    <!-- ===================== 左侧:游戏面板 ===================== -->
+    <div>
+
+      <!-- 面板 1:怎么玩 -->
+      <div class="panel" style="margin-bottom:18px;">
+        <h3>【怎么玩】用手掌弹钢琴</h3>
+        <div class="steps">
+          ① 先伸出手掌,顶一顶上方的琴键试试音:<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;手掌<b>顶到琴键下方的金色线</b>,键就会响;<br>
+          ② 点「开始演奏」,彩色音符会从<b>屏幕下面</b>飘上来;<br>
+          ③ 音符飘到金线的<b>那一瞬间</b>,向上顶一下对应颜色的琴键,<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;跟着歌词弹完整首《小星星》!
+          <div class="tip">
+            💡 两只手都可以用;拍得越准分越高,<br>
+            💡 <em>完美</em> = 恰好落到线上,<em>不错</em> = 差一点点。
+          </div>
+        </div>
+      </div>
+
+      <!-- 面板 2:演奏控制 -->
+      <div class="panel" style="margin-bottom:18px;">
+        <h3>【演奏台】《小星星》· 约 30 秒</h3>
+        <div class="game-msg" id="gameMsg">一闪一闪亮晶晶,满天都是小星星～</div>
+        <button class="btn" id="startBtn">开 始 演 奏</button>
+        <button class="btn2" id="demoBtn">🎬 先看自动演示</button>
+      </div>
+
+      <!-- 面板 3:琴键说明书 -->
+      <div class="panel">
+        <h3>【琴键说明书】一组琴键:do ~ si</h3>
+        <div class="mini-piano" id="miniPiano">
+          <div class="wk" id="mk-C4" style="--c:#f87171">do</div>
+          <div class="wk" id="mk-D4" style="--c:#fb923c">re</div>
+          <div class="wk" id="mk-E4" style="--c:#eab308">mi</div>
+          <div class="wk" id="mk-F4" style="--c:#4ade80">fa</div>
+          <div class="wk" id="mk-G4" style="--c:#38bdf8">sol</div>
+          <div class="wk" id="mk-A4" style="--c:#818cf8">la</div>
+          <div class="wk" id="mk-B4" style="--c:#c084fc">si</div>
+        </div>
+        <div class="legend-note">
+          每个键有固定的颜色,下落的音符块和琴键<b>同色</b>。<br>
+          <i style="color:#f87171">■</i>do = C,<i style="color:#fb923c">■</i>re = D,<i style="color:#eab308">■</i>mi = E,
+          <i style="color:#4ade80">■</i>fa = F,<br>
+          <i style="color:#38bdf8">■</i>sol = G,<i style="color:#818cf8">■</i>la = A,<i style="color:#c084fc">■</i>si = B。
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== 右侧:HUD + 摄像头画面 ===================== -->
+    <div>
+      <div class="hud">
+        <div class="box">
+          <div class="label">得分</div>
+          <div class="big warm" id="scoreShow">--</div>
+        </div>
+        <div class="box">
+          <div class="label">连击</div>
+          <div class="big" id="comboShow">--</div>
+        </div>
+        <div class="box">
+          <div class="label">音符进度</div>
+          <div class="big" id="progShow">--</div>
+        </div>
+      </div>
+
+      <div class="camera-box" id="cameraBox">
+        <video id="video" autoplay muted playsinline></video>
+        <canvas id="canvas"></canvas>
+        <div class="cam-info" id="camInfo">FPS: --</div>
+        <div class="hand-hint" id="handHint">👋 把手掌伸进画面,举向上方的琴键试试音</div>
+
+        <div class="overlay" id="overlay">
+          <div class="spinner" id="spinner"></div>
+          <div id="overlayText">正在加载手势识别模型,请稍候…</div>
+          <button class="retry" id="retryBtn" onclick="location.reload()">重新加载</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 引入 MediaPipe 手势识别库(已下载到本地 libs 文件夹,离线可用) -->
+  <script src="./libs/hands/hands.js"></script>
+
+  <script>
+  /* ================================================================
+   * 🎹 手掌钢琴 · 小星星
+   * ----------------------------------------------------------------
+   * 玩法:琴键画在摄像头画面下方,音符像瀑布一样落下来;
+   * 手掌越过琴键顶部的"触发线"就会按下对应的键,
+   * 在音符落到触发线的一瞬间拍对琴键 = 得分!
+   *
+   * 程序一共分成 8 个部分,建议按顺序阅读:
+   *   第 1 部分:获取页面元素 & 琴键定义表
+   *   第 2 部分:键盘布局(关键!画面镜像的原理)+ 小工具函数
+   *   第 3 部分:加载 MediaPipe 手势识别模型
+   *   第 4 部分:打开摄像头 + 主循环
+   *   第 5 部分:手掌触发琴键(核心!)
+   *   第 6 部分:钢琴音色(用 Web Audio 现场合成,不需要音频文件)
+   *   第 7 部分:瀑布音符 + 《小星星》乐谱、判定、计分
+   *   第 8 部分:绘制(键盘 / 瀑布 / 特效 / 倒计时)
+   * ================================================================ */
+
+  /* ================================================================
+   * 第 1 部分:获取页面元素 & 琴键定义表
+   * ================================================================ */
+  const video  = document.getElementById('video');
+  const canvas = document.getElementById('canvas');
+  const ctx    = canvas.getContext('2d');
+
+  const camInfo   = document.getElementById('camInfo');
+  const handHint  = document.getElementById('handHint');
+  const overlay   = document.getElementById('overlay');
+  const overlayText = document.getElementById('overlayText');
+  const spinner   = document.getElementById('spinner');
+  const retryBtn  = document.getElementById('retryBtn');
+
+  const startBtn = document.getElementById('startBtn');
+  const demoBtn  = document.getElementById('demoBtn');
+  const gameMsg  = document.getElementById('gameMsg');
+  const scoreShow = document.getElementById('scoreShow');
+  const comboShow = document.getElementById('comboShow');
+  const progShow  = document.getElementById('progShow');
+
+  /* 一组琴键 = C4 ~ B4,七个白键 do ~ si。
+     solfa 是唱名,color 是这个键的"专属颜色"——瀑布里的音符块
+     和琴键同色,学生看颜色就能找到该拍哪个键。
+     freq 是这个键的频率(单位赫兹),决定了它弹出来是什么音高。
+     whiteIndex = 它从左数排第几个(0 = 最左边的 do)。 */
+  const KEYS = {
+    'C4' : { solfa: 'do',  freq: 261.63, color: '#f87171', whiteIndex: 0 },
+    'D4' : { solfa: 're',  freq: 293.66, color: '#fb923c', whiteIndex: 1 },
+    'E4' : { solfa: 'mi',  freq: 329.63, color: '#eab308', whiteIndex: 2 },
+    'F4' : { solfa: 'fa',  freq: 349.23, color: '#4ade80', whiteIndex: 3 },
+    'G4' : { solfa: 'sol', freq: 392.00, color: '#38bdf8', whiteIndex: 4 },
+    'A4' : { solfa: 'la',  freq: 440.00, color: '#818cf8', whiteIndex: 5 },
+    'B4' : { solfa: 'si',  freq: 493.88, color: '#c084fc', whiteIndex: 6 },
+  };
+  const WHITE_ORDER = ['C4','D4','E4','F4','G4','A4','B4'];   // 从左到右:do ~ si
+
+  // 手感参数:想改难度就动这几个数字(课堂练手的好地方!)
+  const KB_H        = 120;   // 琴键区高度(画布顶部的像素数)
+  const FALL_SEC    = 2.4;   // 音符从画面顶落到触发线要几秒(越小越难)
+  const HIT_PERFECT = 110;   // 距离节拍点 110 毫秒内 = 完美
+  const HIT_GOOD    = 230;   // 距离节拍点 230 毫秒内 = 不错,再远就错过
+  const BEAT_MS     = 600;   // 一拍多长毫秒(600 = 每分钟 100 拍)
+  const LEAD_IN_MS  = 3400;  // 点开始后先倒数几秒再出音符
+
+  // FPS 统计
+  let fpsCount = 0, fpsTime = performance.now();
+
+  /* ================================================================
+   * 第 2 部分:键盘布局(关键!)& 小工具函数
+   * ----------------------------------------------------------------
+   * 🪞 关于"镜像":摄像头原始画面里,你举右手,手出现在画面的
+   * 【左边】,很别扭。所以 video 用 CSS 水平翻转了一下,就像照镜子。
+   *
+   * 但 canvas 我们【不做】CSS 翻转,而是画的时候手动把 x 坐标反过来:
+   *     画布坐标 = 画布宽度 - 原始坐标
+   * 这样做的好处:
+   *   ① 琴键顺序是正常的(do 在左,si 在右),不会整个反过来;
+   *   ② 画布上的文字(唱名、歌词、"完美!")不会变成反字。
+   * 所有"跟手有关"的 x 坐标,都要经过 mirrorX() 换算。
+   * ================================================================ */
+  const mirrorX = (nx) => (1 - nx) * canvas.width;   // nx 是 0~1 的原始比例坐标
+
+  // 手掌中心 = 手腕 + 四根手指根部的平均位置(手掌的"重心"最稳定)
+  function palmCenter(lm) {
+    const ids = [0, 5, 9, 13, 17];
+    let x = 0, y = 0;
+    for (const i of ids) { x += lm[i].x; y += lm[i].y; }
+    return { x: mirrorX(x / ids.length), y: (y / ids.length) * canvas.height };
+  }
+
+  // 画圆角矩形(琴键、音符块都用它)
+  function roundRect(x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y,     x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x,     y + h, r);
+    ctx.arcTo(x,     y + h, x,     y,     r);
+    ctx.arcTo(x,     y,     x + w, y,     r);
+    ctx.closePath();
+  }
+
+  // 算出某个琴键在画布上占据的竖列 [左边x, 宽度]
+  function keyColumn(name) {
+    const ww = canvas.width / 7;                 // 一个白键的宽度
+    return [KEYS[name].whiteIndex * ww, ww];
+  }
+
+  // 手掌中心落在哪个键上?
+  function keyAtPoint(x) {
+    const ww = canvas.width / 7;
+    const i = Math.floor(x / ww);
+    return (i >= 0 && i < 7) ? WHITE_ORDER[i] : null;
+  }
+
+  // 左侧迷你琴键说明书跟着一起亮,连"键在哪里"一目了然
+  const miniTimers = {};
+  function lightMiniKey(name) {
+    const el = document.getElementById('mk-' + name);
+    if (!el) return;
+    el.classList.add('on');
+    clearTimeout(miniTimers[name]);
+    miniTimers[name] = setTimeout(() => el.classList.remove('on'), 180);
+  }
+
+  /* ================================================================
+   * 第 3 部分:加载 MediaPipe 手势识别模型
+   * ----------------------------------------------------------------
+   * MediaPipe Hands 会从手部画面里找出 21 个关键点:
+   *   0 = 手腕;1~4 拇指;5~8 食指;9~12 中指;
+   *   13~16 无名指;17~20 小指(数字大的是指尖)。
+   * 我们只需要"手掌中心",所以骨架照着画,判定用手掌重心。
+   * ================================================================ */
+  const hands = new Hands({
+    locateFile: (file) => `./libs/hands/${file}`
+  });
+
+  hands.setOptions({
+    maxNumHands: 2,              // 钢琴要两只手!最多同时识别 2 只
+    modelComplexity: 1,
+    minDetectionConfidence: 0.6,
+    minTrackingConfidence: 0.5
+  });
+
+  hands.onResults(onResults);
+
+  /* ================================================================
+   * 第 4 部分:打开摄像头 + 主循环
+   * ================================================================ */
+  async function startCamera() {
+    overlayText.textContent = '正在请求摄像头权限,请在浏览器弹窗中点击【允许】…';
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({
+        video: { width: 640, height: 480, facingMode: 'user' }
+      });
+      video.srcObject = stream;
+      await video.play();
+      canvas.width  = video.videoWidth;
+      canvas.height = video.videoHeight;
+    } catch (err) {
+      showFatalError(
+        '😢 无法打开摄像头(' + err.name + ')<br>' +
+        '常见原因:<br>' +
+        '① 你点了"拒绝"→ 点击浏览器地址栏左侧的摄像头图标重新允许;<br>' +
+        '② 摄像头被其他软件占用;<br>' +
+        '③ 页面不是通过「一键启动.cmd」打开的(file:// 页面禁止用摄像头)。'
+      );
+      throw err;
+    }
+  }
+
+  async function loop() {
+    if (video.readyState >= 2) {
+      await hands.send({ image: video });
+    }
+    requestAnimationFrame(loop);
+  }
+
+  let fatalShown = false;
+  function showFatalError(html) {
+    fatalShown = true;
+    spinner.style.display = 'none';
+    overlay.style.display = 'flex';
+    overlayText.innerHTML = html;
+    retryBtn.style.display = 'inline-block';
+  }
+
+  function withTimeout(promise, ms, message) {
+    let timer;
+    const timeout = new Promise((_, reject) => {
+      timer = setTimeout(() => reject(new Error(message)), ms);
+    });
+    return Promise.race([promise, timeout]).finally(() => clearTimeout(timer));
+  }
+
+  (async function init() {
+    try {
+      if (location.protocol === 'file:') {
+        showFatalError(
+          '🚫 你是【直接双击打开】的本页面(地址以 file:// 开头)<br><br>' +
+          '浏览器的安全策略禁止这种页面加载识别模型、使用摄像头,<br>' +
+          '所以会一直卡在初始化。<br><br>' +
+          '✅ 正确做法:双击项目文件夹里的 <b>「一键启动.cmd」</b>,<br>' +
+          '它会自动启动本地服务,并打开正确的 localhost 网址。');
+        return;
+      }
+
+      overlayText.textContent = '正在初始化手势识别模型,首次约需几秒…';
+      await withTimeout(hands.initialize(), 30000,
+        '模型加载超时。可能原因:① libs 文件夹没有和网页放在同一个文件夹;② 浏览器内核太旧(请换新版 Chrome 或 Edge)。解决后点击"重新加载"。');
+      await startCamera();
+      overlay.style.display = 'none';
+      loop();
+    } catch (err) {
+      if (!fatalShown) {
+        showFatalError('😢 初始化失败:' + (err && err.message ? err.message : err) + '<br>请按提示排查后,点击"重新加载"。');
+      }
+    }
+  })();
+
+  /* ================================================================
+   * 第 5 部分:手掌触发琴键(核心!)
+   * ----------------------------------------------------------------
+   * 琴键画在画面【上方】,音符从屏幕下面飘上来。
+   * 判定思路(带"迟滞"防抖动):
+   *   · 手掌中心 y 越过【触发线】(琴键区的底边)→ 进入琴键区,
+   *     立刻按下正上方那个键,并记住"这只手正按着它";
+   *   · 之后这只手在琴键区里【左右滑动】,每滑到一个新键,
+   *     就按一下新键(像刮奏 glissando!);
+   *   · 手掌要【退回触发线下方一段距离】才算离开,
+   *     这样手掌在临界位置抖动时不会"哒哒哒"连响。
+   * ================================================================ */
+  const handStates = [ { active: false, key: null },      // 第 1 只手
+                       { active: false, key: null } ];    // 第 2 只手
+  const ENTER_MARGIN = 8;    // 进琴键区:再往上顶 8 像素才算
+  const EXIT_MARGIN  = 36;   // 出琴键区:要退回去 36 像素才算(防抖)
+
+  function updateHand(index, lm, now) {
+    const p = palmCenter(lm);
+    const hitLine = KB_H;                        // 触发线 = 琴键区的底边
+    const st = handStates[index];
+    const key = keyAtPoint(p.x);
+
+    if (!st.active) {
+      // 还没按下:手掌顶进琴键区,而且正上方有键 → 按下去!
+      if (p.y < hitLine - ENTER_MARGIN && key) {
+        st.active = true;
+        st.key = key;
+        pressKey(key, 'palm', now);
+      }
+    } else {
+      // 已经按下:先看有没有退出去
+      if (p.y > hitLine + EXIT_MARGIN) {
+        st.active = false;
+        st.key = null;
+      } else if (key && key !== st.key) {
+        // 没退出,但滑到了新键上 → 按新键
+        st.key = key;
+        pressKey(key, 'palm', now);
+      }
+    }
+    return p;    // 把手掌位置返回给绘制代码用
+  }
+
+  /* ================================================================
+   * 第 6 部分:钢琴音色(Web Audio 现场合成)
+   * ----------------------------------------------------------------
+   * 真钢琴的声音 = 基音 + 一串越来越弱的"泛音"。
+   * 我们用 4 个正弦波叠在一起,各自快速起音、慢慢衰减,
+   * 就能得到"叮~"的钢琴味(比单个 beep 好听得多)。
+   * 动手改改 partials 里的倍数和音量,听听音色怎么变!
+   * ================================================================ */
+  let audioCtx = null;
+  let masterGain = null;
+
+  // 浏览器规定:必须先有用户点击,声音才能开。点页面任意处即生效。
+  document.addEventListener('pointerdown', ensureAudio, { once: true });
+
+  function ensureAudio() {
+    try {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        masterGain = audioCtx.createGain();
+        masterGain.gain.value = 0.9;
+        masterGain.connect(audioCtx.destination);
+      }
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+    } catch (e) { /* 没有声音设备也不影响游戏 */ }
+  }
+
+  // [倍频, 音量, 延续秒数]:1=基音,2/3/4=泛音(数字带小数点更像真琴)
+  const PIANO_PARTIALS = [
+    [1,    1.00, 1.6 ],
+    [2,    0.35, 0.9 ],
+    [3.01, 0.15, 0.55],
+    [4.02, 0.08, 0.35],
+  ];
+
+  function playPiano(freq, volume = 0.5) {
+    ensureAudio();
+    if (!audioCtx) return;
+    const t0 = audioCtx.currentTime;
+    for (const [mult, amp, dur] of PIANO_PARTIALS) {
+      const osc = audioCtx.createOscillator();
+      const g   = audioCtx.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = freq * mult;
+      g.gain.setValueAtTime(0.0001, t0);
+      g.gain.exponentialRampToValueAtTime(volume * amp, t0 + 0.012); // 快速起音
+      g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);         // 指数衰减
+      osc.connect(g).connect(masterGain);
+      osc.start(t0);
+      osc.stop(t0 + dur + 0.05);
+    }
+  }
+
+  // 简单音效(和另外三页同款的写法)
+  function beep(freq, duration, delay = 0, type = 'sine', volume = 0.3) {
+    ensureAudio();
+    if (!audioCtx) return;
+    const t0   = audioCtx.currentTime + delay;
+    const osc  = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = type;
+    osc.frequency.value = freq;
+    gain.gain.setValueAtTime(volume, t0);
+    gain.gain.exponentialRampToValueAtTime(0.001, t0 + duration);
+    osc.connect(gain).connect(masterGain || audioCtx.destination);
+    osc.start(t0);
+    osc.stop(t0 + duration);
+  }
+
+  const sndTick   = () => beep(880, 0.1, 0, 'square', 0.18);                  // 倒数秒
+  const sndStart  = () => { beep(523, 0.12); beep(659, 0.12, 0.12); beep(784, 0.2, 0.24); };
+  const sndMiss   = () => beep(170, 0.18, 0, 'triangle', 0.15);               // 错过:轻轻一声闷响
+  const sndWin    = () => { beep(523, 0.12); beep(659, 0.12, 0.13);           // 弹完整首:上行庆祝
+                            beep(784, 0.12, 0.26); beep(1047, 0.4, 0.39); };
+
+  /* ================================================================
+   * 第 7 部分:瀑布音符 + 《小星星》乐谱、判定、计分
+   * ----------------------------------------------------------------
+   * 乐谱每个元素 = [琴键名, 持续几拍, 那个字的歌词]
+   * 一共 6 句,每句 8 拍,跟着唱名就能弹:
+   *   1 1 5 5 6 6 5-   一 闪 一 闪 亮 晶 晶
+   *   4 4 3 3 2 2 1-   满 天 都 是 小 星 星
+   *   5 5 4 4 3 3 2-   挂 在 天 上 放 光 明
+   *   5 5 4 4 3 3 2-   好 像 许 多 小 眼 睛
+   *   1 1 5 5 6 6 5-   一 闪 一 闪 亮 晶 晶
+   *   4 4 3 3 2 2 1-   满 天 都 是 小 星 星
+   * ================================================================ */
+  const SONG = [
+    ['C4',1,'一'], ['C4',1,'闪'], ['G4',1,'一'], ['G4',1,'闪'], ['A4',1,'亮'], ['A4',1,'晶'], ['G4',2,'晶'],
+    ['F4',1,'满'], ['F4',1,'天'], ['E4',1,'都'], ['E4',1,'是'], ['D4',1,'小'], ['D4',1,'星'], ['C4',2,'星'],
+    ['G4',1,'挂'], ['G4',1,'在'], ['F4',1,'天'], ['F4',1,'上'], ['E4',1,'放'], ['E4',1,'光'], ['D4',2,'明'],
+    ['G4',1,'好'], ['G4',1,'像'], ['F4',1,'许'], ['F4',1,'多'], ['E4',1,'小'], ['E4',1,'眼'], ['D4',2,'睛'],
+    ['C4',1,'一'], ['C4',1,'闪'], ['G4',1,'一'], ['G4',1,'闪'], ['A4',1,'亮'], ['A4',1,'晶'], ['G4',2,'晶'],
+    ['F4',1,'满'], ['F4',1,'天'], ['E4',1,'都'], ['E4',1,'是'], ['D4',1,'小'], ['D4',1,'星'], ['C4',2,'星'],
+  ];
+
+  let songActive = false;     // 现在正在演奏吗?
+  let demoMode   = false;     // 自动演示模式(电脑自己弹)?
+  let notes      = [];        // 展开后的音符列表(带算好的落线时刻)
+  let score = 0, combo = 0;
+  let hits = 0, perfects = 0, misses = 0;
+  let nextJudgeIdx = 0;       // 从哪个音符开始找"该判定"的音符(往前的都处理完了)
+  let demoIdx = 0;            // 演示模式:该自动按哪个音符了
+  let resolvedCount = 0;      // 已经有结果的音符数(弹到/错过/演示)
+  let songEndTime = 0;        // 最后一个音符落线 + 缓冲 = 结束时刻
+  let songStartWall = 0;      // 演奏开始的墙钟时刻(算"演奏进行到第几毫秒"用)
+  let lastCountdown = null;   // 倒数到第几秒了(用来"嘀"一声)
+
+  let particles = [];         // 命中特效的小圆点
+  let popups   = [];          // 飘字(完美!/错过/do…)
+  const keyFlashUntil = {};   // 每个键闪亮到什么时刻
+
+  startBtn.addEventListener('click', () => startSong(false));
+  demoBtn .addEventListener('click', () => startSong(true));
+
+  // 把 SONG 展开成音符对象:算好每个音符"应该几点落到触发线"
+  function buildNotes() {
+    const list = [];
+    let beat = 0;                              // 当前拍到第几拍
+    for (const [key, beats, lyric] of SONG) {
+      list.push({
+        key, lyric, beats,
+        hitTime: LEAD_IN_MS + beat * BEAT_MS,  // 落线时刻(毫秒,相对演奏开始)
+        resolved: false, hit: false,
+      });
+      beat += beats;
+    }
+    songEndTime = LEAD_IN_MS + beat * BEAT_MS + 900;   // +0.9 秒缓冲再宣布结束
+    return list;
+  }
+
+  function startSong(demo) {
+    ensureAudio();
+    songStartWall = performance.now();         // 演奏计时,从这一刻算起
+    notes = buildNotes();
+    songActive = true;
+    demoMode = demo;
+    score = 0; combo = 0; hits = 0; perfects = 0; misses = 0;
+    nextJudgeIdx = 0; demoIdx = 0; resolvedCount = 0;
+    lastCountdown = null;
+    particles = []; popups = [];
+    updateHUD();
+    startBtn.disabled = true;
+    demoBtn.disabled = true;
+    startBtn.textContent = demo ? '🎬 演示进行中…' : '🎵 演奏进行中…';
+    gameMsg.className = '';
+    gameMsg.textContent = demo ? '看仔细!每个音符飘到金线时,电脑顶哪个键'
+                               : '准备!把手掌举向琴键,跟着颜色顶上去!';
+    sndStart();
+  }
+
+  function endSong() {
+    const wasDemo = demoMode;    // 先记住刚才是不是演示(下面马上要清掉它)
+    songActive = false;
+    demoMode = false;
+    startBtn.disabled = false;
+    demoBtn.disabled = false;
+    if (wasDemo) {
+      startBtn.textContent = '开 始 演 奏';
+      demoBtn.textContent = '🎬 再看一遍演示';
+      gameMsg.className = '';
+      gameMsg.textContent = '🎬 演示结束!轮到你了,点「开始演奏」试一试!';
+      return;
+    }
+    // 给个称号,像摘星星页一样
+    const total = notes.length;
+    const acc = total ? hits / total : 0;
+    const perfectRate = hits ? perfects / hits : 0;
+    let title = '🌱 多练几遍';
+    if      (acc >= 0.95 && perfectRate >= 0.6) title = '🏆 钢琴小神童';
+    else if (acc >= 0.85)                       title = '🎹 指法娴熟';
+    else if (acc >= 0.6)                        title = '🎵 渐入佳境';
+    startBtn.textContent = `得分 ${score} · ${title}(点击再来)`;
+    gameMsg.className = '';
+    gameMsg.textContent = `完美 ${perfects} · 不错 ${hits - perfects} · 错过 ${misses} —— ${title}!`;
+    acc >= 0.85 ? sndWin() : beep(440, 0.25);
+  }
+
+  /**
+   * 按下琴键 —— 整个游戏的心脏!谁都能调用:
+   *   手掌拍到键(palm)、自动演示(demo)都走这里。
+   * 作用:① 发出琴声 ② 键闪亮 ③ 演奏中顺便判定拍没拍准
+   */
+  function pressKey(name, from, now) {
+    playPiano(KEYS[name].freq);
+    keyFlashUntil[name] = performance.now() + 180;   // 键闪亮 0.18 秒(用真实时钟)
+    lightMiniKey(name);
+
+    const [x, w] = keyColumn(name);
+    const hitLine = KB_H;
+
+    // 空弹(没在演奏,或没对上任何音符):飘一个小唱名,纯好玩
+    const smallPop = () => addPopup(KEYS[name].solfa, x + w / 2, hitLine + 20,
+                                    KEYS[name].color, 20);
+
+    if (!songActive || from === 'demo') {
+      if (from !== 'demo') smallPop();
+      return;
+    }
+
+    // 演奏中:在节拍点附近找"等待被弹"的同名音符
+    for (let i = nextJudgeIdx; i < notes.length; i++) {
+      const n = notes[i];
+      if (n.resolved) continue;
+      if (n.hitTime - now > HIT_GOOD) break;            // 后面的音符还早,不用看了
+      const dt = Math.abs(n.hitTime - now);
+      if (dt <= HIT_GOOD && n.key === name) {
+        judgeHit(n, dt);
+        return;
+      }
+    }
+    smallPop();    // 没对上任何音符 → 就是自由弹奏,不扣分
+  }
+
+  // 拍准了!算完美还是不错,加分、连击、放特效
+  function judgeHit(n, dt) {
+    n.resolved = true; n.hit = true;
+    resolvedCount++;
+    hits++;
+    combo++;
+    const perfect = dt <= HIT_PERFECT;
+    if (perfect) perfects++;
+    const gained = (perfect ? 100 : 60) + Math.min(combo, 10) * 5;   // 连击奖励,封顶 ×10
+    score += gained;
+
+    const [x, w] = keyColumn(n.key);
+    const hitLine = KB_H;
+    addPopup(perfect ? `完美! +${gained}` : `不错 +${gained}`,
+             x + w / 2, hitLine + 52, perfect ? '#fde047' : '#6ee7b7', perfect ? 26 : 22);
+    burst(x + w / 2, hitLine, KEYS[n.key].color);
+    updateHUD();
+  }
+
+  // 错过了:连击清零,轻轻提示一下
+  function judgeMiss(n) {
+    n.resolved = true;
+    resolvedCount++;
+    misses++;
+    combo = 0;
+    const [x, w] = keyColumn(n.key);
+    const hitLine = KB_H;
+    addPopup('错过', x + w / 2, hitLine + 52, '#f1a0a8', 20);
+    sndMiss();
+    updateHUD();
+  }
+
+  function addPopup(text, x, y, color, size) {
+    popups.push({ text, x, y, color, size, life: 1 });
+  }
+
+  // 命中处炸开一圈彩色小圆点
+  function burst(x, y, color) {
+    for (let i = 0; i < 12; i++) {
+      const angle = Math.random() * Math.PI;             // 往下半圆飞(音符从下面来)
+      const speed = 2 + Math.random() * 3.5;
+      particles.push({
+        x, y,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed,
+        life: 1, color
+      });
+    }
+  }
+
+  function updateHUD() {
+    scoreShow.textContent = songActive || score > 0 ? score : '--';
+    comboShow.textContent = songActive ? (combo > 0 ? combo + ' 🔥' : 0) : '--';
+    progShow.textContent  = songActive ? `${resolvedCount}/${notes.length}` : '--';
+  }
+
+  /* ================================================================
+   * 第 8 部分:绘制(键盘 / 瀑布 / 特效 / 倒计时)
+   * ----------------------------------------------------------------
+   * 每一帧的顺序:
+   *   更新游戏(判定错过/演示/结束) → 画骨架和手掌
+   *   → 瀑布暗化 → 音符块 → 琴键 → 触发线 → 特效/飘字 → 倒数
+   * ================================================================ */
+  function onResults(results) {
+    // ---- 两种时钟:wallNow = 现在几点(FPS/闪键用)
+    //      songNow = 演奏进行到第几毫秒(音符位置/判定用) ----
+    fpsCount++;
+    const wallNow = performance.now();
+    const songNow = songActive ? wallNow - songStartWall : 0;
+    if (wallNow - fpsTime >= 1000) {
+      camInfo.textContent = `FPS: ${fpsCount}`;
+      fpsCount = 0; fpsTime = wallNow;
+    }
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // 触发线 = 琴键区的底边(琴键画在画面顶部),后面画手、画音符都要用
+    const hitLine = KB_H;
+
+    // ---- 1. 游戏逻辑(有人没人都要跑,倒计时和演示不依赖手) ----
+    updateGame(songNow);
+
+    // ---- 2. 画手骨架 + 手掌光标,并做"拍键"判定 ----
+    const hasHands = results.multiHandLandmarks && results.multiHandLandmarks.length > 0;
+    handHint.style.display = hasHands ? 'none' : 'block';
+
+    if (hasHands) {
+      results.multiHandLandmarks.forEach((lm, i) => {
+        drawSkeleton(lm);
+        const p = updateHand(i, lm, songNow);
+        // 手掌光标:普通=白圈;正压在琴键区=用那个键的颜色点亮
+        const st = handStates[i];
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, 26, 0, Math.PI * 2);
+        if (st.active && st.key) {
+          ctx.fillStyle = KEYS[st.key].color + '55';
+          ctx.fill();
+        }
+        ctx.strokeStyle = 'rgba(255,255,255,0.9)';
+        ctx.lineWidth = 3;
+        ctx.stroke();
+        // 手掌到触发线的"瞄准线",提示还差多远
+        if (!st.active && p.y > hitLine) {
+          ctx.strokeStyle = 'rgba(253,224,71,0.35)';
+          ctx.setLineDash([6, 8]);
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y - 26);
+          ctx.lineTo(p.x, hitLine);
+          ctx.stroke();
+          ctx.setLineDash([]);
+        }
+      });
+    } else {
+      handStates.forEach(s => { s.active = false; s.key = null; });
+    }
+
+    // ---- 3. 音符飘上来的区域轻微暗化,让彩色音符更醒目 ----
+    ctx.fillStyle = 'rgba(8, 10, 34, 0.4)';
+    ctx.fillRect(0, hitLine, canvas.width, canvas.height - hitLine);
+
+    // ---- 4. 音符瀑布 ----
+    drawNotes(songNow);
+
+    // ---- 5. 琴键 + 触发线 ----
+    drawKeyboard(wallNow);
+    drawHitLine();
+
+    // ---- 6. 特效和飘字 ----
+    drawParticles();
+    drawPopups();
+
+    // ---- 7. 倒数大字 ----
+    drawCountdown(songNow);
+  }
+
+  function updateGame(now) {
+    if (!songActive) return;
+
+    // ---- 演示模式:到点自动"拍"键 ----
+    if (demoMode) {
+      while (demoIdx < notes.length && now >= notes[demoIdx].hitTime) {
+        const n = notes[demoIdx];
+        n.resolved = true; n.hit = true;
+        resolvedCount++;
+        demoIdx++;
+        pressKey(n.key, 'demo', now);
+      }
+    }
+
+    // ---- 错过检测:音符落线超过"不错"窗口还没被弹 → 错过 ----
+    while (nextJudgeIdx < notes.length) {
+      const n = notes[nextJudgeIdx];
+      if (n.resolved) { nextJudgeIdx++; continue; }
+      if (now > n.hitTime + HIT_GOOD) { judgeMiss(n); nextJudgeIdx++; continue; }
+      break;
+    }
+
+    // ---- 结束检测:全部音符有结果 + 缓冲时间到 ----
+    if (resolvedCount >= notes.length && now >= songEndTime) {
+      wasDemo = demoMode;
+      endSong();
+    }
+  }
+
+  /* ---------- 键盘绘制 ---------- */
+  function drawKeyboard(now) {
+    const ww = canvas.width / 7;
+
+    // 白键(琴键区 = 画面顶部 0 ~ KB_H)
+    WHITE_ORDER.forEach((name, i) => {
+      const k = KEYS[name];
+      const pressed = (keyFlashUntil[name] || 0) > now;
+      const x = i * ww;
+      roundRect(x + 2, 2, ww - 4, KB_H - 4, 8);
+      if (pressed) {
+        ctx.save();
+        ctx.shadowColor = k.color;
+        ctx.shadowBlur = 18;
+        ctx.fillStyle = k.color;
+        ctx.fill();
+        ctx.restore();
+      } else {
+        ctx.fillStyle = '#f5f7ff';
+        ctx.fill();
+      }
+      ctx.fillStyle = pressed ? '#ffffff' : '#5a6191';
+      ctx.textAlign = 'center';
+      ctx.font = 'bold 22px "Microsoft YaHei", sans-serif';
+      ctx.fillText(k.solfa, x + ww / 2, KB_H - 34);
+      ctx.font = '12px Consolas, monospace';
+      ctx.fillText(name, x + ww / 2, KB_H - 12);
+    });
+  }
+
+  /* ---------- 触发线 ---------- */
+  function drawHitLine() {
+    const hitLine = KB_H;
+    ctx.save();
+    ctx.strokeStyle = 'rgba(253, 224, 71, 0.95)';
+    ctx.shadowColor = '#fde047';
+    ctx.shadowBlur = 10;
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.moveTo(0, hitLine);
+    ctx.lineTo(canvas.width, hitLine);
+    ctx.stroke();
+    ctx.restore();
+    ctx.fillStyle = 'rgba(253, 224, 71, 0.85)';
+    ctx.textAlign = 'right';
+    ctx.font = '13px "Microsoft YaHei", sans-serif';
+    ctx.fillText('↑ 音符飘到这条线时顶上去', canvas.width - 12, hitLine + 18);
+  }
+
+  /* ---------- 音符瀑布(从屏幕下面往上飘) ---------- */
+  function drawNotes(now) {
+    if (!songActive) return;
+    const hitLine = KB_H;
+    const speed = (canvas.height - hitLine) / FALL_SEC;   // 上飘速度(像素/秒)
+
+    for (const n of notes) {
+      if (n.resolved) continue;                  // 弹掉/错过/演示过的不画
+      const distMs = n.hitTime - now;
+      const topY = hitLine + (distMs / 1000) * speed;    // 接住时刻 topY 恰好 = hitLine
+      const h = n.beats * BEAT_MS / 1000 * speed;        // 块高 = 时值
+      const bottomY = topY + h;
+      if (topY > canvas.height + 10 || bottomY < hitLine) continue;  // 还没进画面 / 已飘过线
+
+      const k = KEYS[n.key];
+      const [x, w] = keyColumn(n.key);
+
+      roundRect(x + 4, topY, w - 8, h, 10);
+      ctx.fillStyle = k.color;
+      ctx.globalAlpha = 0.9;
+      ctx.fill();
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = 'rgba(255,255,255,0.8)';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      // 块上写唱名 + 歌词(块太矮就只写唱名)
+      if (h > 34) {
+        ctx.fillStyle = '#0b1030';
+        ctx.textAlign = 'center';
+        ctx.font = 'bold 19px "Microsoft YaHei", sans-serif';
+        ctx.fillText(k.solfa, x + w / 2, topY + h / 2 - 4);
+        if (n.lyric && h > 58) {
+          ctx.font = '15px "Microsoft YaHei", sans-serif';
+          ctx.fillText(n.lyric, x + w / 2, topY + h / 2 + 18);
+        }
+      }
+    }
+  }
+
+  /* ---------- 粒子 & 飘字 ---------- */
+  function drawParticles() {
+    for (let i = particles.length - 1; i >= 0; i--) {
+      const p = particles[i];
+      p.x += p.vx; p.y += p.vy; p.vy += 0.08;    // 带一点重力
+      p.life -= 0.03;
+      if (p.life <= 0) { particles.splice(i, 1); continue; }
+      ctx.globalAlpha = p.life;
+      ctx.fillStyle = p.color;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+  }
+
+  function drawPopups() {
+    ctx.textAlign = 'center';
+    for (let i = popups.length - 1; i >= 0; i--) {
+      const p = popups[i];
+      p.y -= 1.1;
+      p.life -= 0.022;
+      if (p.life <= 0) { popups.splice(i, 1); continue; }
+      ctx.globalAlpha = Math.min(p.life * 1.4, 1);
+      ctx.fillStyle = p.color;
+      ctx.font = `bold ${p.size}px "Microsoft YaHei", sans-serif`;
+      ctx.fillText(p.text, p.x, p.y);
+      ctx.globalAlpha = 1;
+    }
+  }
+
+  /* ---------- 倒数大字 ---------- */
+  function drawCountdown(now) {
+    if (!songActive) return;
+    const firstHit = notes.length ? notes[0].hitTime : LEAD_IN_MS;
+    if (now > firstHit + 500) return;            // 第一个音过后就不再显示
+
+    const sec = Math.ceil((firstHit - now) / 1000);
+    const text = sec > 0 ? sec : '♪ 弹!';
+    if (sec > 0 && sec !== lastCountdown) { lastCountdown = sec; sndTick(); }
+
+    ctx.textAlign = 'center';
+    ctx.font = 'bold 96px "Microsoft YaHei", sans-serif';
+    ctx.fillStyle = '#ffffff';
+    ctx.shadowColor = 'rgba(253,224,71,0.9)';
+    ctx.shadowBlur = 24;
+    ctx.fillText(text, canvas.width / 2, canvas.height * 0.45);
+    ctx.shadowBlur = 0;
+    ctx.font = '16px "Microsoft YaHei", sans-serif';
+    ctx.fillStyle = 'rgba(255,255,255,0.75)';
+    ctx.fillText(demoMode ? '电脑演示马上开始…' : '把手掌举向画面上方的琴键,准备!', canvas.width / 2, canvas.height * 0.45 + 34);
+  }
+
+  /* ---------- 手骨架 ---------- */
+  function drawSkeleton(lm) {
+    ctx.strokeStyle = 'rgba(226, 232, 240, 0.85)';
+    ctx.lineWidth = 3;
+    ctx.lineCap = 'round';
+    for (const pair of HAND_CONNECTIONS) {
+      const a = lm[pair[0]], b = lm[pair[1]];
+      ctx.beginPath();
+      ctx.moveTo(mirrorX(a.x), a.y * canvas.height);
+      ctx.lineTo(mirrorX(b.x), b.y * canvas.height);
+      ctx.stroke();
+    }
+    ctx.fillStyle = '#f8fafc';
+    for (const p of lm) {
+      ctx.beginPath();
+      ctx.arc(mirrorX(p.x), p.y * canvas.height, 3.5, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+  </script>
+</body>
+</html>

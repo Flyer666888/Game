@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>手势识别 · 猜拳大战</title>
+<style>
+  /* ============================================================
+     全局样式
+     ============================================================ */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f1440 0%, #1a1f4d 45%, #2b1a5e 100%);
+    color: #eef0ff;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    padding: 20px;
+  }
+
+  /* ---------- 顶栏:返回菜单 + 标题 ---------- */
+  header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 18px;
+  }
+  .back {
+    color: #9aa2d8;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 6px 14px;
+    border-radius: 999px;
+    transition: 0.2s;
+  }
+  .back:hover { color: #fff; background: rgba(255,255,255,0.1); }
+  h1 { font-size: 24px; letter-spacing: 2px; }
+
+  /* ---------- 主体:左边游戏面板 + 右边摄像头画面 ---------- */
+  main {
+    display: grid;
+    grid-template-columns: 380px 1fr;   /* 左栏固定 380px,右栏自适应 */
+    gap: 18px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+
+  .panel {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 16px;
+    padding: 18px;
+  }
+  .panel h3 {
+    font-size: 15px;
+    color: #9aa2d8;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+  }
+
+  /* ---------- 识别结果卡片 ---------- */
+  .gesture-now {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .gesture-now .emoji { font-size: 64px; line-height: 1; }
+  .gesture-now .name { font-size: 30px; font-weight: bold; }
+  .gesture-now .hand { font-size: 13px; color: #9aa2d8; margin-top: 4px; }
+
+  /* 五根手指的"点亮"状态格 */
+  .fingers {
+    display: flex;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .finger-chip {
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    padding: 7px 0;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.08);
+    color: #6a71a8;                 /* 未伸直时是暗色 */
+    transition: 0.15s;
+  }
+  .finger-chip.on {                 /* 伸直时点亮成绿色 */
+    background: rgba(52, 211, 153, 0.25);
+    color: #6ee7b7;
+    box-shadow: 0 0 10px rgba(52, 211, 153, 0.35);
+  }
+
+  /* ---------- 猜拳游戏区 ---------- */
+  .score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    font-size: 15px;
+    color: #9aa2d8;
+  }
+  .score b { font-size: 30px; color: #fff; }
+
+  .arena {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 16px 0;
+    min-height: 110px;
+  }
+  .arena .side { text-align: center; }
+  .arena .side .who { font-size: 13px; color: #9aa2d8; margin-bottom: 6px; }
+  .arena .side .show { font-size: 56px; line-height: 1.1; }
+
+  .arena .vs { font-size: 22px; color: #6a71a8; font-weight: bold; }
+
+  .game-msg {
+    text-align: center;
+    font-size: 20px;
+    min-height: 30px;
+    margin-bottom: 14px;
+    color: #fde68a;
+  }
+  .game-msg.win  { color: #6ee7b7; }
+  .game-msg.lose { color: #fca5a5; }
+
+  /* ---------- 倒计时大字(叠在摄像头画面正中央) ---------- */
+  .countdown {
+    position: absolute;
+    inset: 0;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 110px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 6px 30px rgba(0,0,0,0.7), 0 0 24px rgba(253,224,71,0.9);
+    pointer-events: none;           /* 只是显示,不挡住下面的画面 */
+    opacity: 0;                     /* 平时隐藏,JS 弹出时加 .show 类 */
+  }
+  .countdown.show { animation: pop 0.78s ease-out; }
+  @keyframes pop {
+    0%   { opacity: 0; transform: scale(2); }
+    18%  { opacity: 1; transform: scale(1); }
+    75%  { opacity: 1; transform: scale(1); }
+    100% { opacity: 0; transform: scale(0.85); }
+  }
+
+  /* 出招抓取的一瞬间:摄像头画面闪一圈黄光 */
+  .camera-box.flash { box-shadow: 0 0 0 6px #fde047 inset; }
+
+  /* 被锁定的出招:放大并发绿光,让玩家确认"抓到的是这招" */
+  .arena .show.locked {
+    transform: scale(1.18);
+    filter: drop-shadow(0 0 14px rgba(52, 211, 153, 0.9));
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #05261b;
+    background: linear-gradient(135deg, #34d399, #10b981);
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .btn:hover  { filter: brightness(1.1); }
+  .btn:disabled { filter: grayscale(0.8); cursor: not-allowed; }
+
+  /* ---------- 摄像头画面区 ---------- */
+  .camera-box {
+    position: relative;              /* 让 canvas 能叠在 video 上面 */
+    border-radius: 16px;
+    overflow: hidden;
+    background: #000;
+    min-height: 480px;
+  }
+  video, canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    /* 关键:水平镜像,就像照镜子一样,更符合直觉 */
+    transform: scaleX(-1);
+  }
+  video { object-fit: cover; }
+  canvas { object-fit: contain; }
+
+  /* 画面左上角的实时信息(FPS / 手的数量) */
+  .cam-info {
+    position: absolute;
+    top: 10px; left: 10px;
+    z-index: 5;
+    font-size: 12px;
+    color: #a5f3fc;
+    background: rgba(0,0,0,0.45);
+    padding: 4px 10px;
+    border-radius: 8px;
+  }
+
+  /* ---------- 加载/错误提示遮罩 ---------- */
+  .overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    background: rgba(5, 8, 30, 0.92);
+    text-align: center;
+    padding: 24px;
+    line-height: 1.9;
+    font-size: 15px;
+  }
+  .overlay .spinner {
+    width: 42px; height: 42px;
+    border: 4px solid rgba(255,255,255,0.2);
+    border-top-color: #34d399;
+    border-radius: 50%;
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .overlay .retry {
+    padding: 10px 26px;
+    border: none;
+    border-radius: 10px;
+    background: #34d399;
+    color: #05261b;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;          /* 出错时才显示"重试"按钮 */
+  }
+
+  /* ---------- 手势说明书 ---------- */
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    font-size: 12px;
+    color: #b9bfe8;
+    text-align: center;
+  }
+  .menu div { background: rgba(255,255,255,0.06); border-radius: 8px; padding: 8px 2px; }
+  .menu .e { font-size: 22px; }
+</style>
+</head>
+<body>
+
+  <!-- ===================== 顶栏 ===================== -->
+  <header>
+    <a class="back" href="index.html">← 返回菜单</a>
+    <h1>✌️ 手势识别 · 猜拳大战</h1>
+  </header>
+
+  <main>
+    <!-- ===================== 左侧:游戏面板 ===================== -->
+    <div>
+
+      <!-- 面板 1:实时识别结果 -->
+      <div class="panel" style="margin-bottom:18px;">
+        <h3>【实时识别结果】</h3>
+        <div class="gesture-now">
+          <div class="emoji" id="gestureEmoji">❓</div>
+          <div>
+            <div class="name" id="gestureName">等待手势…</div>
+            <div class="hand" id="handLabel"></div>
+          </div>
+        </div>
+        <!-- 五根手指的伸直状态,由 JS 实时点亮 -->
+        <div class="fingers">
+          <div class="finger-chip" id="f0">拇指</div>
+          <div class="finger-chip" id="f1">食指</div>
+          <div class="finger-chip" id="f2">中指</div>
+          <div class="finger-chip" id="f3">无名指</div>
+          <div class="finger-chip" id="f4">小指</div>
+        </div>
+      </div>
+
+      <!-- 面板 2:猜拳游戏 -->
+      <div class="panel" style="margin-bottom:18px;">
+        <h3>【猜拳大战】伸出 拳头 / 手掌 / 剪刀 和电脑对战</h3>
+        <div class="score">
+          <span>你<br><b id="scoreMe">0</b></span>
+          <span>:</span>
+          <span>电脑<br><b id="scoreCpu">0</b></span>
+        </div>
+        <div class="arena">
+          <div class="side">
+            <div class="who">你出的</div>
+            <div class="show" id="meShow">❔</div>
+          </div>
+          <div class="vs">VS</div>
+          <div class="side">
+            <div class="who">电脑出的</div>
+            <div class="show" id="cpuShow">❔</div>
+          </div>
+        </div>
+        <div class="game-msg" id="gameMsg">点击开始!喊「布!!」的那一瞬间出手!</div>
+        <button class="btn" id="startBtn">开 始 猜 拳</button>
+      </div>
+
+      <!-- 面板 3:手势说明书 -->
+      <div class="panel">
+        <h3>【手势说明书】这些手势都能认出来</h3>
+        <div class="menu">
+          <div><div class="e">✊</div>拳头</div>
+          <div><div class="e">✌️</div>剪刀</div>
+          <div><div class="e">✋</div>手掌</div>
+          <div><div class="e">👍</div>点赞</div>
+          <div><div class="e">☝️</div>食指</div>
+          <div><div class="e">🤘</div>摇滚</div>
+          <div><div class="e">👌</div>OK</div>
+          <div><div class="e">🤟</div>爱你</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== 右侧:摄像头画面 ===================== -->
+    <div class="camera-box" id="cameraBox">
+      <video id="video" autoplay muted playsinline></video>
+      <canvas id="canvas"></canvas>
+      <div class="cam-info" id="camInfo">FPS: --</div>
+      <!-- 猜拳倒计时大字:"✊石头 → ✌️剪刀 → ✋布!!" 在这里弹出 -->
+      <div class="countdown" id="countdownShow"></div>
+
+      <!-- 加载中 / 出错时的遮罩层 -->
+      <div class="overlay" id="overlay">
+        <div class="spinner" id="spinner"></div>
+        <div id="overlayText">正在加载手势识别模型,请稍候…</div>
+        <button class="retry" id="retryBtn" onclick="location.reload()">重新加载</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- 引入 MediaPipe 手势识别库(已下载到本地 libs 文件夹,离线可用) -->
+  <script src="./libs/hands/hands.js"></script>
+
+  <script>
+  /* ================================================================
+   * 🖐️ 手势识别 · 猜拳大战
+   * ----------------------------------------------------------------
+   * 程序一共分成 7 个部分,建议按顺序阅读:
+   *   第 1 部分:获取页面元素 & 全局变量
+   *   第 2 部分:小工具函数(算两点距离等)
+   *   第 3 部分:加载 MediaPipe 手势识别模型
+   *   第 4 部分:打开摄像头 + 主循环(每一帧识别一次)
+   *   第 5 部分:手势判定算法(核心!手指伸直检测 + 规则匹配)
+   *   第 6 部分:音效(用 Web Audio API 现场合成,不需要音频文件)
+   *   第 7 部分:猜拳游戏逻辑(大字倒计时 + 出招锁定)
+   * ================================================================ */
+
+  /* ================================================================
+   * 第 1 部分:获取页面元素 & 全局变量
+   * ================================================================ */
+  const video    = document.getElementById('video');
+  const canvas   = document.getElementById('canvas');
+  const ctx      = canvas.getContext('2d');   // canvas 的"画笔"
+
+  const gestureEmoji = document.getElementById('gestureEmoji');
+  const gestureName  = document.getElementById('gestureName');
+  const handLabel    = document.getElementById('handLabel');
+  const fingerChips  = [0,1,2,3,4].map(i => document.getElementById('f' + i));
+  const camInfo      = document.getElementById('camInfo');
+  const overlay      = document.getElementById('overlay');
+  const overlayText  = document.getElementById('overlayText');
+  const spinner      = document.getElementById('spinner');
+  const retryBtn     = document.getElementById('retryBtn');
+
+  // 识别结果防抖:连续多帧相同才认为手势"稳定"了,避免结果不停闪烁
+  let stableGesture = null;    // 当前稳定的手势名字
+  let lastGesture   = null;    // 上一帧识别到的手势
+  let sameCount     = 0;       // 已经连续多少帧是同一个手势
+  const STABLE_FRAMES = 4;     // 连续 4 帧相同才算数(想更"跟手"可以改小)
+
+  // FPS 统计
+  let fpsCount = 0, fpsTime = performance.now();
+
+  /* ================================================================
+   * 第 2 部分:小工具函数
+   * ================================================================ */
+
+  // 计算两个关键点之间的直线距离(欧几里得距离)
+  function dist(a, b) {
+    return Math.hypot(a.x - b.x, a.y - b.y);
+  }
+
+  /* ================================================================
+   * 第 3 部分:加载 MediaPipe 手势识别模型
+   * ----------------------------------------------------------------
+   * MediaPipe Hands 会从手部画面里找出 21 个关键点,
+   * 编号规则(非常重要,后面判定手势全靠它):
+   *   0        = 手腕
+   *   1  ~ 4   = 拇指(4 是指尖)
+   *   5  ~ 8   = 食指(8 是指尖)
+   *   9  ~ 12  = 中指(12 是指尖)
+   *   13 ~ 16  = 无名指(16 是指尖)
+   *   17 ~ 20  = 小指(20 是指尖)
+   * ================================================================ */
+  const hands = new Hands({
+    // locateFile:告诉 MediaPipe 它需要的模型文件去哪里找。
+    // 我们把所有文件都下载到了 libs/hands/ 文件夹,所以指向本地路径。
+    locateFile: (file) => `./libs/hands/${file}`
+  });
+
+  hands.setOptions({
+    maxNumHands: 2,             // 最多同时识别 2 只手
+    modelComplexity: 1,         // 模型精度:0=轻量快速,1=精确(默认)
+    minDetectionConfidence: 0.6, // 检测置信度门槛,越低越"敏感"
+    minTrackingConfidence: 0.5   // 跟踪置信度门槛
+  });
+
+  // 每一帧识别完成后,都会自动调用 onResults 函数(定义在第 5 部分)
+  hands.onResults(onResults);
+
+  /* ================================================================
+   * 第 4 部分:打开摄像头 + 主循环
+   * ================================================================ */
+  async function startCamera() {
+    overlayText.textContent = '正在请求摄像头权限,请在浏览器弹窗中点击【允许】…';
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({
+        video: { width: 640, height: 480, facingMode: 'user' }
+      });
+      video.srcObject = stream;
+      await video.play();
+      // 让 canvas 的像素尺寸和视频一致,这样坐标系才能对上
+      canvas.width  = video.videoWidth;
+      canvas.height = video.videoHeight;
+    } catch (err) {
+      showFatalError(
+        '😢 无法打开摄像头(' + err.name + ')<br>' +
+        '常见原因:<br>' +
+        '① 你点了"拒绝"→ 点击浏览器地址栏左侧的摄像头图标重新允许;<br>' +
+        '② 摄像头被其他软件占用;<br>' +
+        '③ 页面不是通过「一键启动.cmd」打开的(file:// 页面禁止用摄像头)。'
+      );
+      throw err;
+    }
+  }
+
+  // 主循环:不停地"喂"一帧画面给模型 → 等结果 → 再喂下一帧
+  async function loop() {
+    if (video.readyState >= 2) {          // 视频已准备好当前帧
+      await hands.send({ image: video }); // 识别完成时会回调 onResults
+    }
+    requestAnimationFrame(loop);          // 请求下一帧,循环往复
+  }
+
+  // 显示致命错误(比如摄像头被拒绝、模型加载失败)
+  let fatalShown = false;   // 防止错误提示被重复覆盖
+  function showFatalError(html) {
+    fatalShown = true;
+    spinner.style.display = 'none';
+    overlay.style.display = 'flex';
+    overlayText.innerHTML = html;
+    retryBtn.style.display = 'inline-block';
+  }
+
+  // 给慢操作加"超时保护":万一模型一直加载不出来,也要弹出提示,
+  // 绝不能让屏幕上永远转圈(那种情况最难排查)
+  function withTimeout(promise, ms, message) {
+    let timer;
+    const timeout = new Promise((_, reject) => {
+      timer = setTimeout(() => reject(new Error(message)), ms);
+    });
+    return Promise.race([promise, timeout]).finally(() => clearTimeout(timer));
+  }
+
+  // 启动流程:先加载模型 → 再开摄像头 → 进入主循环
+  (async function init() {
+    try {
+      /* 情况 1:直接双击 HTML 打开(地址以 file:// 开头)。
+         浏览器安全策略禁止 file:// 页面加载识别模型、使用摄像头,
+         所以必须通过「一键启动.cmd」打开 localhost 地址。 */
+      if (location.protocol === 'file:') {
+        showFatalError(
+          '🚫 你是【直接双击打开】的本页面(地址以 file:// 开头)<br><br>' +
+          '浏览器的安全策略禁止这种页面加载识别模型、使用摄像头,<br>' +
+          '所以会一直卡在初始化。<br><br>' +
+          '✅ 正确做法:双击项目文件夹里的 <b>「一键启动.cmd」</b>,<br>' +
+          '它会自动启动本地服务,并打开正确的 localhost 网址。');
+        return;
+      }
+
+      /* 情况 2:正常的 localhost 打开 → 初始化模型(限时 30 秒) */
+      overlayText.textContent = '正在初始化手势识别模型,首次约需几秒…';
+      await withTimeout(hands.initialize(), 30000,
+        '模型加载超时。可能原因:① libs 文件夹没有和网页放在同一个文件夹;② 浏览器内核太旧(请换新版 Chrome 或 Edge)。解决后点击"重新加载"。');
+      await startCamera();
+      overlay.style.display = 'none';     // 一切就绪,隐藏遮罩
+      loop();
+    } catch (err) {
+      // 摄像头的错误提示已经在 startCamera 里展示过了,
+      // 这里负责兜底展示其他所有初始化错误(比如模型加载失败)
+      if (!fatalShown) {
+        showFatalError('😢 初始化失败:' + (err && err.message ? err.message : err) + '<br>请按提示排查后,点击"重新加载"。');
+      }
+    }
+  })();
+
+  /* ================================================================
+   * 第 5 部分:手势判定算法(核心!)
+   * ================================================================ */
+
+  /**
+   * 判断一根手指是否"伸直"。
+   * 思路:伸直时,指尖离手腕的距离 > 指关节(中节)离手腕的距离;
+   *       弯曲时,指尖会折回来,离手腕反而更近。
+   * 用"和手腕比距离"而不是"比 y 坐标",这样手怎么旋转都不影响判断。
+   */
+  function fingerExtended(lm, tipIndex, pipIndex) {
+    return dist(lm[tipIndex], lm[0]) > dist(lm[pipIndex], lm[0]);
+  }
+
+  /**
+   * 判断拇指是否伸开。
+   * 拇指方向和其他四根手指差别太大,单独处理:
+   * 拇指尖(4)离食指根部(5)的距离,大于拇指中节(3)离食指根部的距离,
+   * 就说明拇指是张开的。
+   */
+  function thumbExtended(lm) {
+    return dist(lm[4], lm[5]) > dist(lm[3], lm[5]);
+  }
+
+  /**
+   * 根据 21 个关键点,判断当前是什么手势。
+   * @param lm 长度为 21 的关键点数组
+   * @returns {name, emoji, fingers:[拇指,食指,中指,无名指,小指 是否伸直]}
+   */
+  function recognizeGesture(lm) {
+    // 依次检查五根手指是否伸直
+    //              指尖编号  中节编号
+    const thumb = thumbExtended(lm);              // 拇指
+    const index = fingerExtended(lm, 8, 6);       // 食指
+    const middle = fingerExtended(lm, 12, 10);    // 中指
+    const ring  = fingerExtended(lm, 16, 14);     // 无名指
+    const pinky = fingerExtended(lm, 20, 18);     // 小指
+    const fingers = [thumb, index, middle, ring, pinky];
+
+    // ---------- 情况 1:OK 手势 ----------
+    // 拇指尖和食指尖捏在一起(距离很小),同时中指、无名指、小指伸直
+    const pinched = dist(lm[4], lm[8]) < dist(lm[0], lm[9]) * 0.5;
+    if (pinched && middle && ring && pinky) {
+      return { name: 'OK', emoji: '👌', fingers };
+    }
+
+    // ---------- 情况 2:按伸直的手指数量来分类 ----------
+    const count = fingers.filter(Boolean).length;
+
+    if (count === 0) return { name: '拳头', emoji: '✊', fingers };   // 全弯
+    if (count === 5) return { name: '手掌', emoji: '✋', fingers };   // 全伸
+
+    if (!thumb && index && !middle && !ring && !pinky) {
+      return { name: '食指', emoji: '☝️', fingers };                  // 只伸食指
+    }
+    if (!thumb && index && middle && !ring && !pinky) {
+      return { name: '剪刀', emoji: '✌️', fingers };                  // 食指+中指
+    }
+    if (thumb && !index && !middle && !ring && !pinky) {
+      return { name: '点赞', emoji: '👍', fingers };                  // 只伸拇指
+    }
+    if (thumb && !index && !middle && !ring && pinky) {
+      return { name: '摇滚', emoji: '🤘', fingers };                  // 拇指+小指
+    }
+    if (thumb && !index && !middle && ring && pinky) {
+      return { name: '爱你', emoji: '🤟', fingers };                  // 拇指+无名指+小指
+    }
+
+    // ---------- 都不匹配 → 未知 ----------
+    return { name: '其他', emoji: '🤔', fingers };
+  }
+
+  /**
+   * MediaPipe 每帧识别完成后调用这里。
+   * results 里最有用的是:
+   *   results.multiHandLandmarks : 数组,每只手 21 个关键点(x/y/z 都是 0~1 的比例)
+   *   results.multiHandedness    : 数组,每只手是左手还是右手
+   */
+  function onResults(results) {
+    // ---- 统计 FPS(每秒刷新一次显示)----
+    fpsCount++;
+    const now = performance.now();
+    if (now - fpsTime >= 1000) {
+      camInfo.textContent = `FPS: ${fpsCount}`;
+      fpsCount = 0;
+      fpsTime = now;
+    }
+
+    // ---- 每次先清空画布,再画新一帧 ----
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    if (!results.multiHandLandmarks || results.multiHandLandmarks.length === 0) {
+      // 画面里没有手
+      gestureName.textContent = '未检测到手';
+      gestureEmoji.textContent = '👋';
+      handLabel.textContent = '请把手举到摄像头前';
+      fingerChips.forEach(c => c.classList.remove('on'));
+      lastGesture = null; sameCount = 0; stableGesture = null;
+      return;
+    }
+
+    // ---- 目前只处理第一只检测到的手 ----
+    const lm = results.multiHandLandmarks[0];
+    const handedness = results.multiHandedness[0];
+
+    /* 画骨架:把 HAND_CONNECTIONS 里定义的每对关键点连成线。
+       HAND_CONNECTIONS 是 hands.js 自带的"连接表",长这样:
+       [[0,1],[1,2],...] —— [0,1] 表示手腕连拇指根部、[8,6] 表示
+       食指尖连食指中节…… */
+    ctx.strokeStyle = '#34d399';
+    ctx.lineWidth = 3;
+    for (const pair of HAND_CONNECTIONS) {
+      const a = lm[pair[0]], b = lm[pair[1]];
+      ctx.beginPath();
+      ctx.moveTo(a.x * canvas.width, a.y * canvas.height);
+      ctx.lineTo(b.x * canvas.width, b.y * canvas.height);
+      ctx.stroke();
+    }
+    // 画 21 个关键点
+    ctx.fillStyle = '#f8fafc';
+    for (const p of lm) {
+      ctx.beginPath();
+      ctx.arc(p.x * canvas.width, p.y * canvas.height, 4, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    // ---- 左右手标签:MediaPipe 默认假设画面已经镜像过,而我们的
+    //      原始摄像头画面没有镜像,所以这里要反过来显示才正确 ----
+    handLabel.textContent = (handedness.label === 'Left' ? '你的右手' : '你的左手')
+                            + `(置信度 ${(handedness.score * 100).toFixed(0)}%)`;
+
+    // ---- 识别手势 + 防抖:连续 STABLE_FRAMES 帧相同才更新显示 ----
+    const g = recognizeGesture(lm);
+    if (g.name === lastGesture) sameCount++;
+    else { lastGesture = g.name; sameCount = 1; }
+
+    if (sameCount >= STABLE_FRAMES) {
+      stableGesture = g;   // 结果稳定了,正式采纳
+      gestureEmoji.textContent = g.emoji;
+      gestureName.textContent = g.name;
+      fingerChips.forEach((chip, i) => chip.classList.toggle('on', g.fingers[i]));
+    }
+  }
+
+  /* ================================================================
+   * 第 6 部分:音效(Web Audio API 现场合成)
+   * ----------------------------------------------------------------
+   * 不需要任何 mp3 文件:声音是程序用"振荡器(Oscillator)"现场
+   * 发出来的。beep(频率, 时长, 延迟, 波形, 音量)——
+   * 动手试一试:改改频率数字,听听声音有什么变化!
+   * ================================================================ */
+  let audioCtx = null;   // 音频上下文:必须由用户点击触发后才能创建(浏览器规定)
+
+  function beep(freq, duration, delay = 0, type = 'sine', volume = 0.4) {
+    try {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const t0   = audioCtx.currentTime + delay;
+      const osc  = audioCtx.createOscillator();   // 振荡器:发出指定频率的声波
+      const gain = audioCtx.createGain();         // 增益器:控制音量
+      osc.type = type;
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(volume, t0);
+      gain.gain.exponentialRampToValueAtTime(0.001, t0 + duration);  // 声音淡出
+      osc.connect(gain).connect(audioCtx.destination);
+      osc.start(t0);
+      osc.stop(t0 + duration);
+    } catch (e) { /* 电脑没有声音设备也不影响游戏进行 */ }
+  }
+
+  // 各种场合专用的音效
+  const sndTick    = () => beep(520, 0.18);                                   // 倒计时"石头/剪刀"
+  const sndGo      = () => beep(880, 0.4, 0, 'square', 0.5);                  // "布!!"出招那一刻
+  const sndWin     = () => { beep(523, 0.12); beep(659, 0.12, 0.13);          // 赢:上行音阶
+                             beep(784, 0.25, 0.26); };
+  const sndLose    = () => { beep(311, 0.15); beep(233, 0.35, 0.16); };       // 输:下行音
+  const sndDraw    = () => { beep(440, 0.12); beep(440, 0.15, 0.16); };       // 平局:相同两声
+  const sndInvalid = () => beep(160, 0.35, 0, 'sawtooth', 0.3);               // 没出对:低沉错误音
+
+  /* ================================================================
+   * 第 7 部分:猜拳游戏逻辑
+   * ----------------------------------------------------------------
+   * 游戏是一个简单的"状态机":
+   *   idle(等待)→ countdown(大字倒计时:✊石头 → ✌️剪刀 → ✋布!!)
+   *   → reveal(亮出电脑的出招,判定胜负)→ idle
+   *
+   * ⏰ 出招时机 = 大字喊「布!!」的那一瞬间,同时会有:
+   *    · 一声高音"叮!"     · 摄像头画面闪一圈黄光
+   *    · 左边你的出招亮起绿光并放大(告诉你抓到了什么)
+   * 想改节奏快慢,调下面的 COUNTDOWN_STEP(毫秒)。
+   * ================================================================ */
+  const startBtn = document.getElementById('startBtn');
+  const gameMsg  = document.getElementById('gameMsg');
+  const meShow   = document.getElementById('meShow');
+  const cpuShow  = document.getElementById('cpuShow');
+  const scoreMe  = document.getElementById('scoreMe');
+  const scoreCpu = document.getElementById('scoreCpu');
+  const cameraBox     = document.getElementById('cameraBox');
+  const countdownShow = document.getElementById('countdownShow');
+
+  // 把识别出来的手势映射成猜拳的三种"招式"
+  const RPS_MAP = {
+    '拳头': { move: '石头', emoji: '✊' },
+    '手掌': { move: '布',   emoji: '✋' },
+    '剪刀': { move: '剪刀', emoji: '✌️' },
+  };
+  const CPU_CHOICES = [
+    { move: '石头', emoji: '✊' },
+    { move: '剪刀', emoji: '✌️' },
+    { move: '布',   emoji: '✋' },
+  ];
+
+  const COUNTDOWN_STEP = 800;   // 「石头」「剪刀」每个字之间的间隔(毫秒)
+
+  let gameState = 'idle';       // 当前游戏状态:idle | countdown | reveal
+  let score = { me: 0, cpu: 0 };
+
+  startBtn.addEventListener('click', startRound);
+
+  // 在摄像头画面正中央弹出一个倒计时大字(带缩放动画 + 音效由调用方播放)
+  function showCountdown(text) {
+    countdownShow.textContent = text;
+    countdownShow.classList.remove('show');
+    void countdownShow.offsetWidth;   // 小技巧:强制浏览器重置动画,让同一个字也能重复弹
+    countdownShow.classList.add('show');
+  }
+
+  function startRound() {
+    if (gameState !== 'idle') return;
+    gameState = 'countdown';
+    startBtn.disabled = true;
+    meShow.textContent = '❔';
+    cpuShow.textContent = '❔';
+    meShow.classList.remove('locked');
+    gameMsg.className = 'game-msg';
+    gameMsg.textContent = '跟好节奏,喊「布!!」的那一下出手!';
+
+    showCountdown('✊ 石头'); sndTick();
+    setTimeout(() => { showCountdown('✌️ 剪刀'); sndTick(); }, COUNTDOWN_STEP);
+    setTimeout(() => {
+      showCountdown('✋ 布!!'); sndGo();
+      cameraBox.classList.add('flash');                     // 闪黄光 = 正在抓取
+      setTimeout(() => cameraBox.classList.remove('flash'), 400);
+      judge();                                              // 就在这一刻锁定手势!
+    }, COUNTDOWN_STEP * 2);
+  }
+
+  function judge() {
+    gameState = 'reveal';
+
+    const mine = stableGesture && RPS_MAP[stableGesture.name];  // 你出的招
+    const cpu  = CPU_CHOICES[Math.floor(Math.random() * 3)];    // 电脑随机出招
+
+    if (!mine) {
+      meShow.textContent = '🤷';
+      gameMsg.textContent = '没抓到你的出招!要用 拳头 / 手掌 / 剪刀 哦';
+      sndInvalid();
+      setTimeout(() => { cpuShow.textContent = cpu.emoji; finishRound(); }, 700);
+      return;
+    }
+
+    // 先亮出你被锁定的那一招(绿光放大),确认"抓对了"
+    meShow.textContent = mine.emoji;
+    meShow.classList.add('locked');
+    gameMsg.textContent = `已锁定:${mine.move}!看看电脑出什么…`;
+
+    setTimeout(() => reveal(mine, cpu), 800);
+  }
+
+  function reveal(mine, cpu) {
+    cpuShow.textContent = cpu.emoji;
+
+    // 判定胜负:石头赢剪刀,剪刀赢布,布赢石头
+    if (mine.move === cpu.move) {
+      gameMsg.textContent = '平局!再来!';
+      sndDraw();
+    } else {
+      const iWin =
+        (mine.move === '石头' && cpu.move === '剪刀') ||
+        (mine.move === '剪刀' && cpu.move === '布')   ||
+        (mine.move === '布'   && cpu.move === '石头');
+      if (iWin) { score.me++;  gameMsg.textContent = '🎉 你赢了!';   gameMsg.className = 'game-msg win';  sndWin(); }
+      else      { score.cpu++; gameMsg.textContent = '💦 电脑赢了!'; gameMsg.className = 'game-msg lose'; sndLose(); }
+      scoreMe.textContent  = score.me;
+      scoreCpu.textContent = score.cpu;
+    }
+    finishRound();
+  }
+
+  function finishRound() {
+    setTimeout(() => {
+      gameState = 'idle';
+      startBtn.disabled = false;
+      startBtn.textContent = '再 来 一 局';
+    }, 1800);
+  }
+  </script>
+</body>
+</html>

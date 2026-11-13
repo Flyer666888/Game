@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<!-- 让页面在手机/平板上也能正常缩放显示 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>摄像头互动小课堂 · 菜单</title>
+<style>
+  /* ============================================================
+     全局样式:深色渐变背景 + 居中排版
+     ============================================================ */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    /* 深蓝紫色渐变背景,营造"科技课堂"的氛围 */
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f1440 0%, #1a1f4d 45%, #2b1a5e 100%);
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    color: #eef0ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 16px 40px;
+  }
+
+  /* ============================================================
+     标题区
+     ============================================================ */
+  h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+  h1 .icon { margin-right: 10px; }
+
+  .subtitle {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #9aa2d8;
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  /* ============================================================
+     卡片区:三个互动小游戏的入口
+     ============================================================ */
+  .cards {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;      /* 屏幕窄时自动换行 */
+    gap: 24px;
+    justify-content: center;
+    max-width: 1100px;
+  }
+
+  /* 单张卡片:一个大按钮,整块可点击 */
+  .card {
+    width: 300px;
+    padding: 30px 26px;
+    border-radius: 20px;
+    /* 半透明白色玻璃质感 */
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    text-decoration: none;      /* 去掉 <a> 标签默认下划线 */
+    color: inherit;
+    transition: transform 0.25s, box-shadow 0.25s, background 0.25s;
+  }
+  /* 鼠标悬停时:卡片轻轻上浮并发光 */
+  .card:hover {
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  }
+
+  .card .emoji { font-size: 56px; }
+
+  .card h2 {
+    margin-top: 16px;
+    font-size: 22px;
+  }
+
+  .card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #b9bfe8;
+    line-height: 1.7;
+  }
+
+  /* 卡片底部的小标签,标注用到的识别技术 */
+  .card .tag {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 4px 12px;
+    font-size: 12px;
+    border-radius: 999px;
+    background: rgba(99, 102, 241, 0.35);
+    border: 1px solid rgba(129, 140, 248, 0.6);
+    color: #dbe0ff;
+  }
+
+  /* 每张卡片用不同的主题色,方便学生区分 */
+  .card.gesture { border-top: 4px solid #34d399; }
+  .card.face    { border-top: 4px solid #fbbf24; }
+  .card.body    { border-top: 4px solid #f472b6; }
+  .card.math    { border-top: 4px solid #60a5fa; }
+  .card.meme    { border-top: 4px solid #f87171; }
+  .card.piano   { border-top: 4px solid #a78bfa; }
+
+  /* ============================================================
+     使用须知区
+     ============================================================ */
+  .notice {
+    margin-top: 48px;
+    max-width: 760px;
+    padding: 22px 28px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px dashed rgba(255, 255, 255, 0.25);
+    font-size: 14px;
+    color: #c6cbf2;
+    line-height: 2;
+  }
+  .notice b { color: #ffffff; }
+</style>
+</head>
+<body>
+
+  <!-- ===================== 页面标题 ===================== -->
+  <h1><span class="icon">📷</span>摄像头互动小课堂</h1>
+  <p class="subtitle">
+    打开摄像头,用<b>手势</b>、<b>表情</b>和<b>身体动作</b>来玩游戏!<br>
+    全部识别都在浏览器本地完成,摄像头画面不会上传到任何服务器。
+  </p>
+
+  <!-- ===================== 六个游戏入口 ===================== -->
+  <div class="cards">
+
+    <!-- 入口 1:手势识别 -->
+    <a class="card gesture" href="gesture.html">
+      <div class="emoji">✌️</div>
+      <h2>手势识别 · 猜拳大战</h2>
+      <p>
+        伸出你的手掌、握拳、比耶,电脑能实时认出你的手势。
+        再和电脑来一局"石头剪刀布",三局两胜,看谁更厉害!
+      </p>
+      <span class="tag">MediaPipe Hands · 21 个手部关键点</span>
+    </a>
+
+    <!-- 入口 2:表情识别 -->
+    <a class="card face" href="expression.html">
+      <div class="emoji">😄</div>
+      <h2>表情识别 · 表情大挑战</h2>
+      <p>
+        屏幕给出一个目标表情,你要在 60 秒内用脸做出来:
+        微笑、张嘴、眨眼、挑眉……看看你能得多少分!
+      </p>
+      <span class="tag">MediaPipe Face Mesh · 468 个面部关键点</span>
+    </a>
+
+    <!-- 入口 3:全身动作捕捉 -->
+    <a class="card body" href="body.html">
+      <div class="emoji">🕺</div>
+      <h2>全身动作 · 摘星星</h2>
+      <p>
+        后退一步,让整个身体入镜。挥动双手去碰屏幕上的星星,
+        还能实时检测"举手""深蹲"等全身动作。
+      </p>
+      <span class="tag">MediaPipe Pose · 33 个身体关键点</span>
+    </a>
+
+    <!-- 入口 4:手势算术 -->
+    <a class="card math" href="math.html">
+      <div class="emoji">🧮</div>
+      <h2>手势算术 · 手指算一算</h2>
+      <p>
+        屏幕出一道 10 以内的加减法,用手指比出答案就能答题!
+        握拳是 0,两只手最多能比到 10,比好保持 1 秒自动交卷。
+      </p>
+      <span class="tag">MediaPipe Hands · 双手数指 0~10</span>
+    </a>
+
+    <!-- 入口 5:轻松崩住 -->
+    <a class="card meme" href="meme.html">
+      <div class="emoji">🤣</div>
+      <h2>表情识别 · 轻松崩住</h2>
+      <p>
+        屏幕不断投喂全网最难绷的抽象表情包,而你只能绷住脸、不许笑!
+        摄像头盯着你的嘴角,一笑"崩值"就涨,涨满就输——看你能撑几秒!
+      </p>
+      <span class="tag">MediaPipe Face Mesh · 崩值检测</span>
+    </a>
+
+    <!-- 入口 6:手掌钢琴 -->
+    <a class="card piano" href="piano.html">
+      <div class="emoji">🎹</div>
+      <h2>动作识别 · 手掌钢琴</h2>
+      <p>
+        彩色音符像瀑布一样落下,音符落到琴键的一瞬间,
+        用手掌拍下对应颜色的键,弹出整首《小星星》!
+      </p>
+      <span class="tag">MediaPipe Hands · 手掌触发琴键</span>
+    </a>
+  </div>
+
+  <!-- ===================== 使用须知 ===================== -->
+  <div class="notice">
+    <b>使用前请阅读:</b><br>
+    ① 请使用较新版本的 Chrome 或 Edge 浏览器;<br>
+    ② 首次打开页面时,浏览器会询问"是否允许使用摄像头",请点击 <b>允许</b>;<br>
+    ③ 识别对光线比较敏感,请保证面部光线充足,避免逆光;<br>
+    ④ 请双击 <b>「一键启动.cmd」</b> 启动本地服务后再打开本页,不要直接双击 HTML 文件(浏览器安全策略会禁止 file:// 页面访问摄像头)。
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>表情识别 · 表情大挑战</title>
+<style>
+  /* ============================================================
+     全局样式
+     ============================================================ */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f1440 0%, #1a1f4d 45%, #2b1a5e 100%);
+    color: #eef0ff;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    padding: 20px;
+  }
+
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 18px; }
+  .back {
+    color: #9aa2d8; text-decoration: none; font-size: 14px;
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 6px 14px; border-radius: 999px; transition: 0.2s;
+  }
+  .back:hover { color: #fff; background: rgba(255,255,255,0.1); }
+  h1 { font-size: 24px; letter-spacing: 2px; }
+
+  main {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 18px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+
+  .panel {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 16px;
+    padding: 18px;
+  }
+  .panel h3 { font-size: 15px; color: #9aa2d8; margin-bottom: 12px; letter-spacing: 1px; }
+
+  /* ---------- 表情"仪表盘":四个表情通道的能量条 ---------- */
+  .meter { margin-bottom: 14px; }
+  .meter .row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #b9bfe8;
+    margin-bottom: 5px;
+  }
+  .meter .val { color: #fde68a; font-family: Consolas, monospace; }
+  .meter .bar {
+    height: 14px;
+    background: rgba(255,255,255,0.09);
+    border-radius: 999px;
+    overflow: hidden;
+    position: relative;
+  }
+  .meter .fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #60a5fa, #818cf8);
+    border-radius: 999px;
+    transition: width 0.08s linear;
+  }
+  /* 达标时整条变成绿色并发光 */
+  .meter.hit .fill { background: linear-gradient(90deg, #34d399, #10b981); }
+  .meter.hit .row  { color: #6ee7b7; }
+
+  /* ---------- 游戏按钮 ---------- */
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #2a1b03;
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .btn:hover  { filter: brightness(1.1); }
+
+  .tip { font-size: 13px; color: #9aa2d8; line-height: 1.9; margin-top: 12px; }
+
+  /* ---------- 右侧:HUD(计分条) + 摄像头画面 ---------- */
+  .hud {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .hud .box {
+    flex: 1;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 14px;
+    padding: 12px 16px;
+    text-align: center;
+  }
+  .hud .label { font-size: 12px; color: #9aa2d8; margin-bottom: 4px; }
+  .hud .big   { font-size: 34px; font-weight: bold; line-height: 1.15; }
+
+  /* 目标表情 + 完成进度条 */
+  .target-progress {
+    height: 8px;
+    margin-top: 8px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .target-progress .fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #34d399, #10b981);
+    border-radius: 999px;
+    transition: width 0.1s linear;
+  }
+
+  .camera-box {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #000;
+    min-height: 480px;
+  }
+  video, canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(-1);          /* 水平镜像,像照镜子 */
+  }
+  video { object-fit: cover; }
+  canvas { object-fit: contain; }
+
+  .cam-info {
+    position: absolute;
+    top: 10px; left: 10px;
+    z-index: 5;
+    font-size: 12px;
+    color: #a5f3fc;
+    background: rgba(0,0,0,0.45);
+    padding: 4px 10px;
+    border-radius: 8px;
+  }
+
+  /* 成功做出表情时,画布四边闪绿光 */
+  .camera-box.flash { box-shadow: 0 0 0 4px #34d399 inset; }
+
+  /* ---------- 加载/错误提示遮罩 ---------- */
+  .overlay {
+    position: absolute; inset: 0; z-index: 10;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 14px;
+    background: rgba(5, 8, 30, 0.92);
+    text-align: center; padding: 24px;
+    line-height: 1.9; font-size: 15px;
+  }
+  .overlay .spinner {
+    width: 42px; height: 42px;
+    border: 4px solid rgba(255,255,255,0.2);
+    border-top-color: #fbbf24;
+    border-radius: 50%;
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .overlay .retry {
+    padding: 10px 26px; border: none; border-radius: 10px;
+    background: #fbbf24; color: #2a1b03;
+    font-size: 15px; font-weight: bold; cursor: pointer;
+    display: none;
+  }
+
+  /* ---------- 面部关键点小课堂 ---------- */
+  .lesson { font-size: 13px; color: #b9bfe8; line-height: 2; }
+  .lesson code {
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    padding: 1px 7px;
+    font-family: Consolas, monospace;
+    color: #7dd3fc;
+  }
+</style>
+</head>
+<body>
+
+  <!-- ===================== 顶栏 ===================== -->
+  <header>
+    <a class="back" href="index.html">← 返回菜单</a>
+    <h1>😄 表情识别 · 表情大挑战</h1>
+  </header>
+
+  <main>
+    <!-- ===================== 左侧:仪表盘 + 游戏控制 ===================== -->
+    <div>
+
+      <!-- 面板 1:四个表情通道的实时数值 -->
+      <div class="panel" style="margin-bottom:18px;">
+        <h3>【表情仪表盘】屏幕会实时显示你脸上的"表情能量"</h3>
+
+        <div class="meter" id="meterSmile">
+          <div class="row"><span>😀 微笑度</span><span class="val" id="vSmile">0%</span></div>
+          <div class="bar"><div class="fill" id="bSmile"></div></div>
+        </div>
+
+        <div class="meter" id="meterOpen">
+          <div class="row"><span>😮 张嘴度</span><span class="val" id="vOpen">0%</span></div>
+          <div class="bar"><div class="fill" id="bOpen"></div></div>
+        </div>
+
+        <div class="meter" id="meterBlink">
+          <div class="row"><span>😉 闭眼程度</span><span class="val" id="vBlink">0%</span></div>
+          <div class="bar"><div class="fill" id="bBlink"></div></div>
+        </div>
+
+        <div class="meter" id="meterBrow">
+          <div class="row"><span>🤨 挑眉程度</span><span class="val" id="vBrow">0%</span></div>
+          <div class="bar"><div class="fill" id="bBrow"></div></div>
+        </div>
+      </div>
+
+      <!-- 面板 2:游戏开始按钮 + 规则 -->
+      <div class="panel" style="margin-bottom:18px;">
+        <h3>【表情大挑战】</h3>
+        <div class="tip" style="margin:0 0 14px;">
+          屏幕上方会出现一个<b>目标表情</b>,请对着摄像头把它"做"出来,
+          并保持一小会儿,即可得分。限时 <b>60 秒</b>,看你能拿多少分!
+        </div>
+        <button class="btn" id="startBtn">开 始 挑 战</button>
+      </div>
+
+      <!-- 面板 3:面部关键点小课堂 -->
+      <div class="panel">
+        <h3>【关键点小课堂】程序是怎么"看懂"表情的?</h3>
+        <div class="lesson">
+          模型会在你脸上找到 <code>468</code> 个关键点,我们只用了其中一小部分:<br>
+          · 嘴角:<code>61</code> <code>291</code>,上下唇内侧:<code>13</code> <code>14</code><br>
+          · 左眼:<code>33</code> <code>133</code> <code>159</code> <code>145</code><br>
+          · 右眼:<code>362</code> <code>263</code> <code>386</code> <code>374</code><br>
+          · 眉毛:<code>105</code> <code>334</code>,额头顶:<code>10</code>,下巴:<code>152</code><br>
+          程序计算这些点之间的<b>距离比例</b>(除以脸的长度,这样离摄像头
+          远近就不影响结果),再和阈值比较,就判断出了表情!
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== 右侧:HUD + 摄像头画面 ===================== -->
+    <div>
+      <!-- 顶部计分条:时间 / 目标表情 / 得分 -->
+      <div class="hud">
+        <div class="box">
+          <div class="label">剩余时间</div>
+          <div class="big" id="timeShow">60</div>
+        </div>
+        <div class="box" style="flex:1.4;">
+          <div class="label">请做出这个表情</div>
+          <div class="big" id="targetShow">点击开始!</div>
+          <div class="target-progress"><div class="fill" id="targetBar"></div></div>
+        </div>
+        <div class="box">
+          <div class="label">得分</div>
+          <div class="big" id="scoreShow">0</div>
+        </div>
+      </div>
+
+      <div class="camera-box" id="cameraBox">
+        <video id="video" autoplay muted playsinline></video>
+        <canvas id="canvas"></canvas>
+        <div class="cam-info" id="camInfo">FPS: --</div>
+
+        <div class="overlay" id="overlay">
+          <div class="spinner" id="spinner"></div>
+          <div id="overlayText">正在加载面部识别模型,请稍候…</div>
+          <button class="retry" id="retryBtn" onclick="location.reload()">重新加载</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 引入 MediaPipe 面部网格识别库(已下载到本地 libs 文件夹,离线可用) -->
+  <script src="./libs/face_mesh/face_mesh.js"></script>
+
+  <script>
+  /* ================================================================
+   * 😄 表情识别 · 表情大挑战
+   * ----------------------------------------------------------------
+   * 程序分成 7 个部分:
+   *   第 1 部分:获取页面元素 & 全局变量
+   *   第 2 部分:小工具函数
+   *   第 3 部分:加载 MediaPipe Face Mesh 模型(468 个面部关键点)
+   *   第 4 部分:打开摄像头 + 主循环
+   *   第 5 部分:表情判定算法(核心!距离比例 + 阈值)
+   *   第 6 部分:音效(用 Web Audio API 现场合成,不需要音频文件)
+   *   第 7 部分:表情挑战游戏逻辑
+   * ================================================================ */
+
+  /* ================================================================
+   * 第 1 部分:获取页面元素 & 全局变量
+   * ================================================================ */
+  const video  = document.getElementById('video');
+  const canvas = document.getElementById('canvas');
+  const ctx    = canvas.getContext('2d');
+
+  const camInfo     = document.getElementById('camInfo');
+  const overlay     = document.getElementById('overlay');
+  const overlayText = document.getElementById('overlayText');
+  const spinner     = document.getElementById('spinner');
+  const retryBtn    = document.getElementById('retryBtn');
+  const cameraBox   = document.getElementById('cameraBox');
+
+/* ---------------- 表情判定阈值(动手改一改,手感会不同!) ----------------
+ * 这些阈值决定了"多大幅度才算做出表情"。
+ * 数值都是"比例",和脸离摄像头的远近无关。 */
+const TH = {
+  mouthOpen: 0.10,   // 上下嘴唇距离 > 脸长的 10% → 认为"张嘴"
+  smile:     0.42,   // 嘴巴宽度 > 脸宽的 42% → 认为"微笑"
+  blinkEar:  0.16    // 眼睛开合比 < 0.16 → 认为"闭眼"
+};
+/* 注意:挑眉不在这里!
+ * 因为每个人眉毛的"基础位置"差别太大,固定阈值会误判。
+ * 我们改用"和自己比较"的算法,见第 5 部分的 browEMA(挑眉基准)。 */
+
+  /* ================================================================
+   * 第 2 部分:小工具函数
+   * ================================================================ */
+  function dist(a, b) { return Math.hypot(a.x - b.x, a.y - b.y); }
+
+  // 把任意数值"夹"到 0~1 之间
+  function clamp01(x) { return Math.max(0, Math.min(1, x)); }
+
+  /* ================================================================
+   * 第 3 部分:加载 MediaPipe Face Mesh 模型
+   * ================================================================ */
+  const faceMesh = new FaceMesh({
+    locateFile: (file) => `./libs/face_mesh/${file}`
+  });
+
+  faceMesh.setOptions({
+    maxNumFaces: 1,               // 最多识别 1 张脸
+    refineLandmarks: false,       // 不需要 iris(虹膜)精细点,速度更快
+    minDetectionConfidence: 0.5,
+    minTrackingConfidence: 0.5
+  });
+
+  faceMesh.onResults(onResults);
+
+  /* ================================================================
+   * 第 4 部分:打开摄像头 + 主循环
+   * ================================================================ */
+  async function startCamera() {
+    overlayText.textContent = '正在请求摄像头权限,请在浏览器弹窗中点击【允许】…';
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({
+        video: { width: 640, height: 480, facingMode: 'user' }
+      });
+      video.srcObject = stream;
+      await video.play();
+      canvas.width  = video.videoWidth;
+      canvas.height = video.videoHeight;
+    } catch (err) {
+      showFatalError(
+        '😢 无法打开摄像头(' + err.name + ')<br>' +
+        '请检查浏览器是否已允许本页使用摄像头,' +
+        '并且是通过「一键启动.cmd」打开的本页。'
+      );
+      throw err;
+    }
+  }
+
+  async function loop() {
+    if (video.readyState >= 2) {
+      await faceMesh.send({ image: video });
+    }
+    requestAnimationFrame(loop);
+  }
+
+  // 显示致命错误(比如摄像头被拒绝、模型加载失败)
+  let fatalShown = false;   // 防止错误提示被重复覆盖
+  function showFatalError(html) {
+    fatalShown = true;
+    spinner.style.display = 'none';
+    overlay.style.display = 'flex';
+    overlayText.innerHTML = html;
+    retryBtn.style.display = 'inline-block';
+  }
+
+  // 给慢操作加"超时保护":万一模型一直加载不出来,也要弹出提示,
+  // 绝不能让屏幕上永远转圈(那种情况最难排查)
+  function withTimeout(promise, ms, message) {
+    let timer;
+    const timeout = new Promise((_, reject) => {
+      timer = setTimeout(() => reject(new Error(message)), ms);
+    });
+    return Promise.race([promise, timeout]).finally(() => clearTimeout(timer));
+  }
+
+  (async function init() {
+    try {
+      /* 情况 1:直接双击 HTML 打开(地址以 file:// 开头)。
+         浏览器安全策略禁止 file:// 页面加载识别模型、使用摄像头,
+         所以必须通过「一键启动.cmd」打开 localhost 地址。 */
+      if (location.protocol === 'file:') {
+        showFatalError(
+          '🚫 你是【直接双击打开】的本页面(地址以 file:// 开头)<br><br>' +
+          '浏览器的安全策略禁止这种页面加载识别模型、使用摄像头,<br>' +
+          '所以会一直卡在初始化。<br><br>' +
+          '✅ 正确做法:双击项目文件夹里的 <b>「一键启动.cmd」</b>,<br>' +
+          '它会自动启动本地服务,并打开正确的 localhost 网址。');
+        return;
+      }
+
+      /* 情况 2:正常的 localhost 打开 → 初始化模型(限时 30 秒) */
+      overlayText.textContent = '正在初始化面部识别模型,首次约需几秒…';
+      await withTimeout(faceMesh.initialize(), 30000,
+        '模型加载超时。可能原因:① libs 文件夹没有和网页放在同一个文件夹;② 浏览器内核太旧(请换新版 Chrome 或 Edge)。解决后点击"重新加载"。');
+      await startCamera();
+      overlay.style.display = 'none';
+      loop();
+    } catch (err) {
+      // 摄像头的错误提示已经在 startCamera 里展示过了,
+      // 这里负责兜底展示其他所有初始化错误(比如模型加载失败)
+      if (!fatalShown) {
+        showFatalError('😢 初始化失败:' + (err && err.message ? err.message : err) + '<br>请按提示排查后,点击"重新加载"。');
+      }
+    }
+  })();
+
+  /* ================================================================
+   * 第 5 部分:表情判定算法(核心!)
+   * ----------------------------------------------------------------
+   * 思路:不直接"认表情",而是测量脸上几个关键距离,
+   *       再除以脸的长度(归一化),得到一组 0~1 的"比例值",
+   *       最后和阈值比较 → 得到 4 个表情开关。
+   * ================================================================ */
+  let expr = null;   // 最近一帧的表情计算结果
+
+  /* 挑眉基准(browEMA):每个人眉毛高低天生长得不一样,
+   * 用固定阈值判断"挑眉"很容易误判。所以程序会持续记录一个
+   * "你平时的眉毛位置"(滑动平均),眉毛只要比平时高出 15%
+   * 就算挑眉 —— 也就是"和自己比",谁来玩都准。 */
+  let browEMA = null;
+
+  function computeExpressions(lm) {
+    // 脸的"尺子":额头顶(10)到下巴(152)的长度
+    const faceH = dist(lm[10], lm[152]);
+    // 脸的宽度:左脸缘(234)到右脸缘(454)
+    const faceW = dist(lm[234], lm[454]);
+
+    // ---- 张嘴度:上下嘴唇内侧(13 和 14)的距离 ----
+    const mouthOpen = dist(lm[13], lm[14]) / faceH;
+
+    // ---- 嘴宽:左右嘴角(61 和 291)的距离 / 脸宽 ----
+    // 笑的时候嘴角向后拉,嘴会明显变宽
+    const mouthWidth = dist(lm[61], lm[291]) / faceW;
+
+    // ---- 眼睛开合比(EAR):上下眼睑距离 / 眼睛宽度 ----
+    // 睁眼约 0.25~0.4,闭眼时接近 0
+    const earL = dist(lm[159], lm[145]) / dist(lm[33],  lm[133]); // 左眼
+    const earR = dist(lm[386], lm[374]) / dist(lm[362], lm[263]); // 右眼
+    const ear  = (earL + earR) / 2;
+
+    // ---- 挑眉度:眉毛上沿到眼睛上沿的距离 / 脸长 ----
+    // 挑眉时眉毛抬高,距离变大
+    const brow = (dist(lm[105], lm[159]) + dist(lm[334], lm[386])) / 2 / faceH;
+
+    // ---- 和"平时的眉毛位置"比较,判断是否挑眉 ----
+    if (browEMA === null) browEMA = brow;          // 第一帧:先记下初始位置
+    const isBrow = brow > browEMA * 1.15;          // 比平时高 15% = 挑眉
+    if (!isBrow) {
+      // 只在"没挑眉"的时候缓慢更新基准(0.95 旧 + 0.05 新),
+      // 这样就算一直挑眉,基准也不会慢慢追上来导致漏检
+      browEMA = browEMA * 0.95 + brow * 0.05;
+    }
+
+    // ---- 汇总成 4 个"表情开关"+ 用于画进度条的进度值 ----
+    return {
+      // 开关(布尔值):是否做出了这个表情
+      isOpen:  mouthOpen > TH.mouthOpen,
+      isSmile: mouthWidth > TH.smile && mouthOpen < TH.mouthOpen,  // 张嘴大笑不算微笑
+      isBlink: ear < TH.blinkEar,
+      isBrow:  isBrow,
+      // 进度值(0~1):画仪表盘用,数值越接近 1 表示"越接近做出该表情"
+      pOpen:  clamp01((mouthOpen - 0.05) / (TH.mouthOpen - 0.05)),
+      pSmile: clamp01((mouthWidth - 0.34) / (TH.smile - 0.34)),
+      pBlink: clamp01((0.26 - ear) / (0.26 - TH.blinkEar)),
+      pBrow:  clamp01((brow / browEMA - 1.03) / (1.15 - 1.03))
+    };
+  }
+
+  // 把仪表盘的四个能量条刷新成最新数值
+  function updateMeters(e) {
+    setMeter('meterSmile', 'bSmile', 'vSmile', e.pSmile, e.isSmile);
+    setMeter('meterOpen',  'bOpen',  'vOpen',  e.pOpen,  e.isOpen);
+    setMeter('meterBlink', 'bBlink', 'vBlink', e.pBlink, e.isBlink);
+    setMeter('meterBrow',  'bBrow',  'vBrow',  e.pBrow,  e.isBrow);
+  }
+  function setMeter(meterId, barId, valId, p, hit) {
+    document.getElementById(meterId).classList.toggle('hit', hit);
+    document.getElementById(barId).style.width = (p * 100).toFixed(0) + '%';
+    document.getElementById(valId).textContent = (p * 100).toFixed(0) + '%';
+  }
+
+  /**
+   * 每帧识别完成后调用这里
+   */
+  let fpsCount = 0, fpsTime = performance.now();
+
+  function onResults(results) {
+    // ---- FPS 统计 ----
+    fpsCount++;
+    const now = performance.now();
+    if (now - fpsTime >= 1000) {
+      camInfo.textContent = `FPS: ${fpsCount}`;
+      fpsCount = 0; fpsTime = now;
+    }
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    if (!results.multiFaceLandmarks || results.multiFaceLandmarks.length === 0) {
+      expr = null;
+      return;
+    }
+
+    const lm = results.multiFaceLandmarks[0];   // 468 个关键点
+    expr = computeExpressions(lm);
+    updateMeters(expr);
+
+    // ---------------- 在脸上画"扫描网格" ----------------
+    // FACEMESH_TESSELATION 是 face_mesh.js 自带的三角形网格连接表,
+    // 把它画出来就是很酷的"面部扫描"特效。
+    ctx.strokeStyle = 'rgba(103, 232, 249, 0.30)';
+    ctx.lineWidth = 0.6;
+    for (const pair of FACEMESH_TESSELATION) {
+      const a = lm[pair[0]], b = lm[pair[1]];
+      ctx.beginPath();
+      ctx.moveTo(a.x * canvas.width, a.y * canvas.height);
+      ctx.lineTo(b.x * canvas.width, b.y * canvas.height);
+      ctx.stroke();
+    }
+
+    // ---------------- 重点区域高亮:眼睛 / 眉毛 / 嘴巴 ----------------
+    drawRegion(lm, FACEMESH_LIPS,        '#f472b6', 2);   // 嘴 → 粉色
+    drawRegion(lm, FACEMESH_LEFT_EYE,    '#fde68a', 2);   // 眼 → 黄色
+    drawRegion(lm, FACEMESH_RIGHT_EYE,   '#fde68a', 2);
+    drawRegion(lm, FACEMESH_LEFT_EYEBROW,'#a78bfa', 2);   // 眉 → 紫色
+    drawRegion(lm, FACEMESH_RIGHT_EYEBROW,'#a78bfa', 2);
+
+    // 游戏进行中时,顺便更新游戏的"按住进度"
+    gameFrame(now);
+  }
+
+  // 高亮某个区域(比如嘴巴):把区域里的连接线描一遍
+  function drawRegion(lm, connections, color, width) {
+    if (!connections) return;   // 防止老版本库没有这个变量
+    ctx.strokeStyle = color;
+    ctx.lineWidth = width;
+    for (const pair of connections) {
+      const a = lm[pair[0]], b = lm[pair[1]];
+      ctx.beginPath();
+      ctx.moveTo(a.x * canvas.width, a.y * canvas.height);
+      ctx.lineTo(b.x * canvas.width, b.y * canvas.height);
+      ctx.stroke();
+    }
+  }
+
+  /* ================================================================
+   * 第 6 部分:音效(Web Audio API 现场合成)
+   * ----------------------------------------------------------------
+   * 不需要任何 mp3 文件:声音由"振荡器(Oscillator)"现场发出。
+   * beep(频率, 时长, 延迟, 波形, 音量) —— 改改数字就能创作新音效。
+   * 注意:浏览器规定声音必须由用户点击触发,所以第一次点击
+   * 「开始挑战」按钮时才会创建音频上下文,之后声音就正常了。
+   * ================================================================ */
+  let audioCtx = null;
+
+  function beep(freq, duration, delay = 0, type = 'sine', volume = 0.35) {
+    try {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const t0   = audioCtx.currentTime + delay;
+      const osc  = audioCtx.createOscillator();   // 振荡器:发出指定频率的声波
+      const gain = audioCtx.createGain();         // 增益器:控制音量
+      osc.type = type;
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(volume, t0);
+      gain.gain.exponentialRampToValueAtTime(0.001, t0 + duration);  // 声音淡出
+      osc.connect(gain).connect(audioCtx.destination);
+      osc.start(t0);
+      osc.stop(t0 + duration);
+    } catch (e) { /* 电脑没有声音设备也不影响游戏进行 */ }
+  }
+
+  // 五声音阶(宫商角徵羽):得分时音高沿音阶"步步高升",越连越亮
+  const SCALE = [523, 587, 659, 784, 880, 1047, 1175, 1319];
+
+  const sndStart  = () => { beep(523, 0.12); beep(784, 0.2, 0.12); };         // 开始:上行两音
+  const sndScore  = (n) => { const f = SCALE[n % SCALE.length];               // 得分:叮咚
+                             beep(f, 0.1); beep(f * 1.5, 0.16, 0.08); };
+  const sndTick   = () => beep(988, 0.08, 0, 'square', 0.25);                 // 最后 5 秒:急促滴答
+  const sndWin    = () => { beep(523, 0.12); beep(659, 0.12, 0.13);           // 高分收官:胜利音阶
+                            beep(784, 0.12, 0.26); beep(1047, 0.35, 0.39); };
+  const sndTimeUp = () => { beep(440, 0.25); beep(330, 0.4, 0.25); };         // 普通结束:收工音
+
+  /* ================================================================
+   * 第 7 部分:表情挑战游戏逻辑
+   * ----------------------------------------------------------------
+   * 规则:出现目标表情 → 你对着摄像头做出来并【保持一小会儿】
+   *       → 进度条充满 → +10 分(叮咚声,连击音高上升)→ 换下一个目标
+   * ================================================================ */
+  const startBtn   = document.getElementById('startBtn');
+  const timeShow   = document.getElementById('timeShow');
+  const targetShow = document.getElementById('targetShow');
+  const targetBar  = document.getElementById('targetBar');
+  const scoreShow  = document.getElementById('scoreShow');
+
+  // 四种目标表情:名字、图标,以及"怎么判断做出来了"
+  const TARGETS = [
+    { name: '微笑', emoji: '😊', check: e => e.isSmile },
+    { name: '张大嘴', emoji: '😮', check: e => e.isOpen },
+    { name: '眨眼', emoji: '😉', check: e => e.isBlink },
+    { name: '挑眉', emoji: '🤨', check: e => e.isBrow },
+  ];
+
+  const GAME_SECONDS = 60;      // 游戏总时长
+  const HOLD_MS = 600;          // 做出表情需要保持多久(想更难就调大)
+
+  let playing   = false;        // 是否正在进行游戏
+  let timeLeft  = 0;            // 剩余秒数
+  let score     = 0;            // 当前得分
+  let target    = null;         // 当前的目标表情
+  let holdProgress = 0;         // 当前表情已经保持了多少(0~1)
+  let lastFrameTime = null;     // 上一帧的时间,用来计算进度
+
+  startBtn.addEventListener('click', startGame);
+
+  function startGame() {
+    playing = true;
+    score = 0;
+    timeLeft = GAME_SECONDS;
+    scoreShow.textContent = '0';
+    pickNewTarget();
+    sndStart();                        // 开始音效(顺便激活浏览器音频权限)
+    startBtn.textContent = '挑战进行中…';
+    startBtn.disabled = true;
+
+    // 倒计时:每秒减 1,减到 0 结束游戏
+    const timer = setInterval(() => {
+      timeLeft--;
+      timeShow.textContent = timeLeft;
+      if (timeLeft <= 0) {
+        clearInterval(timer);
+        endGame();
+      } else if (timeLeft <= 5) {
+        sndTick();                     // 最后 5 秒:急促滴答声,营造紧张感
+      }
+    }, 1000);
+  }
+
+  // 随机挑一个新目标(不跟上一个重复)
+  function pickNewTarget() {
+    let next;
+    do {
+      next = TARGETS[Math.floor(Math.random() * TARGETS.length)];
+    } while (target && next.name === target.name);
+    target = next;
+    holdProgress = 0;
+    targetShow.textContent = target.emoji + ' ' + target.name;
+  }
+
+  /**
+   * 每一帧识别完成后,由 onResults 调用这里。
+   * 用时间差(而不是帧数)来累计"保持时长",这样不依赖帧率。
+   */
+  function gameFrame(now) {
+    if (!playing || !target || !expr) return;
+
+    const dt = lastFrameTime ? now - lastFrameTime : 16;  // 距离上一帧过了几毫秒
+    lastFrameTime = now;
+
+    if (target.check(expr)) {
+      // 做出了目标表情 → 进度增加
+      holdProgress += dt / HOLD_MS;
+    } else {
+      // 没做出来 → 进度缓慢回退(给玩家一点容错)
+      holdProgress -= dt / (HOLD_MS * 2);
+    }
+    holdProgress = Math.max(0, Math.min(1, holdProgress));
+    targetBar.style.width = (holdProgress * 100).toFixed(0) + '%';
+
+    // 进度充满 → 得分!换下一个目标
+    if (holdProgress >= 1) {
+      score += 10;
+      scoreShow.textContent = score;
+      sndScore(score / 10 - 1);        // 叮咚!第几次得分就弹音阶的第几个音
+      targetShow.textContent = '✅ 太棒了!';
+      cameraBox.classList.add('flash');                  // 闪一下绿光
+      setTimeout(() => cameraBox.classList.remove('flash'), 300);
+      setTimeout(() => { if (playing) pickNewTarget(); }, 350);
+      target = null;   // 防止重复计分
+      targetBar.style.width = '0%';
+    }
+  }
+
+  function endGame() {
+    playing = false;
+    targetBar.style.width = '0%';
+    score >= 60 ? sndWin() : sndTimeUp();   // 高分放胜利音阶,否则放收工音
+    // 按分数给一个"称号",增加课堂趣味性
+    let title = '🌱 表情新手';
+    if      (score >= 100) title = '🏆 表情大师';
+    else if (score >= 60)  title = '🎭 表情达人';
+    else if (score >= 30)  title = '😏 小有进步';
+    targetShow.textContent = '结束!';
+    startBtn.textContent = `得分 ${score} · ${title}(点击再来)`;
+    startBtn.disabled = false;
+  }
+  </script>
+</body>
+</html>

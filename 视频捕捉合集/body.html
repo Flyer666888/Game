@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全身动作 · 摘星星</title>
+<style>
+  /* ============================================================
+     全局样式
+     ============================================================ */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f1440 0%, #1a1f4d 45%, #2b1a5e 100%);
+    color: #eef0ff;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    padding: 20px;
+  }
+
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 18px; }
+  .back {
+    color: #9aa2d8; text-decoration: none; font-size: 14px;
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 6px 14px; border-radius: 999px; transition: 0.2s;
+  }
+  .back:hover { color: #fff; background: rgba(255,255,255,0.1); }
+  h1 { font-size: 24px; letter-spacing: 2px; }
+
+  main {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 18px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+
+  .panel {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 16px;
+    padding: 18px;
+  }
+  .panel h3 { font-size: 15px; color: #9aa2d8; margin-bottom: 12px; letter-spacing: 1px; }
+
+  /* ---------- 动作检测面板:一行一个动作 ---------- */
+  .action-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.06);
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #8b91c6;                 /* 没检测到时是暗色 */
+    transition: 0.15s;
+  }
+  .action-row .icon { font-size: 20px; width: 28px; text-align: center; }
+  .action-row.on {                  /* 检测到动作时点亮成粉色 */
+    background: rgba(244, 114, 182, 0.18);
+    color: #fbcfe8;
+    box-shadow: 0 0 12px rgba(244, 114, 182, 0.25) inset;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #3b0724;
+    background: linear-gradient(135deg, #f472b6, #ec4899);
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .btn:hover { filter: brightness(1.1); }
+
+  .tip { font-size: 13px; color: #9aa2d8; line-height: 1.9; margin-top: 12px; }
+
+  /* ---------- 右侧:HUD + 摄像头画面 ---------- */
+  .hud {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .hud .box {
+    flex: 1;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 14px;
+    padding: 12px 16px;
+    text-align: center;
+  }
+  .hud .label { font-size: 12px; color: #9aa2d8; margin-bottom: 4px; }
+  .hud .big   { font-size: 32px; font-weight: bold; line-height: 1.15; }
+
+  .camera-box {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #000;
+    min-height: 480px;
+  }
+  video, canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(-1);           /* 水平镜像,像照镜子 */
+  }
+  video { object-fit: cover; }
+  canvas { object-fit: contain; }
+
+  .cam-info {
+    position: absolute;
+    top: 10px; left: 10px;
+    z-index: 5;
+    font-size: 12px;
+    color: #a5f3fc;
+    background: rgba(0,0,0,0.45);
+    padding: 4px 10px;
+    border-radius: 8px;
+  }
+
+  /* 站位提示:人没进入画面时显示 */
+  .stand-hint {
+    position: absolute;
+    bottom: 14px; left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    font-size: 14px;
+    color: #fde68a;
+    background: rgba(0,0,0,0.55);
+    padding: 8px 18px;
+    border-radius: 999px;
+    display: none;
+  }
+
+  /* ---------- 加载/错误提示遮罩 ---------- */
+  .overlay {
+    position: absolute; inset: 0; z-index: 10;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 14px;
+    background: rgba(5, 8, 30, 0.92);
+    text-align: center; padding: 24px;
+    line-height: 1.9; font-size: 15px;
+  }
+  .overlay .spinner {
+    width: 42px; height: 42px;
+    border: 4px solid rgba(255,255,255,0.2);
+    border-top-color: #f472b6;
+    border-radius: 50%;
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .overlay .retry {
+    padding: 10px 26px; border: none; border-radius: 10px;
+    background: #f472b6; color: #3b0724;
+    font-size: 15px; font-weight: bold; cursor: pointer;
+    display: none;
+  }
+
+  /* ---------- 关键点小课堂 ---------- */
+  .lesson { font-size: 13px; color: #b9bfe8; line-height: 2; }
+  .lesson code {
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    padding: 1px 7px;
+    font-family: Consolas, monospace;
+    color: #7dd3fc;
+  }
+</style>
+</head>
+<body>
+
+  <!-- ===================== 顶栏 ===================== -->
+  <header>
+    <a class="back" href="index.html">← 返回菜单</a>
+    <h1>🕺 全身动作 · 摘星星</h1>
+  </header>
+
+  <main>
+    <!-- ===================== 左侧:动作检测 + 游戏控制 ===================== -->
+    <div>
+
+      <!-- 面板 1:实时动作检测 -->
+      <div class="panel" style="margin-bottom:18px;">
+        <h3>【动作检测】做做看,图标会亮起来</h3>
+        <div class="action-row" id="actL"><span class="icon">🤚</span>左手举过肩膀</div>
+        <div class="action-row" id="actR"><span class="icon">🖐️</span>右手举过肩膀</div>
+        <div class="action-row" id="actBoth"><span class="icon">🙌</span>双手同时举起</div>
+        <div class="action-row" id="actSquat"><span class="icon">🏋️</span>深蹲(屁股低于膝盖)</div>
+      </div>
+
+      <!-- 面板 2:游戏控制 -->
+      <div class="panel" style="margin-bottom:18px;">
+        <h3>【摘星星挑战】</h3>
+        <div class="tip" style="margin:0 0 14px;">
+          请<b>后退一步</b>让上半身入镜,屏幕上会出现星星,
+          用<b>双手</b>(鼻子也可以!)去碰星星,碰到就得分。限时 <b>60 秒</b>!
+        </div>
+        <button class="btn" id="startBtn">开 始 挑 战</button>
+      </div>
+
+      <!-- 面板 3:关键点小课堂 -->
+      <div class="panel">
+        <h3>【关键点小课堂】模型能找到 33 个身体关键点</h3>
+        <div class="lesson">
+          常用编号:<code>0</code> 鼻子,<code>11</code>/<code>12</code> 左/右肩,
+          <code>13</code>/<code>14</code> 手肘,<code>15</code>/<code>16</code> 手腕,
+          <code>23</code>/<code>24</code> 髋部,<code>25</code>/<code>26</code> 膝盖。<br>
+          每个点还带一个 <code>visibility</code>(可见度,0~1),
+          程序先判断"这个点真的在画面里吗",再计算动作,防止误判。<br>
+          比如"左手举起" = 左手腕的 y 坐标 &lt; 左肩的 y 坐标
+          (画面坐标 y 越小越靠上)。
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== 右侧:HUD + 摄像头画面 ===================== -->
+    <div>
+      <div class="hud">
+        <div class="box">
+          <div class="label">剩余时间</div>
+          <div class="big" id="timeShow">60</div>
+        </div>
+        <div class="box">
+          <div class="label">得分</div>
+          <div class="big" id="scoreShow">0</div>
+        </div>
+        <div class="box">
+          <div class="label">已摘星星</div>
+          <div class="big" id="starShow">🌟 × 0</div>
+        </div>
+      </div>
+
+      <div class="camera-box" id="cameraBox">
+        <video id="video" autoplay muted playsinline></video>
+        <canvas id="canvas"></canvas>
+        <div class="cam-info" id="camInfo">FPS: --</div>
+        <div class="stand-hint" id="standHint">⚠️ 看不到你的肩膀,请后退一点,让上半身入镜</div>
+
+        <div class="overlay" id="overlay">
+          <div class="spinner" id="spinner"></div>
+          <div id="overlayText">正在加载人体姿态模型,首次约需十几秒…</div>
+          <button class="retry" id="retryBtn" onclick="location.reload()">重新加载</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 引入 MediaPipe 人体姿态识别库(已下载到本地 libs 文件夹,离线可用) -->
+  <script src="./libs/pose/pose.js"></script>
+
+  <script>
+  /* ================================================================
+   * 🕺 全身动作 · 摘星星
+   * ----------------------------------------------------------------
+   * 程序分成 7 个部分:
+   *   第 1 部分:获取页面元素 & 全局变量
+   *   第 2 部分:小工具函数
+   *   第 3 部分:加载 MediaPipe Pose 模型(33 个身体关键点)
+   *   第 4 部分:打开摄像头 + 主循环
+   *   第 5 部分:动作判定(举手 / 深蹲)+ 骨骼绘制
+   *   第 6 部分:音效(用 Web Audio API 现场合成,不需要音频文件)
+   *   第 7 部分:摘星星游戏逻辑
+   * ================================================================ */
+
+  /* ================================================================
+   * 第 1 部分:获取页面元素 & 全局变量
+   * ================================================================ */
+  const video  = document.getElementById('video');
+  const canvas = document.getElementById('canvas');
+  const ctx    = canvas.getContext('2d');
+
+  const camInfo     = document.getElementById('camInfo');
+  const standHint   = document.getElementById('standHint');
+  const overlay     = document.getElementById('overlay');
+  const overlayText = document.getElementById('overlayText');
+  const spinner     = document.getElementById('spinner');
+  const retryBtn    = document.getElementById('retryBtn');
+
+  /* ================================================================
+   * 第 2 部分:小工具函数
+   * ================================================================ */
+  // 把归一化坐标(0~1)换算成画布上的像素坐标
+  function px(p) { return { x: p.x * canvas.width, y: p.y * canvas.height }; }
+
+  /* ================================================================
+   * 第 3 部分:加载 MediaPipe Pose 模型
+   * ================================================================ */
+  const pose = new Pose({
+    locateFile: (file) => `./libs/pose/${file}`
+  });
+
+  pose.setOptions({
+    modelComplexity: 1,          // 0=轻量快速 1=精确(推荐)
+    smoothLandmarks: true,       // 关键点平滑,减少抖动
+    minDetectionConfidence: 0.5,
+    minTrackingConfidence: 0.5
+  });
+
+  pose.onResults(onResults);
+
+  /* ================================================================
+   * 第 4 部分:打开摄像头 + 主循环
+   * ================================================================ */
+  async function startCamera() {
+    overlayText.textContent = '正在请求摄像头权限,请在浏览器弹窗中点击【允许】…';
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({
+        video: { width: 640, height: 480, facingMode: 'user' }
+      });
+      video.srcObject = stream;
+      await video.play();
+      canvas.width  = video.videoWidth;
+      canvas.height = video.videoHeight;
+    } catch (err) {
+      showFatalError(
+        '😢 无法打开摄像头(' + err.name + ')<br>' +
+        '请检查浏览器是否已允许本页使用摄像头,' +
+        '并且是通过「一键启动.cmd」打开的本页。'
+      );
+      throw err;
+    }
+  }
+
+  async function loop() {
+    if (video.readyState >= 2) {
+      await pose.send({ image: video });
+    }
+    requestAnimationFrame(loop);
+  }
+
+  // 显示致命错误(比如摄像头被拒绝、模型加载失败)
+  let fatalShown = false;   // 防止错误提示被重复覆盖
+  function showFatalError(html) {
+    fatalShown = true;
+    spinner.style.display = 'none';
+    overlay.style.display = 'flex';
+    overlayText.innerHTML = html;
+    retryBtn.style.display = 'inline-block';
+  }
+
+  // 给慢操作加"超时保护":万一模型一直加载不出来,也要弹出提示,
+  // 绝不能让屏幕上永远转圈(那种情况最难排查)
+  function withTimeout(promise, ms, message) {
+    let timer;
+    const timeout = new Promise((_, reject) => {
+      timer = setTimeout(() => reject(new Error(message)), ms);
+    });
+    return Promise.race([promise, timeout]).finally(() => clearTimeout(timer));
+  }
+
+  (async function init() {
+    try {
+      /* 情况 1:直接双击 HTML 打开(地址以 file:// 开头)。
+         浏览器安全策略禁止 file:// 页面加载识别模型、使用摄像头,
+         所以必须通过「一键启动.cmd」打开 localhost 地址。 */
+      if (location.protocol === 'file:') {
+        showFatalError(
+          '🚫 你是【直接双击打开】的本页面(地址以 file:// 开头)<br><br>' +
+          '浏览器的安全策略禁止这种页面加载识别模型、使用摄像头,<br>' +
+          '所以会一直卡在初始化。<br><br>' +
+          '✅ 正确做法:双击项目文件夹里的 <b>「一键启动.cmd」</b>,<br>' +
+          '它会自动启动本地服务,并打开正确的 localhost 网址。');
+        return;
+      }
+
+      /* 情况 2:正常的 localhost 打开 → 初始化模型(限时 30 秒) */
+      overlayText.textContent = '正在初始化人体姿态模型,首次约需十几秒…';
+      await withTimeout(pose.initialize(), 30000,
+        '模型加载超时。可能原因:① libs 文件夹没有和网页放在同一个文件夹;② 浏览器内核太旧(请换新版 Chrome 或 Edge)。解决后点击"重新加载"。');
+      await startCamera();
+      overlay.style.display = 'none';
+      loop();
+    } catch (err) {
+      // 摄像头的错误提示已经在 startCamera 里展示过了,
+      // 这里负责兜底展示其他所有初始化错误(比如模型加载失败)
+      if (!fatalShown) {
+        showFatalError('😢 初始化失败:' + (err && err.message ? err.message : err) + '<br>请按提示排查后,点击"重新加载"。');
+      }
+    }
+  })();
+
+  /* ================================================================
+   * 第 5 部分:动作判定(核心!)+ 骨骼绘制
+   * ----------------------------------------------------------------
+   * 画面坐标系:左上角是原点(0,0),
+   *   x 越大越靠右,y 越大越靠【下】—— 注意 y 是反的!
+   * ================================================================ */
+  let fpsCount = 0, fpsTime = performance.now();
+
+  function onResults(results) {
+    // ---- FPS 统计 ----
+    fpsCount++;
+    const now = performance.now();
+    if (now - fpsTime >= 1000) {
+      camInfo.textContent = `FPS: ${fpsCount}`;
+      fpsCount = 0; fpsTime = now;
+    }
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    if (!results.poseLandmarks) {
+      // 没检测到人
+      standHint.style.display = 'none';
+      ['actL', 'actR', 'actBoth', 'actSquat'].forEach(
+        id => document.getElementById(id).classList.remove('on'));
+      drawStars(now);           // 就算没人,星星也要继续飘
+      return;
+    }
+
+    const lm = results.poseLandmarks;   // 33 个关键点
+
+    /* ---------------- 1. 画全身骨骼 ----------------
+       POSE_CONNECTIONS 是 pose.js 自带的"骨骼连接表",
+       例如 [11,13] 表示 左肩连左手肘。 */
+    ctx.strokeStyle = '#f472b6';
+    ctx.lineWidth = 4;
+    ctx.lineCap = 'round';
+    for (const pair of POSE_CONNECTIONS) {
+      const a = lm[pair[0]], b = lm[pair[1]];
+      // 只画"看得见"的两点之间的连线,防止画出横穿屏幕的乱线
+      if (a.visibility > 0.5 && b.visibility > 0.5) {
+        ctx.beginPath();
+        ctx.moveTo(px(a).x, px(a).y);
+        ctx.lineTo(px(b).x, px(b).y);
+        ctx.stroke();
+      }
+    }
+    // 画关键点
+    ctx.fillStyle = '#fbcfe8';
+    for (const p of lm) {
+      if (p.visibility > 0.5) {
+        ctx.beginPath();
+        ctx.arc(px(p).x, px(p).y, 4, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    /* ---------------- 2. 动作判定 ---------------- */
+    // 两个可信度门槛:关键点要"看得见"才参与判断
+    const vis = i => lm[i].visibility > 0.5;
+
+    // 左手举起:左手腕(15)比左肩(11)高
+    const leftUp  = vis(15) && vis(11) && lm[15].y < lm[11].y;
+    // 右手举起:右手腕(16)比右肩(12)高
+    const rightUp = vis(16) && vis(12) && lm[16].y < lm[12].y;
+    // 双手同时举起
+    const bothUp  = leftUp && rightUp;
+    // 深蹲:两个髋部(23/24)的平均高度低于两个膝盖(25/26)
+    // (y 越大越靠下,"髋比膝低" = 蹲下去了)
+    const squat   = vis(23) && vis(24) && vis(25) && vis(26) &&
+                    (lm[23].y + lm[24].y) / 2 > (lm[25].y + lm[26].y) / 2;
+
+    setAction('actL', leftUp);
+    setAction('actR', rightUp);
+    setAction('actBoth', bothUp);
+    setAction('actSquat', squat);
+
+    // 肩膀看不到 → 提示后退
+    const personVisible = vis(11) || vis(12);
+    standHint.style.display = personVisible ? 'none' : 'block';
+
+    /* ---------------- 3. 手腕变成"游戏光标" ---------------- */
+    const cursors = [];
+    if (vis(15)) cursors.push(px(lm[15]));   // 左手腕
+    if (vis(16)) cursors.push(px(lm[16]));   // 右手腕
+    if (vis(0))  cursors.push(px(lm[0]));    // 鼻子也能玩!(不想要可删掉这行)
+
+    // 给每个光标画一个半透明圆圈,让玩家知道"触碰到哪里"
+    ctx.strokeStyle = 'rgba(253, 224, 71, 0.9)';
+    ctx.lineWidth = 3;
+    for (const c of cursors) {
+      ctx.beginPath();
+      ctx.arc(c.x, c.y, CURSOR_RADIUS, 0, Math.PI * 2);
+      ctx.stroke();
+    }
+
+    /* ---------------- 4. 游戏逐帧更新 ---------------- */
+    gameFrame(cursors, now);
+    drawStars(now);
+    drawParticles();
+  }
+
+  function setAction(id, on) {
+    document.getElementById(id).classList.toggle('on', on);
+  }
+
+  /* ================================================================
+   * 第 6 部分:音效(Web Audio API 现场合成)
+   * ----------------------------------------------------------------
+   * 不需要任何 mp3 文件:声音由"振荡器(Oscillator)"现场发出。
+   * beep(频率, 时长, 延迟, 波形, 音量) —— 改改数字就能创作新音效。
+   * 注意:浏览器规定声音必须由用户点击触发,所以第一次点击
+   * 「开始挑战」按钮时才会创建音频上下文,之后声音就正常了。
+   * ================================================================ */
+  let audioCtx = null;
+
+  function beep(freq, duration, delay = 0, type = 'sine', volume = 0.35) {
+    try {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const t0   = audioCtx.currentTime + delay;
+      const osc  = audioCtx.createOscillator();   // 振荡器:发出指定频率的声波
+      const gain = audioCtx.createGain();         // 增益器:控制音量
+      osc.type = type;
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(volume, t0);
+      gain.gain.exponentialRampToValueAtTime(0.001, t0 + duration);  // 声音淡出
+      osc.connect(gain).connect(audioCtx.destination);
+      osc.start(t0);
+      osc.stop(t0 + duration);
+    } catch (e) { /* 电脑没有声音设备也不影响游戏进行 */ }
+  }
+
+  // 五声音阶(宫商角徵羽):摘到星星时音高沿音阶"步步高升",连摘越爽音越亮
+  const SCALE = [523, 587, 659, 784, 880, 1047, 1175, 1319];
+
+  const sndStart  = () => { beep(523, 0.12); beep(784, 0.2, 0.12); };         // 开始:上行两音
+  const sndCatch  = (n) => { const f = SCALE[n % SCALE.length];               // 摘到星星:叮咚
+                             beep(f, 0.1); beep(f * 1.5, 0.16, 0.08); };
+  const sndTick   = () => beep(988, 0.08, 0, 'square', 0.25);                 // 最后 5 秒:急促滴答
+  const sndWin    = () => { beep(523, 0.12); beep(659, 0.12, 0.13);           // 高分收官:胜利音阶
+                            beep(784, 0.12, 0.26); beep(1047, 0.35, 0.39); };
+  const sndTimeUp = () => { beep(440, 0.25); beep(330, 0.4, 0.25); };         // 普通结束:收工音
+
+  /* ================================================================
+   * 第 7 部分:摘星星游戏逻辑
+   * ================================================================ */
+  const startBtn  = document.getElementById('startBtn');
+  const timeShow  = document.getElementById('timeShow');
+  const scoreShow = document.getElementById('scoreShow');
+  const starShow  = document.getElementById('starShow');
+
+  const GAME_SECONDS  = 60;    // 游戏时长
+  const STAR_COUNT    = 3;     // 屏幕上同时有几颗星星
+  const STAR_RADIUS   = 46;    // 星星被判定"碰到"的范围(像素)
+  const CURSOR_RADIUS = 42;    // 手腕光标的判定半径(像素)
+
+  let playing = false;
+  let score = 0;
+  let starCaught = 0;
+  let timeLeft = GAME_SECONDS;
+  let stars = [];       // 星星数组:{x, y, phase(用于飘动动画)}
+  let particles = [];   // 接住星星时的粒子特效
+
+  startBtn.addEventListener('click', startGame);
+
+  function startGame() {
+    playing = true;
+    score = 0;
+    starCaught = 0;
+    timeLeft = GAME_SECONDS;
+    scoreShow.textContent = '0';
+    starShow.textContent = '🌟 × 0';
+    timeShow.textContent = timeLeft;
+    spawnStars();
+    sndStart();                        // 开始音效(顺便激活浏览器音频权限)
+    startBtn.textContent = '挑战进行中…';
+    startBtn.disabled = true;
+
+    // 倒计时:每秒减 1,减到 0 结束游戏
+    const timer = setInterval(() => {
+      timeLeft--;
+      timeShow.textContent = timeLeft;
+      if (timeLeft <= 0) {
+        clearInterval(timer);
+        endGame();
+      } else if (timeLeft <= 5) {
+        sndTick();                     // 最后 5 秒:急促滴答声,营造紧张感
+      }
+    }, 1000);
+  }
+
+  // 在画面里随机放几颗星星(避开边缘,免得够不着)
+  function spawnStars() {
+    stars = [];
+    for (let i = 0; i < STAR_COUNT; i++) stars.push(spawnOne());
+  }
+  function spawnOne() {
+    return {
+      x: STAR_RADIUS + Math.random() * (canvas.width  - STAR_RADIUS * 2),
+      y: canvas.height * 0.15 + Math.random() * (canvas.height * 0.7 - STAR_RADIUS),
+      phase: Math.random() * Math.PI * 2
+    };
+  }
+
+  /** 每帧调用:检查手有没有碰到星星 */
+  function gameFrame(cursors, now) {
+    if (!playing) return;
+    for (let i = 0; i < stars.length; i++) {
+      const s = stars[i];
+      for (const c of cursors) {
+        if (Math.hypot(s.x - c.x, s.y - c.y) < STAR_RADIUS + CURSOR_RADIUS) {
+          // 碰到了!得分 + 特效 + 音效 + 换一颗新星星
+          score += 10;
+          starCaught++;
+          sndCatch(starCaught - 1);      // 叮咚!摘得越多,音阶越高
+          scoreShow.textContent = score;
+          starShow.textContent = '🌟 × ' + starCaught;
+          burst(s.x, s.y);
+          // 新星星别出生在手边,不然会"白捡"
+          let next, tries = 0;
+          do { next = spawnOne(); tries++; }
+          while (tries < 20 &&
+                 cursors.some(c => Math.hypot(next.x - c.x, next.y - c.y) < 150));
+          stars[i] = next;
+          break;
+        }
+      }
+    }
+  }
+
+  // 在屏幕上画星星(用 sin 上下飘动,更生动)
+  function drawStars(now) {
+    const t = now / 1000;
+    ctx.font = '44px serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    for (const s of stars) {
+      const wobble = Math.sin(t * 2 + s.phase) * 6;   // 上下飘 6 像素
+      ctx.fillText('⭐', s.x, s.y + wobble);
+    }
+  }
+
+  // 碰到星星时炸开一圈小粒子
+  function burst(x, y) {
+    for (let i = 0; i < 10; i++) {
+      const angle = Math.random() * Math.PI * 2;
+      const speed = 2 + Math.random() * 3;
+      particles.push({
+        x, y,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed,
+        life: 1
+      });
+    }
+  }
+
+  function drawParticles() {
+    for (let i = particles.length - 1; i >= 0; i--) {
+      const p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      p.life -= 0.04;
+      if (p.life <= 0) { particles.splice(i, 1); continue; }
+      ctx.globalAlpha = p.life;
+      ctx.fillStyle = '#fde047';
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+  }
+
+  function endGame() {
+    playing = false;
+    stars = [];
+    score >= 150 ? sndWin() : sndTimeUp();   // 高分放胜利音阶,否则放收工音
+    let title = '🌱 刚刚起步';
+    if      (score >= 250) title = '🏆 摘星达人';
+    else if (score >= 150) title = '⚡ 身手敏捷';
+    else if (score >= 80)  title = '😉 小有进步';
+    startBtn.textContent = `得分 ${score} · ${title}(点击再来)`;
+    startBtn.disabled = false;
+  }
+  </script>
+</body>
+</html>

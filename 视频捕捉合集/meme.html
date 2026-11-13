@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>表情识别 · 轻松崩住</title>
+<style>
+  /* ============================================================
+     全局样式
+     ============================================================ */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f1440 0%, #1a1f4d 45%, #2b1a5e 100%);
+    color: #eef0ff;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    padding: 20px;
+  }
+
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 18px; }
+  .back {
+    color: #9aa2d8; text-decoration: none; font-size: 14px;
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 6px 14px; border-radius: 999px; transition: 0.2s;
+  }
+  .back:hover { color: #fff; background: rgba(255,255,255,0.1); }
+  h1 { font-size: 24px; letter-spacing: 2px; }
+
+  main {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 18px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+
+  .panel {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 16px;
+    padding: 18px;
+  }
+  .panel h3 { font-size: 15px; color: #9aa2d8; margin-bottom: 12px; letter-spacing: 1px; }
+
+  /* ---------- 左侧:实时数据小仪表 ---------- */
+  .stat { margin-bottom: 12px; }
+  .stat .row {
+    display: flex; justify-content: space-between;
+    font-size: 13px; color: #b9bfe8; margin-bottom: 5px;
+  }
+  .stat .val { color: #fde68a; font-family: Consolas, monospace; }
+
+  /* 危险状态文字:崩值高时变红 */
+  .danger { color: #f87171 !important; }
+
+  /* ---------- 游戏按钮 ---------- */
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    background: linear-gradient(135deg, #f87171, #ef4444);
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .btn:hover  { filter: brightness(1.1); }
+  .btn:disabled { filter: grayscale(0.6) brightness(0.7); cursor: not-allowed; }
+
+  .tip { font-size: 13px; color: #9aa2d8; line-height: 1.9; margin-top: 12px; }
+  .tip b { color: #fca5a5; }
+
+  /* ---------- 关键点小课堂 ---------- */
+  .lesson { font-size: 13px; color: #b9bfe8; line-height: 2; }
+  .lesson code {
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    padding: 1px 7px;
+    font-family: Consolas, monospace;
+    color: #7dd3fc;
+  }
+
+  /* ---------- 右侧:HUD(计分条) ---------- */
+  .hud {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .hud .box {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 14px;
+    padding: 10px 16px;
+    text-align: center;
+    min-width: 110px;
+  }
+  .hud .label { font-size: 12px; color: #9aa2d8; margin-bottom: 4px; }
+  .hud .big   { font-size: 30px; font-weight: bold; line-height: 1.2; }
+
+  /* 崩值条:占中间大块,从绿→黄→红 */
+  .hud .crack-box { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .crack-bar {
+    height: 22px;
+    margin-top: 6px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .crack-bar .fill {
+    height: 100%;
+    width: 0%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #34d399, #10b981);
+    transition: width 0.1s linear;
+  }
+  /* 崩值超过一半 → 黄色警告 */
+  .crack-box.warn .fill { background: linear-gradient(90deg, #fbbf24, #f59e0b); }
+  /* 崩值超过七成 → 红色 + 整条抖动 */
+  .crack-box.crit .fill { background: linear-gradient(90deg, #f87171, #ef4444); }
+  .crack-box.crit { animation: shake 0.3s infinite; }
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    75% { transform: translateX(2px); }
+  }
+
+  /* ---------- 表情包大舞台 ---------- */
+  .stage {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    background: radial-gradient(circle at 50% 40%, #2c2c54 0%, #16162e 70%);
+    border: 1px solid rgba(255,255,255,0.14);
+    height: 560px;
+  }
+  @media (max-height: 780px) { .stage { height: 480px; } }
+
+  /* 表情包图片:居中,限制最大尺寸,切换时"砸"出来 */
+  #memeImg {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    max-width: 92%;
+    max-height: 88%;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    opacity: 0;                       /* 默认看不见,等 JS 换图时再弹出来 */
+    transform: scale(0.4) rotate(var(--rot, -6deg));
+  }
+  #memeImg.pop {
+    opacity: 1;
+    animation: memePop 0.45s cubic-bezier(0.2, 1.6, 0.4, 1) forwards;
+  }
+  @keyframes memePop {
+    0%   { opacity: 0; transform: scale(0.4) rotate(var(--rot, -6deg)); }
+    70%  { opacity: 1; transform: scale(1.06) rotate(calc(var(--rot, -6deg) * 0.2)); }
+    100% { opacity: 1; transform: scale(1) rotate(0deg); }
+  }
+
+  /* 图片全挂时的兜底:代码现场画的"抽象卡"画布 */
+  #memeCanvas {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: none;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  }
+  #memeCanvas.pop { animation: memePop 0.45s cubic-bezier(0.2, 1.6, 0.4, 1) forwards; }
+
+  /* ---------- 抽象弹幕:随机飘过的挑衅文字 ---------- */
+  .taunt {
+    position: absolute;
+    z-index: 6;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 0 0 12px #f472b6, 2px 2px 0 #be123c;
+    white-space: nowrap;
+    pointer-events: none;
+    animation: tauntFly 3.2s ease-out forwards;
+  }
+  @keyframes tauntFly {
+    0%   { opacity: 0; transform: translateY(18px) scale(0.8); }
+    12%  { opacity: 1; transform: translateY(0) scale(1.05); }
+    80%  { opacity: 1; }
+    100% { opacity: 0; transform: translateY(-26px) scale(1); }
+  }
+
+  /* ---------- 摄像头画中画(右下角小窗) ---------- */
+  .pip {
+    position: absolute;
+    right: 12px; bottom: 12px;
+    z-index: 5;
+    width: 200px; height: 150px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid rgba(255,255,255,0.35);
+    background: #000;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  }
+  .pip video, .pip canvas {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    transform: scaleX(-1);            /* 水平镜像,像照镜子 */
+    object-fit: cover;
+  }
+  .pip .pip-label {
+    position: absolute; top: 4px; left: 6px; z-index: 3;
+    font-size: 11px; color: #a5f3fc;
+    background: rgba(0,0,0,0.5);
+    padding: 2px 8px; border-radius: 6px;
+  }
+  /* 崩值高的时候,画中画边框跟着变红闪烁,提醒"你快绷不住了" */
+  .pip.crit { border-color: #f87171; animation: pipBlink 0.5s infinite; }
+  @keyframes pipBlink { 50% { box-shadow: 0 0 18px #ef4444; } }
+
+  /* ---------- 舞台中央的提示 / 倒计时 / 结算画面 ---------- */
+  .stage-overlay {
+    position: absolute; inset: 0; z-index: 8;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 14px;
+    background: rgba(5, 8, 30, 0.72);
+    text-align: center; padding: 24px;
+    line-height: 1.9; font-size: 16px;
+  }
+  .stage-overlay .count {
+    font-size: 110px;
+    font-weight: bold;
+    color: #fde68a;
+    text-shadow: 0 6px 0 rgba(0,0,0,0.4);
+    animation: countZoom 0.9s ease-out infinite;
+  }
+  @keyframes countZoom {
+    0%   { transform: scale(1.6); opacity: 0; }
+    40%  { transform: scale(1);   opacity: 1; }
+    100% { transform: scale(1);   opacity: 1; }
+  }
+  .stage-overlay .lose-title {
+    font-size: 52px; font-weight: bold; color: #f87171;
+    text-shadow: 0 4px 0 rgba(0,0,0,0.35);
+  }
+  .stage-overlay .lose-sub { font-size: 20px; }
+  .stage-overlay .again {
+    padding: 12px 34px; border: none; border-radius: 12px;
+    background: #fbbf24; color: #2a1b03;
+    font-size: 17px; font-weight: bold; cursor: pointer;
+  }
+  .stage-overlay .again:hover { filter: brightness(1.1); }
+  .hidden { display: none !important; }
+
+  /* 崩了瞬间全屏红闪 */
+  .stage.crash { animation: crashFlash 0.5s ease-out; }
+  @keyframes crashFlash {
+    0% { box-shadow: 0 0 0 12px #ef4444 inset; filter: saturate(1.6); }
+    100% { box-shadow: 0 0 0 0 rgba(239,68,68,0) inset; }
+  }
+
+  /* ---------- 初始化遮罩(加载模型时盖在舞台上) ---------- */
+  .overlay {
+    position: absolute; inset: 0; z-index: 10;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 14px;
+    background: rgba(5, 8, 30, 0.92);
+    text-align: center; padding: 24px;
+    line-height: 1.9; font-size: 15px;
+  }
+  .overlay .spinner {
+    width: 42px; height: 42px;
+    border: 4px solid rgba(255,255,255,0.2);
+    border-top-color: #f87171;
+    border-radius: 50%;
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .overlay .retry {
+    padding: 10px 26px; border: none; border-radius: 10px;
+    background: #f87171; color: #fff;
+    font-size: 15px; font-weight: bold; cursor: pointer;
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+  <!-- ===================== 顶栏 ===================== -->
+  <header>
+    <a class="back" href="index.html">← 返回菜单</a>
+    <h1>🤣 表情识别 · 轻松崩住</h1>
+  </header>
+
+  <main>
+    <!-- ===================== 左侧:规则 + 仪表 + 小课堂 ===================== -->
+    <div>
+
+      <!-- 面板 1:游戏规则 -->
+      <div class="panel" style="margin-bottom:18px;">
+        <h3>【游戏规则】绷住,别笑!</h3>
+        <div class="tip" style="margin:0;">
+          屏幕会不断投喂<b>全网最难绷的抽象表情包</b>,
+          而你的任务只有一个:保持<b>面无表情</b>!<br>
+          摄像头一直盯着你的嘴角——
+          只要你<b>想笑</b>,右上角的「崩值」就会上涨;<br>
+          崩值充满 100% → <b>你崩了,游戏结束!</b><br>
+          撑得越久分越高,每 15 秒抽象等级 +1,
+          表情包切换更快、崩得更快。躲开摄像头也算输哦。
+        </div>
+      </div>
+
+      <!-- 面板 2:实时数据仪表 -->
+      <div class="panel" style="margin-bottom:18px;">
+        <h3>【表情仪表盘】摄像头眼中的你</h3>
+
+        <div class="stat">
+          <div class="row"><span>😀 嘴角宽度(越大越像笑)</span><span class="val" id="vSmile">--</span></div>
+        </div>
+        <div class="stat">
+          <div class="row"><span>😮 张嘴程度(越大越是哈哈)</span><span class="val" id="vOpen">--</span></div>
+        </div>
+        <div class="stat">
+          <div class="row"><span>📊 你的"面无表情基准"</span><span class="val" id="vBase">未校准</span></div>
+        </div>
+        <div class="stat" style="margin-bottom:0;">
+          <div class="row"><span id="statusLabel">当前状态</span><span class="val" id="vStatus">待机</span></div>
+        </div>
+      </div>
+
+      <!-- 面板 3:开始按钮 -->
+      <div class="panel" style="margin-bottom:18px;">
+        <h3>【开始挑战】</h3>
+        <button class="btn" id="startBtn" disabled>加载中…</button>
+        <div class="tip">点击开始后有 <b>3 秒校准时间</b>:请先<b>面无表情</b>地看镜头,
+        程序会记下你"不笑时的样子"作为基准,之后笑没笑,和自己比!</div>
+      </div>
+
+      <!-- 面板 4:关键点小课堂 -->
+      <div class="panel">
+        <h3>【关键点小课堂】程序怎么知道你"想笑"?</h3>
+        <div class="lesson">
+          模型在你脸上找到 <code>468</code> 个关键点,我们只用 4 个:<br>
+          · 左右嘴角:<code>61</code> <code>291</code> → 笑的时候嘴角后拉,嘴变宽<br>
+          · 上下嘴唇:<code>13</code> <code>14</code> → 大笑时嘴会张开<br>
+          程序把它们换成<b>比例</b>(嘴宽÷脸宽、唇距÷脸长),
+          这样离摄像头远近就不影响结果。<br>
+          开始前的 3 秒会记下你的<b>基准值</b>(每个人不笑时嘴型都不一样),
+          之后嘴角比基准宽出一点点,崩值就开始涨——这就是"和你自己比"!
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== 右侧:HUD + 表情包大舞台 ===================== -->
+    <div>
+      <!-- 顶部计分条:存活时间 / 崩值 / 最佳纪录 / 抽象等级 -->
+      <div class="hud">
+        <div class="box">
+          <div class="label">存活时间</div>
+          <div class="big" id="timeShow">0.0</div>
+        </div>
+        <div class="box crack-box" id="crackBox">
+          <div class="label">崩值(满了就输!)</div>
+          <div class="big" id="crackShow">0%</div>
+          <div class="crack-bar"><div class="fill" id="crackFill"></div></div>
+        </div>
+        <div class="box">
+          <div class="label">最佳纪录</div>
+          <div class="big" id="bestShow">--</div>
+        </div>
+        <div class="box">
+          <div class="label">抽象等级</div>
+          <div class="big" id="lvShow">Lv.1</div>
+        </div>
+      </div>
+
+      <!-- 表情包大舞台 -->
+      <div class="stage" id="stage">
+        <img id="memeImg" alt="抽象表情包" draggable="false">
+        <canvas id="memeCanvas" width="640" height="480"></canvas>
+
+        <!-- 摄像头画中画 -->
+        <div class="pip" id="pip">
+          <video id="video" autoplay muted playsinline></video>
+          <canvas id="pipCanvas" width="320" height="240"></canvas>
+          <div class="pip-label">📷 表情监控中</div>
+        </div>
+
+        <!-- 游戏内提示层(倒计时 / 结算),平时隐藏 -->
+        <div class="stage-overlay hidden" id="stageOverlay">
+          <div class="count hidden" id="countShow">3</div>
+          <div id="overlayMsg">准备…</div>
+          <button class="again hidden" id="againBtn">再来一局</button>
+        </div>
+
+        <!-- 初始化遮罩 -->
+        <div class="overlay" id="overlay">
+          <div class="spinner" id="spinner"></div>
+          <div id="overlayText">正在加载面部识别模型,请稍候…</div>
+          <button class="retry" id="retryBtn" onclick="location.reload()">重新加载</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 引入 MediaPipe 面部网格识别库(已下载到本地 libs 文件夹,离线可用) -->
+  <script src="./libs/face_mesh/face_mesh.js"></script>
+
+  <script>
+  /* ================================================================
+   * 🤣 表情识别 · 轻松崩住
+   * ----------------------------------------------------------------
+   * 反着玩的表情游戏:别的游戏让你"做出表情",
+   * 这个游戏让你【绷住】——屏幕不断投喂抽象表情包,
+   * 摄像头盯着你的嘴角,你一笑,"崩值"就上涨,
+   * 崩值充满 → 你崩了 → 游戏结束。撑得越久越强!
+   *
+   * 程序分成 8 个部分:
+   *   第 1 部分:获取页面元素 & 全局变量
+   *   第 2 部分:小工具函数
+   *   第 3 部分:加载 MediaPipe Face Mesh 模型
+   *   第 4 部分:打开摄像头 + 主循环
+   *   第 5 部分:表情判定 + "崩值"算法(核心!)
+   *   第 6 部分:音效(Web Audio 现场合成)
+   *   第 7 部分:表情包舞台(换图、弹幕、兜底抽象卡)
+   *   第 8 部分:游戏流程(校准 → 挑战 → 结算)
+   * ================================================================ */
+
+  /* ================================================================
+   * 第 1 部分:获取页面元素 & 全局变量
+   * ================================================================ */
+  const video     = document.getElementById('video');
+  const pipCanvas = document.getElementById('pipCanvas');
+  const pctx      = pipCanvas.getContext('2d');
+
+  const stage       = document.getElementById('stage');
+  const memeImg     = document.getElementById('memeImg');
+  const memeCanvas  = document.getElementById('memeCanvas');
+  const mctx        = memeCanvas.getContext('2d');
+  const stageOverlay = document.getElementById('stageOverlay');
+  const countShow   = document.getElementById('countShow');
+  const overlayMsg  = document.getElementById('overlayMsg');
+  const againBtn    = document.getElementById('againBtn');
+
+  const overlay     = document.getElementById('overlay');
+  const overlayText = document.getElementById('overlayText');
+  const spinner     = document.getElementById('spinner');
+  const retryBtn    = document.getElementById('retryBtn');
+
+  const startBtn  = document.getElementById('startBtn');
+  const timeShow  = document.getElementById('timeShow');
+  const crackShow = document.getElementById('crackShow');
+  const crackFill = document.getElementById('crackFill');
+  const crackBox  = document.getElementById('crackBox');
+  const bestShow  = document.getElementById('bestShow');
+  const lvShow    = document.getElementById('lvShow');
+  const vSmile    = document.getElementById('vSmile');
+  const vOpen     = document.getElementById('vOpen');
+  const vBase     = document.getElementById('vBase');
+  const vStatus   = document.getElementById('vStatus');
+  const pip       = document.getElementById('pip');
+
+  /* ---------------- 难度参数(动手改一改,游戏手感完全不同!) ---------------- */
+  const GAME = {
+    CALIBRATE_SECONDS: 3,     // 开局校准时间:面无表情看镜头几秒
+    SWITCH_SECONDS:    [7, 6, 5, 4, 3],  // 每个抽象等级下,表情包停留秒数
+    LEVEL_SECONDS:     15,    // 每撑多少秒,抽象等级 +1
+    MAX_LEVEL:         5,     // 最高抽象等级
+    SMILE_DELTA:       0.045, // 嘴角比基准宽出这么多(÷脸宽),开始积累崩值
+    OPEN_DELTA:        0.055, // 嘴比基准张开这么多(÷脸长),开始积累崩值
+    SMILE_RATE:        7.5,   // 嘴角超标部分的"涨崩速度"系数(%每秒)
+    OPEN_RATE:         9.0,   // 张嘴超标部分的"涨崩速度"系数(%每秒)
+    RECOVER_RATE:      0.30,  // 绷住时崩值每秒回落多少(0.30 = 每秒 -30%)
+    CRASH_LEVEL_BOOST: 0.22,  // 每升 1 级抽象,崩值涨速再乘 (1 + 0.22×级数)
+    FACE_LOST_MS:      2500   // 脸离开摄像头超过这么久 → 判负(不许逃避!)
+  };
+
+  // 游戏状态:_idle 待机 → calibrating 校准 → playing 挑战 → over 结束
+  let phase = 'idle';
+  let crack = 0;              // 崩值 0~100,满了就输
+  let playMs = 0;             // 本局已经撑了多少毫秒
+  let lastFrameTime = null;   // 上一帧时间,用来按真实时间累计
+  let lastSeenFace = 0;       // 最近一次看到脸的时刻(检测"逃跑")
+  let faceLostWarned = false; // 是否已经弹出"看不到脸"警告
+  let best = Number(localStorage.getItem('memeGameBest') || 0);  // 最佳纪录(存浏览器里)
+  bestShow.textContent = best > 0 ? best.toFixed(1) + 's' : '--';
+
+  // 校准:记录玩家"面无表情"时的嘴角宽度 / 张嘴度基准
+  let baseW = null, baseO = null;   // 基准值
+  let calibSumW = 0, calibSumO = 0, calibN = 0;  // 校准期间的累加器
+
+  // 每帧的表情数据(由第 5 部分计算)
+  let expr = null;
+
+  /* ================================================================
+   * 第 2 部分:小工具函数
+   * ================================================================ */
+  function dist(a, b) { return Math.hypot(a.x - b.x, a.y - b.y); }
+
+  // 把任意数值"夹"到 0~1 之间
+  function clamp01(x) { return Math.max(0, Math.min(1, x)); }
+
+  // 把数组洗牌(打乱顺序),返回新数组 —— 用来随机表情包顺序
+  function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  // 取 [min, max] 之间的随机数
+  function rand(min, max) { return min + Math.random() * (max - min); }
+
+  /* ================================================================
+   * 第 3 部分:加载 MediaPipe Face Mesh 模型
+   * ================================================================ */
+  const faceMesh = new FaceMesh({
+    locateFile: (file) => `./libs/face_mesh/${file}`
+  });
+
+  faceMesh.setOptions({
+    maxNumFaces: 1,               // 最多识别 1 张脸
+    refineLandmarks: false,
+    minDetectionConfidence: 0.5,
+    minTrackingConfidence: 0.5
+  });
+
+  faceMesh.onResults(onResults);
+
+  /* ================================================================
+   * 第 4 部分:打开摄像头 + 主循环
+   * ================================================================ */
+  async function startCamera() {
+    overlayText.textContent = '正在请求摄像头权限,请在浏览器弹窗中点击【允许】…';
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({
+        video: { width: 640, height: 480, facingMode: 'user' }
+      });
+      video.srcObject = stream;
+      await video.play();
+    } catch (err) {
+      showFatalError(
+        '😢 无法打开摄像头(' + err.name + ')<br>' +
+        '请检查浏览器是否已允许本页使用摄像头,' +
+        '并且是通过「一键启动.cmd」打开的本页。'
+      );
+      throw err;
+    }
+  }
+
+  async function loop() {
+    if (video.readyState >= 2) {
+      await faceMesh.send({ image: video });
+    }
+    requestAnimationFrame(loop);
+  }
+
+  // 显示致命错误(比如摄像头被拒绝、模型加载失败)
+  let fatalShown = false;
+  function showFatalError(html) {
+    fatalShown = true;
+    spinner.style.display = 'none';
+    overlay.style.display = 'flex';
+    overlayText.innerHTML = html;
+    retryBtn.style.display = 'inline-block';
+  }
+
+  // 给慢操作加"超时保护":模型万一加载不出来也要提示,不能永远转圈
+  function withTimeout(promise, ms, message) {
+    let timer;
+    const timeout = new Promise((_, reject) => {
+      timer = setTimeout(() => reject(new Error(message)), ms);
+    });
+    return Promise.race([promise, timeout]).finally(() => clearTimeout(timer));
+  }
+
+  (async function init() {
+    try {
+      // 情况 1:直接双击 HTML 打开(file://)→ 浏览器禁止摄像头,直接告知
+      if (location.protocol === 'file:') {
+        showFatalError(
+          '🚫 你是【直接双击打开】的本页面(地址以 file:// 开头)<br><br>' +
+          '浏览器的安全策略禁止这种页面加载识别模型、使用摄像头,<br>' +
+          '所以会一直卡在初始化。<br><br>' +
+          '✅ 正确做法:双击项目文件夹里的 <b>「一键启动.cmd」</b>,<br>' +
+          '它会自动启动本地服务,并打开正确的 localhost 网址。');
+        return;
+      }
+
+      // 情况 2:正常的 localhost 打开 → 初始化模型(限时 30 秒)
+      overlayText.textContent = '正在初始化面部识别模型,首次约需几秒…';
+      await withTimeout(faceMesh.initialize(), 30000,
+        '模型加载超时。可能原因:① libs 文件夹没有和网页放在同一个文件夹;② 浏览器内核太旧(请换新版 Chrome 或 Edge)。解决后点击"重新加载"。');
+      await startCamera();
+
+      // 表情包提前预加载(不阻塞,后台偷偷下载到浏览器缓存)
+      preloadMemes();
+
+      overlay.style.display = 'none';
+      startBtn.disabled = false;
+      startBtn.textContent = '开 始 绷 住 挑 战';
+      loop();
+    } catch (err) {
+      if (!fatalShown) {
+        showFatalError('😢 初始化失败:' + (err && err.message ? err.message : err) + '<br>请按提示排查后,点击"重新加载"。');
+      }
+    }
+  })();
+
+  /* ================================================================
+   * 第 5 部分:表情判定 + "崩值"算法(核心!)
+   * ----------------------------------------------------------------
+   * 量两个数(都除以脸的大小,做成"比例",远近无关):
+   *   嘴宽 = 左右嘴角距离 ÷ 脸宽  → 笑的时候嘴角后拉,嘴变宽
+   *   唇距 = 上下嘴唇距离 ÷ 脸长  → 大笑时嘴会张开
+   * 然后和【你自己的基准】比较:
+   *   开始游戏前有 3 秒校准,记下你不笑时的嘴宽/唇距,
+   *   之后超出基准 SMILE_DELTA / OPEN_DELTA 就算"想笑",
+   *   超得越多,崩值涨得越快;绷住时崩值缓慢回落。
+   * ================================================================ */
+
+  function computeExpressions(lm) {
+    const faceH = dist(lm[10], lm[152]);    // 脸长:额头顶(10)→下巴(152)
+    const faceW = dist(lm[234], lm[454]);   // 脸宽:左脸缘(234)→右脸缘(454)
+
+    const mouthWidth = dist(lm[61], lm[291]) / faceW;  // 嘴宽比例
+    const mouthOpen  = dist(lm[13], lm[14]) / faceH;   // 张嘴比例
+
+    return { mouthWidth, mouthOpen };
+  }
+
+  /**
+   * 每一帧都要调用:根据当前表情推进"崩值"和"存活时间"
+   * 返回 true 表示本帧玩家还活着
+   */
+  function gameFrame(now) {
+    const dt = lastFrameTime ? Math.min(now - lastFrameTime, 200) : 16;
+    lastFrameTime = now;
+
+    // ---------- 校准阶段:悄悄记录"你不笑时的样子" ----------
+    if (phase === 'calibrating') {
+      if (expr) {
+        calibSumW += expr.mouthWidth;
+        calibSumO += expr.mouthOpen;
+        calibN++;
+        // 校准期间实时刷新基准显示,让学生看得见"程序在学我"
+        vBase.textContent = (calibSumW / calibN * 100).toFixed(1) + '% 采集中';
+      }
+      return true;
+    }
+
+    if (phase !== 'playing') return true;
+
+    playMs += dt;
+    timeShow.textContent = (playMs / 1000).toFixed(1);
+
+    // ---------- 抽象等级:每撑 LEVEL_SECONDS 秒升一级 ----------
+    const level = Math.min(GAME.MAX_LEVEL, Math.floor(playMs / (GAME.LEVEL_SECONDS * 1000)) + 1);
+    if (level !== curLevel) {
+      curLevel = level;
+      lvShow.textContent = 'Lv.' + level;
+      sndLevelUp();
+      showTaunt('⚡ 抽象等级 Lv.' + level + '!绷住啊!');
+      scheduleNextMeme();          // 等级变了 → 重新安排换图节奏
+    }
+
+    // ---------- 防逃避:脸离开摄像头太久直接判负 ----------
+    if (!expr) {
+      const lost = now - lastSeenFace;
+      if (lost > 1200 && !faceLostWarned) {
+        faceLostWarned = true;
+        showTaunt('⚠️ 摄像头看不到你的脸!');
+      }
+      if (lost > GAME.FACE_LOST_MS) { lose('脸跑丢了!不许逃避!'); return false; }
+      return true;
+    }
+    lastSeenFace = now;
+    faceLostWarned = false;
+
+    // ---------- 崩值推进(核心中的核心) ----------
+    // 嘴角超出基准的部分 & 嘴张开超出基准的部分(0 表示没超标)
+    const smileExcess = expr.mouthWidth - (baseW + GAME.SMILE_DELTA);
+    const openExcess  = expr.mouthOpen  - (baseO + GAME.OPEN_DELTA);
+
+    // 难度系数:抽象等级越高,笑起来崩得越快
+    const boost = 1 + (curLevel - 1) * GAME.CRASH_LEVEL_BOOST;
+
+    if (smileExcess > 0 || openExcess > 0) {
+      // 想笑了!超标越多涨越快;张嘴大笑(超标叠加)会崩得飞快
+      let rate = Math.max(0, smileExcess) * GAME.SMILE_RATE * 100
+               + Math.max(0, openExcess)  * GAME.OPEN_RATE  * 100;
+      crack += rate * boost * dt / 1000;
+    } else {
+      // 绷住了 → 崩值缓慢回落,给玩家喘息
+      crack -= GAME.RECOVER_RATE * 100 * dt / 1000;
+    }
+    crack = Math.max(0, Math.min(100, crack));
+
+    // ---------- 状态显示 + 警报 ----------
+    const pct = Math.round(crack);
+    crackShow.textContent = pct + '%';
+    crackFill.style.width = pct + '%';
+    crackBox.classList.toggle('warn', crack > 40 && crack <= 70);
+    crackBox.classList.toggle('crit', crack > 70);
+    pip.classList.toggle('crit', crack > 70);
+
+    if (crack > 70) {
+      vStatus.textContent = '要崩了!!快绷住!';
+      vStatus.classList.add('danger');
+      if (now - lastWarnBeep > 450) { sndWarn(); lastWarnBeep = now; }
+    } else if (crack > 40) {
+      vStatus.textContent = '嘴角危险!收住!';
+      vStatus.classList.add('danger');
+    } else {
+      vStatus.textContent = '绷住中…稳如泰山';
+      vStatus.classList.remove('danger');
+    }
+
+    // ---------- 崩值充满 → 你崩了 ----------
+    if (crack >= 100) { lose('表情失控,当场绷笑!'); return false; }
+    return true;
+  }
+
+  let curLevel = 1;          // 当前抽象等级
+  let lastWarnBeep = 0;      // 上次警报音时刻(防止警报声太密)
+
+  // 仪表盘数值刷新(游戏外也一直刷新,方便学生课前观察自己的脸)
+  function updateMeters() {
+    if (!expr) {
+      vSmile.textContent = '--';
+      vOpen.textContent = '--';
+      return;
+    }
+    vSmile.textContent = (expr.mouthWidth * 100).toFixed(1) + '%';
+    vOpen.textContent  = (expr.mouthOpen * 100).toFixed(1) + '%';
+  }
+
+  /* ================================================================
+   * 第 6 部分:音效(Web Audio API 现场合成,不需要音频文件)
+   * ================================================================ */
+  let audioCtx = null;
+
+  function beep(freq, duration, delay = 0, type = 'sine', volume = 0.3) {
+    try {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const t0   = audioCtx.currentTime + delay;
+      const osc  = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = type;
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(volume, t0);
+      gain.gain.exponentialRampToValueAtTime(0.001, t0 + duration);
+      osc.connect(gain).connect(audioCtx.destination);
+      osc.start(t0);
+      osc.stop(t0 + duration);
+    } catch (e) { /* 电脑没有声音设备也不影响游戏 */ }
+  }
+
+  const sndCount   = () => beep(660, 0.12, 0, 'square', 0.25);            // 倒计时:滴
+  const sndGo      = () => { beep(660, 0.1); beep(990, 0.25, 0.1); };     // 开始:叮-叮↑
+  const sndWarn    = () => beep(880, 0.09, 0, 'sawtooth', 0.18);          // 崩值警戒:急促警报
+  const sndLevelUp = () => { beep(523, 0.09); beep(659, 0.09, 0.09); beep(784, 0.18, 0.18); }; // 升级
+  const sndCrash   = () => { beep(300, 0.3, 0, 'sawtooth', 0.35);        // 崩了:下坠的"哇哦"
+                             beep(150, 0.5, 0.25, 'sawtooth', 0.35); };
+  const sndRecord  = () => { beep(523, 0.1); beep(659, 0.1, 0.1);        // 新纪录:小凯歌
+                             beep(784, 0.1, 0.2); beep(1047, 0.3, 0.3); };
+
+  /* ================================================================
+   * 第 7 部分:表情包舞台(换图、弹幕、兜底抽象卡)
+   * ----------------------------------------------------------------
+   * 表情包都放在 memes/ 文件夹里。
+   * 想加自己的图?把图片丢进 memes/,再把文件名加进
+   * 下面 MEME_FILES 数组即可,一行一张,支持 jpg/png/gif/webp。
+   * ================================================================ */
+  const MEME_FILES = [
+    // ---- 王炸组:全场最难绷,放在最前面 ----
+    'memes/gavin_smile.jpg',      // 假笑男孩:尴尬而不失礼貌的微笑(和本游戏绝配)
+    'memes/cat_dagou.png',        // 好哇好哇!打起来打起来!(动感模糊猫)
+    'memes/cat_deng.jpg',         // 白猫瞪眼怼脸拍(它就这么死死盯着你)
+    'memes/horse_haha.png',       // 旋转木马:笑得比人还灿烂的马
+    'memes/kid_laugh.jpg',        // 烟花下笑到失控的小朋友(自带笑声音效)
+    // ---- 经典抽象组 ----
+    'memes/monkey_sideeye.jpg',   // 尴尬斜眼猴(经典 meme)
+    'memes/wuziqi.jpg',           // 技能五子棋:第一/二/三次看
+    'memes/cat_heng.jpeg',        // 委屈猫:哼,你肯定是想赶我走去哄别的小猫咪
+    'memes/cat_shock.jpg',        // 礼貌微笑猫(眼神拉丝)
+    'memes/cat_meow.jpg',         // 三花猫当场嚎叫
+    'memes/cat_zhuzai.jpeg',      // 中二猫:我才是世界的主宰!
+    'memes/dog_youzishi.jpeg',    // 疑惑小狗:你最好有事……
+    'memes/seal_huimie.jpeg',     // 眯眼海豹:毁灭吧
+    'memes/ham_jiao.jpeg',        // 青椒仓鼠:椒绿(焦虑)
+    'memes/chiikawa.jpg',         // 吉伊卡哇:您说的对,领导
+    'memes/chicken_ban.jpg'       // 浪浪山:不够大气!
+  ];
+
+  // 挑衅弹幕:游戏里随机飘出来捣乱,专门瓦解你的表情管理
+  const TAUNTS = [
+    '绷住!嘴角给我压下去!',
+    '想想明天是周一…',
+    '你的班主任正在你身后',
+    '笑了要请全班喝奶茶!',
+    '检测到嘴角上扬趋势!',
+    '隔壁同学已经笑出声了',
+    '这张都不笑?下一张呢',
+    '表情管理!表情管理!',
+    '想象你正在开早会',
+    '别看!快闭眼!啊不对',
+    '坚持住,胜利就在前方',
+    '你绷住的样子真好笑',
+    '听说笑着的人会变笨',
+    '忍一时风平浪静',
+    '你已经坚持很久了,放弃吧',
+    '嘘——别崩'
+  ];
+
+  // 图片全部加载失败时的兜底:用代码现场画"抽象卡"(保证没图也能玩)
+  const EMOJI_CARDS = [
+    ['🙃', '微笑着\n面对一切'],
+    ['🤡', '小丑竟\n是我自己'],
+    ['🐟', '咸鱼翻身\n还是咸鱼'],
+    ['🧠', '脑子:\n已退出群聊'],
+    ['📦', '开盲盒\n谢谢惠顾'],
+    ['🐴', '马上就好\n(再玩一会)'],
+    ['🐂', '你才是\n真的牛'],
+    ['🥲', '我没事\n我很好']
+  ];
+
+  let playlist = [];         // 洗牌后的表情包播放列表
+  let playlistIdx = 0;       // 播到第几张了
+  let memeTimer = null;      // 控制"多久换一张"的定时器
+  let tauntTimer = null;     // 控制"多久飘一条弹幕"的定时器
+  let badFiles = 0;          // 加载失败的图片数(全挂了就用兜底抽象卡)
+
+  // 预加载:页面初始化时就把所有表情包偷偷下载好,游戏时秒切
+  function preloadMemes() {
+    MEME_FILES.forEach(src => {
+      const im = new Image();
+      im.onerror = () => { badFiles++; };   // 记一下挂了几张,播放时跳过
+      im.src = src;
+    });
+    // 待机时先摆一张,让页面不空
+    nextMeme();
+  }
+
+  // 播放下一张表情包(播完一轮自动重新洗牌)
+  function nextMeme() {
+    if (playlistIdx >= playlist.length) {
+      playlist = shuffle(MEME_FILES);
+      playlistIdx = 0;
+    }
+    const src = playlist[playlistIdx++];
+
+    if (badFiles >= MEME_FILES.length) {   // 一张图都没有 → 用代码画抽象卡
+      drawEmojiCard();
+      return;
+    }
+    memeCanvas.style.display = 'none';
+    memeCanvas.classList.remove('pop');
+    memeImg.style.setProperty('--rot', rand(-9, 9).toFixed(1) + 'deg');  // 随机歪着进场
+    memeImg.classList.remove('pop');
+    // 强制重新触发进场动画:先摘掉类,读一下布局,再加回去
+    void memeImg.offsetWidth;
+    memeImg.onerror = () => drawEmojiCard();   // 这张坏了 → 兜底
+    memeImg.onload  = () => memeImg.classList.add('pop');
+    memeImg.src = src;
+  }
+
+  // 兜底抽象卡:在画布上画一个大 emoji + 两行抽象语录
+  function drawEmojiCard() {
+    const card = EMOJI_CARDS[Math.floor(Math.random() * EMOJI_CARDS.length)];
+    memeImg.classList.remove('pop');
+    memeImg.removeAttribute('src');
+    memeCanvas.style.display = 'block';
+
+    const g = mctx.createLinearGradient(0, 0, 640, 480);
+    const palettes = [['#1e3a8a', '#7c3aed'], ['#7c2d12', '#dc2626'], ['#065f46', '#0d9488'], ['#701a75', '#db2777']];
+    const p = palettes[Math.floor(Math.random() * palettes.length)];
+    g.addColorStop(0, p[0]); g.addColorStop(1, p[1]);
+    mctx.fillStyle = g;
+    mctx.fillRect(0, 0, 640, 480);
+
+    mctx.font = '180px serif';
+    mctx.textAlign = 'center';
+    mctx.fillText(card[0], 320, 250);
+
+    mctx.fillStyle = '#fff';
+    mctx.font = 'bold 52px "Microsoft YaHei", sans-serif';
+    const lines = card[1].split('\n');
+    lines.forEach((line, i) => mctx.fillText(line, 320, 370 + i * 64));
+
+    void memeCanvas.offsetWidth;
+    memeCanvas.classList.add('pop');
+  }
+
+  // 安排下一次换图:间隔随抽象等级缩短(7秒 → 3秒)
+  function scheduleNextMeme() {
+    clearTimeout(memeTimer);
+    if (phase !== 'playing') return;
+    const sec = GAME.SWITCH_SECONDS[curLevel - 1];
+    memeTimer = setTimeout(() => {
+      nextMeme();
+      scheduleNextMeme();      // 递归安排再下一张
+    }, sec * 1000);
+  }
+
+  // 随机飘一条挑衅弹幕
+  function showTaunt(text) {
+    const el = document.createElement('div');
+    el.className = 'taunt';
+    el.textContent = text || TAUNTS[Math.floor(Math.random() * TAUNTS.length)];
+    el.style.left = rand(4, 46) + '%';
+    el.style.top  = rand(8, 55) + '%';
+    el.style.transform = 'rotate(' + rand(-8, 8).toFixed(1) + 'deg)';
+    stage.appendChild(el);
+    setTimeout(() => el.remove(), 3300);   // 动画播完就删掉,不留垃圾节点
+  }
+
+  function scheduleTaunts() {
+    clearTimeout(tauntTimer);
+    if (phase !== 'playing') return;
+    tauntTimer = setTimeout(() => {
+      if (crack < 95) showTaunt();         // 快崩了就别再火上浇油了
+      scheduleTaunts();
+    }, rand(2600, 5200));
+  }
+
+  /* ================================================================
+   * 第 8 部分:游戏流程(校准 → 挑战 → 结算)
+   * ----------------------------------------------------------------
+   * 点击开始 → 3 秒校准(面无表情,程序记基准)→ 正式挑战
+   * → 崩值满 / 脸跑了 → 结算(称号 + 最佳纪录)
+   * ================================================================ */
+
+  startBtn.addEventListener('click', startGame);
+  againBtn.addEventListener('click', startGame);
+
+  function startGame() {
+    // 重置一切状态
+    crack = 0; playMs = 0; curLevel = 1;
+    baseW = null; baseO = null;
+    calibSumW = 0; calibSumO = 0; calibN = 0;
+    lastFrameTime = null;
+    lastSeenFace = performance.now();
+    faceLostWarned = false;
+    lvShow.textContent = 'Lv.1';
+    crackShow.textContent = '0%';
+    crackFill.style.width = '0%';
+    crackBox.classList.remove('warn', 'crit');
+    pip.classList.remove('crit');
+    vStatus.textContent = '校准中…';
+    vStatus.classList.remove('danger');
+
+    phase = 'calibrating';
+    sndGo();
+
+    // 舞台中央显示 3-2-1 倒计时
+    stageOverlay.classList.remove('hidden');
+    againBtn.classList.add('hidden');
+    countShow.classList.remove('hidden');
+    overlayMsg.textContent = '请【面无表情】看镜头,程序正在记录你的基准…';
+    let n = GAME.CALIBRATE_SECONDS;
+    countShow.textContent = n;
+    sndCount();
+    const timer = setInterval(() => {
+      n--;
+      if (n > 0) {
+        countShow.textContent = n;
+        sndCount();
+      } else {
+        clearInterval(timer);
+        beginPlay();
+      }
+    }, 1000);
+  }
+
+  // 校准结束,正式开始挑战
+  function beginPlay() {
+    // 基准 = 校准期间的平均值(采到的样本数太少就退回通用值)
+    if (calibN >= 10) {
+      baseW = calibSumW / calibN;
+      baseO = calibSumO / calibN;
+    } else {
+      baseW = 0.40;   // 一般人不笑时嘴宽约为脸宽的 40%
+      baseO = 0.02;
+    }
+    vBase.textContent = '嘴宽 ' + (baseW * 100).toFixed(1) + '%';
+
+    countShow.classList.add('hidden');
+    overlayMsg.textContent = '';
+    stageOverlay.classList.add('hidden');   // 关键!把校准用的深色蒙层整个藏起来,
+                                            // 否则整局游戏都会罩着一层黑幕
+    phase = 'playing';
+    playMs = 0;
+    sndGo();
+
+    nextMeme();          // 立刻投喂第一张
+    scheduleNextMeme();  // 并安排后续的换图节奏
+    scheduleTaunts();    // 开启挑衅弹幕
+  }
+
+  // 崩了 / 逃跑了 → 结算
+  function lose(reason) {
+    phase = 'over';
+    clearTimeout(memeTimer);
+    clearTimeout(tauntTimer);
+
+    const seconds = playMs / 1000;
+    sndCrash();
+    stage.classList.add('crash');
+    setTimeout(() => stage.classList.remove('crash'), 600);
+
+    // 更新最佳纪录(存在浏览器 localStorage 里,关掉网页也在)
+    let isRecord = false;
+    if (seconds > best) {
+      best = seconds;
+      localStorage.setItem('memeGameBest', best.toFixed(1));
+      bestShow.textContent = best.toFixed(1) + 's';
+      isRecord = true;
+      sndRecord();
+    }
+
+    // 按存活时间给称号
+    let title = '🌱 一秒崩选手';
+    if      (seconds >= 60) title = '🏆 绷带大师 · 面部熄灭了';
+    else if (seconds >= 40) title = '🗿 面瘫战神';
+    else if (seconds >= 20) title = '😎 有点定力';
+    else if (seconds >= 10) title = '😅 勉强绷住过';
+
+    // 弹出结算画面
+    stageOverlay.classList.remove('hidden');
+    countShow.classList.add('hidden');
+    againBtn.classList.remove('hidden');
+    overlayMsg.innerHTML =
+      '<div class="lose-title">你崩了!😂</div>' +
+      '<div class="lose-sub">' + reason + '</div>' +
+      '<div class="lose-sub">存活 <b>' + seconds.toFixed(1) + ' 秒</b> · 抽象等级 Lv.' + curLevel + '</div>' +
+      '<div class="lose-sub">' + title + '</div>' +
+      (isRecord ? '<div class="lose-sub" style="color:#fde68a;">🎉 新纪录!</div>' : '');
+
+    vStatus.textContent = '已崩';
+    vStatus.classList.add('danger');
+    startBtn.disabled = false;
+    startBtn.textContent = '再来一局';
+  }
+
+  /* ================================================================
+   * 每帧识别回调:画摄像头画中画 + 推进游戏
+   * ================================================================ */
+  function onResults(results) {
+    ctxClear();
+
+    if (!results.multiFaceLandmarks || results.multiFaceLandmarks.length === 0) {
+      expr = null;
+      updateMeters();
+      gameFrame(performance.now());
+      return;
+    }
+
+    const lm = results.multiFaceLandmarks[0];
+    expr = computeExpressions(lm);
+    updateMeters();
+
+    // ---- 在画中画上画"面部扫描网格"(效果同表情页,只是画得小) ----
+    pctx.strokeStyle = 'rgba(103, 232, 249, 0.30)';
+    pctx.lineWidth = 0.6;
+    for (const pair of FACEMESH_TESSELATION) {
+      const a = lm[pair[0]], b = lm[pair[1]];
+      pctx.beginPath();
+      pctx.moveTo(a.x * pipCanvas.width, a.y * pipCanvas.height);
+      pctx.lineTo(b.x * pipCanvas.width, b.y * pipCanvas.height);
+      pctx.stroke();
+    }
+    // 嘴巴高亮:粉色 —— 提醒玩家"程序正盯着你的嘴"
+    drawRegion(lm, FACEMESH_LIPS, '#f472b6', 1.6);
+
+    // 推进游戏(校准 / 崩值 / 判负都在这里)
+    gameFrame(performance.now());
+  }
+
+  // 画中画画布每帧清空
+  function ctxClear() {
+    pctx.clearRect(0, 0, pipCanvas.width, pipCanvas.height);
+  }
+
+  // 高亮某个区域(比如嘴巴):把区域里的连接线描一遍
+  function drawRegion(lm, connections, color, width) {
+    if (!connections) return;   // 防止老版本库没有这个变量
+    pctx.strokeStyle = color;
+    pctx.lineWidth = width;
+    for (const pair of connections) {
+      const a = lm[pair[0]], b = lm[pair[1]];
+      pctx.beginPath();
+      pctx.moveTo(a.x * pipCanvas.width, a.y * pipCanvas.height);
+      pctx.lineTo(b.x * pipCanvas.width, b.y * pipCanvas.height);
+      pctx.stroke();
+    }
+  }
+  </script>
+</body>
+</html>
