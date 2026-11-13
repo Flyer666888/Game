@@ -1,0 +1,1215 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV10",
+  "checked_at": "2026-10-23T22:35:51.937867",
+  "source": "Actual UE editor collision/read-back. Enemy HISM are deliberately NoCollision. This head/chest test measures architecture occlusion only; rendered images assess silhouette overlap.",
+  "display_enemy_count": 36,
+  "enemy_markers": [
+    {
+      "id": "B_R_1_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_1_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_1_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_1_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_1_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_2_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_2_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_2_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_2_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_2_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_3_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_3_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_3_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_3_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_3_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_0_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_0_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_0_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_1_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_1_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_1_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_1_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_1_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_2_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_2_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_2_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_2_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_2_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_3_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_3_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_3_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_3_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_3_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_0_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_0_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_0_03",
+      "unique_actual_position_matches": true
+    }
+  ],
+  "floor_samples": 216,
+  "floor_failures": [],
+  "landing_capsules": [
+    {
+      "stair": "R_Access1",
+      "landing_m": [
+        -18.8,
+        155.45,
+        29.6
+      ],
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "stair": "R_Access2",
+      "landing_m": [
+        -18.8,
+        159.55,
+        31.2
+      ],
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "stair": "R_Access3",
+      "landing_m": [
+        -18.8,
+        163.5,
+        32.8
+      ],
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "stair": "L_Access1",
+      "landing_m": [
+        18.8,
+        155.45,
+        29.6
+      ],
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "stair": "L_Access2",
+      "landing_m": [
+        18.8,
+        159.55,
+        31.2
+      ],
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "stair": "L_Access3",
+      "landing_m": [
+        18.8,
+        163.5,
+        32.8
+      ],
+      "clear": true,
+      "blocker": null
+    }
+  ],
+  "entry_sightlines": [
+    {
+      "eye_height_m": 1.1,
+      "count": 36,
+      "heads_clear": 36,
+      "chests_clear": 36,
+      "enemies": [
+        {
+          "id": "B_R_1_01",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_02",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_03",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_04",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_05",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_01",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_02",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_03",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_04",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_05",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_01",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_02",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_03",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_04",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_05",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_01",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_02",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_03",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_01",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_02",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_03",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_04",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_05",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_01",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_02",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_03",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_04",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_05",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_01",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_02",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_03",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_04",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_05",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_01",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_02",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_03",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        }
+      ]
+    },
+    {
+      "eye_height_m": 1.62,
+      "count": 36,
+      "heads_clear": 36,
+      "chests_clear": 36,
+      "enemies": [
+        {
+          "id": "B_R_1_01",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_02",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_03",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_04",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_05",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_01",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_02",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_03",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_04",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_05",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_01",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_02",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_03",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_04",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_05",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_01",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_02",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_03",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_01",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_02",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_03",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_04",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_05",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_01",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_02",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_03",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_04",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_05",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_01",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_02",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_03",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_04",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_05",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_01",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_02",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_03",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        }
+      ]
+    }
+  ],
+  "combat_disk_floor_samples": 181,
+  "combat_disk_failures": [],
+  "success": true,
+  "new_encounters": {
+    "display_only": true,
+    "ranged_enemy_count": 6,
+    "grandmaster_count": 4,
+    "marker_checks": [
+      {
+        "id": "R01_Talisman_01",
+        "role": "ranged_talisman",
+        "tag": "NLBlockout.EncounterEnemy.R01_Talisman_01",
+        "actual_foot": [
+          -7.4,
+          47.725,
+          8.8
+        ],
+        "expected_foot": [
+          -7.4,
+          47.725,
+          8.8
+        ],
+        "unique_position_matches": true,
+        "floor": {
+          "actor": "NB4_Cluster_RangedWalkways_CliffLight_Solid",
+          "point": [
+            -7.4,
+            47.725,
+            8.791999984741212
+          ]
+        },
+        "floor_supported": true,
+        "success": true
+      },
+      {
+        "id": "R01_Talisman_02",
+        "role": "ranged_talisman",
+        "tag": "NLBlockout.EncounterEnemy.R01_Talisman_02",
+        "actual_foot": [
+          -11.5,
+          47.725,
+          8.8
+        ],
+        "expected_foot": [
+          -11.5,
+          47.725,
+          8.8
+        ],
+        "unique_position_matches": true,
+        "floor": {
+          "actor": "NB4_Cluster_RangedWalkways_CliffLight_Solid",
+          "point": [
+            -11.5,
+            47.725,
+            8.791999984741212
+          ]
+        },
+        "floor_supported": true,
+        "success": true
+      },
+      {
+        "id": "R02_Talisman_01",
+        "role": "ranged_talisman",
+        "tag": "NLBlockout.EncounterEnemy.R02_Talisman_01",
+        "actual_foot": [
+          7.4,
+          179.52499999999998,
+          36.8
+        ],
+        "expected_foot": [
+          7.4,
+          179.52499999999998,
+          36.8
+        ],
+        "unique_position_matches": true,
+        "floor": {
+          "actor": "NB4_Cluster_RangedWalkways_CliffLight_Solid",
+          "point": [
+            7.4,
+            179.52499999999998,
+            36.7919999847412
+          ]
+        },
+        "floor_supported": true,
+        "success": true
+      },
+      {
+        "id": "R02_Talisman_02",
+        "role": "ranged_talisman",
+        "tag": "NLBlockout.EncounterEnemy.R02_Talisman_02",
+        "actual_foot": [
+          11.5,
+          179.52499999999998,
+          36.8
+        ],
+        "expected_foot": [
+          11.5,
+          179.52499999999998,
+          36.8
+        ],
+        "unique_position_matches": true,
+        "floor": {
+          "actor": "NB4_Cluster_RangedWalkways_CliffLight_Solid",
+          "point": [
+            11.5,
+            179.52499999999998,
+            36.7919999847412
+          ]
+        },
+        "floor_supported": true,
+        "success": true
+      },
+      {
+        "id": "R03_Talisman_01",
+        "role": "ranged_talisman",
+        "tag": "NLBlockout.EncounterEnemy.R03_Talisman_01",
+        "actual_foot": [
+          -7.4,
+          236.15357142857098,
+          59.2
+        ],
+        "expected_foot": [
+          -7.4,
+          236.15357142857098,
+          59.199999999999996
+        ],
+        "unique_position_matches": true,
+        "floor": {
+          "actor": "NB4_Cluster_RangedWalkways_CliffLight_Solid",
+          "point": [
+            -7.4,
+            236.15357142857098,
+            59.19199998474121
+          ]
+        },
+        "floor_supported": true,
+        "success": true
+      },
+      {
+        "id": "R03_Talisman_02",
+        "role": "ranged_talisman",
+        "tag": "NLBlockout.EncounterEnemy.R03_Talisman_02",
+        "actual_foot": [
+          -11.5,
+          236.15357142857098,
+          59.2
+        ],
+        "expected_foot": [
+          -11.5,
+          236.15357142857098,
+          59.199999999999996
+        ],
+        "unique_position_matches": true,
+        "floor": {
+          "actor": "NB4_Cluster_RangedWalkways_CliffLight_Solid",
+          "point": [
+            -11.5,
+            236.15357142857098,
+            59.19199998474121
+          ]
+        },
+        "floor_supported": true,
+        "success": true
+      },
+      {
+        "id": "GM01",
+        "role": "grandmaster",
+        "tag": "NLBlockout.EncounterEnemy.GM01",
+        "actual_foot": [
+          -46.0,
+          336.0,
+          72.0
+        ],
+        "expected_foot": [
+          -46,
+          336,
+          72
+        ],
+        "unique_position_matches": true,
+        "floor": {
+          "actor": "NB4_Cluster_04_YufengBridge_Landing_Solid",
+          "point": [
+            -46.0,
+            336.0,
+            72.0
+          ]
+        },
+        "floor_supported": true,
+        "success": true
+      },
+      {
+        "id": "GM02",
+        "role": "grandmaster",
+        "tag": "NLBlockout.EncounterEnemy.GM02",
+        "actual_foot": [
+          -82.0,
+          401.0,
+          90.0
+        ],
+        "expected_foot": [
+          -82,
+          401,
+          90
+        ],
+        "unique_position_matches": true,
+        "floor": {
+          "actor": "NB4_Cluster_04_YufengBridge_Landing_Solid",
+          "point": [
+            -82.0,
+            401.0,
+            90.0
+          ]
+        },
+        "floor_supported": true,
+        "success": true
+      },
+      {
+        "id": "GM03",
+        "role": "grandmaster",
+        "tag": "NLBlockout.EncounterEnemy.GM03",
+        "actual_foot": [
+          -130.0,
+          470.0,
+          106.0
+        ],
+        "expected_foot": [
+          -130,
+          470,
+          106
+        ],
+        "unique_position_matches": true,
+        "floor": {
+          "actor": "NB4_Cluster_04_YufengBridge_Landing_Solid",
+          "point": [
+            -130.0,
+            470.0,
+            106.0
+          ]
+        },
+        "floor_supported": true,
+        "success": true
+      },
+      {
+        "id": "GM04",
+        "role": "grandmaster",
+        "tag": "NLBlockout.EncounterEnemy.GM04",
+        "actual_foot": [
+          -180.0,
+          539.0,
+          122.0
+        ],
+        "expected_foot": [
+          -180,
+          539,
+          122
+        ],
+        "unique_position_matches": true,
+        "floor": {
+          "actor": "NB4_Cluster_04_YufengBridge_Landing_Solid",
+          "point": [
+            -180.0,
+            539.0,
+            122.0
+          ]
+        },
+        "floor_supported": true,
+        "success": true
+      },
+      {
+        "id": "Boss",
+        "role": "boss",
+        "tag": "NLBlockout.EncounterEnemy.Boss",
+        "actual_foot": [
+          -208.0,
+          626.0,
+          132.0
+        ],
+        "expected_foot": [
+          -208.0,
+          626.0,
+          132.0
+        ],
+        "unique_position_matches": true,
+        "floor": {
+          "actor": "NB4_D_SummitFloor",
+          "point": [
+            -208.0,
+            626.0000006103515,
+            132.00000003814696
+          ]
+        },
+        "floor_supported": true,
+        "success": true
+      }
+    ],
+    "ranged_stations": [
+      {
+        "id": "R01",
+        "route_rest_capsule_clear": true,
+        "shooting_lanes": [
+          {
+            "from": [
+              -7.133302585530949,
+              46.96600560666397,
+              10.9
+            ],
+            "to": [
+              0.0,
+              42.395,
+              7.040000000000001
+            ],
+            "architecture_clear": true,
+            "blocker": null
+          },
+          {
+            "from": [
+              -11.094623461212139,
+              47.030111619178754,
+              10.9
+            ],
+            "to": [
+              0.0,
+              42.395,
+              7.040000000000001
+            ],
+            "architecture_clear": true,
+            "blocker": null
+          }
+        ],
+        "success": true
+      },
+      {
+        "id": "R02",
+        "route_rest_capsule_clear": true,
+        "shooting_lanes": [
+          {
+            "from": [
+              6.595648726966517,
+              179.5102003523888,
+              38.9
+            ],
+            "to": [
+              0.0,
+              174.1625,
+              34.72
+            ],
+            "architecture_clear": true,
+            "blocker": null
+          },
+          {
+            "from": [
+              10.707432835320065,
+              179.66297568434763,
+              38.9
+            ],
+            "to": [
+              0.0,
+              174.1625,
+              34.72
+            ],
+            "architecture_clear": true,
+            "blocker": null
+          }
+        ],
+        "success": true
+      },
+      {
+        "id": "R03",
+        "route_rest_capsule_clear": true,
+        "shooting_lanes": [
+          {
+            "from": [
+              -7.144450650448668,
+              235.3907513121976,
+              61.3
+            ],
+            "to": [
+              0.0,
+              230.657142857143,
+              57.28
+            ],
+            "architecture_clear": true,
+            "blocker": null
+          },
+          {
+            "from": [
+              -11.102884075824758,
+              235.45392941813532,
+              61.3
+            ],
+            "to": [
+              0.0,
+              230.657142857143,
+              57.28
+            ],
+            "architecture_clear": true,
+            "blocker": null
+          }
+        ],
+        "success": true
+      }
+    ],
+    "scope": "Saved enemy marker positions, supporting floor and architectural shot lanes only; does not certify AI, projectile damage or actual combat.",
+    "success": true
+  }
+}

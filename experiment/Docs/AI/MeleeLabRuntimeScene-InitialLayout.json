@@ -1,0 +1,35 @@
+{
+  "scene_loaded": true,
+  "pawn": "/Script/experiment.NLDesktopPlayerCharacter",
+  "camera_cm": [
+    30.0,
+    -170.0,
+    147.35714721679688
+  ],
+  "weapon": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+  "attack_definition": "/Game/ReversedScale/Combat/DA_YueyaoMelee.DA_YueyaoMelee",
+  "blade_state": "<NLBladeSwingState.READY: 0>",
+  "enemies": [
+    {
+      "feet_cm": [
+        240.0,
+        -215.0,
+        0.0
+      ],
+      "health": 30.0,
+      "animation_time_seconds": 0.45741432905197144,
+      "body_profile": "NLEnemyBody"
+    },
+    {
+      "feet_cm": [
+        240.0,
+        -125.0,
+        0.0
+      ],
+      "health": 30.0,
+      "animation_time_seconds": 0.45741432905197144,
+      "body_profile": "NLEnemyBody"
+    }
+  ],
+  "scope": "Initial scene presentation only; combat input and acceptance are pending user play."
+}

@@ -1,0 +1,66 @@
+{
+  "source_map": "/Game/ReversedScale/Maps/L_CombatLabLite",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabSword",
+  "actor_count": 12,
+  "animation": "/Game/Animations/Sword/Anim_CSST.Anim_CSST",
+  "duration_seconds": 9.866666793823242,
+  "enemies": [
+    {
+      "label": "Enemy_Melee_A",
+      "class": "/Script/Engine.SkeletalMeshActor",
+      "location": [
+        350.0,
+        -170.0,
+        0.0
+      ],
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 109.29003906250003,
+        "roll": -0.0
+      },
+      "mesh": "/Game/Character/Mesh/SK_Mannequin.SK_Mannequin",
+      "previous_animation": "/Game/Animations/ExtremeCombat/Anim_L_Idle.Anim_L_Idle",
+      "animation": "/Game/Animations/Sword/Anim_CSST.Anim_CSST",
+      "skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton",
+      "play_rate": 1.0,
+      "looping": true,
+      "playing": true
+    },
+    {
+      "label": "Enemy_Melee_B",
+      "class": "/Script/Engine.SkeletalMeshActor",
+      "location": [
+        750.0,
+        230.0,
+        0.0
+      ],
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 119.53878784179686,
+        "roll": -0.0
+      },
+      "mesh": "/Game/Character/Mesh/SK_Mannequin.SK_Mannequin",
+      "previous_animation": "/Game/Animations/ExtremeCombat/Anim_L_Idle.Anim_L_Idle",
+      "animation": "/Game/Animations/Sword/Anim_CSST.Anim_CSST",
+      "skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton",
+      "play_rate": 1.0,
+      "looping": true,
+      "playing": true
+    }
+  ],
+  "scope": "Sword idle appearance; no new combat behavior",
+  "runtime_review": {
+    "preview_process_id": 58460,
+    "map_load_confirmed": true,
+    "animation_observed": "/Game/Animations/Sword/Anim_CSST.Anim_CSST",
+    "animation_time_seconds": [
+      0.5668893456459045,
+      1.9406402111053467
+    ],
+    "visually_reviewed": true,
+    "screenshot": "Docs/AI/SwordDemoPreview.png",
+    "playback_report": "Docs/AI/SwordRuntimeAnimation-2026-10-08.json",
+    "launcher": "Run_CombatLab_Demo.cmd",
+    "keyboard_input_acceptance": "Pending user feedback"
+  }
+}

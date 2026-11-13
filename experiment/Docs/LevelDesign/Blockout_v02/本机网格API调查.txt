@@ -1,0 +1,60 @@
+UE 5.8.2 本机网格 API 调查
+日期：2026-10-20
+调查范围：只读本机引擎头文件/实现与EditorAPIProbe；本调查代理未启动UE、未导入资产、未改动地图。
+
+首选：原始顶点/三角面 → DynamicMesh → 新StaticMesh资产
+
+本地类名
+unreal.DynamicMesh（可直接使用append_buffers_to_mesh等Geometry Script扩展方法）
+unreal.GeometryScript_MeshEdits（MeshBasicEditFunctions的ScriptName）
+unreal.GeometryScript_NewAssetUtils（CreateNewAssetUtilityFunctions的ScriptName）
+unreal.GeometryScript_AssetUtils（MeshAssetFunctions的ScriptName）
+unreal.GeometryScript_Collision（CollisionFunctions的ScriptName）
+旧GeometryScriptLibrary_...类名在本机首轮Python探测中为None，不应据此判定插件不提供功能。
+
+构建接口
+GeometryScriptSimpleMeshBuffers提供vertices:Array[Vector]、triangles:Array[IntVector]，还可填逐顶点normals/uv0/vertex_colors与逐三角tri_group_i_ds。
+本机启用GeometryScripting后的Python探测签名：
+GeometryScript_MeshEdits.append_buffers_to_mesh(target_mesh, buffers, material_id=0, defer_change_notifications=False, debug=None) -> (DynamicMesh, new_triangle_indices_list=GeometryScriptIndexList)。
+可以直接调用dyn.append_buffers_to_mesh(buffers, ...)避免依赖旧类别名；new_triangle_indices_list是输出，不要作为位置参数传入。
+内部一次追加全部顶点与三角；重复三角或非流形三角会被拒绝，triangle count不相等不能当作成功。
+外部OBJ面索引须转为0起始。若世界坐标变换含单轴镜像，应同时反转三角绕序；不能只把X取反而保留原绕序。单位按UE厘米统一换算，避免在Actor与顶点两处重复缩放。
+本轮实际MeshTrial发现：仅填vertices/triangles且启用重算切线，StaticMesh后台Build会出现UV数组越界断言。root补齐逐顶点uv0，并关闭enable_recompute_tangents、保留重算normal后，屋顶资产创建、ComplexAsSimple碰撞和保存成功，命令行退出0且0 error / 0 warning。新的网格构建工具应保持此约定，不复制最初缺UV的试验配置。
+
+新资产接口
+本机Python探测签名：
+GeometryScript_NewAssetUtils.create_new_static_mesh_asset_from_mesh(from_dynamic_mesh, asset_path_and_name, options, debug=None) -> (StaticMesh, outcome=GeometryScriptOutcomePins)。
+接收mesh, outcome后校验mesh非None和outcome成功，不要把C++ out Outcome作为Python输入参数。
+GeometryScriptCreateNewStaticMeshAssetOptions包含：
+enable_recompute_normals / enable_recompute_tangents / enable_nanite / enable_collision / collision_mode / use_original_vertex_order。
+本机C++默认enable_collision=True、enable_nanite=False；可在创建时显式选择CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE。
+实现将上述值传到FStaticMeshAssetOptions.bCreatePhysicsBody、CollisionType，创建资产后执行PostEditChange并注册AssetRegistry。
+依然应显式save_loaded_asset并检查返回值，重载资产与地图后用实际复杂射线、胶囊和角色移动验证。API支持设置不代表本轮生成的资产已通过查询。
+优先新建独立V07资产。CopyMeshToStaticMesh可更新现有资产LOD/材质，但其Options未提供复制/重建碰撞模式，不应假设它同步刷新原BodySetup。
+
+碰撞接口边界
+GeometryScript_Collision.set_static_mesh_custom_complex_collision可指定另一StaticMesh作为复杂碰撞，需Editor-only data。
+set_static_mesh_collision_from_mesh的说明是生成Simple Collision，不是把原始三角面直接用作复杂碰撞。
+StaticMeshEditorSubsystem.get_collision_complexity可读实际模式；本机没有set_collision_complexity Python方法。
+静态岩体可用ComplexAsSimple，视觉云体应NoCollision；台阶和落台已有基础体块碰撞可继续保留。
+
+次选：合并现有StaticMeshActor
+本机Python签名：
+StaticMeshEditorSubsystem.merge_static_mesh_actors(actors_to_merge, merge_options) -> StaticMeshActor or None。
+它不是(bool, actor)元组；同Level对象才能合并。
+MergeStaticMeshActorsOptions字段：destroy_source_actors、new_actor_label、rename_components_from_source、spawn_merged_actor、base_package_name、mesh_merging_settings。
+可显式MeshMergingSettings.merge_materials=False、generate_light_map_uv=False、lod_selection_type=MeshLODSelectionType.SPECIFIC_LOD、specific_lod=0，避免无关材质烘焙。
+merge_physics_data文档仅承诺碰撞primitives，不承诺所有复杂查询碰撞保持原样。
+首轮destroy_source_actors=False，保存新资产与地图并复核后再决定清理源Actor；优先合并无碰撞屋面/斗拱等装饰，不在本轮未经实测地替换已走通的阶梯地板。
+
+本地来源（均位于D:/浏览器下载/UE_5.8/Engine）
+Plugins/Runtime/GeometryScripting/Source/GeometryScriptingCore/Public/GeometryScript/MeshBasicEditFunctions.h
+Plugins/Runtime/GeometryScripting/Source/GeometryScriptingCore/Private/MeshBasicEditFunctions.cpp
+Plugins/Runtime/GeometryScripting/Source/GeometryScriptingEditor/Public/GeometryScript/CreateNewAssetUtilityFunctions.h
+Plugins/Runtime/GeometryScripting/Source/GeometryScriptingEditor/Private/CreateNewAssetUtilityFunctions.cpp
+Plugins/Runtime/GeometryScripting/Source/GeometryScriptingCore/Public/GeometryScript/MeshAssetFunctions.h
+Plugins/Runtime/GeometryScripting/Source/GeometryScriptingCore/Public/GeometryScript/CollisionFunctions.h
+Source/Editor/StaticMeshEditor/Public/StaticMeshEditorSubsystem.h
+Source/Editor/StaticMeshEditor/Public/StaticMeshEditorSubsystemHelpers.h
+Source/Editor/StaticMeshEditor/Private/StaticMeshEditorSubsystem.cpp
+Source/Runtime/Engine/Public/MeshMerge/MeshMergingSettings.h

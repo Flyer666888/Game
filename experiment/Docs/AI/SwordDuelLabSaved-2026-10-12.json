@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-12",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+  "game_mode": "/Game/ReversedScale/Player/BP_CombatLabSwordDuelGameMode",
+  "previous_map_preserved": "/Game/ReversedScale/Maps/L_CombatLabReflection",
+  "enemies": [
+    {
+      "label": "SwordDisciple_1",
+      "capsule_origin_cm": [
+        430,
+        -280,
+        88
+      ],
+      "feet_floor_cm": 0,
+      "health": 30,
+      "damage": 10,
+      "walk_speed_cm_s": 122.81497121381146,
+      "telegraph_seconds": 0.8,
+      "active_seconds": 0.22999999999999998,
+      "recover_seconds": 1.3033333333333335
+    },
+    {
+      "label": "SwordDisciple_2",
+      "capsule_origin_cm": [
+        620,
+        40,
+        88
+      ],
+      "feet_floor_cm": 0,
+      "health": 30,
+      "damage": 10,
+      "walk_speed_cm_s": 122.81497121381146,
+      "telegraph_seconds": 0.8,
+      "active_seconds": 0.22999999999999998,
+      "recover_seconds": 1.3033333333333335
+    }
+  ],
+  "navigation_origin_cm": [
+    300.0,
+    0.0,
+    100.0
+  ],
+  "navigation_extent_cm": [
+    1500.0,
+    1200.0,
+    300.0
+  ],
+  "navigation_config": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel.L_CombatLabSwordDuel:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0",
+  "default_combat_enabled": false,
+  "duel_toggle": "G",
+  "launcher_toggle": "F",
+  "melee_guard_cost": 20,
+  "player_melee_damage": 10,
+  "player_qi_damage": 15,
+  "source_mesh_preserved": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet.SK_WuxiaMale_Feet",
+  "weapon_preserved": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+  "attack_definition": "/Game/ReversedScale/Combat/DA_EnemySword",
+  "animations": {
+    "Wuxia_Idle_Planted": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+    "Wuxia_Walk_Sword": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+    "Wuxia_Attack_Sword": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+    "Wuxia_Hit_Sword": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+    "Wuxia_Death_Collapse": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse"
+  },
+  "damage_window": "Native animation NotifyState and approved Brain attack window jointly gate blade sweeps; one director attack GUID is preserved.",
+  "scope": "Saved desktop duel scene. Navigation and combat behavior await user play; no automated tests."
+}

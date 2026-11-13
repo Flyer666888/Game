@@ -1,0 +1,32 @@
+VR 剑气模板接入与可调项
+
+已有 VR 输入：/Game/ReversedScale/Player/VR/Input/IA_VRBladeQi
+已有映射：IMC_NilinVR，已读回确认六组右扳机映射。Started提交请求；Completed/Canceled清除请求。
+ANLVRGameMode 的默认 Pawn 为 ANLVRPlayerCharacter，因此原 VR Demo 直接使用新代码。
+
+逻辑链：
+ANLVRPlayerCharacter::FireBladeQi → FNLBladeQiGestureGate::Press
+→ UNLBladeComponent完成本帧追踪空间采样 → OnTrackedMotionSample
+→ Gate.TryConsume（当前有效挥剑ID、速度阈值、短按键缓冲）
+→ 头部到手柄遮挡查询 → TryLaunchBladeQi出口扫掠与冷却
+→ ANLCombatProjectile沿通道NLProjectile连续扫掠 → 原NLCombatResolverSubsystem处理伤害。
+Blade.OnHistoryReset和VR状态复位都取消请求；使用追踪空间相对速度，角色移动本身不会算作挥剑。
+FireBladeQi是虚函数，VR对象的蓝图调用也要走门控；共享发射函数为protected、非蓝图入口。
+
+在原生VR Pawn/派生蓝图的默认值或实例详情中可调整：
+Player|VR|SwordQi：BladeQiInputBufferSeconds、BladeQiMinimumSwingSpeedCmPerSec。
+Player|SwordQi：BladeQiSpeedCmPerSec、BladeQiRangeCm、BladeQiRadiusCm、BladeQiMuzzleOffsetCm、BladeQiProjectileClass。
+刀刃本身的追踪挥动起步阈值在Blade组件SpeedThresholdCmPerSec；剑气阈值低于它不会绕过有效挥剑状态。
+伤害与冷却在 /Game/ReversedScale/Combat/DA_PlayerBladeQi 中的 Damage / CooldownSeconds。
+本轮保留现有DA：15伤害、0.35秒冷却。
+
+后续美术接入：将BladeQiProjectileClass替换为ANLCombatProjectile派生蓝图，装饰Visual即可。
+OnBladeQiLaunched蓝图事件可挂接声音、震动或起手效果；当前未设置这些效果。
+保留原投射物显式扫掠和resolver处理，不需靠特效碰撞额外扣血。
+默认使用共享阵营规则（玩家可伤Enemy与Objective，忽略Player/Neutral），未改任务物件规则。
+本轮没有修改白模关卡、输入资产、DA攻击资产或OpenXR全局设置。
+
+验证文件：BuildFinal.log、Automation/index.json、AssetInspection.json、FinalReport.json。
+测试前缀：Nilin.Combat.BladeQi，15用例（Gesture5、Motion4、Projectile6）。
+Automation日志启动期的引擎自测文本不属于本用例结果；以Automation/index.json各项结果为准。
+修改前原生源代码备份位于 Backups/BeforeGesture_20261022。

@@ -1,0 +1,538 @@
+{
+  "date": "2026-10-16",
+  "status": "Captured",
+  "success": true,
+  "map": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed",
+  "views": [
+    {
+      "file": "..\\..\\..\\..\\CombatProject\\Docs\\AI\\ShieldModel_Equipped.png",
+      "kind": "actual_equipped_sword_and_shield",
+      "state": {
+        "encounter_state": "<NLEncounterState.READY: 0>",
+        "alive_enemies": 0,
+        "health": 100.0,
+        "guard": 100.0,
+        "guard_active": false,
+        "guard_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+        "melee_damage": 10.0
+      },
+      "shield_relative_transform": {
+        "location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "shield_world_transform": {
+        "location_cm": [
+          85.0,
+          -188.0,
+          130.81582489013672
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "left_grip_relative_transform": {
+        "location_cm": [
+          -12.96098,
+          0.0,
+          2.08902
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "scale": [
+          1.0,
+          -1.0,
+          1.0
+        ]
+      },
+      "camera_transform": {
+        "location_cm": [
+          30.0,
+          -170.0,
+          146.81582489013672
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "actual_held_transform": true,
+      "written_bytes": 2039919,
+      "capture_saved": true
+    },
+    {
+      "file": "..\\..\\..\\..\\CombatProject\\Docs\\AI\\ShieldModel_Back.png",
+      "kind": "actual_held_back_detail",
+      "state": {
+        "encounter_state": "<NLEncounterState.READY: 0>",
+        "alive_enemies": 0,
+        "health": 100.0,
+        "guard": 100.0,
+        "guard_active": false,
+        "guard_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+        "melee_damage": 10.0
+      },
+      "shield_relative_transform": {
+        "location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "shield_world_transform": {
+        "location_cm": [
+          85.0,
+          -188.0,
+          130.81582489013672
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "left_grip_relative_transform": {
+        "location_cm": [
+          -12.96098,
+          0.0,
+          2.08902
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "scale": [
+          1.0,
+          -1.0,
+          1.0
+        ]
+      },
+      "camera_transform": {
+        "location_cm": [
+          30.0,
+          -170.0,
+          146.81582489013672
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "actual_held_transform": true,
+      "written_bytes": 1966265,
+      "capture_saved": true
+    },
+    {
+      "file": "..\\..\\..\\..\\CombatProject\\Docs\\AI\\ShieldModel_Front.png",
+      "kind": "front_art_presentation",
+      "state": {
+        "encounter_state": "<NLEncounterState.READY: 0>",
+        "alive_enemies": 0,
+        "health": 100.0,
+        "guard": 100.0,
+        "guard_active": false,
+        "guard_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+        "melee_damage": 10.0
+      },
+      "shield_relative_transform": {
+        "location_cm": [
+          28.0,
+          0.0,
+          16.0
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          -0.0,
+          0.9999999999999999,
+          6.123233995736766e-17
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "shield_world_transform": {
+        "location_cm": [
+          113.0,
+          -188.0,
+          146.81582489013672
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.9999999999999999,
+          6.123233995736766e-17
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "left_grip_relative_transform": {
+        "location_cm": [
+          -12.96098,
+          0.0,
+          2.08902
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "scale": [
+          1.0,
+          -1.0,
+          1.0
+        ]
+      },
+      "camera_transform": {
+        "location_cm": [
+          30.0,
+          -170.0,
+          146.81582489013672
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "actual_held_transform": false,
+      "written_bytes": 2017481,
+      "capture_saved": true
+    }
+  ],
+  "no_agent_gameplay_inputs": true,
+  "tests_added_or_run": false,
+  "assets_or_maps_saved": false,
+  "scope": "Desktop Ready art only. Equipped/back views preserve the held transform; front temporarily rotates only the shield mesh for presentation. No guard activation, controller simulation, collision edits or encounter start.",
+  "pawn_class": "/Script/experiment.NLDesktopPlayerCharacter",
+  "shield": {
+    "mesh": "/Game/ReversedScale/Weapons/DragonShield/SM_DragonShield.SM_DragonShield",
+    "materials": [
+      "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_00.M_DragonShield_00",
+      "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_01.M_DragonShield_01",
+      "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_02.M_DragonShield_02",
+      "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_03.M_DragonShield_03",
+      "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_05.M_DragonShield_05",
+      "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_06.M_DragonShield_06",
+      "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_07.M_DragonShield_07"
+    ],
+    "relative_transform": {
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "world_transform": {
+      "location_cm": [
+        85.0,
+        -188.0,
+        130.81582489013672
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "visibility": {
+      "visible": false,
+      "hidden_in_game": true
+    }
+  },
+  "left_hand": {
+    "mesh": "/Game/ReversedScale/Player/Hands/SK_PlayerHand_Realistic_R.SK_PlayerHand_Realistic_R",
+    "materials": [
+      "/Game/ReversedScale/Player/Materials/M_PlayerSkin.M_PlayerSkin",
+      "/Game/ReversedScale/Player/Materials/M_PlayerNails.M_PlayerNails"
+    ],
+    "relative_transform": {
+      "location_cm": [
+        -12.96098,
+        0.0,
+        2.08902
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.7071067811865476,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    "world_transform": {
+      "location_cm": [
+        72.03902,
+        -188.0,
+        132.90484489013673
+      ],
+      "quaternion_xyzw": [
+        -0.0,
+        0.0,
+        0.7071067811865476,
+        0.7071067811865475
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    "visibility": {
+      "visible": false,
+      "hidden_in_game": true
+    }
+  },
+  "weapon_a": {
+    "mesh": "/Game/ReversedScale/Weapons/SelectedSwordA/SM_PlayerSword_A.SM_PlayerSword_A",
+    "materials": [
+      "/Game/ModularWeapons/Materials/MI_Sword_Blade_03.MI_Sword_Blade_03",
+      "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_03.MI_Sword_Crossguard_03",
+      "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01",
+      "/Game/ModularWeapons/Materials/MI_Sword_Pommel_03.MI_Sword_Pommel_03"
+    ],
+    "relative_transform": {
+      "location_cm": [
+        0.0,
+        2.65,
+        -7.8
+      ],
+      "quaternion_xyzw": [
+        0.4999999672164564,
+        -0.5000000327835414,
+        -0.4999999890721524,
+        0.5000000109278473
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "world_transform": {
+      "location_cm": [
+        74.87383272905711,
+        -140.1999998841648,
+        132.9419921610796
+      ],
+      "quaternion_xyzw": [
+        -0.3826834525571183,
+        2.5091437483304446e-08,
+        -0.9238795241474724,
+        6.057608770149159e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "visibility": {
+      "visible": true,
+      "hidden_in_game": false
+    }
+  },
+  "original_component_visibility": {
+    "mirror_pivot": {
+      "visible": false,
+      "hidden_in_game": true
+    },
+    "mirror_face": {
+      "visible": false,
+      "hidden_in_game": true
+    },
+    "left_hand": {
+      "visible": false,
+      "hidden_in_game": true
+    },
+    "left_sleeve": {
+      "visible": false,
+      "hidden_in_game": true
+    },
+    "right_hand": {
+      "visible": true,
+      "hidden_in_game": false
+    },
+    "right_sleeve": {
+      "visible": true,
+      "hidden_in_game": false
+    },
+    "held_weapon": {
+      "visible": true,
+      "hidden_in_game": false
+    },
+    "guard_collision": {
+      "visible": false,
+      "hidden_in_game": true
+    }
+  },
+  "original_guard_visual": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.NLDesktopPlayerCharacter_0.MirrorPivot",
+  "original_hud_visible": true,
+  "initial_state": {
+    "encounter_state": "<NLEncounterState.READY: 0>",
+    "alive_enemies": 0,
+    "health": 100.0,
+    "guard": 100.0,
+    "guard_active": false,
+    "guard_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+    "melee_damage": 10.0
+  },
+  "mesh_asset_file": "..\\..\\..\\..\\CombatProject\\Content\\ReversedScale\\Weapons\\DragonShield\\SM_DragonShield.uasset",
+  "mesh_asset_sha256": "4d88c7c478becefb4dc71ae03f1c9ee56bb1e5de45305c11b33ccce64a4f8f13",
+  "failure": null,
+  "elapsed_seconds": 36.031,
+  "restored_shield_relative_transform": {
+    "location_cm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_xyzw": [
+      0.0,
+      -0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "restored_component_visibility": {
+    "mirror_pivot": {
+      "visible": false,
+      "hidden_in_game": true
+    },
+    "mirror_face": {
+      "visible": false,
+      "hidden_in_game": true
+    },
+    "left_hand": {
+      "visible": false,
+      "hidden_in_game": true
+    },
+    "left_sleeve": {
+      "visible": false,
+      "hidden_in_game": true
+    },
+    "right_hand": {
+      "visible": true,
+      "hidden_in_game": false
+    },
+    "right_sleeve": {
+      "visible": true,
+      "hidden_in_game": false
+    },
+    "held_weapon": {
+      "visible": true,
+      "hidden_in_game": false
+    },
+    "guard_collision": {
+      "visible": false,
+      "hidden_in_game": true
+    }
+  },
+  "restored_guard_visual": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.NLDesktopPlayerCharacter_0.MirrorPivot",
+  "restore_errors": [],
+  "presentation_restored": true,
+  "final_state": {
+    "encounter_state": "<NLEncounterState.READY: 0>",
+    "alive_enemies": 0,
+    "health": 100.0,
+    "guard": 100.0,
+    "guard_active": false,
+    "guard_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+    "melee_damage": 10.0
+  }
+}

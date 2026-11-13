@@ -1,0 +1,69 @@
+Project: ReversedScale / 《逆鳞》
+EngineVersion: UE 5.8.2 (CL 56702186)
+ProjectFile: experiment.uproject
+Updated: 2026-10-09
+Milestone: Desktop Combat Lab melee slice supporting M2; VR milestones remain pending
+CurrentTask: CORE-01 integration / CORE-02 health-and-time subset / COMBAT-01 desktop adapter
+TaskStatus: Compiled_AwaitingUserPlay_AndVRDeviceCheck
+OpenMap: /Game/ReversedScale/Maps/L_CombatLabMelee
+CompletedDependencies:
+  - ENV-01 toolchain and Editor Development compilation
+ImplementedThisBatch:
+  - Health, damage protection, death events and per-target damage deduplication.
+  - Blade sweeps through the common resolver; desktop input drives a visible windup/strike/recovery.
+  - Stationary disciples have 30 health; the melee definition deals 30 damage.
+  - Pause freezes game time and cancels attack history; R restores the encounter in place.
+  - Minimal HUD shows controls, hit feedback, defeated count and pause state.
+  - Dead enemy head poses cannot lower the player's cached standing eye height.
+SourceChanges:
+  - Public/Combat/NLCombatVitalsComponent.h; Private/Combat/NLCombatVitalsComponent.cpp
+  - Public/Combat/NLBladeComponent.h; Private/Combat/NLBladeComponent.cpp
+  - Public/Combat/NLTrainingEnemy.h; Private/Combat/NLTrainingEnemy.cpp
+  - Private/Combat/NLCombatResolverSubsystem.cpp
+  - Public/Player/NLDesktopPlayerCharacter.h; Private/Player/NLDesktopPlayerCharacter.cpp
+  - Public/Player/NLCombatLabHUD.h; Private/Player/NLCombatLabHUD.cpp
+AssetChanges:
+  - New L_CombatLabMelee derived from saved L_CombatLabYueyao; previous map remains available.
+  - BP_CombatLabMeleeGameMode assigns native player and combat HUD.
+  - DA_YueyaoMelee: stable ID Attack.Player.Yueyao.Melee, damage 30.
+  - Uses current SM_Yueyao_Player slender blade; original 34 hilt parts remain preserved.
+  - Uses existing SK_WuxiaMale_Feet and Wuxia_Idle_Planted without changing feet/face assets.
+ConfigurationChanges:
+  - ECC_GameTraceChannel2 is NLBlade; world blocks, enemy body overlaps.
+  - Default maps and Run_CombatLab_Demo launcher point at L_CombatLabMelee.
+  - Rendering, filesystem DDC, original XR global game mode and installed toolchain retained.
+DesktopDemo:
+  ProcessId: 5552
+  Presentation: SceneLoaded_InitialPresentationCaptured
+  Controls: WASD move; mouse look; left click slash; Esc/P pause; R reset; Alt+F4 close
+  Launcher: Run_CombatLab_Demo.cmd
+  MapSaveReport: Docs/AI/MeleeLabSaved-2026-10-09.json
+  RuntimeSceneReport: Docs/AI/MeleeLabRuntimeScene-2026-10-09.json
+  Screenshot: Docs/AI/MeleeLabFirstPerson.png
+LastBuild:
+  Result: Succeeded
+  ExitCode: 0
+  Target: experimentEditor Win64 Development
+  Toolchain: MSVC 14.44.35229 / Windows SDK 10.0.22621.0
+  Log: Docs/AI/BuildLog-CombatModule-Editor-latest.txt
+Validation:
+  Compile: Passed
+  MapAssetCreation: Saved successfully through UE Python
+  CombatBehavior: PendingUserPlay
+  AutomatedTests: Not added or run
+Deferred:
+  - Guard values are initialized/reset only; guard spending, regeneration and break are not implemented.
+  - No MotionController-driven VR Pawn, handedness swap, seated-play or tracking-loss acceptance.
+  - Training targets do not navigate or attack; ENEMY-01 and DIR-01 remain pending.
+  - No projectiles, shield blocking, perfect parry, waves or checkpoints in this batch.
+  - R is a lab reset, not SAVE-01 snapshot restoration.
+  - Only Editor target compiled; Game target, Cook and packaging not performed.
+PendingDeviceChecks:
+  - No headset is available; VR-01/02 and real tracked COMBAT-01 acceptance are pending.
+PriorDelivery:
+  StateArchive: Docs/AI/State-before-Melee-2026-10-09.txt
+  BladeReport: Docs/AI/SlenderBladeDelivery-2026-10-09.json
+  FeetReport: Docs/AI/EnemyFeetMeasurements.json
+  WeaponSource: ArtSource/Weapons/Yueyao/SlenderBladeRevision/Yueyao_Hero_Weapon_SlenderBlade.blend
+NextAction: User plays the melee slice. Fix reported issues before adding COMBAT-02 projectile and COMBAT-03 mirror guard.
+AssetsNext: One mirror and one enemy/flying sword are enough; additional player weapons can wait.

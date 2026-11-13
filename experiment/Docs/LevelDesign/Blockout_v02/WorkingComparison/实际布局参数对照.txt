@@ -1,0 +1,30 @@
+《逆鳞》V06 / V07 实际布局参数对照
+旧图：/Game/ReversedScale/Maps/L_NilinBlockoutV06
+新图：/Game/ReversedScale/Maps/L_NilinBlockoutV07
+节点地面位置：存在差异，见JSON
+阶梯路线参数：存在差异，见JSON
+八节点高程：相同
+四院坪形状尺寸：相同（平移不视为缩小）
+落台/翼台尺寸：相同
+
+C→D四段阶梯端点中心线：286.23m → 208.58m，缩短77.65m。
+计入相邻落台间端点直段后的缩短值：82.48m。
+以上来自导出阶梯端点的空间中心线计算，不等于实际玩家移动轨迹或试玩计时。
+
+节点：8 → 8条；新增0，移除0，变更3。
+  变更：6、7、8
+院坪：4 → 4条；新增0，移除0，变更1。
+  变更：D_SummitFloor
+落台/翼台：9 → 9条；新增0，移除0，变更4。
+  变更：Node06_BridgeLanding、Node06_Overlook、RidgeLanding、UpperLanding
+附加桥头过渡板：0 → 4条；新增4，移除0，变更0。
+  新增：Node06_BridgeLanding_EntryBridgehead、RidgeLanding_EntryBridgehead、SummitEntryBridgehead、UpperLanding_EntryBridgehead
+阶梯：8 → 8条；新增0，移除0，变更4。
+  变更：C_to_Ridge、Node06_to_Upper、Ridge_to_Node06、Upper_to_Summit
+主构筑物占地：4 → 4条；新增0，移除0，变更1。
+  变更：SealWall
+
+源数据SHA256：
+1293b3e9828720451034ed704af94f4e2d79778e051c2e8992db0b6d815c2659
+abfa31bb65c454ae67c5d75ee5b7b256105cb7fd9d8a29730286b1e71c2fd06e
+本报告只比较源参数，不证明新地图碰撞、视线、实际行走或性能。实际新资产和地图的完成状态以V07验收记录及真实截图为准。

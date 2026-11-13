@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "D:\game design\experiment\Scripts\Editor\NilinBlockout\validate_blockout.py", line 83, in <module>
+    try:main()
+        ^^^^^^
+  File "D:\game design\experiment\Scripts\Editor\NilinBlockout\validate_blockout.py", line 32, in main
+    h=trace((p[0],p[1],p[2]+1),(p[0],p[1],p[2]-2))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\game design\experiment\Scripts\Editor\NilinBlockout\validate_blockout.py", line 14, in trace
+    values=unreal.GameplayStatics.break_hit_result(h)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'GameplayStatics' has no attribute 'break_hit_result'

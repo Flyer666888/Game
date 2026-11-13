@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-11",
+  "task": "10-damage sword and supplied enemy hit/death animation integration",
+  "plan_scope": "CORE-01/02 and COMBAT-01 slice revision; AV-01 animation-feedback subset",
+  "selected": {
+    "date": "2026-10-11",
+    "map": "/Game/ReversedScale/Maps/L_CombatLabMelee",
+    "damage": 10.0,
+    "hit_source": "/Game/Animations/Sword/Anim_CS_GH_F_03",
+    "death_source": "/Game/Animations/Death/Anim_dEAh_F_04",
+    "hit_duration_seconds": 0.800000011920929,
+    "death_duration_seconds": 2.799999952316284,
+    "enemies": [
+      {
+        "label": "TrainingDisciple_1",
+        "health": 30.0,
+        "hit_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse",
+        "feet_cm": [
+          240.0,
+          -215.0,
+          0.0
+        ]
+      },
+      {
+        "label": "TrainingDisciple_2",
+        "health": 30.0,
+        "hit_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse",
+        "feet_cm": [
+          240.0,
+          -125.0,
+          0.0
+        ]
+      }
+    ],
+    "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+    "backup_map": "/Game/ReversedScale/Maps/L_CombatLabMelee_BeforeReactions_20261011",
+    "scope": "Animation and damage revision. Combat input acceptance remains for user play."
+  },
+  "selection_reason": {
+    "hit": "Compared 4 hit candidates. Sword F_03 has a smaller head/torso reaction than F_01/F_02 and the generic hit.",
+    "death": "Compared 6 death/knockdown candidates. F_04 provides a readable standing-to-kneeling-to-forward-collapse sequence; sword KD clips leap or travel too far."
+  },
+  "authoring": [
+    "Hit compressed to 0.8 seconds; planted idle root/pelvis/leg tracks retained.",
+    "Hit begins and ends in the existing idle pose; torso/arms retain the supplied sword reaction.",
+    "Death uses source 1.8..5.633 seconds, remapped to 2.8 seconds with 0.16-second idle transition.",
+    "Death root horizontal movement reduced to 40 percent; ground height authored from actual weighted mesh.",
+    "Full source pack, source blend, mesh weights, face and original planted idle preserved."
+  ],
+  "runtime_behavior": [
+    "Nonfatal damage plays hit then returns to idle; another hit can restart the reaction.",
+    "Fatal hit disables target collision, plays death once, and holds the visible final pose.",
+    "Pause freezes game time/animations; R cancels reactions and restores targets.",
+    "Player eye-height sampling ignores reacting and dead training enemies."
+  ],
+  "build": {
+    "target": "experimentEditor Win64 Development",
+    "result": "Succeeded",
+    "exit_code": 0,
+    "log": "Docs/AI/BuildLog-CombatModule-Editor-latest.txt"
+  },
+  "runtime_scene": {
+    "date": "2026-10-11",
+    "scene_loaded": true,
+    "map": "/Game/ReversedScale/Maps/L_CombatLabMelee",
+    "damage": 10.0,
+    "camera_cm": [
+      30.0,
+      -170.0,
+      146.84933471679688
+    ],
+    "enemies": [
+      {
+        "position_cm": [
+          240.0,
+          -215.0,
+          0.0
+        ],
+        "health": 30.0,
+        "idle_position_seconds": 0.34726083278656006,
+        "hit_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse",
+        "death_duration_seconds": 2.799999952316284
+      },
+      {
+        "position_cm": [
+          240.0,
+          -125.0,
+          0.0
+        ],
+        "health": 30.0,
+        "idle_position_seconds": 0.34726083278656006,
+        "hit_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse",
+        "death_duration_seconds": 2.799999952316284
+      }
+    ],
+    "scope": "Loaded scene and initial presentation only. Input acceptance pending user play."
+  },
+  "launch_process_id": 42456,
+  "animation_visual_review": "All 10 candidates and both authored clips rendered and visually reviewed.",
+  "automated_tests": "Not added or run",
+  "gameplay_acceptance": "Pending user play",
+  "user_play_steps": [
+    "Walk within blade reach; strike three times: expected health 30 -> 20 -> 10 -> 0.",
+    "First two hits should show short recoil; third hit should show the full collapse and retained corpse.",
+    "Esc/P pauses; R restores both living targets."
+  ],
+  "limitations": [
+    "Static training targets still do not attack or navigate.",
+    "Robe and hair have no cloth simulation; grounded skeletal collapse is authored for this flat arena.",
+    "Real VR tracking, projectiles, guard/parry and packaged release remain pending."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "kind": "Actual PIE CharacterMovement smoke and continuous walk",
+  "state": "passed",
+  "nodes": [
+    {
+      "node": 1,
+      "location_m": [
+        0.0,
+        -21.0,
+        0.9215000152587891
+      ],
+      "grounded": true,
+      "height_error_cm": 2.1500015258789062
+    },
+    {
+      "node": 2,
+      "location_m": [
+        -6.0,
+        64.0,
+        12.92150001525879
+      ],
+      "grounded": true,
+      "height_error_cm": 2.1500015258789062
+    },
+    {
+      "node": 3,
+      "location_m": [
+        0.0,
+        126.0,
+        28.92150001525879
+      ],
+      "grounded": true,
+      "height_error_cm": 2.1500015258789062
+    },
+    {
+      "node": 4,
+      "location_m": [
+        -6.0,
+        201.0,
+        44.921500015258786
+      ],
+      "grounded": true,
+      "height_error_cm": 2.1500015258789062
+    },
+    {
+      "node": 5,
+      "location_m": [
+        0.0,
+        279.0,
+        72.92150001525879
+      ],
+      "grounded": true,
+      "height_error_cm": 2.1500015258789062
+    },
+    {
+      "node": 6,
+      "location_m": [
+        -138.0,
+        439.0,
+        104.92150001525879
+      ],
+      "grounded": true,
+      "height_error_cm": 2.1500015258789062
+    },
+    {
+      "node": 7,
+      "location_m": [
+        -220.0,
+        573.0,
+        132.92150005340577
+      ],
+      "grounded": true,
+      "height_error_cm": 2.150005340576172
+    },
+    {
+      "node": 8,
+      "location_m": [
+        -220.0,
+        605.0,
+        132.92150005340577
+      ],
+      "grounded": true,
+      "height_error_cm": 2.150005340576172
+    }
+  ],
+  "waypoints_reached": 247,
+  "failures": [],
+  "total_waypoints": 247,
+  "pawn_class": "/Script/experiment.NLBlockoutCharacter",
+  "elapsed_seconds": 160.15599999999904
+}

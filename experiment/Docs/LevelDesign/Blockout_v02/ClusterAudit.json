@@ -1,0 +1,22 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV07",
+  "run_id": "20261021_125731_216979",
+  "audit_only": false,
+  "recovery_path": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v02\\HISMRecovery_20261021_125731_216979.json",
+  "source_actors": 2703,
+  "clusters": 34,
+  "skipped": {
+    "non_native_StaticMeshActor": 31,
+    "not_engine_Cube": 92,
+    "node_marker_landmark": 486,
+    "group_below_3_instances": 9
+  },
+  "preflight_max_corner_error_cm": 9.241830322115854e-05,
+  "status": "committed_and_saved",
+  "actor_count_before": 3321,
+  "actor_count_after": 652,
+  "removed_actor_count": 2669,
+  "negative_mirror_clusters": 24,
+  "readback_max_corner_error_cm": 9.241830322115854e-05,
+  "actual_collision_and_PIE_validation": "required_after_conversion"
+}

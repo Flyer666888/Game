@@ -1,0 +1,18 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV10",
+  "checked_at": "2026-10-23T22:35:51.883288",
+  "source": "Actual UE visibility collision traces",
+  "counts": {
+    "stair_width": 4305,
+    "upper_end_caps": 50,
+    "bridgeheads": 504,
+    "flat_link_width": 175,
+    "ranged_perch_access": 72
+  },
+  "samples": 5106,
+  "failure_count": 0,
+  "failures": [],
+  "success": true,
+  "ignored_guardrail_actors_for_floor_query": 9,
+  "scope": "Supporting floors sampled at five lateral positions, endpoint caps and bridgehead grids, with guardrails ignored only by this floor query. Guardrails keep real BlockAll collision; usable walking clearance is verified separately by PIE. Does not certify every possible player position."
+}

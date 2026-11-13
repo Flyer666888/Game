@@ -1,0 +1,70 @@
+Project: ReversedScale / 《逆鳞》
+EngineVersion: UE 5.8.2 (CL 56702186)
+ProjectFile: experiment.uproject
+Updated: 2026-10-11
+Milestone: Desktop Combat Lab / COMBAT-02 and COMBAT-03 implementation
+CurrentTask: Basic projectile + mirror guard delivered; COMBAT-04 perfect parry/reflection in progress
+TaskStatus: Compiled_AwaitingUserPlay
+OpenMap: /Game/ReversedScale/Maps/L_CombatLabGuard
+WorkSession:
+  UserAuthorization: Continue developing for about five hours while user rests
+  StartUTC: 2026-10-11 15:49:47
+  EndUTC: 2026-10-11 20:50:00
+  EndLocal: 2026-10-12 04:50 Asia/Shanghai
+  ContinuationAutomation: automation / 30-minute heartbeat / 10 occurrences
+ImplementedThisBatch:
+  - Straight projectiles sweep the full traveled path through one combat resolver.
+  - Unblockable/back-facing/insufficient guard contacts continue into body/world collision.
+  - Same-time contact priority: world obstacle, guard, then body.
+  - E fires cyan blade qi: 15 damage, 0.35 second cooldown, speed 1200cm/s.
+  - F toggles an enemy training launcher (default OFF): 0.6s telegraph, 1.5s between shots, 10 damage.
+  - Right mouse hold raises a finite mirror collision surface facing the camera direction.
+  - Guard starts at 100, ordinary block costs 12, hold costs 6/s.
+  - Release starts recovery after 0.8s at 25/s; break lasts 1.2s and requires actual key release.
+  - A final fully funded block intercepts the shot; insufficient guard lets that shot continue into the body.
+  - Pause freezes projectiles, cooldowns, launcher timing, guard maintenance/recovery and break time.
+  - Pause lowers the mirror; raising it after resume requires a fresh RMB press.
+  - R destroys projectiles, stops/resets launcher, clears guard/break/contact caches, restores life/targets/view.
+  - Death stops movement, slash, blade qi, mirror and launcher; R remains available.
+Preserved:
+  - Yueyao melee damage 10 and original 34 hilt parts.
+  - SK_WuxiaMale_Feet; face materials; planted idle and standing player eye height.
+  - Wuxia_Hit_Sword and Wuxia_Death_Collapse remain assigned to the two 30-health disciples.
+SourceChanges:
+  - Combat/NLCombatProjectile.*; Combat/NLTrainingProjectileEmitter.*
+  - Combat/NLGuardComponent.*; NLCombatVitalsComponent.*; NLCombatResolverSubsystem.*
+  - Player/NLDesktopPlayerCharacter.*; Player/NLCombatLabHUD.cpp
+  - NLTrainingEnemy.cpp enables the new projectile trace for older saved instances.
+Assets:
+  Map: /Game/ReversedScale/Maps/L_CombatLabGuard
+  Mode: /Game/ReversedScale/Player/BP_CombatLabGuardGameMode
+  Definitions: /Game/ReversedScale/Combat/DA_PlayerBladeQi; DA_TrainingProjectile
+  Materials: M_MirrorGlass; M_MirrorFrame; M_BladeQi; M_EnemyShot; M_TrainingLauncher
+  PreviousMap: /Game/ReversedScale/Maps/L_CombatLabMelee
+Configuration:
+  - ECC_GameTraceChannel3 = NLProjectile (trace, default Block).
+  - Global XR game mode retained; desktop map overrides use native player/HUD.
+DesktopDemo:
+  ProcessId: 47268
+  Launcher: Run_CombatLab_Demo.cmd; Run_GuardLab_Demo.cmd preserves this map
+  Controls: WASD move; Mouse look; LMB slash; E blade qi; hold RMB mirror; F training shots; Esc/P pause; R reset
+  SceneReport: Docs/AI/GuardLabRuntimeScene-2026-10-11.json
+  Screenshot: Docs/AI/GuardLabFirstPerson.png
+LastBuild:
+  Result: Succeeded
+  ExitCode: 0
+  Target: experimentEditor Win64 Development
+  Toolchain: MSVC 14.44.35229 / SDK 10.0.22621.0
+  Log: Docs/AI/BuildLog-GuardLab-2026-10-11.txt
+Validation:
+  Compile: Passed
+  AssetSave: Commandlet completed successfully
+  CombatBehavior: PendingUserPlay
+  AutomatedTests: Not added or run
+Deferred:
+  - Real headset and tracked controller acceptance; VR-01/02 remain pending.
+  - Perfect parry, reflection ownership and feedback are being implemented as the next batch.
+  - Stationary disciples still do not navigate or attack; ENEMY-01/DIR-01 are next.
+  - No save snapshot, waves, objectives, skills, boss or packaged build yet.
+  - R is a lab encounter reset, not SAVE-01 snapshot restoration.
+NextAction: Finish COMBAT-04 and save a separate reflection demo, then progress ENEMY-01/DIR-01 within the authorized session.

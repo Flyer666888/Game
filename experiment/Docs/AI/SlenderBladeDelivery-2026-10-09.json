@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-09",
+  "user_design_choice": "Slender single edge, restrained curvature",
+  "mesh": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+  "previous_mesh_backup": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player_CrescentBackup_20261009",
+  "blade_length_cm": 62.5,
+  "root_width_cm": 3.8,
+  "spine_curve_cm": 2.5,
+  "root_thickness_cm": 0.6,
+  "whole_weapon_length_cm": 82.98400211334229,
+  "blade_triangles": 1550,
+  "whole_weapon_triangles": 115902,
+  "hilt_unchanged": true,
+  "preserved_hilt_objects": 34,
+  "hilt_geometry_before": {
+    "06 Guard medallion | bronze-backed jade mount": "8fc221f63486cd923e26baec9973875a306baf8e02d70f6fd24876b4a4ae885b",
+    "06b Convex medallion | image-projected dragon face": "722cecce1f4a2a06ffa2036829950d16a606fae1e29fc9c4eb95a85411e40c3d",
+    "07 Outer chased bronze bezel": "585eca3f8cc087d1299ecfe6cc5974f6bf8a3e916c174aaca8623586f91abfbf",
+    "08 Fine silver bead rim": "0796e440458ea283cdbc389e5b5d96daa819100844b6f364bce7c11f79f8e4cb",
+    "09 Inner dark jade ring": "62373747fbd09fe63a83c5bc30d320449ada4c80a25ba490ab00190f0818d2cb",
+    "10 Reverse bezel": "c90a578b5f54b3bfa110b301c0cfdd29ccdcedf566af85d6a6bd23eefeb24133",
+    "11 Bezel rivet 00": "2c4053582ce714f3f73ba4f0cbea5a2ee8e368cdee4fcc6b8ed0722818a43b98",
+    "11 Bezel rivet 01": "9b5ab4de801a9102783d1932cb7a9398c9082db289684e93de4e808054785c29",
+    "11 Bezel rivet 02": "ff89986a4b70d30a2e7d2788654d4e7a63c6a533ff11524731b5fbf8c30b0ced",
+    "11 Bezel rivet 03": "1ad91f01f3fb6603c03210469318c8909336a0c054313ec1006b6b1f9094c022",
+    "11 Bezel rivet 04": "622da447e702d29841d6333e1457808fb0a6441795099edafd802d15c138f782",
+    "11 Bezel rivet 05": "da82103426a0508149693eb51f99b95233bef8db2de47b7ef71e0edf4e8fb9b1",
+    "11 Bezel rivet 06": "7a68735df820c147311e3bdbf7ea7f3b268c957ab02e65d601227e83583360d2",
+    "11 Bezel rivet 07": "c0c88522aa3d9b3e33b6c06b5aad1901d1d08c60a63127b75b446c0eaa553e7d",
+    "11 Bezel rivet 08": "55d364f0136c96813a55690008f277ebadfdc6704ef11afdbb60a682078474dc",
+    "11 Bezel rivet 09": "d818d8e4d03ff917b092eaad54985b97a0407d55344c4f8ac922623933bf77ac",
+    "11 Bezel rivet 10": "f81a49a3f9f8d80723080012ceec5fe00adc056336c3026bcd47d4847796442a",
+    "11 Bezel rivet 11": "88db89504005756fb4a82fbb49dc916c95381e5c82c2120257fbf4e3e25bd4bc",
+    "20 Tang beneath grip": "d0864900680ef470722b9cff0c9123d0d5d3d36c710a80631e12946520002d52",
+    "21 Leather grip core": "831f62d089c5ac94e08c550bad7649c598fc1bf5a4b425bf6f1d9775bc2965ea",
+    "22 Guard ferrule": "5626a2672cda3313ebea90049ed700f49a2bb768ef40bf4869877d84a5a3f908",
+    "23 Pommel ferrule": "5ed212d5617f9f72c0ba5682ef1e33f6d5cfc08818406340a62c7fded2817b82",
+    "24 Raised grip binding 00": "73e19b12a3739335abd552c5f1a6a5da40a05f36df9bf229c4ad8891992dfc1a",
+    "24 Raised grip binding 01": "c92c6601b79fa01a090e42f53c4346554b3962a3d85243d491116b780b5c7e47",
+    "24 Raised grip binding 02": "faf4c5ad320fdc239c03c2fa2008b5507f23c61c852550f41c343c0f24e1368f",
+    "24 Raised grip binding 03": "77bc70ce366bac0bd7154e6ffe8b01589443b18dcee137651e85f2c3eb7f402a",
+    "24 Raised grip binding 04": "dd853acc969ba8222be7e1801b27a03ff26a963eb561f5187296380100718c22",
+    "24 Raised grip binding 05": "77f8dfdae9ece43d7fcc6486bc6af515167daa6719abbe1a3187b6ef8dc75c59",
+    "25 Jade grip inlay": "ccaa3437a07427d4547fa533a170fda72c55073684bb16f3773eef4471e91404",
+    "25 Jade grip inlay.001": "fa7b7eee30062e62417902f0fd6f0117f9aa725e37004d5f9a3eff23a877f003",
+    "26 Open ring pommel": "b400546ce10ae324125027f5c185716b7fb70f83f4ec1b3442e5d8b4cf3fba20",
+    "27 Inner pommel wire": "2091fea3a6a25a99832cb15e5ee51307315c44afb6dc9c30767cd27c1d6c647c",
+    "28 Pommel scroll": "fec6bc4dcd4f6f4d804ddb0ed07033fff7fd4d726376c5f3ca3c3845f87222d0",
+    "29 Spirit jade sweep beneath grip": "eb482758e917e8e02b771de211e8864a27f8c3436fe51fa58be3ec85388b9c27"
+  },
+  "hilt_geometry_after": {
+    "06 Guard medallion | bronze-backed jade mount": "8fc221f63486cd923e26baec9973875a306baf8e02d70f6fd24876b4a4ae885b",
+    "06b Convex medallion | image-projected dragon face": "722cecce1f4a2a06ffa2036829950d16a606fae1e29fc9c4eb95a85411e40c3d",
+    "07 Outer chased bronze bezel": "585eca3f8cc087d1299ecfe6cc5974f6bf8a3e916c174aaca8623586f91abfbf",
+    "08 Fine silver bead rim": "0796e440458ea283cdbc389e5b5d96daa819100844b6f364bce7c11f79f8e4cb",
+    "09 Inner dark jade ring": "62373747fbd09fe63a83c5bc30d320449ada4c80a25ba490ab00190f0818d2cb",
+    "10 Reverse bezel": "c90a578b5f54b3bfa110b301c0cfdd29ccdcedf566af85d6a6bd23eefeb24133",
+    "11 Bezel rivet 00": "2c4053582ce714f3f73ba4f0cbea5a2ee8e368cdee4fcc6b8ed0722818a43b98",
+    "11 Bezel rivet 01": "9b5ab4de801a9102783d1932cb7a9398c9082db289684e93de4e808054785c29",
+    "11 Bezel rivet 02": "ff89986a4b70d30a2e7d2788654d4e7a63c6a533ff11524731b5fbf8c30b0ced",
+    "11 Bezel rivet 03": "1ad91f01f3fb6603c03210469318c8909336a0c054313ec1006b6b1f9094c022",
+    "11 Bezel rivet 04": "622da447e702d29841d6333e1457808fb0a6441795099edafd802d15c138f782",
+    "11 Bezel rivet 05": "da82103426a0508149693eb51f99b95233bef8db2de47b7ef71e0edf4e8fb9b1",
+    "11 Bezel rivet 06": "7a68735df820c147311e3bdbf7ea7f3b268c957ab02e65d601227e83583360d2",
+    "11 Bezel rivet 07": "c0c88522aa3d9b3e33b6c06b5aad1901d1d08c60a63127b75b446c0eaa553e7d",
+    "11 Bezel rivet 08": "55d364f0136c96813a55690008f277ebadfdc6704ef11afdbb60a682078474dc",
+    "11 Bezel rivet 09": "d818d8e4d03ff917b092eaad54985b97a0407d55344c4f8ac922623933bf77ac",
+    "11 Bezel rivet 10": "f81a49a3f9f8d80723080012ceec5fe00adc056336c3026bcd47d4847796442a",
+    "11 Bezel rivet 11": "88db89504005756fb4a82fbb49dc916c95381e5c82c2120257fbf4e3e25bd4bc",
+    "20 Tang beneath grip": "d0864900680ef470722b9cff0c9123d0d5d3d36c710a80631e12946520002d52",
+    "21 Leather grip core": "831f62d089c5ac94e08c550bad7649c598fc1bf5a4b425bf6f1d9775bc2965ea",
+    "22 Guard ferrule": "5626a2672cda3313ebea90049ed700f49a2bb768ef40bf4869877d84a5a3f908",
+    "23 Pommel ferrule": "5ed212d5617f9f72c0ba5682ef1e33f6d5cfc08818406340a62c7fded2817b82",
+    "24 Raised grip binding 00": "73e19b12a3739335abd552c5f1a6a5da40a05f36df9bf229c4ad8891992dfc1a",
+    "24 Raised grip binding 01": "c92c6601b79fa01a090e42f53c4346554b3962a3d85243d491116b780b5c7e47",
+    "24 Raised grip binding 02": "faf4c5ad320fdc239c03c2fa2008b5507f23c61c852550f41c343c0f24e1368f",
+    "24 Raised grip binding 03": "77bc70ce366bac0bd7154e6ffe8b01589443b18dcee137651e85f2c3eb7f402a",
+    "24 Raised grip binding 04": "dd853acc969ba8222be7e1801b27a03ff26a963eb561f5187296380100718c22",
+    "24 Raised grip binding 05": "77f8dfdae9ece43d7fcc6486bc6af515167daa6719abbe1a3187b6ef8dc75c59",
+    "25 Jade grip inlay": "ccaa3437a07427d4547fa533a170fda72c55073684bb16f3773eef4471e91404",
+    "25 Jade grip inlay.001": "fa7b7eee30062e62417902f0fd6f0117f9aa725e37004d5f9a3eff23a877f003",
+    "26 Open ring pommel": "b400546ce10ae324125027f5c185716b7fb70f83f4ec1b3442e5d8b4cf3fba20",
+    "27 Inner pommel wire": "2091fea3a6a25a99832cb15e5ee51307315c44afb6dc9c30767cd27c1d6c647c",
+    "28 Pommel scroll": "fec6bc4dcd4f6f4d804ddb0ed07033fff7fd4d726376c5f3ca3c3845f87222d0",
+    "29 Spirit jade sweep beneath grip": "eb482758e917e8e02b771de211e8864a27f8c3436fe51fa58be3ec85388b9c27"
+  },
+  "hilt_materials": "Original UE material assets reused, no graph/property changes",
+  "grip_and_view": "Existing hand_r attachment, grip animation, pawn class and camera retained",
+  "runtime": [
+    {
+      "game_time": 30.159363708400633,
+      "camera": [
+        30.0,
+        -170.0,
+        147.86209106445312
+      ],
+      "weapon_pivot": [
+        78.51543289325507,
+        -150.65,
+        130.34665817119804
+      ],
+      "weapon_attach_socket": "hand_r",
+      "weapon_relative_transform": "<Struct 'Transform' (0x000001C63FE9A8E0) {rotation: {x: 0.500000, y: -0.500000, z: -0.500000, w: 0.500000}, translation: {x: 0.000000, y: 2.650000, z: -7.800000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "bounds": "<Struct 'BoxSphereBounds' (0x000001C64F84F800) {origin: {x: -0.563680, y: 0.635000, z: 29.479999}, box_extent: {x: 6.043679, y: 2.965000, z: 41.492001}, sphere_radius: 41.780913}>",
+      "materials": [
+        "M_Yueyao_00",
+        "M_Yueyao_01",
+        "M_Yueyao_02",
+        "M_Yueyao_03",
+        "M_Yueyao_04",
+        "M_Yueyao_05",
+        "M_Yueyao_06",
+        "M_Yueyao_07",
+        "M_Yueyao_08",
+        "M_YueyaoBlade_Spine"
+      ],
+      "enemies": [
+        {
+          "eye": [
+            329.0499977841648,
+            -177.2144323851756,
+            147.86209604869165
+          ],
+          "animation_time": 0.5588524341583252
+        },
+        {
+          "eye": [
+            735.1900432628694,
+            213.51922911608534,
+            147.86209604869165
+          ],
+          "animation_time": 0.5588524341583252
+        }
+      ]
+    },
+    {
+      "game_time": 32.48363431444159,
+      "camera": [
+        30.0,
+        -170.0,
+        146.9367218017578
+      ],
+      "weapon_pivot": [
+        78.51543289325507,
+        -150.65,
+        129.42128890850273
+      ],
+      "weapon_attach_socket": "hand_r",
+      "weapon_relative_transform": "<Struct 'Transform' (0x000001C63FE9A8E0) {rotation: {x: 0.500000, y: -0.500000, z: -0.500000, w: 0.500000}, translation: {x: 0.000000, y: 2.650000, z: -7.800000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "bounds": "<Struct 'BoxSphereBounds' (0x000001C64F0D8B40) {origin: {x: -0.563680, y: 0.635000, z: 29.479999}, box_extent: {x: 6.043679, y: 2.965000, z: 41.492001}, sphere_radius: 41.780913}>",
+      "materials": [
+        "M_Yueyao_00",
+        "M_Yueyao_01",
+        "M_Yueyao_02",
+        "M_Yueyao_03",
+        "M_Yueyao_04",
+        "M_Yueyao_05",
+        "M_Yueyao_06",
+        "M_Yueyao_07",
+        "M_Yueyao_08",
+        "M_YueyaoBlade_Spine"
+      ],
+      "enemies": [
+        {
+          "eye": [
+            333.85785445430156,
+            -183.48662900988066,
+            146.936728420834
+          ],
+          "animation_time": 2.8831229209899902
+        },
+        {
+          "eye": [
+            742.4389144978458,
+            210.37124530445752,
+            146.936728420834
+          ],
+          "animation_time": 2.8831229209899902
+        }
+      ]
+    }
+  ],
+  "eye_height_error_cm_observed": 6.619076174274596e-06,
+  "preview_pid": 117456,
+  "import_result": "Exit code 0, 0 errors, 0 warnings",
+  "blender": "5.2.2 LTS",
+  "editable_source": "ArtSource/Weapons/Yueyao/SlenderBladeRevision/Yueyao_Hero_Weapon_SlenderBlade.blend",
+  "original_source_sha256": "EE9209D4AA7C7E120024C7C67DA069778289D2AFD26376E301C962EBACCFDFAF",
+  "manual_keyboard_mouse_feedback": "Pending user"
+}

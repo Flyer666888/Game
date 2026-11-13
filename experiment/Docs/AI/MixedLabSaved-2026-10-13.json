@@ -1,0 +1,426 @@
+{
+  "date": "2026-10-13",
+  "task": "ENEMY02A",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabMixed",
+  "source_map_preserved": "/Game/ReversedScale/Maps/L_CombatLabCheckpoint",
+  "game_mode": "/Game/ReversedScale/Player/BP_CombatLabSwordDuelGameMode.BP_CombatLabSwordDuelGameMode_C",
+  "player_starts": [
+    {
+      "label": "PlayerStart_CombatLabLite",
+      "location_cm": [
+        30.0,
+        -170.0,
+        90.4
+      ]
+    }
+  ],
+  "controller": {
+    "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.NLEncounterController_1",
+    "level_id": "Level.CombatLab.Mixed",
+    "encounter_id": "Encounter.MixedDisciples",
+    "content_revision": "MixedDisciples.ENEMY02A.1",
+    "checkpoint_enabled": true,
+    "seed": 20261013,
+    "state_before_start": "<NLEncounterState.READY: 0>",
+    "spawned_count_before_start": 0,
+    "alive_count_before_start": 0
+  },
+  "waves": [
+    {
+      "asset": "/Game/ReversedScale/Encounters/DA_WaveMixed01.DA_WaveMixed01",
+      "wave_id": "Wave.Mixed.01",
+      "planned_count": 2,
+      "max_alive": 3,
+      "entries": [
+        {
+          "entry_id": "SwordDisciple",
+          "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+          "count": 1,
+          "spawn_point_ids": [
+            "MixedSword01",
+            "MixedSword02",
+            "MixedSword03"
+          ]
+        },
+        {
+          "entry_id": "TalismanDisciple",
+          "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C",
+          "count": 1,
+          "spawn_point_ids": [
+            "MixedCaster01",
+            "MixedCaster02"
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/ReversedScale/Encounters/DA_WaveMixed02.DA_WaveMixed02",
+      "wave_id": "Wave.Mixed.02",
+      "planned_count": 3,
+      "max_alive": 3,
+      "entries": [
+        {
+          "entry_id": "SwordDisciple",
+          "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+          "count": 2,
+          "spawn_point_ids": [
+            "MixedSword01",
+            "MixedSword02",
+            "MixedSword03"
+          ]
+        },
+        {
+          "entry_id": "TalismanDisciple",
+          "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C",
+          "count": 1,
+          "spawn_point_ids": [
+            "MixedCaster01",
+            "MixedCaster02"
+          ]
+        }
+      ]
+    }
+  ],
+  "authored_wave_counts": [
+    2,
+    3
+  ],
+  "authored_total_planned_count": 5,
+  "maximum_alive": 3,
+  "auto_start": false,
+  "spawn_points": [
+    {
+      "spawn_point_id": "MixedSword01",
+      "capsule_world_transform": {
+        "location_cm": [
+          430.0,
+          -280.0,
+          90.4
+        ],
+        "rotation_quaternion_xyzw": [
+          0.0,
+          -0.0,
+          0.9910109466938141,
+          0.13378080405286139
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "spawn_point_id": "MixedSword02",
+      "capsule_world_transform": {
+        "location_cm": [
+          620.0,
+          40.0,
+          90.4
+        ],
+        "rotation_quaternion_xyzw": [
+          -0.0,
+          0.0,
+          -0.985419355555815,
+          0.17014315647701556
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "spawn_point_id": "MixedSword03",
+      "capsule_world_transform": {
+        "location_cm": [
+          470.0,
+          190.0,
+          90.4
+        ],
+        "rotation_quaternion_xyzw": [
+          -0.0,
+          0.0,
+          -0.941795420028673,
+          0.3361865357402277
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "spawn_point_id": "MixedCaster01",
+      "capsule_world_transform": {
+        "location_cm": [
+          900.0,
+          -280.0,
+          90.4
+        ],
+        "rotation_quaternion_xyzw": [
+          0.0,
+          -0.0,
+          0.9980234093651813,
+          0.06284325229568904
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "spawn_point_id": "MixedCaster02",
+      "capsule_world_transform": {
+        "location_cm": [
+          950.0,
+          220.0,
+          90.4
+        ],
+        "rotation_quaternion_xyzw": [
+          -0.0,
+          0.0,
+          -0.979972143680697,
+          0.19913462182618974
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "spawn_transform_semantics": "World capsule centre; exact authored Z=90.4 cm, no extra height offset.",
+  "markers": [
+    {
+      "point_id": "MixedSword01",
+      "meaning": "剑士出生区",
+      "color": "blue",
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.StaticMeshActor_10",
+      "location_cm": [
+        430.0,
+        -280.0,
+        0.65
+      ],
+      "collision_profile": "NoCollision",
+      "affects_navigation": false
+    },
+    {
+      "point_id": "MixedSword02",
+      "meaning": "剑士出生区",
+      "color": "blue",
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.StaticMeshActor_11",
+      "location_cm": [
+        620.0,
+        40.0,
+        0.65
+      ],
+      "collision_profile": "NoCollision",
+      "affects_navigation": false
+    },
+    {
+      "point_id": "MixedSword03",
+      "meaning": "剑士出生区",
+      "color": "blue",
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.StaticMeshActor_12",
+      "location_cm": [
+        470.0,
+        190.0,
+        0.65
+      ],
+      "collision_profile": "NoCollision",
+      "affects_navigation": false
+    },
+    {
+      "point_id": "MixedCaster01",
+      "meaning": "符箓弟子出生区",
+      "color": "green",
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.StaticMeshActor_13",
+      "location_cm": [
+        900.0,
+        -280.0,
+        0.65
+      ],
+      "collision_profile": "NoCollision",
+      "affects_navigation": false
+    },
+    {
+      "point_id": "MixedCaster02",
+      "meaning": "符箓弟子出生区",
+      "color": "green",
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.StaticMeshActor_14",
+      "location_cm": [
+        950.0,
+        220.0,
+        0.65
+      ],
+      "collision_profile": "NoCollision",
+      "affects_navigation": false
+    }
+  ],
+  "removed_inherited_actors": [
+    {
+      "label": "Encounter_CheckpointTrial",
+      "class": "/Script/experiment.NLEncounterController"
+    },
+    {
+      "label": "Wave01_SpawnArea_01",
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "label": "Wave01_SpawnArea_02",
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "label": "Wave01_SpawnArea_03",
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "label": "Wave01_SpawnArea_04",
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "label": "Wave01_SpawnArea_05",
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "label": "CheckpointTrial_Info",
+      "class": "/Script/Engine.TextRenderActor"
+    }
+  ],
+  "navigation_bounds_preserved": [
+    {
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.NavMeshBoundsVolume_0",
+      "origin_cm": [
+        300.0,
+        0.0,
+        100.0
+      ],
+      "extent_cm": [
+        1500.0,
+        1200.0,
+        300.0
+      ]
+    }
+  ],
+  "initial_authored_enemy_count": 0,
+  "sword_prefab_preserved": {
+    "generated_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+    "refs": {
+      "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+      "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+      "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+      "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+      "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+      "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded"
+    },
+    "mesh_component_asset": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+    "mesh_component_transform": {
+      "location_cm": [
+        0.0,
+        0.0,
+        -88.0
+      ],
+      "rotation_quaternion_xyzw": [
+        -0.0,
+        0.0,
+        -0.7071067811865475,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "sword_mesh": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+    "sword_grip_transform": {
+      "location_cm": [
+        -1.875828504562378,
+        -8.074670791625977,
+        -5.046912670135498
+      ],
+      "rotation_quaternion_xyzw": [
+        0.8239122869325681,
+        -0.5253214318833186,
+        -0.16701308975309817,
+        0.13157721876042566
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "sword_component_transform": {
+      "location_cm": [
+        -1.875828504562378,
+        -8.074670791625977,
+        -5.046912670135498
+      ],
+      "rotation_quaternion_xyzw": [
+        0.8239122869325681,
+        -0.5253214318833184,
+        -0.16701308975309798,
+        0.13157721876042577
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "grip_morph_name": "EnemyGrip_R",
+    "grip_morph_weight": 1.0,
+    "blade_definition": "/Game/ReversedScale/Combat/DA_EnemySword.DA_EnemySword"
+  },
+  "caster_prefab": {
+    "blueprint": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple",
+    "generated_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C",
+    "parent_class": "/Script/experiment.NLEnemyCharacter",
+    "role": "<NLEnemyRole.TALISMAN_CASTER: 1>",
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+    "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+    "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman.Wuxia_Cast_Talisman",
+    "show_sword": false,
+    "grip_morph_weight": 0.0,
+    "definition": "/Game/ReversedScale/Combat/DA_EnemyTalisman.DA_EnemyTalisman",
+    "brain": {
+      "attack_range": 1100.0,
+      "minimum_ranged_distance": 450.0,
+      "preferred_ranged_distance": 700.0,
+      "telegraph_seconds": 1.100000023841858,
+      "attack_seconds": 0.15000000596046448,
+      "recover_seconds": 2.0,
+      "projectile_speed": 700.0
+    },
+    "target_aim_offset_cm": [
+      0.0,
+      0.0,
+      40.0
+    ],
+    "muzzle_socket": "hand_l"
+  },
+  "attack_definition": {
+    "stable_id": "Attack.Enemy.TalismanDisciple",
+    "damage": 10.0,
+    "telegraph_seconds": 1.100000023841858,
+    "active_window_seconds": 0.15000000596046448,
+    "cooldown_seconds": 2.0,
+    "can_be_blocked": true,
+    "can_be_parried": false,
+    "can_be_reflected": true,
+    "can_be_interrupted": true,
+    "hit_feedback_tag": "Combat.Hit.EnemyTalisman"
+  },
+  "materials": [
+    "/Game/ReversedScale/Combat/Materials/M_TalismanPaper.M_TalismanPaper",
+    "/Game/ReversedScale/Combat/Materials/M_TalismanCast.M_TalismanCast"
+  ],
+  "scope": "Only independent map, caster prefab, two wave definitions, attack definition, two materials and reports. No gameplay inputs, starts, retries, damage, disk checkpoint writes or automated tests."
+}

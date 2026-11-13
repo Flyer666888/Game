@@ -1,0 +1,25 @@
+UE 5.8.2 Editor target build attempt
+Date: 2026-10-02
+Target: experimentEditor Win64 Development
+Project: experiment.uproject
+Build.bat exit code: 6
+
+Relevant UBT output:
+Using bundled DotNet SDK version: 10.0 win-x64
+Creating makefile for experimentEditor (no existing makefile)
+Visual Studio is installed, but is out of date or missing a valid C++ toolchain (minimum version 14.38.33130, preferred version 14.50.35717).
+UnrealBuildTool has banned the MSVC 14.40.0-14.43.99999 toolchains due to compiler issues. Please install a different toolchain such as 14.50.35717.
+Result: Failed (OtherCompilationError)
+Total execution time: 1.60 seconds
+
+The failure occurs during toolchain discovery, before any C++ translation unit is compiled.
+The full machine-local UBT log is at %LOCALAPPDATA%\UnrealBuildTool\Log.txt.
+Version selection note: this error text recommends 14.50.35717, but the installed UE 5.8.2 Engine/Config/Windows/Windows_SDK.json bans 14.50.0-14.50.35722. Prefer an actually allowed toolset: VS2022 MSVC 14.44.35211+ or VS2026 MSVC 14.50.35723+.
+
+Alternative compiler attempt (same date):
+Command: Build.bat experimentEditor Win64 Development -Project=<experiment.uproject> -WaitMutex -Compiler=Clang -VCToolchain=VisualStudio2022
+Process environment: LLVM_PATH=D:\CodeBlocks\MinGW
+Available local compiler: clang-cl 19.1.7 (UE 5.8 minimum: Clang 18.1.8)
+Result: Failed (OtherCompilationError), Build.bat exit code 6.
+Reason: UBT still rejected the only available MSVC toolchain (14.41) as banned; no C++ translation unit was compiled.
+The temporary project compiler setting, module registration, and root Source folder were reverted/archived after this attempt.

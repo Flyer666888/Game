@@ -1,0 +1,142 @@
+{
+  "task": "Optimize existing Enemy face",
+  "date": "2026-10-08",
+  "status": "Complete_AwaitingUserFeedback",
+  "original_inbox_file_preserved": true,
+  "original_face_identity_preserved": true,
+  "preparation": {
+    "before": {
+      "vertices": 37194,
+      "triangles": 50000,
+      "face_triangles": 3123
+    },
+    "after": {
+      "vertices": 43210,
+      "triangles": 65000,
+      "face_triangles": 19745,
+      "skin_triangles": 10128,
+      "source_head_vertices_protected": 17581
+    },
+    "source_polygons": 345510,
+    "textures": {
+      "BaseColor": {
+        "filename": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\WuxiaFaceOptimization\\Textures\\T_WuxiaFace_BaseColor.png",
+        "size": [
+          4096,
+          4096
+        ]
+      },
+      "ORM": {
+        "filename": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\WuxiaFaceOptimization\\Textures\\T_WuxiaFace_ORM.png",
+        "size": [
+          4096,
+          4096
+        ]
+      },
+      "NormalGL": {
+        "filename": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\WuxiaFaceOptimization\\Textures\\T_WuxiaFace_NormalGL.png",
+        "size": [
+          4096,
+          4096
+        ]
+      }
+    },
+    "minimum_face_head_weight": 1.0,
+    "changes": [
+      "Source head topology protected during body decimation",
+      "Original 4K facial maps recovered without upscaling",
+      "Separate facial skin material slot",
+      "Rigid face/head weights, smooth neck transition"
+    ],
+    "skeleton_unchanged": true,
+    "face_identity_preserved": true
+  },
+  "ue_import": {
+    "map": "/Game/ReversedScale/Maps/L_CombatLabWuxiaFace",
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Face.SK_WuxiaMale_Face",
+    "shared_skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+    "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Anim_CSST.Wuxia_Anim_CSST",
+    "enemies": [
+      "Enemy_Melee_A",
+      "Enemy_Melee_B"
+    ],
+    "material_slots": [
+      {
+        "slot": "M_WuxiaMale_001",
+        "material": "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale.M_WuxiaMale"
+      },
+      {
+        "slot": "M_WuxiaMale_Skin",
+        "material": "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Skin.M_WuxiaMale_Skin"
+      }
+    ],
+    "texture_resolution": 4096,
+    "skin_normal_xy_scale": 0.55,
+    "skin_roughness_range": [
+      0.45,
+      0.75
+    ],
+    "skin_ao_range": [
+      0.75,
+      1.0
+    ],
+    "skin_metallic": 0.0,
+    "skin_specular": 0.35,
+    "scope": "Facial geometry, texture fidelity and stable head binding; existing gameplay",
+    "ambient_light": {
+      "cubemap": "/Engine/MapTemplates/Sky/DaylightAmbientCubemap",
+      "mobility": "Movable",
+      "intensity": 0.65
+    },
+    "skeletal_material_usage_saved": true
+  },
+  "final_material_light_save_exit_code": 0,
+  "final_material_light_save_errors": 0,
+  "final_material_light_save_warnings": 0,
+  "final_save_log": "Docs/AI/FinishWuxiaFace.log",
+  "default_demo_map": "/Game/ReversedScale/Maps/L_CombatLabWuxiaFace",
+  "launcher": "Run_CombatLab_Demo.cmd",
+  "final_preview_pid": 49712,
+  "final_runtime_log": "Docs/AI/WuxiaFaceAfterRuntime.log",
+  "runtime_portraits": [
+    {
+      "view": "EnemyFaceAfterFront",
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Face.SK_WuxiaMale_Face",
+      "animation_time": 0.0,
+      "head_world": [
+        341.28105717362047,
+        -176.5572078826606,
+        141.9057457815666
+      ]
+    },
+    {
+      "view": "EnemyFaceAfterThreeQuarter",
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Face.SK_WuxiaMale_Face",
+      "animation_time": 0.0,
+      "head_world": [
+        341.28105717362047,
+        -176.5572078826606,
+        141.9057457815666
+      ]
+    }
+  ],
+  "screenshot_files": [
+    "Docs/AI/EnemyFaceAfterFront.png",
+    "Docs/AI/EnemyFaceAfterThreeQuarter.png"
+  ],
+  "neutral_studio_comparisons": [
+    "Docs/AI/FaceBeforeFront.png",
+    "Docs/AI/FaceAfterFront.png",
+    "Docs/AI/FaceBeforeThreeQuarter.png",
+    "Docs/AI/FaceAfterThreeQuarter.png"
+  ],
+  "visually_reviewed": true,
+  "observed": "More continuous forehead contour, source facial detail restored, correct skin material, shadowed half face remains visible",
+  "comparison_notes": "Studio comparison uses matching lights/camera. Gameplay comparison includes a deliberate daylight ambient-light correction. Runtime portrait pose measured at 0.0s; idle resumed after capture.",
+  "limitations": [
+    "No blink/lip sync/expression system",
+    "Head region triangle count includes hair and ears",
+    "Total triangle count increased from 50000 to 65000 for facial detail; headset performance not measured",
+    "Combat movement/attack poses still require later review"
+  ]
+}

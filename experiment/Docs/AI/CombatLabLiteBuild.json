@@ -1,0 +1,128 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_CombatLabLite",
+  "actor_count": 12,
+  "game_mode": "/Game/ReversedScale/Preview/BP_DesktopPreviewGameMode.BP_DesktopPreviewGameMode_C",
+  "default_pawn": "/Game/ReversedScale/Preview/BP_DesktopPreviewPawn.BP_DesktopPreviewPawn_C",
+  "floor_top_z": 0.0,
+  "floor_x_bounds": [
+    -1200.0,
+    1800.0
+  ],
+  "floor_y_bounds": [
+    -1200.0,
+    1200.0
+  ],
+  "animation_skeleton_match": true,
+  "idle_length_seconds": 3.0999999046325684,
+  "actors": [
+    {
+      "label": "CombatFloor",
+      "location": [
+        300.0,
+        0.0,
+        -25.0
+      ],
+      "scale": [
+        30.0,
+        24.0,
+        0.5
+      ],
+      "mesh": "/Engine/BasicShapes/Cube.Cube"
+    },
+    {
+      "label": "Shanmen_Gate",
+      "location": [
+        1200.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "mesh": "/Game/AsianTemple/Environment/Mesh/SM_Temple_Door_01a"
+    },
+    {
+      "label": "GatePillar_Left",
+      "location": [
+        1200.0,
+        -410.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "mesh": "/Game/AsianTemple/Environment/Mesh/SM_Temple_Pillar_01a"
+    },
+    {
+      "label": "GatePillar_Right",
+      "location": [
+        1200.0,
+        410.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "mesh": "/Game/AsianTemple/Environment/Mesh/SM_Temple_Pillar_01a"
+    },
+    {
+      "label": "PreviewSky",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        250.0,
+        250.0,
+        250.0
+      ],
+      "mesh": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "label": "PlayerStart_CombatLabLite",
+      "location": [
+        -450.0,
+        -450.0,
+        165.0
+      ],
+      "yaw": 18.0
+    },
+    {
+      "label": "Enemy_Melee_A",
+      "location": [
+        350.0,
+        -170.0,
+        0.0
+      ],
+      "facing_yaw": -160.70995378081125,
+      "actor_yaw": -250.70995378081125,
+      "mesh": "/Game/Character/Mesh/SK_Mannequin.SK_Mannequin",
+      "skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton",
+      "idle_animation": "/Game/Animations/ExtremeCombat/Anim_L_Idle.Anim_L_Idle",
+      "looping": true,
+      "playing": true
+    },
+    {
+      "label": "Enemy_Melee_B",
+      "location": [
+        750.0,
+        230.0,
+        0.0
+      ],
+      "facing_yaw": -150.46121774044192,
+      "actor_yaw": -240.46121774044192,
+      "mesh": "/Game/Character/Mesh/SK_Mannequin.SK_Mannequin",
+      "skeleton": "/Game/3583AnimationsPack/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton",
+      "idle_animation": "/Game/Animations/ExtremeCombat/Anim_L_Idle.Anim_L_Idle",
+      "looping": true,
+      "playing": true
+    }
+  ]
+}

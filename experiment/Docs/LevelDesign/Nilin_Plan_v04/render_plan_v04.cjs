@@ -1,0 +1,2 @@
+const sharp=require("C:\\Users\\21475\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\sharp");
+sharp("D:\\game design\\experiment\\Docs\\LevelDesign\\Nilin_Plan_v04\\逆鳞_最终意向对应平面图_v04.svg").png().toFile("D:\\game design\\experiment\\Docs\\LevelDesign\\Nilin_Plan_v04\\逆鳞_最终意向对应平面图_v04.png").then(()=>console.log("rendered"));

@@ -1,0 +1,1374 @@
+Log started at 10/08/2026 20:41:11 (2026-10-08T12:41:11Z)
+Resolved project argument C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\21475\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Docs\AI\BuildLog-CombatModule-2026-10-08.txt
+
+Setting temp directory to 'C:\Users\21475\AppData\Local\Temp\UnrealBuildTool\3983cc6c'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll experimentEditor Win64 Development -Project=C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject -NoHotReloadFromIDE -NoUBA -MaxParallelActions=4 -WaitMutex -Log=C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Docs\AI\BuildLog-CombatModule-2026-10-08.txt
+Running from a path with a long directory name ("C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58" = 89 characters). Root paths shorter than 50 characters are recommended to avoid exceeding maximum path lengths on Windows.
+Executing up to 4 actions based on MaxProcessorCount override
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Skipping C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Compiling C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\BuildRules\experimentModuleRules.dll: Removed source file (D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\Source\experiment\experiment.Build.cs)
+Old metadata:
+ICON: D:\浏览器下载\UE_5.8\Engine\Build\Windows\Resources\Default.ico
+
+New metadata:
+ICON: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Build\Windows\Resources\Default.ico
+
+Creating makefile for experimentEditor (build metadata has changed)
+Compiler: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe
+Linker: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Library Manager: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe
+Resource Converter: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cvtres.exe
+Using EngineIncludeOrderVersion.Unreal5_8 for target experimentEditor.Target.cs
+Building UnrealEditor - experimentEditor - Win64 - Development
+VerseVMBytecodeGenerator.Generate, generating CPP headers in: 'C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode'
+	Writing out generated header file. Changed:False Path:'C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodeOps.gen.h'
+	Writing out generated header file. Changed:False Path:'C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodesAndCaptures.gen.h'
+	Writing out generated header file. Changed:False Path:'C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMMakeCapturesFuncs.gen.h'
+	Writing out generated header file. Changed:False Path:'C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMCaptureSwitch.gen.h'
+UnrealHeaderTool needs to run because module experiment had different hash than what was found in timestamps file
+Found 5 shared PCH headers (listed in order of preference):
+	UnrealEd
+	Engine
+	Slate
+	CoreUObject
+	Core
+Parsing headers for experimentEditor
+  Running Internal UnrealHeaderTool C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\experimentEditor\experimentEditor.uhtmanifest -WarningsAsErrors -installed
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\Core\SharedPCH.Core.Cpp20.h.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\Core\SharedPCH.Core.Cpp20.h.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\CoreUObject\SharedPCH.CoreUObject.Cpp20.h.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\CoreUObject\SharedPCH.CoreUObject.Cpp20.h.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\Slate\SharedPCH.Slate.Cpp20.h.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\Slate\SharedPCH.Slate.Cpp20.h.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.h.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.h.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\UnrealEd\SharedPCH.UnrealEd.RTTI.Cpp20.h.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\UnrealEd\SharedPCH.UnrealEd.RTTI.Cpp20.h.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\experimentEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\experiment.Shared.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\experiment.Shared.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\Module.experiment.gen.cpp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\Module.experiment.gen.cpp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\Module.experiment.gen.cpp.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\Module.experiment.gen.cpp.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\NLAttackDirectorSubsystem.cpp.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\NLAttackDirectorSubsystem.cpp.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\NLEnemyBrainComponent.cpp.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\NLEnemyBrainComponent.cpp.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\experiment.cpp.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\experiment.cpp.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\NLCombatIdentityComponent.cpp.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\NLCombatIdentityComponent.cpp.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\NLCombatResolverSubsystem.cpp.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\NLCombatResolverSubsystem.cpp.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\PerModuleInline.gen.cpp.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\PerModuleInline.gen.cpp.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\NLEnemyCharacter.cpp.obj.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\NLEnemyCharacter.cpp.obj.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\Default.rc2.res.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\Default.rc2.res.rsp.old.
+UHT compiled-in object format Default
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.lib.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.lib.rsp.old.
+Updating C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.dll.rsp: contents have changed. Saving previous version to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.dll.rsp.old.
+Step - Parse Headers
+Reading engine version from file: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\Launch\Resources\Version.h
+Got engine version 5.8.2
+Step - Populate symbol table
+Step - Exports
+       Exporter Stats skipped
+       Exporter Json skipped
+       Running exporter CodeGen
+UHT processed experimentEditor in 3.4866872 seconds (17 generated files written)
+Building experimentEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35229 toolchain (D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+=================================
+Using Unreal Build Accelerator local executor to run 13 action(s)
+  CPU 24 physical cores, 24 logical cores
+  Memory 31.73 GB physical, 18.54 GB/33.73 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 3488433371 used. Action: Compile [x64] SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.cpp ()
+Cache bucket 4007641949 used. Action: Compile [x64] Module.experiment.gen.cpp ()
+Cache bucket 2117416512 used. Action: Compile [x64] NLAttackDirectorSubsystem.cpp ()
+Cache bucket 416513229 used. Action: Link [x64] UnrealEditor-experiment.lib ()
+Cache bucket 2611342960 used. Action: Compile Resource [x64] Default.rc2 ()
+All processes queued
+[1/13] Compile Resource [x64] Default.rc2 [NoUba]
+[2/13] Compile [x64] SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.cpp [NoUba]
+[3/13] Compile [x64] NLCombatIdentityComponent.cpp [NoUba]
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatIdentityComponent.h(9,22): error C2079: ﾡﾰUNLCombatIdentityComponentﾡﾱￊﾹￓￃￎﾴﾶﾨￒ￥ﾵￄ classﾡﾰexperiment_APIﾡﾱ
+class experiment_API UNLCombatIdentityComponent : public UActorComponent
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatIdentityComponent.h(9,49): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+class experiment_API UNLCombatIdentityComponent : public UActorComponent
+                                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatIdentityComponent.h(9,51): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰpublicﾡﾱ
+class experiment_API UNLCombatIdentityComponent : public UActorComponent
+                                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatIdentityComponent.h(10,1): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ{ﾡﾱﾵￄￇﾰￃ￦)
+{
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatIdentityComponent.h(10,1): error C2447: ﾡﾰ{ﾡﾱ: ￈ﾱ￉￙ﾺﾯￊ�ﾱ￪ￌ￢(ￊￇﾷ￱ￊￇ￀ￏￊﾽﾵￄ￐ￎￊﾽﾱ￭?)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatIdentityComponent.cpp(3,29): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLCombatIdentityComponentﾡﾱ
+UNLCombatIdentityComponent::UNLCombatIdentityComponent()
+                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLCombatIdentityComponent.generated.h(62,7): note: ﾲￎﾼ￻ﾡﾰUNLCombatIdentityComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLCombatIdentityComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatIdentityComponent.cpp(3,29): error C4430: ￈ﾱ￉￙￀￠￐ￍￋﾵￃ￷ﾷ￻ - ﾼ￙ﾶﾨￎﾪ intﾡﾣￗﾢￒ￢: C++ ﾲﾻￖﾧﾳￖￄﾬ￈ￏ int
+UNLCombatIdentityComponent::UNLCombatIdentityComponent()
+                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatIdentityComponent.cpp(5,2): error C2065: ﾡﾰPrimaryComponentTickﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	PrimaryComponentTick.bCanEverTick = false;
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatIdentityComponent.cpp(6,1): error C4508: ﾡﾰ{ctor}ﾡﾱ: ﾺﾯￊ�ￓﾦﾷﾵﾻ￘ￒﾻﾸ￶ￖﾵﾣﾻﾼ￙ﾶﾨﾡﾰvoidﾡﾱﾷﾵﾻ￘￀￠￐ￍ
+}
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatIdentityComponent.cpp(8,34): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLCombatIdentityComponentﾡﾱ
+void UNLCombatIdentityComponent::BeginPlay()
+                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLCombatIdentityComponent.generated.h(62,7): note: ﾲￎﾼ￻ﾡﾰUNLCombatIdentityComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLCombatIdentityComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatIdentityComponent.cpp(10,2): error C2653: ﾡﾰSuperﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+	Super::BeginPlay();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatIdentityComponent.cpp(11,2): error C3861: ﾡﾰEnsureRuntimeIdﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	EnsureRuntimeId();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatIdentityComponent.cpp(14,35): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLCombatIdentityComponentﾡﾱ
+FGuid UNLCombatIdentityComponent::EnsureRuntimeId()
+                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLCombatIdentityComponent.generated.h(62,7): note: ﾲￎﾼ￻ﾡﾰUNLCombatIdentityComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLCombatIdentityComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatIdentityComponent.cpp(16,7): error C2065: ﾡﾰRuntimeIdﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (!RuntimeId.IsValid())
+	     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatIdentityComponent.cpp(18,3): error C2065: ﾡﾰRuntimeIdﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		RuntimeId = FGuid::NewGuid();
+		^
+ Compile [x64] NLCombatIdentityComponent.cpp [NoUba]: Exited with error code 2 . The build will fail.
+ Compile [x64] NLCombatIdentityComponent.cpp [NoUba]: WorkingDirectory C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source
+ Compile [x64] NLCombatIdentityComponent.cpp [NoUba]: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe @"C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/NLCombatIdentityComponent.cpp.obj.rsp" 
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatIdentityComponent.cpp(20,9): error C2065: ﾡﾰRuntimeIdﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	return RuntimeId;
+	       ^
+[4/13] Compile [x64] NLCombatResolverSubsystem.cpp [NoUba]
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatResolverSubsystem.h(14,22): error C2079: ﾡﾰUNLCombatResolverSubsystemﾡﾱￊﾹￓￃￎﾴﾶﾨￒ￥ﾵￄ classﾡﾰexperiment_APIﾡﾱ
+class experiment_API UNLCombatResolverSubsystem : public UWorldSubsystem
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatResolverSubsystem.h(14,49): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+class experiment_API UNLCombatResolverSubsystem : public UWorldSubsystem
+                                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatResolverSubsystem.h(14,51): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰpublicﾡﾱ
+class experiment_API UNLCombatResolverSubsystem : public UWorldSubsystem
+                                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatResolverSubsystem.h(15,1): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ{ﾡﾱﾵￄￇﾰￃ￦)
+{
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatResolverSubsystem.h(15,1): error C2447: ﾡﾰ{ﾡﾱ: ￈ﾱ￉￙ﾺﾯￊ�ﾱ￪ￌ￢(ￊￇﾷ￱ￊￇ￀ￏￊﾽﾵￄ￐ￎￊﾽﾱ￭?)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLAttackDefinition.h(8,22): error C2079: ﾡﾰUNLAttackDefinitionﾡﾱￊﾹￓￃￎﾴﾶﾨￒ￥ﾵￄ classﾡﾰexperiment_APIﾡﾱ
+class experiment_API UNLAttackDefinition : public UPrimaryDataAsset
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLAttackDefinition.h(8,42): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+class experiment_API UNLAttackDefinition : public UPrimaryDataAsset
+                                         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLAttackDefinition.h(8,44): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰpublicﾡﾱ
+class experiment_API UNLAttackDefinition : public UPrimaryDataAsset
+                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLAttackDefinition.h(9,1): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ{ﾡﾱﾵￄￇﾰￃ￦)
+{
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLAttackDefinition.h(9,1): error C2447: ﾡﾰ{ﾡﾱ: ￈ﾱ￉￙ﾺﾯￊ�ﾱ￪ￌ￢(ￊￇﾷ￱ￊￇ￀ￏￊﾽﾵￄ￐ￎￊﾽﾱ￭?)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatIdentityComponent.h(9,22): error C2079: ﾡﾰUNLCombatIdentityComponentﾡﾱￊﾹￓￃￎﾴﾶﾨￒ￥ﾵￄ classﾡﾰexperiment_APIﾡﾱ
+class experiment_API UNLCombatIdentityComponent : public UActorComponent
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatIdentityComponent.h(9,49): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+class experiment_API UNLCombatIdentityComponent : public UActorComponent
+                                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatIdentityComponent.h(9,51): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰpublicﾡﾱ
+class experiment_API UNLCombatIdentityComponent : public UActorComponent
+                                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatIdentityComponent.h(10,1): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ{ﾡﾱﾵￄￇﾰￃ￦)
+{
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLCombatIdentityComponent.h(10,1): error C2447: ﾡﾰ{ﾡﾱ: ￈ﾱ￉￙ﾺﾯￊ�ﾱ￪ￌ￢(ￊￇﾷ￱ￊￇ￀ￏￊﾽﾵￄ￐ￎￊﾽﾱ￭?)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(9,45): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLCombatResolverSubsystemﾡﾱ
+FNLCombatResult UNLCombatResolverSubsystem::ResolveContact(
+                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLCombatResolverSubsystem.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLCombatResolverSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLCombatResolverSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(13,2): error C2061: ￓ￯ﾷﾨﾴ￭ￎ￳: ﾱ￪ￊﾶﾷ￻ﾡﾰUNLAttackDefinitionﾡﾱ
+	UNLAttackDefinition* AttackDefinition)
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(20,39): error C2065: ﾡﾰAttackDefinitionﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (!SourceActor || !TargetActor || !AttackDefinition)
+	                                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(23,10): error C3861: ﾡﾰPublishﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		return Publish(Result);
+		       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(26,30): error C2065: ﾡﾰSourceIdentityﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	UNLCombatIdentityComponent* SourceIdentity = SourceActor->FindComponentByClass<UNLCombatIdentityComponent>();
+	                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(26,60): error C2672: ﾡﾰAActor::FindComponentByClassﾡﾱ: ￎﾴￕￒﾵﾽￆﾥￅ￤ﾵￄￖ￘ￔ￘ﾺﾯￊ�
+	UNLCombatIdentityComponent* SourceIdentity = SourceActor->FindComponentByClass<UNLCombatIdentityComponent>();
+	                                                          ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\Engine\Classes\GameFramework\Actor.h(3826,5): note: ﾿￉ￄￜￊￇﾡﾰT *AActor::FindComponentByClass(void) constﾡﾱ
+	T* FindComponentByClass() const
+	   ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(26,81): note: ﾡﾰAActor::FindComponentByClassﾡﾱ:ﾡﾰTﾡﾱﾵￄ ￄﾣﾰ￥ ﾲￎￊ�ￎ￞￐ﾧﾣﾬￓﾦￎﾪ￀￠￐ￍ
+	UNLCombatIdentityComponent* SourceIdentity = SourceActor->FindComponentByClass<UNLCombatIdentityComponent>();
+	                                                                               ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(27,30): error C2065: ﾡﾰTargetIdentityﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	UNLCombatIdentityComponent* TargetIdentity = TargetActor->FindComponentByClass<UNLCombatIdentityComponent>();
+	                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(27,60): error C2672: ﾡﾰAActor::FindComponentByClassﾡﾱ: ￎﾴￕￒﾵﾽￆﾥￅ￤ﾵￄￖ￘ￔ￘ﾺﾯￊ�
+	UNLCombatIdentityComponent* TargetIdentity = TargetActor->FindComponentByClass<UNLCombatIdentityComponent>();
+	                                                          ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\Engine\Classes\GameFramework\Actor.h(3826,5): note: ﾿￉ￄￜￊￇﾡﾰT *AActor::FindComponentByClass(void) constﾡﾱ
+	T* FindComponentByClass() const
+	   ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(27,81): note: ﾡﾰAActor::FindComponentByClassﾡﾱ:ﾡﾰTﾡﾱﾵￄ ￄﾣﾰ￥ ﾲￎￊ�ￎ￞￐ﾧﾣﾬￓﾦￎﾪ￀￠￐ￍ
+	UNLCombatIdentityComponent* TargetIdentity = TargetActor->FindComponentByClass<UNLCombatIdentityComponent>();
+	                                                                               ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(28,7): error C2065: ﾡﾰSourceIdentityﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (!SourceIdentity || !TargetIdentity
+	     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(28,26): error C2065: ﾡﾰTargetIdentityﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (!SourceIdentity || !TargetIdentity
+	                        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(32,6): error C2065: ﾡﾰSourceIdentityﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		|| SourceIdentity->EnsureRuntimeId() != Contact.SourceRuntimeId
+		   ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(33,6): error C2065: ﾡﾰTargetIdentityﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		|| TargetIdentity->EnsureRuntimeId() != Contact.TargetRuntimeId
+		   ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(34,6): error C2065: ﾡﾰAttackDefinitionﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		|| AttackDefinition->StableId == NAME_None
+		   ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(35,36): error C2065: ﾡﾰAttackDefinitionﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		|| Contact.AttackDefinitionId != AttackDefinition->StableId)
+		                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(38,10): error C3861: ﾡﾰPublishﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		return Publish(Result);
+		       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(45,6): error C2065: ﾡﾰResolvedContactsﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (ResolvedContacts.Contains(HitKey))
+	    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(48,10): error C3861: ﾡﾰPublishﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		return Publish(Result);
+		       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(50,2): error C2065: ﾡﾰResolvedContactsﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	ResolvedContacts.Add(HitKey);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(52,41): error C2065: ﾡﾰSourceIdentityﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	const ENLCombatFaction SourceFaction = SourceIdentity->GetFaction();
+	                                       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(52,25): error C2737: ﾡﾰSourceFactionﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+	const ENLCombatFaction SourceFaction = SourceIdentity->GetFaction();
+	                       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(53,41): error C2065: ﾡﾰTargetIdentityﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	const ENLCombatFaction TargetFaction = TargetIdentity->GetFaction();
+	                                       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(53,25): error C2737: ﾡﾰTargetFactionﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+	const ENLCombatFaction TargetFaction = TargetIdentity->GetFaction();
+	                       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(62,10): error C3861: ﾡﾰPublishﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		return Publish(Result);
+		       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(65,49): error C2065: ﾡﾰAttackDefinitionﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	const float RequestedDamage = FMath::Max(0.0f, AttackDefinition->Damage);
+	                                               ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(78,24): error C2065: ﾡﾰAttackDefinitionﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		Result.FeedbackTag = AttackDefinition->HitFeedbackTag;
+		                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(84,9): error C3861: ﾡﾰPublishﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	return Publish(Result);
+	       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(87,34): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLCombatResolverSubsystemﾡﾱ
+void UNLCombatResolverSubsystem::ResetEncounterContacts()
+                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLCombatResolverSubsystem.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLCombatResolverSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLCombatResolverSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(89,2): error C2065: ﾡﾰResolvedContactsﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	ResolvedContacts.Reset();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(92,45): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLCombatResolverSubsystemﾡﾱ
+FNLCombatResult UNLCombatResolverSubsystem::Publish(FNLCombatResult Result)
+                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLCombatResolverSubsystem.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLCombatResolverSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLCombatResolverSubsystem;
+      ^
+ Compile [x64] NLCombatResolverSubsystem.cpp [NoUba]: Exited with error code 2 . The build will fail.
+ Compile [x64] NLCombatResolverSubsystem.cpp [NoUba]: WorkingDirectory C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source
+ Compile [x64] NLCombatResolverSubsystem.cpp [NoUba]: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe @"C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/NLCombatResolverSubsystem.cpp.obj.rsp" 
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\Combat\NLCombatResolverSubsystem.cpp(98,2): error C2065: ﾡﾰOnCombatResultﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	OnCombatResult.Broadcast(Result);
+	^
+[5/13] Compile [x64] NLAttackDirectorSubsystem.cpp [NoUba]
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(20,22): error C2079: ﾡﾰUNLAttackDirectorSubsystemﾡﾱￊﾹￓￃￎﾴﾶﾨￒ￥ﾵￄ classﾡﾰexperiment_APIﾡﾱ
+class experiment_API UNLAttackDirectorSubsystem : public UTickableWorldSubsystem
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(20,49): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+class experiment_API UNLAttackDirectorSubsystem : public UTickableWorldSubsystem
+                                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(20,51): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰpublicﾡﾱ
+class experiment_API UNLAttackDirectorSubsystem : public UTickableWorldSubsystem
+                                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(21,1): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ{ﾡﾱﾵￄￇﾰￃ￦)
+{
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(21,1): error C2447: ﾡﾰ{ﾡﾱ: ￈ﾱ￉￙ﾺﾯￊ�ﾱ￪ￌ￢(ￊￇﾷ￱ￊￇ￀ￏￊﾽﾵￄ￐ￎￊﾽﾱ￭?)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(6,34): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+void UNLAttackDirectorSubsystem::Tick(float DeltaTime)
+                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(8,2): error C3861: ﾡﾰRemoveExpiredOrInvalidReservationsﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	RemoveExpiredOrInvalidReservations();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(9,17): error C2065: ﾡﾰActiveFightersﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	for (auto It = ActiveFighters.CreateIterator(); It; ++It)
+	               ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(9,50): error C3536: ﾡﾰItﾡﾱ: ﾳ￵ￊﾼﾻﾯￖﾮￇﾰￎ￞ﾷﾨￊﾹￓￃ
+	for (auto It = ActiveFighters.CreateIterator(); It; ++It)
+	                                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(18,37): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+TStatId UNLAttackDirectorSubsystem::GetStatId() const
+                                    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(18,37): error C2270: ﾡﾰGetStatIdﾡﾱ: ﾷￇﾳ￉ￔﾱﾺﾯￊ�￉ￏﾲﾻￔￊ￐￭￐￞ￊￎﾷ￻
+TStatId UNLAttackDirectorSubsystem::GetStatId() const
+                                    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(23,34): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+bool UNLAttackDirectorSubsystem::TryRegisterActiveFighter(AActor* Fighter)
+                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(30,6): error C2065: ﾡﾰActiveFightersﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (ActiveFighters.Contains(Fighter))
+	    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(35,6): error C3861: ﾡﾰGetActiveFighterCountﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	if (GetActiveFighterCount() >= MaxActiveFighters)
+	    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(35,33): error C2065: ﾡﾰMaxActiveFightersﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (GetActiveFighterCount() >= MaxActiveFighters)
+	                               ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(40,2): error C2065: ﾡﾰActiveFightersﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	ActiveFighters.Add(Fighter);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(44,34): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+void UNLAttackDirectorSubsystem::UnregisterActiveFighter(AActor* Fighter)
+                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(51,2): error C2065: ﾡﾰActiveFightersﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	ActiveFighters.Remove(Fighter);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(52,17): error C2065: ﾡﾰReservationsﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	for (auto It = Reservations.CreateIterator(); It; ++It)
+	               ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(52,48): error C3536: ﾡﾰItﾡﾱ: ﾳ￵ￊﾼﾻﾯￖﾮￇﾰￎ￞ﾷﾨￊﾹￓￃ
+	for (auto It = Reservations.CreateIterator(); It; ++It)
+	                                              ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(61,34): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+bool UNLAttackDirectorSubsystem::TryAcquireAttackSlot(
+                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(68,29): error C2065: ﾡﾰActiveFightersﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (!IsValid(Attacker) || !ActiveFighters.Contains(Attacker) || !GetWorld())
+	                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(68,67): error C3861: ﾡﾰGetWorldﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	if (!IsValid(Attacker) || !ActiveFighters.Contains(Attacker) || !GetWorld())
+	                                                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(73,2): error C3861: ﾡﾰRemoveExpiredOrInvalidReservationsﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	RemoveExpiredOrInvalidReservations();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(76,21): error C3861: ﾡﾰGetWorldﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	const double Now = GetWorld()->GetTimeSeconds();
+	                   ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(76,15): error C2737: ﾡﾰNowﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+	const double Now = GetWorld()->GetTimeSeconds();
+	             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(79,56): error C2065: ﾡﾰReservationsﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	for (const TPair<FGuid, FNLAttackReservation>& Pair : Reservations)
+	                                                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(79,49): error C2530: ﾡﾰPairﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯￒ�ￓￃ
+	for (const TPair<FGuid, FNLAttackReservation>& Pair : Reservations)
+	                                               ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(79,54): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+	for (const TPair<FGuid, FNLAttackReservation>& Pair : Reservations)
+	                                                    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(79,68): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ)ﾡﾱﾵￄￇﾰￃ￦)
+	for (const TPair<FGuid, FNLAttackReservation>& Pair : Reservations)
+	                                                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(94,68): error C2065: ﾡﾰMinimumImpactSeparationﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		if (FMath::Abs(Existing.ProjectedImpactTime - ProjectedImpact) < MinimumImpactSeparation)
+		                                                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(101,44): error C2065: ﾡﾰReservationsﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if ((Slot == ENLAttackSlot::HighThreat && Reservations.Num() > 0) ||
+	                                          ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(103,16): error C3861: ﾡﾰGetSlotCapacityﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		SlotCount >= GetSlotCapacity(Slot))
+		             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(109,38): error C2065: ﾡﾰReservationsﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	FNLAttackReservation& Reservation = Reservations.Add(OutReservationId);
+	                                    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(109,36): error C2530: ﾡﾰReservationﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯￒ�ￓￃ
+	FNLAttackReservation& Reservation = Reservations.Add(OutReservationId);
+	                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(113,32): error C2065: ﾡﾰReservationTimeoutSecondsﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	Reservation.ExpiresAt = Now + ReservationTimeoutSeconds;
+	                              ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(117,34): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+void UNLAttackDirectorSubsystem::ReleaseAttackSlot(FGuid ReservationId)
+                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(121,3): error C2065: ﾡﾰReservationsﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		Reservations.Remove(ReservationId);
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(125,35): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+int32 UNLAttackDirectorSubsystem::GetActiveFighterCount() const
+                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(125,35): error C2270: ﾡﾰGetActiveFighterCountﾡﾱ: ﾷￇﾳ￉ￔﾱﾺﾯￊ�￉ￏﾲﾻￔￊ￐￭￐￞ￊￎﾷ￻
+int32 UNLAttackDirectorSubsystem::GetActiveFighterCount() const
+                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(128,47): error C2065: ﾡﾰActiveFightersﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	for (const TWeakObjectPtr<AActor>& Fighter : ActiveFighters)
+	                                             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(128,37): error C2530: ﾡﾰFighterﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯￒ�ￓￃ
+	for (const TWeakObjectPtr<AActor>& Fighter : ActiveFighters)
+	                                   ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(128,45): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+	for (const TWeakObjectPtr<AActor>& Fighter : ActiveFighters)
+	                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(128,61): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ)ﾡﾱﾵￄￇﾰￃ￦)
+	for (const TWeakObjectPtr<AActor>& Fighter : ActiveFighters)
+	                                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(135,34): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+void UNLAttackDirectorSubsystem::RemoveExpiredOrInvalidReservations()
+                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(137,7): error C3861: ﾡﾰGetWorldﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	if (!GetWorld())
+	     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(142,21): error C3861: ﾡﾰGetWorldﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	const double Now = GetWorld()->GetTimeSeconds();
+	                   ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(142,15): error C2737: ﾡﾰNowﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+	const double Now = GetWorld()->GetTimeSeconds();
+	             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(143,17): error C2065: ﾡﾰReservationsﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	for (auto It = Reservations.CreateIterator(); It; ++It)
+	               ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(143,48): error C3536: ﾡﾰItﾡﾱ: ﾳ￵ￊﾼﾻﾯￖﾮￇﾰￎ￞ﾷﾨￊﾹￓￃ
+	for (auto It = Reservations.CreateIterator(); It; ++It)
+	                                              ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(152,35): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+int32 UNLAttackDirectorSubsystem::GetSlotCapacity(ENLAttackSlot Slot) const
+                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+ Compile [x64] NLAttackDirectorSubsystem.cpp [NoUba]: Exited with error code 2 . The build will fail.
+ Compile [x64] NLAttackDirectorSubsystem.cpp [NoUba]: WorkingDirectory C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source
+ Compile [x64] NLAttackDirectorSubsystem.cpp [NoUba]: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe @"C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/NLAttackDirectorSubsystem.cpp.obj.rsp" 
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLAttackDirectorSubsystem.cpp(152,35): error C2270: ﾡﾰGetSlotCapacityﾡﾱ: ﾷￇﾳ￉ￔﾱﾺﾯￊ�￉ￏﾲﾻￔￊ￐￭￐￞ￊￎﾷ￻
+int32 UNLAttackDirectorSubsystem::GetSlotCapacity(ENLAttackSlot Slot) const
+                                  ^
+[6/13] Compile [x64] Module.experiment.gen.cpp [NoUba]
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLAttackDefinition.h(8,22): error C2079: ﾡﾰUNLAttackDefinitionﾡﾱￊﾹￓￃￎﾴﾶﾨￒ￥ﾵￄ classﾡﾰexperiment_APIﾡﾱ
+class experiment_API UNLAttackDefinition : public UPrimaryDataAsset
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLAttackDefinition.h(8,42): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+class experiment_API UNLAttackDefinition : public UPrimaryDataAsset
+                                         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLAttackDefinition.h(8,44): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰpublicﾡﾱ
+class experiment_API UNLAttackDefinition : public UPrimaryDataAsset
+                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLAttackDefinition.h(9,1): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ{ﾡﾱﾵￄￇﾰￃ￦)
+{
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLAttackDefinition.h(9,1): error C2447: ﾡﾰ{ﾡﾱ: ￈ﾱ￉￙ﾺﾯￊ�ﾱ￪ￌ￢(ￊￇﾷ￱ￊￇ￀ￏￊﾽﾵￄ￐ￎￊﾽﾱ￭?)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(115,3): error C2923: "TCppClassTypeTraits": "UNLAttackDefinition" ﾲﾻￊￇﾲￎￊ� "CPPCLASS" ﾵￄￓ￐￐ﾧ ￄﾣﾰ￥ ￀￠￐ￍﾲￎￊ�
+		TCppClassTypeTraits<UNLAttackDefinition>::IsAbstract,
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Combat\NLAttackDefinition.h(8,22): note: ﾲￎﾼ￻ﾡﾰUNLAttackDefinitionﾡﾱﾵￄ￉￹ￃ￷
+class experiment_API UNLAttackDefinition : public UPrimaryDataAsset
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(115,45): error C2955: ﾡﾰTCppClassTypeTraitsﾡﾱ: ￊﾹￓￃ ￀￠ ￄﾣﾰ￥ ￐￨ￒﾪ ￄﾣﾰ￥ ﾲￎￊ�￁￐ﾱ￭
+		TCppClassTypeTraits<UNLAttackDefinition>::IsAbstract,
+		                                          ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h(3741,8): note: ﾲￎﾼ￻ﾡﾰTCppClassTypeTraitsﾡﾱﾵￄ￉￹ￃ￷
+struct TCppClassTypeTraits : public FCppClassTypeTraitsBase
+       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(115,45): error C2397: ﾴￓﾡﾰTCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>ﾡﾱￗﾪﾻﾻﾵﾽﾡﾰboolﾡﾱ￐￨ￒﾪￊￕￋ￵ￗﾪﾻﾻ
+		TCppClassTypeTraits<UNLAttackDefinition>::IsAbstract,
+		                                          ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(115,45): error C4800: ﾴￓﾡﾰTCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>ﾡﾱﾵﾽ bool ﾵￄￒ￾ￊﾽￗﾪﾻﾻﾡﾣ￐ￅￏﾢ﾿￉ￄￜﾶﾪￊﾧ
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(115,45): note: ￇ￫﾿ﾼￂￇￊﾹￓￃￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾱ￈ﾽￏ 0 ￀ﾴﾱￜￃ￢ﾴￋﾾﾯﾸ￦
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h(3744,2): note: ﾲￎﾼ￻ﾡﾰTCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>ﾡﾱﾵￄ￉￹ￃ￷
+	{
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(115,45): warning C4305: ﾡﾰﾳ￵ￊﾼﾻﾯﾡﾱ: ﾴￓﾡﾰTCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>ﾡﾱﾵﾽﾡﾰboolﾡﾱﾽ￘ﾶￏ
+		TCppClassTypeTraits<UNLAttackDefinition>::IsAbstract,
+		                                          ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(92,25): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰ)ﾡﾱ
+		((UNLAttackDefinition*)Obj)->bCanBeBlocked = 1;
+		                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(97,25): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰ)ﾡﾱ
+		((UNLAttackDefinition*)Obj)->bCanBeParried = 1;
+		                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(102,25): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰ)ﾡﾱ
+		((UNLAttackDefinition*)Obj)->bCanBeReflected = 1;
+		                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(107,25): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰ)ﾡﾱ
+		((UNLAttackDefinition*)Obj)->bCanBeInterrupted = 1;
+		                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(121,202): error C2615: "offsetof" ﾲﾻￄￜￓﾦￓￃￓￚﾷￇ￀￠￀￠￐ￍ "<error type>"
+const UECodeGen_Private::FNamePropertyParams UHT_STATICS::NewProp_StableId = { "StableId", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Name, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, StableId), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StableId_MetaData), NewProp_StableId_MetaData) };
+                                                                                                                                                                                                         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(121,59): error C2737: ﾡﾰNewProp_StableIdﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+const UECodeGen_Private::FNamePropertyParams UHT_STATICS::NewProp_StableId = { "StableId", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Name, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, StableId), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StableId_MetaData), NewProp_StableId_MetaData) };
+                                                          ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(122,200): error C2615: "offsetof" ﾲﾻￄￜￓﾦￓￃￓￚﾷￇ￀￠￀￠￐ￍ "<error type>"
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, Damage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Damage_MetaData), NewProp_Damage_MetaData) };
+                                                                                                                                                                                                       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(122,60): error C2737: ﾡﾰNewProp_Damageﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, Damage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Damage_MetaData), NewProp_Damage_MetaData) };
+                                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(123,220): error C2615: "offsetof" ﾲﾻￄￜￓﾦￓￃￓￚﾷￇ￀￠￀￠￐ￍ "<error type>"
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_TelegraphSeconds = { "TelegraphSeconds", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, TelegraphSeconds), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TelegraphSeconds_MetaData), NewProp_TelegraphSeconds_MetaData) };
+                                                                                                                                                                                                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(123,60): error C2737: ﾡﾰNewProp_TelegraphSecondsﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_TelegraphSeconds = { "TelegraphSeconds", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, TelegraphSeconds), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TelegraphSeconds_MetaData), NewProp_TelegraphSeconds_MetaData) };
+                                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(124,226): error C2615: "offsetof" ﾲﾻￄￜￓﾦￓￃￓￚﾷￇ￀￠￀￠￐ￍ "<error type>"
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_ActiveWindowSeconds = { "ActiveWindowSeconds", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, ActiveWindowSeconds), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ActiveWindowSeconds_MetaData), NewProp_ActiveWindowSeconds_MetaData) };
+                                                                                                                                                                                                                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(124,60): error C2737: ﾡﾰNewProp_ActiveWindowSecondsﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_ActiveWindowSeconds = { "ActiveWindowSeconds", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, ActiveWindowSeconds), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ActiveWindowSeconds_MetaData), NewProp_ActiveWindowSeconds_MetaData) };
+                                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(125,218): error C2615: "offsetof" ﾲﾻￄￜￓﾦￓￃￓￚﾷￇ￀￠￀￠￐ￍ "<error type>"
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_CooldownSeconds = { "CooldownSeconds", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, CooldownSeconds), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CooldownSeconds_MetaData), NewProp_CooldownSeconds_MetaData) };
+                                                                                                                                                                                                                         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(125,60): error C2737: ﾡﾰNewProp_CooldownSecondsﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_CooldownSeconds = { "CooldownSeconds", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, CooldownSeconds), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CooldownSeconds_MetaData), NewProp_CooldownSeconds_MetaData) };
+                                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(130,214): error C2615: "offsetof" ﾲﾻￄￜￓﾦￓￃￓￚﾷￇ￀￠￀￠￐ￍ "<error type>"
+const UECodeGen_Private::FNamePropertyParams UHT_STATICS::NewProp_HitFeedbackTag = { "HitFeedbackTag", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Name, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, HitFeedbackTag), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HitFeedbackTag_MetaData), NewProp_HitFeedbackTag_MetaData) };
+                                                                                                                                                                                                                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(130,59): error C2737: ﾡﾰNewProp_HitFeedbackTagﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+const UECodeGen_Private::FNamePropertyParams UHT_STATICS::NewProp_HitFeedbackTag = { "HitFeedbackTag", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Name, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDefinition, HitFeedbackTag), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HitFeedbackTag_MetaData), NewProp_HitFeedbackTag_MetaData) };
+                                                          ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(170,18): error C2061: ￓ￯ﾷﾨﾴ￭ￎ￳: ﾱ￪ￊﾶﾷ￻ﾡﾰUNLAttackDefinitionﾡﾱ
+		using TClass = UNLAttackDefinition;
+		               ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(174,5): error C2653: ﾡﾰTClassﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+				TClass::StaticPackage(),
+				^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(174,13): error C3861: ﾡﾰStaticPackageﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+				TClass::StaticPackage(),
+				        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(178,16): error C2065: ﾡﾰTClassﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+				DataSizeOf<TClass>(),
+				           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(178,5): error C2672: ﾡﾰDataSizeOfﾡﾱ: ￎﾴￕￒﾵﾽￆﾥￅ￤ﾵￄￖ￘ￔ￘ﾺﾯￊ�
+				DataSizeOf<TClass>(),
+				^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\Core\Public\Templates\AlignmentTemplates.h(84,23): note: ﾿￉ￄￜￊￇﾡﾰsize_t DataSizeOf(void)ﾡﾱ
+consteval std::size_t DataSizeOf()
+                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(178,16): note: ﾡﾰDataSizeOfﾡﾱ:ﾡﾰTﾡﾱﾵￄ ￄﾣﾰ￥ ﾲￎￊ�ￎ￞￐ﾧﾣﾬￓﾦￎﾪ￀￠￐ￍ
+				DataSizeOf<TClass>(),
+				           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(179,13): error C2061: ￓ￯ﾷﾨﾴ￭ￎ￳: ﾱ￪ￊﾶﾷ￻ﾡﾰTClassﾡﾱ
+				alignof(TClass),
+				        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(180,5): error C2653: ﾡﾰTClassﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+				TClass::StaticClassFlags,
+				^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(181,5): error C2653: ﾡﾰTClassﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+				TClass::StaticClassCastFlags(),
+				^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(182,5): error C2653: ﾡﾰTClassﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+				TClass::StaticConfigName(),
+				^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(183,55): error C2065: ﾡﾰTClassﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+				(UClass::ClassConstructorType)InternalConstructor<TClass>,
+				                                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(184,77): error C2065: ﾡﾰTClassﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+				(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+				                                                                        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(185,5): error C2653: ﾡﾰTClassﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+				UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+				^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(186,6): error C2653: ﾡﾰTClassﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+				&TClass::Super::StaticClass,
+				 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(187,6): error C2653: ﾡﾰTClassﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+				&TClass::WithinClass::StaticClass
+				 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(199,22): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDefinitionﾡﾱ
+UNLAttackDefinition::UNLAttackDefinition(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.generated.h(55,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDefinitionﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDefinition;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(199,22): error C4430: ￈ﾱ￉￙￀￠￐ￍￋﾵￃ￷ﾷ￻ - ﾼ￙ﾶﾨￎﾪ intﾡﾣￗﾢￒ￢: C++ ﾲﾻￖﾧﾳￖￄﾬ￈ￏ int
+UNLAttackDefinition::UNLAttackDefinition(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(199,114): error C2550: ﾡﾰ{ctor}ﾡﾱ: ﾹﾹￔ￬ﾺﾯￊ�ﾳ￵ￊﾼￖﾵ￉￨ﾶﾨￏ￮￁￐ﾱ￭ￖﾻￄￜￔￚﾹﾹￔ￬ﾺﾯￊ�ﾶﾨￒ￥ￖ￐ￊﾹￓￃ
+UNLAttackDefinition::UNLAttackDefinition(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
+                                                                                                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(199,115): error C4508: ﾡﾰ{ctor}ﾡﾱ: ﾺﾯￊ�ￓﾦﾷﾵﾻ￘ￒﾻﾸ￶ￖﾵﾣﾻﾼ￙ﾶﾨﾡﾰvoidﾡﾱﾷﾵﾻ￘￀￠￐ￍ
+UNLAttackDefinition::UNLAttackDefinition(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
+                                                                                                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(200,1): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDefinitionﾡﾱ
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UNLAttackDefinition);
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.generated.h(55,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDefinitionﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDefinition;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(200,1): error C4430: ￈ﾱ￉￙￀￠￐ￍￋﾵￃ￷ﾷ￻ - ﾼ￙ﾶﾨￎﾪ intﾡﾣￗﾢￒ￢: C++ ﾲﾻￖﾧﾳￖￄﾬ￈ￏ int
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UNLAttackDefinition);
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(200,1): error C2550: ﾡﾰ{ctor}ﾡﾱ: ﾹﾹￔ￬ﾺﾯￊ�ﾳ￵ￊﾼￖﾵ￉￨ﾶﾨￏ￮￁￐ﾱ￭ￖﾻￄￜￔￚﾹﾹￔ￬ﾺﾯￊ�ﾶﾨￒ￥ￖ￐ￊﾹￓￃ
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(200,1): error C4508: ﾡﾰ{ctor}ﾡﾱ: ﾺﾯￊ�ￓﾦﾷﾵﾻ￘ￒﾻﾸ￶ￖﾵﾣﾻﾼ￙ﾶﾨﾡﾰvoidﾡﾱﾷﾵﾻ￘￀￠￐ￍ
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(201,23): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDefinitionﾡﾱ
+UNLAttackDefinition::~UNLAttackDefinition() {}
+                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.generated.h(55,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDefinitionﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDefinition;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(201,23): error C4430: ￈ﾱ￉￙￀￠￐ￍￋﾵￃ￷ﾷ￻ - ﾼ￙ﾶﾨￎﾪ intﾡﾣￗﾢￒ￢: C++ ﾲﾻￖﾧﾳￖￄﾬ￈ￏ int
+UNLAttackDefinition::~UNLAttackDefinition() {}
+                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDefinition.gen.cpp(201,46): error C4508: ﾡﾰ{dtor}ﾡﾱ: ﾺﾯￊ�ￓﾦﾷﾵﾻ￘ￒﾻﾸ￶ￖﾵﾣﾻﾼ￙ﾶﾨﾡﾰvoidﾡﾱﾷﾵﾻ￘￀￠￐ￍ
+UNLAttackDefinition::~UNLAttackDefinition() {}
+                                             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(20,22): error C2079: ﾡﾰUNLAttackDirectorSubsystemﾡﾱￊﾹￓￃￎﾴﾶﾨￒ￥ﾵￄ classﾡﾰexperiment_APIﾡﾱ
+class experiment_API UNLAttackDirectorSubsystem : public UTickableWorldSubsystem
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(20,49): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+class experiment_API UNLAttackDirectorSubsystem : public UTickableWorldSubsystem
+                                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(20,51): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰpublicﾡﾱ
+class experiment_API UNLAttackDirectorSubsystem : public UTickableWorldSubsystem
+                                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(21,1): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ{ﾡﾱﾵￄￇﾰￃ￦)
+{
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(21,1): error C2447: ﾡﾰ{ﾡﾱ: ￈ﾱ￉￙ﾺﾯￊ�ﾱ￪ￌ￢(ￊￇﾷ￱ￊￇ￀ￏￊﾽﾵￄ￐ￎￊﾽﾱ￭?)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(129,1): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+DEFINE_FUNCTION(UNLAttackDirectorSubsystem::execGetActiveFighterCount)
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(133,27): error C2065: ﾡﾰThisClassﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	*(int32*)Z_Param__Result=P_THIS->GetActiveFighterCount();
+	                         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(133,27): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰ)ﾡﾱ
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(182,1): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+DEFINE_FUNCTION(UNLAttackDirectorSubsystem::execGetReservationCount)
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(186,27): error C2065: ﾡﾰThisClassﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	*(int32*)Z_Param__Result=P_THIS->GetReservationCount();
+	                         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(186,27): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰ)ﾡﾱ
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(235,1): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+DEFINE_FUNCTION(UNLAttackDirectorSubsystem::execReleaseAttackSlot)
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(240,2): error C2065: ﾡﾰThisClassﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	P_THIS->ReleaseAttackSlot(Z_Param_ReservationId);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(240,2): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰ)ﾡﾱ
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(312,1): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+DEFINE_FUNCTION(UNLAttackDirectorSubsystem::execTryAcquireAttackSlot)
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(320,26): error C2065: ﾡﾰThisClassﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	*(bool*)Z_Param__Result=P_THIS->TryAcquireAttackSlot(Z_Param_Attacker,ENLAttackSlot(Z_Param_Slot),Z_Param_ProjectedImpactDelay,Z_Param_Out_OutReservationId);
+	                        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(320,26): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰ)ﾡﾱ
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(377,1): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+DEFINE_FUNCTION(UNLAttackDirectorSubsystem::execTryRegisterActiveFighter)
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(382,26): error C2065: ﾡﾰThisClassﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	*(bool*)Z_Param__Result=P_THIS->TryRegisterActiveFighter(Z_Param_Fighter);
+	                        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(382,26): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰ)ﾡﾱ
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(431,1): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+DEFINE_FUNCTION(UNLAttackDirectorSubsystem::execUnregisterActiveFighter)
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(436,2): error C2065: ﾡﾰThisClassﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	P_THIS->UnregisterActiveFighter(Z_Param_Fighter);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(436,2): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰ)ﾡﾱ
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(477,92): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+		{ .NameUTF8 = UTF8TEXT("GetActiveFighterCount"), .Pointer = &UNLAttackDirectorSubsystem::execGetActiveFighterCount },
+		                                                                                         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(478,90): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+		{ .NameUTF8 = UTF8TEXT("GetReservationCount"), .Pointer = &UNLAttackDirectorSubsystem::execGetReservationCount },
+		                                                                                       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(479,88): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+		{ .NameUTF8 = UTF8TEXT("ReleaseAttackSlot"), .Pointer = &UNLAttackDirectorSubsystem::execReleaseAttackSlot },
+		                                                                                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(480,91): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+		{ .NameUTF8 = UTF8TEXT("TryAcquireAttackSlot"), .Pointer = &UNLAttackDirectorSubsystem::execTryAcquireAttackSlot },
+		                                                                                        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(481,95): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+		{ .NameUTF8 = UTF8TEXT("TryRegisterActiveFighter"), .Pointer = &UNLAttackDirectorSubsystem::execTryRegisterActiveFighter },
+		                                                                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(482,94): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+		{ .NameUTF8 = UTF8TEXT("UnregisterActiveFighter"), .Pointer = &UNLAttackDirectorSubsystem::execUnregisterActiveFighter },
+		                                                                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(495,3): error C2923: "TCppClassTypeTraits": "UNLAttackDirectorSubsystem" ﾲﾻￊￇﾲￎￊ� "CPPCLASS" ﾵￄￓ￐￐ﾧ ￄﾣﾰ￥ ￀￠￐ￍﾲￎￊ�
+		TCppClassTypeTraits<UNLAttackDirectorSubsystem>::IsAbstract,
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(20,22): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class experiment_API UNLAttackDirectorSubsystem : public UTickableWorldSubsystem
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(495,52): error C2955: ﾡﾰTCppClassTypeTraitsﾡﾱ: ￊﾹￓￃ ￀￠ ￄﾣﾰ￥ ￐￨ￒﾪ ￄﾣﾰ￥ ﾲￎￊ�￁￐ﾱ￭
+		TCppClassTypeTraits<UNLAttackDirectorSubsystem>::IsAbstract,
+		                                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h(3741,8): note: ﾲￎﾼ￻ﾡﾰTCppClassTypeTraitsﾡﾱﾵￄ￉￹ￃ￷
+struct TCppClassTypeTraits : public FCppClassTypeTraitsBase
+       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(495,52): error C2397: ﾴￓﾡﾰTCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>ﾡﾱￗﾪﾻﾻﾵﾽﾡﾰboolﾡﾱ￐￨ￒﾪￊￕￋ￵ￗﾪﾻﾻ
+		TCppClassTypeTraits<UNLAttackDirectorSubsystem>::IsAbstract,
+		                                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(495,52): error C4800: ﾴￓﾡﾰTCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>ﾡﾱﾵﾽ bool ﾵￄￒ￾ￊﾽￗﾪﾻﾻﾡﾣ￐ￅￏﾢ﾿￉ￄￜﾶﾪￊﾧ
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(495,52): note: ￇ￫﾿ﾼￂￇￊﾹￓￃￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾱ￈ﾽￏ 0 ￀ﾴﾱￜￃ￢ﾴￋﾾﾯﾸ￦
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h(3744,2): note: ﾲￎﾼ￻ﾡﾰTCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>ﾡﾱﾵￄ￉￹ￃ￷
+	{
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(495,52): warning C4305: ﾡﾰﾳ￵ￊﾼﾻﾯﾡﾱ: ﾴￓﾡﾰTCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>ﾡﾱﾵﾽﾡﾰboolﾡﾱﾽ￘ﾶￏ
+		TCppClassTypeTraits<UNLAttackDirectorSubsystem>::IsAbstract,
+		                                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(501,218): error C2615: "offsetof" ﾲﾻￄￜￓﾦￓￃￓￚﾷￇ￀￠￀￠￐ￍ "<error type>"
+const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_MaxActiveFighters = { "MaxActiveFighters", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDirectorSubsystem, MaxActiveFighters), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxActiveFighters_MetaData), NewProp_MaxActiveFighters_MetaData) };
+                                                                                                                                                                                                                         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(501,58): error C2737: ﾡﾰNewProp_MaxActiveFightersﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_MaxActiveFighters = { "MaxActiveFighters", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDirectorSubsystem, MaxActiveFighters), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxActiveFighters_MetaData), NewProp_MaxActiveFighters_MetaData) };
+                                                         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(502,234): error C2615: "offsetof" ﾲﾻￄￜￓﾦￓￃￓￚﾷￇ￀￠￀￠￐ￍ "<error type>"
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_MinimumImpactSeparation = { "MinimumImpactSeparation", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDirectorSubsystem, MinimumImpactSeparation), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MinimumImpactSeparation_MetaData), NewProp_MinimumImpactSeparation_MetaData) };
+                                                                                                                                                                                                                                         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(502,60): error C2737: ﾡﾰNewProp_MinimumImpactSeparationﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_MinimumImpactSeparation = { "MinimumImpactSeparation", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDirectorSubsystem, MinimumImpactSeparation), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MinimumImpactSeparation_MetaData), NewProp_MinimumImpactSeparation_MetaData) };
+                                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(503,238): error C2615: "offsetof" ﾲﾻￄￜￓﾦￓￃￓￚﾷￇ￀￠￀￠￐ￍ "<error type>"
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_ReservationTimeoutSeconds = { "ReservationTimeoutSeconds", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDirectorSubsystem, ReservationTimeoutSeconds), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ReservationTimeoutSeconds_MetaData), NewProp_ReservationTimeoutSeconds_MetaData) };
+                                                                                                                                                                                                                                             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(503,60): error C2737: ﾡﾰNewProp_ReservationTimeoutSecondsﾡﾱ: ﾱ￘￐￫ﾳ￵ￊﾼﾻﾯ const ﾶￔￏ￳
+const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_ReservationTimeoutSeconds = { "ReservationTimeoutSeconds", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UNLAttackDirectorSubsystem, ReservationTimeoutSeconds), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ReservationTimeoutSeconds_MetaData), NewProp_ReservationTimeoutSeconds_MetaData) };
+                                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(533,46): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+	UClass* Class = UNLAttackDirectorSubsystem::StaticClass();
+	                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.generated.h(80,7): note: ﾲￎﾼ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱﾵￄ￉￹ￃ￷
+class UNLAttackDirectorSubsystem;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(533,46): error C2672: ﾡﾰStaticClassﾡﾱ: ￎﾴￕￒﾵﾽￆﾥￅ￤ﾵￄￖ￘ￔ￘ﾺﾯￊ�
+	UClass* Class = UNLAttackDirectorSubsystem::StaticClass();
+	                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\CoreUObject\Public\UObject\ReflectedTypeAccessors.h(14,45): note: ﾿￉ￄￜￊￇﾡﾰUClass *StaticClass(void)ﾡﾱ
+template<typename ClassType> inline UClass* StaticClass()
+                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(533,46): note: ﾡﾰUClass *StaticClass(void)ﾡﾱ: ￎ￞ﾷﾨￍￆﾵﾼﾡﾰClassTypeﾡﾱﾵￄ ￄﾣﾰ￥ ﾲￎￊ�
+	UClass* Class = UNLAttackDirectorSubsystem::StaticClass();
+	                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(541,18): error C2061: ￓ￯ﾷﾨﾴ￭ￎ￳: ﾱ￪ￊﾶﾷ￻ﾡﾰUNLAttackDirectorSubsystemﾡﾱ
+		using TClass = UNLAttackDirectorSubsystem;
+		               ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(545,5): error C2653: ﾡﾰTClassﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+				TClass::StaticPackage(),
+				^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(545,13): error C3861: ﾡﾰStaticPackageﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+				TClass::StaticPackage(),
+				        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(549,16): error C2065: ﾡﾰTClassﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+				DataSizeOf<TClass>(),
+				           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(549,5): error C2672: ﾡﾰDataSizeOfﾡﾱ: ￎﾴￕￒﾵﾽￆﾥￅ￤ﾵￄￖ￘ￔ￘ﾺﾯￊ�
+				DataSizeOf<TClass>(),
+				^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\Core\Public\Templates\AlignmentTemplates.h(84,23): note: ﾿￉ￄￜￊￇﾡﾰsize_t DataSizeOf(void)ﾡﾱ
+consteval std::size_t DataSizeOf()
+                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(549,16): note: ﾡﾰDataSizeOfﾡﾱ:ﾡﾰTﾡﾱﾵￄ ￄﾣﾰ￥ ﾲￎￊ�ￎ￞￐ﾧﾣﾬￓﾦￎﾪ￀￠￐ￍ
+				DataSizeOf<TClass>(),
+				           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(550,13): error C2061: ￓ￯ﾷﾨﾴ￭ￎ￳: ﾱ￪ￊﾶﾷ￻ﾡﾰTClassﾡﾱ
+				alignof(TClass),
+				        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(551,5): error C2653: ﾡﾰTClassﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+				TClass::StaticClassFlags,
+				^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(552,5): error C2653: ﾡﾰTClassﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+				TClass::StaticClassCastFlags(),
+				^
+ Compile [x64] Module.experiment.gen.cpp [NoUba]: Exited with error code 2 . The build will fail.
+ Compile [x64] Module.experiment.gen.cpp [NoUba]: WorkingDirectory C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source
+ Compile [x64] Module.experiment.gen.cpp [NoUba]: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe @"C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/Module.experiment.gen.cpp.obj.rsp" 
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLAttackDirectorSubsystem.gen.cpp(552,5): fatal error C1003: ﾴ￭ￎ￳ﾼￆￊ�ﾳﾬﾹ� 100ﾣﾻￕ�ￔￚￍﾣￖﾹﾱ￠ￒ￫
+[7/13] Compile [x64] NLEnemyCharacter.cpp [NoUba]
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyCharacter.h(10,22): error C2079: ﾡﾰANLEnemyCharacterﾡﾱￊﾹￓￃￎﾴﾶﾨￒ￥ﾵￄ classﾡﾰexperiment_APIﾡﾱ
+class experiment_API ANLEnemyCharacter : public ACharacter
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyCharacter.h(10,40): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+class experiment_API ANLEnemyCharacter : public ACharacter
+                                       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyCharacter.h(10,42): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰpublicﾡﾱ
+class experiment_API ANLEnemyCharacter : public ACharacter
+                                         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyCharacter.h(11,1): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ{ﾡﾱﾵￄￇﾰￃ￦)
+{
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyCharacter.h(11,1): error C2447: ﾡﾰ{ﾡﾱ: ￈ﾱ￉￙ﾺﾯￊ�ﾱ￪ￌ￢(ￊￇﾷ￱ￊￇ￀ￏￊﾽﾵￄ￐ￎￊﾽﾱ￭?)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyBrainComponent.h(16,22): error C2079: ﾡﾰUNLEnemyBrainComponentﾡﾱￊﾹￓￃￎﾴﾶﾨￒ￥ﾵￄ classﾡﾰexperiment_APIﾡﾱ
+class experiment_API UNLEnemyBrainComponent : public UActorComponent
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyBrainComponent.h(16,45): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+class experiment_API UNLEnemyBrainComponent : public UActorComponent
+                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyBrainComponent.h(16,47): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰpublicﾡﾱ
+class experiment_API UNLEnemyBrainComponent : public UActorComponent
+                                              ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyBrainComponent.h(17,1): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ{ﾡﾱﾵￄￇﾰￃ￦)
+{
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyBrainComponent.h(17,1): error C2447: ﾡﾰ{ﾡﾱ: ￈ﾱ￉￙ﾺﾯￊ�ﾱ￪ￌ￢(ￊￇﾷ￱ￊￇ￀ￏￊﾽﾵￄ￐ￎￊﾽﾱ￭?)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(7,20): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰANLEnemyCharacterﾡﾱ
+ANLEnemyCharacter::ANLEnemyCharacter()
+                   ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLEnemyCharacter.generated.h(59,7): note: ﾲￎﾼ￻ﾡﾰANLEnemyCharacterﾡﾱﾵￄ￉￹ￃ￷
+class ANLEnemyCharacter;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(7,20): error C4430: ￈ﾱ￉￙￀￠￐ￍￋﾵￃ￷ﾷ￻ - ﾼ￙ﾶﾨￎﾪ intﾡﾣￗﾢￒ￢: C++ ﾲﾻￖﾧﾳￖￄﾬ￈ￏ int
+ANLEnemyCharacter::ANLEnemyCharacter()
+                   ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(9,2): error C2065: ﾡﾰPrimaryActorTickﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	PrimaryActorTick.bCanEverTick = false;
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(10,2): error C2065: ﾡﾰAutoPossessAIﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(11,2): error C2065: ﾡﾰAIControllerClassﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	AIControllerClass = AAIController::StaticClass();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(13,2): error C2065: ﾡﾰEnemyBrainﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	EnemyBrain = CreateDefaultSubobject<UNLEnemyBrainComponent>(TEXT("EnemyBrain"));
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(13,15): error C3861: ﾡﾰCreateDefaultSubobjectﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	EnemyBrain = CreateDefaultSubobject<UNLEnemyBrainComponent>(TEXT("EnemyBrain"));
+	             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(14,2): error C3861: ﾡﾰGetCharacterMovementﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(15,2): error C3861: ﾡﾰGetCharacterMovementﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	GetCharacterMovement()->MaxWalkSpeed = 240.0f;
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(16,2): error C2065: ﾡﾰbUseControllerRotationYawﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	bUseControllerRotationYaw = false;
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(17,1): error C4508: ﾡﾰ{ctor}ﾡﾱ: ﾺﾯￊ�ￓﾦﾷﾵﾻ￘ￒﾻﾸ￶ￖﾵﾣﾻﾼ￙ﾶﾨﾡﾰvoidﾡﾱﾷﾵﾻ￘￀￠￐ￍ
+}
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(19,25): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰANLEnemyCharacterﾡﾱ
+void ANLEnemyCharacter::BeginPlay()
+                        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLEnemyCharacter.generated.h(59,7): note: ﾲￎﾼ￻ﾡﾰANLEnemyCharacterﾡﾱﾵￄ￉￹ￃ￷
+class ANLEnemyCharacter;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(21,2): error C2653: ﾡﾰSuperﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+	Super::BeginPlay();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(22,6): error C2065: ﾡﾰEnemyBrainﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (EnemyBrain)
+	    ^
+ Compile [x64] NLEnemyCharacter.cpp [NoUba]: Exited with error code 2 . The build will fail.
+ Compile [x64] NLEnemyCharacter.cpp [NoUba]: WorkingDirectory C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source
+ Compile [x64] NLEnemyCharacter.cpp [NoUba]: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe @"C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/NLEnemyCharacter.cpp.obj.rsp" 
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyCharacter.cpp(24,3): error C2065: ﾡﾰEnemyBrainﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		EnemyBrain->StartBrain();
+		^
+[8/13] Compile [x64] NLEnemyBrainComponent.cpp [NoUba]
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyBrainComponent.h(16,22): error C2079: ﾡﾰUNLEnemyBrainComponentﾡﾱￊﾹￓￃￎﾴﾶﾨￒ￥ﾵￄ classﾡﾰexperiment_APIﾡﾱ
+class experiment_API UNLEnemyBrainComponent : public UActorComponent
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyBrainComponent.h(16,45): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+class experiment_API UNLEnemyBrainComponent : public UActorComponent
+                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyBrainComponent.h(16,47): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰpublicﾡﾱ
+class experiment_API UNLEnemyBrainComponent : public UActorComponent
+                                              ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyBrainComponent.h(17,1): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ{ﾡﾱﾵￄￇﾰￃ￦)
+{
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyBrainComponent.h(17,1): error C2447: ﾡﾰ{ﾡﾱ: ￈ﾱ￉￙ﾺﾯￊ�ﾱ￪ￌ￢(ￊￇﾷ￱ￊￇ￀ￏￊﾽﾵￄ￐ￎￊﾽﾱ￭?)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(20,22): error C2079: ﾡﾰUNLAttackDirectorSubsystemﾡﾱￊﾹￓￃￎﾴﾶﾨￒ￥ﾵￄ classﾡﾰexperiment_APIﾡﾱ
+class experiment_API UNLAttackDirectorSubsystem : public UTickableWorldSubsystem
+                     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(20,49): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ:ﾡﾱﾵￄￇﾰￃ￦)
+class experiment_API UNLAttackDirectorSubsystem : public UTickableWorldSubsystem
+                                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(20,51): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰpublicﾡﾱ
+class experiment_API UNLAttackDirectorSubsystem : public UTickableWorldSubsystem
+                                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(21,1): error C2143: ￓ￯ﾷﾨﾴ￭ￎ￳: ￈ﾱ￉￙ﾡﾰ;ﾡﾱ(ￔￚﾡﾰ{ﾡﾱﾵￄￇﾰￃ￦)
+{
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLAttackDirectorSubsystem.h(21,1): error C2447: ﾡﾰ{ﾡﾱ: ￈ﾱ￉￙ﾺﾯￊ�ﾱ￪ￌ￢(ￊￇﾷ￱ￊￇ￀ￏￊﾽﾵￄ￐ￎￊﾽﾱ￭?)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(11,25): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLEnemyBrainComponentﾡﾱ
+UNLEnemyBrainComponent::UNLEnemyBrainComponent()
+                        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLEnemyBrainComponent.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLEnemyBrainComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLEnemyBrainComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(11,25): error C4430: ￈ﾱ￉￙￀￠￐ￍￋﾵￃ￷ﾷ￻ - ﾼ￙ﾶﾨￎﾪ intﾡﾣￗﾢￒ￢: C++ ﾲﾻￖﾧﾳￖￄﾬ￈ￏ int
+UNLEnemyBrainComponent::UNLEnemyBrainComponent()
+                        ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(13,2): error C2065: ﾡﾰPrimaryComponentTickﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	PrimaryComponentTick.bCanEverTick = true;
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(14,1): error C4508: ﾡﾰ{ctor}ﾡﾱ: ﾺﾯￊ�ￓﾦﾷﾵﾻ￘ￒﾻﾸ￶ￖﾵﾣﾻﾼ￙ﾶﾨﾡﾰvoidﾡﾱﾷﾵﾻ￘￀￠￐ￍ
+}
+^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(16,30): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLEnemyBrainComponentﾡﾱ
+void UNLEnemyBrainComponent::BeginPlay()
+                             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLEnemyBrainComponent.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLEnemyBrainComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLEnemyBrainComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(18,2): error C2653: ﾡﾰSuperﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+	Super::BeginPlay();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(19,2): error C3861: ﾡﾰStartBrainﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	StartBrain();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(22,30): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLEnemyBrainComponentﾡﾱ
+void UNLEnemyBrainComponent::EndPlay(const EEndPlayReason::Type EndPlayReason)
+                             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLEnemyBrainComponent.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLEnemyBrainComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLEnemyBrainComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(24,2): error C3861: ﾡﾰReleaseReservationﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	ReleaseReservation();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(25,34): error C2065: ﾡﾰDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (UNLAttackDirectorSubsystem* Director = AttackDirector.Get())
+	                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(25,45): error C2065: ﾡﾰAttackDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (UNLAttackDirectorSubsystem* Director = AttackDirector.Get())
+	                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(27,3): error C2065: ﾡﾰDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		Director->UnregisterActiveFighter(GetOwner());
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(27,37): error C3861: ﾡﾰGetOwnerﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		Director->UnregisterActiveFighter(GetOwner());
+		                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(29,2): error C2653: ﾡﾰSuperﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+	Super::EndPlay(EndPlayReason);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(32,30): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLEnemyBrainComponentﾡﾱ
+void UNLEnemyBrainComponent::StartBrain()
+                             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLEnemyBrainComponent.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLEnemyBrainComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLEnemyBrainComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(34,6): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(34,30): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(34,30): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(34,38): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(34,62): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(34,62): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(39,7): error C2065: ﾡﾰAttackDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (!AttackDirector.IsValid() && GetWorld())
+	     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(39,35): error C3861: ﾡﾰGetWorldﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	if (!AttackDirector.IsValid() && GetWorld())
+	                                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(41,3): error C2065: ﾡﾰAttackDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		AttackDirector = GetWorld()->GetSubsystem<UNLAttackDirectorSubsystem>();
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(41,20): error C3861: ﾡﾰGetWorldﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		AttackDirector = GetWorld()->GetSubsystem<UNLAttackDirectorSubsystem>();
+		                 ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(41,73): error C2059: ￓ￯ﾷﾨﾴ￭ￎ￳:ﾡﾰ)ﾡﾱ
+		AttackDirector = GetWorld()->GetSubsystem<UNLAttackDirectorSubsystem>();
+		                                                                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(44,2): error C2065: ﾡﾰTargetActorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	TargetActor = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(44,48): error C3861: ﾡﾰGetWorldﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	TargetActor = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+	                                              ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(45,7): error C2065: ﾡﾰTargetActorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (!TargetActor.IsValid())
+	     ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(47,3): error C3861: ﾡﾰSetStateﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		SetState(ENLEnemyState::Spawn);
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(51,34): error C2065: ﾡﾰDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (UNLAttackDirectorSubsystem* Director = AttackDirector.Get())
+	                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(51,45): error C2065: ﾡﾰAttackDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (UNLAttackDirectorSubsystem* Director = AttackDirector.Get())
+	                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(53,3): error C2065: ﾡﾰbActiveRegisteredﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		bActiveRegistered = Director->TryRegisterActiveFighter(GetOwner());
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(53,23): error C2065: ﾡﾰDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		bActiveRegistered = Director->TryRegisterActiveFighter(GetOwner());
+		                    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(53,58): error C3861: ﾡﾰGetOwnerﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		bActiveRegistered = Director->TryRegisterActiveFighter(GetOwner());
+		                                                       ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(56,11): error C2065: ﾡﾰbActiveRegisteredﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	SetState(bActiveRegistered ? ENLEnemyState::Approach : ENLEnemyState::Spawn);
+	         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(56,2): error C3861: ﾡﾰSetStateﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	SetState(bActiveRegistered ? ENLEnemyState::Approach : ENLEnemyState::Spawn);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(59,30): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLEnemyBrainComponentﾡﾱ
+void UNLEnemyBrainComponent::SetCombatPaused(bool bPaused)
+                             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLEnemyBrainComponent.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLEnemyBrainComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLEnemyBrainComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(61,6): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(61,30): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(61,30): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(61,38): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(61,62): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(61,62): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(68,3): error C2065: ﾡﾰStateBeforePauseﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		StateBeforePause = State;
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(68,22): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		StateBeforePause = State;
+		                   ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(69,3): error C3861: ﾡﾰReleaseReservationﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		ReleaseReservation();
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(70,35): error C3861: ﾡﾰGetAIControllerﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		if (AAIController* Controller = GetAIController())
+		                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(74,3): error C3861: ﾡﾰSetStateﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		SetState(ENLEnemyState::Paused);
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(78,6): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Paused)
+	    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(78,30): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Paused)
+	                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(78,30): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(81,12): error C2065: ﾡﾰbActiveRegisteredﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		SetState(bActiveRegistered ? ENLEnemyState::Approach : ENLEnemyState::Spawn);
+		         ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(81,3): error C3861: ﾡﾰSetStateﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		SetState(bActiveRegistered ? ENLEnemyState::Approach : ENLEnemyState::Spawn);
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(85,30): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLEnemyBrainComponentﾡﾱ
+void UNLEnemyBrainComponent::ApplyStagger(float DurationSeconds)
+                             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLEnemyBrainComponent.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLEnemyBrainComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLEnemyBrainComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(87,6): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(87,30): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(87,30): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(87,38): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(87,62): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(87,62): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(92,2): error C3861: ﾡﾰReleaseReservationﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	ReleaseReservation();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(93,34): error C3861: ﾡﾰGetAIControllerﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	if (AAIController* Controller = GetAIController())
+	                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(97,2): error C2065: ﾡﾰStaggerDurationﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	StaggerDuration = FMath::Max(0.0f, DurationSeconds);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(98,2): error C3861: ﾡﾰSetStateﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	SetState(ENLEnemyState::Staggered);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(101,30): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLEnemyBrainComponentﾡﾱ
+void UNLEnemyBrainComponent::MarkDead()
+                             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLEnemyBrainComponent.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLEnemyBrainComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLEnemyBrainComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(103,6): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(103,30): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(103,30): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(103,38): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(103,62): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(103,62): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(108,2): error C3861: ﾡﾰReleaseReservationﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	ReleaseReservation();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(109,34): error C3861: ﾡﾰGetAIControllerﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	if (AAIController* Controller = GetAIController())
+	                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(113,34): error C2065: ﾡﾰDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (UNLAttackDirectorSubsystem* Director = AttackDirector.Get())
+	                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(113,45): error C2065: ﾡﾰAttackDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (UNLAttackDirectorSubsystem* Director = AttackDirector.Get())
+	                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(115,3): error C2065: ﾡﾰDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		Director->UnregisterActiveFighter(GetOwner());
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(115,37): error C3861: ﾡﾰGetOwnerﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		Director->UnregisterActiveFighter(GetOwner());
+		                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(117,2): error C2065: ﾡﾰbActiveRegisteredﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	bActiveRegistered = false;
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(118,2): error C3861: ﾡﾰSetStateﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	SetState(ENLEnemyState::Dead);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(121,30): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLEnemyBrainComponentﾡﾱ
+void UNLEnemyBrainComponent::Despawn()
+                             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLEnemyBrainComponent.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLEnemyBrainComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLEnemyBrainComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(123,6): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(123,30): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(123,30): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(123,38): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(123,62): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(123,62): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(128,2): error C3861: ﾡﾰReleaseReservationﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	ReleaseReservation();
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(129,34): error C3861: ﾡﾰGetAIControllerﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	if (AAIController* Controller = GetAIController())
+	                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(133,34): error C2065: ﾡﾰDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (UNLAttackDirectorSubsystem* Director = AttackDirector.Get())
+	                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(133,45): error C2065: ﾡﾰAttackDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (UNLAttackDirectorSubsystem* Director = AttackDirector.Get())
+	                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(135,3): error C2065: ﾡﾰDirectorﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		Director->UnregisterActiveFighter(GetOwner());
+		^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(135,37): error C3861: ﾡﾰGetOwnerﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+		Director->UnregisterActiveFighter(GetOwner());
+		                                  ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(137,2): error C2065: ﾡﾰbActiveRegisteredﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	bActiveRegistered = false;
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(138,2): error C3861: ﾡﾰSetStateﾡﾱ: ￕￒﾲﾻﾵﾽﾱ￪ￊﾶﾷ￻
+	SetState(ENLEnemyState::Despawn);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(141,30): error C2027: ￊﾹￓￃ￁ￋￎﾴﾶﾨￒ￥￀￠￐ￍﾡﾰUNLEnemyBrainComponentﾡﾱ
+void UNLEnemyBrainComponent::TickComponent(
+                             ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\UnrealEditor\Inc\experiment\UHT\NLEnemyBrainComponent.generated.h(65,7): note: ﾲￎﾼ￻ﾡﾰUNLEnemyBrainComponentﾡﾱﾵￄ￉￹ￃ￷
+class UNLEnemyBrainComponent;
+      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(146,2): error C2653: ﾡﾰSuperﾡﾱ: ﾲﾻￊￇ￀￠ﾻ￲ￃ￼ￃ￻﾿ￕﾼ￤ￃ￻ﾳￆ
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(147,6): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Paused || State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	    ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(147,30): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Paused || State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                            ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(147,30): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(147,40): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Paused || State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(147,64): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Paused || State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                                              ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(147,64): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(147,72): error C2065: ﾡﾰStateﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (State == ENLEnemyState::Paused || State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                                                      ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(147,96): error C2440: ﾡﾰ￀￠￐ￍￇ﾿ￖￆￗﾪﾻﾻﾡﾱ: ￎ￞ﾷﾨﾴￓﾡﾰENLEnemyStateﾡﾱￗﾪﾻﾻￎﾪﾡﾰintﾡﾱ
+	if (State == ENLEnemyState::Paused || State == ENLEnemyState::Dead || State == ENLEnemyState::Despawn)
+	                                                                                              ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(147,96): note: ﾴￋￗﾪﾻﾻ￐￨ￒﾪￏￔￊﾽￇ﾿ￖￆￗﾪﾻﾻ(static_castﾡﾢC ￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻﾻ￲ﾴ￸ￔﾲ￀ﾨﾺￅﾺﾯￊ�￑￹ￊﾽￇ﾿ￖￆￗﾪﾻﾻ)
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(152,2): error C2065: ﾡﾰStateElapsedﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	StateElapsed += DeltaTime;
+	^
+ Compile [x64] NLEnemyBrainComponent.cpp [NoUba]: Exited with error code 2 . The build will fail.
+ Compile [x64] NLEnemyBrainComponent.cpp [NoUba]: WorkingDirectory C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source
+ Compile [x64] NLEnemyBrainComponent.cpp [NoUba]: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe @"C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/NLEnemyBrainComponent.cpp.obj.rsp" 
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(152,2): fatal error C1003: ﾴ￭ￎ￳ﾼￆￊ�ﾳﾬﾹ� 100ﾣﾻￕ�ￔￚￍﾣￖﾹﾱ￠ￒ￫
+[9/13] Compile [x64] PerModuleInline.gen.cpp [NoUba]
+[10/13] Compile [x64] experiment.cpp [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 86.30 seconds
+CompilationResultException: OtherCompilationError
+   at UnrealBuildTool.ActionGraph.InternalExecuteActions(ActionExecutor Executor, List`1 ActionsToExecute, ILogger Logger)
+   at UnrealBuildTool.ActionGraph.ExecuteActionsAsync(BuildConfiguration BuildConfiguration, List`1 ActionsToExecute, List`1 TargetDescriptors, ILogger Logger, ActionExecutor executor)
+   at UnrealBuildTool.BuildMode.BuildAsync(List`1 Targets, BuildConfiguration BuildConfiguration, BuildOptions Options, FileReference WriteOutdatedActionsFile, CppDependencyCache cppDependencyCache, ILogger Logger, String ActionTypeFilter, ActionExecutor executor)
+   at UnrealBuildTool.BuildMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+   at UnrealBuildTool.BuildMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.794 Main
+   0.040          [  0.040]  +0.289 Apply XmlConfig
+   0.363          [  0.363]  +0.131 AddTelemetry
+   0.543          [  0.543]  +0.251 RegisterPlatforms
+[  0.829]  +0.071 ParseCommandLine
+[  1.003]  +0.234 LoadMakefile
+   1.033          [  0.029]  +0.065 EngineRulesPlugins
+   1.105          [  0.101]  +0.030 EngineRulesFetchDirs
+   1.156          [  0.152]  +0.022 EngineRulesAssembly
+   1.178          [  0.174]  +0.003 ProgramRulesAssembly
+   1.181          [  0.177]  +5.244 ProjectRulesAssembly
+[  1.238]  +5.188 <unknown>
+[  6.426]  +0.460 CreateTargetRules
+[  7.028]  +0.007 CppDependencyCache
+[  7.067]  +5.051 experimentEditor Win64 Development
+   7.067          [  0.000]  +1.764 <unknown>
+   8.831          [  1.764]  +0.961 UHTModules
+   9.793          [  2.725]  +0.236 <unknown>
+  10.030          [  2.962]  +0.379 UHTManifest
+  10.409          [  3.342]  +3.499 UHT
+  10.409             3.342          [  0.000]  +1.649 <unknown>
+  12.059             4.992          [  1.649]  +0.000 WaitOnWrites
+  12.119             5.051          [  1.709]  +0.296 SavingMakefile
+  12.415             5.348          [  2.005]  +1.493 <unknown>
+[ 12.118]  +1.797 <unknown>
+[ 13.916]  +0.038 UHTTimestamps
+[ 13.963]  +0.001 CppDependencyCache
+[ 13.964]  +0.126 Preparing ActionGraph
+  13.991          [  0.027]  +0.012 LinkActions
+  14.003             0.038          [  0.011]  +0.000 DetectActionGraphCycles
+  14.005          [  0.040]  +0.000 GatherPrerequisiteActions
+  14.009          [  0.044]  +0.000 CppDependencyCacheWait
+  14.010          [  0.045]  +0.044 GatherOutdatedActions
+  14.061          [  0.096]  +0.006 LinkActions
+  14.061             0.096          [  0.000]  +0.000 DetectActionGraphCycles
+  14.070          [  0.105]  +0.001 DeleteOutdatedProducedItems
+  14.071          [  0.106]  +0.017 SaveActionHistory
+  14.090          [  0.125]  +0.000 CreateDirectoriesForProducedItems
+[ 14.120]  +0.393 GarbageCollect
+[ 14.513] +85.912 <unknown>
+[100.426]  +0.000 DisconnectCache
+[100.432]  +0.002 SaveCasTable
+[100.441]  +0.273 Saving caches
+[100.735]  +0.005 TelemetryService.FlushEvents
+[100.742]
+
+Result: Failed (OtherCompilationError)
+Total execution time: 100.74 seconds

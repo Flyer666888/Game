@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-12",
+  "scene_loaded": true,
+  "map": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+  "health": 100.0,
+  "guard": 100.0,
+  "camera_cm": [
+    30.0,
+    -170.0,
+    146.76370239257812
+  ],
+  "melee_damage": 10.0,
+  "enemies": [
+    {
+      "name": "NLEnemyCharacter_0",
+      "capsule_origin_cm": [
+        430.0,
+        -280.0,
+        90.40000104904175
+      ],
+      "mesh_floor_origin_cm": [
+        430.0,
+        -280.0,
+        3.814697265625e-06
+      ],
+      "head_cm": [
+        418.3433580901044,
+        -280.76342050181364,
+        143.20653713935437
+      ],
+      "hand_r_cm": [
+        460.0034381106938,
+        -299.9970857372069,
+        98.41144900652162
+      ],
+      "foot_l_cm": [
+        424.7958609230676,
+        -265.8600577552116,
+        11.993123952284847
+      ],
+      "foot_r_cm": [
+        438.15171320861015,
+        -290.4680380562394,
+        11.925552794666316
+      ],
+      "sword_origin_cm": [
+        452.916977189579,
+        -297.46373868508226,
+        95.06081386535499
+      ],
+      "sword_axis_cm": [
+        -0.46886983878406013,
+        -0.790567154395367,
+        0.39390944221968216
+      ],
+      "health": 30.0,
+      "combat_enabled": false,
+      "brain_state": "<NLEnemyState.PAUSED: 9>",
+      "damage": 10.0,
+      "telegraph_seconds": 0.800000011920929,
+      "active_seconds": 0.23000000417232513,
+      "recover_seconds": 1.3033332824707031,
+      "animations": {
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse"
+      }
+    },
+    {
+      "name": "NLEnemyCharacter_1",
+      "capsule_origin_cm": [
+        620.0,
+        40.0,
+        90.40000104904175
+      ],
+      "mesh_floor_origin_cm": [
+        620.0,
+        40.0,
+        0.0
+      ],
+      "head_cm": [
+        610.8853043616525,
+        32.69367158564479,
+        143.2065333246571
+      ],
+      "hand_r_cm": [
+        656.0476844302743,
+        40.80881620828954,
+        98.41144519182436
+      ],
+      "foot_l_cm": [
+        607.6314044425893,
+        48.60458448475038,
+        11.993120137587582
+      ],
+      "foot_r_cm": [
+        632.6795693233544,
+        36.093752343161654,
+        11.92554897996905
+      ],
+      "sword_origin_cm": [
+        648.7886359166722,
+        38.823371585499196,
+        95.06081005065772
+      ],
+      "sword_axis_cm": [
+        0.06887168838366581,
+        -0.9165653505721032,
+        0.39390944221968194
+      ],
+      "health": 30.0,
+      "combat_enabled": false,
+      "brain_state": "<NLEnemyState.PAUSED: 9>",
+      "damage": 10.0,
+      "telegraph_seconds": 0.800000011920929,
+      "active_seconds": 0.23000000417232513,
+      "recover_seconds": 1.3033332824707031,
+      "animations": {
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse"
+      }
+    }
+  ],
+  "emitters": [
+    {
+      "position_cm": [
+        800.0,
+        -170.0,
+        0.0
+      ],
+      "enabled": false
+    }
+  ],
+  "navigation_data": [
+    {
+      "name": "RecastNavMesh-SwordDisciple",
+      "runtime_generation_configured": "Dynamic (DefaultEngine.ini)",
+      "agent_radius": 28.0,
+      "agent_height": 176.0
+    }
+  ],
+  "scope": "Read-only initial scene capture. No gameplay input, movement/path query or combat tests were run."
+}

@@ -1,0 +1,125 @@
+Log started at 10/14/2026 18:16:04 (2026-10-14T10:16:04Z)
+Resolved project argument C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest.txt
+Deleting old log file: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest-backup-2026.10.12-04.52.26.txt
+Deleting old log file: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest-backup-2026.10.12-04.52.26.json
+
+Setting temp directory to 'C:\Users\21475\AppData\Local\Temp\UnrealBuildTool\3983cc6c'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll experimentEditor Win64 Development -Project=C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject -NoHotReloadFromIDE -NoUBA -MaxParallelActions=4 -WaitMutex -Log=C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest.txt
+Running from a path with a long directory name ("C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58" = 89 characters). Root paths shorter than 50 characters are recommended to avoid exceeding maximum path lengths on Windows.
+Executing up to 4 actions based on MaxProcessorCount override
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Skipping C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Building UnrealEditor - experimentEditor - Win64 - Development
+UnrealHeaderTool needs to run because SavedTimestamp is older than HeaderFileTimestamp (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\Player\NLDesktopPlayerCharacter.h) for module experiment
+Parsing headers for experimentEditor
+  Running Internal UnrealHeaderTool C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\experimentEditor\experimentEditor.uhtmanifest -WarningsAsErrors -installed
+UHT compiled-in object format Default
+Step - Parse Headers
+Reading engine version from file: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\Launch\Resources\Version.h
+Got engine version 5.8.2
+Step - Populate symbol table
+Step - Exports
+       Exporter Stats skipped
+       Exporter Json skipped
+       Running exporter CodeGen
+UHT processed experimentEditor in 11.1957453 seconds (3 generated files written)
+Deleting outdated item: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Binaries\Win64\UnrealEditor-experiment.pdb
+Deleting outdated item: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\experiment\UnrealEditor-experiment.lib
+Building experimentEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35229 toolchain (D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from experiment unity file: experiment.cpp, NLAttackDirectorSubsystem.cpp, NLEnemyAttackWindowNotifyState.cpp, NLEnemyBrainComponent.cpp, NLEnemyCharacter.cpp, NLTalismanAttackComponent.cpp, NLDeathBlendAnimInstance.cpp, NLBladeComponent.cpp, NLCombatIdentityComponent.cpp, NLCombatProjectile.cpp, NLCombatResolverSubsystem.cpp, NLCombatVitalsComponent.cpp, NLGuardComponent.cpp, NLTrainingEnemy.cpp, NLTrainingProjectileEmitter.cpp, NLEncounterController.cpp, NLCombatLabHUD.cpp, NLDesktopPlayerCharacter.cpp, NLRunStateSubsystem.cpp, NLCheckpointService.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 6 action(s)
+  CPU 24 physical cores, 24 logical cores
+  Memory 31.73 GB physical, 20.54 GB/33.73 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 4007641949 used. Action: Compile [x64] Module.experiment.cpp ()
+Cache bucket 416513229 used. Action: Link [x64] UnrealEditor-experiment.dll ()
+All processes queued
+[1/6] Compile [x64] Module.experiment.cpp [NoUba]
+[2/6] Compile [x64] NLCombatLabHUD.cpp [NoUba]
+[3/6] Compile [x64] NLDesktopPlayerCharacter.cpp [NoUba]
+[4/6] Link [x64] UnrealEditor-experiment.lib [NoUba]
+  ￕ�ￔￚﾴﾴﾽﾨ﾿￢ C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/UnrealEditor-experiment.lib ﾺￍﾶￔￏ￳ C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/UnrealEditor-experiment.exp
+[5/6] Link [x64] UnrealEditor-experiment.dll [NoUba]
+[6/6] WriteMetadata experimentEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 28.16 seconds
+Output binary: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Binaries\Win64\UnrealEditor.exe
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +2.545 Main
+   0.177          [  0.177]  +1.411 Apply XmlConfig
+   1.669          [  1.669]  +0.354 AddTelemetry
+   2.024          [  2.024]  +0.205 <unknown>
+   2.229          [  2.229]  +0.315 RegisterPlatforms
+[  2.625]  +0.083 ParseCommandLine
+[  2.708]  +0.508 <unknown>
+[  3.217]  +0.512 LoadMakefile
+   3.258          [  0.040]  +0.427 EngineRulesPlugins
+   3.692          [  0.475]  +0.029 EngineRulesFetchDirs
+[  3.743]  +0.887 EngineRulesAssembly
+   3.794          [  0.051]  +0.000 FindPlugins
+   3.809          [  0.066]  +0.172 MakefileValid
+   3.982          [  0.239]  +0.648 <unknown>
+[  4.631]  +0.884 ProgramRulesAssembly
+[  5.515]  +0.055 ProjectRulesAssembly
+[  5.571]  +0.616 CreateTargetRules
+[  6.187]  +0.273 <unknown>
+[  6.461]  +0.023 CppDependencyCache
+[  6.517]  +0.164 experimentEditor Win64 Development
+[  6.684] +11.836 UHTWait
+   6.687          [  0.003]  +0.615 UHTManifest
+   7.303          [  0.618] +11.209 UHT
+  18.518          [ 11.834]  +0.040 UHTTimestamps
+[ 18.566]  +0.019 CppDependencyCache
+[ 18.586]  +0.183 Preparing ActionGraph
+  18.615          [  0.028]  +0.012 LinkActions
+  18.627             0.040          [  0.012]  +0.000 DetectActionGraphCycles
+  18.629          [  0.042]  +0.000 GatherPrerequisiteActions
+  18.633          [  0.046]  +0.000 CppDependencyCacheWait
+  18.634          [  0.048]  +0.109 GatherOutdatedActions
+  18.751          [  0.164]  +0.007 LinkActions
+  18.751             0.164          [  0.000]  +0.000 DetectActionGraphCycles
+  18.760          [  0.173]  +0.004 DeleteOutdatedProducedItems
+  18.765          [  0.178]  +0.002 SaveActionHistory
+  18.769          [  0.182]  +0.000 CreateDirectoriesForProducedItems
+[ 18.801]  +0.310 GarbageCollect
+[ 19.111] +27.851 <unknown>
+[ 46.963]  +0.000 Deploying targets
+[ 46.966]  +0.000 DisconnectCache
+[ 46.972]  +0.001 SaveCasTable
+[ 46.981]  +0.232 Saving caches
+[ 47.215]  +0.007 TelemetryService.FlushEvents
+[ 47.225]
+
+Result: Succeeded
+Total execution time: 47.23 seconds

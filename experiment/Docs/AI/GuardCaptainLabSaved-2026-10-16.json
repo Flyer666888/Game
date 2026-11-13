@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-16",
+  "task": "ENEMY-02B",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabGuardCaptain",
+  "source_map_preserved": "/Game/ReversedScale/Maps/L_CombatLabMixed",
+  "game_mode": "/Game/ReversedScale/Player/BP_CombatLabSwordDuelGameMode.BP_CombatLabSwordDuelGameMode_C",
+  "player_starts": [
+    "PlayerStart_CombatLabLite"
+  ],
+  "prefab": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyGuardCaptain.BP_EnemyGuardCaptain",
+  "captain": {
+    "class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyGuardCaptain.BP_EnemyGuardCaptain_C",
+    "refs": {
+      "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+      "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+      "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+      "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+      "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+      "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+      "enemy_attack_definition": "/Game/ReversedScale/Combat/DA_EnemyGuardCaptainHeavy.DA_EnemyGuardCaptainHeavy"
+    },
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+    "materials": [
+      "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Combat.M_WuxiaMale_Combat",
+      "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Skin_Combat.M_WuxiaMale_Skin_Combat"
+    ],
+    "grip_location": [
+      -1.875828504562378,
+      -8.074670791625977,
+      -5.046912670135498
+    ],
+    "grip_quaternion": [
+      0.8239122869325681,
+      -0.5253214318833186,
+      -0.16701308975309817,
+      0.13157721876042566
+    ],
+    "grip_morph": "EnemyGrip_R",
+    "grip_weight": 1.0
+  },
+  "attack_definition": "/Game/ReversedScale/Combat/DA_EnemyGuardCaptainHeavy.DA_EnemyGuardCaptainHeavy",
+  "captain_health": 30,
+  "captain_guard": 40,
+  "melee_guard_cost": 20,
+  "captain_damage": 20,
+  "player_melee_damage": 10,
+  "counter_window_seconds": 1.2,
+  "timings": {
+    "telegraph_seconds": 1.2000000178813934,
+    "attack_seconds": 0.3450000062584877,
+    "recover_seconds": 1.9549999237060547
+  },
+  "defensive_hold_seconds": 1.4,
+  "defense": "Finite forward ward; existing Guard/Resolver routes; side and legs remain open; no perfect reflection.",
+  "animation": "Existing sword animation at 2/3 speed; every brain stage scaled together, original notifies unchanged.",
+  "waves": [
+    {
+      "asset": "/Game/ReversedScale/Encounters/DA_WaveGuardCaptain01.DA_WaveGuardCaptain01",
+      "planned_count": 1,
+      "entries": [
+        {
+          "entry_id": "GuardCaptain",
+          "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyGuardCaptain.BP_EnemyGuardCaptain_C"
+        }
+      ]
+    },
+    {
+      "asset": "/Game/ReversedScale/Encounters/DA_WaveGuardCaptain02.DA_WaveGuardCaptain02",
+      "planned_count": 2,
+      "entries": [
+        {
+          "entry_id": "GuardCaptain",
+          "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyGuardCaptain.BP_EnemyGuardCaptain_C"
+        },
+        {
+          "entry_id": "TalismanSupport",
+          "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C"
+        }
+      ]
+    }
+  ],
+  "authored_wave_counts": [
+    1,
+    2
+  ],
+  "authored_total_planned_count": 3,
+  "maximum_alive": 2,
+  "show_ready_previews": true,
+  "auto_start": false,
+  "controller": {
+    "actor": "/Game/ReversedScale/Maps/L_CombatLabGuardCaptain.L_CombatLabGuardCaptain:PersistentLevel.NLEncounterController_0",
+    "level_id": "Level.CombatLab.GuardCaptain",
+    "encounter_id": "Encounter.GuardCaptain",
+    "content_revision": "GuardCaptain.ENEMY02B.1",
+    "checkpoint_enabled": true,
+    "state_before_start": "<NLEncounterState.READY: 0>"
+  },
+  "spawn_points": [
+    {
+      "id": "CaptainFront",
+      "capsule_position_cm": [
+        430.0,
+        -170.0,
+        90.4
+      ]
+    },
+    {
+      "id": "CaptainSupport",
+      "capsule_position_cm": [
+        900.0,
+        180.0,
+        90.4
+      ]
+    }
+  ],
+  "preserved_sword": {
+    "class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+    "refs": {
+      "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+      "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+      "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+      "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+      "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+      "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+      "enemy_attack_definition": null
+    },
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+    "materials": [
+      "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Combat.M_WuxiaMale_Combat",
+      "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Skin_Combat.M_WuxiaMale_Skin_Combat"
+    ],
+    "grip_location": [
+      -1.875828504562378,
+      -8.074670791625977,
+      -5.046912670135498
+    ],
+    "grip_quaternion": [
+      0.8239122869325681,
+      -0.5253214318833186,
+      -0.16701308975309817,
+      0.13157721876042566
+    ],
+    "grip_morph": "EnemyGrip_R",
+    "grip_weight": 1.0
+  },
+  "preserved_caster": {
+    "class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C",
+    "refs": {
+      "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+      "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+      "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+      "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman.Wuxia_Cast_Talisman",
+      "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+      "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+      "enemy_attack_definition": "/Game/ReversedScale/Combat/DA_EnemyTalisman.DA_EnemyTalisman"
+    },
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+    "materials": [
+      "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Combat.M_WuxiaMale_Combat",
+      "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Skin_Combat.M_WuxiaMale_Skin_Combat"
+    ],
+    "grip_location": [
+      -1.875828504562378,
+      -8.074670791625977,
+      -5.046912670135498
+    ],
+    "grip_quaternion": [
+      0.8239122869325681,
+      -0.5253214318833186,
+      -0.16701308975309817,
+      0.13157721876042566
+    ],
+    "grip_morph": "EnemyGrip_R",
+    "grip_weight": 0.0
+  },
+  "navigation_bounds": [
+    {
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabGuardCaptain.L_CombatLabGuardCaptain:PersistentLevel.NavMeshBoundsVolume_0",
+      "origin_cm": [
+        300.0,
+        0.0,
+        100.0
+      ],
+      "extent_cm": [
+        1500.0,
+        1200.0,
+        300.0
+      ]
+    }
+  ],
+  "markers": [
+    "/Game/ReversedScale/Maps/L_CombatLabGuardCaptain.L_CombatLabGuardCaptain:PersistentLevel.StaticMeshActor_0",
+    "/Game/ReversedScale/Maps/L_CombatLabGuardCaptain.L_CombatLabGuardCaptain:PersistentLevel.StaticMeshActor_1"
+  ],
+  "removed_inherited_actors": [
+    "Encounter_MixedDisciples_ENEMY02A",
+    "MixedSword01_BirthArea",
+    "MixedSword02_BirthArea",
+    "MixedSword03_BirthArea",
+    "MixedCaster01_BirthArea",
+    "MixedCaster02_BirthArea"
+  ],
+  "scope": "Independent desktop map and captain assets saved. Current VR map unchanged. No gameplay inputs, tests or checkpoint disk exercise."
+}

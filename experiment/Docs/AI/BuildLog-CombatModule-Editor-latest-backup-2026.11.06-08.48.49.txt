@@ -1,0 +1,86 @@
+Log started at 11/06/2026 16:48:49 (2026-11-06T08:48:49Z)
+Resolved project argument D:\game design\experiment\Saved\BuildRuntime\CombatProject\experiment.uproject to D:\game design\experiment\Saved\BuildRuntime\CombatProject\experiment.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: D:\game design\experiment\Saved\BuildRuntime\CombatProject\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\21475\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: D:\game design\experiment\Saved\BuildRuntime\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest.txt
+Deleting old log file: D:\game design\experiment\Saved\BuildRuntime\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest-backup-2026.11.04-13.23.17.txt
+Deleting old log file: D:\game design\experiment\Saved\BuildRuntime\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest-backup-2026.11.04-13.23.17.json
+
+Setting temp directory to 'C:\Users\21475\AppData\Local\Temp\UnrealBuildTool\ec13e8a6'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: "D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" experimentEditor Win64 Development "-Project=D:\game design\experiment\Saved\BuildRuntime\CombatProject\experiment.uproject" -NoHotReloadFromIDE -NoUBA -MaxParallelActions=4 -WaitMutex "-Log=D:\game design\experiment\Saved\BuildRuntime\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest.txt"
+Executing up to 4 actions based on MaxProcessorCount override
+Skipping D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Skipping D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Building UnrealEditor - experimentEditor - Win64 - Development
+Generated code is up to date.
+Target is up to date
+Using Unreal Build Accelerator local executor to run 0 action(s)
+Total time in Unreal Build Accelerator local executor: 0.11 seconds
+Output binary: D:\game design\experiment\Saved\BuildRuntime\UE58\Engine\Binaries\Win64\UnrealEditor.exe
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.239 Main
+   0.009          [  0.009]  +0.098 Apply XmlConfig
+   0.114          [  0.114]  +0.032 AddTelemetry
+   0.156          [  0.156]  +0.082 RegisterPlatforms
+[  0.305]  +0.023 ParseCommandLine
+[  0.328]  +0.278 <unknown>
+[  0.606]  +0.077 LoadMakefile
+   0.620          [  0.014]  +0.024 EngineRulesPlugins
+   0.646          [  0.040]  +0.003 EngineRulesFetchDirs
+   0.656          [  0.050]  +0.724 EngineRulesAssembly
+   0.688             0.081          [  0.031]  +0.000 FindPlugins
+   0.693             0.087          [  0.036]  +0.126 MakefileValid
+   0.819             0.213          [  0.162]  +0.561 <unknown>
+[  0.683]  +0.697 <unknown>
+[  1.381]  +0.784 ProgramRulesAssembly
+[  2.165]  +0.022 ProjectRulesAssembly
+[  2.188]  +0.158 CreateTargetRules
+[  2.382]  +0.008 CppDependencyCache
+[  2.399]  +0.051 experimentEditor Win64 Development
+[  2.452]  +0.097 UHTWait
+   2.452          [  0.000]  +0.096 UHTManifest
+   2.549          [  0.096]  +0.011 UHTTimestamps
+[  2.563]  +0.008 CppDependencyCache
+[  2.572]  +0.060 Preparing ActionGraph
+   2.581          [  0.008]  +0.003 LinkActions
+   2.584             0.012          [  0.003]  +0.000 DetectActionGraphCycles
+   2.585          [  0.012]  +0.000 GatherPrerequisiteActions
+   2.586          [  0.013]  +0.000 CppDependencyCacheWait
+   2.586          [  0.014]  +0.039 GatherOutdatedActions
+   2.628          [  0.056]  +0.003 LinkActions
+   2.628             0.056          [  0.000]  +0.000 DetectActionGraphCycles
+   2.632          [  0.059]  +0.000 DeleteOutdatedProducedItems
+   2.632          [  0.059]  +0.000 SaveActionHistory
+   2.633          [  0.060]  +0.000 CreateDirectoriesForProducedItems
+[  2.636]  +0.103 GarbageCollect
+[  2.742]  +0.000 Deploying targets
+[  2.742]  +0.000 DisconnectCache
+[  2.746]  +0.000 SaveCasTable
+[  2.748]  +0.010 Saving caches
+[  2.759]  +0.002 TelemetryService.FlushEvents
+[  2.763]
+
+Result: Succeeded
+Total execution time: 2.76 seconds

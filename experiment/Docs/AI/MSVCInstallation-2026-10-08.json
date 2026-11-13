@@ -1,0 +1,30 @@
+{
+  "Date": "2026-10-08",
+  "Status": "InstalledAndUBTValidated",
+  "InstallationPath": "D:\\UEBuildTools2022",
+  "VisualStudioVersion": "17.14.37710.0",
+  "MSVCToolchainVersion": "14.44.35229",
+  "CompilerVersion": "19.44.35229.0",
+  "ToolchainFamilyDirectory": "14.44.35207",
+  "CompilerPath": "D:\\UEBuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+  "ATLInstalled": true,
+  "IsComplete": true,
+  "IsRebootRequired": false,
+  "OfficialInstaller": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
+  "InstallerSignature": "Valid; Microsoft Corporation",
+  "Components": [
+    "Microsoft.VisualStudio.Component.VC.14.44.17.14.x86.x64",
+    "Microsoft.VisualStudio.Component.VC.14.44.17.14.ATL"
+  ],
+  "UBTValidation": {
+    "GameModuleCompiled": false,
+    "Target": "ToolchainProbeEditor Win64 Development",
+    "ExitCode": 0,
+    "Result": "Succeeded",
+    "Mode": "Build -SkipBuild",
+    "SelectedCompiler": "D:\\UEBuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+    "Engine": "5.8.2",
+    "Log": "Docs/AI/MSVC-UBT-Validation-2026-10-08.txt",
+    "WindowsSDK": "10.0.22621.0"
+  }
+}

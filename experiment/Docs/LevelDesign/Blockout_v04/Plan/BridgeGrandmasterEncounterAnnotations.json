@@ -1,0 +1,197 @@
+{
+  "level_1": {
+    "gate_outside": 2,
+    "gate_inside": 6,
+    "martial_court": 36,
+    "exit_encounter": 6,
+    "grandmasters": 0,
+    "total": 50
+  },
+  "level_2": {
+    "establish": 8,
+    "interrupt": 10,
+    "siege": 12,
+    "unseal": 14,
+    "left_entry_total": 22,
+    "right_entry_total": 22,
+    "grandmasters": 0,
+    "total": 44
+  },
+  "level_3": {
+    "bridge_mobs": 4,
+    "bridge_lower_swordsmen": 2,
+    "bridge_upper_talisman": 2,
+    "grandmasters": 4,
+    "bridge_total": 8,
+    "boss": 1,
+    "phases": 3,
+    "boss_arena_additional_mobs": 0,
+    "total": 9
+  },
+  "rest_nodes": {
+    "02": 0,
+    "04": 0,
+    "summit_entry_132m": 0,
+    "08": 0
+  },
+  "overall_total": 103,
+  "status": "Proposed cumulative spawn budget; not implemented encounter configuration",
+  "active_enemy_test_budget": 12,
+  "existing_static_martial_silhouettes": 36,
+  "grandmasters": [
+    {
+      "id": "宗1",
+      "name": "问剑宗师",
+      "location": "御风桥 · 起桥台 +72m",
+      "position": [
+        -42,
+        302,
+        72
+      ],
+      "drop": "剑印",
+      "order": "守丹结束出院后，进入起桥战台",
+      "combat": "慢节奏剑招；格挡后反击",
+      "level": 3
+    },
+    {
+      "id": "宗2",
+      "name": "镇符宗师",
+      "location": "御风桥 · 下桥台 +88m",
+      "position": [
+        -69,
+        347.5,
+        88
+      ],
+      "drop": "符印",
+      "order": "此台 2 名持剑弟子清完后登场",
+      "combat": "错拍符击；剑气抓反击窗口",
+      "level": 3
+    },
+    {
+      "id": "宗3",
+      "name": "丹火宗师",
+      "location": "御风桥 · 中桥台 +104m",
+      "position": [
+        -106.5,
+        407.5,
+        104
+      ],
+      "drop": "丹印",
+      "order": "此台 2 名御符弟子清完后登场",
+      "combat": "丹火蓄力；剑气击阵眼打断",
+      "level": 3
+    },
+    {
+      "id": "宗4",
+      "name": "御风宗师",
+      "location": "御风桥 · 登顶台 +122m",
+      "position": [
+        -151.5,
+        459.5,
+        122
+      ],
+      "drop": "风印",
+      "order": "桥尾单独登场；获胜后前往峰顶",
+      "combat": "短距换位后停顿；远距剑气反击",
+      "level": 3
+    }
+  ],
+  "quest_items": {
+    "individual_drops": [
+      "剑印",
+      "符印",
+      "丹印",
+      "风印"
+    ],
+    "combined_item": "破界印",
+    "fixed_drop": true,
+    "auto_collect": true,
+    "purpose": "解除Boss开战结界",
+    "preserved_on_checkpoint_retry": true,
+    "consumed": false,
+    "save_progress_on_grandmaster_defeat": true,
+    "defeated_grandmasters_respawn": false,
+    "duplicate_rewards": false
+  },
+  "grandmaster_region": "All four grandmasters belong to Yufeng Bridge; none in A, B or C courtyards",
+  "planned_bridge_arenas": [
+    {
+      "id": "宗1",
+      "center_m": [
+        -42,
+        302,
+        72
+      ],
+      "size_m": [
+        16,
+        14
+      ],
+      "combat_clearance_m": [
+        12,
+        12
+      ],
+      "type": "new",
+      "status": "proposal; stairs and rails need reconnecting; not applied to V09"
+    },
+    {
+      "id": "宗2",
+      "center_m": [
+        -69,
+        347.5,
+        88
+      ],
+      "size_m": [
+        16,
+        14
+      ],
+      "combat_clearance_m": [
+        12,
+        12
+      ],
+      "type": "expand",
+      "status": "proposal; stairs and rails need reconnecting; not applied to V09"
+    },
+    {
+      "id": "宗3",
+      "center_m": [
+        -106.5,
+        407.5,
+        104
+      ],
+      "size_m": [
+        16,
+        14
+      ],
+      "combat_clearance_m": [
+        12,
+        12
+      ],
+      "type": "expand",
+      "status": "proposal; stairs and rails need reconnecting; not applied to V09"
+    },
+    {
+      "id": "宗4",
+      "center_m": [
+        -151.5,
+        459.5,
+        122
+      ],
+      "size_m": [
+        16,
+        14
+      ],
+      "combat_clearance_m": [
+        12,
+        12
+      ],
+      "type": "expand",
+      "status": "proposal; stairs and rails need reconnecting; not applied to V09"
+    }
+  ],
+  "rest_rule": "Each defeated grandmaster platform becomes a safe rest point. Final pre-boss rest is at summit entry +132m, outside the proposed encounter gate.",
+  "summit_entry_rest_position_m": [
+    -168,
+    489,
+    132
+  ]
+}

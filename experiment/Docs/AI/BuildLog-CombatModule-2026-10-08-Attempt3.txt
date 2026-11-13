@@ -1,0 +1,160 @@
+Log started at 10/08/2026 20:44:11 (2026-10-08T12:44:11Z)
+Resolved project argument C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest.txt
+
+Setting temp directory to 'C:\Users\21475\AppData\Local\Temp\UnrealBuildTool\3983cc6c'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll experimentEditor Win64 Development -Project=C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject -NoHotReloadFromIDE -NoUBA -MaxParallelActions=4 -WaitMutex -Log=C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest.txt
+Running from a path with a long directory name ("C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58" = 89 characters). Root paths shorter than 50 characters are recommended to avoid exceeding maximum path lengths on Windows.
+Executing up to 4 actions based on MaxProcessorCount override
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Skipping C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Building UnrealEditor - experimentEditor - Win64 - Development
+UnrealHeaderTool needs to run because SavedTimestamp is older than HeaderFileTimestamp (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Public\AI\NLEnemyBrainComponent.h) for module experiment
+Parsing headers for experimentEditor
+  Running Internal UnrealHeaderTool C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\Win64\experimentEditor\experimentEditor.uhtmanifest -WarningsAsErrors -installed
+UHT compiled-in object format Default
+Step - Parse Headers
+Reading engine version from file: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\Launch\Resources\Version.h
+Got engine version 5.8.2
+Step - Populate symbol table
+Step - Exports
+       Exporter Stats skipped
+       Exporter Json skipped
+       Running exporter CodeGen
+UHT processed experimentEditor in 3.1938541 seconds (0 generated files written)
+Building experimentEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35229 toolchain (D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+=================================
+Using Unreal Build Accelerator local executor to run 9 action(s)
+  CPU 24 physical cores, 24 logical cores
+  Memory 31.73 GB physical, 18.47 GB/33.73 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 4007641949 used. Action: Compile [x64] Module.experiment.gen.cpp ()
+Cache bucket 2117416512 used. Action: Compile [x64] NLAttackDirectorSubsystem.cpp ()
+Cache bucket 416513229 used. Action: Link [x64] UnrealEditor-experiment.dll ()
+All processes queued
+[1/9] Compile [x64] NLCombatIdentityComponent.cpp [NoUba]
+[2/9] Compile [x64] NLAttackDirectorSubsystem.cpp [NoUba]
+[3/9] Compile [x64] NLCombatResolverSubsystem.cpp [NoUba]
+[4/9] Compile [x64] Module.experiment.gen.cpp [NoUba]
+[5/9] Compile [x64] NLEnemyBrainComponent.cpp [NoUba]
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(275,82): error C2039: "Moving": ﾲﾻￊￇ "EPathFollowingStatus" ﾵￄﾳ￉ￔﾱ
+	if (!bMoveRequestActive || Controller->GetMoveStatus() != EPathFollowingStatus::Moving)
+	                                                                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\AIModule\Classes\AIController.h(33,11): note: ﾲￎﾼ￻ﾡﾰEPathFollowingStatusﾡﾱﾵￄ￉￹ￃ￷
+namespace EPathFollowingStatus { enum Type : int; }
+          ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(275,82): error C2065: ﾡﾰMovingﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+	if (!bMoveRequestActive || Controller->GetMoveStatus() != EPathFollowingStatus::Moving)
+	                                                                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(279,46): error C2039: "Failed": ﾲﾻￊￇ "EPathFollowingRequestResult" ﾵￄﾳ￉ￔﾱ
+		if (Result == EPathFollowingRequestResult::Failed)
+		                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\AIModule\Classes\AIController.h(31,11): note: ﾲￎﾼ￻ﾡﾰEPathFollowingRequestResultﾡﾱﾵￄ￉￹ￃ￷
+namespace EPathFollowingRequestResult {	enum Type : int; }
+          ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(279,46): error C2065: ﾡﾰFailedﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		if (Result == EPathFollowingRequestResult::Failed)
+		                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(284,46): error C2039: "AlreadyAtGoal": ﾲﾻￊￇ "EPathFollowingRequestResult" ﾵￄﾳ￉ￔﾱ
+		if (Result == EPathFollowingRequestResult::AlreadyAtGoal)
+		                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\AIModule\Classes\AIController.h(31,11): note: ﾲￎﾼ￻ﾡﾰEPathFollowingRequestResultﾡﾱﾵￄ￉￹ￃ￷
+namespace EPathFollowingRequestResult {	enum Type : int; }
+          ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(284,46): error C2065: ﾡﾰAlreadyAtGoalﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		if (Result == EPathFollowingRequestResult::AlreadyAtGoal)
+		                                           ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(371,35): error C2039: "Failed": ﾲﾻￊￇ "EPathFollowingRequestResult" ﾵￄﾳ￉ￔﾱ
+		!= EPathFollowingRequestResult::Failed;
+		                                ^
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\Runtime\AIModule\Classes\AIController.h(31,11): note: ﾲￎﾼ￻ﾡﾰEPathFollowingRequestResultﾡﾱﾵￄ￉￹ￃ￷
+namespace EPathFollowingRequestResult {	enum Type : int; }
+          ^
+ Compile [x64] NLEnemyBrainComponent.cpp [NoUba]: Exited with error code 2 . The build will fail.
+ Compile [x64] NLEnemyBrainComponent.cpp [NoUba]: WorkingDirectory C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source
+ Compile [x64] NLEnemyBrainComponent.cpp [NoUba]: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe @"C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/NLEnemyBrainComponent.cpp.obj.rsp" 
+C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Source\experiment\Private\AI\NLEnemyBrainComponent.cpp(371,35): error C2065: ﾡﾰFailedﾡﾱ: ￎﾴ￉￹ￃ￷ﾵￄﾱ￪ￊﾶﾷ￻
+		!= EPathFollowingRequestResult::Failed;
+		                                ^
+[6/9] Compile [x64] NLEnemyCharacter.cpp [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 10.91 seconds
+CompilationResultException: OtherCompilationError
+   at UnrealBuildTool.ActionGraph.InternalExecuteActions(ActionExecutor Executor, List`1 ActionsToExecute, ILogger Logger)
+   at UnrealBuildTool.ActionGraph.ExecuteActionsAsync(BuildConfiguration BuildConfiguration, List`1 ActionsToExecute, List`1 TargetDescriptors, ILogger Logger, ActionExecutor executor)
+   at UnrealBuildTool.BuildMode.BuildAsync(List`1 Targets, BuildConfiguration BuildConfiguration, BuildOptions Options, FileReference WriteOutdatedActionsFile, CppDependencyCache cppDependencyCache, ILogger Logger, String ActionTypeFilter, ActionExecutor executor)
+   at UnrealBuildTool.BuildMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+   at UnrealBuildTool.BuildMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.667 Main
+   0.039          [  0.039]  +0.203 Apply XmlConfig
+   0.266          [  0.265]  +0.120 AddTelemetry
+   0.420          [  0.420]  +0.247 RegisterPlatforms
+[  0.703]  +0.074 ParseCommandLine
+[  0.882]  +0.214 LoadMakefile
+   0.910          [  0.027]  +0.068 EngineRulesPlugins
+   0.985          [  0.102]  +0.029 EngineRulesFetchDirs
+   1.034          [  0.152]  +0.021 EngineRulesAssembly
+   1.056          [  0.174]  +0.003 ProgramRulesAssembly
+   1.059          [  0.177]  +0.007 ProjectRulesAssembly
+   1.067          [  0.185]  +0.549 CreateTargetRules
+   1.115             0.233          [  0.048]  +0.000 FindPlugins
+   1.145             0.262          [  0.077]  +0.169 MakefileValid
+   1.314             0.431          [  0.246]  +0.302 <unknown>
+[  1.096]  +0.639 <unknown>
+[  1.735]  +0.007 CppDependencyCache
+[  1.777]  +0.116 experimentEditor Win64 Development
+[  1.896]  +3.605 UHTWait
+   1.899          [  0.002]  +0.358 UHTManifest
+   2.257          [  0.360]  +3.204 UHT
+[  5.540]  +0.033 UHTTimestamps
+   5.566          [  0.025]  +0.001 CppDependencyCache
+   5.567          [  0.026]  +0.151 Preparing ActionGraph
+   5.594             0.053          [  0.026]  +0.012 LinkActions
+   5.607             0.067          [  0.040]  +0.000 GatherPrerequisiteActions
+   5.610             0.070          [  0.043]  +0.000 CppDependencyCacheWait
+   5.612             0.071          [  0.044]  +0.086 GatherOutdatedActions
+   5.705             0.164          [  0.137]  +0.006 LinkActions
+   5.713             0.173          [  0.146]  +0.001 DeleteOutdatedProducedItems
+   5.714             0.174          [  0.147]  +0.002 SaveActionHistory
+   5.718             0.177          [  0.151]  +0.000 CreateDirectoriesForProducedItems
+[  5.748]  +0.285 GarbageCollect
+[  6.033] +10.629 <unknown>
+[ 16.663]  +0.000 DisconnectCache
+[ 16.669]  +0.001 SaveCasTable
+[ 16.678]  +0.241 Saving caches
+[ 16.950]  +0.007 TelemetryService.FlushEvents
+[ 16.959]
+
+Result: Failed (OtherCompilationError)
+Total execution time: 16.96 seconds

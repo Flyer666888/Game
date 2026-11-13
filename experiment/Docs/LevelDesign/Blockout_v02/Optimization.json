@@ -1,0 +1,283 @@
+{
+  "removed_terrain": 0,
+  "removed_roof_parts": 0,
+  "new_meshes": [
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_ShanmenHipRoof_cde0fd2",
+      "triangles": 392,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_GateSideHipRoof_0aeb885",
+      "triangles": 392,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_GateSideHipRoof_0aeb885",
+      "triangles": 392,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_WestMartialHipRoof_452d2c1",
+      "triangles": 392,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_EastMartialHipRoof_452d2c1",
+      "triangles": 392,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_AlchemyHipRoof_64e83e3",
+      "triangles": 392,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_WestAlchemyWorkshop_a63e035",
+      "triangles": 392,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_EastAlchemyWorkshop_a63e035",
+      "triangles": 392,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_FurnaceShoulderBelly_92edfed",
+      "triangles": 768,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_FurnaceBroadRim_7588074",
+      "triangles": 384,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_FurnaceLid_7aa3132",
+      "triangles": 672,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_FurnaceBelt_b3aa912",
+      "triangles": 192,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_FurnaceEar_a3b2987",
+      "triangles": 768,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_StoneArch_Ridge_to_Node06_8b1f35f",
+      "triangles": 260,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_StoneArch_Node06_to_Upper_4c2f6e1",
+      "triangles": 260,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_PineTwistedTrunk_d554267",
+      "triangles": 144,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_PineBranch0_349ea69",
+      "triangles": 72,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_PineBranch1_e4c6ea2",
+      "triangles": 72,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_PineBranch2_f60cf78",
+      "triangles": 72,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_PineCloudCrown_8055ffc",
+      "triangles": 280,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_SoftCloudMass_066920e",
+      "triangles": 280,
+      "collision": false
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_TerrainV02_A_Faceted_161d334",
+      "triangles": 128,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_TerrainV02_B_Faceted_60e8bd3",
+      "triangles": 140,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_TerrainV02_C_Faceted_560e040",
+      "triangles": 116,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_TerrainV02_D_Faceted_14aa9d1",
+      "triangles": 116,
+      "collision": true
+    },
+    {
+      "path": "/Game/ReversedScale/Blockout/V07/Meshes/SM_TerrainV02_Ridge_Faceted_facc7b8",
+      "triangles": 1788,
+      "collision": true
+    }
+  ],
+  "architecture": [
+    {
+      "name": "ShanmenHipRoof",
+      "center": [
+        0,
+        -2.5,
+        12.2
+      ],
+      "size": [
+        34,
+        12
+      ],
+      "height": 3.2
+    },
+    {
+      "name": "GateSideHipRoof",
+      "center": [
+        -25,
+        3,
+        4.1
+      ],
+      "size": [
+        10,
+        15
+      ],
+      "height": 1.7
+    },
+    {
+      "name": "GateSideHipRoof",
+      "center": [
+        25,
+        3,
+        4.1
+      ],
+      "size": [
+        10,
+        15
+      ],
+      "height": 1.7
+    },
+    {
+      "name": "WestMartialHipRoof",
+      "center": [
+        25,
+        145,
+        32.3
+      ],
+      "size": [
+        10,
+        25
+      ],
+      "height": 1.9
+    },
+    {
+      "name": "EastMartialHipRoof",
+      "center": [
+        -25,
+        151,
+        32.3
+      ],
+      "size": [
+        10,
+        25
+      ],
+      "height": 1.9
+    },
+    {
+      "name": "AlchemyHipRoof",
+      "center": [
+        0,
+        315,
+        85.2
+      ],
+      "size": [
+        44,
+        20
+      ],
+      "height": 3.8
+    },
+    {
+      "name": "WestAlchemyWorkshop",
+      "center": [
+        27,
+        316,
+        76
+      ],
+      "size": [
+        9,
+        17
+      ],
+      "height": 1.6
+    },
+    {
+      "name": "EastAlchemyWorkshop",
+      "center": [
+        -27,
+        323,
+        76
+      ],
+      "size": [
+        9,
+        17
+      ],
+      "height": 1.6
+    }
+  ],
+  "bridgehead": {
+    "name": "SummitEntryBridgehead",
+    "center": [
+      -162.6455329147439,
+      486.3594935548326,
+      132
+    ],
+    "size": [
+      3,
+      8
+    ],
+    "rotation_yaw": 113.47833982974582,
+    "points": [
+      [
+        -165.716772393789,
+        483.39006801066506
+      ],
+      [
+        -158.3790863740929,
+        486.5772868416141
+      ],
+      [
+        -159.57429343569882,
+        489.3289190990002
+      ],
+      [
+        -166.9119794553949,
+        486.1417002680511
+      ]
+    ],
+    "kind": "transition",
+    "start": [
+      -162.04792938394095,
+      484.9836774261396,
+      132
+    ],
+    "inward": [
+      -0.3984023538686347,
+      0.9172107524620126
+    ]
+  }
+}

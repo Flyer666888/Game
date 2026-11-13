@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-14",
+  "success": false,
+  "scope": "Shield surface assets only; no gameplay or tests.",
+  "error": "Traceback (most recent call last):\n  File \"C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Saved/Scripts/author_shield_surface_editor.py\", line 27, in _surface_author_tick\n    result = {'date': '2026-10-14', 'success': False,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"..\\..\\..\\..\\CombatProject\\Saved\\Scripts\\author_shield_realistic_materials.py\", line 254, in <module>\n    local_position, uvs, weights = graph.projection(float(profile.get('tile_size_cm', 12.0)))\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"..\\..\\..\\..\\CombatProject\\Saved\\Scripts\\author_shield_realistic_materials.py\", line 156, in projection\n    connect((world, ''), position, 'Input')\n  File \"..\\..\\..\\..\\CombatProject\\Saved\\Scripts\\author_shield_realistic_materials.py\", line 68, in connect\n    raise RuntimeError('Could not connect ' + node.get_class().get_name() + '.' + pin)\nRuntimeError: Could not connect MaterialExpressionTransformPosition.Input\n"
+}

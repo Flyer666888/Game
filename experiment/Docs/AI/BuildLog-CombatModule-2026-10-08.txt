@@ -1,0 +1,103 @@
+Log started at 10/08/2026 20:45:27 (2026-10-08T12:45:27Z)
+Resolved project argument C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest.txt
+
+Setting temp directory to 'C:\Users\21475\AppData\Local\Temp\UnrealBuildTool\3983cc6c'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll experimentEditor Win64 Development -Project=C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\experiment.uproject -NoHotReloadFromIDE -NoUBA -MaxParallelActions=4 -WaitMutex -Log=C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\CombatProject\Docs\AI\BuildLog-CombatModule-Editor-latest.txt
+Running from a path with a long directory name ("C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58" = 89 characters). Root paths shorter than 50 characters are recommended to avoid exceeding maximum path lengths on Windows.
+Executing up to 4 actions based on MaxProcessorCount override
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Skipping C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Building UnrealEditor - experimentEditor - Win64 - Development
+Generated code is up to date.
+Building experimentEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35229 toolchain (D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 24 physical cores, 24 logical cores
+  Memory 31.73 GB physical, 17.97 GB/33.73 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 2117416512 used. Action: Compile [x64] NLEnemyBrainComponent.cpp ()
+Cache bucket 416513229 used. Action: Link [x64] UnrealEditor-experiment.dll ()
+All processes queued
+[1/4] Compile [x64] NLEnemyBrainComponent.cpp [NoUba]
+[2/4] Link [x64] UnrealEditor-experiment.lib [NoUba]
+  ￕ�ￔￚﾴﾴﾽﾨ﾿￢ C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/UnrealEditor-experiment.lib ﾺￍﾶￔￏ￳ C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/experiment/UnrealEditor-experiment.exp
+[3/4] Link [x64] UnrealEditor-experiment.dll [NoUba]
+[4/4] WriteMetadata experimentEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 10.88 seconds
+Output binary: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\UE58\Engine\Binaries\Win64\UnrealEditor.exe
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.700 Main
+   0.041          [  0.040]  +0.207 Apply XmlConfig
+   0.291          [  0.290]  +0.126 AddTelemetry
+   0.452          [  0.451]  +0.248 RegisterPlatforms
+[  0.736]  +0.068 ParseCommandLine
+[  0.907]  +0.220 LoadMakefile
+   0.935          [  0.028]  +0.066 EngineRulesPlugins
+   1.009          [  0.101]  +0.031 EngineRulesFetchDirs
+   1.061          [  0.153]  +0.022 EngineRulesAssembly
+   1.083          [  0.176]  +0.003 ProgramRulesAssembly
+   1.086          [  0.179]  +0.007 ProjectRulesAssembly
+   1.094          [  0.187]  +0.578 CreateTargetRules
+   1.147             0.240          [  0.053]  +0.000 FindPlugins
+   1.175             0.268          [  0.080]  +0.199 MakefileValid
+   1.375             0.468          [  0.280]  +0.297 <unknown>
+[  1.128]  +0.665 <unknown>
+[  1.793]  +0.010 CppDependencyCache
+[  1.835]  +0.115 experimentEditor Win64 Development
+[  1.954]  +0.050 UHTWait
+   1.956          [  0.002]  +0.045 UHTManifest
+   2.003          [  0.048]  +0.035 UHTTimestamps
+[  2.046]  +0.006 CppDependencyCache
+[  2.052]  +0.151 Preparing ActionGraph
+   2.080          [  0.028]  +0.012 LinkActions
+   2.092             0.040          [  0.011]  +0.000 DetectActionGraphCycles
+   2.094          [  0.041]  +0.000 GatherPrerequisiteActions
+   2.098          [  0.045]  +0.000 CppDependencyCacheWait
+   2.099          [  0.047]  +0.069 GatherOutdatedActions
+   2.176          [  0.124]  +0.018 LinkActions
+   2.176             0.124          [  0.000]  +0.000 DetectActionGraphCycles
+   2.197          [  0.145]  +0.001 DeleteOutdatedProducedItems
+   2.198          [  0.146]  +0.002 SaveActionHistory
+   2.203          [  0.150]  +0.000 CreateDirectoriesForProducedItems
+[  2.235]  +0.184 GarbageCollect
+[  2.419] +10.702 <unknown>
+[ 13.121]  +0.000 Deploying targets
+[ 13.124]  +0.000 DisconnectCache
+[ 13.132]  +0.001 SaveCasTable
+[ 13.139]  +0.204 Saving caches
+[ 13.346]  +0.007 TelemetryService.FlushEvents
+[ 13.355]
+
+Result: Succeeded
+Total execution time: 13.36 seconds

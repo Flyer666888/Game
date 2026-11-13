@@ -1,0 +1,3149 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV09",
+  "saved": true,
+  "time": "2026-10-23T13:30:38.160334",
+  "actor_count": 713,
+  "new_clusters": 4,
+  "new_instances": 79,
+  "records": [
+    {
+      "name": "V09_Terrain_A_ForeShoulder",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_A_ForeShoulder_41d37700d.SM_V09_Terrain_A_ForeShoulder_41d37700d",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          -3.0622490496737456,
+          -31.581460509012963,
+          -73.0
+        ],
+        [
+          60.12817415052198,
+          22.31138130733713,
+          -7.010331860930456
+        ]
+      ]
+    },
+    {
+      "name": "V09_Terrain_B_PineShoulder",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_B_PineShoulder_911a5253f.SM_V09_Terrain_B_PineShoulder_911a5253f",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          4.158928653415009,
+          115.38449084715567,
+          -78.0
+        ],
+        [
+          57.24044885511413,
+          170.16010917962575,
+          19.94540479362969
+        ]
+      ]
+    },
+    {
+      "name": "V09_Terrain_B_WestShoulder",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_B_WestShoulder_c94283aed.SM_V09_Terrain_B_WestShoulder_c94283aed",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          -47.507695022028045,
+          135.5101435226627,
+          -74.0
+        ],
+        [
+          -2.2214854525030843,
+          187.15643965625853,
+          19.999977371712987
+        ]
+      ]
+    },
+    {
+      "name": "V09_Terrain_Threshold_SlantRidge",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_Threshold_SlantRidge_7c9da4093.SM_V09_Terrain_Threshold_SlantRidge_7c9da4093",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          -2.4528171930004303,
+          177.15776610211384,
+          -76.0
+        ],
+        [
+          37.95605585734394,
+          275.7995493776982,
+          35.99782698334213
+        ]
+      ]
+    },
+    {
+      "name": "V09_Terrain_C_RearShoulder",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_C_RearShoulder_03508ac32.SM_V09_Terrain_C_RearShoulder_03508ac32",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          -11.286072993551572,
+          273.21333435243827,
+          -79.0
+        ],
+        [
+          57.48618741428718,
+          330.75694053492845,
+          62.9728191411174
+        ]
+      ]
+    },
+    {
+      "name": "V09_Terrain_C_EntryShoulder",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_C_EntryShoulder_77111eff6.SM_V09_Terrain_C_EntryShoulder_77111eff6",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          -49.358262749988874,
+          264.4988463642613,
+          -72.0
+        ],
+        [
+          -0.6776266539661027,
+          316.666152993674,
+          60.95885553209728
+        ]
+      ]
+    },
+    {
+      "name": "V09_Terrain_Upper_LowerRib",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_Upper_LowerRib_96435b04e.SM_V09_Terrain_Upper_LowerRib_96435b04e",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          -118.00772107270008,
+          320.1478166513359,
+          -78.0
+        ],
+        [
+          -51.10318633935632,
+          399.39503360475476,
+          78.9661090988202
+        ]
+      ]
+    },
+    {
+      "name": "V09_Terrain_Upper_HigherRib",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_Upper_HigherRib_d1a724706.SM_V09_Terrain_Upper_HigherRib_d1a724706",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          -166.67464450661555,
+          386.87929425381276,
+          -80.0
+        ],
+        [
+          -102.5032949206602,
+          466.0569543916171,
+          97.97009880296376
+        ]
+      ]
+    },
+    {
+      "name": "V09_Terrain_Summit_SpreadRoot",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_Summit_SpreadRoot_f9ccca0d3.SM_V09_Terrain_Summit_SpreadRoot_f9ccca0d3",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          -237.78047941151928,
+          454.19825498817426,
+          -85.0
+        ],
+        [
+          -155.7674457304677,
+          533.2461568602321,
+          118.94920989556643
+        ]
+      ]
+    },
+    {
+      "name": "V09_Terrain_Far_LowCrag",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_Far_LowCrag_c8d78de27.SM_V09_Terrain_Far_LowCrag_c8d78de27",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          47.939416403414654,
+          195.73357020388022,
+          -68.0
+        ],
+        [
+          82.75781908022982,
+          241.9284450878784,
+          56.966853143401785
+        ]
+      ]
+    },
+    {
+      "name": "V09_Terrain_Far_SplitCrag",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_Far_SplitCrag_74f33ee81.SM_V09_Terrain_Far_SplitCrag_74f33ee81",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          58.39847703219275,
+          252.92649366491813,
+          -76.0
+        ],
+        [
+          113.00531829351937,
+          308.2017983461288,
+          95.99985677371374
+        ]
+      ]
+    },
+    {
+      "name": "V09_Terrain_Far_LeaningCrag",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_V09_Terrain_Far_LeaningCrag_ee99485c4.SM_V09_Terrain_Far_LeaningCrag_ee99485c4",
+      "triangles": 86,
+      "material": "Cliff",
+      "collision": true,
+      "bounds": [
+        [
+          59.38022219825708,
+          331.33162562916306,
+          -77.0
+        ],
+        [
+          117.43539704186244,
+          396.7338286503578,
+          112.99936531062387
+        ]
+      ]
+    },
+    {
+      "name": "Gate_Efang",
+      "type": "box",
+      "center": [
+        0,
+        -6,
+        9.9
+      ],
+      "size": [
+        24.2,
+        0.62,
+        0.65
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 0
+    },
+    {
+      "name": "Gate_EfangUpperFillet",
+      "type": "box",
+      "center": [
+        0,
+        -6.06,
+        10.35
+      ],
+      "size": [
+        24.7,
+        0.72,
+        0.16
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 0
+    },
+    {
+      "name": "Gate_CornerBrace",
+      "type": "box",
+      "center": [
+        -10.149999999999999,
+        -6.0,
+        8.91
+      ],
+      "size": [
+        3.2742021929013485,
+        0.34,
+        0.38
+      ],
+      "rotation": [
+        27.660738511959515,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 1
+    },
+    {
+      "name": "Gate_BraceSeat",
+      "type": "box",
+      "center": [
+        -11.6,
+        -6,
+        8.15
+      ],
+      "size": [
+        0.85,
+        0.78,
+        0.28
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 1
+    },
+    {
+      "name": "Gate_CornerBrace",
+      "type": "box",
+      "center": [
+        10.149999999999999,
+        -6.0,
+        8.91
+      ],
+      "size": [
+        3.2742021929013485,
+        0.34,
+        0.38
+      ],
+      "rotation": [
+        27.660738511959515,
+        180.0,
+        -6.473045415587633e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 2
+    },
+    {
+      "name": "Gate_BraceSeat",
+      "type": "box",
+      "center": [
+        11.6,
+        -6,
+        8.15
+      ],
+      "size": [
+        0.85,
+        0.78,
+        0.28
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 2
+    },
+    {
+      "name": "Gate_Efang",
+      "type": "box",
+      "center": [
+        0,
+        1,
+        9.9
+      ],
+      "size": [
+        24.2,
+        0.62,
+        0.65
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 3
+    },
+    {
+      "name": "Gate_EfangUpperFillet",
+      "type": "box",
+      "center": [
+        0,
+        0.94,
+        10.35
+      ],
+      "size": [
+        24.7,
+        0.72,
+        0.16
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 3
+    },
+    {
+      "name": "Gate_CornerBrace",
+      "type": "box",
+      "center": [
+        -10.149999999999999,
+        1.0,
+        8.91
+      ],
+      "size": [
+        3.2742021929013485,
+        0.34,
+        0.38
+      ],
+      "rotation": [
+        27.660738511959515,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 4
+    },
+    {
+      "name": "Gate_BraceSeat",
+      "type": "box",
+      "center": [
+        -11.6,
+        1,
+        8.15
+      ],
+      "size": [
+        0.85,
+        0.78,
+        0.28
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 4
+    },
+    {
+      "name": "Gate_CornerBrace",
+      "type": "box",
+      "center": [
+        10.149999999999999,
+        1.0,
+        8.91
+      ],
+      "size": [
+        3.2742021929013485,
+        0.34,
+        0.38
+      ],
+      "rotation": [
+        27.660738511959515,
+        180.0,
+        -6.473045415587633e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 5
+    },
+    {
+      "name": "Gate_BraceSeat",
+      "type": "box",
+      "center": [
+        11.6,
+        1,
+        8.15
+      ],
+      "size": [
+        0.85,
+        0.78,
+        0.28
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 5
+    },
+    {
+      "name": "Gate_LongitudinalEfang",
+      "type": "box",
+      "center": [
+        -12,
+        -2.5,
+        9.9
+      ],
+      "size": [
+        0.62,
+        7.0,
+        0.65
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 6
+    },
+    {
+      "name": "Gate_SideBrace",
+      "type": "box",
+      "center": [
+        -12.0,
+        -5.05,
+        9.0
+      ],
+      "size": [
+        2.3021728866442683,
+        0.27,
+        0.33
+      ],
+      "rotation": [
+        34.380344723844864,
+        90.0,
+        -3.936823849547779e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 7
+    },
+    {
+      "name": "Gate_SideBrace",
+      "type": "box",
+      "center": [
+        -12.0,
+        0.050000000000000044,
+        9.0
+      ],
+      "size": [
+        2.302172886644268,
+        0.27,
+        0.33
+      ],
+      "rotation": [
+        34.38034472384487,
+        -90.0,
+        3.93682384954778e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 8
+    },
+    {
+      "name": "Gate_LongitudinalEfang",
+      "type": "box",
+      "center": [
+        12,
+        -2.5,
+        9.9
+      ],
+      "size": [
+        0.62,
+        7.0,
+        0.65
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 9
+    },
+    {
+      "name": "Gate_SideBrace",
+      "type": "box",
+      "center": [
+        12.0,
+        -5.05,
+        9.0
+      ],
+      "size": [
+        2.3021728866442683,
+        0.27,
+        0.33
+      ],
+      "rotation": [
+        34.380344723844864,
+        90.0,
+        -3.936823849547779e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 10
+    },
+    {
+      "name": "Gate_SideBrace",
+      "type": "box",
+      "center": [
+        12.0,
+        0.050000000000000044,
+        9.0
+      ],
+      "size": [
+        2.302172886644268,
+        0.27,
+        0.33
+      ],
+      "rotation": [
+        34.38034472384487,
+        -90.0,
+        3.93682384954778e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 11
+    },
+    {
+      "name": "Gate_ScreenStoneSill",
+      "type": "box",
+      "center": [
+        -12.8,
+        -2.5,
+        0.7
+      ],
+      "size": [
+        0.65,
+        5.5,
+        1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 0
+    },
+    {
+      "name": "Gate_ScreenStoneSill",
+      "type": "box",
+      "center": [
+        12.8,
+        -2.5,
+        0.7
+      ],
+      "size": [
+        0.65,
+        5.5,
+        1.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 1
+    },
+    {
+      "name": "Gate_OpenSideLattice",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_Gate_OpenSideLattice_cf92f3eb0.SM_Gate_OpenSideLattice_cf92f3eb0",
+      "triangles": 264,
+      "material": "Wood",
+      "collision": true,
+      "bounds": [
+        [
+          -12.89,
+          -5.3100000000000005,
+          1.3999999999999997
+        ],
+        [
+          12.89,
+          0.31000000000000016,
+          7.5200000000000005
+        ]
+      ]
+    },
+    {
+      "name": "Gate_FrontGualuo",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_Gate_FrontGualuo_934964f2d.SM_Gate_FrontGualuo_934964f2d",
+      "triangles": 264,
+      "material": "Trim",
+      "collision": true,
+      "bounds": [
+        [
+          -10.559999999999999,
+          -6.21,
+          8.395
+        ],
+        [
+          10.559999999999999,
+          -6.03,
+          9.645
+        ]
+      ]
+    },
+    {
+      "name": "Gate_TabletBorderTop",
+      "type": "box",
+      "center": [
+        0,
+        -3.6,
+        11.68
+      ],
+      "size": [
+        8.35,
+        0.2,
+        0.17
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 2
+    },
+    {
+      "name": "Gate_TabletBorderBottom",
+      "type": "box",
+      "center": [
+        0,
+        -3.6,
+        10.32
+      ],
+      "size": [
+        8.35,
+        0.2,
+        0.17
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 3
+    },
+    {
+      "name": "Gate_TabletBorderSide",
+      "type": "box",
+      "center": [
+        -4.1,
+        -3.6,
+        11.0
+      ],
+      "size": [
+        0.17,
+        0.2,
+        1.37
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 4
+    },
+    {
+      "name": "Gate_TabletBorderSide",
+      "type": "box",
+      "center": [
+        4.1,
+        -3.6,
+        11.0
+      ],
+      "size": [
+        0.17,
+        0.2,
+        1.37
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 5
+    },
+    {
+      "name": "Martial_StoneLampFoot",
+      "type": "box",
+      "center": [
+        -22.2,
+        156.2,
+        28.16
+      ],
+      "size": [
+        1.0,
+        1.0,
+        0.32
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 6
+    },
+    {
+      "name": "Martial_StoneLampStem",
+      "type": "box",
+      "center": [
+        -22.2,
+        156.2,
+        28.85
+      ],
+      "size": [
+        0.36,
+        0.36,
+        1.1
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 7
+    },
+    {
+      "name": "Martial_StoneLampTray",
+      "type": "box",
+      "center": [
+        -22.2,
+        156.2,
+        29.45
+      ],
+      "size": [
+        0.9,
+        0.9,
+        0.16
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 8
+    },
+    {
+      "name": "Martial_StoneLampBody",
+      "type": "box",
+      "center": [
+        -22.2,
+        156.2,
+        29.85
+      ],
+      "size": [
+        0.52,
+        0.52,
+        0.64
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Warm",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Warm_Solid",
+      "index": 0
+    },
+    {
+      "name": "Martial_StoneLampCrown",
+      "type": "box",
+      "center": [
+        -22.2,
+        156.2,
+        30.23
+      ],
+      "size": [
+        1.0,
+        1.0,
+        0.2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 9
+    },
+    {
+      "name": "Martial_StoneLampFoot",
+      "type": "box",
+      "center": [
+        22.2,
+        156.2,
+        28.16
+      ],
+      "size": [
+        1.0,
+        1.0,
+        0.32
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 10
+    },
+    {
+      "name": "Martial_StoneLampStem",
+      "type": "box",
+      "center": [
+        22.2,
+        156.2,
+        28.85
+      ],
+      "size": [
+        0.36,
+        0.36,
+        1.1
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 11
+    },
+    {
+      "name": "Martial_StoneLampTray",
+      "type": "box",
+      "center": [
+        22.2,
+        156.2,
+        29.45
+      ],
+      "size": [
+        0.9,
+        0.9,
+        0.16
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 12
+    },
+    {
+      "name": "Martial_StoneLampBody",
+      "type": "box",
+      "center": [
+        22.2,
+        156.2,
+        29.85
+      ],
+      "size": [
+        0.52,
+        0.52,
+        0.64
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Warm",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Warm_Solid",
+      "index": 1
+    },
+    {
+      "name": "Martial_StoneLampCrown",
+      "type": "box",
+      "center": [
+        22.2,
+        156.2,
+        30.23
+      ],
+      "size": [
+        1.0,
+        1.0,
+        0.2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 13
+    },
+    {
+      "name": "Alchemy_UpperRoofDrum",
+      "type": "box",
+      "center": [
+        0,
+        318,
+        87.55
+      ],
+      "size": [
+        22,
+        7,
+        3.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 12
+    },
+    {
+      "name": "Alchemy_UpperRoofBelt",
+      "type": "box",
+      "center": [
+        0,
+        318,
+        88.65
+      ],
+      "size": [
+        22.6,
+        7.6,
+        0.24
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 6
+    },
+    {
+      "name": "Alchemy_RearUpperHipRoof",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_Alchemy_RearUpperHipRoof_334eb5566.SM_Alchemy_RearUpperHipRoof_334eb5566",
+      "triangles": 392,
+      "material": "Roof",
+      "collision": true,
+      "bounds": [
+        [
+          -13.0,
+          312.0,
+          88.81
+        ],
+        [
+          13.0,
+          324.0,
+          91.25
+        ]
+      ]
+    },
+    {
+      "name": "Alchemy_UpperRidge",
+      "type": "box",
+      "center": [
+        0.0,
+        318.0,
+        91.37
+      ],
+      "size": [
+        17.42,
+        0.32,
+        0.32
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 7
+    },
+    {
+      "name": "Alchemy_UpperRidgeEnd",
+      "type": "box",
+      "center": [
+        -8.75,
+        318,
+        91.68
+      ],
+      "size": [
+        0.38,
+        0.46,
+        0.6
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 8
+    },
+    {
+      "name": "Alchemy_UpperRidgeHook",
+      "type": "box",
+      "center": [
+        -8.975,
+        318.0,
+        91.785
+      ],
+      "size": [
+        0.5825804665451827,
+        0.24,
+        0.25
+      ],
+      "rotation": [
+        39.427802196036275,
+        180.0,
+        -8.85556685804087e-07
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 14
+    },
+    {
+      "name": "Alchemy_UpperRidgeEnd",
+      "type": "box",
+      "center": [
+        8.75,
+        318,
+        91.68
+      ],
+      "size": [
+        0.38,
+        0.46,
+        0.6
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 9
+    },
+    {
+      "name": "Alchemy_UpperRidgeHook",
+      "type": "box",
+      "center": [
+        8.975,
+        318.0,
+        91.785
+      ],
+      "size": [
+        0.5825804665451827,
+        0.24,
+        0.25
+      ],
+      "rotation": [
+        39.427802196036275,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 15
+    },
+    {
+      "name": "Alchemy_Efang",
+      "type": "box",
+      "center": [
+        0,
+        309.56,
+        83.45
+      ],
+      "size": [
+        34.6,
+        0.72,
+        0.57
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 13
+    },
+    {
+      "name": "Alchemy_EfangFineBand",
+      "type": "box",
+      "center": [
+        0,
+        309.51,
+        83.84
+      ],
+      "size": [
+        35,
+        0.8,
+        0.15
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 10
+    },
+    {
+      "name": "Alchemy_ColumnBrace",
+      "type": "box",
+      "center": [
+        -15.175,
+        309.56,
+        82.405
+      ],
+      "size": [
+        3.8577972989777423,
+        0.3,
+        0.38
+      ],
+      "rotation": [
+        23.042577884896588,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 14
+    },
+    {
+      "name": "Alchemy_BraceShoulder",
+      "type": "box",
+      "center": [
+        -16.95,
+        309.56,
+        81.65
+      ],
+      "size": [
+        0.8,
+        0.8,
+        0.26
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 11
+    },
+    {
+      "name": "Alchemy_ColumnBrace",
+      "type": "box",
+      "center": [
+        15.175,
+        309.56,
+        82.405
+      ],
+      "size": [
+        3.8577972989777423,
+        0.3,
+        0.38
+      ],
+      "rotation": [
+        23.042577884896588,
+        180.0,
+        -5.4576804484022e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 15
+    },
+    {
+      "name": "Alchemy_BraceShoulder",
+      "type": "box",
+      "center": [
+        16.95,
+        309.56,
+        81.65
+      ],
+      "size": [
+        0.8,
+        0.8,
+        0.26
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 12
+    },
+    {
+      "name": "Alchemy_Efang",
+      "type": "box",
+      "center": [
+        0,
+        320.44,
+        83.45
+      ],
+      "size": [
+        34.6,
+        0.72,
+        0.57
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 16
+    },
+    {
+      "name": "Alchemy_EfangFineBand",
+      "type": "box",
+      "center": [
+        0,
+        320.39,
+        83.84
+      ],
+      "size": [
+        35,
+        0.8,
+        0.15
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 13
+    },
+    {
+      "name": "Alchemy_ColumnBrace",
+      "type": "box",
+      "center": [
+        -15.175,
+        320.44,
+        82.405
+      ],
+      "size": [
+        3.8577972989777423,
+        0.3,
+        0.38
+      ],
+      "rotation": [
+        23.042577884896588,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 17
+    },
+    {
+      "name": "Alchemy_BraceShoulder",
+      "type": "box",
+      "center": [
+        -16.95,
+        320.44,
+        81.65
+      ],
+      "size": [
+        0.8,
+        0.8,
+        0.26
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 14
+    },
+    {
+      "name": "Alchemy_ColumnBrace",
+      "type": "box",
+      "center": [
+        15.175,
+        320.44,
+        82.405
+      ],
+      "size": [
+        3.8577972989777423,
+        0.3,
+        0.38
+      ],
+      "rotation": [
+        23.042577884896588,
+        180.0,
+        -5.4576804484022e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 18
+    },
+    {
+      "name": "Alchemy_BraceShoulder",
+      "type": "box",
+      "center": [
+        16.95,
+        320.44,
+        81.65
+      ],
+      "size": [
+        0.8,
+        0.8,
+        0.26
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 15
+    },
+    {
+      "name": "Alchemy_SideEfang",
+      "type": "box",
+      "center": [
+        -17.22,
+        315,
+        83.45
+      ],
+      "size": [
+        0.62,
+        11.1,
+        0.57
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 19
+    },
+    {
+      "name": "Alchemy_SideBrace",
+      "type": "box",
+      "center": [
+        -17.22,
+        310.61,
+        82.485
+      ],
+      "size": [
+        2.5073691391576367,
+        0.28,
+        0.33
+      ],
+      "rotation": [
+        33.11966378740283,
+        90.0,
+        -3.8092796483539184e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 20
+    },
+    {
+      "name": "Alchemy_SideBrace",
+      "type": "box",
+      "center": [
+        -17.22,
+        319.39,
+        82.485
+      ],
+      "size": [
+        2.5073691391576367,
+        0.28,
+        0.33
+      ],
+      "rotation": [
+        33.11966378740283,
+        -90.0,
+        3.8092796483539184e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 21
+    },
+    {
+      "name": "Alchemy_SideEfang",
+      "type": "box",
+      "center": [
+        17.22,
+        315,
+        83.45
+      ],
+      "size": [
+        0.62,
+        11.1,
+        0.57
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 22
+    },
+    {
+      "name": "Alchemy_SideBrace",
+      "type": "box",
+      "center": [
+        17.22,
+        310.61,
+        82.485
+      ],
+      "size": [
+        2.5073691391576367,
+        0.28,
+        0.33
+      ],
+      "rotation": [
+        33.11966378740283,
+        90.0,
+        -3.8092796483539184e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 23
+    },
+    {
+      "name": "Alchemy_SideBrace",
+      "type": "box",
+      "center": [
+        17.22,
+        319.39,
+        82.485
+      ],
+      "size": [
+        2.5073691391576367,
+        0.28,
+        0.33
+      ],
+      "rotation": [
+        33.11966378740283,
+        -90.0,
+        3.8092796483539184e-07
+      ],
+      "material": "Wood",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Wood_Solid",
+      "index": 24
+    },
+    {
+      "name": "Alchemy_HighOpenGualuo",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_Alchemy_HighOpenGualuo_df2e28dcc.SM_Alchemy_HighOpenGualuo_df2e28dcc",
+      "triangles": 528,
+      "material": "Wood",
+      "collision": true,
+      "bounds": [
+        [
+          -17.419999999999998,
+          311.84,
+          81.19
+        ],
+        [
+          17.419999999999998,
+          320.64,
+          83.21000000000001
+        ]
+      ]
+    },
+    {
+      "name": "Alchemy_FrontGualuo",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_Alchemy_FrontGualuo_432da6e4a.SM_Alchemy_FrontGualuo_432da6e4a",
+      "triangles": 264,
+      "material": "Trim",
+      "collision": true,
+      "bounds": [
+        [
+          -14.76,
+          309.36,
+          82.12
+        ],
+        [
+          14.76,
+          309.53999999999996,
+          83.18
+        ]
+      ]
+    },
+    {
+      "name": "Summit_QueTopAbacus",
+      "type": "box",
+      "center": [
+        -155,
+        530.5,
+        150.72
+      ],
+      "size": [
+        3.85,
+        3.25,
+        0.26
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 16
+    },
+    {
+      "name": "Summit_QueNeckBand",
+      "type": "box",
+      "center": [
+        -155,
+        530.5,
+        144.93
+      ],
+      "size": [
+        4.05,
+        4.05,
+        0.22
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 17
+    },
+    {
+      "name": "Summit_QueReliefRail",
+      "type": "box",
+      "center": [
+        -155,
+        528.56,
+        135.35
+      ],
+      "size": [
+        2.65,
+        0.16,
+        0.2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 18
+    },
+    {
+      "name": "Summit_QueReliefRail",
+      "type": "box",
+      "center": [
+        -155,
+        528.56,
+        143.9
+      ],
+      "size": [
+        2.65,
+        0.16,
+        0.2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 19
+    },
+    {
+      "name": "Summit_QueReliefStile",
+      "type": "box",
+      "center": [
+        -156.23,
+        528.56,
+        139.63
+      ],
+      "size": [
+        0.16,
+        0.16,
+        8.35
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 20
+    },
+    {
+      "name": "Summit_QueReliefStile",
+      "type": "box",
+      "center": [
+        -153.77,
+        528.56,
+        139.63
+      ],
+      "size": [
+        0.16,
+        0.16,
+        8.35
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 21
+    },
+    {
+      "name": "Summit_QueLozenge",
+      "type": "box",
+      "center": [
+        -155.525,
+        528.54,
+        139.575
+      ],
+      "size": [
+        1.2349089035228595,
+        0.13,
+        0.15
+      ],
+      "rotation": [
+        -31.759480084812356,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 16
+    },
+    {
+      "name": "Summit_QueLozenge",
+      "type": "box",
+      "center": [
+        -154.475,
+        528.54,
+        139.575
+      ],
+      "size": [
+        1.2349089035228595,
+        0.13,
+        0.15
+      ],
+      "rotation": [
+        31.759480084812356,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 17
+    },
+    {
+      "name": "Summit_QueLozenge",
+      "type": "box",
+      "center": [
+        -155.525,
+        528.54,
+        140.22500000000002
+      ],
+      "size": [
+        1.2349089035228595,
+        0.13,
+        0.15
+      ],
+      "rotation": [
+        31.759480084813067,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 18
+    },
+    {
+      "name": "Summit_QueLozenge",
+      "type": "box",
+      "center": [
+        -154.475,
+        528.54,
+        140.22500000000002
+      ],
+      "size": [
+        1.2349089035228595,
+        0.13,
+        0.15
+      ],
+      "rotation": [
+        -31.759480084813067,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 19
+    },
+    {
+      "name": "Summit_QueTopAbacus",
+      "type": "box",
+      "center": [
+        -193,
+        530.5,
+        150.72
+      ],
+      "size": [
+        3.85,
+        3.25,
+        0.26
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 22
+    },
+    {
+      "name": "Summit_QueNeckBand",
+      "type": "box",
+      "center": [
+        -193,
+        530.5,
+        144.93
+      ],
+      "size": [
+        4.05,
+        4.05,
+        0.22
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 23
+    },
+    {
+      "name": "Summit_QueReliefRail",
+      "type": "box",
+      "center": [
+        -193,
+        528.56,
+        135.35
+      ],
+      "size": [
+        2.65,
+        0.16,
+        0.2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 24
+    },
+    {
+      "name": "Summit_QueReliefRail",
+      "type": "box",
+      "center": [
+        -193,
+        528.56,
+        143.9
+      ],
+      "size": [
+        2.65,
+        0.16,
+        0.2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 25
+    },
+    {
+      "name": "Summit_QueReliefStile",
+      "type": "box",
+      "center": [
+        -194.23,
+        528.56,
+        139.63
+      ],
+      "size": [
+        0.16,
+        0.16,
+        8.35
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 26
+    },
+    {
+      "name": "Summit_QueReliefStile",
+      "type": "box",
+      "center": [
+        -191.77,
+        528.56,
+        139.63
+      ],
+      "size": [
+        0.16,
+        0.16,
+        8.35
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Stone",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Stone_Solid",
+      "index": 27
+    },
+    {
+      "name": "Summit_QueLozenge",
+      "type": "box",
+      "center": [
+        -193.525,
+        528.54,
+        139.575
+      ],
+      "size": [
+        1.2349089035228595,
+        0.13,
+        0.15
+      ],
+      "rotation": [
+        -31.759480084812793,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 20
+    },
+    {
+      "name": "Summit_QueLozenge",
+      "type": "box",
+      "center": [
+        -192.475,
+        528.54,
+        139.575
+      ],
+      "size": [
+        1.2349089035228595,
+        0.13,
+        0.15
+      ],
+      "rotation": [
+        31.759480084812793,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 21
+    },
+    {
+      "name": "Summit_QueLozenge",
+      "type": "box",
+      "center": [
+        -193.525,
+        528.54,
+        140.22500000000002
+      ],
+      "size": [
+        1.2349089035228595,
+        0.13,
+        0.15
+      ],
+      "rotation": [
+        31.75948008481351,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 22
+    },
+    {
+      "name": "Summit_QueLozenge",
+      "type": "box",
+      "center": [
+        -192.475,
+        528.54,
+        140.22500000000002
+      ],
+      "size": [
+        1.2349089035228595,
+        0.13,
+        0.15
+      ],
+      "rotation": [
+        -31.75948008481351,
+        0.0,
+        0.0
+      ],
+      "material": "Trim",
+      "collision": true,
+      "cluster": "NB4_Cluster_Architecture_Trim_Solid",
+      "index": 23
+    },
+    {
+      "name": "Summit_StoneCapitalBevels",
+      "type": "mesh",
+      "asset": "/Game/ReversedScale/Blockout/V09/Meshes/SM_Summit_StoneCapitalBevels_faa57979e.SM_Summit_StoneCapitalBevels_faa57979e",
+      "triangles": 48,
+      "material": "Stone",
+      "collision": true,
+      "bounds": [
+        [
+          -195.875,
+          528.125,
+          145.15
+        ],
+        [
+          -152.125,
+          532.875,
+          150.59
+        ]
+      ]
+    }
+  ],
+  "terrain": {
+    "module": "terrain_enrichment_v04",
+    "units": "metres",
+    "coordinate_system": "UE world XYZ, already mirrored X",
+    "original_terrain_preserved": true,
+    "mesh_count": 12,
+    "meshes": [
+      {
+        "name": "V09_Terrain_A_ForeShoulder",
+        "kind": "shoulder",
+        "bounds_m": [
+          [
+            -3.0622490496737456,
+            -31.581460509012963,
+            -73.0
+          ],
+          [
+            60.12817415052198,
+            22.31138130733713,
+            -7.010331860930456
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 78095.57
+        },
+        "material": "Cliff",
+        "collision": true
+      },
+      {
+        "name": "V09_Terrain_B_PineShoulder",
+        "kind": "shoulder",
+        "bounds_m": [
+          [
+            4.158928653415009,
+            115.38449084715567,
+            -78.0
+          ],
+          [
+            57.24044885511413,
+            170.16010917962575,
+            19.94540479362969
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 95950.833
+        },
+        "material": "Cliff",
+        "collision": true
+      },
+      {
+        "name": "V09_Terrain_B_WestShoulder",
+        "kind": "shoulder",
+        "bounds_m": [
+          [
+            -47.507695022028045,
+            135.5101435226627,
+            -74.0
+          ],
+          [
+            -2.2214854525030843,
+            187.15643965625853,
+            19.999977371712987
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 79522.706
+        },
+        "material": "Cliff",
+        "collision": true
+      },
+      {
+        "name": "V09_Terrain_Threshold_SlantRidge",
+        "kind": "shoulder",
+        "bounds_m": [
+          [
+            -2.4528171930004303,
+            177.15776610211384,
+            -76.0
+          ],
+          [
+            37.95605585734394,
+            275.7995493776982,
+            35.99782698334213
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 145580.392
+        },
+        "material": "Cliff",
+        "collision": true
+      },
+      {
+        "name": "V09_Terrain_C_RearShoulder",
+        "kind": "shoulder",
+        "bounds_m": [
+          [
+            -11.286072993551572,
+            273.21333435243827,
+            -79.0
+          ],
+          [
+            57.48618741428718,
+            330.75694053492845,
+            62.9728191411174
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 185703.939
+        },
+        "material": "Cliff",
+        "collision": true
+      },
+      {
+        "name": "V09_Terrain_C_EntryShoulder",
+        "kind": "shoulder",
+        "bounds_m": [
+          [
+            -49.358262749988874,
+            264.4988463642613,
+            -72.0
+          ],
+          [
+            -0.6776266539661027,
+            316.666152993674,
+            60.95885553209728
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 121762.462
+        },
+        "material": "Cliff",
+        "collision": true
+      },
+      {
+        "name": "V09_Terrain_Upper_LowerRib",
+        "kind": "shoulder",
+        "bounds_m": [
+          [
+            -118.00772107270008,
+            320.1478166513359,
+            -78.0
+          ],
+          [
+            -51.10318633935632,
+            399.39503360475476,
+            78.9661090988202
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 286481.755
+        },
+        "material": "Cliff",
+        "collision": true
+      },
+      {
+        "name": "V09_Terrain_Upper_HigherRib",
+        "kind": "shoulder",
+        "bounds_m": [
+          [
+            -166.67464450661555,
+            386.87929425381276,
+            -80.0
+          ],
+          [
+            -102.5032949206602,
+            466.0569543916171,
+            97.97009880296376
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 296951.408
+        },
+        "material": "Cliff",
+        "collision": true
+      },
+      {
+        "name": "V09_Terrain_Summit_SpreadRoot",
+        "kind": "shoulder",
+        "bounds_m": [
+          [
+            -237.78047941151928,
+            454.19825498817426,
+            -85.0
+          ],
+          [
+            -155.7674457304677,
+            533.2461568602321,
+            118.94920989556643
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 469130.584
+        },
+        "material": "Cliff",
+        "collision": true
+      },
+      {
+        "name": "V09_Terrain_Far_LowCrag",
+        "kind": "distant_peak",
+        "bounds_m": [
+          [
+            47.939416403414654,
+            195.73357020388022,
+            -68.0
+          ],
+          [
+            82.75781908022982,
+            241.9284450878784,
+            56.966853143401785
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 69999.975
+        },
+        "material": "Cliff",
+        "collision": true
+      },
+      {
+        "name": "V09_Terrain_Far_SplitCrag",
+        "kind": "distant_peak",
+        "bounds_m": [
+          [
+            58.39847703219275,
+            252.92649366491813,
+            -76.0
+          ],
+          [
+            113.00531829351937,
+            308.2017983461288,
+            95.99985677371374
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 168294.078
+        },
+        "material": "Cliff",
+        "collision": true
+      },
+      {
+        "name": "V09_Terrain_Far_LeaningCrag",
+        "kind": "distant_peak",
+        "bounds_m": [
+          [
+            59.38022219825708,
+            331.33162562916306,
+            -77.0
+          ],
+          [
+            117.43539704186244,
+            396.7338286503578,
+            112.99936531062387
+          ]
+        ],
+        "validation": {
+          "vertices": 45,
+          "triangles": 86,
+          "degenerate_triangles": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_winding_edges": 0,
+          "signed_volume_m3": 253000.052
+        },
+        "material": "Cliff",
+        "collision": true
+      }
+    ]
+  },
+  "architecture": {
+    "version": "V09 additive architecture",
+    "instance_count": 85,
+    "custom_meshes": 6,
+    "all_new_geometry_has_collision": true,
+    "section_counts": {
+      "A_Shanmen": 26,
+      "B_MartialCourt": 10,
+      "C_AlchemyCourt": 28,
+      "D_SummitSeal": 21
+    },
+    "source_layout": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v03\\LayoutSpec.json",
+    "protected_approach_preflight": [
+      {
+        "node": 1,
+        "eye_m": 1.1,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      },
+      {
+        "node": 1,
+        "eye_m": 1.7,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      },
+      {
+        "node": 2,
+        "eye_m": 1.1,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      },
+      {
+        "node": 2,
+        "eye_m": 1.7,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      },
+      {
+        "node": 3,
+        "eye_m": 1.1,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      },
+      {
+        "node": 3,
+        "eye_m": 1.7,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      },
+      {
+        "node": 4,
+        "eye_m": 1.1,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      },
+      {
+        "node": 4,
+        "eye_m": 1.7,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      },
+      {
+        "node": 5,
+        "eye_m": 1.1,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      },
+      {
+        "node": 5,
+        "eye_m": 1.7,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      },
+      {
+        "node": 6,
+        "eye_m": 1.1,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      },
+      {
+        "node": 6,
+        "eye_m": 1.7,
+        "new_rim_blockers": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "new_crown_blockers": []
+      }
+    ],
+    "notes": [
+      "A: layered efang, corner braces, raised side lattice; central opening retained.",
+      "B: two stone lamps outside pressure terraces; enemy ranks retained.",
+      "C: rear-set 26 x 12 m upper hip roof and open hanging lattice; furnace and combat disk unchanged.",
+      "D: tapered stone que capitals and shallow relief; summit remains roofless.",
+      "Geometry preflight only; integration must still run actual UE collision and route checks."
+    ],
+    "parts": [
+      {
+        "name": "Gate_Efang",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_EfangUpperFillet",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_CornerBrace",
+        "section": "A_Shanmen",
+        "kind": "beam"
+      },
+      {
+        "name": "Gate_BraceSeat",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_CornerBrace",
+        "section": "A_Shanmen",
+        "kind": "beam"
+      },
+      {
+        "name": "Gate_BraceSeat",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_Efang",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_EfangUpperFillet",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_CornerBrace",
+        "section": "A_Shanmen",
+        "kind": "beam"
+      },
+      {
+        "name": "Gate_BraceSeat",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_CornerBrace",
+        "section": "A_Shanmen",
+        "kind": "beam"
+      },
+      {
+        "name": "Gate_BraceSeat",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_LongitudinalEfang",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_SideBrace",
+        "section": "A_Shanmen",
+        "kind": "beam"
+      },
+      {
+        "name": "Gate_SideBrace",
+        "section": "A_Shanmen",
+        "kind": "beam"
+      },
+      {
+        "name": "Gate_LongitudinalEfang",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_SideBrace",
+        "section": "A_Shanmen",
+        "kind": "beam"
+      },
+      {
+        "name": "Gate_SideBrace",
+        "section": "A_Shanmen",
+        "kind": "beam"
+      },
+      {
+        "name": "Gate_ScreenStoneSill",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_ScreenStoneSill",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_OpenSideLattice",
+        "section": "A_Shanmen",
+        "kind": "part"
+      },
+      {
+        "name": "Gate_FrontGualuo",
+        "section": "A_Shanmen",
+        "kind": "part"
+      },
+      {
+        "name": "Gate_TabletBorderTop",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_TabletBorderBottom",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_TabletBorderSide",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Gate_TabletBorderSide",
+        "section": "A_Shanmen",
+        "kind": "box"
+      },
+      {
+        "name": "Martial_StoneLampFoot",
+        "section": "B_MartialCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Martial_StoneLampStem",
+        "section": "B_MartialCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Martial_StoneLampTray",
+        "section": "B_MartialCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Martial_StoneLampBody",
+        "section": "B_MartialCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Martial_StoneLampCrown",
+        "section": "B_MartialCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Martial_StoneLampFoot",
+        "section": "B_MartialCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Martial_StoneLampStem",
+        "section": "B_MartialCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Martial_StoneLampTray",
+        "section": "B_MartialCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Martial_StoneLampBody",
+        "section": "B_MartialCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Martial_StoneLampCrown",
+        "section": "B_MartialCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_UpperRoofDrum",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_UpperRoofBelt",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_RearUpperHipRoof",
+        "section": "C_AlchemyCourt",
+        "kind": "part"
+      },
+      {
+        "name": "Alchemy_UpperRidge",
+        "section": "C_AlchemyCourt",
+        "kind": "beam"
+      },
+      {
+        "name": "Alchemy_UpperRidgeEnd",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_UpperRidgeHook",
+        "section": "C_AlchemyCourt",
+        "kind": "beam"
+      },
+      {
+        "name": "Alchemy_UpperRidgeEnd",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_UpperRidgeHook",
+        "section": "C_AlchemyCourt",
+        "kind": "beam"
+      },
+      {
+        "name": "Alchemy_Efang",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_EfangFineBand",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_ColumnBrace",
+        "section": "C_AlchemyCourt",
+        "kind": "beam"
+      },
+      {
+        "name": "Alchemy_BraceShoulder",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_ColumnBrace",
+        "section": "C_AlchemyCourt",
+        "kind": "beam"
+      },
+      {
+        "name": "Alchemy_BraceShoulder",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_Efang",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_EfangFineBand",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_ColumnBrace",
+        "section": "C_AlchemyCourt",
+        "kind": "beam"
+      },
+      {
+        "name": "Alchemy_BraceShoulder",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_ColumnBrace",
+        "section": "C_AlchemyCourt",
+        "kind": "beam"
+      },
+      {
+        "name": "Alchemy_BraceShoulder",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_SideEfang",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_SideBrace",
+        "section": "C_AlchemyCourt",
+        "kind": "beam"
+      },
+      {
+        "name": "Alchemy_SideBrace",
+        "section": "C_AlchemyCourt",
+        "kind": "beam"
+      },
+      {
+        "name": "Alchemy_SideEfang",
+        "section": "C_AlchemyCourt",
+        "kind": "box"
+      },
+      {
+        "name": "Alchemy_SideBrace",
+        "section": "C_AlchemyCourt",
+        "kind": "beam"
+      },
+      {
+        "name": "Alchemy_SideBrace",
+        "section": "C_AlchemyCourt",
+        "kind": "beam"
+      },
+      {
+        "name": "Alchemy_HighOpenGualuo",
+        "section": "C_AlchemyCourt",
+        "kind": "part"
+      },
+      {
+        "name": "Alchemy_FrontGualuo",
+        "section": "C_AlchemyCourt",
+        "kind": "part"
+      },
+      {
+        "name": "Summit_QueTopAbacus",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueNeckBand",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueReliefRail",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueReliefRail",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueReliefStile",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueReliefStile",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueLozenge",
+        "section": "D_SummitSeal",
+        "kind": "beam"
+      },
+      {
+        "name": "Summit_QueLozenge",
+        "section": "D_SummitSeal",
+        "kind": "beam"
+      },
+      {
+        "name": "Summit_QueLozenge",
+        "section": "D_SummitSeal",
+        "kind": "beam"
+      },
+      {
+        "name": "Summit_QueLozenge",
+        "section": "D_SummitSeal",
+        "kind": "beam"
+      },
+      {
+        "name": "Summit_QueTopAbacus",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueNeckBand",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueReliefRail",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueReliefRail",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueReliefStile",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueReliefStile",
+        "section": "D_SummitSeal",
+        "kind": "box"
+      },
+      {
+        "name": "Summit_QueLozenge",
+        "section": "D_SummitSeal",
+        "kind": "beam"
+      },
+      {
+        "name": "Summit_QueLozenge",
+        "section": "D_SummitSeal",
+        "kind": "beam"
+      },
+      {
+        "name": "Summit_QueLozenge",
+        "section": "D_SummitSeal",
+        "kind": "beam"
+      },
+      {
+        "name": "Summit_QueLozenge",
+        "section": "D_SummitSeal",
+        "kind": "beam"
+      },
+      {
+        "name": "Summit_StoneCapitalBevels",
+        "section": "D_SummitSeal",
+        "kind": "part"
+      }
+    ]
+  }
+}

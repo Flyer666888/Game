@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-09",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabWuxiaFeet",
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet",
+  "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted",
+  "retargeter": "/Game/ReversedScale/Characters/WuxiaMale/RTG_Mannequin_WuxiaMale_Feet",
+  "measurements": {
+    "map": "/Game/ReversedScale/Maps/L_CombatLabWuxiaFeet",
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet.SK_WuxiaMale_Feet",
+    "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+    "duration": 9.866666793823242,
+    "before": {
+      "l": {
+        "minimum_sole_z_range_cm": [
+          0.10980157587140732,
+          0.5206431973760507
+        ],
+        "sample_count": 9
+      },
+      "r": {
+        "minimum_sole_z_range_cm": [
+          1.0360089340793557,
+          1.5785989549386725
+        ],
+        "sample_count": 9
+      }
+    },
+    "after": {
+      "l": {
+        "minimum_sole_z_range_cm": [
+          -0.003476885613054037,
+          0.00397769920527935
+        ],
+        "maximum_ankle_drift_cm": 0.013539414057156,
+        "maximum_sole_tilt_deg": 0.03426402009603798,
+        "sample_count": 297
+      },
+      "r": {
+        "minimum_sole_z_range_cm": [
+          -0.00400420930236578,
+          0.0035975887440145016
+        ],
+        "maximum_ankle_drift_cm": 0.013812640392216,
+        "maximum_sole_tilt_deg": 0.03426402009603798,
+        "sample_count": 297
+      }
+    },
+    "maximum_upper_body_position_difference_after_contact_edit_cm": 0.005975408131788423,
+    "scope": "Saved compressed sword idle at every source frame; runtime interpolation evidence reported separately"
+  },
+  "runtime": [
+    {
+      "view": "EnemyFeetFront",
+      "game_time": 30.72927999770036,
+      "actors": [
+        {
+          "actor": "SkeletalMeshActor_2",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet.SK_WuxiaMale_Feet",
+          "animation_time": 1.128777265548706,
+          "foot_l": [
+            337.6764270905394,
+            -161.3327679921583,
+            11.993463205900916
+          ],
+          "foot_r": [
+            362.6609899648965,
+            -173.97211581677968,
+            11.926325056565197
+          ],
+          "head": [
+            346.77766044079766,
+            -181.3786152555294,
+            143.82442835130954
+          ]
+        },
+        {
+          "actor": "SkeletalMeshActor_3",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet.SK_WuxiaMale_Feet",
+          "animation_time": 1.128777265548706,
+          "foot_l": [
+            735.8777393709242,
+            235.24910608170603,
+            11.993463205900916
+          ],
+          "foot_r": [
+            763.254843420563,
+            229.37750755066568,
+            11.926325056565197
+          ],
+          "head": [
+            749.7765972832018,
+            218.17602230235974,
+            143.82442835130954
+          ]
+        }
+      ]
+    },
+    {
+      "view": "EnemyFeetSide",
+      "game_time": 33.13702720677247,
+      "actors": [
+        {
+          "actor": "SkeletalMeshActor_2",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet.SK_WuxiaMale_Feet",
+          "animation_time": 3.536522626876831,
+          "foot_l": [
+            337.677205939806,
+            -161.332878196569,
+            11.99323365902601
+          ],
+          "foot_r": [
+            362.6597390434913,
+            -173.97394785050153,
+            11.925673136643852
+          ],
+          "head": [
+            344.6614608982318,
+            -180.2929029975239,
+            142.73439909817358
+          ]
+        },
+        {
+          "actor": "SkeletalMeshActor_3",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet.SK_WuxiaMale_Feet",
+          "animation_time": 3.536522626876831,
+          "foot_l": [
+            735.878520645275,
+            235.24919752338738,
+            11.99323365902601
+          ],
+          "foot_r": [
+            763.2540994066976,
+            229.37541767141366,
+            11.925673136643852
+          ],
+          "head": [
+            747.4538953921075,
+            218.68800622422322,
+            142.73439909817358
+          ]
+        }
+      ]
+    },
+    {
+      "view": "EnemyFeetFullBody",
+      "game_time": 36.138244307541754,
+      "actors": [
+        {
+          "actor": "SkeletalMeshActor_2",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet.SK_WuxiaMale_Feet",
+          "animation_time": 6.537741661071777,
+          "foot_l": [
+            337.67755842366006,
+            -161.32881933220858,
+            11.99330161842029
+          ],
+          "foot_r": [
+            362.656422165956,
+            -173.978459232908,
+            11.924865281546083
+          ],
+          "head": [
+            345.86058095566875,
+            -181.92549463423367,
+            140.2383764226894
+          ]
+        },
+        {
+          "actor": "SkeletalMeshActor_3",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet.SK_WuxiaMale_Feet",
+          "animation_time": 6.537741661071777,
+          "foot_l": [
+            735.8778295684878,
+            235.25321262458635,
+            11.99330161842029
+          ],
+          "foot_r": [
+            763.2520385601839,
+            229.37021121777912,
+            11.924865281546083
+          ],
+          "head": [
+            749.0287005929093,
+            217.41394463076324,
+            140.2383764226894
+          ]
+        }
+      ]
+    }
+  ],
+  "original_blend_sha256": "F503BB1C7FB07BF3D33CEEA90F2F7F207263964635E093943020E890194F31ED",
+  "source_geometry_preserved": true,
+  "source_skeleton_preserved": true,
+  "changed_weight_vertices": 6475,
+  "old_retarget_op_count": 17,
+  "new_retarget_op_count": 6,
+  "feet_goals_and_limb_solvers": 2,
+  "contact_bake_changed_bones": [
+    "thigh_l",
+    "calf_l",
+    "foot_l",
+    "ball_l",
+    "thigh_r",
+    "calf_r",
+    "foot_r",
+    "ball_r"
+  ],
+  "preview_process_id": 81016,
+  "user_editor_process_preserved": 46828,
+  "scope": "Current flat-floor sword idle only; future locomotion/attacks need separate contact handling",
+  "save_exit_code": 0,
+  "save_errors": 0,
+  "save_warnings": 0,
+  "visual_review": "UE front/side/full body screenshots reviewed"
+}

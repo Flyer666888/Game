@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-13",
+  "task": "SAVE-01",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabCheckpoint",
+  "controller_state": "<NLEncounterState.READY: 0>",
+  "checkpoint_enabled": true,
+  "entry_wave_index": 0,
+  "wave_index": -1,
+  "wave_count": 2,
+  "planned_count": 5,
+  "spawned_count": 0,
+  "defeated_count": 0,
+  "alive_count": 0,
+  "initial_seed": 20261012,
+  "random_state": -796021508,
+  "level_id": "Level.CombatLab.Checkpoint",
+  "encounter_id": "Encounter.SwordWaves",
+  "content_revision": "SwordWaves.SAVE01.1",
+  "has_memory_checkpoint": true,
+  "persistence_status": "InMemoryOnly",
+  "persistence_failure": "None",
+  "run_id": "<Struct 'Guid' (0x0000012CFBA22F50) {}>",
+  "defeat_event_ledger_count": 0,
+  "health": 100.0,
+  "guard": 100.0,
+  "player_origin_cm": [
+    30.0,
+    -170.0,
+    90.4
+  ],
+  "camera_cm": [
+    30.0,
+    -170.0,
+    146.81582489013672
+  ],
+  "melee_damage": 10.0,
+  "screenshot": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\CombatProject\\Docs\\AI\\CheckpointLabFirstPerson.png",
+  "scope": "Only read current initial scene and take a screenshot. No agent gameplay input, checkpoint disk-write, retry, enemy spawn, damage, seed replay or automated test. Existing disk checkpoints may be read by normal game startup."
+}

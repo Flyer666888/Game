@@ -1,0 +1,80 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV08",
+  "source": "/Game/ReversedScale/Maps/L_NilinBlockoutV07",
+  "checked_at": "2026-10-21T19:44:36.379239",
+  "enemy_count": 36,
+  "tier_heights_m": [
+    1.6,
+    3.2,
+    4.8
+  ],
+  "actor_count": 690,
+  "relocated_racks": [
+    {
+      "cluster": "NB2_HISM_02_MartialCourt_012_0fd89d112f_20261021_125731_216979",
+      "index": 0,
+      "old_cm": [
+        -1875.0,
+        14500.0,
+        2965.0
+      ],
+      "new_cm": [
+        -2130.0,
+        14500.0,
+        2965.0
+      ]
+    },
+    {
+      "cluster": "NB2_HISM_02_MartialCourt_012_0fd89d112f_20261021_125731_216979",
+      "index": 1,
+      "old_cm": [
+        -1875.0,
+        14900.0,
+        2965.0
+      ],
+      "new_cm": [
+        -2130.0,
+        14900.0,
+        2965.0
+      ]
+    },
+    {
+      "cluster": "NB2_HISM_02_MartialCourt_012_0fd89d112f_20261021_125731_216979",
+      "index": 2,
+      "old_cm": [
+        -1875.0,
+        15300.0,
+        2965.0
+      ],
+      "new_cm": [
+        -2130.0,
+        15300.0,
+        2965.0
+      ]
+    }
+  ],
+  "new_clusters": [
+    {
+      "label": "NB3_Pressure_Stone_0",
+      "count": 80
+    },
+    {
+      "label": "NB3_Pressure_Floor_1",
+      "count": 72
+    },
+    {
+      "label": "NB3_Pressure_Trim_2",
+      "count": 30
+    },
+    {
+      "label": "NB3_Pressure_Trim_3",
+      "count": 2
+    },
+    {
+      "label": "NB3_Pressure_Enemy_4",
+      "count": 36
+    }
+  ],
+  "saved": true,
+  "scope": "Static editable visual staging in B court; no AI or wave logic implemented. Other acts copied from V07."
+}

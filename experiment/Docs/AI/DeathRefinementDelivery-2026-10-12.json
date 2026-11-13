@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-12",
+  "request": "Optimize twitchy enemy death motion",
+  "status": "Compiled and saved; authoring preview reviewed; gameplay acceptance pending",
+  "asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Settle.Wuxia_Death_Settle",
+  "old_asset_preserved": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse",
+  "duration_seconds": 3.200000047683716,
+  "static_final_seconds": 0.5,
+  "motion": "Restrained loss of balance, one controlled side fall, relaxed arms and legs, static final pose.",
+  "authoring_metrics": {
+    "raw_root_max_frame_step_cm_before": 16.067499794357644,
+    "raw_root_max_frame_step_cm_after": 1.2423019409179688,
+    "raw_head_max_speed_cm_s_before": 764.0194948389369,
+    "raw_head_max_speed_cm_s_after": 159.23285562893145,
+    "raw_mesh_floor_clearance_range_cm": [
+      0.14999231514889289,
+      1.20838145891598
+    ],
+    "raw_final_contact": {
+      "time": 3.2,
+      "root_offset_z_cm": 21.6047524127818,
+      "mesh_min_z_cm": 0.14999556728963048,
+      "sole_min_z_cm": 10.40900667091308,
+      "torso_min_z_cm": 1.6606617130577055,
+      "head_z_cm": 14.710597038269043,
+      "pelvis_z_cm": 24.01282501220703
+    },
+    "scope": "Actual unchanged mesh skinned with authored raw poses; not a runtime combat test."
+  },
+  "runtime_source_changes": {
+    "transition_seconds": 0.18,
+    "start_pose": "Capture the currently visible walk/hit/attack pose before replacing the animation instance.",
+    "blend_clock": "World game time, frozen while paused.",
+    "safe_start": "Queue death presentation and switch in a safe Actor Tick; animation-busy instances stay pending.",
+    "first_frame": "Evaluate at zero time after configuration, preventing temporary reference-pose display.",
+    "end": "Non-looping clip, static tail, final-frame hold.",
+    "reset": "Reset/idle/end-play clear pending death and restore ordinary playback."
+  },
+  "maps": [
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel_BeforeDeathSettle_20261012",
+      "actors": [
+        {
+          "name": "SwordDisciple_1",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Settle.Wuxia_Death_Settle"
+        },
+        {
+          "name": "SwordDisciple_2",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Settle.Wuxia_Death_Settle"
+        }
+      ]
+    },
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabReflection",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabReflection_BeforeDeathSettle_20261012",
+      "actors": [
+        {
+          "name": "TrainingDisciple_1",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Settle.Wuxia_Death_Settle"
+        },
+        {
+          "name": "TrainingDisciple_2",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Settle.Wuxia_Death_Settle"
+        }
+      ]
+    },
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabGuard",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabGuard_BeforeDeathSettle_20261012",
+      "actors": [
+        {
+          "name": "TrainingDisciple_1",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Settle.Wuxia_Death_Settle"
+        },
+        {
+          "name": "TrainingDisciple_2",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Settle.Wuxia_Death_Settle"
+        }
+      ]
+    },
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabMelee",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabMelee_BeforeDeathSettle_20261012",
+      "actors": [
+        {
+          "name": "TrainingDisciple_1",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Settle.Wuxia_Death_Settle"
+        },
+        {
+          "name": "TrainingDisciple_2",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Settle.Wuxia_Death_Settle"
+        }
+      ]
+    }
+  ],
+  "build": {
+    "target": "experimentEditor Win64 Development",
+    "result": "Succeeded",
+    "exit_code": 0,
+    "log": "Docs/AI/BuildLog-DeathRefinement-2026-10-12.txt"
+  },
+  "initial_scene": {
+    "process_id_at_delivery": 41928,
+    "map": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+    "player_melee_damage": 10.0,
+    "enemy_death_refs": [
+      "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Settle.Wuxia_Death_Settle",
+      "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Settle.Wuxia_Death_Settle"
+    ],
+    "report": "Docs/AI/SwordDuelRuntimeScene-2026-10-12.json"
+  },
+  "previews": [
+    "ArtSource/WuxiaMale/DeathRefinement/Candidate_Wuxia_Death_Settle.png",
+    "ArtSource/WuxiaMale/DeathRefinement/Candidate_Wuxia_Death_Settle_Early.png",
+    "ArtSource/WuxiaMale/DeathRefinement/Candidate_Wuxia_Death_Settle_Late.png"
+  ],
+  "preserved": [
+    "Source mesh and weights",
+    "Refined face",
+    "Planted idle/walk/attack and hit reaction",
+    "Original weapon hilt",
+    "Player melee damage 10"
+  ],
+  "automated_tests": "Not added or run",
+  "gameplay_input_sent": false,
+  "manual_acceptance": "Pending user play; initial scene metadata confirms both current enemies reference the refined asset."
+}

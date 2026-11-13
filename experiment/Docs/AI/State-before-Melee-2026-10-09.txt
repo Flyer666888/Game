@@ -1,0 +1,129 @@
+Project: ReversedScale / 《逆鳞》
+EngineVersion: UE 5.8.2 (CL 56702186)
+ProjectFile: experiment.uproject
+Updated: 2026-10-09
+Milestone: M0; desktop asset preview supporting later M1
+CurrentTask: Slender single-edge blade remake with original hilt preserved
+TaskStatus: SlenderBladeComplete_AwaitingUserFeedback
+OpenMap: /Game/ReversedScale/Maps/L_CombatLabYueyao
+CompletedDependencies: []
+SourceChanges:
+  - Restored 17 files from Docs/AI/CodeDraft/Source to project Source; archive retained.
+  - Registered experiment Runtime module in experiment.uproject; original descriptor backed up.
+  - Fixed six EXPERIMENT_API export macros, AIController include paths and explicit World/path-following includes.
+  - Pinned both targets to UE5.8 BuildSettingsVersion.V7 and Unreal5_8 include order.
+  - Editor Development target compiled successfully with MSVC 14.44.35229.
+  - All six native combat/AI classes loaded from the original Chinese project path.
+AssetChanges:
+  - Lightweight level has 12 actors: solid floor, gate, two pillars, sky, player start, two WuxiaMale enemies, two lights, two text labels.
+  - Floor top is Z=0; bounds X=-1200..1800 cm and Y=-1200..1200 cm include the gate and enemy positions.
+  - BP_DesktopPreviewPawn derives from native DefaultPawn with movement speed 450 cm/s and native WASD/mouse/E/Q controls.
+  - BP_DesktopPreviewGameMode overrides only the lite level; it does not replace VR game rules.
+  - Supplied AssetInbox/武侠男.blend is a Blender 5.1 static mesh with packed textures and no source skeleton or animations; original file retained.
+  - Created 23-bone basic rig, 50000-triangle demo mesh, normalized 180cm height and 2048px BaseColor/NormalGL/ORM textures.
+  - Corrected quaternion source orientation by rotating mesh data, baked cm units into mesh/bones and rebuilt continuous skin weights with smooth robe/hair masks.
+  - Current mesh is /Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet, preserving the Face geometry/materials and Demo skeleton; animation is Wuxia_Idle_Planted.
+  - Face version protects source head topology: 65000 triangles / 43210 vertices, including 19745 triangles in the front head region versus the previous 3123; facial skin uses original 4096px maps.
+  - Separate M_WuxiaMale_Skin reduces excessive normal/specular/AO contrast. Head-region facial vertices follow the head bone rigidly with a smooth neck transition.
+  - Retargeted /Game/Animations/Sword/Anim_CSST via IK rigs into Wuxia_Anim_CSST; 9.8667 seconds, looping, play rate 1.0.
+  - Previous Lite/Sword/Wuxia versions remain available; launcher and default maps now load L_CombatLabYueyao.
+  - SkeletalMeshActor root rotation is applied once, including the mannequin +Y-forward offset; actor roll/pitch remain zero.
+ConfigurationChanges:
+  - Default startup maps now use L_CombatLabYueyao with a grounded weapon player.
+  - Existing skylight uses Movable + Engine DaylightAmbientCubemap at intensity 0.65 so shadowed facial details remain readable.
+  - Body and skin materials explicitly save SkeletalMesh usage via the current UE5.8 API.
+  - Official portable Blender 5.1.2 added under the task cache for opening the supplied newer-format file; SHA256 verified against Blender's release checksum.
+  - Following the provided rendering baseline, ray tracing, Lumen GI/reflections, virtual shadows and mesh distance fields are disabled.
+  - Writable persistent filesystem DDC and installed engine pak cache are used by the launch script.
+  - Desktop shader compilation reserves 75 percent of cores; current launch logs report 6 local workers.
+  - Build_CombatModule.ps1 uses ASCII project/engine junctions to avoid MSVC response-file path encoding errors; project assets stay in their original directory.
+EditorAutomation:
+  UnrealMCP: NotConnected
+  PythonEditorReadWrite: Passed
+  BuildScript: Saved/Scripts/build_desktop_lab.py
+  LatestAssetScript: Saved/Scripts/import_yueyao_slender.py; ArtSource/Weapons/Yueyao/SlenderBladeRevision/remodel_yueyao_blade.py
+  LatestAssetReport: Docs/AI/SlenderBladeDelivery-2026-10-09.json
+  BuildReport: Docs/AI/CombatLabLiteBuild.json
+  PoseAndConfigurationAudit: Docs/AI/DesktopPreviewAudit.json
+  BuildExitCode: 0
+  AuditExitCode: 0
+DesktopPreview:
+  CurrentLaunchProcessId: 117456
+  Result: PlayerWeaponPreviewLaunchedAndVisuallyReviewed
+  MapLoadConfirmed: true
+  Log: Docs/AI/SlenderBladeRuntime.log
+  Screenshot: Docs/AI/YueyaoSlenderFirstPerson.png; YueyaoSlenderFirstPerson2.png
+  Launcher: Run_CombatLab_Demo.cmd
+  Controls: WASD walk on the floor; mouse look; Alt+F4 close.
+LastBuild:
+  Result: Succeeded
+  ExitCode: 0
+  Target: experimentEditor Win64 Development
+  Toolchain: MSVC 14.44.35229 / Windows SDK 10.0.22621.0
+  Binary: Binaries/Win64/UnrealEditor-experiment.dll
+  Log: Docs/AI/BuildLog-CombatModule-Editor-latest.txt
+  ModuleLoadExitCode: 0
+  ModuleLoadReport: Docs/AI/CombatModuleLoad-2026-10-08.json
+  NativeClassesLoaded: 6/6
+KnownFailure:
+  - Earlier full L_CombatLab preview crashed with texture-compression OOM and an insufficient-pagefile error (2026-10-02); it is not the current default preview.
+  - Restricted process launch exits before logging; elevated engine initialization succeeds. Asset/config writes remain in the project and designated cache directories.
+  - Combat damage, attacks, enemy navigation and attack scheduling are not active in this asset preview.
+  - Initial rig has no finger/face animation or cloth/hair simulation. Robe uses a pelvis panel binding; run/attack clips still need individual deformation review.
+  - First import had incorrect unit scale and source mesh axes; final SK_WuxiaMale_Demo and screenshots supersede those attempts.
+PendingDeviceChecks:
+  - No headset or usable OpenXR Runtime identified; no VR acceptance has passed.
+NextAction: User reviews right-hand weapon and grounded eye-level view; continue combat modules after feedback.
+RuntimeAnimation:
+  Result: FeetVariantTickingAndGroundContactReviewed
+  Evidence: Docs/AI/EnemyFeetRuntime.json; EnemyFeetMeasurements.json
+  Observed: Full standing idle evaluated at 297 compressed frames. Runtime captures show changing animation/head pose with stable feet; no pause/reset during capture.
+ManualKeyboardInputCheck: PendingUserTest
+
+ToolchainInstallation:
+  Result: InstalledAndUBTValidated
+  Root: D:\UEBuildTools2022
+  MSVCVersion: 14.44.35229
+  VSBuildToolsVersion: 17.14.37710.0
+  ATL: Installed
+  RebootRequired: false
+  UBTBuildPlanExitCode: 0
+  UBTSelectedNewCompiler: true
+  GameModuleCompiled: true
+  CompiledTarget: Editor Development; standalone Game target and packaging not performed
+  Report: Docs/AI/MSVCInstallation-2026-10-08.json
+
+EnemyFeetCorrection:
+  Mesh: /Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet
+  Animation: /Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted
+  Source: ArtSource/WuxiaMale/FootCorrection/WuxiaMaleFeet.blend
+  Corrected: Rigid soles, shin/cuff transition, pelvis-bound hem, narrow robe-compatible stance, fixed feet and two-bone leg solve.
+  RetargetSetup: Clean six-op stack; two foot goals/limb solvers and floor constraint.
+  Grounding: Movable sun with dynamic shadows, 2000cm distance and three cascades.
+  Measurements: 297 saved compressed frames; sole error below 0.0041cm, ankle drift below 0.014cm.
+  Scope: Current standing sword idle on a flat floor; running/attack clips and uneven terrain require later work.
+  UserEditor: Existing PID 46828 retained; open L_CombatLabWuxiaFeet or run the updated launcher.
+
+PlayerWeaponDelivery:
+  Map: /Game/ReversedScale/Maps/L_CombatLabYueyao
+  Pawn: /Script/experiment.NLDesktopPlayerCharacter
+  Weapon: /Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player
+  Grip: /Game/ReversedScale/Player/Animations/A_Yueyao_Grip_Right
+  Movement: Grounded CharacterMovement, 300 cm/s
+  Camera: Enemy head local eye point with physical floor-height compensation
+  FirstPersonHand: Existing MannyXR right mesh with grasp plus index curl, glove and sleeve
+  Source: ArtSource/Weapons/Yueyao; supplied original unchanged
+  Report: Docs/AI/PlayerWeaponDelivery-2026-10-09.json
+  Screenshots: Docs/AI/YueyaoFirstPerson.png; YueyaoFirstPerson2.png
+  Scope: Desktop grip preview; no attack/damage/VR-tracking acceptance
+
+BladeRevision:
+  Variant: Slender single edge with 2.5cm spine curve
+  BladeLengthCm: 62.5
+  RootWidthCm: 3.8
+  Hilt: All 34 original objects preserved; original UE material assets reused
+  GripAndCamera: Unchanged
+  CurrentMesh: /Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player
+  OldMesh: /Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player_CrescentBackup_20261009
+  Source: ArtSource/Weapons/Yueyao/SlenderBladeRevision
+  Evidence: Docs/AI/SlenderBladeDelivery-2026-10-09.json

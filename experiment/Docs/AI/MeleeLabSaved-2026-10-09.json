@@ -1,0 +1,40 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_CombatLabMelee",
+  "game_mode": "/Game/ReversedScale/Player/BP_CombatLabMeleeGameMode",
+  "player_class": "/Script/experiment.NLDesktopPlayerCharacter",
+  "hud_class": "/Script/experiment.NLCombatLabHUD",
+  "attack_definition": "/Game/ReversedScale/Combat/DA_YueyaoMelee",
+  "damage": 30.0,
+  "player_start_cm": [
+    30.0,
+    -170.0,
+    90.0
+  ],
+  "enemies": [
+    {
+      "label": "TrainingDisciple_1",
+      "feet_cm": [
+        240.0,
+        -215.0,
+        0.0
+      ],
+      "yaw_degrees": 77.90524292298792,
+      "max_health": 30.0,
+      "native_class": "/Script/experiment.NLTrainingEnemy"
+    },
+    {
+      "label": "TrainingDisciple_2",
+      "feet_cm": [
+        240.0,
+        -125.0,
+        0.0
+      ],
+      "yaw_degrees": -257.9052429229879,
+      "max_health": 30.0,
+      "native_class": "/Script/experiment.NLTrainingEnemy"
+    }
+  ],
+  "blade_channel": "ECC_GameTraceChannel2 / NLBlade",
+  "controls": "WASD move; Mouse look; Left mouse slash; Esc/P pause; R reset; Alt+F4 exit",
+  "scope": "Desktop melee slice. Real VR tracking, guard, enemy attacks, checkpoints remain pending."
+}

@@ -1,0 +1,29 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV10",
+  "checked_at": "2026-10-23T22:35:51.240967",
+  "state": "passed",
+  "success": true,
+  "checks": [
+    {
+      "script": "validate_v05.py",
+      "report": "Validation.json",
+      "success": true
+    },
+    {
+      "script": "audit_edges_v05.py",
+      "report": "EdgeAudit.json",
+      "success": true
+    },
+    {
+      "script": "audit_pressure_v05.py",
+      "report": "PressureAudit.json",
+      "success": true
+    },
+    {
+      "script": "readback_v05.py",
+      "report": "Readback.json",
+      "success": true
+    }
+  ],
+  "scope": "Saved-map collision, sightlines, marker placement and readback. Runtime walking and rendered captures are separate reports."
+}

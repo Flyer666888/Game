@@ -1,0 +1,56 @@
+{
+  "version": "V09",
+  "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV09",
+  "completed_at": "2026-10-23T13:40:44.686035+08:00",
+  "source_v08_sha256_unchanged": true,
+  "source_sha256": "01ba9e421d97ef6e2c3fb21d38a74b4726a348ac3ac7db95dc4992b377464464",
+  "map_sha256": "93d4db12b57a810c039ad90cd4585b3f02788ea40c91c98cbe37d21baeba9104",
+  "changes": {
+    "rock_meshes": 12,
+    "architecture_parts": 85,
+    "architecture_meshes": 6,
+    "new_instanced_boxes": 79,
+    "new_clusters": 4
+  },
+  "actor_count": 713,
+  "total_hism_clusters": 43,
+  "total_hism_instances": 3002,
+  "checks": {
+    "main_route_floor_samples": 861,
+    "main_route_floor_pass": true,
+    "edge_audit_pass": true,
+    "pressure_audit_pass": true,
+    "node_sightlines_pass": true,
+    "actual_pie_walk_points": 354,
+    "actual_pie_walk_total": 354,
+    "actual_pie_state": "passed",
+    "build": "Succeeded"
+  },
+  "screenshots": [
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v04\\Screenshots\\UE_01_Gate.png",
+      "bytes": 1296414
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v04\\Screenshots\\UE_05_Boss.png",
+      "bytes": 1106131
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v04\\Screenshots\\UE_09_AlternateOverview.png",
+      "bytes": 1068819
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v04\\Screenshots\\UE_10_PressureEntry.png",
+      "bytes": 1360008
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v04\\Screenshots\\UE_03_Alchemy.png",
+      "bytes": 1303420
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v04\\Screenshots\\UE_14_AlchemyElevated.png",
+      "bytes": 1419879
+    }
+  ],
+  "scope": "Scene whitebox iteration. Enemy silhouettes remain static; VR combat demo stays separate. No headset comfort test performed."
+}

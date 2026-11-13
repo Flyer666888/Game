@@ -1,0 +1,401 @@
+{
+  "task": "SteamVR through OpenXR Enhanced Input",
+  "date": "2026-10-15",
+  "authoring_only": true,
+  "runtime_hardware_validation": "Pending user VR play",
+  "context": "/Game/ReversedScale/Player/VR/Input/IMC_NilinVR.IMC_NilinVR",
+  "native_action_paths": {
+    "IA_VRMove": "/Game/ReversedScale/Player/VR/Input/IA_VRMove.IA_VRMove",
+    "IA_VRTurn": "/Game/ReversedScale/Player/VR/Input/IA_VRTurn.IA_VRTurn",
+    "IA_VRGuard": "/Game/ReversedScale/Player/VR/Input/IA_VRGuard.IA_VRGuard",
+    "IA_VRBladeQi": "/Game/ReversedScale/Player/VR/Input/IA_VRBladeQi.IA_VRBladeQi",
+    "IA_VRStart": "/Game/ReversedScale/Player/VR/Input/IA_VRStart.IA_VRStart",
+    "IA_VRReset": "/Game/ReversedScale/Player/VR/Input/IA_VRReset.IA_VRReset",
+    "IA_VRPause": "/Game/ReversedScale/Player/VR/Input/IA_VRPause.IA_VRPause",
+    "IA_VRTrackpadMove": "/Game/ReversedScale/Player/VR/Input/IA_VRTrackpadMove.IA_VRTrackpadMove",
+    "IA_VRTrackpadTurn": "/Game/ReversedScale/Player/VR/Input/IA_VRTrackpadTurn.IA_VRTrackpadTurn",
+    "IA_VRTrackpadMoveClick": "/Game/ReversedScale/Player/VR/Input/IA_VRTrackpadMoveClick.IA_VRTrackpadMoveClick",
+    "IA_VRTrackpadTurnClick": "/Game/ReversedScale/Player/VR/Input/IA_VRTrackpadTurnClick.IA_VRTrackpadTurnClick",
+    "IA_VRMoveRight": "/Game/ReversedScale/Player/VR/Input/IA_VRMoveRight.IA_VRMoveRight",
+    "IA_VRMoveForward": "/Game/ReversedScale/Player/VR/Input/IA_VRMoveForward.IA_VRMoveForward"
+  },
+  "actions": {
+    "IA_VRMove": {
+      "value_type": "AXIS2D",
+      "description": "Nilin left stick movement",
+      "trigger_when_paused": false
+    },
+    "IA_VRTurn": {
+      "value_type": "AXIS1D",
+      "description": "Nilin right stick snap turn",
+      "trigger_when_paused": false
+    },
+    "IA_VRGuard": {
+      "value_type": "BOOLEAN",
+      "description": "Nilin left trigger shield guard",
+      "trigger_when_paused": false
+    },
+    "IA_VRBladeQi": {
+      "value_type": "BOOLEAN",
+      "description": "Nilin right trigger blade qi",
+      "trigger_when_paused": false
+    },
+    "IA_VRStart": {
+      "value_type": "BOOLEAN",
+      "description": "Nilin start encounter",
+      "trigger_when_paused": false
+    },
+    "IA_VRReset": {
+      "value_type": "BOOLEAN",
+      "description": "Nilin restore checkpoint",
+      "trigger_when_paused": false
+    },
+    "IA_VRPause": {
+      "value_type": "BOOLEAN",
+      "description": "Nilin pause or resume encounter",
+      "trigger_when_paused": true
+    },
+    "IA_VRTrackpadMove": {
+      "value_type": "AXIS2D",
+      "description": "Nilin pressed left trackpad movement",
+      "trigger_when_paused": false
+    },
+    "IA_VRTrackpadTurn": {
+      "value_type": "AXIS1D",
+      "description": "Nilin pressed right trackpad snap turn",
+      "trigger_when_paused": false
+    },
+    "IA_VRTrackpadMoveClick": {
+      "value_type": "BOOLEAN",
+      "description": "Nilin left trackpad press gate",
+      "trigger_when_paused": false
+    },
+    "IA_VRTrackpadTurnClick": {
+      "value_type": "BOOLEAN",
+      "description": "Nilin right trackpad press gate",
+      "trigger_when_paused": false
+    },
+    "IA_VRMoveRight": {
+      "value_type": "AXIS1D",
+      "description": "Nilin HP left stick strafe",
+      "trigger_when_paused": false
+    },
+    "IA_VRMoveForward": {
+      "value_type": "AXIS1D",
+      "description": "Nilin HP left stick forward",
+      "trigger_when_paused": false
+    }
+  },
+  "mappings": [
+    {
+      "action": "IA_VRMove",
+      "key": "ValveIndex_Left_Thumbstick_2D",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRTurn",
+      "key": "ValveIndex_Right_Thumbstick_X",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRGuard",
+      "key": "ValveIndex_Left_Trigger_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRBladeQi",
+      "key": "ValveIndex_Right_Trigger_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRMove",
+      "key": "OculusTouch_Left_Thumbstick_2D",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRTurn",
+      "key": "OculusTouch_Right_Thumbstick_X",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRGuard",
+      "key": "OculusTouch_Left_Trigger_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRBladeQi",
+      "key": "OculusTouch_Right_Trigger_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRMove",
+      "key": "MixedReality_Left_Thumbstick_2D",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRTurn",
+      "key": "MixedReality_Right_Thumbstick_X",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRGuard",
+      "key": "MixedReality_Left_Trigger_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRBladeQi",
+      "key": "MixedReality_Right_Trigger_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRMove",
+      "key": "PICO_Left_Thumbstick_2D",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRTurn",
+      "key": "PICO_Right_Thumbstick_X",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRGuard",
+      "key": "PICO_Left_Trigger_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRBladeQi",
+      "key": "PICO_Right_Trigger_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "OculusTouch_Right_A_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "OculusTouch_Left_X_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRReset",
+      "key": "OculusTouch_Right_B_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRPause",
+      "key": "OculusTouch_Left_Y_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "PICO_Right_A_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "PICO_Left_X_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRReset",
+      "key": "PICO_Right_B_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRPause",
+      "key": "PICO_Left_Y_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "HPMixedRealityController_Right_A_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "HPMixedRealityController_Left_X_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRReset",
+      "key": "HPMixedRealityController_Right_B_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRPause",
+      "key": "HPMixedRealityController_Left_Y_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "ValveIndex_Right_A_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "ValveIndex_Left_A_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRReset",
+      "key": "ValveIndex_Right_B_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRPause",
+      "key": "ValveIndex_Left_B_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "Vive_Right_Menu_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRReset",
+      "key": "Vive_Right_Grip_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRPause",
+      "key": "Vive_Left_Menu_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRTrackpadMoveClick",
+      "key": "Vive_Left_Trackpad_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRTrackpadTurnClick",
+      "key": "Vive_Right_Trackpad_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRTrackpadMove",
+      "key": "Vive_Left_Trackpad_2D",
+      "chord_action": "IA_VRTrackpadMoveClick"
+    },
+    {
+      "action": "IA_VRTrackpadTurn",
+      "key": "Vive_Right_Trackpad_X",
+      "chord_action": "IA_VRTrackpadTurnClick"
+    },
+    {
+      "action": "IA_VRStart",
+      "key": "MixedReality_Right_Menu_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRReset",
+      "key": "MixedReality_Right_Grip_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRPause",
+      "key": "MixedReality_Left_Menu_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRTrackpadMoveClick",
+      "key": "MixedReality_Left_Trackpad_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRTrackpadTurnClick",
+      "key": "MixedReality_Right_Trackpad_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRTrackpadMove",
+      "key": "MixedReality_Left_Trackpad_2D",
+      "chord_action": "IA_VRTrackpadMoveClick"
+    },
+    {
+      "action": "IA_VRTrackpadTurn",
+      "key": "MixedReality_Right_Trackpad_X",
+      "chord_action": "IA_VRTrackpadTurnClick"
+    },
+    {
+      "action": "IA_VRGuard",
+      "key": "Vive_Left_Trigger_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRBladeQi",
+      "key": "Vive_Right_Trigger_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRMoveRight",
+      "key": "HPMixedRealityController_Left_Thumbstick_X",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRMoveForward",
+      "key": "HPMixedRealityController_Left_Thumbstick_Y",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRTurn",
+      "key": "HPMixedRealityController_Right_Thumbstick_X",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRGuard",
+      "key": "HPMixedRealityController_Left_Trigger_Click",
+      "chord_action": null
+    },
+    {
+      "action": "IA_VRBladeQi",
+      "key": "HPMixedRealityController_Right_Trigger_Click",
+      "chord_action": null
+    }
+  ],
+  "mapping_count": 53,
+  "optional_keys_skipped": [],
+  "created_assets": [
+    "/Game/ReversedScale/Player/VR/Input/IA_VRMove",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRTurn",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRGuard",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRBladeQi",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRStart",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRReset",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRPause",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRTrackpadMove",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRTrackpadTurn",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRTrackpadMoveClick",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRTrackpadTurnClick",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRMoveRight",
+    "/Game/ReversedScale/Player/VR/Input/IA_VRMoveForward",
+    "/Game/ReversedScale/Player/VR/Input/IMC_NilinVR"
+  ],
+  "openxr_registration": {
+    "config": "Config/DefaultInput.ini",
+    "section": "/Script/EnhancedInput.EnhancedInputDeveloperSettings",
+    "property": "DefaultMappingContexts",
+    "priority": 100,
+    "bAddImmediately": false,
+    "activation": "ANLVRPlayerCharacter adds the context when possessed",
+    "engine_source": "OpenXRInput.cpp BuildActions loads the default contexts before BuildEnhancedActions"
+  },
+  "input_type_notes": {
+    "move": "2D paired XR keys; X is strafe right, Y is forward; no axis inversion",
+    "hp_move": "Separate float actions; built-in HP plugin does not register a paired 2D key",
+    "vive_trackpad": "Trackpad movement and turn require their hand trackpad click action",
+    "turn": "Axis1D right thumbstick X or pressed right trackpad X, native pawn applies snap turn",
+    "system_button": "Unmapped; SteamVR reserved system controls stay with the runtime"
+  },
+  "engine_sources_reviewed": [
+    "Plugins/Runtime/OpenXR/Source/OpenXRInput/Private/OpenXRInput.cpp",
+    "Plugins/EnhancedInput/Source/EnhancedInput/Public/EnhancedInputDeveloperSettings.h",
+    "Plugins/EnhancedInput/Source/EnhancedInput/Public/InputMappingContext.h",
+    "Plugins/EnhancedInput/Source/EnhancedInput/Public/InputAction.h",
+    "Plugins/EnhancedInput/Source/EnhancedInput/Public/InputModifiers.h",
+    "Plugins/EnhancedInput/Source/EnhancedInput/Public/InputTriggers.h",
+    "Source/Runtime/InputCore/Private/InputCoreTypes.cpp",
+    "Plugins/Runtime/PICOController/Source/PICOController/Private/PICOController.cpp",
+    "Plugins/Runtime/HPMotionController/Source/HPMotionController/Private/HPMotionController.cpp"
+  ]
+}

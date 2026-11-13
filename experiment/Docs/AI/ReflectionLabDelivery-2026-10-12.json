@@ -1,0 +1,20 @@
+{
+  "module": "COMBAT-04 desktop implementation",
+  "date": "2026-10-12",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabReflection",
+  "launcher": "Run_ReflectionLab_Demo.cmd",
+  "build": "Succeeded; experimentEditor Win64 Development; exit 0",
+  "build_log": "Docs/AI/BuildLog-ReflectionLab-2026-10-12.txt",
+  "scene_report": "Docs/AI/ReflectionLabRuntimeScene-2026-10-12.json",
+  "screenshot": "Docs/AI/ReflectionLabFirstPerson.png",
+  "saved_assets": "Docs/AI/ReflectionLabSaved-2026-10-12.json",
+  "perfect_window_seconds": 0.18,
+  "reflection_limit": 2,
+  "reflection_identity": "Keep attack ID and original expiry; increment generation; switch source/owner/faction to defender.",
+  "reflection_movement": "Discard remaining travel in the reflection frame; continue the new direction next frame.",
+  "target_rule": "Visible living original source, otherwise legal target in a 50-degree cone within 2200cm, otherwise geometric reflection.",
+  "feedback_audio": ["S_Hit", "S_Block", "S_Parry"],
+  "initial_scene": "Player health/guard 100; player melee damage 10; blade qi damage 15; launcher initially off; original hit/death assets retained.",
+  "acceptance": "Manual combat input and real VR acceptance pending; no automated tests added or run.",
+  "current_background_session": "Original five-hour automation paused after its deadline; development resumed by a new user message."
+}

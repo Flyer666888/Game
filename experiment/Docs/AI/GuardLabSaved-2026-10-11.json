@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-11",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabGuard",
+  "previous_map": "/Game/ReversedScale/Maps/L_CombatLabMelee",
+  "game_mode": "/Game/ReversedScale/Player/BP_CombatLabGuardGameMode",
+  "melee_damage": 10,
+  "blade_qi_damage": 15,
+  "blade_qi_cooldown_seconds": 0.35,
+  "training_shot_damage": 10,
+  "launcher_position_cm": [
+    560,
+    -170,
+    0
+  ],
+  "launcher_default_firing": false,
+  "guard_max": 100,
+  "block_cost": 12,
+  "hold_drain_per_second": 6,
+  "regen_delay_seconds": 0.8,
+  "regen_per_second": 25,
+  "guard_break_seconds": 1.2,
+  "materials": [
+    "/Game/ReversedScale/Combat/Materials/M_MirrorGlass",
+    "/Game/ReversedScale/Combat/Materials/M_MirrorFrame",
+    "/Game/ReversedScale/Combat/Materials/M_BladeQi",
+    "/Game/ReversedScale/Combat/Materials/M_EnemyShot",
+    "/Game/ReversedScale/Combat/Materials/M_TrainingLauncher"
+  ],
+  "enemy_reactions": "Existing hit/death clips retained",
+  "scope": "Desktop projectile and basic guard slice; perfect parry/reflection and VR acceptance pending"
+}

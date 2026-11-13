@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-09",
+  "plan_sections": [
+    "7.3 contact contract",
+    "7.4 pause",
+    "7.5 collision",
+    "9 melee",
+    "21/22 task order"
+  ],
+  "task_ids": [
+    "CORE-01 gameplay integration",
+    "CORE-02 health/time subset",
+    "COMBAT-01 desktop adapter"
+  ],
+  "map": "/Game/ReversedScale/Maps/L_CombatLabMelee",
+  "build": {
+    "target": "experimentEditor Win64 Development",
+    "exit_code": 0,
+    "toolchain": "MSVC 14.44.35229 / Windows SDK 10.0.22621.0",
+    "log": "Docs/AI/BuildLog-CombatModule-Editor-latest.txt"
+  },
+  "implemented": [
+    "Vitals health, actual damage, protection interval, death events and reset.",
+    "Single resolver with identities, faction filtering, pause gating and per-swing target deduplication.",
+    "Root/mid/tip plus intermediate blade sweeps; world obstruction and tracking-relative speed gates.",
+    "Desktop windup/strike/recovery animation, hit marker, objective counter and controls HUD.",
+    "Two stationary 30 HP disciples; 30 melee damage; grounded standing idle and simple death presentation.",
+    "Esc/P pauses simulation and cancels swing; R clears encounter contacts, weapon history and target state.",
+    "Dead targets stop supplying eye-height measurements; last valid standing view height is retained."
+  ],
+  "scene_evidence": {
+    "scene_loaded": true,
+    "pawn": "/Script/experiment.NLDesktopPlayerCharacter",
+    "camera_cm": [
+      30.0,
+      -170.0,
+      147.3572998046875
+    ],
+    "weapon": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+    "attack_definition": "/Game/ReversedScale/Combat/DA_YueyaoMelee.DA_YueyaoMelee",
+    "blade_state": "<NLBladeSwingState.READY: 0>",
+    "enemies": [
+      {
+        "feet_cm": [
+          240.0,
+          -215.0,
+          0.0
+        ],
+        "health": 30.0,
+        "animation_time_seconds": 0.4574451446533203,
+        "body_profile": "NLEnemyBody"
+      },
+      {
+        "feet_cm": [
+          240.0,
+          -125.0,
+          0.0
+        ],
+        "health": 30.0,
+        "animation_time_seconds": 0.4574451446533203,
+        "body_profile": "NLEnemyBody"
+      }
+    ],
+    "scope": "Initial scene presentation only; combat input and acceptance are pending user play."
+  },
+  "user_play_status": "Pending",
+  "automated_tests": "Not added or run",
+  "pending_user_checks": [
+    "Walk into blade reach and left-click; each disciple should be defeated by one valid strike.",
+    "A sweep can hit both nearby disciples; holding the blade still or moving without a slash causes no damage.",
+    "Esc/P freezes the scene; resume does not create a hit.",
+    "R restores both targets and the player starting pose; repeat the scene."
+  ],
+  "deferred": [
+    "VR hand tracking and hardware input acceptance",
+    "Guard spending/regeneration and blocking",
+    "Projectiles and perfect parry/reflection",
+    "Enemy navigation/active attacks/director",
+    "Checkpoints, route transitions, waves and packaged build"
+  ],
+  "assets_needed_now": [],
+  "assets_for_next_batch": [
+    "One heart-protection mirror or compact round mirror",
+    "One enemy sword, also usable as a flying sword"
+  ],
+  "launch_process_id": 5552
+}

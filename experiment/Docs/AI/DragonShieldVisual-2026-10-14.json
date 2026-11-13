@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-14",
+  "mesh": "/Game/ReversedScale/Weapons/DragonShield/SM_DragonShield.SM_DragonShield",
+  "shield_world_transform": {
+    "location_cm": [
+      85.0,
+      -188.0,
+      130.81582489013672
+    ],
+    "quaternion_xyzw": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "hand_relative_transform": {
+    "location_cm": [
+      -12.96098,
+      0.0,
+      2.08902
+    ],
+    "quaternion_xyzw": [
+      0.0,
+      0.0,
+      0.7071067811865476,
+      0.7071067811865476
+    ],
+    "scale": [
+      1.0,
+      -1.0,
+      1.0
+    ]
+  },
+  "hand_bone_component_transform": {
+    "location_cm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_xyzw": [
+      0.0,
+      0.7071067811865476,
+      -0.7071067811865475,
+      1.5700924586837747e-16
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "ready": true,
+  "guard_active": false,
+  "real_guard_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+  "temporary_art_actor_count": 0,
+  "presentation_binding_temporarily_detached": true,
+  "screenshot": "Docs/AI/DragonShieldFirstPerson.png",
+  "scope": "Held mesh presentation only. GuardVisual pointer is restored after capture; no guard raise, inputs, collision edits, attacks, AI starts, forced resource changes or gameplay tests. External user input may still change guard normally."
+}

@@ -1,0 +1,39 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_CombatLabWuxiaFace",
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Face.SK_WuxiaMale_Face",
+  "shared_skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+  "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Anim_CSST.Wuxia_Anim_CSST",
+  "enemies": [
+    "Enemy_Melee_A",
+    "Enemy_Melee_B"
+  ],
+  "material_slots": [
+    {
+      "slot": "M_WuxiaMale_001",
+      "material": "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale.M_WuxiaMale"
+    },
+    {
+      "slot": "M_WuxiaMale_Skin",
+      "material": "/Game/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Skin.M_WuxiaMale_Skin"
+    }
+  ],
+  "texture_resolution": 4096,
+  "skin_normal_xy_scale": 0.55,
+  "skin_roughness_range": [
+    0.45,
+    0.75
+  ],
+  "skin_ao_range": [
+    0.75,
+    1.0
+  ],
+  "skin_metallic": 0.0,
+  "skin_specular": 0.35,
+  "scope": "Facial geometry, texture fidelity and stable head binding; existing gameplay",
+  "ambient_light": {
+    "cubemap": "/Engine/MapTemplates/Sky/DaylightAmbientCubemap",
+    "mobility": "Movable",
+    "intensity": 0.65
+  },
+  "skeletal_material_usage_saved": true
+}

@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-16",
+  "success": false,
+  "mesh_saved": false,
+  "mesh": "/Game/ReversedScale/Weapons/DragonShield/SM_DragonShield",
+  "tests_added_or_run": false,
+  "scope": "Refined shield static mesh import, original PBR material binding, LOD authoring and save only.",
+  "grip_metadata": {
+    "original_grip_center_cm": [
+      -5.160975456237793,
+      0.0,
+      -0.5609756112098694
+    ],
+    "refined_recognized_fields": [
+      {
+        "field": "grip_center_cm",
+        "value": [
+          -5.160975456237793,
+          0.0,
+          -0.5609756112098694
+        ]
+      }
+    ],
+    "refined_field_present": true,
+    "tolerance_cm": 0.05,
+    "note": "Metadata consistency only; imported mesh bounds do not locate a hidden grip feature."
+  },
+  "direction_metadata": [
+    {
+      "field": "direction",
+      "value": {
+        "front": "+X",
+        "up": "+Z",
+        "horizontal": "+Y"
+      }
+    }
+  ],
+  "source_fbx": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\ModelRefinement_20261016\\DragonShieldRefined.fbx",
+  "fbx_sha256": "1257baa560f9ca58dce6b0997e36cd45baf6240c94a05e6eb265a8d30f05453f",
+  "source_metadata": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\ModelRefinement_20261016\\DragonShieldRefined.json",
+  "metadata_sha256": "a67f8408469978ae43db536a520a8eb25fb75aa9007e0df275b2fb570e2f1630",
+  "metadata_keys": [
+    "archive_collection",
+    "authoring_blend",
+    "baseline_evaluated_triangles",
+    "bounds_cm",
+    "direction",
+    "dragon_face_geometry",
+    "excluded_hidden_geometry",
+    "export_uv_channels",
+    "face_degenerate_uv_polygons_preserved",
+    "fbx",
+    "fbx_path",
+    "fbx_sha256",
+    "geometry_changes",
+    "grip_center_cm",
+    "grip_fixed_center_source",
+    "grip_geometry_dimensions_cm",
+    "grip_geometry_source_bounds",
+    "images",
+    "limitations",
+    "materials",
+    "nominal_diameter_cm",
+    "original_source",
+    "original_source_sha256",
+    "original_source_unchanged",
+    "packed_images",
+    "pivot_cm",
+    "refined_evaluated_triangles",
+    "scale_cm_per_source_unit",
+    "source",
+    "source_front",
+    "source_object_names",
+    "source_parts",
+    "source_sha256",
+    "source_unchanged",
+    "source_uv_channels",
+    "triangles",
+    "untextured_degenerate_uv_faces_repaired",
+    "untextured_uv_loops_repaired_per_channel",
+    "vertices"
+  ],
+  "source_mesh_summary": [
+    {
+      "field": "triangles",
+      "value": 198548
+    },
+    {
+      "field": "vertices",
+      "value": 100723
+    },
+    {
+      "field": "nominal_diameter_cm",
+      "value": 46.0
+    }
+  ],
+  "material_package_hashes_before": {
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_00.uasset": "3daf2b9735eeade4834e5fdd82e397ab4b485cbc29975e8a15ffeb514722c7e8",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_01.uasset": "ef59c8e31229bf6af423819eff0823f3b0d81f88f65a98afd0bc9c56b04416d0",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_02.uasset": "2cb7cd994a4c1e512744e10f3763f10d2f9a301fe85c939c0510e44b91da29df",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_03.uasset": "6d63b6bdbf9e7b6a17c7e3c2652c7d214e2f9b5d5a2c08bb71647cc03cd3a615",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_04.uasset": "6eebacae91f4c70660f44a5c024fd60ed4a91c22903685be5556117d9e7c46bf",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_05.uasset": "e442f83f8b94a279c9fdb2869ba1d610c409e0279bacbb7db0a3297f426fb033",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_06.uasset": "7be4f3f456c57a4177aff451d38fa983a79bf476d2f9ec802191425f347d7176",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_07.uasset": "1b29f4625b736e3a1caa57f4f6170742f3d38f3337fb0094cbaf9ff29503bf97"
+  },
+  "imported_object_paths": [
+    "/Game/ReversedScale/Weapons/DragonShield/SM_DragonShield.SM_DragonShield"
+  ],
+  "bounds_cm": {
+    "origin": [
+      -1.253908395767212,
+      0.0,
+      0.22439002990722656
+    ],
+    "box_extent": [
+      5.449750185012817,
+      22.94390296936035,
+      23.168292999267578
+    ],
+    "dimensions": [
+      10.899500370025635,
+      45.8878059387207,
+      46.336585998535156
+    ],
+    "sphere_radius": 23.54074952901268
+  },
+  "material_slots": [
+    {
+      "index": 0,
+      "imported_name": "M_DragonShield_00",
+      "slot_name": "M_DragonShield_00",
+      "bound_name": "M_DragonShield_00",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_00.M_DragonShield_00"
+    },
+    {
+      "index": 1,
+      "imported_name": "M_DragonShield_01",
+      "slot_name": "M_DragonShield_01",
+      "bound_name": "M_DragonShield_01",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_01.M_DragonShield_01"
+    },
+    {
+      "index": 2,
+      "imported_name": "M_DragonShield_02",
+      "slot_name": "M_DragonShield_02",
+      "bound_name": "M_DragonShield_02",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_02.M_DragonShield_02"
+    },
+    {
+      "index": 3,
+      "imported_name": "M_DragonShield_03",
+      "slot_name": "M_DragonShield_03",
+      "bound_name": "M_DragonShield_03",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_03.M_DragonShield_03"
+    },
+    {
+      "index": 4,
+      "imported_name": "M_DragonShield_05",
+      "slot_name": "M_DragonShield_05",
+      "bound_name": "M_DragonShield_05",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_05.M_DragonShield_05"
+    },
+    {
+      "index": 5,
+      "imported_name": "M_DragonShield_06",
+      "slot_name": "M_DragonShield_06",
+      "bound_name": "M_DragonShield_06",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_06.M_DragonShield_06"
+    },
+    {
+      "index": 6,
+      "imported_name": "M_DragonShield_07",
+      "slot_name": "M_DragonShield_07",
+      "bound_name": "M_DragonShield_07",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_07.M_DragonShield_07"
+    }
+  ],
+  "error": "Traceback (most recent call last):\n  File \"C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Saved/Scripts/import_refined_shield_model.py\", line 265, in _shield_tick\n    _shield_author()\n  File \"C:/Users/21475/.codex/visualizations/2026/10/01/01a0f77b-1abb-70a0-9543-7d60afd089de/CombatProject/Saved/Scripts/import_refined_shield_model.py\", line 224, in _shield_author\n    raise RuntimeError('LOD reduction did not preserve both shield UV channels.')\nRuntimeError: LOD reduction did not preserve both shield UV channels.\n",
+  "material_package_hashes_after": {
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_00.uasset": "3daf2b9735eeade4834e5fdd82e397ab4b485cbc29975e8a15ffeb514722c7e8",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_01.uasset": "ef59c8e31229bf6af423819eff0823f3b0d81f88f65a98afd0bc9c56b04416d0",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_02.uasset": "2cb7cd994a4c1e512744e10f3763f10d2f9a301fe85c939c0510e44b91da29df",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_03.uasset": "6d63b6bdbf9e7b6a17c7e3c2652c7d214e2f9b5d5a2c08bb71647cc03cd3a615",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_04.uasset": "6eebacae91f4c70660f44a5c024fd60ed4a91c22903685be5556117d9e7c46bf",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_05.uasset": "e442f83f8b94a279c9fdb2869ba1d610c409e0279bacbb7db0a3297f426fb033",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_06.uasset": "7be4f3f456c57a4177aff451d38fa983a79bf476d2f9ec802191425f347d7176",
+    "Content/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_07.uasset": "1b29f4625b736e3a1caa57f4f6170742f3d38f3337fb0094cbaf9ff29503bf97"
+  },
+  "materials_unchanged": true
+}

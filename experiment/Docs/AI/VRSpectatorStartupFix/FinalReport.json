@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-23T20:54:56.5150995+08:00",
+  "project": "D:\\game design\\experiment\\experiment.uproject",
+  "buildResult": "Succeeded",
+  "buildLog": "D:\\game design\\experiment\\Docs\\AI\\VRSpectatorStartupFix\\Build.log",
+  "changes": [
+    "Show interactive game window normally at 1280x720",
+    "Set SingleEyeLetterboxed before Super::BeginPlay in VR pawn",
+    "Retain launcher ExecCmds mirror-mode fallback"
+  ],
+  "runtimeLog": "D:\\game design\\experiment\\Saved\\Logs\\VRPreview_20261023_205058_235.log",
+  "process": {
+    "id": 48160,
+    "responding": true,
+    "windowTitle": "experiment （64-位 Development PCD3D_SM6） ",
+    "windowHandle": 986110,
+    "startTime": "2026-10-23T20:50:58.2618695+08:00"
+  },
+  "earlySpectatorModeConfirmed": true,
+  "assertionCount": 0,
+  "gpuTimeoutCount": 0,
+  "lastReadiness": "[2026.10.23-12.54.49:582][125]LogTemp: VR readiness: possessed=1 hmd_enabled=1 pose=1 focus_required=1 focused=0 worn=Worn active=0 left_pose=0/0 right_pose=0/0 input=1/1 checkpoint=1 restore=0 paused=0 dead=0 recenter=1 auto_pending=1 countdown=0 frame_ok=0 encounter=Ready encounter_paused=0 wave_restore=0 alive=0 checkpoint_error=None encounter_error=None hint=VR APP UNFOCUSED: RETURN TO GAME FROM STEAMVR",
+  "acceptance": "Startup and map load verified from live process and log. Headset view and controller gameplay await user confirmation; SteamVR focus remains outside game."
+}

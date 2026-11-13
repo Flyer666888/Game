@@ -1,0 +1,103 @@
+Log started at 10/08/2026 19:28:28 (2026-10-08T11:28:28Z)
+Resolved project argument C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\ToolchainProbe\ToolchainProbe.uproject to C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\ToolchainProbe\ToolchainProbe.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No project scope config file at C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\ToolchainProbe\Saved\UnrealBuildTool\BuildConfiguration.xml. Creating default.
+Reading configuration file from: C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\ToolchainProbe\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\21475\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\MSVC-UBT-Validation.log
+
+Setting temp directory to 'C:\Users\21475\AppData\Local\Temp\UnrealBuildTool\d662bf54'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: D:\浏览器下载\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll ToolchainProbeEditor Win64 Development -Project=C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\ToolchainProbe\ToolchainProbe.uproject -SkipBuild -NoHotReloadFromIDE -NoUBA -WaitMutex -Log=C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\MSVC-UBT-Validation.log
+Determining max actions to execute in parallel (24 physical cores, 24 logical cores)
+  Executing up to 24 processes, one per physical core
+  Requested 1.5 GB memory per action, 31.73 GB available: limiting max parallel actions to 21
+Creating makefile for ToolchainProbeEditor (no existing makefile)
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Skipping D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Compiling C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\ToolchainProbe\Intermediate\Build\BuildRules\ToolchainProbeModuleRules.dll: Assembly does not exist
+Compiler: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe
+Linker: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Library Manager: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe
+Resource Converter: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cvtres.exe
+Using EngineIncludeOrderVersion.Unreal5_8 for target ToolchainProbeEditor.Target.cs
+Building UnrealEditor - ToolchainProbeEditor - Win64 - Development
+VerseVMBytecodeGenerator.Generate, generating CPP headers in: 'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodeOps.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodesAndCaptures.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMMakeCapturesFuncs.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMCaptureSwitch.gen.h'
+Found 5 shared PCH headers (listed in order of preference):
+	UnrealEd
+	Engine
+	Slate
+	CoreUObject
+	Core
+Parsing headers for ToolchainProbeEditor
+  Running Internal UnrealHeaderTool C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\ToolchainProbe\ToolchainProbe.uproject C:\Users\21475\.codex\visualizations\2026\10\01\01a0f77b-1abb-70a0-9543-7d60afd089de\ToolchainProbe\Intermediate\Build\Win64\ToolchainProbeEditor\ToolchainProbeEditor.uhtmanifest -WarningsAsErrors -installed
+UHT compiled-in object format Default
+Step - Parse Headers
+Reading engine version from file: D:\浏览器下载\UE_5.8\Engine\Source\Runtime\Launch\Resources\Version.h
+Got engine version 5.8.2
+Step - Populate symbol table
+Step - Exports
+       Exporter Stats skipped
+       Exporter Json skipped
+       Running exporter CodeGen
+UHT processed ToolchainProbeEditor in 3.0392472 seconds (0 generated files written)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.898 Main
+   0.041          [  0.041]  +0.299 Apply XmlConfig
+   0.362          [  0.362]  +0.167 AddTelemetry
+   0.570          [  0.570]  +0.327 RegisterPlatforms
+[  0.898]  +0.285 <unknown>
+[  1.183]  +0.064 ParseCommandLine
+[  1.391]  +0.071 EngineRulesPlugins
+[  1.470]  +0.032 EngineRulesFetchDirs
+[  1.520]  +0.027 EngineRulesAssembly
+[  1.548]  +0.004 ProgramRulesAssembly
+[  1.552]  +6.040 ProjectRulesAssembly
+[  7.593]  +0.394 CreateTargetRules
+[  8.119]  +0.007 CppDependencyCache
+[  8.149]  +6.241 ToolchainProbeEditor Win64 Development
+   8.149          [  0.000]  +2.567 <unknown>
+  10.716          [  2.567]  +1.491 UHTModules
+  12.208          [  4.059]  +0.240 <unknown>
+  12.448          [  4.299]  +0.424 UHTManifest
+  12.873          [  4.724]  +3.053 UHT
+  12.873             4.724          [  0.000]  +1.491 <unknown>
+  14.364             6.215          [  1.491]  +0.000 WaitOnWrites
+  14.391             6.242          [  1.517]  +0.165 SavingMakefile
+  14.556             6.407          [  1.683]  +1.370 <unknown>
+[ 14.390]  +1.542 <unknown>
+[ 15.932]  +0.048 UHTTimestamps
+[ 15.982]  +0.200 Writing Target Metadata
+[ 16.186]  +0.001 DisconnectCache
+[ 16.194]  +0.001 SaveCasTable
+[ 16.203]  +0.141 Saving caches
+[ 16.346]  +0.007 TelemetryService.FlushEvents
+[ 16.356]
+
+Result: Succeeded
+Total execution time: 16.36 seconds

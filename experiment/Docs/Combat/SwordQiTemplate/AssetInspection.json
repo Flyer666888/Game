@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-22T20:14:10.911759",
+  "source": "UE 5.8 saved assets and native class defaults",
+  "hardware_playtest": false,
+  "default_vr_pawn": "/Script/experiment.NLVRPlayerCharacter",
+  "native_defaults": {
+    "blade_qi_speed_cm_per_sec": 1200.0,
+    "blade_qi_radius_cm": 5.0,
+    "blade_qi_range_cm": 4800.0,
+    "blade_qi_muzzle_offset_cm": 23.0,
+    "blade_qi_input_buffer_seconds": 0.25,
+    "blade_qi_minimum_swing_speed_cm_per_sec": 220.0
+  },
+  "projectile_class": "/Script/experiment.NLCombatProjectile",
+  "attack": {
+    "asset": "/Game/ReversedScale/Combat/DA_PlayerBladeQi.DA_PlayerBladeQi",
+    "id": "Attack.Player.BladeQi",
+    "damage": 15.0,
+    "cooldown_seconds": 0.3499999940395355
+  },
+  "right_trigger_bindings": [
+    {
+      "action": "/Game/ReversedScale/Player/VR/Input/IA_VRBladeQi.IA_VRBladeQi",
+      "key": "ValveIndex_Right_Trigger_Click"
+    },
+    {
+      "action": "/Game/ReversedScale/Player/VR/Input/IA_VRBladeQi.IA_VRBladeQi",
+      "key": "OculusTouch_Right_Trigger_Click"
+    },
+    {
+      "action": "/Game/ReversedScale/Player/VR/Input/IA_VRBladeQi.IA_VRBladeQi",
+      "key": "MixedReality_Right_Trigger_Click"
+    },
+    {
+      "action": "/Game/ReversedScale/Player/VR/Input/IA_VRBladeQi.IA_VRBladeQi",
+      "key": "PICO_Right_Trigger_Click"
+    },
+    {
+      "action": "/Game/ReversedScale/Player/VR/Input/IA_VRBladeQi.IA_VRBladeQi",
+      "key": "Vive_Right_Trigger_Click"
+    },
+    {
+      "action": "/Game/ReversedScale/Player/VR/Input/IA_VRBladeQi.IA_VRBladeQi",
+      "key": "HPMixedRealityController_Right_Trigger_Click"
+    }
+  ],
+  "success": true
+}

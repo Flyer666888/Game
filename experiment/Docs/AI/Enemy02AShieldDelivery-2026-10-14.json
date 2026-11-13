@@ -1,0 +1,915 @@
+{
+  "date": "2026-10-14",
+  "generated_utc": "2026-10-14T10:38:51.709730+00:00",
+  "project": "ReversedScale / 逆鳞",
+  "task": "ENEMY-02A + user-provided Dragon Shield integration",
+  "status": "Compiled_AssetsSaved_InitialPresentationReviewed_AwaitingUserPlay",
+  "scope": "ENEMY-02A only; ENEMY-02B Guard Captain is not implemented in this batch.",
+  "demo": {
+    "launcher": "Run_Mixed_Demo.cmd",
+    "map": "/Game/ReversedScale/Maps/L_CombatLabMixed",
+    "process_id_at_delivery": 49688,
+    "process_evidence": "Docs/AI/MixedDemoProcess-2026-10-14.json",
+    "controls": "WASD/mouse; G start/cancel; R latest entry then G; P/Esc pause; LMB slash10; RMB guard; E bladeqi15",
+    "packaged_standalone_exe": false,
+    "requirements": "Installed local UE5.8, current project, and referenced original/base project assets."
+  },
+  "mixed_encounter": {
+    "date": "2026-10-13",
+    "task": "ENEMY02A",
+    "map": "/Game/ReversedScale/Maps/L_CombatLabMixed",
+    "source_map_preserved": "/Game/ReversedScale/Maps/L_CombatLabCheckpoint",
+    "game_mode": "/Game/ReversedScale/Player/BP_CombatLabSwordDuelGameMode.BP_CombatLabSwordDuelGameMode_C",
+    "player_starts": [
+      {
+        "label": "PlayerStart_CombatLabLite",
+        "location_cm": [
+          30.0,
+          -170.0,
+          90.4
+        ]
+      }
+    ],
+    "controller": {
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.NLEncounterController_1",
+      "level_id": "Level.CombatLab.Mixed",
+      "encounter_id": "Encounter.MixedDisciples",
+      "content_revision": "MixedDisciples.ENEMY02A.1",
+      "checkpoint_enabled": true,
+      "seed": 20261013,
+      "state_before_start": "<NLEncounterState.READY: 0>",
+      "spawned_count_before_start": 0,
+      "alive_count_before_start": 0
+    },
+    "waves": [
+      {
+        "asset": "/Game/ReversedScale/Encounters/DA_WaveMixed01.DA_WaveMixed01",
+        "wave_id": "Wave.Mixed.01",
+        "planned_count": 2,
+        "max_alive": 3,
+        "entries": [
+          {
+            "entry_id": "SwordDisciple",
+            "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+            "count": 1,
+            "spawn_point_ids": [
+              "MixedSword01",
+              "MixedSword02",
+              "MixedSword03"
+            ]
+          },
+          {
+            "entry_id": "TalismanDisciple",
+            "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C",
+            "count": 1,
+            "spawn_point_ids": [
+              "MixedCaster01",
+              "MixedCaster02"
+            ]
+          }
+        ]
+      },
+      {
+        "asset": "/Game/ReversedScale/Encounters/DA_WaveMixed02.DA_WaveMixed02",
+        "wave_id": "Wave.Mixed.02",
+        "planned_count": 3,
+        "max_alive": 3,
+        "entries": [
+          {
+            "entry_id": "SwordDisciple",
+            "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+            "count": 2,
+            "spawn_point_ids": [
+              "MixedSword01",
+              "MixedSword02",
+              "MixedSword03"
+            ]
+          },
+          {
+            "entry_id": "TalismanDisciple",
+            "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C",
+            "count": 1,
+            "spawn_point_ids": [
+              "MixedCaster01",
+              "MixedCaster02"
+            ]
+          }
+        ]
+      }
+    ],
+    "authored_wave_counts": [
+      2,
+      3
+    ],
+    "authored_total_planned_count": 5,
+    "maximum_alive": 3,
+    "auto_start": false,
+    "spawn_points": [
+      {
+        "spawn_point_id": "MixedSword01",
+        "capsule_world_transform": {
+          "location_cm": [
+            430.0,
+            -280.0,
+            90.4
+          ],
+          "rotation_quaternion_xyzw": [
+            0.0,
+            -0.0,
+            0.9910109466938141,
+            0.13378080405286139
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "spawn_point_id": "MixedSword02",
+        "capsule_world_transform": {
+          "location_cm": [
+            620.0,
+            40.0,
+            90.4
+          ],
+          "rotation_quaternion_xyzw": [
+            -0.0,
+            0.0,
+            -0.985419355555815,
+            0.17014315647701556
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "spawn_point_id": "MixedSword03",
+        "capsule_world_transform": {
+          "location_cm": [
+            470.0,
+            190.0,
+            90.4
+          ],
+          "rotation_quaternion_xyzw": [
+            -0.0,
+            0.0,
+            -0.941795420028673,
+            0.3361865357402277
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "spawn_point_id": "MixedCaster01",
+        "capsule_world_transform": {
+          "location_cm": [
+            900.0,
+            -280.0,
+            90.4
+          ],
+          "rotation_quaternion_xyzw": [
+            0.0,
+            -0.0,
+            0.9980234093651813,
+            0.06284325229568904
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "spawn_point_id": "MixedCaster02",
+        "capsule_world_transform": {
+          "location_cm": [
+            950.0,
+            220.0,
+            90.4
+          ],
+          "rotation_quaternion_xyzw": [
+            -0.0,
+            0.0,
+            -0.979972143680697,
+            0.19913462182618974
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ],
+    "spawn_transform_semantics": "World capsule centre; exact authored Z=90.4 cm, no extra height offset.",
+    "markers": [
+      {
+        "point_id": "MixedSword01",
+        "meaning": "剑士出生区",
+        "color": "blue",
+        "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.StaticMeshActor_10",
+        "location_cm": [
+          430.0,
+          -280.0,
+          0.65
+        ],
+        "collision_profile": "NoCollision",
+        "affects_navigation": false
+      },
+      {
+        "point_id": "MixedSword02",
+        "meaning": "剑士出生区",
+        "color": "blue",
+        "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.StaticMeshActor_11",
+        "location_cm": [
+          620.0,
+          40.0,
+          0.65
+        ],
+        "collision_profile": "NoCollision",
+        "affects_navigation": false
+      },
+      {
+        "point_id": "MixedSword03",
+        "meaning": "剑士出生区",
+        "color": "blue",
+        "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.StaticMeshActor_12",
+        "location_cm": [
+          470.0,
+          190.0,
+          0.65
+        ],
+        "collision_profile": "NoCollision",
+        "affects_navigation": false
+      },
+      {
+        "point_id": "MixedCaster01",
+        "meaning": "符箓弟子出生区",
+        "color": "green",
+        "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.StaticMeshActor_13",
+        "location_cm": [
+          900.0,
+          -280.0,
+          0.65
+        ],
+        "collision_profile": "NoCollision",
+        "affects_navigation": false
+      },
+      {
+        "point_id": "MixedCaster02",
+        "meaning": "符箓弟子出生区",
+        "color": "green",
+        "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.StaticMeshActor_14",
+        "location_cm": [
+          950.0,
+          220.0,
+          0.65
+        ],
+        "collision_profile": "NoCollision",
+        "affects_navigation": false
+      }
+    ],
+    "removed_inherited_actors": [
+      {
+        "label": "Encounter_CheckpointTrial",
+        "class": "/Script/experiment.NLEncounterController"
+      },
+      {
+        "label": "Wave01_SpawnArea_01",
+        "class": "/Script/Engine.StaticMeshActor"
+      },
+      {
+        "label": "Wave01_SpawnArea_02",
+        "class": "/Script/Engine.StaticMeshActor"
+      },
+      {
+        "label": "Wave01_SpawnArea_03",
+        "class": "/Script/Engine.StaticMeshActor"
+      },
+      {
+        "label": "Wave01_SpawnArea_04",
+        "class": "/Script/Engine.StaticMeshActor"
+      },
+      {
+        "label": "Wave01_SpawnArea_05",
+        "class": "/Script/Engine.StaticMeshActor"
+      },
+      {
+        "label": "CheckpointTrial_Info",
+        "class": "/Script/Engine.TextRenderActor"
+      }
+    ],
+    "navigation_bounds_preserved": [
+      {
+        "actor": "/Game/ReversedScale/Maps/L_CombatLabMixed.L_CombatLabMixed:PersistentLevel.NavMeshBoundsVolume_0",
+        "origin_cm": [
+          300.0,
+          0.0,
+          100.0
+        ],
+        "extent_cm": [
+          1500.0,
+          1200.0,
+          300.0
+        ]
+      }
+    ],
+    "initial_authored_enemy_count": 0,
+    "sword_prefab_preserved": {
+      "generated_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+      "refs": {
+        "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+        "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+        "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+        "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+        "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+        "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded"
+      },
+      "mesh_component_asset": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+      "mesh_component_transform": {
+        "location_cm": [
+          0.0,
+          0.0,
+          -88.0
+        ],
+        "rotation_quaternion_xyzw": [
+          -0.0,
+          0.0,
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "sword_mesh": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+      "sword_grip_transform": {
+        "location_cm": [
+          -1.875828504562378,
+          -8.074670791625977,
+          -5.046912670135498
+        ],
+        "rotation_quaternion_xyzw": [
+          0.8239122869325681,
+          -0.5253214318833186,
+          -0.16701308975309817,
+          0.13157721876042566
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "sword_component_transform": {
+        "location_cm": [
+          -1.875828504562378,
+          -8.074670791625977,
+          -5.046912670135498
+        ],
+        "rotation_quaternion_xyzw": [
+          0.8239122869325681,
+          -0.5253214318833184,
+          -0.16701308975309798,
+          0.13157721876042577
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "grip_morph_name": "EnemyGrip_R",
+      "grip_morph_weight": 1.0,
+      "blade_definition": "/Game/ReversedScale/Combat/DA_EnemySword.DA_EnemySword"
+    },
+    "caster_prefab": {
+      "blueprint": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple",
+      "generated_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C",
+      "parent_class": "/Script/experiment.NLEnemyCharacter",
+      "role": "<NLEnemyRole.TALISMAN_CASTER: 1>",
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+      "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+      "cast_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman.Wuxia_Cast_Talisman",
+      "show_sword": false,
+      "grip_morph_weight": 0.0,
+      "definition": "/Game/ReversedScale/Combat/DA_EnemyTalisman.DA_EnemyTalisman",
+      "brain": {
+        "attack_range": 1100.0,
+        "minimum_ranged_distance": 450.0,
+        "preferred_ranged_distance": 700.0,
+        "telegraph_seconds": 1.100000023841858,
+        "attack_seconds": 0.15000000596046448,
+        "recover_seconds": 2.0,
+        "projectile_speed": 700.0
+      },
+      "target_aim_offset_cm": [
+        0.0,
+        0.0,
+        40.0
+      ],
+      "muzzle_socket": "hand_l"
+    },
+    "attack_definition": {
+      "stable_id": "Attack.Enemy.TalismanDisciple",
+      "damage": 10.0,
+      "telegraph_seconds": 1.100000023841858,
+      "active_window_seconds": 0.15000000596046448,
+      "cooldown_seconds": 2.0,
+      "can_be_blocked": true,
+      "can_be_parried": false,
+      "can_be_reflected": true,
+      "can_be_interrupted": true,
+      "hit_feedback_tag": "Combat.Hit.EnemyTalisman"
+    },
+    "materials": [
+      "/Game/ReversedScale/Combat/Materials/M_TalismanPaper.M_TalismanPaper",
+      "/Game/ReversedScale/Combat/Materials/M_TalismanCast.M_TalismanCast"
+    ],
+    "scope": "Only independent map, caster prefab, two wave definitions, attack definition, two materials and reports. No gameplay inputs, starts, retries, damage, disk checkpoint writes or automated tests."
+  },
+  "initial_runtime_scene": {
+    "date": "2026-10-14",
+    "task": "ENEMY02A",
+    "map": "/Game/ReversedScale/Maps/L_CombatLabMixed",
+    "controller_state": "<NLEncounterState.READY: 0>",
+    "checkpoint_enabled": true,
+    "entry_wave_index": 0,
+    "wave_index": -1,
+    "wave_count": 2,
+    "planned_count": 5,
+    "spawned_count": 0,
+    "defeated_count": 0,
+    "alive_count": 0,
+    "initial_seed": 20261013,
+    "random_state": 502555229,
+    "level_id": "Level.CombatLab.Mixed",
+    "encounter_id": "Encounter.MixedDisciples",
+    "content_revision": "MixedDisciples.ENEMY02A.1",
+    "authored_wave_counts": [
+      2,
+      3
+    ],
+    "authored_entries": [
+      [
+        {
+          "entry_id": "SwordDisciple",
+          "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+          "count": 1
+        },
+        {
+          "entry_id": "TalismanDisciple",
+          "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C",
+          "count": 1
+        }
+      ],
+      [
+        {
+          "entry_id": "SwordDisciple",
+          "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+          "count": 2
+        },
+        {
+          "entry_id": "TalismanDisciple",
+          "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C",
+          "count": 1
+        }
+      ]
+    ],
+    "initial_runtime_enemy_count": 0,
+    "initial_enemy_roles": [],
+    "has_memory_checkpoint": true,
+    "persistence_status": "InMemoryOnly",
+    "persistence_failure": "None",
+    "run_id": "<Struct 'Guid' (0x000002687F3F0B60) {}>",
+    "defeat_event_ledger_count": 0,
+    "health": 100.0,
+    "guard": 100.0,
+    "player_origin_cm": [
+      30.0,
+      -170.0,
+      90.4
+    ],
+    "camera_cm": [
+      30.0,
+      -170.0,
+      146.81582489013672
+    ],
+    "melee_damage": 10.0,
+    "shield_mesh": "/Game/ReversedScale/Weapons/DragonShield/SM_DragonShield.SM_DragonShield",
+    "left_hand_mesh": "/Game/XRMannequins/Meshes/SKM_MannyXR_right.SKM_MannyXR_right",
+    "screenshot": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\CombatProject\\Docs\\AI\\MixedLabFirstPerson.png",
+    "scope": "Only reads the initial running presentation and requests a screenshot. No Start, R/retry, pause, movement, attack, damage, disk Save, seed replay, enemy spawn or automated gameplay test. Normal startup may read a scoped checkpoint."
+  },
+  "live_scene_observation_note": "The agent sent no gameplay input. External/user input may raise guard or spend guard normally; these observed resources are not an immutable startup preset.",
+  "talisman_implementation": {
+    "role": "TalismanCaster",
+    "warning_seconds": 1.1,
+    "active_seconds": 0.15,
+    "recover_seconds": 2,
+    "projectile_speed_cm_per_second": 700,
+    "range_cm": [
+      450,
+      1100
+    ],
+    "preferred_range_cm": 700,
+    "damage": 10,
+    "aim": "Locked at warning start; repeated LOS validation; hand_l muzzle; no homing.",
+    "cast": "Authored restrained left-arm gesture on existing 23-bone skeleton; planted root/legs, no damage notifies.",
+    "director": "Shared attack GUID, ranged reservation, immutable warning aim and projected travel time.",
+    "lifecycle": "One release per valid attack window; owned/reflected shots cleaned at wave boundary/cancel/retry/failure; local projectile pause adjusts expiry."
+  },
+  "checkpoint_extension": {
+    "scope_key_ids": [
+      "Level.CombatLab.Mixed",
+      "Encounter.MixedDisciples",
+      "MixedDisciples.ENEMY02A.1",
+      "Wave.Mixed.01",
+      "Wave.Mixed.02"
+    ],
+    "key_encoding": "lower-case length-prefixed stable IDs, UTF-8",
+    "hash_algorithm": "SHA1 namespace only, not a cryptographic integrity guarantee",
+    "current": "Saved/SaveGames/NilinCheckpoint/Checkpoint.E4D63A48E3583F41A17DCBB77176A9BD088AD010.current.nlcp",
+    "backup": "Saved/SaveGames/NilinCheckpoint/Checkpoint.E4D63A48E3583F41A17DCBB77176A9BD088AD010.backup.nlcp",
+    "legacy_current": "Saved/SaveGames/NilinCheckpoint/Checkpoint.current.nlcp",
+    "legacy_backup": "Saved/SaveGames/NilinCheckpoint/Checkpoint.backup.nlcp",
+    "legacy_slot_preserved": true,
+    "new_node_example": "Node.Encounter.MixedDisciples.Wave.01",
+    "new_milestone_example": "Milestone.Encounter.MixedDisciples.Wave.01"
+  },
+  "progression_limit": "Context-specific defeat/node/checkpoint/milestone identities; no actual currency awards, upgrades or Burst mechanics.",
+  "shield": {
+    "source": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\Shield_Dragon_UE\\Jade_Dragon_Shield_Refined.blend",
+    "preserved_source": "ArtSource/DragonShield/Source/Jade_Dragon_Shield_Refined.blend",
+    "source_sha256": "12501cd53192416d293547b1fb213018ba2ae7a289df846cc81d0d725c486c5b",
+    "source_and_copy_hash_match": true,
+    "original_blend_preserved": true,
+    "mesh": "/Game/ReversedScale/Weapons/DragonShield/SM_DragonShield.SM_DragonShield",
+    "nominal_diameter_cm": 46.0,
+    "direction": {
+      "front": "+X",
+      "up": "+Z",
+      "horizontal": "+Y"
+    },
+    "export_grip_center_cm": [
+      -5.160975456237793,
+      0.0,
+      -0.5609756112098694
+    ],
+    "lod_count": 4,
+    "lod_triangle_counts": [
+      167872,
+      83936,
+      41967,
+      16788
+    ],
+    "fbx_source_triangle_count": 184160,
+    "lod0_triangle_note": "UE degenerate removal reduced source184160 triangles to167872 at imported LOD0.",
+    "material_slots": [
+      {
+        "index": 0,
+        "slot_name": "M_DragonShield_00",
+        "imported_name": "M_DragonShield_00",
+        "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_00.M_DragonShield_00"
+      },
+      {
+        "index": 1,
+        "slot_name": "M_DragonShield_01",
+        "imported_name": "M_DragonShield_01",
+        "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_01.M_DragonShield_01"
+      },
+      {
+        "index": 2,
+        "slot_name": "M_DragonShield_02",
+        "imported_name": "M_DragonShield_02",
+        "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_02.M_DragonShield_02"
+      },
+      {
+        "index": 3,
+        "slot_name": "M_DragonShield_03",
+        "imported_name": "M_DragonShield_03",
+        "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_03.M_DragonShield_03"
+      },
+      {
+        "index": 4,
+        "slot_name": "M_DragonShield_05",
+        "imported_name": "M_DragonShield_05",
+        "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_05.M_DragonShield_05"
+      },
+      {
+        "index": 5,
+        "slot_name": "M_DragonShield_06",
+        "imported_name": "M_DragonShield_06",
+        "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_06.M_DragonShield_06"
+      },
+      {
+        "index": 6,
+        "slot_name": "M_DragonShield_07",
+        "imported_name": "M_DragonShield_07",
+        "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_07.M_DragonShield_07"
+      }
+    ],
+    "textures": [
+      {
+        "source": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\T_DragonShield_Reference.jpg",
+        "asset": "/Game/ReversedScale/Weapons/DragonShield/Textures/T_DragonShield_07_BaseColor.T_DragonShield_07_BaseColor",
+        "role": "base_color",
+        "srgb": true,
+        "flip_green_channel": false,
+        "normal_convention": null
+      },
+      {
+        "source": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\T_DragonShield_ReferenceNormal.png",
+        "asset": "/Game/ReversedScale/Weapons/DragonShield/Textures/T_DragonShield_07_Normal.T_DragonShield_07_Normal",
+        "role": "normal",
+        "srgb": false,
+        "flip_green_channel": true,
+        "normal_convention": "Blender OpenGL to Unreal DirectX"
+      }
+    ],
+    "material_approximations": "Seven procedural source materials use constant linear PBR approximations; textured dragon face retained.",
+    "texture_uvs": "Base color UV0; normal UV1; OpenGL normal green flipped to DirectX convention.",
+    "hand": {
+      "mesh": "/Game/XRMannequins/Meshes/SKM_MannyXR_right.SKM_MannyXR_right",
+      "existing_right_hand_mirrored_y": true,
+      "animation": "/Game/ReversedScale/Player/Animations/A_Yueyao_Grip_Right",
+      "grip_relative_transform": {
+        "location_cm": [
+          -12.96098,
+          0.0,
+          2.08902
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "scale": [
+          1.0,
+          -1.0,
+          1.0
+        ]
+      },
+      "calibration": "Grip center/axis derived from existing hand_r pose and original held-weapon local grip; horizontal rear handle.",
+      "sleeve": "Cylinder sleeve aligns to left wrist and authored elbow; follows guard pivot visibility.",
+      "left_glove_all_material_slots_unified": true
+    },
+    "guard": {
+      "behavior_changed": false,
+      "collision_owner": "Existing GuardCollision BoxComponent",
+      "unscaled_box_half_extent_cm": [
+        3,
+        24,
+        28
+      ],
+      "collision_renderer_hidden_after_recursive_visual_update": true,
+      "collision_query_settings_changed": false,
+      "visual_only_mesh": true,
+      "coverage_limit": "Existing rectangular collision coarsely covers the circular46cm visual; final acceptance remains manual."
+    },
+    "editor_author": {
+      "date": "2026-10-14",
+      "asset": "DragonShield",
+      "success": true,
+      "scope": "Asset import and LOD authoring only; no gameplay or tests."
+    },
+    "visual_capture": {
+      "date": "2026-10-14",
+      "mesh": "/Game/ReversedScale/Weapons/DragonShield/SM_DragonShield.SM_DragonShield",
+      "shield_world_transform": {
+        "location_cm": [
+          85.0,
+          -188.0,
+          130.81582489013672
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "hand_relative_transform": {
+        "location_cm": [
+          -12.96098,
+          0.0,
+          2.08902
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "scale": [
+          1.0,
+          -1.0,
+          1.0
+        ]
+      },
+      "hand_bone_component_transform": {
+        "location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.7071067811865476,
+          -0.7071067811865475,
+          1.5700924586837747e-16
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "ready": true,
+      "guard_active": false,
+      "real_guard_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "temporary_art_actor_count": 0,
+      "presentation_binding_temporarily_detached": true,
+      "screenshot": "Docs/AI/DragonShieldFirstPerson.png",
+      "scope": "Held mesh presentation only. GuardVisual pointer is restored after capture; no guard raise, inputs, collision edits, attacks, AI starts, forced resource changes or gameplay tests. External user input may still change guard normally."
+    }
+  },
+  "preserved": [
+    "Wuxia Combat mesh, refined face/feet",
+    "Wuxia_Death_Grounded and safe death transition",
+    "EnemyGrip_R=1 sword grip and original weapon hilt",
+    "player melee10 and bladeqi15",
+    "old SwordDuel/Waves/Checkpoint maps and legacy checkpoint slot"
+  ],
+  "compilation": {
+    "target": "experimentEditor Win64 Development",
+    "result": "Succeeded",
+    "exit_code": 0,
+    "toolchain": "MSVC14.44.35229 / SDK10.0.22621.0",
+    "logs": [
+      "Docs/AI/BuildLog-Shield-Polish-2026-10-14.txt",
+      "Docs/AI/BuildLog-Shield-2026-10-14.txt",
+      "Docs/AI/BuildLog-Enemy02A-2026-10-13.txt"
+    ]
+  },
+  "asset_authoring": {
+    "mixed_commandlet_result": "Succeeded",
+    "mixed_commandlet_exit_code": 0,
+    "mixed_log": "Docs/AI/MixedLabAuthor-2026-10-14.log",
+    "shield_full_editor_success": true,
+    "shield_asset_save_result": "Passed",
+    "shield_editor_report": "ArtSource/DragonShield/DragonShieldEditorAuthor.json",
+    "shield_editor_log": "Docs/AI/DragonShieldEditorImport-2026-10-14.log",
+    "shield_editor_process_exit_code": 3,
+    "shield_editor_shutdown_error": {
+      "phase": "Shutdown after successful asset save and LOD authoring",
+      "message": "Object is not packaged: ModeManagerInteractiveToolsContext None",
+      "asset_availability_recovery": "Assets load in a fresh game process for current initial-presentation review.",
+      "shutdown_error_resolution": "Unconfirmed. Editor wrapper now defers startup/quit but was not reexecuted; exit3 remains actual authoring-process evidence."
+    },
+    "shield_import_warnings": "Near-zero tangent/binormal FBX warnings remain after front-face UV corrections; final appearance awaits user acceptance.",
+    "no_zero_error_process_claim": true
+  },
+  "validation": {
+    "initial_presentation": "Reviewed by root before running this finalizer",
+    "presentation_review": {
+      "date": "2026-10-14",
+      "scene": "Ready, wave 1/2, total 5 planned, no enemy spawned",
+      "shield": "Rear grip aligned with left hand; no collision wireframe visible",
+      "reviewed_images": [
+        "MixedLabFirstPerson.png",
+        "DragonShieldFirstPerson.png"
+      ],
+      "scope": "Initial scene and art presentation only; no agent gameplay inputs or tests",
+      "shield_preview_guard_active": false,
+      "shield_preview_collision": "NoCollision",
+      "presentation_binding_restored": true
+    },
+    "presentation_review_evidence": "Docs/AI/MixedShieldPresentationReview-2026-10-14.json",
+    "current_preview_log": "Docs/AI/MixedPreview-2026-10-14.log",
+    "shield_preview": "Actual held components displayed by temporarily detaching/restoring GuardVisual presentation binding. No temporary actors, agent guard raise/input, collision-query edits or attacks. Actual guard may remain active through external user input.",
+    "observed_guard_active_at_art_capture": false,
+    "observed_guard_collision_at_art_capture": "<CollisionEnabled.NO_COLLISION: 0>",
+    "observed_health_at_scene_capture": 100.0,
+    "observed_guard_at_scene_capture": 100.0,
+    "first_preview_failure": "PID34080 was gracefully closed after an unsupported Blueprint-internal GameplayStatics spawn API caused art screenshot callback errors. First-attempt log archived; no combat input or test was sent.",
+    "first_preview_failure_evidence": "Docs/AI/MixedPreview-FirstAttempt-2026-10-14.log",
+    "automated_tests": "Not added or run",
+    "pending_user_play": [
+      "spawn/navigation and enemy grounding",
+      "talisman warning/locked aim/readability",
+      "block/perfect reflection and coarse circular visual coverage",
+      "death/hit/reset transitions",
+      "pause/cancel/retry cleanup",
+      "scoped persistent save/load and second-wave retry",
+      "actual headset/controller VR acceptance"
+    ],
+    "evidence_limits": "Idle screenshots do not establish combat, block/reflection, navigation, checkpoint write/read roundtrip or VR correctness."
+  },
+  "automation": {
+    "id": "automation",
+    "status": "PAUSED",
+    "changed_this_batch": false
+  },
+  "next_task": "User feedback, then ENEMY-02B Guard Captain, followed by LEVEL-01.",
+  "evidence": [
+    {
+      "path": "Docs/AI/MixedLabSaved-2026-10-13.json",
+      "sha256": "f3363644d56c5ed67530b15c5a215f99e7154ca7bb9532459a9e83b04766b30f"
+    },
+    {
+      "path": "Docs/AI/MixedLabRuntimeScene-2026-10-14.json",
+      "sha256": "1bac2729bee92362ccfe81e822ca5b661609ec90cc095cd882d2f1b9b006bc4b"
+    },
+    {
+      "path": "Docs/AI/DragonShieldVisual-2026-10-14.json",
+      "sha256": "808878f27c1df644e27db5665b890441fa15aa43bd046d075d32b51c88ffc1e0"
+    },
+    {
+      "path": "ArtSource/DragonShield/DragonShieldPrepared.json",
+      "sha256": "9d3c6343124abd2165bffc99b8176c637e01a54f908ed57514da77921e586f6d"
+    },
+    {
+      "path": "ArtSource/DragonShield/DragonShieldImported.json",
+      "sha256": "9f280384f374c2f9baba0fd2eadd8f2402f449b0cbcb1b904c74f8b1945ce331"
+    },
+    {
+      "path": "ArtSource/DragonShield/DragonShieldEditorAuthor.json",
+      "sha256": "800993e18c08f4e628e80ca76fc222966c52c70ca39ddbc92c91eb8799b917c8"
+    },
+    {
+      "path": "Docs/AI/MixedShieldPresentationReview-2026-10-14.json",
+      "sha256": "4d20bf43e786f5b3f37e7936f3930cca3f8517ed1ef30449249fe18951e99cf4"
+    },
+    {
+      "path": "Docs/AI/MixedLabAuthor-2026-10-14.log",
+      "sha256": "0ed132cba2fa50625f5667ac30fceeea8dddd3760d52507da1cc301b1c16b2ef"
+    },
+    {
+      "path": "Docs/AI/DragonShieldEditorImport-2026-10-14.log",
+      "sha256": "145f4102ce45256a7d0b0f0ebe2e8f500d2a28c9321dcbdf9d0e06ed48ac8bfa"
+    },
+    {
+      "path": "Docs/AI/MixedPreview-2026-10-14.log",
+      "sha256": "9eae22825bb319ce6c7a228a8c5f038a20a9982dbc8e2273dac62c0e1dce496b"
+    },
+    {
+      "path": "Docs/AI/MixedPreview-FirstAttempt-2026-10-14.log",
+      "sha256": "6fd7e001a4b0d77bf7c88e0bfdb24c098d719e2732c94e9d066ee3a0871f16a6"
+    },
+    {
+      "path": "Docs/AI/BuildLog-Shield-Polish-2026-10-14.txt",
+      "sha256": "2ff592e876f32b972a23d7862c171d54597b1cdf5a8661ee2b94280433ee22cd"
+    },
+    {
+      "path": "Docs/AI/BuildLog-Shield-2026-10-14.txt",
+      "sha256": "e20a4451c19b949c5a35630ea91117a5a647cbe1d23ee13cb173d2bb371ed392"
+    },
+    {
+      "path": "Docs/AI/BuildLog-Enemy02A-2026-10-13.txt",
+      "sha256": "8f59e1ee3d1cf30f2bf5df017cf9e27884cbee0f3da4855b0c59b7c8477a88f4"
+    },
+    {
+      "path": "Docs/AI/MixedLabFirstPerson.png",
+      "sha256": "f238bf0066eb257a31b8801aee46996cbd3226cef5747a2ce105af8611b840e2"
+    },
+    {
+      "path": "Docs/AI/DragonShieldFirstPerson.png",
+      "sha256": "ab60bd09a90a16da4d079175d3a133d2dd97a667b70cad489e42f44a38adb362"
+    }
+  ],
+  "snapshot": {
+    "manifest": "Deliveries/Enemy02AShield_20261014/Manifest.json",
+    "kind": "Incremental project source/assets/evidence snapshot; not a standalone game package."
+  },
+  "before_source_backups": [
+    {
+      "path": "Deliveries/BeforeEnemy02A_20261013/Manifest.json",
+      "file_count": 56,
+      "total_bytes": 442335
+    },
+    {
+      "path": "Deliveries/BeforeShield_20261014/Manifest.json",
+      "file_count": 3,
+      "total_bytes": 64908
+    }
+  ]
+}

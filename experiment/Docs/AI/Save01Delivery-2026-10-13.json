@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-13",
+  "task_id": "SAVE-01",
+  "status": "Compiled_AssetsSaved_InitialPresentationReviewed_AwaitingUserPlay",
+  "reference": "Docs/AI/ReferencePack/UE5.8_AI开发方案.md section15 and SAVE-01 task sequence",
+  "slice": "Desktop two-wave section-entry checkpoints with persistence and retry rollback.",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabCheckpoint",
+  "wave_counts": [
+    2,
+    3
+  ],
+  "implemented": [
+    "USaveGame snapshot v1 contains content/run/level/node/encounter/checkpoint IDs, ordered wave IDs, section index, initial seed and whole-plan random state.",
+    "Snapshots contain desktop root/control rotation, living entry health/guard, progression fields, unique defeat ledger and prior-wave milestones.",
+    "Initial Ready entrance is memory-only. G commits the same immutable entrance; entering the next wave captures and commits its new entrance.",
+    "R and G after cancellation restore the saved entrance, rather than resaving partial-attempt resources or defeat events.",
+    "Restore preflight checks schema, stable content/node/milestone IDs, current resource maxima and rebuilt deterministic plan before actor cleanup.",
+    "Restore locks input/movement, cancels wave actors and AI, removes projectiles, resets Director/Guard/Blade/Resolver/transient combat feedback, restores resources/root/run ledger and reconstructs selected wave in Ready.",
+    "Past waves count as completed/spawned/defeated without spawning their actors or replaying defeat reward events.",
+    "Load uses matching valid primary then backup; failed or incompatible reads keep existing valid memory and display an error instead of silently overwriting saves.",
+    "Synchronous disk commit writes flushed same-directory temporary files, retains a valid backup and uses Windows MoveFileExW REPLACE_EXISTING|WRITE_THROUGH for replacement.",
+    "4MiB bounded payload, CRC32 envelope, exact USaveGame native type and bounded string/array parsing; v1 content/schema validation rejects unsupported data.",
+    "Chinese HUD shows selected checkpoint and distinguishes saved, backup recovered, memory-only retry and failed write/restore."
+  ],
+  "snapshot_contract": {
+    "save_version": 1,
+    "content_revision": "SwordWaves.SAVE01.1",
+    "level_id": "Level.CombatLab.Checkpoint",
+    "encounter_id": "Encounter.SwordWaves",
+    "node_id_format": "Node.SwordWaves.Wave.%02d",
+    "checkpoint_id_format": "Checkpoint.SwordWaves.Wave.%02d",
+    "wave_initial_seed": 20261012,
+    "random_state_semantics": "Final FRandomStream state of all preplanned waves. Rebuilding the full plan verifies the seed/state pair, then selects the saved section. Physics/navigation/user actions are not replayed.",
+    "resources": "Living health and guard observed at section entry; no forced entry heal.",
+    "partial_attempts": "Restore replaces progression and defeat ledger from entrance snapshot, discarding failed/cancelled section additions.",
+    "disk_write_triggers": "Human G starts a section; automatic next-wave entry during normal gameplay. No initial idle disk write and no R disk write.",
+    "arbitrary_midcombat_save": false
+  },
+  "disk_files": {
+    "primary": "Saved/SaveGames/NilinCheckpoint/Checkpoint.current.nlcp",
+    "backup": "Saved/SaveGames/NilinCheckpoint/Checkpoint.backup.nlcp",
+    "temps": [
+      "Checkpoint.current.tmp",
+      "Checkpoint.backup.tmp"
+    ],
+    "write_failure": "Last valid disk copy remains; current in-memory section can still retry, with warning that exit/restart persistence is not guaranteed.",
+    "scope": "One fixed slot for this matching lab content; full multi-level transitions and content migrations remain future integration."
+  },
+  "preserved": {
+    "old_wave_scene": "/Game/ReversedScale/Maps/L_CombatLabWaves",
+    "old_duel_scene": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+    "old_scene_checkpoint_flag": "Disabled by default; existing lab reset preserved.",
+    "enemy_death": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+    "grip_weight": 1.0,
+    "melee_damage": 10.0,
+    "blade_qi_damage": 15,
+    "art_assets_edited": false
+  },
+  "evidence": {
+    "compile": "Passed, exit0. First attempt found C4458 local Mesh shadowing ACharacter::Mesh; renamed ReferenceMesh, second attempt completed 4 actions and linked new DLL.",
+    "build_log": "Docs/AI/BuildLog-Save01-2026-10-13.txt",
+    "first_build_log": "Docs/AI/BuildLog-Save01-FirstAttempt-2026-10-13.txt",
+    "author_commandlet": "Exit0, saved separate map; Docs/AI/CheckpointLabAuthor-2026-10-13.log",
+    "asset_report": "Docs/AI/CheckpointLabSaved-2026-10-13.json",
+    "initial_runtime_report": "Docs/AI/CheckpointLabRuntimeScene-2026-10-13.json",
+    "initial_screenshot": "Docs/AI/CheckpointLabFirstPerson.png",
+    "capture_interface_fix": "First screenshot attempt used SubsystemBlueprintLibrary, unavailable in the local Python wrapper. Replaced it with read-only ObjectIterator filtered by GameInstance owner and reopened the initial scene.",
+    "initial_scene_observed": {
+      "date": "2026-10-13",
+      "task": "SAVE-01",
+      "map": "/Game/ReversedScale/Maps/L_CombatLabCheckpoint",
+      "controller_state": "<NLEncounterState.READY: 0>",
+      "checkpoint_enabled": true,
+      "entry_wave_index": 0,
+      "wave_index": -1,
+      "wave_count": 2,
+      "planned_count": 5,
+      "spawned_count": 0,
+      "defeated_count": 0,
+      "alive_count": 0,
+      "initial_seed": 20261012,
+      "random_state": -796021508,
+      "level_id": "Level.CombatLab.Checkpoint",
+      "encounter_id": "Encounter.SwordWaves",
+      "content_revision": "SwordWaves.SAVE01.1",
+      "has_memory_checkpoint": true,
+      "persistence_status": "InMemoryOnly",
+      "persistence_failure": "None",
+      "run_id": "<Struct 'Guid' (0x0000012CFBA22F50) {}>",
+      "defeat_event_ledger_count": 0,
+      "health": 100.0,
+      "guard": 100.0,
+      "player_origin_cm": [
+        30.0,
+        -170.0,
+        90.4
+      ],
+      "camera_cm": [
+        30.0,
+        -170.0,
+        146.81582489013672
+      ],
+      "melee_damage": 10.0,
+      "screenshot": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\CombatProject\\Docs\\AI\\CheckpointLabFirstPerson.png",
+      "scope": "Only read current initial scene and take a screenshot. No agent gameplay input, checkpoint disk-write, retry, enemy spawn, damage, seed replay or automated test. Existing disk checkpoints may be read by normal game startup."
+    },
+    "initial_visual_review": "Chinese selected-wave and checkpoint Ready prompts readable; player weapon and environment displayed.",
+    "agent_gameplay_inputs_sent": false,
+    "tests_added_or_run": false,
+    "save_disk_write_exercised_by_agent": false,
+    "initial_presentation_limit": "Normal startup reads matching disk or builds/restores memory-only entrance. This initial presentation is not proof of persistent round-trip, retry cleanup or interruption recovery."
+  },
+  "remaining_acceptance": [
+    "Manually start/clear first wave and observe second-wave checkpoint message before its enemies spawn.",
+    "R during second wave returns to that entrance, shows prior2/total5 defeats, removes old enemies/projectiles and starts only3 after G.",
+    "G cancel/start and repeated R do not retain partial-wave ledger additions, attacks, collisions or reservations.",
+    "After Saved message, exit and relaunch resumes the matching saved section and resources.",
+    "Actual primary/backup file writes, corrupt-primary recovery and interrupted commit robustness require authorized manual/automated validation."
+  ],
+  "limits": [
+    "Progression storage and defeat dedup are foundations only: LingQi gain, Burst gameplay and upgrade effects belong to PROG-01 and are not implemented here.",
+    "Objective schema exists but this lab rejects nonempty objective data; ritual/Boss actor state restoration is not implemented.",
+    "Real VR root/pose/tracking restoration awaits the VR pawn and hardware. This batch operates only the desktop adapter.",
+    "USaveGame snapshot version1 and local UE5.8 SAVG header are supported; migrations across changed content/version remain explicit future work.",
+    "Local UE5.8 required; this is an independent scene within the project, not a packaged standalone EXE."
+  ],
+  "demo": {
+    "launcher": "Run_Checkpoint_Demo.cmd",
+    "process_at_open": 48372,
+    "controls": "G start/cancel; R return to checkpoint then G start; P/Esc pause; WASD/mouse; LMB slash10; RMB guard; E bladeqi15.",
+    "before_source_backup": "Deliveries/BeforeSave01_20261013/Manifest.json",
+    "snapshot": "Deliveries/Save01_20261013/Manifest.json"
+  },
+  "automation": "Existing automation remains PAUSED; direct user continuation only.",
+  "next_action": "User play this checkpoint slice; next content dependency is ENEMY-02 ranged/elite combinations before LEVEL-01."
+}

@@ -1,0 +1,44 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_CombatLabWuxiaFeet",
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet.SK_WuxiaMale_Feet",
+  "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+  "duration": 9.866666793823242,
+  "before": {
+    "l": {
+      "minimum_sole_z_range_cm": [
+        0.10980157587140732,
+        0.5206431973760507
+      ],
+      "sample_count": 9
+    },
+    "r": {
+      "minimum_sole_z_range_cm": [
+        1.0360089340793557,
+        1.5785989549386725
+      ],
+      "sample_count": 9
+    }
+  },
+  "after": {
+    "l": {
+      "minimum_sole_z_range_cm": [
+        -0.003476885613054037,
+        0.00397769920527935
+      ],
+      "maximum_ankle_drift_cm": 0.013539414057156,
+      "maximum_sole_tilt_deg": 0.03426402009603798,
+      "sample_count": 297
+    },
+    "r": {
+      "minimum_sole_z_range_cm": [
+        -0.00400420930236578,
+        0.0035975887440145016
+      ],
+      "maximum_ankle_drift_cm": 0.013812640392216,
+      "maximum_sole_tilt_deg": 0.03426402009603798,
+      "sample_count": 297
+    }
+  },
+  "maximum_upper_body_position_difference_after_contact_edit_cm": 0.005975408131788423,
+  "scope": "Saved compressed sword idle at every source frame; runtime interpolation evidence reported separately"
+}

@@ -1,0 +1,128 @@
+{
+  "version": "V10",
+  "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV10",
+  "completed_at": "2026-10-23T22:08:44.170508+08:00",
+  "source_v09_sha256_unchanged": true,
+  "map_sha256": "ea8043f28ebd288da93127ff77c3b1c8cf56cc748e3416a17d5370ee6ef29767",
+  "changes": {
+    "ranged_stations": 3,
+    "ranged_silhouettes": 6,
+    "ranged_gallery_size_m": [
+      12,
+      10
+    ],
+    "grandmasters": 4,
+    "grandmaster_terrace_m": [
+      24,
+      22
+    ],
+    "grandmaster_clear_core_m": [
+      18,
+      16
+    ],
+    "bridge_length_m": 358.1214325404667,
+    "previous_bridge_length_m": 248.39650248306495,
+    "boss_floor_diameter_m": 92,
+    "boss_clear_diameter_m": 60,
+    "boss_placeholder_height_m": 4.8
+  },
+  "actor_count": 514,
+  "checks": {
+    "scene": "passed",
+    "floor_width_samples": 5106,
+    "new_encounter_marker_and_shooting_lane_checks": true,
+    "major_nodes_seated_standing_target_visibility": true,
+    "actual_character_walk_points": 533,
+    "actual_character_walk_state": "covered_across_two_runs",
+    "build": "Succeeded"
+  },
+  "walking_coverage": {
+    "state": "covered_across_two_runs",
+    "unique_targets_covered": 533,
+    "original_waypoint_count": 533,
+    "run_count": 2,
+    "single_run_full_pass": false,
+    "overlap_target_count": 33,
+    "overlap_range": {
+      "start_inclusive": 480,
+      "end_exclusive": 513
+    },
+    "runs": [
+      {
+        "report": "RuntimeWalk_before_summit_rail_fix.json",
+        "sha256": "cb3c969b92d0885fdaff0847c9486c5671de27bb7fe588101d2b64a4c060e887",
+        "state": "failed",
+        "covered_range": {
+          "start_inclusive": 0,
+          "end_exclusive": 513
+        },
+        "targets_reached": 513,
+        "node_landings_passed": 8,
+        "original_failure": {
+          "error": "Character movement stalled",
+          "waypoint": 513,
+          "target": [
+            -208.0,
+            594.24,
+            132.0
+          ],
+          "position": [
+            -198.2052267958313,
+            578.8267476960654,
+            132.92150005693077
+          ],
+          "distance_cm": 1826.214469074889,
+          "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+        }
+      },
+      {
+        "report": "RuntimeWalkSummit.json",
+        "sha256": "e92c6dae0b6f0680e9d9325fd3a294c36a000a74f47a1fb64feb65ac9806cd63",
+        "state": "passed",
+        "covered_range": {
+          "start_inclusive": 480,
+          "end_exclusive": 533
+        },
+        "targets_reached": 53,
+        "initial_teleport_count": 1,
+        "teleports_during_walk": 0
+      }
+    ],
+    "repair": "Removed the bridgehead end rail that obstructed movement from the final stair into the enlarged boss floor.",
+    "limitations": "All 533 original targets have actual CharacterMovement coverage across two runs with 33 overlapping targets. The first 513 were reached before the local summit rail repair; the final 53 were tested afterward. This is not a single uninterrupted full-route pass after the repair. Final saved geometry checks are separate."
+  },
+  "evidence_freshness": {
+    "scene_saved_at": "2026-10-23T22:00:06.425321",
+    "checks_started_at": "2026-10-23T22:03:56.106883",
+    "screenshots_captured_at": "2026-10-23T22:07:38.504546+08:00",
+    "checks_and_screenshots_after_final_scene_save": true,
+    "screenshot_files_exist_and_match_recorded_bytes": true
+  },
+  "screenshots": [
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v05\\Screenshots\\UE_05_Boss.png",
+      "bytes": 1055463
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v05\\Screenshots\\UE_09_AlternateOverview.png",
+      "bytes": 1141046
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v05\\Screenshots\\UE_15_Ranged.png",
+      "bytes": 1652127
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v05\\Screenshots\\UE_16_Yufeng.png",
+      "bytes": 1462268
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v05\\Screenshots\\UE_17_Summit.png",
+      "bytes": 1063448
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v05\\Screenshots\\UE_18_Grandmaster.png",
+      "bytes": 1236830
+    }
+  ],
+  "scope": "Desktop level-layout whitebox. New ranged enemies, four masters and boss are static, non-damaging silhouettes. No AI, reward drops or barrier progression is claimed. No VR performance or comfort acceptance."
+}

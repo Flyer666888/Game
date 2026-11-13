@@ -1,0 +1,514 @@
+{
+  "scope": "New source triangles only; existing geometry and UE collision excluded",
+  "source_layout": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v03\\LayoutSpec.json",
+  "mesh_count": 12,
+  "triangles": 1032,
+  "closed_mesh_validation": {
+    "V09_Terrain_A_ForeShoulder": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 78095.57
+    },
+    "V09_Terrain_B_PineShoulder": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 95950.833
+    },
+    "V09_Terrain_B_WestShoulder": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 79522.706
+    },
+    "V09_Terrain_Threshold_SlantRidge": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 145580.392
+    },
+    "V09_Terrain_C_RearShoulder": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 185703.939
+    },
+    "V09_Terrain_C_EntryShoulder": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 121762.462
+    },
+    "V09_Terrain_Upper_LowerRib": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 286481.755
+    },
+    "V09_Terrain_Upper_HigherRib": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 296951.408
+    },
+    "V09_Terrain_Summit_SpreadRoot": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 469130.584
+    },
+    "V09_Terrain_Far_LowCrag": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 69999.975
+    },
+    "V09_Terrain_Far_SplitCrag": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 168294.078
+    },
+    "V09_Terrain_Far_LeaningCrag": {
+      "vertices": 45,
+      "triangles": 86,
+      "degenerate_triangles": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "signed_volume_m3": 253000.052
+    }
+  },
+  "maximum_new_height_m": 118.94920989556643,
+  "summit_floor_height_m": 132,
+  "sight_checks": 48,
+  "blocked_sight_checks": 0,
+  "sight_details": [
+    {
+      "node": 1,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 1,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 1,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 1,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 1,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 1,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 1,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 1,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 2,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 2,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 2,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 2,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 2,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 2,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 2,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 2,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 3,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 3,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 3,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 3,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 3,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 3,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 3,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 3,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 4,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 4,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 4,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 4,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 4,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 4,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 4,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 4,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 5,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 5,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 5,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 5,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 5,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 5,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 5,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 5,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 6,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 6,
+      "eye_height_m": 1.1,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 6,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 6,
+      "eye_height_m": 1.1,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 6,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 6,
+      "eye_height_m": 1.7,
+      "eye_offset_m": -0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 6,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "peak",
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "node": 6,
+      "eye_height_m": 1.7,
+      "eye_offset_m": 0.032,
+      "target": "crown",
+      "clear": true,
+      "blocker": null
+    }
+  ],
+  "walking_samples": 16894,
+  "walking_samples_with_terrain_below": 9372,
+  "minimum_walk_clearance_m": 7.2475,
+  "walk_clearance_under_3m": [],
+  "B_corridor_intruding_triangles": 0,
+  "distant_peak_horizontal_clearance": [
+    {
+      "mesh": "V09_Terrain_Far_LowCrag",
+      "conservative_horizontal_gap_m": 32.281
+    },
+    {
+      "mesh": "V09_Terrain_Far_SplitCrag",
+      "conservative_horizontal_gap_m": 26.398
+    },
+    {
+      "mesh": "V09_Terrain_Far_LeaningCrag",
+      "conservative_horizontal_gap_m": 27.413
+    }
+  ],
+  "pass": true
+}

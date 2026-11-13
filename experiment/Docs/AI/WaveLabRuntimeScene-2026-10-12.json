@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-12",
+  "slice": "WAVE-01",
+  "scene_loaded": true,
+  "map": "/Game/ReversedScale/Maps/L_CombatLabWaves",
+  "world": "/Game/ReversedScale/Maps/L_CombatLabWaves.L_CombatLabWaves",
+  "controller_count": 1,
+  "controllers": [
+    {
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabWaves.L_CombatLabWaves:PersistentLevel.NLEncounterController_0",
+      "class": "/Script/experiment.NLEncounterController",
+      "state": "<NLEncounterState.READY: 0>",
+      "running": false,
+      "paused": false,
+      "configured_seed": 20261012,
+      "initial_seed": 20261012,
+      "current_random_seed": -796021508,
+      "wave_index": -1,
+      "wave_count": 2,
+      "completed_wave_count": 0,
+      "planned_count": 5,
+      "spawned_count": 0,
+      "defeated_count": 0,
+      "alive_count": 0,
+      "failed_spawn_count": 0,
+      "current_wave_planned_count": 0,
+      "current_wave_spawned_count": 0,
+      "intermission_remaining_seconds": 0.0,
+      "failure_reason": "None",
+      "corpse_hold_seconds": 2.0,
+      "max_spawns_per_tick": 1,
+      "wave_assets": [
+        "/Game/ReversedScale/Encounters/DA_WaveSword01.DA_WaveSword01",
+        "/Game/ReversedScale/Encounters/DA_WaveSword02.DA_WaveSword02"
+      ]
+    }
+  ],
+  "world_enemy_count": 0,
+  "health": 100.0,
+  "guard": 70.05523681640625,
+  "camera_cm": [
+    -39.693847917973656,
+    -446.5328179685412,
+    146.81582489013672
+  ],
+  "player": {
+    "actor": "/Game/ReversedScale/Maps/L_CombatLabWaves.L_CombatLabWaves:PersistentLevel.NLDesktopPlayerCharacter_0",
+    "class": "/Script/experiment.NLDesktopPlayerCharacter",
+    "capsule_origin_cm": [
+      -39.693847917973656,
+      -446.5328179685412,
+      90.4
+    ],
+    "health": 100.0,
+    "guard": 70.05523681640625,
+    "standing_eye_height_cm": 146.81582641601562,
+    "camera_cm": [
+      -39.693847917973656,
+      -446.5328179685412,
+      146.81582489013672
+    ],
+    "camera_field_of_view": 80.0,
+    "melee_damage": 10.0,
+    "held_weapon": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player"
+  },
+  "screenshot": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\CombatProject\\Docs\\AI\\WaveLabFirstPerson.png",
+  "scope": "Read-only initial scene presentation after a 20-second Slate wait. No G input, enemy spawn, navigation or movement query, seed replay, pause/retry action or WAVE gameplay acceptance was performed."
+}

@@ -1,0 +1,79 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_CombatLab",
+  "actors": [
+    {
+      "label": "PlayerStart_Shanmen",
+      "class": "PlayerStart",
+      "location": [
+        -15000.0,
+        3900.0,
+        -532.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Enemy_Melee_Blockout_A",
+      "class": "SkeletalMeshActor",
+      "location": [
+        -14700.0,
+        4200.0,
+        -622.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -134.99999999999997
+      ]
+    },
+    {
+      "label": "Enemy_Melee_Blockout_B",
+      "class": "SkeletalMeshActor",
+      "location": [
+        -14400.0,
+        4500.0,
+        -622.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -134.99999999999997
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "actor": "PlayerStart_Shanmen",
+      "location": [
+        -15000.0,
+        3900.0,
+        -532.0
+      ],
+      "yaw": 0.0,
+      "location_set": true
+    },
+    {
+      "actor": "Enemy_Melee_Blockout_A",
+      "location": [
+        -14700.0,
+        4200.0,
+        -622.0
+      ],
+      "yaw": -135.0,
+      "location_set": true
+    },
+    {
+      "actor": "Enemy_Melee_Blockout_B",
+      "location": [
+        -14400.0,
+        4500.0,
+        -622.0
+      ],
+      "yaw": -135.0,
+      "location_set": true
+    }
+  ]
+}

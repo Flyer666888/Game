@@ -1,0 +1,94 @@
+[
+  {
+    "game_time": 30.159363708400633,
+    "camera": [
+      30.0,
+      -170.0,
+      147.86209106445312
+    ],
+    "weapon_pivot": [
+      78.51543289325507,
+      -150.65,
+      130.34665817119804
+    ],
+    "weapon_attach_socket": "hand_r",
+    "weapon_relative_transform": "<Struct 'Transform' (0x000001C63FE9A8E0) {rotation: {x: 0.500000, y: -0.500000, z: -0.500000, w: 0.500000}, translation: {x: 0.000000, y: 2.650000, z: -7.800000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "bounds": "<Struct 'BoxSphereBounds' (0x000001C64F84F800) {origin: {x: -0.563680, y: 0.635000, z: 29.479999}, box_extent: {x: 6.043679, y: 2.965000, z: 41.492001}, sphere_radius: 41.780913}>",
+    "materials": [
+      "M_Yueyao_00",
+      "M_Yueyao_01",
+      "M_Yueyao_02",
+      "M_Yueyao_03",
+      "M_Yueyao_04",
+      "M_Yueyao_05",
+      "M_Yueyao_06",
+      "M_Yueyao_07",
+      "M_Yueyao_08",
+      "M_YueyaoBlade_Spine"
+    ],
+    "enemies": [
+      {
+        "eye": [
+          329.0499977841648,
+          -177.2144323851756,
+          147.86209604869165
+        ],
+        "animation_time": 0.5588524341583252
+      },
+      {
+        "eye": [
+          735.1900432628694,
+          213.51922911608534,
+          147.86209604869165
+        ],
+        "animation_time": 0.5588524341583252
+      }
+    ]
+  },
+  {
+    "game_time": 32.48363431444159,
+    "camera": [
+      30.0,
+      -170.0,
+      146.9367218017578
+    ],
+    "weapon_pivot": [
+      78.51543289325507,
+      -150.65,
+      129.42128890850273
+    ],
+    "weapon_attach_socket": "hand_r",
+    "weapon_relative_transform": "<Struct 'Transform' (0x000001C63FE9A8E0) {rotation: {x: 0.500000, y: -0.500000, z: -0.500000, w: 0.500000}, translation: {x: 0.000000, y: 2.650000, z: -7.800000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "bounds": "<Struct 'BoxSphereBounds' (0x000001C64F0D8B40) {origin: {x: -0.563680, y: 0.635000, z: 29.479999}, box_extent: {x: 6.043679, y: 2.965000, z: 41.492001}, sphere_radius: 41.780913}>",
+    "materials": [
+      "M_Yueyao_00",
+      "M_Yueyao_01",
+      "M_Yueyao_02",
+      "M_Yueyao_03",
+      "M_Yueyao_04",
+      "M_Yueyao_05",
+      "M_Yueyao_06",
+      "M_Yueyao_07",
+      "M_Yueyao_08",
+      "M_YueyaoBlade_Spine"
+    ],
+    "enemies": [
+      {
+        "eye": [
+          333.85785445430156,
+          -183.48662900988066,
+          146.936728420834
+        ],
+        "animation_time": 2.8831229209899902
+      },
+      {
+        "eye": [
+          742.4389144978458,
+          210.37124530445752,
+          146.936728420834
+        ],
+        "animation_time": 2.8831229209899902
+      }
+    ]
+  }
+]

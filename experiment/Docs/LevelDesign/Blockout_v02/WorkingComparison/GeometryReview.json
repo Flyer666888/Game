@@ -1,0 +1,91 @@
+{
+  "source": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v02\\LayoutSpec.json",
+  "source_sha256": "f0ff185bf20d6fe73952faa1b46bcf39ead28975b6380318c50e7bf154dca014",
+  "scope": "Intersections of ideal exported stair-end cross sections with landing/court XY footprints. Ignores tread mesh overhang, rail geometry and capsule sweeps; not a collision or passability result.",
+  "seams": [
+    {
+      "flight": "C_to_Ridge",
+      "floor": "RidgeLanding",
+      "endpoint": [
+        -65.5,
+        343.5,
+        88
+      ],
+      "stair_width_m": 6.5,
+      "supported_endpoint_cross_section_width_m": 1.3324605445173519,
+      "lateral_interval_m": [
+        -1.3324605445173519,
+        -0.0
+      ],
+      "height_matches": true
+    },
+    {
+      "flight": "Ridge_to_Node06",
+      "floor": "Node06_BridgeLanding",
+      "endpoint": [
+        -104,
+        403.5,
+        104
+      ],
+      "stair_width_m": 6.5,
+      "supported_endpoint_cross_section_width_m": 2.4108359914176645,
+      "lateral_interval_m": [
+        -2.4108359914176645,
+        -0.0
+      ],
+      "height_matches": true
+    },
+    {
+      "flight": "Node06_to_Upper",
+      "floor": "UpperLanding",
+      "endpoint": [
+        -148.3,
+        463.5,
+        122
+      ],
+      "stair_width_m": 6.5,
+      "supported_endpoint_cross_section_width_m": 1.6679403466551344,
+      "lateral_interval_m": [
+        -1.6679403466551344,
+        -0.0
+      ],
+      "height_matches": true
+    },
+    {
+      "flight": "Upper_to_Summit",
+      "floor": "D_SummitFloor",
+      "endpoint": [
+        -174,
+        482.5,
+        132
+      ],
+      "stair_width_m": 6.5,
+      "supported_endpoint_cross_section_width_m": 3.25,
+      "lateral_interval_m": [
+        -3.25,
+        0.0
+      ],
+      "height_matches": true
+    }
+  ],
+  "C_entry": {
+    "endpoint": [
+      -36,
+      310,
+      72
+    ],
+    "exit_floor": {
+      "name": "C_EastExit",
+      "center": [
+        -34,
+        310,
+        72
+      ],
+      "size": [
+        8,
+        10
+      ]
+    },
+    "supported_start_cross_section_width_m": 5.914921089034704
+  }
+}

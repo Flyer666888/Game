@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-11",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabMelee",
+  "damage": 10.0,
+  "hit_source": "/Game/Animations/Sword/Anim_CS_GH_F_03",
+  "death_source": "/Game/Animations/Death/Anim_dEAh_F_04",
+  "hit_duration_seconds": 0.800000011920929,
+  "death_duration_seconds": 2.799999952316284,
+  "enemies": [
+    {
+      "label": "TrainingDisciple_1",
+      "health": 30.0,
+      "hit_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+      "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse",
+      "feet_cm": [
+        240.0,
+        -215.0,
+        0.0
+      ]
+    },
+    {
+      "label": "TrainingDisciple_2",
+      "health": 30.0,
+      "hit_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+      "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse",
+      "feet_cm": [
+        240.0,
+        -125.0,
+        0.0
+      ]
+    }
+  ],
+  "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+  "backup_map": "/Game/ReversedScale/Maps/L_CombatLabMelee_BeforeReactions_20261011",
+  "scope": "Animation and damage revision. Combat input acceptance remains for user play."
+}

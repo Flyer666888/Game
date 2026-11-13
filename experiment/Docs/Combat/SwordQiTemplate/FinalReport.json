@@ -1,0 +1,131 @@
+{
+  "feature": "VR sword qi gesture template",
+  "completed_at": "2026-10-22T20:15:35.169165",
+  "interaction": "Press the existing right trigger while performing a valid tracked right-hand swing; each press and swing emits at most one projectile.",
+  "defaults": {
+    "blade_qi_speed_cm_per_sec": 1200.0,
+    "blade_qi_radius_cm": 5.0,
+    "blade_qi_range_cm": 4800.0,
+    "blade_qi_muzzle_offset_cm": 23.0,
+    "blade_qi_input_buffer_seconds": 0.25,
+    "blade_qi_minimum_swing_speed_cm_per_sec": 220.0,
+    "damage": 15.0,
+    "cooldown_seconds": 0.3499999940395355
+  },
+  "verification": {
+    "build": "Succeeded",
+    "automated_tests": 15,
+    "tests_succeeded_without_warnings": 13,
+    "tests_succeeded_with_fixture_warnings": 2,
+    "failed": 0,
+    "warning_reason": "Two deferred-spawn player fixtures intentionally do not load their skeletal hand assets; the engine reports missing hand_r sockets during fixture component registration. Their assertions all pass.",
+    "input_asset_inspection": true,
+    "headset_controller_hardware_playtest": false
+  },
+  "tests": [
+    {
+      "name": "Nilin.Combat.BladeQi.Gesture.BufferAndRelease",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Gesture.Conditions",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Gesture.EdgesAndSwingIdentity",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Gesture.Invalidation",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Gesture.InvalidNumbers",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Motion.ButtonAndOneCut",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Motion.DiscontinuitiesRequireFreshInput",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Motion.ReleaseAndNewSwing",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Motion.TrackingSpaceMotionIsExcluded",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Projectile.FriendlyAndNeutralFiltering",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Projectile.HighSpeedSingleDamage",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Projectile.LaunchExitCooldownAndState",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 4
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Projectile.Lifetime",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Projectile.TrackedHandOriginOcclusion",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 4
+    },
+    {
+      "name": "Nilin.Combat.BladeQi.Projectile.WorldOcclusion",
+      "state": "Success",
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "scope": "Native VR combat adapter and shared projectile launcher. Uses existing placeholder projectile and combat damage path; no new VFX. Whitebox maps and static formations are not converted to combat actors.",
+  "source_sha256": {
+    "Source/experiment/Public/Combat/NLBladeComponent.h": "ed8023c769bf27236878cb29f15a28060246f75d00cadd33cb689e1c7ce4feb1",
+    "Source/experiment/Private/Combat/NLBladeComponent.cpp": "89ade67484e3e75292b2612f1c75454ec0e2486156de7bff3f5fadef29be06a1",
+    "Source/experiment/Public/Combat/NLBladeQiGesture.h": "c2b8f499d213fd61708575e99db7fd5fa3e1185738b45f351b4fc0e5838766b3",
+    "Source/experiment/Public/Player/NLDesktopPlayerCharacter.h": "93fe56004263edbd78e473f4a3b0e43ea19d5d7ecccb5f5792fac1fd77f72e0b",
+    "Source/experiment/Private/Player/NLDesktopPlayerCharacter.cpp": "400f077e5076af94c843ded0975f25560160e9f1053f1f29f09aed28f5ef6cb1",
+    "Source/experiment/Public/Player/NLVRPlayerCharacter.h": "2dc1ea8058b0fd4493ebad290abc61a7433e6ddddb737d661213051c3cc1b5f8",
+    "Source/experiment/Private/Player/NLVRPlayerCharacter.cpp": "5ec69d61d124a46650fa9aa0fa5ccadae1514434d06918c00577ca978e79d460",
+    "Source/experiment/Private/Tests/NLBladeQiGestureTests.cpp": "83362ddb23d583f98da21b7f7d2177c209d577181c1b9d24646cff690dda4a28",
+    "Source/experiment/Private/Tests/NLBladeQiMotionTests.cpp": "33efb72ef758908cce683f4ab796f76793eeec2f4871c8e472a6f987614aaf2c",
+    "Source/experiment/Private/Tests/NLBladeQiProjectileTests.cpp": "49f39652ea1f7367b942681ce19fce8cbe329330f4050b5181be6dae2c8024e0"
+  },
+  "module_sha256": "e0f5fe4345df4732414bc06df6414dc68b8a88b0577557319b0d131b6f426ece"
+}

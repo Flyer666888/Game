@@ -1,0 +1,83 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_CombatLabVR.L_CombatLabVR",
+  "config": {
+    "object": "/Game/ReversedScale/Maps/L_CombatLabVR.L_CombatLabVR:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0",
+    "class": "/Script/NavigationSystem.NavigationSystemModuleConfig",
+    "navigation_system_class": "<Struct 'SoftClassPath' (0x00000174E4134E30) {}>",
+    "default_agent_name": "SwordDisciple",
+    "supported_agents_mask": "<Struct 'NavAgentSelector' (0x00000174E4134E58) {}>",
+    "bStrictlyStatic": false,
+    "bAutoSpawnMissingNavData": true,
+    "bCreateOnClient": true,
+    "bSpawnNavDataInNavBoundsLevel": false
+  },
+  "override": {
+    "unavailable": "WorldSettings: Property 'NavigationSystemConfigOverride' for attribute 'NavigationSystemConfigOverride' on 'WorldSettings' is protected and cannot be read",
+    "native_property": "NavigationSystemConfigOverride"
+  },
+  "navigation_system": "/Game/ReversedScale/Maps/L_CombatLabVR.L_CombatLabVR:NavigationSystemV1_0",
+  "nav_data": [
+    {
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabVR.L_CombatLabVR:PersistentLevel.RecastNavMesh-SwordDisciple",
+      "AgentRadius": 28.0,
+      "AgentHeight": 176.0,
+      "bForceRebuildOnLoad": true,
+      "runtime_generation": "<RuntimeGenerationType.DYNAMIC: 2>"
+    }
+  ],
+  "bounds": [
+    {
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabVR.L_CombatLabVR:PersistentLevel.NavMeshBoundsVolume_0",
+      "origin": [
+        300.0,
+        0.0,
+        100.0
+      ],
+      "extent": [
+        1500.0,
+        1200.0,
+        300.0
+      ],
+      "supported_agents": "<Struct 'NavAgentSelector' (0x000001750DA936B0) {}>"
+    }
+  ],
+  "player_starts": [
+    {
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabVR.L_CombatLabVR:PersistentLevel.PlayerStart_1",
+      "location": [
+        30.0,
+        -170.0,
+        90.4
+      ],
+      "yaw": 0.0
+    }
+  ],
+  "floors": [
+    {
+      "label": "CombatFloor",
+      "origin": [
+        300.0,
+        0.0,
+        -25.0
+      ],
+      "extent": [
+        1500.0,
+        1200.0,
+        25.0
+      ],
+      "collision_profile": "BlockAll",
+      "affects_navigation": true
+    }
+  ],
+  "scope": "Read authored navigation settings and component bounds only; no gameplay or path queries.",
+  "navigation_building_or_locked": true,
+  "system_settings": {
+    "bAutoCreateNavigationData": true,
+    "bInitialBuildingLocked": false,
+    "bWholeWorldNavigable": {
+      "unavailable": "NavigationSystemV1: Failed to find property 'bWholeWorldNavigable' for attribute 'bWholeWorldNavigable' on 'NavigationSystemV1'"
+    },
+    "bGenerateNavigationOnlyAroundNavigationInvokers": false,
+    "supported_agents": "[{can_crouch: False, can_jump: False, can_walk: False, can_swim: False, can_fly: False, agent_radius: 28.000000, agent_height: 176.000000, agent_step_height: -1.000000, nav_walking_search_height_scale: 0.500000, preferred_nav_data: {}, name: \"SwordDisciple\", color: {b: 0, g: 75, r: 38, a: 164}, default_query_extent: {x: 50.000000, y: 50.000000, z: 200.000000}, nav_data_class: \"/Script/NavigationSystem.RecastNavMesh\"}]"
+  }
+}

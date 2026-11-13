@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-16",
+  "success": true,
+  "user_selection": "A",
+  "tests_added_or_run": false,
+  "bounds": {
+    "origin": [
+      -1.6689300537109375e-06,
+      1.1920928955078125e-07,
+      25.78193426132202
+    ],
+    "extent": [
+      7.527498960494995,
+      1.8009835481643677,
+      39.15715265274048
+    ]
+  },
+  "materials": [
+    {
+      "slot": "Blade03",
+      "asset": "/Game/ModularWeapons/Materials/MI_Sword_Blade_03.MI_Sword_Blade_03"
+    },
+    {
+      "slot": "Guard03",
+      "asset": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_03.MI_Sword_Crossguard_03"
+    },
+    {
+      "slot": "Grip04",
+      "asset": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01"
+    },
+    {
+      "slot": "Pommel03",
+      "asset": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_03.MI_Sword_Pommel_03"
+    }
+  ],
+  "mesh": "/Game/ReversedScale/Weapons/SelectedSwordA/SM_PlayerSword_A.SM_PlayerSword_A",
+  "fbx_sha256": "dc4a3e7113d4b35d7404d40a8a45944d86169e46b530ce36e5d039db56e8a73d",
+  "original_weapon_preserved": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player",
+  "blade_samples_cm": [
+    [
+      0,
+      0,
+      8.42
+    ],
+    [
+      0,
+      0,
+      36.68
+    ],
+    [
+      0,
+      0,
+      64.94
+    ]
+  ],
+  "melee_damage": 10,
+  "scope": "Static mesh import, original material binding and save only."
+}

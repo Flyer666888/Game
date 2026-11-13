@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-09",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabYueyao",
+  "source_file": "C:\\Users\\21475\\Documents\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\UE_Weapon_Asset\\Yueyao_Blender_UE\\Yueyao_Hero_Weapon_Refined_Highlight.blend",
+  "source_sha256": "EE9209D4AA7C7E120024C7C67DA069778289D2AFD26376E301C962EBACCFDFAF",
+  "source_original_modified": false,
+  "weapon_mesh": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player",
+  "triangles": 152946,
+  "material_slots": 9,
+  "length_cm": 73.64259815216064,
+  "grip_pivot_source_m": [
+    0.09672,
+    0,
+    0
+  ],
+  "grip_animation": "/Game/ReversedScale/Player/Animations/A_Yueyao_Grip_Right",
+  "player_class": "/Script/experiment.NLDesktopPlayerCharacter",
+  "preview_pid": 122280,
+  "eye_point_head_local_cm": [
+    0.0,
+    -8.5,
+    8.0
+  ],
+  "eye_height_maximum_error_cm_observed": 5.3589705544254684e-06,
+  "runtime": [
+    {
+      "game_time": 30.141682396584656,
+      "pawn_class": "/Script/experiment.NLDesktopPlayerCharacter",
+      "pawn_location": [
+        30.0,
+        -170.0,
+        90.0
+      ],
+      "camera": [
+        30.0,
+        -170.0,
+        147.76649475097656
+      ],
+      "control_rotation": "<Struct 'Rotator' (0x000001B20D8ED370) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "hand_bone": [
+        73.0,
+        -148.0,
+        135.76649475097656
+      ],
+      "weapon_pivot": [
+        78.51543289325507,
+        -150.65,
+        130.25106185772148
+      ],
+      "weapon_tip": [
+        122.09442381778197,
+        -150.65000269393298,
+        173.83005278224834
+      ],
+      "weapon_mesh": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+      "enemies": [
+        {
+          "name": "SkeletalMeshActor_2",
+          "eye": [
+            328.9443084977905,
+            -177.094927614987,
+            147.766489392006
+          ],
+          "animation_time": 0.5411928296089172,
+          "head": [
+            339.8572986058347,
+            -175.23279497946533,
+            144.06661200117415
+          ]
+        },
+        {
+          "name": "SkeletalMeshActor_3",
+          "eye": [
+            735.0396175507017,
+            213.57236780698915,
+            147.766489392006
+          ],
+          "animation_time": 0.5411928296089172,
+          "head": [
+            743.6749548472304,
+            220.49998217455646,
+            144.06661200117415
+          ]
+        }
+      ]
+    },
+    {
+      "game_time": 32.464212103688624,
+      "pawn_class": "/Script/experiment.NLDesktopPlayerCharacter",
+      "pawn_location": [
+        30.0,
+        -170.0,
+        90.0
+      ],
+      "camera": [
+        30.0,
+        -170.0,
+        146.81582641601562
+      ],
+      "control_rotation": "<Struct 'Rotator' (0x000001B20D8EF350) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "hand_bone": [
+        73.0,
+        -148.0,
+        134.81582641601562
+      ],
+      "weapon_pivot": [
+        78.51543289325507,
+        -150.65,
+        129.30039352276054
+      ],
+      "weapon_tip": [
+        122.09442381778197,
+        -150.65000269393298,
+        172.8793844472874
+      ],
+      "weapon_mesh": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+      "enemies": [
+        {
+          "name": "SkeletalMeshActor_2",
+          "eye": [
+            333.8816928151384,
+            -183.59421570633504,
+            146.81582886509725
+          ],
+          "animation_time": 2.863722324371338,
+          "head": [
+            344.87452811326665,
+            -181.5593664230616,
+            143.45920194803867
+          ]
+        },
+        {
+          "name": "SkeletalMeshActor_3",
+          "eye": [
+            742.5120017032738,
+            210.28877455143513,
+            146.81582886509725
+          ],
+          "animation_time": 2.863722324371338,
+          "head": [
+            751.1332576110627,
+            217.40614668374823,
+            143.45920194803867
+          ]
+        }
+      ]
+    }
+  ],
+  "build_result": "experimentEditor Win64 Development succeeded",
+  "controls": "WASD walk; mouse look; Alt+F4 close",
+  "scope": "Desktop first-person weapon grip and eye-height alignment; no attacks or damage added",
+  "manual_keyboard_mouse_check": "Awaiting user",
+  "vr_tracking_check": "No VR device; not performed",
+  "preserved_enemy_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Feet",
+  "preserved_enemy_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted"
+}

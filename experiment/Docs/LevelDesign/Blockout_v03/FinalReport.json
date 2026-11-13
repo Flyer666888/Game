@@ -1,0 +1,76 @@
+{
+  "version": "V08",
+  "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV08",
+  "completed_at": "2026-10-21T19:50:04.108010",
+  "scope": "B martial court elevation pressure prototype. C alchemy and D summit layout retained from V07. Static crowd only; no combat AI, wave scheduler or VR validation.",
+  "display_enemies": 36,
+  "ground_enemies": 6,
+  "terrace_enemies": 30,
+  "heights_m": [
+    1.6,
+    3.2,
+    4.8
+  ],
+  "checks": {
+    "main_route_floors": 861,
+    "main_route_floors_pass": true,
+    "route_width_samples": 4607,
+    "pressure_floor_samples": 216,
+    "landing_capsules_clear": true,
+    "entry_heads_architecture_clear": [
+      {
+        "eye_height_m": 1.1,
+        "count": 36,
+        "heads_clear": 36,
+        "chests_clear": 36
+      },
+      {
+        "eye_height_m": 1.62,
+        "count": 36,
+        "heads_clear": 36,
+        "chests_clear": 36
+      }
+    ],
+    "actual_pie_walk_points": 354,
+    "actual_pie_walk_total": 354,
+    "actual_pie_state": "passed",
+    "peak_node_sightlines": true
+  },
+  "actor_count": 690,
+  "cluster_count": 39,
+  "instance_count": 2923,
+  "additional_instanced_actors": 5,
+  "source_original_restored": {
+    "initial_world": "/Game/ReversedScale/Maps/L_NilinBlockoutV07.L_NilinBlockoutV07",
+    "pristine_actor_count": 657,
+    "pristine_pressure_actors": 0,
+    "restored_world": "/Game/ReversedScale/Maps/L_NilinBlockoutV07.L_NilinBlockoutV07",
+    "restored_actor_count": 657,
+    "restored_pressure_actors": 0,
+    "editing_world": "/Game/ReversedScale/Maps/L_NilinBlockoutV08.L_NilinBlockoutV08"
+  },
+  "source_comparison_passed": true,
+  "screenshots": [
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v03\\Screenshots\\UE_09_AlternateOverview.png",
+      "bytes": 1062912
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v03\\Screenshots\\UE_10_PressureEntry.png",
+      "bytes": 1337286
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v03\\Screenshots\\UE_11_PressureCombat.png",
+      "bytes": 1221963
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v03\\Screenshots\\UE_12_PressurePlan.png",
+      "bytes": 1359408
+    },
+    {
+      "file": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v03\\Screenshots\\UE_13_PressureOblique.png",
+      "bytes": 1826183
+    }
+  ],
+  "map_sha256": "01ba9e421d97ef6e2c3fb21d38a74b4726a348ac3ac7db95dc4992b377464464"
+}

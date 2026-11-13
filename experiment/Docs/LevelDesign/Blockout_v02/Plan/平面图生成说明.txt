@@ -1,0 +1,29 @@
+《逆鳞》v02 实际白模平面图生成
+
+本目录独立于Blockout_v01，不覆盖旧版图纸或旧版地图。
+generate_plan.py默认读取上一级LayoutSpec.json，绘制SVG、PNG和交互HTML；不会启动UE、修改LayoutSpec或生成美术图。
+
+默认运行（最终V07 LayoutSpec写出后）
+python generate_plan.py
+
+参数
+--spec 指定实际LayoutSpec路径。
+--output 指定输出目录，默认本目录。
+--terrain 可选实际岩体XY包络JSON；如未指定，则读取LayoutSpec.terrain_footprints。
+
+支持实际数据
+platforms：矩形、圆形或shape='polygon'且points为绝对世界米制坐标的院坪。
+rests、stairs、nodes、footprints、friend、furnace、boss。
+bridgeheads：按points绘制真实桥头过渡板，包含旋转后的绝对坐标；不计作新增院坪。
+terrain_footprints：数组，每项{name,shape:'polygon',points:[[x,y]...],plan_visible:true}；可附center/height_range，不推测可走表面。
+屋顶足迹推荐附label（短中文）、kind:'roof'、yaw、facing。相邻小屋顶可以不写label，避免文字互压。
+
+坐标与范围
+world_mirrored_x=true时，世界-X向图右，+Y向图上，主要建筑正面朝-Y。
+实际地面、屋顶投影和装饰岩体分别表达；俯视包络不表示岩体可走，也不表示目标视线已验证。
+底部高程图横轴为节点顺序，非实际路线里程或直线视线剖面。
+PlanSource.json记录源路径、SHA256和缺失字段，便于与保存地图参数对照。
+
+验证
+生成时解析SVG，使用Sharp渲染PNG，再输出1800×1400预览。正式交付前须目视检查预览。
+缺失源数据会披露，不依据旧意向图补造实际尺寸。

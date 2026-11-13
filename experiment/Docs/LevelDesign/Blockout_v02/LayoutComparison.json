@@ -1,0 +1,923 @@
+{
+  "checked_at": "2026-10-21T13:09:26",
+  "before": {
+    "path": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v01\\LayoutSpec.json",
+    "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV06",
+    "sha256": "1293b3e9828720451034ed704af94f4e2d79778e051c2e8992db0b6d815c2659"
+  },
+  "after": {
+    "path": "D:\\game design\\experiment\\Docs\\LevelDesign\\Blockout_v02\\LayoutSpec.json",
+    "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV07",
+    "sha256": "d53e1981ffd5186d179a69af78e093b9d025e5151c361e2a31396e179382ba65"
+  },
+  "scope": "Parameter comparison only. No collision, visibility, playability or performance result is inferred.",
+  "collections": {
+    "nodes": {
+      "before_count": 8,
+      "after_count": 8,
+      "added": {},
+      "removed": {},
+      "changed": {
+        "4": {
+          "before": {
+            "ground": [
+              -6,
+              201,
+              44
+            ],
+            "yaw": 90
+          },
+          "after": {
+            "ground": [
+              -8,
+              199.4,
+              44
+            ],
+            "yaw": 90
+          }
+        },
+        "6": {
+          "before": {
+            "ground": [
+              -138,
+              439,
+              104
+            ],
+            "yaw": 130
+          },
+          "after": {
+            "ground": [
+              -114.4,
+              404.5,
+              104
+            ],
+            "yaw": 130
+          }
+        },
+        "7": {
+          "before": {
+            "ground": [
+              -220,
+              573,
+              132
+            ],
+            "yaw": 90
+          },
+          "after": {
+            "ground": [
+              -174,
+              505.5,
+              132
+            ],
+            "yaw": 90
+          }
+        },
+        "8": {
+          "before": {
+            "ground": [
+              -220,
+              605,
+              132
+            ],
+            "yaw": -90
+          },
+          "after": {
+            "ground": [
+              -174,
+              537.5,
+              132
+            ],
+            "yaw": -90
+          }
+        }
+      }
+    },
+    "platforms": {
+      "before_count": 4,
+      "after_count": 4,
+      "added": {},
+      "removed": {},
+      "changed": {
+        "D_SummitFloor": {
+          "before": {
+            "center": [
+              -220,
+              580,
+              132
+            ],
+            "shape": "circle",
+            "radius": 30
+          },
+          "after": {
+            "center": [
+              -174,
+              512.5,
+              132
+            ],
+            "shape": "circle",
+            "radius": 30
+          }
+        }
+      }
+    },
+    "rests": {
+      "before_count": 9,
+      "after_count": 9,
+      "added": {},
+      "removed": {},
+      "changed": {
+        "Node06_BridgeLanding": {
+          "before": {
+            "center": [
+              -130,
+              440,
+              104
+            ],
+            "size": [
+              9,
+              8
+            ]
+          },
+          "after": {
+            "center": [
+              -106.5,
+              407.5,
+              104
+            ],
+            "size": [
+              9,
+              8
+            ]
+          }
+        },
+        "Node06_Overlook": {
+          "before": {
+            "center": [
+              -138,
+              439,
+              104
+            ],
+            "size": [
+              8,
+              8
+            ]
+          },
+          "after": {
+            "center": [
+              -112.5,
+              406.75,
+              104
+            ],
+            "size": [
+              8,
+              8
+            ]
+          }
+        },
+        "RidgeLanding": {
+          "before": {
+            "center": [
+              -80,
+              360,
+              88
+            ],
+            "size": [
+              9,
+              8
+            ]
+          },
+          "after": {
+            "center": [
+              -69,
+              347.5,
+              88
+            ],
+            "size": [
+              9,
+              8
+            ]
+          }
+        },
+        "UpperLanding": {
+          "before": {
+            "center": [
+              -190,
+              520,
+              122
+            ],
+            "size": [
+              9,
+              8
+            ]
+          },
+          "after": {
+            "center": [
+              -151.5,
+              459.5,
+              122
+            ],
+            "size": [
+              9,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "bridgeheads": {
+      "before_count": 0,
+      "after_count": 4,
+      "added": {
+        "Node06_BridgeLanding_EntryBridgehead": {
+          "center": [
+            -104.94273329509076,
+            405.0582058067023,
+            104
+          ],
+          "size": [
+            5.792214938222214,
+            8
+          ],
+          "points": [
+            [
+              -106.75798535109219,
+              400.4655705669055
+            ],
+            [
+              -100.01294782927086,
+              404.76725265990376
+            ],
+            [
+              -103.12748123908933,
+              409.6508410464991
+            ],
+            [
+              -109.87251876091067,
+              405.3491589535009
+            ]
+          ],
+          "rotation_yaw": 122.52790205079884,
+          "associated_rest": "Node06_BridgeLanding",
+          "start": [
+            -103.38546659018152,
+            402.61641161340464,
+            104
+          ],
+          "inward": [
+            -0.5377102616247877,
+            0.8431296902276674
+          ]
+        },
+        "RidgeLanding_EntryBridgehead": {
+          "center": [
+            -66.95486935866982,
+            345.30878859857484,
+            88
+          ],
+          "size": [
+            5.994653199591527,
+            8
+          ],
+          "points": [
+            [
+              -67.83395979031114,
+              340.3883041957096
+            ],
+            [
+              -61.98551764436819,
+              345.8468501985897
+            ],
+            [
+              -66.07577892702852,
+              350.22927300144005
+            ],
+            [
+              -71.92422107297148,
+              344.77072699855995
+            ]
+          ],
+          "rotation_yaw": 133.02506598911802,
+          "associated_rest": "RidgeLanding",
+          "start": [
+            -64.90973871733966,
+            343.11757719714967,
+            88
+          ],
+          "inward": [
+            -0.6823182503600111,
+            0.731055268242869
+          ]
+        },
+        "SummitEntryBridgehead": {
+          "center": [
+            -162.6455329147439,
+            486.3594935548326,
+            132
+          ],
+          "size": [
+            3,
+            8
+          ],
+          "points": [
+            [
+              -165.716772393789,
+              483.39006801066506
+            ],
+            [
+              -158.3790863740929,
+              486.5772868416141
+            ],
+            [
+              -159.57429343569882,
+              489.3289190990002
+            ],
+            [
+              -166.9119794553949,
+              486.1417002680511
+            ]
+          ],
+          "rotation_yaw": 113.47833982974582,
+          "start": [
+            -162.04792938394095,
+            484.9836774261396,
+            132
+          ],
+          "inward": [
+            -0.3984023538686347,
+            0.9172107524620126
+          ]
+        },
+        "UpperLanding_EntryBridgehead": {
+          "center": [
+            -149.51802789623156,
+            457.2625737139681,
+            122
+          ],
+          "size": [
+            5.978056475324658,
+            8
+          ],
+          "points": [
+            [
+              -150.53024133790552,
+              452.37281771248524
+            ],
+            [
+              -144.54187024702077,
+              457.67747714338714
+            ],
+            [
+              -148.50581445455762,
+              462.15232971545095
+            ],
+            [
+              -154.49418554544238,
+              456.84767028454905
+            ]
+          ],
+          "rotation_yaw": 131.53538219897365,
+          "associated_rest": "UpperLanding",
+          "start": [
+            -147.53605579246315,
+            455.0251474279362,
+            122
+          ],
+          "inward": [
+            -0.6630824288627301,
+            0.7485463863605932
+          ]
+        }
+      },
+      "removed": {},
+      "changed": {}
+    },
+    "stairs": {
+      "before_count": 8,
+      "after_count": 8,
+      "added": {},
+      "removed": {},
+      "changed": {
+        "C_to_Ridge": {
+          "before": {
+            "a": [
+              -36,
+              310,
+              72
+            ],
+            "b": [
+              -77,
+              356,
+              88
+            ],
+            "width": 7,
+            "riser": 0.16,
+            "tread": 0.5661980201201559,
+            "steps": 100,
+            "landings": 4
+          },
+          "after": {
+            "a": [
+              -34,
+              310,
+              72
+            ],
+            "b": [
+              -64.90973871733966,
+              343.11757719714967,
+              88
+            ],
+            "width": 6.5,
+            "riser": 0.16,
+            "tread": 0.40301058122116473,
+            "steps": 100,
+            "landings": 4
+          }
+        },
+        "Node06_to_Upper": {
+          "before": {
+            "a": [
+              -130,
+              444,
+              104
+            ],
+            "b": [
+              -187,
+              516,
+              122
+            ],
+            "width": 7,
+            "riser": 0.1592920353982301,
+            "tread": 0.7573572317706531,
+            "steps": 113,
+            "landings": 5
+          },
+          "after": {
+            "a": [
+              -106.5,
+              408.7,
+              104
+            ],
+            "b": [
+              -147.53605579246315,
+              455.0251474279362,
+              122
+            ],
+            "width": 6.5,
+            "riser": 0.1592920353982301,
+            "tread": 0.49236114381076407,
+            "steps": 113,
+            "landings": 5
+          }
+        },
+        "Ridge_to_Node06": {
+          "before": {
+            "a": [
+              -80,
+              364,
+              88
+            ],
+            "b": [
+              -127.5,
+              436,
+              104
+            ],
+            "width": 7,
+            "riser": 0.16,
+            "tread": 0.8125688378326683,
+            "steps": 100,
+            "landings": 4
+          },
+          "after": {
+            "a": [
+              -69,
+              348.7,
+              88
+            ],
+            "b": [
+              -103.38546659018152,
+              402.61641161340464,
+              104
+            ],
+            "width": 6.5,
+            "riser": 0.16,
+            "tread": 0.5894794565809417,
+            "steps": 100,
+            "landings": 4
+          }
+        },
+        "Upper_to_Summit": {
+          "before": {
+            "a": [
+              -190,
+              524,
+              122
+            ],
+            "b": [
+              -220,
+              550.5,
+              132
+            ],
+            "width": 7,
+            "riser": 0.15873015873015872,
+            "tread": 0.5758430971309662,
+            "steps": 63,
+            "landings": 3
+          },
+          "after": {
+            "a": [
+              -151.5,
+              460.7,
+              122
+            ],
+            "b": [
+              -162.04792938394095,
+              484.9836774261396,
+              132
+            ],
+            "width": 6.5,
+            "riser": 0.15873015873015872,
+            "tread": 0.3607233323742303,
+            "steps": 63,
+            "landings": 3
+          }
+        }
+      }
+    },
+    "footprints": {
+      "before_count": 4,
+      "after_count": 10,
+      "added": {
+        "AlchemyHipRoof": {
+          "center": [
+            0,
+            315,
+            85.2
+          ],
+          "size": [
+            44,
+            20
+          ],
+          "height": 3.8,
+          "kind": "roof",
+          "label": "AlchemyHipRoof"
+        },
+        "EastAlchemyWorkshop": {
+          "center": [
+            -27,
+            323,
+            76
+          ],
+          "size": [
+            9,
+            17
+          ],
+          "height": 1.6,
+          "kind": "roof",
+          "label": "EastAlchemyWorkshop"
+        },
+        "EastMartialHipRoof": {
+          "center": [
+            -25,
+            151,
+            32.3
+          ],
+          "size": [
+            10,
+            25
+          ],
+          "height": 1.9,
+          "kind": "roof",
+          "label": "EastMartialHipRoof"
+        },
+        "GateSideHipRoof": {
+          "center": [
+            -25,
+            3,
+            4.1
+          ],
+          "size": [
+            10,
+            15
+          ],
+          "height": 1.7,
+          "kind": "roof",
+          "label": "GateSideHipRoof"
+        },
+        "GateSideHipRoof#2": {
+          "center": [
+            25,
+            3,
+            4.1
+          ],
+          "size": [
+            10,
+            15
+          ],
+          "height": 1.7,
+          "kind": "roof",
+          "label": "GateSideHipRoof"
+        },
+        "ShanmenHipRoof": {
+          "center": [
+            0,
+            -2.5,
+            12.2
+          ],
+          "size": [
+            34,
+            12
+          ],
+          "height": 3.2,
+          "kind": "roof",
+          "label": "ShanmenHipRoof"
+        },
+        "WestAlchemyWorkshop": {
+          "center": [
+            27,
+            316,
+            76
+          ],
+          "size": [
+            9,
+            17
+          ],
+          "height": 1.6,
+          "kind": "roof",
+          "label": "WestAlchemyWorkshop"
+        },
+        "WestMartialHipRoof": {
+          "center": [
+            25,
+            145,
+            32.3
+          ],
+          "size": [
+            10,
+            25
+          ],
+          "height": 1.9,
+          "kind": "roof",
+          "label": "WestMartialHipRoof"
+        }
+      },
+      "removed": {
+        "OpenAlchemyPavilion": {
+          "center": [
+            0,
+            315,
+            72
+          ],
+          "size": [
+            44,
+            20
+          ],
+          "height": 16.5
+        },
+        "Shanmen": {
+          "center": [
+            0,
+            -2.5,
+            0
+          ],
+          "size": [
+            34,
+            12
+          ],
+          "height": 15.5
+        }
+      },
+      "changed": {
+        "Furnace": {
+          "before": {
+            "center": [
+              0,
+              310,
+              72
+            ],
+            "shape": "circle",
+            "radius": 4.25,
+            "height": 12.1
+          },
+          "after": {
+            "center": [
+              0,
+              310,
+              72
+            ],
+            "shape": "circle",
+            "radius": 4.25,
+            "height": 11.35,
+            "kind": "obstacle"
+          }
+        },
+        "SealWall": {
+          "before": {
+            "center": [
+              -220,
+              600,
+              132
+            ],
+            "size": [
+              46,
+              5
+            ],
+            "height": 18.1
+          },
+          "after": {
+            "center": [
+              -174,
+              532.5,
+              132
+            ],
+            "size": [
+              46,
+              5
+            ],
+            "height": 18.1,
+            "kind": "stone"
+          }
+        }
+      }
+    }
+  },
+  "named_points": {
+    "boss": {
+      "before": [
+        -220,
+        583,
+        132
+      ],
+      "after": [
+        -174,
+        515.5,
+        132
+      ]
+    },
+    "gameplay_notes": {
+      "before": {
+        "transition_only_nodes": [
+          2,
+          4,
+          6
+        ],
+        "combat_stand_A": [
+          0,
+          4,
+          0
+        ],
+        "triangle_eye": [
+          -226,
+          579,
+          132
+        ],
+        "breaker": [
+          -4,
+          284,
+          72
+        ],
+        "victory_route": [
+          [
+            -232,
+            592,
+            132
+          ],
+          [
+            -232,
+            603,
+            132
+          ],
+          [
+            -220,
+            605,
+            132
+          ]
+        ],
+        "markers": "Layout placeholders only; combat AI is not connected",
+        "workshop_right_center": [
+          -27,
+          323,
+          72
+        ]
+      },
+      "after": {
+        "transition_only_nodes": [
+          2,
+          4,
+          6
+        ],
+        "combat_stand_A": [
+          0,
+          4,
+          0
+        ],
+        "triangle_eye": [
+          -180,
+          511.5,
+          132
+        ],
+        "breaker": [
+          -4,
+          284,
+          72
+        ],
+        "victory_route": [
+          [
+            -186,
+            524.5,
+            132
+          ],
+          [
+            -186,
+            535.5,
+            132
+          ],
+          [
+            -174,
+            537.5,
+            132
+          ]
+        ],
+        "markers": "Layout placeholders only; combat AI is not connected",
+        "workshop_right_center": [
+          -27,
+          323,
+          72
+        ]
+      }
+    }
+  },
+  "node_positions_unchanged": false,
+  "stair_geometry_unchanged": false,
+  "node_heights_unchanged": true,
+  "rest_sizes_unchanged": true,
+  "combat_platform_shapes_unchanged": true,
+  "route_metrics": {
+    "before": {
+      "all_stairs": {
+        "runs": 8,
+        "horizontal_endpoint_length_m": 465.7361681046171,
+        "sloped_endpoint_length_m": 485.8710465834135,
+        "landing_connection_length_m": 136.28403098605,
+        "via_rest_centres_length_m": 138.21460955965506,
+        "terminal_bridgehead_length_m": 0,
+        "ascent_via_rest_centres_and_terminal_head_m": 624.0856561430685,
+        "minimum_width_m": 7,
+        "minimum_tread_m": 0.305,
+        "maximum_riser_m": 0.16
+      },
+      "C_to_D_stairs": {
+        "runs": 4,
+        "horizontal_endpoint_length_m": 279.7361681046171,
+        "sloped_endpoint_length_m": 286.22862608785954,
+        "landing_connection_length_m": 25.469534797755166,
+        "via_rest_centres_length_m": 26.7169905660283,
+        "terminal_bridgehead_length_m": 0,
+        "ascent_via_rest_centres_and_terminal_head_m": 312.94561665388784,
+        "minimum_width_m": 7,
+        "minimum_tread_m": 0.5661980201201559,
+        "maximum_riser_m": 0.16
+      }
+    },
+    "after": {
+      "all_stairs": {
+        "runs": 8,
+        "horizontal_endpoint_length_m": 383.6113829704035,
+        "sloped_endpoint_length_m": 406.3577121478253,
+        "landing_connection_length_m": 130.17483990900672,
+        "via_rest_centres_length_m": 130.86254360676512,
+        "terminal_bridgehead_length_m": 3,
+        "ascent_via_rest_centres_and_terminal_head_m": 540.2202557545904,
+        "minimum_width_m": 6.5,
+        "minimum_tread_m": 0.305,
+        "maximum_riser_m": 0.16
+      },
+      "C_to_D_stairs": {
+        "runs": 4,
+        "horizontal_endpoint_length_m": 197.6113829704035,
+        "sloped_endpoint_length_m": 206.71529165227133,
+        "landing_connection_length_m": 20.67722091537997,
+        "via_rest_centres_length_m": 21.36492461313835,
+        "terminal_bridgehead_length_m": 3,
+        "ascent_via_rest_centres_and_terminal_head_m": 231.0802162654097,
+        "minimum_width_m": 6.5,
+        "minimum_tread_m": 0.3607233323742303,
+        "maximum_riser_m": 0.16
+      }
+    },
+    "definition": "Endpoint centreline lengths from exported stair runs. Landing connections are either direct endpoint distances, or explicitly via same-height rest centres plus the terminal bridgehead. Not an actual measured player trajectory.",
+    "change": {
+      "all_stairs": {
+        "horizontal_length_reduction_m": 82.1247851342136,
+        "sloped_length_reduction_m": 79.5133344355882,
+        "centreline_with_connections_reduction_m": 85.62252551263151,
+        "ascent_via_rest_centres_and_terminal_head_reduction_m": 83.86540038847806
+      },
+      "C_to_D_stairs": {
+        "horizontal_length_reduction_m": 82.1247851342136,
+        "sloped_length_reduction_m": 79.5133344355882,
+        "centreline_with_connections_reduction_m": 84.3056483179634,
+        "ascent_via_rest_centres_and_terminal_head_reduction_m": 81.86540038847815
+      }
+    }
+  }
+}

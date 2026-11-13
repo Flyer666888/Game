@@ -1,0 +1,593 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV10",
+  "world": "/Game/ReversedScale/Maps/L_NilinBlockoutV10.L_NilinBlockoutV10",
+  "checked_at": "2026-10-23T22:03:56.841808",
+  "actor_count": 514,
+  "classes": {
+    "DirectionalLight": 1,
+    "SkyLight": 1,
+    "SkyAtmosphere": 1,
+    "ExponentialHeightFog": 1,
+    "PostProcessVolume": 1,
+    "StaticMeshActor": 363,
+    "TargetPoint": 55,
+    "TextRenderActor": 5,
+    "PlayerStart": 1,
+    "CameraActor": 19,
+    "NLBlockoutMeshCluster": 66
+  },
+  "nodes": [
+    {
+      "index": 1,
+      "actual_ground": [
+        0.0,
+        -21.0,
+        0.0
+      ],
+      "error_m": 0.0
+    },
+    {
+      "index": 2,
+      "actual_ground": [
+        -6.0,
+        64.0,
+        12.0
+      ],
+      "error_m": 0.0
+    },
+    {
+      "index": 3,
+      "actual_ground": [
+        0.0,
+        126.0,
+        28.0
+      ],
+      "error_m": 0.0
+    },
+    {
+      "index": 4,
+      "actual_ground": [
+        -8.0,
+        199.4,
+        44.0
+      ],
+      "error_m": 0.0
+    },
+    {
+      "index": 5,
+      "actual_ground": [
+        0.0,
+        279.0,
+        72.0
+      ],
+      "error_m": 0.0
+    },
+    {
+      "index": 6,
+      "actual_ground": [
+        -130.0,
+        466.0,
+        106.0
+      ],
+      "error_m": 0.0
+    },
+    {
+      "index": 7,
+      "actual_ground": [
+        -208.0,
+        590.0,
+        132.0
+      ],
+      "error_m": 0.0
+    },
+    {
+      "index": 8,
+      "actual_ground": [
+        -208.0,
+        658.0,
+        132.0
+      ],
+      "error_m": 0.0
+    }
+  ],
+  "clusters": [
+    {
+      "label": "NB2_HISM_01_Shanmen_000_52e7fae1d5_20261021_125731_216979",
+      "instances": 27
+    },
+    {
+      "label": "NB2_HISM_02_MartialCourt_001_1d75d19c43_20261021_125731_216979",
+      "instances": 35
+    },
+    {
+      "label": "NB2_HISM_03_AlchemyCourt_002_75d7c0381f_20261021_125731_216979",
+      "instances": 96
+    },
+    {
+      "label": "NB2_HISM_03_AlchemyCourt_003_42071b22de_20261021_125731_216979",
+      "instances": 29
+    },
+    {
+      "label": "NB2_HISM_01_Shanmen_005_db6bd740e8_20261021_125731_216979",
+      "instances": 131
+    },
+    {
+      "label": "NB2_HISM_01_Shanmen_006_2f768516f1_20261021_125731_216979",
+      "instances": 11
+    },
+    {
+      "label": "NB2_HISM_01_Shanmen_007_0507811885_20261021_125731_216979",
+      "instances": 9
+    },
+    {
+      "label": "NB2_HISM_02_MartialCourt_008_44e2cf8bdf_20261021_125731_216979",
+      "instances": 4
+    },
+    {
+      "label": "NB2_HISM_02_MartialCourt_009_a4dc74aa96_20261021_125731_216979",
+      "instances": 116
+    },
+    {
+      "label": "NB2_HISM_02_MartialCourt_010_e4a63aec13_20261021_125731_216979",
+      "instances": 4
+    },
+    {
+      "label": "NB2_HISM_02_MartialCourt_011_4ae075c10d_20261021_125731_216979",
+      "instances": 4
+    },
+    {
+      "label": "NB2_HISM_02_MartialCourt_012_0fd89d112f_20261021_125731_216979",
+      "instances": 3
+    },
+    {
+      "label": "NB2_HISM_02_MartialCourt_013_4b732a9311_20261021_125731_216979",
+      "instances": 5
+    },
+    {
+      "label": "NB2_HISM_03_AlchemyCourt_014_6267b4ad12_20261021_125731_216979",
+      "instances": 4
+    },
+    {
+      "label": "NB2_HISM_03_AlchemyCourt_015_03c0d603a2_20261021_125731_216979",
+      "instances": 9
+    },
+    {
+      "label": "NB2_HISM_03_AlchemyCourt_016_44336e83f2_20261021_125731_216979",
+      "instances": 4
+    },
+    {
+      "label": "NB2_HISM_03_AlchemyCourt_017_a83a5c8437_20261021_125731_216979",
+      "instances": 8
+    },
+    {
+      "label": "NB2_HISM_03_AlchemyCourt_018_c4509cce1f_20261021_125731_216979",
+      "instances": 4
+    },
+    {
+      "label": "NB2_HISM_04_ContinuousAscent_019_be82d3c537_20261021_125731_216979",
+      "instances": 276
+    },
+    {
+      "label": "NB2_HISM_04_ContinuousAscent_020_2e72521e59_20261021_125731_216979",
+      "instances": 15
+    },
+    {
+      "label": "NB2_HISM_04_ContinuousAscent_021_ff96734293_20261021_125731_216979",
+      "instances": 232
+    },
+    {
+      "label": "NB2_HISM_03_AlchemyCourt_024_14bfffab71_20261021_125731_216979",
+      "instances": 136
+    },
+    {
+      "label": "NB2_HISM_04_ContinuousAscent_025_2c237a4ba8_20261021_125731_216979",
+      "instances": 175
+    },
+    {
+      "label": "NB2_HISM_04_ContinuousAscent_026_abc38de996_20261021_125731_216979",
+      "instances": 8
+    },
+    {
+      "label": "NB2_HISM_04_ContinuousAscent_027_aaa3ab357b_20261021_125731_216979",
+      "instances": 154
+    },
+    {
+      "label": "NB2_HISM_01_Shanmen_029_d3226e96ab_20261021_125731_216979",
+      "instances": 21
+    },
+    {
+      "label": "NB2_HISM_02_MartialCourt_030_d3f1c11149_20261021_125731_216979",
+      "instances": 6
+    },
+    {
+      "label": "NB2_HISM_03_AlchemyCourt_031_3579aba7f9_20261021_125731_216979",
+      "instances": 3
+    },
+    {
+      "label": "NB2_HISM_03_AlchemyCourt_032_a8c3ce972e_20261021_125731_216979",
+      "instances": 21
+    },
+    {
+      "label": "NB3_Pressure_Stone_0",
+      "instances": 80
+    },
+    {
+      "label": "NB3_Pressure_Floor_1",
+      "instances": 72
+    },
+    {
+      "label": "NB3_Pressure_Trim_2",
+      "instances": 30
+    },
+    {
+      "label": "NB3_Pressure_Trim_3",
+      "instances": 2
+    },
+    {
+      "label": "NB3_Pressure_Enemy_4",
+      "instances": 36
+    },
+    {
+      "label": "NB4_Cluster_Architecture_Wood_Solid",
+      "instances": 25
+    },
+    {
+      "label": "NB4_Cluster_Architecture_Trim_Solid",
+      "instances": 16
+    },
+    {
+      "label": "NB4_Cluster_Architecture_Stone_Solid",
+      "instances": 16
+    },
+    {
+      "label": "NB4_Cluster_Architecture_Warm_Solid",
+      "instances": 2
+    },
+    {
+      "label": "NB4_Cluster_04_YufengBridge_Floor_Solid",
+      "instances": 385
+    },
+    {
+      "label": "NB4_Cluster_04_YufengBridge_Landing_Solid",
+      "instances": 20
+    },
+    {
+      "label": "NB4_Cluster_04_YufengBridge_Stone_Solid",
+      "instances": 475
+    },
+    {
+      "label": "NB4_Cluster_04_YufengBridge_Trim_Solid",
+      "instances": 471
+    },
+    {
+      "label": "NB4_Cluster_04_YufengBridge_Cliff_Solid",
+      "instances": 4
+    },
+    {
+      "label": "NB4_Cluster_04_YufengBridge_Accent_Trim",
+      "instances": 258
+    },
+    {
+      "label": "NB4_Cluster_04_YufengBridge_CliffLight_Solid",
+      "instances": 8
+    },
+    {
+      "label": "NB4_Cluster_04_YufengBridge_Dummy_Trim",
+      "instances": 28
+    },
+    {
+      "label": "NB4_Cluster_04_YufengBridge_Wood_Trim",
+      "instances": 4
+    },
+    {
+      "label": "NB4_Cluster_04_YufengBridge_Trim_Trim",
+      "instances": 5
+    },
+    {
+      "label": "NB4_Cluster_04_YufengBridge_Warm_Trim",
+      "instances": 1
+    },
+    {
+      "label": "NB4_Cluster_05_SummitSeal_Accent_Trim",
+      "instances": 198
+    },
+    {
+      "label": "NB4_Cluster_05_SummitSeal_Joint_Trim",
+      "instances": 76
+    },
+    {
+      "label": "NB4_Cluster_05_SummitSeal_Stone_Solid",
+      "instances": 334
+    },
+    {
+      "label": "NB4_Cluster_05_SummitSeal_Trim_Solid",
+      "instances": 262
+    },
+    {
+      "label": "NB4_Cluster_05_SummitSeal_CliffLight_Solid",
+      "instances": 4
+    },
+    {
+      "label": "NB4_Cluster_05_SummitSeal_Trim_Trim",
+      "instances": 16
+    },
+    {
+      "label": "NB4_Cluster_05_SummitSeal_Wood_Trim",
+      "instances": 6
+    },
+    {
+      "label": "NB4_Cluster_05_SummitSeal_Dummy_Trim",
+      "instances": 7
+    },
+    {
+      "label": "NB4_Cluster_RangedWalkways_Landing_Solid",
+      "instances": 6
+    },
+    {
+      "label": "NB4_Cluster_RangedWalkways_Wood_Solid",
+      "instances": 15
+    },
+    {
+      "label": "NB4_Cluster_RangedWalkways_Stone_Solid",
+      "instances": 144
+    },
+    {
+      "label": "NB4_Cluster_RangedWalkways_Floor_Solid",
+      "instances": 45
+    },
+    {
+      "label": "NB4_Cluster_RangedWalkways_Trim_Trim",
+      "instances": 9
+    },
+    {
+      "label": "NB4_Cluster_RangedWalkways_Wood_Trim",
+      "instances": 12
+    },
+    {
+      "label": "NB4_Cluster_RangedWalkways_Trim_Solid",
+      "instances": 6
+    },
+    {
+      "label": "NB4_Cluster_RangedWalkways_Dummy_Trim",
+      "instances": 54
+    },
+    {
+      "label": "NB4_Cluster_RangedWalkways_Warm_Trim",
+      "instances": 6
+    }
+  ],
+  "cluster_count": 66,
+  "instance_count": 4688,
+  "gamemode": "/Script/experiment.NLBlockoutGameMode",
+  "save_confirmed": true,
+  "saved_asset_exists": true,
+  "loaded_map_dirty": false,
+  "read_only_audit": true,
+  "success": true,
+  "new_encounter_geometry": {
+    "grandmaster_arenas": [
+      {
+        "id": "GM01",
+        "name": "Yufeng_SwordArena",
+        "display_name": "问剑宗师",
+        "center": [
+          -46,
+          332,
+          72
+        ],
+        "size": [
+          24,
+          22
+        ],
+        "shape": "rectangle",
+        "clear_size": [
+          18,
+          16
+        ],
+        "clear_center": [
+          -46,
+          332,
+          72
+        ],
+        "role": "grandmaster",
+        "stage": "YufengBridge",
+        "drop": "SwordSeal",
+        "enemy_count": 1,
+        "enemy_spawn": [
+          -46,
+          336,
+          72
+        ],
+        "clearance_rule": "No props or columns inside the18x16m core",
+        "progression": "One duel at a time; clear before next encounter",
+        "recovery_after_duel": true,
+        "entry_stair": null,
+        "entry_link": "C_to_Master1_Flat",
+        "next_stair": "Yufeng_Master1_to_Master2",
+        "exit_ground": [
+          -53.64865481662893,
+          345.8100711966911,
+          72
+        ]
+      },
+      {
+        "id": "GM02",
+        "name": "Yufeng_TalismanArena",
+        "display_name": "镇符宗师",
+        "center": [
+          -82,
+          397,
+          90
+        ],
+        "size": [
+          24,
+          22
+        ],
+        "shape": "rectangle",
+        "clear_size": [
+          18,
+          16
+        ],
+        "clear_center": [
+          -82,
+          397,
+          90
+        ],
+        "role": "grandmaster",
+        "stage": "YufengBridge",
+        "drop": "TalismanSeal",
+        "enemy_count": 1,
+        "enemy_spawn": [
+          -82,
+          401,
+          90
+        ],
+        "clearance_rule": "No props or columns inside the18x16m core",
+        "progression": "One duel at a time; clear before next encounter",
+        "recovery_after_duel": true,
+        "entry_stair": "Yufeng_Master1_to_Master2",
+        "entry_ground": [
+          -74.35134518337108,
+          383.1899288033089,
+          90
+        ],
+        "next_stair": "Yufeng_Master2_to_Master3",
+        "exit_ground": [
+          -91.26993626513703,
+          410.3255333811345,
+          90
+        ]
+      },
+      {
+        "id": "GM03",
+        "name": "Yufeng_AlchemyArena",
+        "display_name": "丹火宗师",
+        "center": [
+          -130,
+          466,
+          106
+        ],
+        "size": [
+          24,
+          22
+        ],
+        "shape": "rectangle",
+        "clear_size": [
+          18,
+          16
+        ],
+        "clear_center": [
+          -130,
+          466,
+          106
+        ],
+        "role": "grandmaster",
+        "stage": "YufengBridge",
+        "drop": "AlchemySeal",
+        "enemy_count": 1,
+        "enemy_spawn": [
+          -130,
+          470,
+          106
+        ],
+        "clearance_rule": "No props or columns inside the18x16m core",
+        "progression": "One duel at a time; clear before next encounter",
+        "recovery_after_duel": true,
+        "entry_stair": "Yufeng_Master2_to_Master3",
+        "entry_ground": [
+          -120.73006373486297,
+          452.6744666188655,
+          106
+        ],
+        "next_stair": "Yufeng_Master3_to_Master4",
+        "exit_ground": [
+          -139.56358645882028,
+          479.197749313172,
+          106
+        ]
+      },
+      {
+        "id": "GM04",
+        "name": "Yufeng_WindArena",
+        "display_name": "御风宗师",
+        "center": [
+          -180,
+          535,
+          122
+        ],
+        "size": [
+          24,
+          22
+        ],
+        "shape": "rectangle",
+        "clear_size": [
+          18,
+          16
+        ],
+        "clear_center": [
+          -180,
+          535,
+          122
+        ],
+        "role": "grandmaster",
+        "stage": "YufengBridge",
+        "drop": "WindSeal",
+        "enemy_count": 1,
+        "enemy_spawn": [
+          -180,
+          539,
+          122
+        ],
+        "clearance_rule": "No props or columns inside the18x16m core",
+        "progression": "One duel at a time; clear before next encounter",
+        "recovery_after_duel": true,
+        "entry_stair": "Yufeng_Master3_to_Master4",
+        "entry_ground": [
+          -170.43641354117972,
+          521.802250686828,
+          122
+        ],
+        "next_stair": "Yufeng_Master4_to_Summit",
+        "exit_ground": [
+          -184.55300681253286,
+          548.8216278237605,
+          122
+        ]
+      }
+    ],
+    "boss_arena": {
+      "name": "D_SummitFloor",
+      "shape": "circle",
+      "center": [
+        -208.0,
+        620.0,
+        132.0
+      ],
+      "radius": 46.0,
+      "diameter": 92.0,
+      "clear_center": [
+        -208.0,
+        620.0,
+        132.0
+      ],
+      "clear_radius": 30,
+      "boss_spawn": [
+        -208.0,
+        626.0,
+        132.0
+      ],
+      "old_radius": 30,
+      "area_multiplier": 2.3511111111111114,
+      "monument_center": [
+        -208.0,
+        658.0,
+        132.0
+      ],
+      "monument_width": 62,
+      "monument_height": 35,
+      "front_facing_yaw": -90,
+      "clearance_rule": "Keep the central60m combat circle unobstructed; background lies north ofy+30"
+    },
+    "ranged_stations": 3
+  }
+}

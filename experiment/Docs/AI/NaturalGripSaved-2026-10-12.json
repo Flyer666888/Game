@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-12",
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+  "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+  "death_asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+  "duration_seconds": 3.299999952316284,
+  "final_hold_seconds": 0.6,
+  "morph_names": [
+    "EnemyGrip_R",
+    "EnemyDeathRobe_4",
+    "EnemyDeathRobe_5",
+    "EnemyDeathRobe_6",
+    "EnemyDeathRobe_7",
+    "EnemyDeathRobe_8"
+  ],
+  "morph_curves": [
+    {
+      "requested": "EnemyDeathRobe_1",
+      "skipped_empty_morph": true
+    },
+    {
+      "requested": "EnemyDeathRobe_2",
+      "skipped_empty_morph": true
+    },
+    {
+      "requested": "EnemyDeathRobe_3",
+      "skipped_empty_morph": true
+    },
+    {
+      "name": "EnemyDeathRobe_4",
+      "keys": 100,
+      "interpolation": "Linear"
+    },
+    {
+      "name": "EnemyDeathRobe_5",
+      "keys": 100,
+      "interpolation": "Linear"
+    },
+    {
+      "name": "EnemyDeathRobe_6",
+      "keys": 100,
+      "interpolation": "Linear"
+    },
+    {
+      "name": "EnemyDeathRobe_7",
+      "keys": 100,
+      "interpolation": "Linear"
+    },
+    {
+      "name": "EnemyDeathRobe_8",
+      "keys": 100,
+      "interpolation": "Linear"
+    }
+  ],
+  "grip_morph_name": "EnemyGrip_R",
+  "grip_weight": 1.0,
+  "grip_location_cm": [
+    -1.875828504562378,
+    -8.074670791625977,
+    -5.046912670135498
+  ],
+  "grip_quaternion_xyzw": [
+    0.8239123225212097,
+    -0.5253214240074158,
+    -0.16701309382915497,
+    0.1315772384405136
+  ],
+  "maps": [
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel_BeforeNaturalGrip_20261012",
+      "actors": [
+        {
+          "name": "SwordDisciple_1",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+          "native_grip": true
+        },
+        {
+          "name": "SwordDisciple_2",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+          "native_grip": true
+        }
+      ]
+    },
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabReflection",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabReflection_BeforeNaturalGrip_20261012",
+      "actors": [
+        {
+          "name": "TrainingDisciple_1",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+          "native_grip": false
+        },
+        {
+          "name": "TrainingDisciple_2",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+          "native_grip": false
+        }
+      ]
+    },
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabGuard",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabGuard_BeforeNaturalGrip_20261012",
+      "actors": [
+        {
+          "name": "TrainingDisciple_1",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+          "native_grip": false
+        },
+        {
+          "name": "TrainingDisciple_2",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+          "native_grip": false
+        }
+      ]
+    },
+    {
+      "map": "/Game/ReversedScale/Maps/L_CombatLabMelee",
+      "backup": "/Game/ReversedScale/Maps/L_CombatLabMelee_BeforeNaturalGrip_20261012",
+      "actors": [
+        {
+          "name": "TrainingDisciple_1",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+          "native_grip": false
+        },
+        {
+          "name": "TrainingDisciple_2",
+          "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+          "native_grip": false
+        }
+      ]
+    }
+  ],
+  "scope": "Asset authoring and saved references. Actual combat acceptance awaits user play."
+}

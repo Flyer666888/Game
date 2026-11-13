@@ -1,0 +1,37 @@
+{
+  "level_1": {
+    "gate_outside": 2,
+    "gate_inside": 6,
+    "martial_court": 36,
+    "exit_encounter": 6,
+    "total": 50
+  },
+  "level_2": {
+    "establish": 8,
+    "interrupt": 10,
+    "siege": 12,
+    "unseal": 14,
+    "left_entry_total": 22,
+    "right_entry_total": 22,
+    "total": 44
+  },
+  "level_3": {
+    "bridge_mobs": 4,
+    "bridge_lower_swordsmen": 2,
+    "bridge_upper_talisman": 2,
+    "boss": 1,
+    "phases": 3,
+    "boss_arena_additional_mobs": 0,
+    "total": 5
+  },
+  "rest_nodes": {
+    "02": 0,
+    "04": 0,
+    "upper_landing_122m": 0,
+    "08": 0
+  },
+  "overall_total": 99,
+  "status": "Proposed cumulative spawn budget; not implemented encounter configuration",
+  "active_enemy_test_budget": 12,
+  "existing_static_martial_silhouettes": 36
+}

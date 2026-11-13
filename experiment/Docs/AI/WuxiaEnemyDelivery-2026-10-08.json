@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-08",
+  "task": "Import user WuxiaMale Blender model into the Enemy demo",
+  "result": "InitialCharacterPreviewComplete_AwaitingUserFeedback",
+  "source": {
+    "file": "AssetInbox/武侠男.blend",
+    "sha256": "F503BB1C7FB07BF3D33CEEA90F2F7F207263964635E093943020E890194F31ED",
+    "original_retained": true,
+    "blender_format": "5.1",
+    "had_skeleton": false,
+    "had_animation": false,
+    "packed_material_textures": true
+  },
+  "converter": {
+    "blender": "5.1.2 portable",
+    "official_url": "https://download.blender.org/release/Blender5.1/blender-5.1.2-windows-x64.zip",
+    "official_sha256": "345BEDEA7B0ACF7CC9666423D8553F9129622AEA34DED65C23E8CB70F83F14FF",
+    "checksum_verified": true,
+    "original_blender_install_preserved": true
+  },
+  "asset": {
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo",
+    "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Anim_CSST",
+    "source_animation": "/Game/Animations/Sword/Anim_CSST",
+    "skeleton_bones": 23,
+    "polygons": 50000,
+    "vertices": 37194,
+    "texture_resolution": 2048,
+    "rest_height_cm": 180.013,
+    "animation_seconds": 9.8666668,
+    "animation_looping": true,
+    "play_rate": 1.0,
+    "skinning": "Continuous distance-to-bone weights with smooth robe/hair masks",
+    "max_influences": 4,
+    "source_model_axes_corrected": true,
+    "source_units_baked_to_cm": true,
+    "authoring_files": [
+      "ArtSource/WuxiaMale/WuxiaMaleGame.blend",
+      "ArtSource/WuxiaMale/WuxiaMaleGame.fbx",
+      "ArtSource/WuxiaMale/WuxiaMaleRigged.blend"
+    ]
+  },
+  "scene": {
+    "map": "/Game/ReversedScale/Maps/L_CombatLabWuxia",
+    "enemies_replaced": 2,
+    "actor_count": 12,
+    "launcher": "Run_CombatLab_Demo.cmd",
+    "default_maps_updated": true,
+    "earlier_maps_retained": true
+  },
+  "evidence": {
+    "import_exit_code": 0,
+    "import_errors": 0,
+    "import_warnings": 4,
+    "import_log": "Docs/AI/ImportWuxiaEnemy-AxisRepair.log",
+    "map_build_exit_code": 0,
+    "runtime_animation": "Docs/AI/WuxiaRuntimeAnimation-2026-10-08.json",
+    "runtime_animation_times_seconds": [
+      0.9091925,
+      2.3716543
+    ],
+    "screenshots": [
+      "Docs/AI/WuxiaDemoPreview.png",
+      "Docs/AI/WuxiaDemoPreview2.png"
+    ],
+    "screenshots_visually_reviewed": true,
+    "observed": "Upright textured characters, connected hands/sleeves, no first-import mesh tearing, animation advancing",
+    "preview_log": "Docs/AI/WuxiaDesktopPreview-2026-10-08.log",
+    "preview_launch_pid": 52244
+  },
+  "limits": [
+    "Basic prototype rig, no finger/face animation",
+    "No cloth or hair simulation; robe follows pelvis panel",
+    "Run/attack clips require individual deformation review",
+    "Preview actors remain SkeletalMeshActor; no active AI/attack/damage/VR acceptance"
+  ]
+}

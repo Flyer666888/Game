@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "D:\game design\experiment\Scripts\Editor\NilinBlockout\build_blockout.py", line 408, in <module>
+    main()
+  File "D:\game design\experiment\Scripts\Editor\NilinBlockout\build_blockout.py", line 333, in main
+    stairs('B_to_Threshold',(0,163,28),(0,198.5,44),8)
+  File "D:\game design\experiment\Scripts\Editor\NilinBlockout\build_blockout.py", line 124, in stairs
+    if tread<.30: raise RuntimeError('%s has too short treads: %.3f'%(name,tread))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: B_to_Threshold has too short treads: 0.292

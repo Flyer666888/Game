@@ -1,0 +1,813 @@
+{
+  "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV08",
+  "checked_at": "2026-10-21T19:44:36.837793",
+  "source": "Actual UE editor collision/read-back. Enemy HISM are deliberately NoCollision. This head/chest test measures architecture occlusion only; rendered images assess silhouette overlap.",
+  "display_enemy_count": 36,
+  "enemy_markers": [
+    {
+      "id": "B_R_1_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_1_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_1_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_1_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_1_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_2_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_2_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_2_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_2_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_2_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_3_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_3_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_3_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_3_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_3_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_0_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_0_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_R_0_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_1_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_1_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_1_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_1_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_1_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_2_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_2_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_2_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_2_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_2_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_3_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_3_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_3_03",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_3_04",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_3_05",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_0_01",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_0_02",
+      "unique_actual_position_matches": true
+    },
+    {
+      "id": "B_L_0_03",
+      "unique_actual_position_matches": true
+    }
+  ],
+  "floor_samples": 216,
+  "floor_failures": [],
+  "landing_capsules": [
+    {
+      "stair": "R_Access1",
+      "landing_m": [
+        -18.8,
+        155.45,
+        29.6
+      ],
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "stair": "R_Access2",
+      "landing_m": [
+        -18.8,
+        159.55,
+        31.2
+      ],
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "stair": "R_Access3",
+      "landing_m": [
+        -18.8,
+        163.5,
+        32.8
+      ],
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "stair": "L_Access1",
+      "landing_m": [
+        18.8,
+        155.45,
+        29.6
+      ],
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "stair": "L_Access2",
+      "landing_m": [
+        18.8,
+        159.55,
+        31.2
+      ],
+      "clear": true,
+      "blocker": null
+    },
+    {
+      "stair": "L_Access3",
+      "landing_m": [
+        18.8,
+        163.5,
+        32.8
+      ],
+      "clear": true,
+      "blocker": null
+    }
+  ],
+  "entry_sightlines": [
+    {
+      "eye_height_m": 1.1,
+      "count": 36,
+      "heads_clear": 36,
+      "chests_clear": 36,
+      "enemies": [
+        {
+          "id": "B_R_1_01",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_02",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_03",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_04",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_05",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_01",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_02",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_03",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_04",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_05",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_01",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_02",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_03",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_04",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_05",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_01",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_02",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_03",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_01",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_02",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_03",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_04",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_05",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_01",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_02",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_03",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_04",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_05",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_01",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_02",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_03",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_04",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_05",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_01",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_02",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_03",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        }
+      ]
+    },
+    {
+      "eye_height_m": 1.62,
+      "count": 36,
+      "heads_clear": 36,
+      "chests_clear": 36,
+      "enemies": [
+        {
+          "id": "B_R_1_01",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_02",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_03",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_04",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_1_05",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_01",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_02",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_03",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_04",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_2_05",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_01",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_02",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_03",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_04",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_3_05",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_01",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_02",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_R_0_03",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_01",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_02",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_03",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_04",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_1_05",
+          "rank": 1,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_01",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_02",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_03",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_04",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_2_05",
+          "rank": 2,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_01",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_02",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_03",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_04",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_3_05",
+          "rank": 3,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_01",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_02",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        },
+        {
+          "id": "B_L_0_03",
+          "rank": 0,
+          "head_architecture_clear": true,
+          "chest_architecture_clear": true,
+          "head_blocker": null,
+          "chest_blocker": null
+        }
+      ]
+    }
+  ],
+  "combat_disk_floor_samples": 181,
+  "combat_disk_failures": [],
+  "success": true
+}

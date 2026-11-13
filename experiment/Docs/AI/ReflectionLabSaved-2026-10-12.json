@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-12",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabReflection",
+  "game_mode": "/Game/ReversedScale/Player/BP_CombatLabReflectionGameMode",
+  "reflectable_definition": "/Game/ReversedScale/Combat/DA_TrainingProjectile_Reflectable",
+  "perfect_window_seconds": 0.18,
+  "release_rearm_seconds": 0.12,
+  "minimum_window_interval_seconds": 0.35,
+  "perfect_guard_cost": 0,
+  "ordinary_guard_cost": 12,
+  "reflection_limit": 2,
+  "original_lifetime_preserved": true,
+  "attack_id_preserved": true,
+  "generation_increments": true,
+  "source_and_owner_change": true,
+  "shield_ignore_seconds": 0.08,
+  "reflection_target": "Visible living original source, then legal target in reflection cone, otherwise geometric reflection",
+  "loop_goal": "Defeat 2 disciples and reflect at least one training shot; R restores the encounter",
+  "audio": [
+    "S_Hit",
+    "S_Block",
+    "S_Parry"
+  ],
+  "previous_guard_map_preserved": true,
+  "scope": "Desktop implementation. Manual gameplay and real VR acceptance remain pending."
+}

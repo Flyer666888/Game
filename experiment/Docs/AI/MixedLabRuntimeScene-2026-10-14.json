@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-14",
+  "task": "ENEMY02A",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabMixed",
+  "controller_state": "<NLEncounterState.READY: 0>",
+  "checkpoint_enabled": true,
+  "entry_wave_index": 0,
+  "wave_index": -1,
+  "wave_count": 2,
+  "planned_count": 5,
+  "spawned_count": 0,
+  "defeated_count": 0,
+  "alive_count": 0,
+  "initial_seed": 20261013,
+  "random_state": 502555229,
+  "level_id": "Level.CombatLab.Mixed",
+  "encounter_id": "Encounter.MixedDisciples",
+  "content_revision": "MixedDisciples.ENEMY02A.1",
+  "authored_wave_counts": [
+    2,
+    3
+  ],
+  "authored_entries": [
+    [
+      {
+        "entry_id": "SwordDisciple",
+        "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+        "count": 1
+      },
+      {
+        "entry_id": "TalismanDisciple",
+        "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C",
+        "count": 1
+      }
+    ],
+    [
+      {
+        "entry_id": "SwordDisciple",
+        "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+        "count": 2
+      },
+      {
+        "entry_id": "TalismanDisciple",
+        "enemy_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.BP_EnemyTalismanDisciple_C",
+        "count": 1
+      }
+    ]
+  ],
+  "initial_runtime_enemy_count": 0,
+  "initial_enemy_roles": [],
+  "has_memory_checkpoint": true,
+  "persistence_status": "InMemoryOnly",
+  "persistence_failure": "None",
+  "run_id": "<Struct 'Guid' (0x000002687F3F0B60) {}>",
+  "defeat_event_ledger_count": 0,
+  "health": 100.0,
+  "guard": 100.0,
+  "player_origin_cm": [
+    30.0,
+    -170.0,
+    90.4
+  ],
+  "camera_cm": [
+    30.0,
+    -170.0,
+    146.81582489013672
+  ],
+  "melee_damage": 10.0,
+  "shield_mesh": "/Game/ReversedScale/Weapons/DragonShield/SM_DragonShield.SM_DragonShield",
+  "left_hand_mesh": "/Game/XRMannequins/Meshes/SKM_MannyXR_right.SKM_MannyXR_right",
+  "screenshot": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\CombatProject\\Docs\\AI\\MixedLabFirstPerson.png",
+  "scope": "Only reads the initial running presentation and requests a screenshot. No Start, R/retry, pause, movement, attack, damage, disk Save, seed replay, enemy spawn or automated gameplay test. Normal startup may read a scoped checkpoint."
+}

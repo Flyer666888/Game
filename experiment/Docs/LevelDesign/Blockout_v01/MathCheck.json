@@ -1,0 +1,256 @@
+{
+  "source": "D:\\game design\\experiment\\Scripts\\Editor\\NilinBlockout\\build_blockout.py",
+  "source_sha256": "38f31f7d701656bfb953adfab2e9880614c4ed32f83524e89e7caa3685acfecf",
+  "method": "Pure Python AST geometry stubs; no UE, map IO, or playtests",
+  "primitive_count_geometry_and_clouds": 3332,
+  "blocking_primitives": 2743,
+  "floor_primitives": 875,
+  "stairs": [
+    {
+      "name": "A_to_Rest",
+      "steps": 75,
+      "landings": 3,
+      "riser_m": 0.16,
+      "tread_m": 0.41,
+      "run_m": 34.5,
+      "slope_degrees": 19.17900802581072,
+      "run_error_m": -1.4210854715202004e-14,
+      "spine_below_tread_centres_min_m": 0.7749876166695326,
+      "spine_below_tread_edges_min_m": 0.68629196449562,
+      "pass_riser": true,
+      "pass_tread": true,
+      "pass_slope": true
+    },
+    {
+      "name": "Rest_to_B",
+      "steps": 100,
+      "landings": 4,
+      "riser_m": 0.16,
+      "tread_m": 0.445,
+      "run_m": 49.5,
+      "slope_degrees": 17.912509385963265,
+      "run_error_m": 2.1316282072803006e-14,
+      "spine_below_tread_centres_min_m": 0.7256999453687634,
+      "spine_below_tread_edges_min_m": 0.6376191372879525,
+      "pass_riser": true,
+      "pass_tread": true,
+      "pass_slope": true
+    },
+    {
+      "name": "B_to_Threshold",
+      "steps": 100,
+      "landings": 4,
+      "riser_m": 0.16,
+      "tread_m": 0.305,
+      "run_m": 35.5,
+      "slope_degrees": 24.26129085247779,
+      "run_error_m": -2.1316282072803006e-14,
+      "spine_below_tread_centres_min_m": 0.5210325027174321,
+      "spine_below_tread_edges_min_m": 0.4297648970836221,
+      "pass_riser": true,
+      "pass_tread": true,
+      "pass_slope": true
+    },
+    {
+      "name": "Threshold_to_C",
+      "steps": 175,
+      "landings": 8,
+      "riser_m": 0.16,
+      "tread_m": 0.32285714285714284,
+      "run_m": 66.5,
+      "slope_degrees": 22.833654177917545,
+      "run_error_m": 1.9895196601282805e-13,
+      "spine_below_tread_centres_min_m": 0.6323291761722487,
+      "spine_below_tread_edges_min_m": 0.5402991009842708,
+      "pass_riser": true,
+      "pass_tread": true,
+      "pass_slope": true
+    },
+    {
+      "name": "C_to_Ridge",
+      "steps": 100,
+      "landings": 4,
+      "riser_m": 0.16,
+      "tread_m": 0.5661980201201559,
+      "run_m": 61.61980201201558,
+      "slope_degrees": 14.555795329639473,
+      "run_error_m": -9.947598300641403e-14,
+      "spine_below_tread_centres_min_m": 0.8188028823589804,
+      "spine_below_tread_edges_min_m": 0.7323114626052671,
+      "pass_riser": true,
+      "pass_tread": true,
+      "pass_slope": true
+    },
+    {
+      "name": "Ridge_to_Node06",
+      "steps": 100,
+      "landings": 4,
+      "riser_m": 0.16,
+      "tread_m": 0.8125688378326683,
+      "run_m": 86.25688378326683,
+      "slope_degrees": 10.508496882155342,
+      "run_error_m": 1.8474111129762605e-13,
+      "spine_below_tread_centres_min_m": 0.9192929643007233,
+      "spine_below_tread_edges_min_m": 0.8346556532542735,
+      "pass_riser": true,
+      "pass_tread": true,
+      "pass_slope": true
+    },
+    {
+      "name": "Node06_to_Upper",
+      "steps": 113,
+      "landings": 5,
+      "riser_m": 0.1592920353982301,
+      "tread_m": 0.7573572317706531,
+      "run_m": 91.8313671900838,
+      "slope_degrees": 11.09002763855647,
+      "run_error_m": 9.947598300641403e-14,
+      "spine_below_tread_centres_min_m": 0.9608281644723888,
+      "spine_below_tread_edges_min_m": 0.8757614759736185,
+      "pass_riser": true,
+      "pass_tread": true,
+      "pass_slope": true
+    },
+    {
+      "name": "Upper_to_Summit",
+      "steps": 63,
+      "landings": 3,
+      "riser_m": 0.15873015873015872,
+      "tread_m": 0.5758430971309662,
+      "run_m": 40.02811511925087,
+      "slope_degrees": 14.026773981362135,
+      "run_error_m": -1.4210854715202004e-14,
+      "spine_below_tread_centres_min_m": 1.0384046224680503,
+      "spine_below_tread_edges_min_m": 0.9516042929861044,
+      "pass_riser": true,
+      "pass_tread": true,
+      "pass_slope": true
+    }
+  ],
+  "node_supports": [
+    {
+      "node": 1,
+      "ground_m": [
+        0,
+        -21,
+        0
+      ],
+      "support_primitives": [
+        "A_Shanmen_Floor"
+      ],
+      "supported": true
+    },
+    {
+      "node": 2,
+      "ground_m": [
+        6,
+        64,
+        12
+      ],
+      "support_primitives": [
+        "Node02_Overlook"
+      ],
+      "supported": true
+    },
+    {
+      "node": 3,
+      "ground_m": [
+        0,
+        126,
+        28
+      ],
+      "support_primitives": [
+        "B_SouthWing_Floor"
+      ],
+      "supported": true
+    },
+    {
+      "node": 4,
+      "ground_m": [
+        6,
+        201,
+        44
+      ],
+      "support_primitives": [
+        "Node04_Overlook"
+      ],
+      "supported": true
+    },
+    {
+      "node": 5,
+      "ground_m": [
+        0,
+        279,
+        72
+      ],
+      "support_primitives": [
+        "C_AlchemyCourt_Floor"
+      ],
+      "supported": true
+    },
+    {
+      "node": 6,
+      "ground_m": [
+        138,
+        439,
+        104
+      ],
+      "support_primitives": [
+        "Node06_Overlook"
+      ],
+      "supported": true
+    },
+    {
+      "node": 7,
+      "ground_m": [
+        220,
+        573,
+        132
+      ],
+      "support_primitives": [
+        "D_SummitFloor"
+      ],
+      "supported": true
+    },
+    {
+      "node": 8,
+      "ground_m": [
+        220,
+        605,
+        132
+      ],
+      "support_primitives": [
+        "D_SummitFloor"
+      ],
+      "supported": true
+    }
+  ],
+  "all_nodes_have_planar_support": true,
+  "all_stair_dimensions_pass": true,
+  "furnace": {
+    "body_centre_m": [
+      0,
+      310,
+      77.0
+    ],
+    "front_extent_y_m": 305.9,
+    "back_extent_y_m": 314.1,
+    "friend_y_m": 283,
+    "node05_y_m": 279,
+    "combat_disk_y_extent_m": [
+      277,
+      305
+    ],
+    "outside_combat_disk": true,
+    "matches_v06": "Furnace after friend and clear defense gap, under high open pavilion"
+  },
+  "cloud_sheet_top_range_m": [
+    -54.999951032753515,
+    -45.05320876688309
+  ],
+  "limitations": [
+    "Point support check does not prove capsule reachability or floor collision in UE.",
+    "No ray tracing, camera exposure, cloud appearance, FPS, input or VR playtest performed.",
+    "Static mesh actor counts imply draw/physics overhead; measure in the actual map."
+  ]
+}

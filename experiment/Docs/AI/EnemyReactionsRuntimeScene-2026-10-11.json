@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-11",
+  "scene_loaded": true,
+  "map": "/Game/ReversedScale/Maps/L_CombatLabMelee",
+  "damage": 10.0,
+  "camera_cm": [
+    30.0,
+    -170.0,
+    146.84933471679688
+  ],
+  "enemies": [
+    {
+      "position_cm": [
+        240.0,
+        -215.0,
+        0.0
+      ],
+      "health": 30.0,
+      "idle_position_seconds": 0.34726083278656006,
+      "hit_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+      "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse",
+      "death_duration_seconds": 2.799999952316284
+    },
+    {
+      "position_cm": [
+        240.0,
+        -125.0,
+        0.0
+      ],
+      "health": 30.0,
+      "idle_position_seconds": 0.34726083278656006,
+      "hit_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+      "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Collapse.Wuxia_Death_Collapse",
+      "death_duration_seconds": 2.799999952316284
+    }
+  ],
+  "scope": "Loaded scene and initial presentation only. Input acceptance pending user play."
+}

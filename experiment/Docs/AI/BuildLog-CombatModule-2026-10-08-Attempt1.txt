@@ -1,0 +1,142 @@
+Log started at 10/08/2026 20:36:29 (2026-10-08T12:36:29Z)
+Resolved project argument D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\experiment.uproject to D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\experiment.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\21475\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\Intermediate\Build\XmlConfigCache.bin): D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\Intermediate\Build\XmlConfigCache.bin): C:\Users\21475\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\Docs\AI\BuildLog-CombatModule-2026-10-08.txt
+
+Setting temp directory to 'C:\Users\21475\AppData\Local\Temp\UnrealBuildTool\d662bf54'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: D:\浏览器下载\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll experimentEditor Win64 Development "-Project=D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\experiment.uproject" -NoHotReloadFromIDE -NoUBA -MaxParallelActions=4 -WaitMutex "-Log=D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\Docs\AI\BuildLog-CombatModule-2026-10-08.txt"
+Executing up to 4 actions based on MaxProcessorCount override
+Creating makefile for experimentEditor (no existing makefile)
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Skipping D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Compiling D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\Intermediate\Build\BuildRules\experimentModuleRules.dll: Assembly does not exist
+Compiler: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe
+Linker: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Library Manager: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe
+Resource Converter: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cvtres.exe
+Using EngineIncludeOrderVersion.Unreal5_8 for target experimentEditor.Target.cs
+Building UnrealEditor - experimentEditor - Win64 - Development
+VerseVMBytecodeGenerator.Generate, generating CPP headers in: 'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodeOps.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMBytecodesAndCaptures.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMMakeCapturesFuncs.gen.h'
+	Writing out generated header file. Changed:False Path:'D:\浏览器下载\UE_5.8\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode\VVMCaptureSwitch.gen.h'
+Found 5 shared PCH headers (listed in order of preference):
+	UnrealEd
+	Engine
+	Slate
+	CoreUObject
+	Core
+Parsing headers for experimentEditor
+  Running Internal UnrealHeaderTool "D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\experiment.uproject" "D:\驱动精灵搬家目录(勿删改)\软件\微信\聊天数据\10013\WeChat Files\wxid_0s4pno08wrbs22\FileStorage\File\2026-10\experiment\Intermediate\Build\Win64\experimentEditor\experimentEditor.uhtmanifest" -WarningsAsErrors -installed
+UHT compiled-in object format Default
+Step - Parse Headers
+Reading engine version from file: D:\浏览器下载\UE_5.8\Engine\Source\Runtime\Launch\Resources\Version.h
+Got engine version 5.8.2
+Step - Populate symbol table
+Step - Exports
+       Exporter Stats skipped
+       Exporter Json skipped
+       Running exporter CodeGen
+UHT processed experimentEditor in 3.1790605 seconds (18 generated files written)
+Building experimentEditor...
+===== Toolchain Information =====
+Using ISPC compiler (D:\浏览器下载\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35229 toolchain (D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+=================================
+Using Unreal Build Accelerator local executor to run 13 action(s)
+  CPU 24 physical cores, 24 logical cores
+  Memory 31.73 GB physical, 18.57 GB/33.73 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 1492912336 used. Action: Compile [x64] SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.cpp ()
+Cache bucket 3704964604 used. Action: Compile [x64] Module.experiment.gen.cpp ()
+Cache bucket 1543467679 used. Action: Compile [x64] NLAttackDirectorSubsystem.cpp ()
+Cache bucket 416513229 used. Action: Link [x64] UnrealEditor-experiment.lib ()
+Cache bucket 2611342960 used. Action: Compile Resource [x64] Default.rc2 ()
+All processes queued
+[1/13] Compile Resource [x64] Default.rc2 [NoUba]
+[2/13] Compile [x64] SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.cpp [NoUba]
+c1xx: fatal error C1083: ￎ￞ﾷﾨﾴ￲﾿ﾪﾱ￠ￒ￫ￆ￷ￖ￐ﾼ￤ￎￄﾼ￾: ﾡﾰD:/￩ﾩﾱ￥ﾊﾨ￧ﾲﾾ￧ﾁﾵ￦ﾐﾬ￥ﾮﾶ￧ﾛﾮ￥ﾽﾕ(￥ﾋ﾿￥ﾈﾠ￦ﾔ?/￨ﾽﾯ￤ﾻﾶ/￥ﾾﾮ￤﾿ﾡ/￨ﾁﾊ￥ﾤﾩ￦ﾕﾰ￦ﾍﾮ/10013/WeChat Files/wxid_0s4pno08wrbs22/FileStorage/File/2026-10/experiment/Intermediate/Build/Win64/x64/experimentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pchﾡﾱ: Invalid argument
+ Compile [x64] SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.cpp [NoUba]: Exited with error code 2 . The build will fail.
+ Compile [x64] SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.cpp [NoUba]: WorkingDirectory D:\浏览器下载\UE_5.8\Engine\Source
+ Compile [x64] SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.cpp [NoUba]: D:\UEBuildTools2022\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe @"D:/驱动精灵搬家目录(勿删改)/软件/微信/聊天数据/10013/WeChat Files/wxid_0s4pno08wrbs22/FileStorage/File/2026-10/experiment/Intermediate/Build/Win64/x64/experimentEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj.rsp" 
+
+Total time in Unreal Build Accelerator local executor: 2.32 seconds
+CompilationResultException: OtherCompilationError
+   at UnrealBuildTool.ActionGraph.InternalExecuteActions(ActionExecutor Executor, List`1 ActionsToExecute, ILogger Logger)
+   at UnrealBuildTool.ActionGraph.ExecuteActionsAsync(BuildConfiguration BuildConfiguration, List`1 ActionsToExecute, List`1 TargetDescriptors, ILogger Logger, ActionExecutor executor)
+   at UnrealBuildTool.BuildMode.BuildAsync(List`1 Targets, BuildConfiguration BuildConfiguration, BuildOptions Options, FileReference WriteOutdatedActionsFile, CppDependencyCache cppDependencyCache, ILogger Logger, String ActionTypeFilter, ActionExecutor executor)
+   at UnrealBuildTool.BuildMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+   at UnrealBuildTool.BuildMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.629 Main
+   0.037          [  0.037]  +0.206 Apply XmlConfig
+   0.263          [  0.263]  +0.096 AddTelemetry
+   0.390          [  0.390]  +0.239 RegisterPlatforms
+[  0.663]  +0.059 ParseCommandLine
+[  0.857]  +0.065 EngineRulesPlugins
+[  0.930]  +0.033 EngineRulesFetchDirs
+[  0.981]  +0.021 EngineRulesAssembly
+[  1.002]  +0.002 ProgramRulesAssembly
+[  1.005]  +5.276 ProjectRulesAssembly
+[  6.281]  +0.349 CreateTargetRules
+[  6.766]  +0.007 CppDependencyCache
+[  6.792]  +5.105 experimentEditor Win64 Development
+   6.792          [  0.000]  +1.425 <unknown>
+   8.218          [  1.425]  +1.623 UHTModules
+   9.841          [  3.048]  +0.257 <unknown>
+  10.098          [  3.305]  +0.379 UHTManifest
+  10.477          [  3.684]  +3.189 UHT
+  10.477             3.684          [  0.000]  +1.383 <unknown>
+  11.860             5.068          [  1.383]  +0.000 WaitOnWrites
+  11.898             5.105          [  1.421]  +0.212 SavingMakefile
+  12.110             5.318          [  1.633]  +1.556 <unknown>
+[ 11.897]  +1.774 <unknown>
+[ 13.672]  +0.061 UHTTimestamps
+  13.722          [  0.049]  +0.000 CppDependencyCache
+  13.723          [  0.050]  +0.113 Preparing ActionGraph
+  13.751             0.078          [  0.027]  +0.013 LinkActions
+  13.765             0.093          [  0.042]  +0.000 GatherPrerequisiteActions
+  13.769             0.096          [  0.045]  +0.000 CppDependencyCacheWait
+  13.770             0.098          [  0.047]  +0.031 GatherOutdatedActions
+  13.808             0.136          [  0.085]  +0.007 LinkActions
+  13.817             0.145          [  0.094]  +0.001 DeleteOutdatedProducedItems
+  13.819             0.146          [  0.095]  +0.013 SaveActionHistory
+  13.833             0.161          [  0.110]  +0.002 CreateDirectoriesForProducedItems
+[ 13.866]  +0.348 GarbageCollect
+[ 14.215]  +1.974 <unknown>
+[ 16.190]  +0.000 DisconnectCache
+[ 16.197]  +0.001 SaveCasTable
+[ 16.205]  +0.134 Saving caches
+[ 16.361]  +0.005 TelemetryService.FlushEvents
+[ 16.368]
+
+Result: Failed (OtherCompilationError)
+Total execution time: 16.37 seconds

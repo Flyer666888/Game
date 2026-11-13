@@ -1,0 +1,352 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "张浩翔的拯救者",
+			"instance": "7748D7DA49354B336FA4CA8FA2FC6240",
+			"instanceName": "张浩翔的拯救者-44700",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9711] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+			"cPUModel": "Intel(R) Core(TM) i9-14900HX",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.10.22-12.11.59",
+	"succeeded": 13,
+	"succeededWithWarnings": 2,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.33692121505737305,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "BufferAndRelease",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.BufferAndRelease",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.0024430975317955017,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Conditions",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.Conditions",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.030238300561904907,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "EdgesAndSwingIdentity",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.EdgesAndSwingIdentity",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.016869399696588516,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Invalidation",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.Invalidation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.02982800081372261,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InvalidNumbers",
+			"fullTestPath": "Nilin.Combat.BladeQi.Gesture.InvalidNumbers",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.029954198747873306,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ButtonAndOneCut",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.ButtonAndOneCut",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.035994198173284531,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DiscontinuitiesRequireFreshInput",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.DiscontinuitiesRequireFreshInput",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.034802999347448349,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ReleaseAndNewSwing",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.ReleaseAndNewSwing",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.018412299454212189,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "TrackingSpaceMotionIsExcluded",
+			"fullTestPath": "Nilin.Combat.BladeQi.Motion.TrackingSpaceMotionIsExcluded",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.01855279877781868,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FriendlyAndNeutralFiltering",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.FriendlyAndNeutralFiltering",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.029906298965215683,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "HighSpeedSingleDamage",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.HighSpeedSingleDamage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.010221701115369797,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LaunchExitCooldownAndState",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.LaunchExitCooldownAndState",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.016521599143743515,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_7.NilinBladeQiTest_9A7FCE024158D5F54E8EE2BF2EFA94ED:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.22-12.11.59"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_7.NilinBladeQiTest_9A7FCE024158D5F54E8EE2BF2EFA94ED:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.22-12.11.59"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_7.NilinBladeQiTest_9A7FCE024158D5F54E8EE2BF2EFA94ED:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.22-12.11.59"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLDesktopPlayerCharacter /Temp/Untitled_7.NilinBladeQiTest_9A7FCE024158D5F54E8EE2BF2EFA94ED:PersistentLevel.NLDesktopPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.22-12.11.59"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Lifetime",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.Lifetime",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.026815902441740036,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "TrackedHandOriginOcclusion",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.TrackedHandOriginOcclusion",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.018072500824928284,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_9.NilinBladeQiTest_0D99BFA3478496091CE4E38D7B62E899:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.22-12.11.59"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_9.NilinBladeQiTest_0D99BFA3478496091CE4E38D7B62E899:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.22-12.11.59"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_9.NilinBladeQiTest_0D99BFA3478496091CE4E38D7B62E899:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.22-12.11.59"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogSkinnedMeshComp: GetSocketInfoByName(hand_r): No SkeletalMesh for Component(RightHand) Actor(NLVRPlayerCharacter /Temp/Untitled_9.NilinBladeQiTest_0D99BFA3478496091CE4E38D7B62E899:PersistentLevel.NLVRPlayerCharacter_0)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.22-12.11.59"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "WorldOcclusion",
+			"fullTestPath": "Nilin.Combat.BladeQi.Projectile.WorldOcclusion",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"7748D7DA49354B336FA4CA8FA2FC6240"
+			],
+			"duration": 0.01828790083527565,
+			"dateTime": "2026.10.22-12.11.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

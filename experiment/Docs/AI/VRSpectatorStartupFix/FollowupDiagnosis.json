@@ -1,0 +1,30 @@
+{
+  "recordedAt": "2026-10-23T21:31:19.1067131+08:00",
+  "userPriority": "Open a desktop preview without a headset first.",
+  "originalAssertion": "TargetRect.Area zero-size spectator crop; letterboxed fix applied. Original assertion absent in subsequent run.",
+  "subsequentRun": "Saved/Logs/VRPreview_20261023_205058_235.log",
+  "unresolved": "User reports black screen or crash, then severe lag. Process survival was insufficient acceptance.",
+  "evidence": [
+    "RTX 4060 Laptop 8GB correctly selected; forward and instanced stereo already enabled",
+    "No Lumen GI/reflections, ray tracing or virtual shadows enabled",
+    "SteamVR Oculus driver Quest2; VR target 5088x2568; automatic render scale 150 percent pixel area",
+    "SteamVR compositor repeatedly reports WaitForAcquire timed out; cumulative 1106 timeouts for PID 48160",
+    "D3D12 GPU timeout at 21:26:32 after roughly 35 minutes",
+    "Game stayed unfocused with no left/right controller poses",
+    "Windows already selects native Meta OpenXR; VR launcher overrides child process to SteamVR"
+  ],
+  "inference": "Runtime texture handoff or submission synchronization is a stronger lead than simple scene complexity; exact cause is not yet verified.",
+  "nextVRValidation": [
+    "Use native installed Meta OpenXR in child process only and retain explicit SteamVR fallback",
+    "If necessary compare D3D11 compatibility mode",
+    "Use UE 5.8 xr.SecondaryScreenPercentage.HMDRenderTarget rather than removed vr.PixelDensity",
+    "Require actual focus and controller tracking plus frame timings and user headset confirmation"
+  ],
+  "systemSettingsChanged": false,
+  "desktopPreview": {
+    "map": "/Game/ReversedScale/Maps/L_NilinBlockoutV09",
+    "launcher": "Run_Blockout_V09_Demo.cmd",
+    "processId": 47652,
+    "hmdDisabled": true
+  }
+}
