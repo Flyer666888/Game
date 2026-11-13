@@ -1,0 +1,165 @@
+{
+  "utc": "2026-10-22T11:12:36.180Z",
+  "status": "PASS",
+  "runtime": "v20.13.1",
+  "testMethod": "Node.js executes the exact inline scripts from index.html. Input integration uses a minimal DOM/canvas stub; this is NOT real browser rendering, OS keyboard input, or manual playtesting.",
+  "unity": "Blocked: no valid Unity Editor license",
+  "browserInteraction": "Not performed: browser tool denied file: protocol; no workaround attempted.",
+  "checks": [
+    {
+      "name": "模拟 / 落地 / 起点碰撞",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "模拟 / 移动输入",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "模拟 / 跳跃输入",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "模拟 / 固定点摆荡",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "模拟 / 收丝",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "模拟 / 松丝保留动量",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "模拟 / 挂点距离限制",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "模拟 / 失败重置",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "模拟 / 检查点落地激活",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "模拟 / 检查点复活",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "模拟 / 连续三段摆荡 → 实际通关（无传送）",
+      "pass": true,
+      "detail": "{\"time\":5.483333333333396,\"hooks\":3,\"deaths\":0,\"x\":76.15521349586446,\"reason\":\"\"}"
+    },
+    {
+      "name": "模拟 / 速度上限与有限数值",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "模拟 / 通关后新一局",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "离线单文件 / 无外部脚本样式资源",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "开始界面可见",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "开始按钮进入玩法",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "D 键移动输入",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "空格跳跃输入",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "E 键挂丝输入",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "E 键松丝输入",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "实际走出屋顶后跌落重置",
+      "pass": true,
+      "detail": "03.4 秒 / 重试 1"
+    },
+    {
+      "name": "R 键重玩清空重试数",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "暂停冻结模拟",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "玩法说明按钮",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "玩法说明关闭",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "自检按钮输出通过",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "可见示范按钮 → 连续摆荡 → 终点界面",
+      "pass": true,
+      "detail": "5.5 秒　/　0 次重试　/　3 次挂丝"
+    },
+    {
+      "name": "终点重玩按钮",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "鼠标按住挂丝",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "鼠标松开释放",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "窗口失焦暂停",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

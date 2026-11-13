@@ -1,0 +1,26 @@
+# ===== Unreal Engine 构建产物（可再生，不入库）=====
+experiment/Intermediate/
+experiment/Saved/
+experiment/Binaries/
+experiment/DerivedDataCache/
+experiment/Build/
+experiment/Plugins/**/Binaries/
+experiment/Plugins/**/Intermediate/
+
+# ===== 体积超过 GitHub 100MB 单文件限制，不入库 =====
+# 市场素材原始包（内含数 GB 单文件）
+experiment/AssetInbox/
+# 市场示例场景（内含 809MB / 267MB 单文件）
+experiment/Content/AsianTemple/
+
+# ===== Node.js 运行时（第三方，可重新下载）=====
+视频捕捉合集/runtime/
+
+# ===== 日志与临时文件 =====
+视频捕捉合集/server-*.log
+*.tmp
+
+# ===== 系统文件 =====
+Thumbs.db
+desktop.ini
+.DS_Store

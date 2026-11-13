@@ -1,0 +1,188 @@
+{
+  "status": "MOVED_AND_SHA256_VERIFIED",
+  "completedUTC": "2026-10-22T11:02:41.2372320Z",
+  "sourceRoot": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task",
+  "targetRoot": "D:\\game design",
+  "fileCount": 24,
+  "totalBytes": 145851.0,
+  "sourceFilesRemoved": 24,
+  "emptySourceDirectoriesRemoved": 13,
+  "sourceRemaining": [],
+  "notes": [
+    "Only prototype files created in this task were moved.",
+    "All 24 files retained original bytes and passed SHA-256 checks before and after source removal.",
+    "Existing destination content was not overwritten.",
+    "Historical compile response files and progress logs retain their original absolute paths. Use D:\\game design\\InklineRooftops as the project location.",
+    "No development, activation, build or functional source modification was performed during relocation."
+  ],
+  "files": [
+    {
+      "relative": "InklineRooftops\\.gitignore",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\.gitignore",
+      "target": "D:\\game design\\InklineRooftops\\.gitignore",
+      "bytes": 74,
+      "sha256": "06CD0F51CEF3DD0873829DA518C2FC625EBB4328651162E0F836D89FC55F8C1F"
+    },
+    {
+      "relative": "InklineRooftops\\Assets\\Inkline\\Editor\\ProjectTools.cs",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\Assets\\Inkline\\Editor\\ProjectTools.cs",
+      "target": "D:\\game design\\InklineRooftops\\Assets\\Inkline\\Editor\\ProjectTools.cs",
+      "bytes": 3959,
+      "sha256": "A46AEB4A33E46F655AF50499C75328AED9ABF06A5AE334A1CADDC29752CC9B2A"
+    },
+    {
+      "relative": "InklineRooftops\\Assets\\Inkline\\Runtime\\InkGame.cs",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\Assets\\Inkline\\Runtime\\InkGame.cs",
+      "target": "D:\\game design\\InklineRooftops\\Assets\\Inkline\\Runtime\\InkGame.cs",
+      "bytes": 24751,
+      "sha256": "C99A4113EB5D94229F335CD7D3831FAE6F53E5AF7D4BEF7BC3B076F877635081"
+    },
+    {
+      "relative": "InklineRooftops\\Assets\\Inkline\\Runtime\\InkGame.cs.meta",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\Assets\\Inkline\\Runtime\\InkGame.cs.meta",
+      "target": "D:\\game design\\InklineRooftops\\Assets\\Inkline\\Runtime\\InkGame.cs.meta",
+      "bytes": 243,
+      "sha256": "1397761EEED69DFE2FE3D98C613BA9FC2744406930C11DD9ACF271C6670D95AB"
+    },
+    {
+      "relative": "InklineRooftops\\Assets\\Inkline\\Runtime\\RooftopMotor.cs",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\Assets\\Inkline\\Runtime\\RooftopMotor.cs",
+      "target": "D:\\game design\\InklineRooftops\\Assets\\Inkline\\Runtime\\RooftopMotor.cs",
+      "bytes": 7359,
+      "sha256": "F583C19C45BC162742E0AE7C5FD1FC98E2A07665D9B65604ED24979B1A67251F"
+    },
+    {
+      "relative": "InklineRooftops\\Assets\\Inkline\\Runtime\\SmokeRunner.cs",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\Assets\\Inkline\\Runtime\\SmokeRunner.cs",
+      "target": "D:\\game design\\InklineRooftops\\Assets\\Inkline\\Runtime\\SmokeRunner.cs",
+      "bytes": 6399,
+      "sha256": "7C03A51592D54AA98627E6D5EC0D0C606B34FCCBE1D07F0F1B5944857B51197A"
+    },
+    {
+      "relative": "InklineRooftops\\Assets\\Inkline\\Shaders\\PaperInk.shader",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\Assets\\Inkline\\Shaders\\PaperInk.shader",
+      "target": "D:\\game design\\InklineRooftops\\Assets\\Inkline\\Shaders\\PaperInk.shader",
+      "bytes": 1481,
+      "sha256": "E9955ECEE3032DFE21DB1091EF1271342BAEE189D821B56D9CDBCAD0D4172423"
+    },
+    {
+      "relative": "InklineRooftops\\Assets\\Scenes\\Rooftops.unity",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\Assets\\Scenes\\Rooftops.unity",
+      "target": "D:\\game design\\InklineRooftops\\Assets\\Scenes\\Rooftops.unity",
+      "bytes": 1278,
+      "sha256": "97FE5687220FD650F62464CA0375D2C890996043B852CEAD304B8AFC0DF6E954"
+    },
+    {
+      "relative": "InklineRooftops\\Assets\\Scenes\\Rooftops.unity.meta",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\Assets\\Scenes\\Rooftops.unity.meta",
+      "target": "D:\\game design\\InklineRooftops\\Assets\\Scenes\\Rooftops.unity.meta",
+      "bytes": 152,
+      "sha256": "56D8BC3EAEA0E3A19F084CAD929C0B7334BD5B44CCE41112E47C68A8D7DB2381"
+    },
+    {
+      "relative": "InklineRooftops\\Packages\\manifest.json",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\Packages\\manifest.json",
+      "target": "D:\\game design\\InklineRooftops\\Packages\\manifest.json",
+      "bytes": 291,
+      "sha256": "BE0075771B3D84CB2550748745F1C93BBD5382368813D69E60A3F2C40ED15938"
+    },
+    {
+      "relative": "InklineRooftops\\ProjectSettings\\EditorBuildSettings.asset",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\ProjectSettings\\EditorBuildSettings.asset",
+      "target": "D:\\game design\\InklineRooftops\\ProjectSettings\\EditorBuildSettings.asset",
+      "bytes": 254,
+      "sha256": "B8059BD83DB0A0EEB8EE0728F778C5193E5BFE258D9680F063D220656676BE85"
+    },
+    {
+      "relative": "InklineRooftops\\ProjectSettings\\ProjectVersion.txt",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\InklineRooftops\\ProjectSettings\\ProjectVersion.txt",
+      "target": "D:\\game design\\InklineRooftops\\ProjectSettings\\ProjectVersion.txt",
+      "bytes": 89,
+      "sha256": "5FB874F7BC704A0BF8A0BCC69C3DF61F5E68AF667A5ADED0333F76425512920C"
+    },
+    {
+      "relative": "Evidence\\editor-compile.rsp",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\Evidence\\editor-compile.rsp",
+      "target": "D:\\game design\\Evidence\\editor-compile.rsp",
+      "bytes": 9955,
+      "sha256": "A052760DE79AA717A1508B045C7FC8E9A00CE71463612A39BC6E490AB0140746"
+    },
+    {
+      "relative": "Evidence\\Inkline.Editor.dll",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\Evidence\\Inkline.Editor.dll",
+      "target": "D:\\game design\\Evidence\\Inkline.Editor.dll",
+      "bytes": 7680,
+      "sha256": "9B337BA3BEA822E3EE32E83F6494790FE7A088796338943CF3179DFDD57AF639"
+    },
+    {
+      "relative": "Evidence\\Inkline.Runtime.dll",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\Evidence\\Inkline.Runtime.dll",
+      "target": "D:\\game design\\Evidence\\Inkline.Runtime.dll",
+      "bytes": 37376,
+      "sha256": "4FA10F57C789D9A54C6468717EC138841E0E947669713F215B407D2BD04F39D5"
+    },
+    {
+      "relative": "Evidence\\runtime-compile.log",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\Evidence\\runtime-compile.log",
+      "target": "D:\\game design\\Evidence\\runtime-compile.log",
+      "bytes": 17556,
+      "sha256": "B0A853031C525027F13E8DE7C4CDA59398D4F6293332B00B2E49066D9A6CD4BA"
+    },
+    {
+      "relative": "Evidence\\runtime-compile.rsp",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\Evidence\\runtime-compile.rsp",
+      "target": "D:\\game design\\Evidence\\runtime-compile.rsp",
+      "bytes": 10080,
+      "sha256": "415C3755DD3C65654B85A56BD2D3C88F95CB9347BC507F0EB35C82FC8A2A6A89"
+    },
+    {
+      "relative": "Evidence\\source-compile-result.txt",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\Evidence\\source-compile-result.txt",
+      "target": "D:\\game design\\Evidence\\source-compile-result.txt",
+      "bytes": 151,
+      "sha256": "340D2BBFB438C96791DFA5F16060B4C6C3F0E1EB430D94C32D90BF191D2DDEFE"
+    },
+    {
+      "relative": "BrowserPreview\\simulation.js",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\BrowserPreview\\simulation.js",
+      "target": "D:\\game design\\BrowserPreview\\simulation.js",
+      "bytes": 8258,
+      "sha256": "6B4F40C8139EAA2F27B35A81A2D4157C600D5C79D6ABC795646774D05855825D"
+    },
+    {
+      "relative": "BrowserPreview\\test.html",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\BrowserPreview\\test.html",
+      "target": "D:\\game design\\BrowserPreview\\test.html",
+      "bytes": 566,
+      "sha256": "AFE3CE140FC00A06B39DB6210EB012BB23338F20818B00051978122BFEEC196A"
+    },
+    {
+      "relative": "Compile-Source.ps1",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\Compile-Source.ps1",
+      "target": "D:\\game design\\Compile-Source.ps1",
+      "bytes": 2056,
+      "sha256": "C226B2015ED34ECA4479B18CBCB09AF9B62134D794D0E169D6460788022C5704"
+    },
+    {
+      "relative": "Serve-Preview.ps1",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\Serve-Preview.ps1",
+      "target": "D:\\game design\\Serve-Preview.ps1",
+      "bytes": 1859,
+      "sha256": "A82645850E4D213661316D344A4B085DB7941B575DC84B3B546E423A204C3689"
+    },
+    {
+      "relative": "PROGRESS.md",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\PROGRESS.md",
+      "target": "D:\\game design\\PROGRESS.md",
+      "bytes": 1205,
+      "sha256": "3BC560FCEFDC8E7F52CCD664863FD032F7F043B4D01D69E8C9EFB058C6945411"
+    },
+    {
+      "relative": "unity-create.log",
+      "source": "C:\\Users\\21475\\Documents\\Codex\\2026-10-22\\task\\unity-create.log",
+      "target": "D:\\game design\\unity-create.log",
+      "bytes": 2779,
+      "sha256": "A1C7ECAA39949468FA15F289E5299C4AA19F1252E034C8B0618AFDBA78996EA2"
+    }
+  ]
+}

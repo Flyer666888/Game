@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light"><title>INKLINE · 屋顶之间 / 本地试玩</title>
+<style>
+:root{--paper:#faf0d6;--ink:#26163e;--pink:#ff347f;--cyan:#22edd3;--muted:#7f6d8c}
+*{box-sizing:border-box}body{margin:0;background:var(--ink);color:var(--ink);font-family:"Segoe UI","Microsoft YaHei",sans-serif;overflow-x:hidden}
+button{font:inherit;cursor:pointer;border:2px solid var(--ink);background:var(--paper);color:var(--ink);padding:10px 19px;font-weight:800;box-shadow:3px 3px 0 var(--ink);transition:transform .1s,box-shadow .1s}
+button:hover{background:var(--cyan)}button:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}button:focus-visible{outline:4px solid var(--pink);outline-offset:4px}button.primary{background:var(--pink);color:#fff}button.primary:hover{background:#d91c64}
+.shell{max-width:1600px;margin:auto;padding:20px 26px 14px;background:var(--paper);min-height:100vh}.masthead{display:flex;align-items:center;justify-content:space-between;border-bottom:3px solid var(--ink);padding-bottom:12px;gap:20px}.brand{font-weight:1000;letter-spacing:-2px;font-size:36px;line-height:1}.brand i{color:var(--pink);font-style:normal}.edition{font-size:10px;letter-spacing:2.1px;display:block;margin-top:9px;font-weight:800}.caption{font-size:12px;text-align:right;line-height:1.6;font-weight:700}.caption span{background:var(--ink);color:var(--paper);padding:3px 8px}
+.stage{position:relative;aspect-ratio:16/9;border:3px solid var(--ink);margin-top:16px;background:var(--paper);overflow:hidden;box-shadow:7px 7px 0 #d4c7d2}.stage:focus{outline:none}canvas{display:block;width:100%;height:100%;touch-action:none}
+.hud{position:absolute;top:18px;left:20px;right:20px;display:flex;justify-content:space-between;align-items:start;pointer-events:none;font-size:11px;font-weight:800;gap:12px}.hud-block{background:var(--paper);border:2px solid var(--ink);padding:9px 13px;box-shadow:3px 3px 0 var(--ink)}.hud-block strong{display:block;font-size:15px;margin-top:4px}.hud-right{background:var(--ink);color:var(--paper);text-align:right;min-width:190px}.hud .web{color:var(--cyan)}.route{position:absolute;top:22px;left:36%;right:27%;height:4px;background:#bfb0bf;pointer-events:none}.route b{display:block;background:var(--pink);height:100%;width:0}.route small{font-size:9px;font-weight:800;letter-spacing:1px;display:block;white-space:nowrap;margin-top:8px}
+.tip{position:absolute;bottom:19px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:10px 20px;font-size:13px;font-weight:800;max-width:80%;text-align:center;pointer-events:none;border-left:5px solid var(--pink)}
+.overlay{position:absolute;inset:0;background:linear-gradient(90deg,#faf0d6f5 0%,#faf0d6ec 48%,#faf0d6a0 100%);display:flex;align-items:center;padding:6%;z-index:5}.overlay[hidden]{display:none}.intro-copy{max-width:650px}.eyebrow{font-size:12px;font-weight:900;letter-spacing:3px;color:#8b3f72}.intro-copy h1{font-size:clamp(40px,6.5vw,92px);letter-spacing:-5px;line-height:.94;margin:15px 0 18px;font-style:italic;font-weight:1000}.intro-copy h1 em{color:var(--pink);font-style:inherit}.intro-copy h2{font-size:28px;margin:0 0 15px;letter-spacing:3px}.intro-copy p{font-size:14px;line-height:1.9;max-width:510px;margin:8px 0}.intro-copy .actions{display:flex;gap:15px;flex-wrap:wrap;margin-top:23px}.intro-copy .fine{font-size:11px;color:#6f5e7d;margin-top:18px}.goal{background:var(--ink);color:var(--paper);padding:2px 8px}.control-strip{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:17px}.keys{font-size:12px;font-weight:700;line-height:2}.keys kbd{display:inline-block;background:var(--ink);color:var(--paper);padding:0 6px;margin:0 3px;font:800 11px/21px monospace;border-radius:2px}.utility{display:flex;gap:8px}.utility button{font-size:12px;padding:6px 11px;box-shadow:2px 2px 0 var(--ink)}.footer{font-size:10px;letter-spacing:1px;display:flex;justify-content:space-between;margin-top:18px;border-top:1px solid #bbaeae;padding-top:8px;font-weight:700;color:#7a6385}.touchbar{display:none;gap:9px;margin-top:14px;justify-content:space-between}.touchbar button{touch-action:none;user-select:none;min-width:58px}.modal{position:absolute;inset:8%;background:var(--paper);border:3px solid var(--ink);z-index:8;padding:24px;overflow:auto;box-shadow:7px 7px 0 var(--ink)}.modal[hidden]{display:none}.modal h2{margin-top:0}.modal pre{white-space:pre-wrap;font-size:11px;line-height:1.5}.modal button{float:right}.notice{font-size:12px;line-height:1.8}.win-stat{font-size:19px!important;font-weight:800;padding:10px 0}.demo-badge{position:absolute;top:105px;left:22px;padding:4px 10px;background:var(--cyan);font-size:11px;font-weight:900;border:2px solid var(--ink)}.demo-badge[hidden]{display:none}
+@media(max-width:850px){.shell{padding:12px}.brand{font-size:28px}.caption{font-size:9px}.stage{aspect-ratio:4/3}.route{display:none}.hud{top:10px;left:10px;right:10px;font-size:8px}.hud-block{padding:5px 8px}.hud-block strong{font-size:11px}.hud-right{min-width:135px}.intro-copy h1{font-size:55px}.intro-copy h2{font-size:20px}.intro-copy p{font-size:12px}.intro-copy .fine{font-size:9px}.overlay{padding:6%}.overlay button{padding:8px 14px;font-size:12px}.control-strip{align-items:start;flex-direction:column}.touchbar{display:flex}.keys{font-size:10px}.tip{font-size:10px;padding:6px 10px;bottom:12px}.footer{font-size:8px}.demo-badge{top:75px;left:12px}.modal{inset:5%;padding:16px}.edition{font-size:8px;letter-spacing:1px}}
+@media(prefers-reduced-motion:reduce){button{transition:none}}
+</style>
+</head>
+<body><main class="shell">
+<header class="masthead"><div><div class="brand">INKLINE<i>/</i></div><span class="edition">ROOFTOPS / ISSUE 001 / 屋顶之间</span></div><div class="caption"><span>本地网页玩法预览</span><br>原创简化角色 · 程序化漫画城市<br>Unity 版本仍待有效许可与运行验证</div></header>
+<section class="stage" id="stage" tabindex="0" aria-label="屋顶闯关游戏，使用 A D 移动，空格跳跃，E 挂丝与松丝">
+<canvas id="game" width="1440" height="810" aria-label="固定侧视漫画屋顶关卡"></canvas>
+<div class="hud"><div class="hud-block">ISSUE 001 / 屋顶之间<strong id="progress-label">起点 · 向右前进</strong></div><div class="hud-block hud-right"><span id="stats">00.0 秒 / 重试 0</span><strong id="web-status">准备出发</strong></div></div>
+<div class="route"><b id="progress-bar"></b><small>START　/　RELAY　/　BILLBOARD　/　FINISH</small></div>
+<div class="tip" id="tip">向右跑，在屋顶边缘跳跃，再按 E 挂丝。</div>
+<div class="demo-badge" id="demo-badge" hidden>自动示范中 · 按任意操作键接管</div>
+<div class="overlay" id="intro"><div class="intro-copy"><div class="eyebrow">A LITTLE COMIC YOU CAN PLAY</div><h1>BETWEEN<br>THE <em>ROOFS.</em></h1><h2>屋顶之间</h2><p>向右奔跑，在青色挂点射丝，越过三段屋顶间隙。<br>飞过挂点后松丝，把速度带到下一座屋顶。</p><p><span class="goal">目标</span> 抵达右侧 FINISH。落地会保存检查点，掉落会自动重来。</p><div class="actions"><button class="primary" id="start">开始一局 →</button><button id="demo">先看操作示范</button></div><p class="fine">建议先看一次示范。无需联网或安装；这是网页玩法预览，并非 Unity 构建。</p></div></div>
+<div class="overlay" id="win" hidden><div class="intro-copy"><div class="eyebrow">THE END OF THIS ISSUE</div><h1>ISSUE<br><em>COMPLETE!</em></h1><h2>这一跃，接上了。</h2><p class="win-stat" id="win-stat"></p><p id="win-extra"></p><div class="actions"><button class="primary" id="again">再来一局 · R</button><button id="replay">观看操作示范</button></div></div></div>
+<div class="modal" id="help-modal" hidden><button id="close-help">关闭</button><h2>怎么飞过去</h2><p class="notice">① A / D 或左右箭头移动。跑到屋顶边缘时按空格跳跃。<br>② 按 E 自动选择范围内的青色挂点；挂丝后继续按 D 增加摆荡速度。<br>③ 越过挂点、进入粉色「松丝区」时再按 E 或 Q 松丝，保持向右。<br>④ W 收丝、S 放丝，可以调整摆荡高度。也可用鼠标指向挂点，按住左键挂丝，松开释放。<br>⑤ 屋顶旗帜是检查点。掉下去自动重置；Backspace 回检查点，R 全部重玩。<br>⑥ Esc 暂停/继续。切走页面会自动暂停，避免失焦后继续奔跑。</p><p class="notice">网页使用自己的简化 XY 物理，三维厚度由绘图表现；它用于验证玩法节奏，不代表 Unity 的实际物理或画面。所有人物、建筑和特效均为程序绘制，无外部素材。</p></div>
+<div class="modal" id="test-modal" hidden><button id="close-test">关闭</button><h2>玩法自检</h2><p class="notice">执行同一套运动模拟，包括从起点连续三段摆荡到终点；测试结果不代表 Unity 或人工试玩验证。</p><pre id="test-result">等待测试。</pre></div>
+</section>
+<div class="control-strip"><div class="keys"><kbd>A</kbd><kbd>D</kbd> 移动　<kbd>SPACE</kbd> 跳跃　<kbd>E</kbd> 挂 / 松丝　<kbd>Q</kbd> 松丝　<kbd>W</kbd><kbd>S</kbd> 收 / 放丝<br><kbd>R</kbd> 重玩　<kbd>Backspace</kbd> 检查点　<kbd>Esc</kbd> 暂停　鼠标左键：按住挂丝，松开释放</div><div class="utility"><button id="pause">暂停</button><button id="restart">重玩</button><button id="help">怎么玩</button><button id="tests">自检</button></div></div>
+<div class="touchbar" aria-label="触屏操作"><div><button data-hold="left" aria-label="向左移动">◀</button> <button data-hold="right" aria-label="向右移动">▶</button></div><div><button id="touch-jump">跳跃</button> <button id="touch-web">挂 / 松丝</button></div></div>
+<footer class="footer"><span>WARM PAPER / DEEP INK / NEON MOMENTUM</span><span>OFFLINE PLAYABLE PREVIEW · 2026</span></footer>
+</main>
+<script>
+/* Original deterministic browser companion. It does not execute Unity physics. */
+(function(root){
+'use strict';
+const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
+const toward=(x,y,d)=>x<y?Math.min(x+d,y):Math.max(x-d,y);
+const ROOFS=[{l:-10,r:10,y:0},{l:21,r:33,y:.75},{l:45,r:56,y:1.4},{l:68,r:86,y:.6}];
+const HOOKS=[{x:15.5,y:9,id:0},{x:38.5,y:10.2,id:1},{x:61.5,y:10,id:2}];
+const SPAWNS=[{x:-3,y:1.0},{x:25,y:1.75},{x:50,y:2.4}];
+class Simulation {
+  constructor(){this.events=[];this.resetRun();}
+  emit(type,text,x=this.p.x,y=this.p.y){this.events.push({type,text,x,y,t:this.clock});if(this.events.length>80)this.events.shift();}
+  resetRun(){
+    this.clock=0;this.elapsed=0;this.deaths=0;this.checkpoint=0;this.won=false;this.broken=false;
+    this.bestX=-3;this.hooks=0;this.jumps=0;this.maxSpeed=0;this.resets=0;this.events=[];
+    this.move=0;this.reel=0;this.coyote=0;this.jumpBuffer=0;this.anchor=null;this.grounded=false;
+    this.p={x:-3,y:1,vx:0,vy:0,facing:1};this.message='屋顶是你的跑道。向右出发！';
+    this.messageEnd=3;this.attachQueued=null;this.releaseQueued=false;
+  }
+  warp(x,y){Object.assign(this.p,{x,y,vx:0,vy:0});this.anchor=null;this.move=this.reel=0;this.coyote=this.jumpBuffer=0;this.grounded=false;this.attachQueued=null;this.releaseQueued=false;}
+  respawn(failed=true){
+    if(failed)this.deaths++;
+    const s=SPAWNS[this.checkpoint];this.warp(s.x,s.y);this.won=false;this.resets++;
+    this.emit('reset',failed?'再来一格！':'检查点重开');this.notify(failed?'换一格，再试一次。':'已回到检查点');
+  }
+  notify(text,seconds=2){this.message=text;this.messageEnd=this.clock+seconds;}
+  jump(){if(!this.won)this.jumpBuffer=.14;}
+  release(){
+    if(this.anchor){this.emit('release','ZIP!');this.anchor=null;}
+  }
+  canHook(h){
+    const p=this.p;if(Math.hypot(h.x-p.x,h.y-p.y)>16||h.y<p.y-.5)return false;
+    for(const r of ROOFS){
+      for(let t=.06;t<1;t+=.06){let x=p.x+(h.x-p.x)*t,y=p.y+.2+(h.y-p.y-.2)*t;
+        if(x>r.l&&x<r.r&&y<r.y-.03&&y>r.y-10)return false;
+      }
+    }
+    return true;
+  }
+  pick(aim){
+    let best=null,score=Infinity;const p=this.p;
+    for(const h of HOOKS){if(!this.canHook(h))continue;
+      const s=aim?Math.hypot(h.x-aim.x,h.y-aim.y):Math.hypot(h.x-p.x,h.y-p.y)+(h.x<p.x-1?8:0);
+      if(s<score){score=s;best=h;}
+    }return best;
+  }
+  attach(h){
+    if(!h||!this.canHook(h)){this.notify('范围内没有可用挂点',.8);return false;}
+    this.anchor=h;this.rope=Math.max(2.4,Math.hypot(h.x-this.p.x,h.y-this.p.y));this.hooks++;
+    this.emit('hook','THWIP!',h.x,h.y);return true;
+  }
+  step(dt=1/120){
+    this.clock+=dt;if(!this.won)this.elapsed+=dt;
+    const p=this.p,hw=.31,hh=.825;
+    this.grounded=false;
+    for(const r of ROOFS)if(p.x+hw>r.l&&p.x-hw<r.r&&Math.abs(p.y-hh-r.y)<.095&&p.vy<1.5)this.grounded=true;
+    this.coyote=this.grounded?.13:this.coyote-dt;this.jumpBuffer-=dt;
+    if(this.releaseQueued){this.release();this.releaseQueued=false;}
+    if(this.attachQueued){this.attach(this.attachQueued);this.attachQueued=null;}
+    let move=this.won?0:this.move;
+    if(move)p.facing=Math.sign(move);
+    if(this.jumpBuffer>0&&this.coyote>0&&!this.won){p.vy=12.8;this.jumpBuffer=0;this.coyote=0;this.grounded=false;this.jumps++;this.emit('jump','LEAP!');}
+    if(this.anchor){
+      let dx=p.x-this.anchor.x,dy=p.y-this.anchor.y,d=Math.hypot(dx,dy)||1;
+      let tx=-dy/d,ty=dx/d;if(tx<0){tx=-tx;ty=-ty;}
+      p.vx+=tx*move*20*dt;p.vy+=ty*move*20*dt;
+      this.rope=clamp(this.rope-this.reel*4*dt,2.4,16);
+      p.vx*=Math.pow(.999,dt*60);p.vy*=Math.pow(.999,dt*60);
+    }else if(this.grounded)p.vx=toward(p.vx,move*9.5,(move?62:48)*dt);
+    else{
+      if(move&&(Math.abs(p.vx)<15||Math.sign(p.vx)!==Math.sign(move)))p.vx+=move*15*dt;
+      p.vx*=Math.pow(.999,dt*60);
+    }
+    p.vy-=9.81*2.6*dt;
+    let speed=Math.hypot(p.vx,p.vy);if(speed>26){p.vx*=26/speed;p.vy*=26/speed;}
+    const ox=p.x,oy=p.y;
+    p.x+=p.vx*dt;p.y+=p.vy*dt;
+    if(this.anchor){
+      const dx=p.x-this.anchor.x,dy=p.y-this.anchor.y,d=Math.hypot(dx,dy);
+      if(d>this.rope){let nx=dx/d,ny=dy/d;p.x=this.anchor.x+nx*this.rope;p.y=this.anchor.y+ny*this.rope;
+        const radial=p.vx*nx+p.vy*ny;if(radial>0){p.vx-=radial*nx;p.vy-=radial*ny;}}
+    }
+    for(const r of ROOFS){
+      if(p.x+hw>r.l&&p.x-hw<r.r&&p.y-hh<r.y&&p.y+hh>r.y-10){
+        if(oy-hh>=r.y-.035){p.y=r.y+hh;if(p.vy<0){p.vy=0;if(!this.grounded)this.emit('land','');}this.grounded=true;}
+        else if(ox+hw<=r.l+.03){p.x=r.l-hw;if(p.vx>0)p.vx=0;}
+        else if(ox-hw>=r.r-.03){p.x=r.r+hw;if(p.vx<0)p.vx=0;}
+        else if(oy+hh<=r.y-10){p.y=r.y-10-hh;p.vy=Math.min(p.vy,0);}
+        else {p.y=r.y+hh;p.vy=Math.max(0,p.vy);this.grounded=true;}
+      }
+    }
+    this.bestX=Math.max(this.bestX,p.x);this.maxSpeed=Math.max(this.maxSpeed,Math.hypot(p.vx,p.vy));
+    if(p.y<-8||p.x<-15){this.respawn();return;}
+    if(!this.won&&this.grounded&&p.x>24&&p.x<32&&this.checkpoint<1){this.checkpoint=1;this.emit('checkpoint','SAVED!');this.notify('检查点 01 已保存');}
+    if(!this.won&&this.grounded&&p.x>49&&p.x<55&&this.checkpoint<2){this.checkpoint=2;this.emit('checkpoint','SAVED!');this.notify('检查点 02 已保存');}
+    if(!this.broken&&p.x>71&&p.x<74&&p.y>.4&&p.y<4.5&&p.vx>12){this.broken=true;this.emit('break','KRAK!',72,2.2);this.notify('高速破框！');}
+    if(!this.won&&p.x>76&&p.y>0&&p.y<6){this.won=true;this.release();this.emit('win','ISSUE COMPLETE!');this.notify('本期完结。按 R 再来一局。',99);}
+  }
+}
+
+// Uses the exact same input path as a player; never teleports during the route.
+class Pilot{
+  constructor(sim){this.s=sim;this.gap=0;this.phase='run';this.t=0;this.done=false;this.reason='';}
+  step(dt){
+    const s=this.s,p=s.p;s.move=1;s.reel=0;this.t+=dt;
+    if(s.deaths){this.done=true;this.reason='fell during route';s.move=0;return;}
+    if(s.won){this.done=true;s.move=0;return;}
+    if(this.gap>=3)return;
+    const edge=[8.2,31.2,54.2][this.gap],h=HOOKS[this.gap];
+    if(this.phase==='run'&&p.x>=edge&&s.grounded){s.jump();this.phase='jump';this.t=0;}
+    else if(this.phase==='jump'&&this.t>=.18){s.attachQueued=h;this.phase='swing';this.t=0;}
+    else if(this.phase==='swing'&&s.anchor&&p.x>h.x+4.5){s.releaseQueued=true;this.phase='land';this.t=0;}
+    else if(this.phase==='land'&&s.grounded&&p.x>[21.5,45.5,68.5][this.gap]){this.gap++;this.phase='run';this.t=0;}
+    if(this.t>8){this.done=true;this.reason='route timeout '+this.gap+' '+this.phase;s.move=0;}
+  }
+}
+
+function selfTest(){
+  const results=[],s=new Simulation(),dt=1/120;
+  const test=(name,ok,detail='')=>results.push({name,pass:!!ok,detail});
+  const advance=(t,fn)=>{for(let i=0;i<Math.round(t/dt);i++){if(fn)fn(i);s.step(dt);}};
+  advance(.6);test('落地 / 起点碰撞',s.grounded);
+  let x=s.p.x;s.move=1;advance(.4);test('移动输入',s.p.x>x+1);
+  let y=s.p.y;s.jump();advance(.2);test('跳跃输入',s.p.y>y+1&&s.jumps===1);
+  s.warp(9,3);s.move=1;s.attach(HOOKS[0]);advance(.6);test('固定点摆荡',!!s.anchor&&Math.hypot(s.p.x-9,s.p.y-3)>1);
+  let rope=s.rope;s.reel=1;advance(.3);test('收丝',s.rope<rope-.8);
+  s.release();test('松丝保留动量',!s.anchor&&Math.hypot(s.p.vx,s.p.vy)>1);
+  test('挂点距离限制',!s.attach(HOOKS[2]));
+  s.warp(15,-9);advance(.02);test('失败重置',s.deaths===1&&s.p.y>0);
+  s.warp(26,2);advance(.7);test('检查点落地激活',s.checkpoint===1);
+  s.warp(40,-9);advance(.02);test('检查点复活',Math.abs(s.p.x-25)<.1);
+  s.resetRun();let pilot=new Pilot(s);let frames=0;
+  while(!pilot.done&&frames<120*40){pilot.step(dt);s.step(dt);frames++;}
+  test('连续三段摆荡 → 实际通关（无传送）',s.won&&s.deaths===0&&s.hooks===3,JSON.stringify({time:s.elapsed,hooks:s.hooks,deaths:s.deaths,x:s.p.x,reason:pilot.reason}));
+  test('速度上限与有限数值',Number.isFinite(s.p.x)&&s.maxSpeed<=26.01);
+  let achieved=s.won;s.resetRun();test('通关后新一局',achieved&&!s.won&&s.checkpoint===0&&s.p.x===-3);
+  return {engine:'Browser companion / custom deterministic XY physics, NOT Unity',utc:new Date().toISOString(),pass:results.every(r=>r.pass),results};
+}
+root.Inkline={Simulation,Pilot,selfTest,ROOFS,HOOKS,SPAWNS,clamp};
+})(typeof window!=='undefined'?window:globalThis);
+
+</script>
+<script>
+(function(){
+'use strict';
+const {Simulation,Pilot,HOOKS,ROOFS,clamp}=Inkline;
+const $=id=>document.getElementById(id),canvas=$('game'),ctx=canvas.getContext('2d');
+const C={paper:'#faf0d6',ink:'#26163e',pink:'#ff347f',cyan:'#22edd3',lavender:'#a492af',peach:'#d9adac'};
+const sim=new Simulation(),keys=new Set(),holds=new Set();
+let running=false,paused=false,pilot=null,mode='intro',last=0,acc=0,cameraX=2,cameraY=4.4,zoom=47;
+let eventIndex=0,pops=[],shards=[],trail=[],audio=null,muted=false,wasWon=false;
+let W=1440,H=810,uiClock=0;
+const DPR=Math.min(window.devicePixelRatio||1,2);
+function resize(){const r=canvas.getBoundingClientRect();canvas.width=Math.round(r.width*DPR);canvas.height=Math.round(r.height*DPR);W=1440;H=W*r.height/r.width;ctx.setTransform(canvas.width/W,0,0,canvas.height/H,0,0);}
+window.addEventListener('resize',resize);resize();
+function point(x,y,z=0){return {x:W/2+(x-cameraX)*zoom+z*8,y:H*.53-(y-cameraY)*zoom-z*5};}
+function poly(points,fill,stroke=C.ink,width=2){ctx.beginPath();points.forEach((p,i)=>i?ctx.lineTo(p.x,p.y):ctx.moveTo(p.x,p.y));ctx.closePath();ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=width;ctx.stroke();}}
+function line(x,y,x2,y2,c,w){ctx.strokeStyle=c;ctx.lineWidth=w;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x2,y2);ctx.stroke();}
+function text(txt,x,y,size=20,c=C.ink,align='left',italic=false){ctx.fillStyle=c;ctx.font=`${italic?'italic ':''}900 ${size}px "Segoe UI","Microsoft YaHei",sans-serif`;ctx.textAlign=align;ctx.fillText(txt,x,y);}
+function rect(x,y,w,h,c){ctx.fillStyle=c;ctx.fillRect(x,y,w,h);}
+function dotFill(x,y,w,h,c,spacing=10,r=1.5){ctx.save();ctx.beginPath();ctx.rect(x,y,w,h);ctx.clip();ctx.fillStyle=c;for(let a=x;a<x+w;a+=spacing)for(let b=y;b<y+h;b+=spacing){ctx.beginPath();ctx.arc(a,b,r,0,7);ctx.fill();}ctx.restore();}
+function worldText(t,x,y,size,c=C.ink){const p=point(x,y);text(t,p.x,p.y,size,c);}
+function block(l,r,top,bottom,color,depth=3){
+ const a=point(l,top),b=point(r,top),c=point(r,bottom),d=point(l,bottom),a2=point(l,top,depth),b2=point(r,top,depth),c2=point(r,bottom,depth);
+ poly([b,b2,c2,c],C.ink);poly([a,a2,b2,b],C.paper);poly([a,b,c,d],color);
+ return {a,b,c,d};
+}
+const skyline=Array.from({length:55},(_,i)=>({x:-70+i*4.1,h:3+((i*17)%13)*.52,w:2.6+(i%3)*.4,layer:i%2}));
+function drawCity(){
+ rect(0,0,W,H,C.paper);
+ const sun=point(cameraX*.65+13,13,0);ctx.fillStyle='#f3c58c';ctx.beginPath();ctx.arc(sun.x,sun.y,130,0,7);ctx.fill();dotFill(sun.x-110,sun.y-110,220,220,'#dfaf91',9,1);
+ for(let layer=1;layer>=0;layer--)for(const b of skyline){if(b.layer!==layer)continue;
+   let px=(b.x-cameraX*(layer?.22:.38))*zoom+W/2,py=H*.76-b.h*zoom*.6;
+   if(px<-250||px>W+120)continue;
+   rect(px,py,b.w*zoom*.65,H-py,layer?'#e2d0cd':'#c8b7c9');
+   line(px+b.w*zoom*.33,py,px+b.w*zoom*.33,py-23,layer?'#d2bbcb':'#b4a1bb',2);
+   if(!layer)for(let y=py+20;y<H;y+=32)for(let x=px+12;x<px+b.w*zoom*.6;x+=23)rect(x,y,7,12,'#f5e7cd');
+ }
+ // A drifting print texture and page grain are drawn, never loaded from the network.
+ ctx.globalAlpha=.06;for(let i=0;i<130;i++){let x=(i*337)%W,y=(i*173)%H;line(x,y,x+7,y+.8,C.ink,1);}ctx.globalAlpha=1;
+}
+function drawRoofs(){
+ ROOFS.forEach((r,i)=>{
+  if(point(r.r,0).x<-120||point(r.l,0).x>W+120)return;
+  const q=block(r.l,r.r,r.y,-11,i%2?C.peach:C.lavender,3.2);
+  dotFill(q.a.x,q.a.y+5,q.b.x-q.a.x,H-q.a.y,C.ink,12,1.2);
+  const cap=point(r.l,r.y);line(cap.x,cap.y,point(r.r,r.y).x,cap.y,C.ink,6);line(cap.x,cap.y-3,point(r.r,r.y).x,cap.y-3,C.paper,3);
+  for(let x=r.l+1;x<r.r-.3;x+=2.1)for(let y=r.y-1.8;y>-10;y-=2){
+    const p=point(x,y);rect(p.x-18,p.y-22,34,49,C.ink);rect(p.x-11,p.y-16,21,32,C.paper);line(p.x-9,p.y-1,p.x+10,p.y-1,C.ink,3);
+  }
+  // Roof equipment adds depth without colliders.
+  if(i<3){const p=point(r.l+2,r.y,.7);poly([{x:p.x,y:p.y-5},{x:p.x+40,y:p.y-5},{x:p.x+40,y:p.y-27},{x:p.x,y:p.y-27}],C.paper);line(p.x+5,p.y-15,p.x+35,p.y-15,C.ink,2);}
+ });
+ worldText('INKLINE',-8,5.4,66,C.ink);worldText('ROOFTOPS / ISSUE 001',-7.8,4.4,17,C.ink);
+ worldText('RUN. LEAP. THWIP.',-7.7,3.55,17,C.pink);
+ worldText('01 / 起跳',6.7,1.0,15,C.ink);
+ worldText('02 / RELAY',22.2,3.6,26,C.ink);worldText('落地保存检查点',22.2,2.8,13,C.ink);
+ worldText('03 / KEEP GOING',46,5.0,24,C.ink);worldText('把速度带过去 →',46,4.2,14,C.pink);
+ worldText('FINISH',75,4.5,49,C.ink);worldText('END OF THIS ISSUE',75,3.5,14,C.ink);
+ [[25,.75,1],[50,1.4,2],[77.5,.6,3]].forEach(([x,y,n])=>{
+  const p=point(x,y),t=point(x,y+2.0);line(p.x,p.y,t.x,t.y,C.ink,4);
+  poly([t,{x:t.x+48,y:t.y+5},{x:t.x+48,y:t.y+32},{x:t.x,y:t.y+27}],n===3?C.pink:C.cyan);
+  text(n===3?'END':sim.checkpoint>=n?'✓':'CP',t.x+8,t.y+23,14,C.ink);
+ });
+ if(!sim.broken){const a=point(71,.6),b=point(73,4.3);ctx.save();ctx.setLineDash([7,4]);ctx.strokeStyle=C.pink;ctx.lineWidth=3;ctx.strokeRect(a.x,b.y,b.x-a.x,a.y-b.y);ctx.restore();worldText('高速冲破框线',69.8,5.1,13,C.pink);}
+}
+function drawHooks(){
+ const target=sim.pick();
+ HOOKS.forEach(h=>{
+  const p=point(h.x,h.y),reachable=sim.canHook(h);
+  if(p.x<-80||p.x>W+80)return;
+  line(p.x,0,p.x,p.y-20,'#6a506f',1.4);
+  if(reachable){ctx.globalAlpha=.17;ctx.fillStyle=C.cyan;ctx.beginPath();ctx.arc(p.x,p.y,37,0,7);ctx.fill();ctx.globalAlpha=1;}
+  ctx.strokeStyle=C.ink;ctx.lineWidth=3;ctx.fillStyle=C.cyan;ctx.beginPath();ctx.arc(p.x,p.y,14,0,7);ctx.fill();ctx.stroke();
+  ctx.beginPath();ctx.arc(p.x,p.y,23,0,7);ctx.stroke();
+  text(String(h.id+1).padStart(2,'0'),p.x,p.y+5,12,C.ink,'center');
+  text('FIXED HOOK',p.x,p.y-37,10,C.ink,'center');
+  if(target===h&&!sim.anchor&&running){rect(p.x-45,p.y+32,90,25,C.ink);text('E / 挂丝',p.x,p.y+50,13,C.cyan,'center');}
+  // The release zone makes the useful timing legible without automating the player.
+  const release=point(h.x+4.5,3.1);
+  ctx.globalAlpha=sim.anchor===h?.95:.45;
+  line(release.x-31,release.y+18,release.x+31,release.y+18,C.pink,3);
+  poly([{x:release.x-7,y:release.y},{x:release.x,y:release.y-7},{x:release.x+7,y:release.y},{x:release.x,y:release.y+7}],C.pink,null);
+  text('松丝区 →',release.x,release.y+41,13,C.pink,'center');ctx.globalAlpha=1;
+ });
+}
+function drawRunner(){
+ const p=point(sim.p.x,sim.p.y),v=sim.p,speed=Math.hypot(v.vx,v.vy);
+ if(speed>12){trail.push({x:p.x,y:p.y,t:uiClock});if(trail.length>13)trail.shift();}else trail=[];
+ for(let i=1;i<trail.length;i++){const a=trail[i-1],b=trail[i];line(a.x,a.y,b.x,b.y,`rgba(255,52,127,${i/trail.length*.17})`,i*.65);}
+ if(sim.anchor){const h=point(sim.anchor.x,sim.anchor.y);line(p.x+v.facing*5,p.y-17,h.x,h.y,C.ink,4);line(p.x+v.facing*5,p.y-17,h.x,h.y,C.cyan,2.3);}
+ // Human silhouette built from a jacket, masked head and jointed limbs.
+ ctx.save();ctx.translate(p.x,p.y);ctx.scale(v.facing,1);ctx.rotate(clamp(-v.vx*.018,-.36,.36));
+ const run=Math.sin(sim.clock*18),air=!sim.grounded;
+ const legA=air?.4:run*.5,legB=air?-.5:-run*.5;
+ const limb=(x,y,angle,len,width,col)=>{ctx.save();ctx.translate(x,y);ctx.rotate(angle);ctx.lineCap='round';line(0,0,0,len,C.ink,width+4);line(0,0,0,len,col,width);ctx.restore();};
+ limb(-6,8,legA,28,7,C.ink);limb(6,8,legB,28,7,C.ink);
+ limb(-12,-15,sim.anchor?2.9:air?-1:run*.7,24,6,C.ink);
+ poly([{x:-10,y:-22},{x:9,y:-22},{x:12,y:7},{x:-9,y:10}],C.pink,C.ink,3);
+ poly([{x:-4,y:-13},{x:4,y:-16},{x:5,y:0},{x:-3,y:1}],C.ink,null);
+ limb(11,-15,sim.anchor?-2.5:air?.7:-run*.7,24,6,C.ink);
+ ctx.fillStyle=C.ink;ctx.beginPath();ctx.ellipse(1,-34,11,13,0,0,7);ctx.fill();
+ poly([{x:-1,y:-38},{x:10,y:-41},{x:10,y:-35},{x:0,y:-33}],C.cyan,null);
+ ctx.restore();
+ // Ground contact shadow is tied to the actual roof under the player.
+ const roof=ROOFS.find(r=>v.x>r.l&&v.x<r.r);if(roof){const q=point(v.x,roof.y);ctx.globalAlpha=clamp(1-(v.y-roof.y)/9,0,.3);ctx.fillStyle=C.ink;ctx.beginPath();ctx.ellipse(q.x,q.y+3,20,4,0,0,7);ctx.fill();ctx.globalAlpha=1;}
+}
+function drawEffects(dt){
+ for(const pop of pops){const p=point(pop.x,pop.y),age=uiClock-pop.born,alpha=clamp(1-age/.75,0,1);ctx.save();ctx.translate(p.x,p.y-age*60);ctx.rotate(-.09);ctx.globalAlpha=alpha;ctx.font='italic 1000 31px "Segoe UI",sans-serif';const w=ctx.measureText(pop.text).width;poly([{x:-w/2-14,y:-32},{x:w/2+18,y:-38},{x:w/2+12,y:8},{x:-w/2-20,y:13}],C.ink,null);text(pop.text,0,0,30,pop.type==='hook'||pop.type==='checkpoint'?C.cyan:C.pink,'center',true);ctx.restore();}
+ pops=pops.filter(p=>uiClock-p.born<.75);
+ for(const s of shards){s.x+=s.vx*dt;s.y+=s.vy*dt;s.vy-=12*dt;s.a+=dt*s.spin;const p=point(s.x,s.y);ctx.save();ctx.translate(p.x,p.y);ctx.rotate(s.a);rect(-3,-10,6,20,s.color);ctx.restore();}shards=shards.filter(s=>uiClock-s.t<1.2);
+ if(Math.abs(sim.p.vx)>17){ctx.globalAlpha=.2;for(let i=0;i<13;i++){const y=(i*67+uiClock*13)%H;line(i%2?0:W,y,i%2?65:W-70,y-8,C.pink,2);}ctx.globalAlpha=1;}
+ if(paused&&running){ctx.fillStyle='#26163e55';ctx.fillRect(0,0,W,H);rect(W/2-120,H/2-38,240,76,C.ink);text('已暂停 / ESC',W/2,H/2+7,24,C.paper,'center');}
+}
+function cue(type){
+ if(!audio||muted)return;
+ try{let osc=audio.createOscillator(),gain=audio.createGain();osc.connect(gain);gain.connect(audio.destination);let now=audio.currentTime;let f=type==='hook'?720:type==='jump'?330:type==='win'?880:210;
+ osc.type='triangle';osc.frequency.setValueAtTime(f,now);osc.frequency.exponentialRampToValueAtTime(type==='release'?500:f*.5,now+.12);gain.gain.setValueAtTime(.035,now);gain.gain.exponentialRampToValueAtTime(.0001,now+.16);osc.start(now);osc.stop(now+.17);}catch(e){}
+}
+function consumeEvents(){
+ if(eventIndex>sim.events.length)eventIndex=0;
+ for(;eventIndex<sim.events.length;eventIndex++){
+  const ev=sim.events[eventIndex];if(ev.text)pops.push({...ev,born:uiClock});
+  if(['hook','jump','release','win','checkpoint'].includes(ev.type))cue(ev.type);
+  if(ev.type==='reset'){cameraX=sim.p.x+5;cameraY=4.4;trail=[];}
+  if(ev.type==='break')for(let i=0;i<18;i++){let a=i*2.4;shards.push({x:72,y:2.2,vx:Math.cos(a)*7+5,vy:Math.sin(a)*7,a:0,spin:i*.3+2,t:uiClock,color:i%3?C.ink:C.pink});}
+ }
+}
+function updateHUD(){
+ const p=sim.p;
+ $('stats').textContent=sim.elapsed.toFixed(1).padStart(4,'0')+' 秒 / 重试 '+sim.deaths;
+ $('web-status').textContent=sim.won?'本期完结':sim.anchor?'蛛丝已连接 · '+sim.rope.toFixed(1)+' m':sim.grounded?'屋顶上 · '+Math.abs(p.vx).toFixed(1)+' m/s':'腾空中 · '+Math.hypot(p.vx,p.vy).toFixed(1)+' m/s';
+ $('web-status').style.color=sim.anchor?C.cyan:C.paper;
+ $('progress-label').textContent=sim.won?'终点 · ISSUE COMPLETE':sim.checkpoint===2?'检查点 02 · 最后一跃':sim.checkpoint===1?'检查点 01 · 继续向右':'起点 · 向右前进';
+ $('progress-bar').style.width=(clamp((sim.bestX+3)/79,0,1)*100)+'%';
+ let tip=sim.messageEnd>sim.clock?sim.message:'跑向边缘 → 跳跃 → E 挂丝 → 越过挂点 → E 松丝';
+ if(sim.anchor)tip=p.x>sim.anchor.x+3.6?'现在按 E / Q 松丝！保持向右，落上屋顶。':'继续按 D 增加速度，越过挂点后在粉色区域松丝。';
+ else if(!sim.grounded&&sim.pick())tip='按 E 连接青色挂点；也可鼠标按住左键。';
+ if(paused&&running)tip='已暂停。按 Esc 或点击继续。';
+ $('tip').textContent=tip;
+ $('pause').textContent=paused?'继续':'暂停';
+ if(sim.won&&!wasWon){
+  $('win-stat').textContent=sim.elapsed.toFixed(1)+' 秒　/　'+sim.deaths+' 次重试　/　'+sim.hooks+' 次挂丝';
+  $('win-extra').textContent=sim.broken?'你还高速冲破了最后一格边框！':'试着保留更多松丝速度，下次冲破最后一格边框。';
+  $('win').hidden=false;$('demo-badge').hidden=true;keys.clear();holds.clear();
+ }
+ wasWon=sim.won;
+}
+function start(demo=false){
+ sim.resetRun();eventIndex=0;pops=[];shards=[];trail=[];wasWon=false;keys.clear();holds.clear();
+ running=true;paused=false;mode=demo?'demo':'play';pilot=demo?new Pilot(sim):null;
+ cameraX=2;cameraY=4.4;zoom=47;acc=0;
+ $('intro').hidden=true;$('win').hidden=true;$('help-modal').hidden=true;$('test-modal').hidden=true;$('demo-badge').hidden=!demo;
+ try{if(!audio&&window.AudioContext)audio=new AudioContext();if(audio&&audio.state==='suspended')audio.resume();}catch(e){}
+ $('stage').focus();updateHUD();
+}
+function takeOver(){if(pilot){pilot=null;mode='play';$('demo-badge').hidden=true;sim.notify('现在由你接管！');}}
+function web(){takeOver();if(sim.anchor)sim.releaseQueued=true;else sim.attachQueued=sim.pick();}
+function doJump(){takeOver();sim.jump();}
+function restart(){start(false);}
+function togglePause(){if(!running||sim.won)return;paused=!paused;keys.clear();holds.clear();acc=0;updateHUD();}
+const handled=new Set(['KeyA','KeyD','ArrowLeft','ArrowRight','Space','KeyE','KeyQ','KeyW','KeyS','ArrowUp','ArrowDown','KeyR','Backspace','Escape']);
+window.addEventListener('keydown',e=>{
+ if(!handled.has(e.code))return;e.preventDefault();
+ if(e.code==='Escape'){if(!$('help-modal').hidden){$('help-modal').hidden=true;paused=false;}else if(!$('test-modal').hidden){$('test-modal').hidden=true;paused=false;}else togglePause();return;}
+ if(e.code==='KeyR'&&!e.repeat){restart();return;}
+ if(!running||paused||sim.won)return;
+ takeOver();keys.add(e.code);
+ if(e.repeat)return;
+ if(e.code==='Space')doJump();if(e.code==='KeyE')web();if(e.code==='KeyQ')sim.releaseQueued=true;
+ if(e.code==='Backspace'){sim.respawn(false);eventIndex=0;}
+});
+window.addEventListener('keyup',e=>keys.delete(e.code));
+window.addEventListener('blur',()=>{keys.clear();holds.clear();if(running&&!sim.won){paused=true;updateHUD();}});
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&running&&!sim.won){paused=true;keys.clear();holds.clear();updateHUD();}});
+canvas.addEventListener('pointerdown',e=>{
+ if(!running||paused||sim.won||e.button!==0)return;e.preventDefault();takeOver();
+ const r=canvas.getBoundingClientRect(),x=(e.clientX-r.left)*W/r.width,y=(e.clientY-r.top)*H/r.height;
+ const aim={x:(x-W/2)/zoom+cameraX,y:cameraY+(H*.53-y)/zoom};
+ sim.attachQueued=sim.pick(aim);canvas.setPointerCapture(e.pointerId);
+});
+canvas.addEventListener('pointerup',e=>{if(running&&!paused)sim.releaseQueued=true;});
+canvas.addEventListener('pointercancel',()=>{sim.releaseQueued=true;});
+$('start').onclick=()=>start(false);$('demo').onclick=()=>start(true);$('again').onclick=()=>start(false);$('replay').onclick=()=>start(true);$('restart').onclick=restart;$('pause').onclick=togglePause;
+$('help').onclick=()=>{paused=true;keys.clear();holds.clear();$('help-modal').hidden=false;updateHUD();};$('close-help').onclick=()=>{$('help-modal').hidden=true;paused=false;$('stage').focus();};
+$('tests').onclick=()=>{paused=true;keys.clear();holds.clear();$('test-modal').hidden=false;const r=Inkline.selfTest();$('test-result').textContent=(r.pass?'PASS / 全部通过':'FAIL / 有未通过项')+'\n\n'+r.results.map(x=>(x.pass?'✓ ':'✗ ')+x.name+(x.detail?'\n  '+x.detail:'')).join('\n')+'\n\n'+r.engine+'\n'+r.utc;updateHUD();};$('close-test').onclick=()=>{$('test-modal').hidden=true;paused=false;$('stage').focus();};
+$('touch-jump').onclick=()=>{if(running&&!paused)doJump();};$('touch-web').onclick=()=>{if(running&&!paused)web();};
+document.querySelectorAll('[data-hold]').forEach(b=>{b.addEventListener('pointerdown',e=>{e.preventDefault();if(running&&!paused){takeOver();holds.add(b.dataset.hold);b.setPointerCapture(e.pointerId);}});['pointerup','pointercancel','lostpointercapture'].forEach(type=>b.addEventListener(type,()=>holds.delete(b.dataset.hold)));});
+function frame(timestamp){
+ let dt=Math.min((timestamp-last)/1000||0,1/15);last=timestamp;uiClock+=dt;
+ if(running&&!paused){
+   acc+=dt;let count=0;
+   while(acc>=1/120&&count++<10){
+    if(pilot){pilot.step(1/120);if(pilot.done&&!sim.won){pilot=null;mode='play';$('demo-badge').hidden=true;sim.notify('示范结束，现在由你操作。');}}
+    else{sim.move=(keys.has('KeyD')||keys.has('ArrowRight')||holds.has('right')?1:0)-(keys.has('KeyA')||keys.has('ArrowLeft')||holds.has('left')?1:0);sim.reel=(keys.has('KeyW')||keys.has('ArrowUp')?1:0)-(keys.has('KeyS')||keys.has('ArrowDown')?1:0);}
+    sim.step(1/120);acc-=1/120;
+   }
+   consumeEvents();
+ }
+ const targetX=Math.max(2,sim.p.x+5),targetY=clamp(sim.p.y+2.5,4.4,9);
+ cameraX+=(targetX-cameraX)*(1-Math.exp(-dt*5));cameraY+=(targetY-cameraY)*(1-Math.exp(-dt*3));
+ zoom+=(47-clamp((Math.abs(sim.p.vx)-13),0,10)*.35-zoom)*(1-Math.exp(-dt*2));
+ ctx.setTransform(canvas.width/W,0,0,canvas.height/H,0,0);ctx.clearRect(0,0,W,H);
+ drawCity();drawRoofs();drawHooks();drawRunner();drawEffects(paused?0:dt);updateHUD();
+ requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+})();
+
+</script>
+</body></html>

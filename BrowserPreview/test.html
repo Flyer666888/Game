@@ -1,0 +1,5 @@
+<!doctype html><meta charset="utf-8"><title>INKLINE physics test</title>
+<style>body{background:#faf0d6;color:#211336;font:18px monospace;padding:40px}button{padding:15px}pre{white-space:pre-wrap}</style>
+<h1>INKLINE / deterministic browser test</h1><p>Browser physics only. Unity is not tested by this page.</p>
+<button id="run">Run tests</button><pre id="result">Ready.</pre>
+<script src="simulation.js"></script><script>document.querySelector('#run').onclick=()=>{document.querySelector('#result').textContent=JSON.stringify(Inkline.selfTest(),null,2)};</script>
