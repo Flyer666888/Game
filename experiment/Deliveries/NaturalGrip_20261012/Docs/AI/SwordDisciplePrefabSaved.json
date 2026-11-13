@@ -1,0 +1,43 @@
+{
+  "blueprint": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple",
+  "generated_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+  "parent_class": "/Script/experiment.NLEnemyCharacter",
+  "source_map": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+  "source_actor": "SwordDisciple_1",
+  "source_report": "..\\..\\..\\..\\CombatProject\\Docs\\AI\\NaturalGripSaved-2026-10-12.json",
+  "cdo_refs": {
+    "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+    "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+    "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+    "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+    "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+    "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural"
+  },
+  "mesh_component_asset": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+  "grip_morph_name": "EnemyGrip_R",
+  "grip_morph_weight": 1.0,
+  "grip_location_cm": [
+    -1.875828504562378,
+    -8.074670791625977,
+    -5.046912670135498
+  ],
+  "grip_quaternion_xyzw": [
+    0.8239122869325681,
+    -0.5253214318833186,
+    -0.16701308975309817,
+    0.13157721876042566
+  ],
+  "brain": {
+    "telegraph_seconds": 0.800000011920929,
+    "attack_seconds": 0.23000000417232513,
+    "recover_seconds": 1.3033332824707031,
+    "spawn_grace_seconds": 0.3499999940395355,
+    "attack_range": 130.0
+  },
+  "max_walk_speed": 122.81497192382812,
+  "attack_definition": "/Game/ReversedScale/Combat/DA_EnemySword.DA_EnemySword",
+  "health": 30.0,
+  "saved": true,
+  "level_actors_replaced": false,
+  "scope": "Reusable prefab authoring; no gameplay input or tests run."
+}

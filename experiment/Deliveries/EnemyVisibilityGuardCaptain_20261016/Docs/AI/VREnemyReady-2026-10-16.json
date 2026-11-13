@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-16",
+  "success": true,
+  "tests_added_or_run": false,
+  "agent_gameplay_inputs": false,
+  "scope": "Initial Ready presentation only; no combat start or inputs.",
+  "map": "L_CombatLabVR",
+  "pawn_class": "/Script/experiment.NLVRPlayerCharacter",
+  "state": "<NLEncounterState.READY: 0>",
+  "ready_wave_index": 0,
+  "planned": 5,
+  "spawned": 0,
+  "alive": 0,
+  "defeated": 0,
+  "combat_enemy_actor_count": 0,
+  "ready_previews": [
+    {
+      "name": "SkeletalMeshActor_2",
+      "class": "/Script/Engine.SkeletalMeshActor",
+      "position_cm": [
+        620.0,
+        40.0,
+        0.0
+      ],
+      "tags": [
+        "NL_ReadyEnemyPreview",
+        "NL_ReadyWave_Wave.Mixed.01",
+        "NL_ReadyEntry_SwordDisciple",
+        "NL_ReadyOrdinal_0",
+        "NL_ReadyPoint_MixedSword02"
+      ],
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+      "mesh_position_cm": [
+        620.0,
+        40.0,
+        0.0
+      ],
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "hidden": false
+    },
+    {
+      "name": "SkeletalMeshActor_3",
+      "class": "/Script/Engine.SkeletalMeshActor",
+      "position_cm": [
+        900.0,
+        -280.0,
+        0.0
+      ],
+      "tags": [
+        "NL_ReadyEnemyPreview",
+        "NL_ReadyWave_Wave.Mixed.01",
+        "NL_ReadyEntry_TalismanDisciple",
+        "NL_ReadyOrdinal_1",
+        "NL_ReadyPoint_MixedCaster01"
+      ],
+      "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+      "mesh_position_cm": [
+        900.0,
+        -280.0,
+        0.0
+      ],
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "hidden": false
+    }
+  ],
+  "player_position_cm": [
+    30.0,
+    -170.0,
+    90.4
+  ],
+  "camera_position_cm": [
+    30.0,
+    -170.0,
+    149.21582641601563
+  ],
+  "camera_rotation": "<Struct 'Rotator' (0x000002708442A540) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+  "health": 100.0,
+  "guard": 100.0,
+  "melee_damage": 10.0,
+  "screenshot": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\Docs\\AI\\VREnemyReady.png",
+  "screenshot_signature": [
+    1152696,
+    1792132544278800400
+  ],
+  "elapsed_seconds": 22.016
+}

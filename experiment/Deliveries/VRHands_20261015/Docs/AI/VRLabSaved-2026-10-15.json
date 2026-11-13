@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-15",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabVR",
+  "source_map_preserved": "/Game/ReversedScale/Maps/L_CombatLabMixed",
+  "game_mode": "/Script/experiment.NLVRGameMode",
+  "pawn": "/Script/experiment.NLVRPlayerCharacter",
+  "move_speed_cm_s": 180.0,
+  "snap_turn_degrees": 30.0,
+  "tracking_sources": [
+    "Left",
+    "Right"
+  ],
+  "floor_origin": true,
+  "wave_count": 2,
+  "checkpoint_ids": [
+    "Level.CombatLab.VR",
+    "Encounter.VRMixedDisciples",
+    "VRMixed.VRINPUT01.1"
+  ],
+  "melee_damage": 10.0,
+  "scope": "Native VR map and input assets saved only. No inputs, enemy start, damage or automated tests."
+}

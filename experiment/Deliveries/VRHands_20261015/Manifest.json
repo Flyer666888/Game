@@ -1,0 +1,697 @@
+{
+  "date": "2026-10-15",
+  "scope": "VR/hands batch snapshot; run the launcher from the complete project with local UE5.8 and SteamVR",
+  "file_count": 138,
+  "files": [
+    {
+      "path": "ArtSource/PlayerHands/Realistic/author_realistic_hand.py",
+      "bytes": 20045,
+      "sha256": "e88eec5c9930fc68da64c5f18cdd6bf60f828353eafed8610834f6911023b67a"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/HandsAuthoring.json",
+      "bytes": 6230,
+      "sha256": "78c1c49704f172c7f197de07768bc1b7f03a317a35e95eef9eefd9d9935a002b"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/HandsAuthoring_BeforePolish.json",
+      "bytes": 4866,
+      "sha256": "7bb4851558924f576cb3a9b5b0794aca14dd8e2792d65e1736af85a7ee0bab14"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/HumanHand_Dorsal.png",
+      "bytes": 1452513,
+      "sha256": "3845c35b22d3a1408f6c36e2f5d986628a0a99895095e992151c720c4ca2ef13"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/HumanHand_Grip.png",
+      "bytes": 1517433,
+      "sha256": "d8278b04872c219a9b38a9cadbe20a3811502d807dcf08c8df7399f57a6a503c"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/HumanHand_Palm.png",
+      "bytes": 1408745,
+      "sha256": "751e7368cb36a8b139842077722edfbde49b241017a2604d295de2c8c80f08f1"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/inspect_hand_sources.py",
+      "bytes": 3419,
+      "sha256": "aff872ed0b709eeeaa4f4b2373463f2f8e6c1b0ee1a0b71780c5082a33a95aef"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/PlayerHandRealistic_GripPreview.blend",
+      "bytes": 1662797,
+      "sha256": "cf28b91fae96217245f089459adf88266a9db44080662885b9cee86678611fd2"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/PlayerHandRealistic_GripPreview.blend1",
+      "bytes": 1666077,
+      "sha256": "140a04e23e3c109b05ee90b7e2d9e519890429e89415ab9815c071dd913e784f"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/PlayerHandRealistic_R.blend",
+      "bytes": 1659817,
+      "sha256": "e1792d16e895a8a48e83e498c78acd0e955a74ee0ee12ea1dfa0dd3f238ef141"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/PlayerHandRealistic_R.blend1",
+      "bytes": 1663054,
+      "sha256": "b9b9c7368969005a882aa2acaaba39d241b21376d7c59f80b93d7ed110cebf89"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/PlayerHandRealistic_R.fbx",
+      "bytes": 1319980,
+      "sha256": "9872e01a284fbf89a4bbac2180e9d6b3aea9155705901bad1c121467a639a021"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/PlayerHandRealistic_R_BeforePolish.blend",
+      "bytes": 1663054,
+      "sha256": "b9b9c7368969005a882aa2acaaba39d241b21376d7c59f80b93d7ed110cebf89"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/PlayerHandRealistic_R_BeforePolish.fbx",
+      "bytes": 1319980,
+      "sha256": "640836bd8b058d6113bae0ca9c97b7cabc4f85e5b3663f5f91295856999a92d4"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/polish_hand_surface.py",
+      "bytes": 4930,
+      "sha256": "889e0d6b4b3ed2ea16d92efddbcd9b18bb9197370bf90e1843be0966c22eb89a"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/SKM_MannyXR_right_Reference.blend",
+      "bytes": 398388,
+      "sha256": "8408cccf7f2391a31ac3e48b4af51e1929b6894d0624d199b4fbb5b415fbb6a0"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/SKM_MannyXR_right_SourceView0.png",
+      "bytes": 964207,
+      "sha256": "f7e08cd0f1b429b8c27d74b81f20aedd6ae4c21b0b7cb68b81b63473ca1b0649"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/SKM_MannyXR_right_SourceView1.png",
+      "bytes": 846243,
+      "sha256": "ec7340c772060270ed0de312a137d80fb35b9a31fe7f48b3eb9047016d81810e"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/SKM_MannyXR_right_SourceView2.png",
+      "bytes": 812094,
+      "sha256": "7028bc991b62f3c79255aa1edbee3de920403b43d5c27d0e35bbba77de38e42c"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/SKM_QuinnXR_right_Reference.blend",
+      "bytes": 391879,
+      "sha256": "fc557412f058767dda0988b51b955458a8070449fd84e88868040e5f8f9b40c8"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/SKM_QuinnXR_right_SourceView0.png",
+      "bytes": 935462,
+      "sha256": "6d9e24a9b2ea8405c13d9211fed599d46bc275872c83d8a73d59404a522ce23f"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/SKM_QuinnXR_right_SourceView1.png",
+      "bytes": 826213,
+      "sha256": "a4d219cfd12d4e68cd0efd807ff86abd8fef7f88069bdc14105fbc4321833c26"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/SKM_QuinnXR_right_SourceView2.png",
+      "bytes": 810371,
+      "sha256": "2a2f41c64b0e1fbd2128a2546d049aa747c3c148e404cc3cc9bde483ad839ece"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/SourceInspection.json",
+      "bytes": 122369,
+      "sha256": "0365ffccad7128e07d806e23cb7e098bfbe589052ea14e8649a13022be2990ee"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/T_PlayerHand_Micro_N.png",
+      "bytes": 1484628,
+      "sha256": "8a5a97987c72f3c3720f7018019c1c0bf77de38bcf03005eedfd40f11a324f32"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Realistic/T_PlayerHand_Micro_R.png",
+      "bytes": 620731,
+      "sha256": "a0e0526058651508be4e4c5ee128be9af1652cd6b2dd6003d10ed158727d8f80"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Source/PlayerHandSourceExport.json",
+      "bytes": 122148,
+      "sha256": "df5bb4f998b517e7eba9cf5bdafebdb4348cfa4caff504b32f24e65cc91096af"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Source/SKM_MannyXR_left.fbx",
+      "bytes": 322528,
+      "sha256": "339f330b0233e56faf7fa86967b32908990ec41db5fdc8058f0fb4952bdc8c02"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Source/SKM_MannyXR_right.fbx",
+      "bytes": 322400,
+      "sha256": "54b2944de2c7e1ef97a623306412a0170b629090a8e60c0d6c149dda0ca95e7a"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Source/SKM_QuinnXR_left.fbx",
+      "bytes": 320224,
+      "sha256": "706124ed3454b2aa5c8e8ef8864b8e7a695daee9b42b4ac6a6deb635fc682912"
+    },
+    {
+      "path": "ArtSource/PlayerHands/Source/SKM_QuinnXR_right.fbx",
+      "bytes": 319872,
+      "sha256": "09007244eac856c1d5f365dc4b616c13c2a6c879f574d3215a0da55d70c72ef8"
+    },
+    {
+      "path": "Binaries/Win64/UnrealEditor-experiment.dll",
+      "bytes": 1138176,
+      "sha256": "1ea14342b5eedf2d89cbce3de4c9917bbdf1e2cb616c26c6edc25f1693f6a238"
+    },
+    {
+      "path": "Binaries/Win64/UnrealEditor.modules",
+      "bytes": 98,
+      "sha256": "742954b11de752bf69b7c41f2c4924e7b4c1abe72360fcd3d43a2d08ac141c30"
+    },
+    {
+      "path": "Config/Android/AndroidEngine.ini",
+      "bytes": 738,
+      "sha256": "7476ba760bb84c6e5a479d1eba633bdf22ae0f8d4bba74b5eabc9371e974c37b"
+    },
+    {
+      "path": "Config/DefaultEditor.ini",
+      "bytes": 58587,
+      "sha256": "67c3de5d599d2e4b32f03701fffaa93f1b560e33805f9403783185500d9046bf"
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "bytes": 18823,
+      "sha256": "4308f8a42499f50b52c195462c9cda000fafa6d01ecc5cd847987ff1a5d5de3d"
+    },
+    {
+      "path": "Config/DefaultGame.ini",
+      "bytes": 289,
+      "sha256": "7a36aac15f6aa01ccc1cd682fbd619b473bc55a9d654a5ec7f6da601aa532922"
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "bytes": 14474,
+      "sha256": "2ea3766aed83df9301cdf80f7cd715d855d0600400a6b7090d8db0e4205d91d9"
+    },
+    {
+      "path": "Config/Mac/MacEngine.ini",
+      "bytes": 89,
+      "sha256": "63b553c64eb16f4b31ff372a795ec2521bfdcc0024340a6f1b656df766bcef7b"
+    },
+    {
+      "path": "Config/VisionOS/VisionOSDeviceProfiles.ini",
+      "bytes": 188,
+      "sha256": "85287e2b505ec1c86597c0ca812c58bf4a94968aaf20f215986056feb084d595"
+    },
+    {
+      "path": "Config/VisionOS/VisionOSEngine.ini",
+      "bytes": 1174,
+      "sha256": "ebb6a8d1875a35a120c52de72b8e0ed73ad8fdc60cf911c5ff1083d7fd42f51c"
+    },
+    {
+      "path": "Content/ReversedScale/Maps/L_CombatLabVR.umap",
+      "bytes": 51886,
+      "sha256": "7d321b772c1d4ba438f6dbeddeba6e490797363b19d9139886d939c3ca83d82f"
+    },
+    {
+      "path": "Content/ReversedScale/Player/Hands/SK_PlayerHand_Realistic_R.uasset",
+      "bytes": 4783366,
+      "sha256": "35ed1ac9c1c1f990f428237bbfaaacd0f5c22700b751e02108ddef1095468f4a"
+    },
+    {
+      "path": "Content/ReversedScale/Player/Hands/Textures/T_PlayerSkin_Normal.uasset",
+      "bytes": 1323798,
+      "sha256": "53f15604116dd63a42c74c5004d14516d075c01ddc1c6581b5e235650c19ce2f"
+    },
+    {
+      "path": "Content/ReversedScale/Player/Hands/Textures/T_PlayerSkin_Roughness.uasset",
+      "bytes": 432321,
+      "sha256": "570e0415960c5606dbf2db545e9fbaeed1a4e147963f54f7e2f8ffc0a307f468"
+    },
+    {
+      "path": "Content/ReversedScale/Player/Materials/M_PlayerNails.uasset",
+      "bytes": 10527,
+      "sha256": "249758a7e77f129df1972dbc3949c3a736761fa8f9a615537d10e23c0fb54e2c"
+    },
+    {
+      "path": "Content/ReversedScale/Player/Materials/M_PlayerSkin.uasset",
+      "bytes": 14750,
+      "sha256": "fecf813fc75f63d2f72413a7d2c39a2967e4b856a5323c299d8c310b5c240b9c"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRBladeQi.uasset",
+      "bytes": 1272,
+      "sha256": "b354b05af1338f01ccdc4eeef8b1a6b2a6b36b639b6d7250755d773a2cdffda4"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRGuard.uasset",
+      "bytes": 1267,
+      "sha256": "418a4c2b33cf5021e400e9081dd65051f334e918313c3f264f93dbbbaa3c40c6"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRMove.uasset",
+      "bytes": 1834,
+      "sha256": "94a85a432cc6318a96b4ed2ca5dd92cabad06fa523a2161866dbcac84f0ad8b7"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRMoveForward.uasset",
+      "bytes": 1864,
+      "sha256": "e5e6ebc41f20cbfc82b4da8cab9a76c6ed9c0c2e758aeb9f782e93bbdb494489"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRMoveRight.uasset",
+      "bytes": 1855,
+      "sha256": "b2080ec900fbf64fbeb662ad8a764ba40346a5bf731bd13038af29fd7e4208ea"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRPause.uasset",
+      "bytes": 1340,
+      "sha256": "7d7f9b0ab28d3e6c478ad74ae7fd460b916107be2d313a6991e366c85b6c7f27"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRReset.uasset",
+      "bytes": 1260,
+      "sha256": "c65fb5cb7a72996c29cd0cea5f2e9fdc197568933bfb3ecfbdbfb6654559eeab"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRStart.uasset",
+      "bytes": 1257,
+      "sha256": "1a445bedbc52d30e4eff99f1993d672fce9b58caa41d35eff849aee22d102753"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRTrackpadMove.uasset",
+      "bytes": 1877,
+      "sha256": "23499491d1a71e8b8103dcfc168b8dfdaad5b66812bc62fd97da58a9f40704d3"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRTrackpadMoveClick.uasset",
+      "bytes": 1382,
+      "sha256": "6d51a8617c63f0b7977404924e9ab05873f186d4926983aa21dd9b89af4ba159"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRTrackpadTurn.uasset",
+      "bytes": 1879,
+      "sha256": "dcdb59c245582fb18f8b42709558543041697236b931006621e679df2ce8e185"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRTrackpadTurnClick.uasset",
+      "bytes": 1383,
+      "sha256": "d72b2d4bcf39a44a4ee648b67cfd31356c7fe9f6427016619b1a34505fa9fffa"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IA_VRTurn.uasset",
+      "bytes": 1836,
+      "sha256": "81affed939853d071f500032876c1546cc8cd5b65898993dc10ded266c0e61f3"
+    },
+    {
+      "path": "Content/ReversedScale/Player/VR/Input/IMC_NilinVR.uasset",
+      "bytes": 23229,
+      "sha256": "730eadc0fd903f881606033a1f52fc12342132eb786f2a9d3f1c0aeff3f5a8c5"
+    },
+    {
+      "path": "Docs/AI/BuildLog-VRInputHands-2026-10-15.txt",
+      "bytes": 11994,
+      "sha256": "a62f87d897703b6c32df69cefab5576a111bd197dfeeb3b874f8b932953783c6"
+    },
+    {
+      "path": "Docs/AI/DevelopmentStatus.md",
+      "bytes": 34470,
+      "sha256": "f1531b8386804ec17bcab8d6ba150485d5ed827f3280c7c2cfc9bc554fc09ae8"
+    },
+    {
+      "path": "Docs/AI/PlayerHandExport-2026-10-15.json",
+      "bytes": 72,
+      "sha256": "12d960a306a224177e0d4947925f718c9e018a5d387ff922f06d394a72b32013"
+    },
+    {
+      "path": "Docs/AI/PlayerHands_BothGrip.png",
+      "bytes": 1580475,
+      "sha256": "a2e6fac17c1a51a17d7b461150cb67ddb33f14e422bd2ea19212c4089687fd57"
+    },
+    {
+      "path": "Docs/AI/PlayerHands_Equipped.png",
+      "bytes": 1536841,
+      "sha256": "c6bdef05f69b14efcefa540b58acb88900709b68d4df00b88456f3053979ad6b"
+    },
+    {
+      "path": "Docs/AI/PlayerHandsEditorAuthor-2026-10-15.json",
+      "bytes": 119,
+      "sha256": "41b95b7d3bf0255e768d51be9858605c78318409fa22ac76ce2f3d8532d657ff"
+    },
+    {
+      "path": "Docs/AI/PlayerHandsImported-2026-10-15.json",
+      "bytes": 175073,
+      "sha256": "53e64498c3ac6ec45ec532224f36f8810a55cebfa0f131e0c48866a1da423fb4"
+    },
+    {
+      "path": "Docs/AI/PlayerHandsInitialPresentation-2026-10-15.json",
+      "bytes": 2015,
+      "sha256": "53a1ccff3c4aba5e03c81d010aed064060f318e77bc6d0d4cba8c145d514c372"
+    },
+    {
+      "path": "Docs/AI/State.md",
+      "bytes": 26923,
+      "sha256": "5d842ab01d7e2eb0e01247e9e1665d75443f8b7a31ee9531e54dd2c1c847d06a"
+    },
+    {
+      "path": "Docs/AI/VRHandsDelivery-2026-10-15.json",
+      "bytes": 37387,
+      "sha256": "6c7639b7b3fb16c6cf755bdc817601b992dd1645882017d0574f3b3befee0bf4"
+    },
+    {
+      "path": "Docs/AI/VRInputAssets-2026-10-15.json",
+      "bytes": 12630,
+      "sha256": "1432f93e3d4305575ae5c053c1b6409707505d426147edfdae4bcf440837a85a"
+    },
+    {
+      "path": "Docs/AI/VRLabSaved-2026-10-15.json",
+      "bytes": 669,
+      "sha256": "098e9eb3b83b4177267b0663228704c3e811f1f735c9fb0c29ffd371be3e42eb"
+    },
+    {
+      "path": "experiment.uproject",
+      "bytes": 1040,
+      "sha256": "dc050015ac9eca5d788811c1196f47f4cb6d5c0c8d9a3619b83db0b43c974689"
+    },
+    {
+      "path": "Run_VR_Demo.cmd",
+      "bytes": 153,
+      "sha256": "3c274c9185012a69f68a99af25f8a1228a7617783871a258b7d79297d2e62e18"
+    },
+    {
+      "path": "Run_VR_Demo.ps1",
+      "bytes": 9692,
+      "sha256": "d95152a2d2c7d433783ac7ba938ccedd9304a6f7294ce801088f09fe0ba79e42"
+    },
+    {
+      "path": "Saved/Scripts/author_player_hands_editor.py",
+      "bytes": 1800,
+      "sha256": "61a6aa103a07e220357c7ce1f779588add59cda8ac4db309e231bcc64d5b567e"
+    },
+    {
+      "path": "Saved/Scripts/author_vr_input_assets.py",
+      "bytes": 10262,
+      "sha256": "90dab58e39f90bc9066e4b6d1bce6a52695d5dfb6cf0ebaf45dda3e499f5148f"
+    },
+    {
+      "path": "Saved/Scripts/capture_player_hand_presentation.py",
+      "bytes": 6125,
+      "sha256": "5597a0b3e0e73763899293453eb56709cdb089e4a9f52fc10afaceb693638543"
+    },
+    {
+      "path": "Saved/Scripts/create_vr_lab.py",
+      "bytes": 2864,
+      "sha256": "7023c3d0064609987c7f66972877c3a078c995d4cbd54ff063d398a8b2aadf5b"
+    },
+    {
+      "path": "Saved/Scripts/export_hands_editor.py",
+      "bytes": 1274,
+      "sha256": "d7b6fce5f6a4e351fc1e16d2af848b62e4319be0b3e3026068e372964b986c84"
+    },
+    {
+      "path": "Saved/Scripts/export_player_hand_sources.py",
+      "bytes": 2503,
+      "sha256": "16fcb4f3e5b5e44d31b1b65a391aaa63e9619db88232d692d3bb0262f89857eb"
+    },
+    {
+      "path": "Saved/Scripts/import_realistic_player_hands.py",
+      "bytes": 25666,
+      "sha256": "c645ceadba9167c287269f337f10bbcc99d99df41305e95fdfb0a83f4cb8a539"
+    },
+    {
+      "path": "Saved/Scripts/save_vr_hands_delivery.py",
+      "bytes": 12989,
+      "sha256": "c7a8c2597740f4c5e933f063ff80f609bd6f45664ed09bc39826ca58b3cc2c6f"
+    },
+    {
+      "path": "Source/experiment/experiment.Build.cs",
+      "bytes": 400,
+      "sha256": "b93ad3f95ea56f678575ffaff5a52e89a09df216f808e3bf7c5ad94bb17f313d"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLAttackDirectorSubsystem.cpp",
+      "bytes": 15285,
+      "sha256": "cf16f3d438930da340d621d55460d132703187679709f08d32fe3f5eed657afb"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyAttackWindowNotifyState.cpp",
+      "bytes": 1349,
+      "sha256": "e416b9fd6d65aa808dc9ab6b29fc82774d765fb0884fecc311b1a10f35223ee1"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyBrainComponent.cpp",
+      "bytes": 27379,
+      "sha256": "a0fc32790c3aed620f5a0f86557b099bdee29f50e096903ec75a6bf0667108cb"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyCharacter.cpp",
+      "bytes": 21983,
+      "sha256": "a4e1bcdedb5cbe2e737722d18f07507f55ff59fb4fd87076508c96489adde928"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLTalismanAttackComponent.cpp",
+      "bytes": 15255,
+      "sha256": "d1be33bdb6a0ff9682eecdeedcb6ea8591211a9d41edcc2f006c8d5c89ce04bc"
+    },
+    {
+      "path": "Source/experiment/Private/Animation/NLDeathBlendAnimInstance.cpp",
+      "bytes": 5711,
+      "sha256": "6c25311b5473e90ad5aedf820e7265af86635c71ce57796aa513851ba6e6d29e"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLBladeComponent.cpp",
+      "bytes": 13919,
+      "sha256": "7873c58ae11ed2fa96167f4026f9a227d0ab6b6f04d2d2688a729a21ab39a174"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatIdentityComponent.cpp",
+      "bytes": 384,
+      "sha256": "4498c1d13421acf21026ce6d41a02099ed920d937e00d6766d1e6fdebe3874b0"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatProjectile.cpp",
+      "bytes": 18796,
+      "sha256": "65d4fff862e3524a7f3464ea668722a08e884de40b493b4b516ea636321d9e8c"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatResolverSubsystem.cpp",
+      "bytes": 6318,
+      "sha256": "5e5e467bf872d10326a4d7689a923275cd4d921fd00740ef4db8686fe79ad392"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatVitalsComponent.cpp",
+      "bytes": 2777,
+      "sha256": "37c3d4d29fa02c12da5d17f44e8e8ffe20978a2e19e1d999027e9b895a49a0da"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLGuardComponent.cpp",
+      "bytes": 9018,
+      "sha256": "3858735e4940b2b68028e38f03b8d1c38aaa7b97bd3be4b761e96b664df9e84c"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLTrainingEnemy.cpp",
+      "bytes": 9291,
+      "sha256": "caf25389d31b1a22b084138960d8d92a5ebac4eff0eaf9efbf35e29ada6954e5"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLTrainingProjectileEmitter.cpp",
+      "bytes": 8173,
+      "sha256": "3c12df13124511c35eea9c9703ecfb8b72a8fd6d9f643186364fbe98077a2534"
+    },
+    {
+      "path": "Source/experiment/Private/Encounter/NLEncounterController.cpp",
+      "bytes": 38492,
+      "sha256": "a94479e434c95ddeaae05903199fbc623ffed9734bb4f72c83edcd17a90aea4d"
+    },
+    {
+      "path": "Source/experiment/Private/experiment.cpp",
+      "bytes": 117,
+      "sha256": "408037e40b17a0beaa0b9b62e6716ce85f1536a603a79e590e0090a0c98b56a0"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLCombatLabHUD.cpp",
+      "bytes": 16039,
+      "sha256": "fffac70d0cb65e796f5b9fb622d48164b43f62fec6b270dc3fcad185424325af"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLDesktopPlayerCharacter.cpp",
+      "bytes": 52882,
+      "sha256": "e4c36a59348a3c5c98c505ff34ce970ac92b4e02055ccf6ee859221b6fbfada9"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLVRGameMode.cpp",
+      "bytes": 251,
+      "sha256": "d2255ae475b924ec5ee78583598840aec2bb9054600b578c564116d67ce04911"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLVRPlayerCharacter.cpp",
+      "bytes": 22080,
+      "sha256": "ecdb155e03151e963c00237b125d2f04260c584ff88626dd8df0f7e83f8e8ef4"
+    },
+    {
+      "path": "Source/experiment/Private/Progression/NLRunStateSubsystem.cpp",
+      "bytes": 2170,
+      "sha256": "1ce97d34ba02890b0e0cf39a8cd7af17b7a7a9390eedaceea590be86de9de8d0"
+    },
+    {
+      "path": "Source/experiment/Private/Save/NLCheckpointService.cpp",
+      "bytes": 28538,
+      "sha256": "9c80a1e09be9bc7114556a98a214bb125f188750084dd49614230c3173a11292"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLAttackDirectorSubsystem.h",
+      "bytes": 6070,
+      "sha256": "b2b16eb7c16bb7eba03454fbfc35d4210002d50eadd059bbd66099dbf967bc64"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyAttackWindowNotifyState.h",
+      "bytes": 850,
+      "sha256": "455ffefd114102c62dec9fa748e9568a1663401810e9a33d1f3509b765512967"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyBrainComponent.h",
+      "bytes": 7002,
+      "sha256": "0edd608a4f3a9669368d73f4b9a57475fc02a7aa5d0c865e5941cbf9e56a17a6"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyCharacter.h",
+      "bytes": 5813,
+      "sha256": "bdee3a6e6d08aa9d04a056e6be98ca91436d043001c49c20f98c35ceae676bd5"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyTypes.h",
+      "bytes": 450,
+      "sha256": "643db3ccc98e62a2e746ecb60288429c1dd635b637f332bd60404efeb2512a8c"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLTalismanAttackComponent.h",
+      "bytes": 3927,
+      "sha256": "7ab6d41f107a1d7e960159b887ab189e57202c48aa648bc4746f5fbb9f7392b2"
+    },
+    {
+      "path": "Source/experiment/Public/Animation/NLDeathBlendAnimInstance.h",
+      "bytes": 1449,
+      "sha256": "d78e745f09aad1ae1e784f0f4261e5b09ebfdbfe54a030d669e44d519f5699be"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLAttackDefinition.h",
+      "bytes": 1389,
+      "sha256": "fee29f5164c5478d7a9f66050ec620d3a88996a5d636136ac9f85b9c43d2508d"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLBladeComponent.h",
+      "bytes": 5022,
+      "sha256": "0b30a578bb56ad75402c67aefb76086c6145338941497b2b7aedee864692d424"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatIdentityComponent.h",
+      "bytes": 1000,
+      "sha256": "90ab432752cb14ca83402a0b786f3dd73b9a52aa85837f9cc723726e1e8826d3"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatProjectile.h",
+      "bytes": 4472,
+      "sha256": "fc30b45e8cf6ed079050e908a594ea1bdde817daa5144f913355ae00cdea350d"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatResolverSubsystem.h",
+      "bytes": 1468,
+      "sha256": "8da6bcf17553b3f50887e96b910a9812bf19b2f2f33fcd1b5ebd45b9c54e3999"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatTypes.h",
+      "bytes": 2263,
+      "sha256": "24374c36d27013817f8a56932f91cd1d2f0215594884db17a0128accc2dda1c4"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatVitalsComponent.h",
+      "bytes": 2597,
+      "sha256": "76ffbb94ef1f1872168f2385db5e89777c30232ea665c63ec2e544366459d6a1"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLGuardComponent.h",
+      "bytes": 4438,
+      "sha256": "5c8f3b1e6079a38659ae2cb36a450b2609a0d23e81cb2f405eb5c268e7d6b4de"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLTrainingEnemy.h",
+      "bytes": 2591,
+      "sha256": "62a5382c9deaf5fd94c8009c639ac2d7463ccef788d967fe34e56c62188b4279"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLTrainingProjectileEmitter.h",
+      "bytes": 3615,
+      "sha256": "c5292f7e9da07712326874735e332466fe4fc08114e7cb1dbaada56777ec2b0f"
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLEncounterController.h",
+      "bytes": 10560,
+      "sha256": "36139fbb77029c685673e4bc3d2c53e72cb516908e44b25c31fe0ef232f6bb85"
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLWaveDefinition.h",
+      "bytes": 1338,
+      "sha256": "57e6ac7f1d8d8dafbee34947860b1620866fe10ee90fbd6b1c98e437dbcf7ef1"
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLWaveTypes.h",
+      "bytes": 1317,
+      "sha256": "6e5076c5a5f0321af8deae744464f09e5e0f82ee98b8348adc1d4736550a047d"
+    },
+    {
+      "path": "Source/experiment/Public/Player/NLCombatLabHUD.h",
+      "bytes": 322,
+      "sha256": "036b33915db87b7631163e885aece35efe87885e925b94e486614abcad97e339"
+    },
+    {
+      "path": "Source/experiment/Public/Player/NLDesktopPlayerCharacter.h",
+      "bytes": 8733,
+      "sha256": "bc506d73de4ca0a4cad25375580c9f8c328c075ee6cc18269316db08a483be40"
+    },
+    {
+      "path": "Source/experiment/Public/Player/NLVRGameMode.h",
+      "bytes": 313,
+      "sha256": "7ba2248cb07f2bbaf028ed4f65b67d318ff3e35890aa7ccb5f3ae9b696cc43f1"
+    },
+    {
+      "path": "Source/experiment/Public/Player/NLVRPlayerCharacter.h",
+      "bytes": 5615,
+      "sha256": "1b804f497114fbb398b9f99a7c1d60e9424899d57fc4ae9148d6ac6b8211d104"
+    },
+    {
+      "path": "Source/experiment/Public/Progression/NLRunStateSubsystem.h",
+      "bytes": 1524,
+      "sha256": "f51a00599f919d3605178efb3947feac62e915530515cea499787486b351f2f3"
+    },
+    {
+      "path": "Source/experiment/Public/Save/NLCheckpointSaveGame.h",
+      "bytes": 759,
+      "sha256": "d42704c9efb55a38df2210d92a39b1efbac6034854f32e0a231dfa5f34054691"
+    },
+    {
+      "path": "Source/experiment/Public/Save/NLCheckpointService.h",
+      "bytes": 1880,
+      "sha256": "85c801ed6ad6ae1161b6f49e61b05fade137c5a7db1936a09b61f9fa618b6c53"
+    },
+    {
+      "path": "Source/experiment/Public/Save/NLCheckpointTypes.h",
+      "bytes": 4003,
+      "sha256": "94a270130fd47d72c38fa82ecc49fb6606b58d1fb8cbf1cf8657ef9132ab2400"
+    },
+    {
+      "path": "Source/experiment.Target.cs",
+      "bytes": 312,
+      "sha256": "75cb53eee4b005a6bfff75bbc3844f20ec298f6ee2352e77f52d4ca9a122ecd6"
+    },
+    {
+      "path": "Source/experimentEditor.Target.cs",
+      "bytes": 326,
+      "sha256": "dda5163430d38b592ec55e699e3855ebe16eff3298439a3bbd5367e1ed3af7e0"
+    },
+    {
+      "path": "VRDemo_操作说明.txt",
+      "bytes": 1483,
+      "sha256": "aed133944f61d0289bdda5be485f7a9ac14998c13e5dce8ea8b474f1298b6ed4"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-12",
+  "scope": "Recoverable snapshot of changed assets and source; uses unchanged project dependencies.",
+  "files": [
+    {
+      "relative_path": "experiment.uproject",
+      "bytes": 832,
+      "sha256": "c922a77571a71e031410483e39b7f046f0bff2f231235131b54a46aa965ef819"
+    },
+    {
+      "relative_path": "Run_SwordDuel_Demo.cmd",
+      "bytes": 95,
+      "sha256": "85df6325d35c54cc3aeea60cdeabc9281edd3262e62cc1c188e98d2add9ed22f"
+    },
+    {
+      "relative_path": "Run_SwordDuel_Demo.ps1",
+      "bytes": 1382,
+      "sha256": "993ce94243c47d8f01705284698efc0ce637dca47454ae0e91dda2e664389764"
+    },
+    {
+      "relative_path": "Content/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.uasset",
+      "bytes": 10101947,
+      "sha256": "42457bb6ba59c39fad8e78a5b2b7cbe883f6c9fac25c60cf8bb5667e63dd980a"
+    },
+    {
+      "relative_path": "Content/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Combat.uasset",
+      "bytes": 7020,
+      "sha256": "9fa4393a8dec5ba0b030a20b3542f2ceae870c4a0c9ea086b8ab010c3574f00c"
+    },
+    {
+      "relative_path": "Content/ReversedScale/Characters/WuxiaMale/M_WuxiaMale_Skin_Combat.uasset",
+      "bytes": 13729,
+      "sha256": "bb1379968e1dcd6fb2701ad128c0df0226ab86c8d782dbdb6ec0b372ed0a3a89"
+    },
+    {
+      "relative_path": "Content/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.uasset",
+      "bytes": 29687,
+      "sha256": "b1cfc62eae3355efbe7b3ed73daf051c8d714f058a7337d3939d9ba89a91cd84"
+    },
+    {
+      "relative_path": "Content/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.uasset",
+      "bytes": 349835,
+      "sha256": "5034c349535f2fea392aa58e3999041d51bc5eb4578801467275a619cc45d51b"
+    },
+    {
+      "relative_path": "Source/experiment/Public/AI/NLEnemyCharacter.h",
+      "bytes": 4791,
+      "sha256": "77cf4936514d6c21aa6fd47595a576dbca393700066d7f512d8a6c7a82ce547c"
+    },
+    {
+      "relative_path": "Source/experiment/Private/AI/NLEnemyCharacter.cpp",
+      "bytes": 19060,
+      "sha256": "aa0dae49a9f209e8ebc20e5303d86931113031dcfdfcb37a0b07a68099735d8e"
+    },
+    {
+      "relative_path": "Source/experiment/Public/Animation/NLDeathBlendAnimInstance.h",
+      "bytes": 1293,
+      "sha256": "13c3efab943e685c585950f1afd14bbf79c211cfc715e979847726465902b828"
+    },
+    {
+      "relative_path": "Source/experiment/Private/Animation/NLDeathBlendAnimInstance.cpp",
+      "bytes": 5428,
+      "sha256": "913a726395a3304ca82e2c9d464f7150058f2584e655ae0e17b9508bb441d7ab"
+    },
+    {
+      "relative_path": "Binaries/Win64/UnrealEditor-experiment.dll",
+      "bytes": 735232,
+      "sha256": "40bbfb1f2e7c52105964d925be7d75b1b9ffc8ad1939dfdad93a394d206ae15c"
+    },
+    {
+      "relative_path": "Binaries/Win64/UnrealEditor.modules",
+      "bytes": 98,
+      "sha256": "742954b11de752bf69b7c41f2c4924e7b4c1abe72360fcd3d43a2d08ac141c30"
+    },
+    {
+      "relative_path": "Binaries/Win64/experimentEditor.target",
+      "bytes": 950993,
+      "sha256": "ad8dd1d50df9355b500d7e7237be1ca72ad303defb3798b4e05de7cd01649582"
+    },
+    {
+      "relative_path": "ArtSource/WuxiaMale/GripRefinement/WuxiaMaleCombat.blend",
+      "bytes": 6474903,
+      "sha256": "cc77f0b9cb7f5107c2d3adb7ed74cd6c9b097ef98a427a979f92f1125559e84a"
+    },
+    {
+      "relative_path": "ArtSource/WuxiaMale/GripRefinement/WuxiaMaleCombat.fbx",
+      "bytes": 3138396,
+      "sha256": "f66f595305083ad57a259c39a31a626553f6eb22cb79c26992fc11642d3e7f6d"
+    },
+    {
+      "relative_path": "ArtSource/WuxiaMale/NaturalDeath/NaturalDeathAuthoredPoses.json",
+      "bytes": 938534,
+      "sha256": "e910942d9b3556f8ad79b59800d0e557c7987fd416fa569b1f0a4bbed712e2e7"
+    },
+    {
+      "relative_path": "Docs/AI/State.md",
+      "bytes": 10444,
+      "sha256": "13b73b28240156843de9c16763342cd2c35e539ce106d640d983be2d9bbbd964"
+    },
+    {
+      "relative_path": "Docs/AI/NaturalGripSaved-2026-10-12.json",
+      "bytes": 5180,
+      "sha256": "131a53acea2d184ecfc6b6a50e91ad04d48d3665657f726e8343670dc8860a40"
+    },
+    {
+      "relative_path": "Docs/AI/NaturalGripDelivery-2026-10-12.json",
+      "bytes": 16713,
+      "sha256": "caa4838d277355f21b51dab7d63e8b5f68eeeb241d93278e7029d7b99160b09a"
+    },
+    {
+      "relative_path": "Docs/AI/SwordDisciplePrefabSaved.json",
+      "bytes": 2112,
+      "sha256": "55edb9a633c3c8eff86c89ad7543651998ae56edf71df954689acf6de689e60f"
+    },
+    {
+      "relative_path": "Docs/AI/WaveNextTask-2026-10-12.json",
+      "bytes": 3374,
+      "sha256": "34572d785240be615f811fb749e23c8df10dc22b9dba5e68c109b3ff2cf6a70b"
+    },
+    {
+      "relative_path": "Docs/AI/BuildLog-NaturalGrip-2026-10-12.txt",
+      "bytes": 10830,
+      "sha256": "e636726cd0cd4139ad2e571a92cf324364a2f7ea0d949cff01ad9c751c729a08"
+    },
+    {
+      "relative_path": "Docs/AI/NaturalGripImport-2026-10-12.log",
+      "bytes": 288705,
+      "sha256": "1ac1f9ac125a058dbe758d9c183725409a0a0e8d24f7bf54123895889fbf0d48"
+    },
+    {
+      "relative_path": "Saved/Scripts/import_enemy_combat_refinement.py",
+      "bytes": 9155,
+      "sha256": "fdb38aeaea81d56d28009537308ce0cefb68cfb0d3869e44d108dd85cc20dda0"
+    },
+    {
+      "relative_path": "Saved/Scripts/create_sword_disciple_prefab.py",
+      "bytes": 6940,
+      "sha256": "c22bb7d6962750353c868e24606c14f393199ffcb93310132fc18fd99d981e37"
+    },
+    {
+      "relative_path": "Saved/Scripts/capture_sword_duel_lab.py",
+      "bytes": 8225,
+      "sha256": "8d21e9d4f139d0033d22c36865ee3d00dc20c9864a523508925f5b7e1d786ce8"
+    },
+    {
+      "relative_path": "Saved/Scripts/bake_natural_death.py",
+      "bytes": 16029,
+      "sha256": "d6b8482f61b480996620b9283d9a654708d120e402b994679304bc46f38bc101"
+    },
+    {
+      "relative_path": "Saved/Scripts/inspect_natural_death.py",
+      "bytes": 4843,
+      "sha256": "632e03cd8896b181563a760d0dba7f015a02bd727f3e55b647957985084a389c"
+    },
+    {
+      "relative_path": "Saved/Scripts/save_natural_grip_snapshot.py",
+      "bytes": 3178,
+      "sha256": "f6b40ac70cd68ba549eadc36b24b8f933aa51b994af2a98950c8d940c581eff4"
+    },
+    {
+      "relative_path": "Saved/Scripts/finalize_natural_grip_delivery.py",
+      "bytes": 2733,
+      "sha256": "6573f3aa85583318b6026dbdd6011bfd2c91f190c2e44078c7bd7ae2edeaeefd"
+    },
+    {
+      "relative_path": "Content/ReversedScale/Maps/L_CombatLabSwordDuel.umap",
+      "bytes": 51533,
+      "sha256": "06c3a7e80ee1d9c04a0b861abfe95ae31525c9be00330f2ec75ad91e1fd6aab3"
+    },
+    {
+      "relative_path": "Content/ReversedScale/Maps/L_CombatLabReflection.umap",
+      "bytes": 37939,
+      "sha256": "0df284fa0dea6ca5c07f255bb06d3bba46891930cb56d42f51723eb09a05ef03"
+    },
+    {
+      "relative_path": "Content/ReversedScale/Maps/L_CombatLabGuard.umap",
+      "bytes": 37770,
+      "sha256": "2d2e8d8ae94e9e91803bf6340a6c7744f0a2699e4c759296f65256ea1fb251f3"
+    },
+    {
+      "relative_path": "Content/ReversedScale/Maps/L_CombatLabMelee.umap",
+      "bytes": 34299,
+      "sha256": "d49e8a010780a64219dcb8946ef67a1198a4e11d19e5327d9b74106303e52b23"
+    }
+  ],
+  "demo_entry": "Run_SwordDuel_Demo.cmd in the main experiment project",
+  "packaged_standalone": false,
+  "requires_local_ue58": true,
+  "restore": "With UE closed, restore selected files by their project-relative paths. Original assets and pre-change map backups remain in the project."
+}

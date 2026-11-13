@@ -1,0 +1,257 @@
+{
+  "mesh": "/Game/ReversedScale/Weapons/DragonShield/SM_DragonShield.SM_DragonShield",
+  "prepared_metadata": "..\\..\\..\\..\\CombatProject\\ArtSource\\DragonShield\\DragonShieldPrepared.json",
+  "static_mesh_authoring_service": "registered_editor_subsystem",
+  "source_fbx": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\DragonShieldPrepared.fbx",
+  "material_slots": [
+    {
+      "index": 0,
+      "slot_name": "M_DragonShield_00",
+      "imported_name": "M_DragonShield_00",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_00.M_DragonShield_00"
+    },
+    {
+      "index": 1,
+      "slot_name": "M_DragonShield_01",
+      "imported_name": "M_DragonShield_01",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_01.M_DragonShield_01"
+    },
+    {
+      "index": 2,
+      "slot_name": "M_DragonShield_02",
+      "imported_name": "M_DragonShield_02",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_02.M_DragonShield_02"
+    },
+    {
+      "index": 3,
+      "slot_name": "M_DragonShield_03",
+      "imported_name": "M_DragonShield_03",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_03.M_DragonShield_03"
+    },
+    {
+      "index": 4,
+      "slot_name": "M_DragonShield_05",
+      "imported_name": "M_DragonShield_05",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_05.M_DragonShield_05"
+    },
+    {
+      "index": 5,
+      "slot_name": "M_DragonShield_06",
+      "imported_name": "M_DragonShield_06",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_06.M_DragonShield_06"
+    },
+    {
+      "index": 6,
+      "slot_name": "M_DragonShield_07",
+      "imported_name": "M_DragonShield_07",
+      "material": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_07.M_DragonShield_07"
+    }
+  ],
+  "materials": [
+    {
+      "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_00.M_DragonShield_00",
+      "ue_name": "M_DragonShield_00",
+      "source_name": "01 | Aged chased bronze",
+      "base_color_linear": [
+        0.23309090733528137,
+        0.16618181765079498,
+        0.07098182290792465,
+        1.0
+      ],
+      "base_color_texture": null,
+      "base_color_uv_index": 0,
+      "metallic": 0.699999988079071,
+      "roughness": 0.46000000834465027,
+      "normal_texture": null,
+      "normal_uv_index": null,
+      "normal_strength": null,
+      "procedural_approximation": "Original procedural Blender nodes use supplied constant linear PBR color, metallic and roughness."
+    },
+    {
+      "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_01.M_DragonShield_01",
+      "ue_name": "M_DragonShield_01",
+      "source_name": "02 | Worn raised gold bronze",
+      "base_color_linear": [
+        0.3325454592704773,
+        0.2581818103790283,
+        0.1390909105539322,
+        1.0
+      ],
+      "base_color_texture": null,
+      "base_color_uv_index": 0,
+      "metallic": 0.699999988079071,
+      "roughness": 0.4300000071525574,
+      "normal_texture": null,
+      "normal_uv_index": null,
+      "normal_strength": null,
+      "procedural_approximation": "Original procedural Blender nodes use supplied constant linear PBR color, metallic and roughness."
+    },
+    {
+      "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_02.M_DragonShield_02",
+      "ue_name": "M_DragonShield_02",
+      "source_name": "03 | Recessed dark bronze",
+      "base_color_linear": [
+        0.07464545965194702,
+        0.07763127237558365,
+        0.0597163625061512,
+        1.0
+      ],
+      "base_color_texture": null,
+      "base_color_uv_index": 0,
+      "metallic": 0.7400000095367432,
+      "roughness": 0.38999998569488525,
+      "normal_texture": null,
+      "normal_uv_index": null,
+      "normal_strength": null,
+      "procedural_approximation": "Original procedural Blender nodes use supplied constant linear PBR color, metallic and roughness."
+    },
+    {
+      "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_03.M_DragonShield_03",
+      "ue_name": "M_DragonShield_03",
+      "source_name": "04 | Oxidized deep jade",
+      "base_color_linear": [
+        0.05458000302314758,
+        0.1290072649717331,
+        0.10419818758964539,
+        1.0
+      ],
+      "base_color_texture": null,
+      "base_color_uv_index": 0,
+      "metallic": 0.5799999833106995,
+      "roughness": 0.3199999928474426,
+      "normal_texture": null,
+      "normal_uv_index": null,
+      "normal_strength": null,
+      "procedural_approximation": "Original procedural Blender nodes use supplied constant linear PBR color, metallic and roughness."
+    },
+    {
+      "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_04.M_DragonShield_04",
+      "ue_name": "M_DragonShield_04",
+      "source_name": "05 | Verdigris patina highlights",
+      "base_color_linear": [
+        0.16913454234600067,
+        0.2885236144065857,
+        0.22882908582687378,
+        1.0
+      ],
+      "base_color_texture": null,
+      "base_color_uv_index": 0,
+      "metallic": 0.47999998927116394,
+      "roughness": 0.3100000023841858,
+      "normal_texture": null,
+      "normal_uv_index": null,
+      "normal_strength": null,
+      "procedural_approximation": "Original procedural Blender nodes use supplied constant linear PBR color, metallic and roughness."
+    },
+    {
+      "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_05.M_DragonShield_05",
+      "ue_name": "M_DragonShield_05",
+      "source_name": "06 | Dark oxblood shield leather",
+      "base_color_linear": [
+        0.11952000856399536,
+        0.05478000268340111,
+        0.027888000011444092,
+        1.0
+      ],
+      "base_color_texture": null,
+      "base_color_uv_index": 0,
+      "metallic": 0.11999999731779099,
+      "roughness": 0.47999998927116394,
+      "normal_texture": null,
+      "normal_uv_index": null,
+      "normal_strength": null,
+      "procedural_approximation": "Original procedural Blender nodes use supplied constant linear PBR color, metallic and roughness."
+    },
+    {
+      "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_06.M_DragonShield_06",
+      "ue_name": "M_DragonShield_06",
+      "source_name": "07 | Rivet aged brass",
+      "base_color_linear": [
+        0.29290908575057983,
+        0.23345454037189484,
+        0.13418182730674744,
+        1.0
+      ],
+      "base_color_texture": null,
+      "base_color_uv_index": 0,
+      "metallic": 0.6899999976158142,
+      "roughness": 0.4000000059604645,
+      "normal_texture": null,
+      "normal_uv_index": null,
+      "normal_strength": null,
+      "procedural_approximation": "Original procedural Blender nodes use supplied constant linear PBR color, metallic and roughness."
+    },
+    {
+      "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_07.M_DragonShield_07",
+      "ue_name": "M_DragonShield_07",
+      "source_name": "Reference fidelity | aged jade dragon face",
+      "base_color_linear": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "base_color_texture": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\T_DragonShield_Reference.jpg",
+      "base_color_uv_index": 0,
+      "metallic": 0.23999999463558197,
+      "roughness": 0.5699999928474426,
+      "normal_texture": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\T_DragonShield_ReferenceNormal.png",
+      "normal_uv_index": 1,
+      "normal_strength": 0.18,
+      "procedural_approximation": null
+    }
+  ],
+  "textures": [
+    {
+      "source": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\T_DragonShield_Reference.jpg",
+      "asset": "/Game/ReversedScale/Weapons/DragonShield/Textures/T_DragonShield_07_BaseColor.T_DragonShield_07_BaseColor",
+      "role": "base_color",
+      "srgb": true,
+      "flip_green_channel": false,
+      "normal_convention": null
+    },
+    {
+      "source": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\DragonShield\\T_DragonShield_ReferenceNormal.png",
+      "asset": "/Game/ReversedScale/Weapons/DragonShield/Textures/T_DragonShield_07_Normal.T_DragonShield_07_Normal",
+      "role": "normal",
+      "srgb": false,
+      "flip_green_channel": true,
+      "normal_convention": "Blender OpenGL to Unreal DirectX"
+    }
+  ],
+  "bounds_cm": {
+    "origin": [
+      -1.2118353843688965,
+      0.0,
+      0.22439002990722656
+    ],
+    "box_extent": [
+      5.407677173614502,
+      22.94390296936035,
+      23.168292999267578
+    ],
+    "sphere_radius": 23.533331404825905
+  },
+  "uv_count_lod0": 2,
+  "generated_lightmap_uvs": false,
+  "lod_count": 4,
+  "requested_lod_triangle_fractions": [
+    1.0,
+    0.5,
+    0.25,
+    0.1
+  ],
+  "lod_triangle_counts": [
+    167872,
+    83936,
+    41967,
+    16788
+  ],
+  "nanite": false,
+  "auto_generate_collision": false,
+  "simple_collision_count": 0,
+  "navigation_data": false,
+  "collision_owner": "Existing player shield BoxComponent; imported visual has no collision sections.",
+  "procedural_material_note": "Seven original procedural Blender materials are represented by supplied constant PBR approximations; front color and normal textures are preserved.",
+  "scope": "Imported prepared model copy, textures and shield-only materials. Original blend, combat definitions and maps are unchanged. No gameplay or tests executed."
+}

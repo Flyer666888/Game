@@ -1,0 +1,122 @@
+#pragma once
+
+#include "CoreMinimal.h"
+#include "Components/ActorComponent.h"
+#include "NLBladeComponent.generated.h"
+
+class USceneComponent;
+class UNLAttackDefinition;
+
+UENUM(BlueprintType)
+enum class ENLBladeSwingState : uint8
+{
+	Ready,
+	SwingActive,
+	Recovery
+};
+
+// Tracks blade motion relative to a tracking origin, then sends contacts to the
+// shared resolver. A desktop input may arm a swing; it never applies damage.
+UCLASS(ClassGroup=(Combat), BlueprintType, Blueprintable, meta=(BlueprintSpawnableComponent))
+class EXPERIMENT_API UNLBladeComponent : public UActorComponent
+{
+	GENERATED_BODY()
+
+public:
+	UNLBladeComponent();
+
+	virtual void TickComponent(float DeltaTime, ELevelTick TickType,
+		FActorComponentTickFunction* ThisTickFunction) override;
+
+	UFUNCTION(BlueprintCallable, Category="Combat|Blade")
+	void ConfigureBlade(USceneComponent* Weapon, USceneComponent* TrackingSpace);
+
+	UFUNCTION(BlueprintCallable, Category="Combat|Blade")
+	bool RequestDesktopSwing();
+
+	UFUNCTION(BlueprintCallable, Category="Combat|Blade")
+	void EndDesktopSwing();
+
+	/** Animation/AI-owned damage window; first sample only establishes a baseline. */
+	UFUNCTION(BlueprintCallable, Category="Combat|Blade")
+	bool BeginAttackWindow();
+
+	/** Preserve the attack identity allocated by the enemy director. */
+	UFUNCTION(BlueprintCallable, Category="Combat|Blade")
+	bool BeginAttackWindowWithId(FGuid AttackInstanceId);
+
+	UFUNCTION(BlueprintCallable, Category="Combat|Blade")
+	void EndAttackWindow();
+
+	// Call when tracking is lost, the encounter resets, or pause changes.
+	UFUNCTION(BlueprintCallable, Category="Combat|Blade")
+	void ResetBladeHistory();
+
+	UFUNCTION(BlueprintPure, Category="Combat|Blade")
+	bool IsReady() const;
+
+	UFUNCTION(BlueprintPure, Category="Combat|Blade")
+	ENLBladeSwingState GetSwingState() const { return SwingState; }
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Combat|Blade")
+	TObjectPtr<UNLAttackDefinition> AttackDefinition;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Combat|Blade")
+	bool bEnableTrackedSwing = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Combat|Blade", meta=(ClampMin="1.0", Units="cm/s"))
+	float SpeedThresholdCmPerSec = 220.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Combat|Blade", meta=(ClampMin="0.0", Units="s"))
+	float RecoverySeconds = 0.22f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Combat|Blade", meta=(ClampMin="0.1", Units="cm"))
+	float SweepRadiusCm = 4.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Combat|Blade", meta=(ClampMin="0.001", Units="s"))
+	float MaxSampleGapSeconds = 0.10f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Combat|Blade", meta=(ClampMin="1.0", Units="cm"))
+	float MaxTrackingStepCm = 80.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Combat|Blade", meta=(ClampMin="0.0", Units="cm/s"))
+	float MinSpeedCmPerSecToContinue = 70.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Combat|Blade")
+	FVector BladeRootLocal = FVector(0.0, 0.0, 9.0);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Combat|Blade")
+	FVector BladeMidLocal = FVector(0.7, 0.0, 39.0);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Combat|Blade")
+	FVector BladeTipLocal = FVector(4.3, 0.0, 70.972);
+
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category="Combat|Blade")
+	float CurrentSpeedCmPerSec = 0.0f;
+
+private:
+	void BuildSamplePoints(TArray<FVector>& LocalPoints) const;
+	void EnterRecovery(double Now);
+	void SweepBlade(const TArray<FVector>& WorldPoints, double SampleSeconds, double Now);
+	void SweepSegment(const FVector& Start, const FVector& End,
+		const FVector& BladeRoot, const FVector& Velocity, double Now);
+
+	UPROPERTY(Transient)
+	TObjectPtr<USceneComponent> WeaponComponent;
+
+	UPROPERTY(Transient)
+	TObjectPtr<USceneComponent> TrackingSpaceComponent;
+
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category="Combat|Blade", meta=(AllowPrivateAccess="true"))
+	ENLBladeSwingState SwingState = ENLBladeSwingState::Ready;
+
+	TArray<FVector> PreviousWorldPoints;
+	TArray<FVector> PreviousTrackingPoints;
+	TSet<TWeakObjectPtr<AActor>> HitActors;
+	FGuid SwingInstanceId;
+	double PreviousSampleTime = 0.0;
+	double RecoveryEndTime = 0.0;
+	bool bHasPreviousSample = false;
+	bool bDesktopSwingArmed = false;
+	bool bExplicitAttackWindow = false;
+};

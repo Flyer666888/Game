@@ -1,0 +1,3601 @@
+{
+  "source_clip": "NaturalCandidate_Anim_DeathPL",
+  "fps": 30,
+  "duration_seconds": 3.3,
+  "source_motion_seconds": 2.7,
+  "baked_idle_entry_seconds": 0.0,
+  "before_root_max_frame_step_cm": 10.456635150607083,
+  "after_root_max_frame_step_cm": 1.748309792052547,
+  "root_range_cm": [
+    -2.898401352285011,
+    18.006698177605184
+  ],
+  "root_max_frame_second_difference_cm": 0.4396681408248355,
+  "final_head_contact_pose": {
+    "spine_flexion_degrees": 8,
+    "neck_flexion_degrees": 40,
+    "face_skin_cm": 5.874664205241231
+  },
+  "final_right_boot_relax_degrees": 0,
+  "final_right_leg_contact": {
+    "ankle_drop_cm": 16,
+    "knee_pole": -0.15
+  },
+  "final_contact": {
+    "time": 3.3,
+    "root_floor_cm": 12.395491380697559,
+    "left_hand_min_cm": 0.02860485340602753,
+    "right_hand_min_cm": 0.9226824669035949,
+    "left_forearm_min_cm": 0.4316469013364748,
+    "right_forearm_min_cm": 3.129158698792356,
+    "sword_mesh_min_cm": 0.7999991449791795,
+    "whole_skin_min_cm": 0.02860485340602753,
+    "sole_l_min_cm": 1.8222389641682462,
+    "sole_r_min_cm": 3.410496156261299,
+    "local_foot_support_correction_cm": {},
+    "right_wrist_prop_correction_degrees": 0.0,
+    "left_forearm_twist_degrees": -20.0,
+    "right_boot_min_cm": 1.0891999361357994,
+    "left_boot_min_cm": 1.8222389641682462,
+    "head_skin_min_cm": 0.4565901500022278,
+    "face_skin_min_cm": 5.874664205241231,
+    "head_bone_z_cm": 18.64670753479004,
+    "right_boot_max_cm": 17.59033126674508,
+    "sword_mesh_max_cm": 10.516922378933305
+  },
+  "sword_source_bounds_cm": [
+    [
+      -6.607359289976528,
+      -3.5999999046326323,
+      -12.012001991271973
+    ],
+    [
+      5.47999930144065,
+      2.330000846399282,
+      70.97200012207031
+    ]
+  ],
+  "maximum_sword_penetration_cm": 0.0,
+  "lowest_body_skin_cm": 0.02860485340602753,
+  "raw_support": [
+    {
+      "time": 0.0,
+      "raw_offset_cm": -3.9102510519752003,
+      "support_vertex": 4207,
+      "support_groups": {
+        "foot_r": 1.0
+      },
+      "support_rest_cm": [
+        -17.292543411254883,
+        -10.728153228759766,
+        0.864727258682251
+      ]
+    },
+    {
+      "time": 0.03333333333333333,
+      "raw_offset_cm": -3.0777249969891156,
+      "support_vertex": 36411,
+      "support_groups": {
+        "foot_l": 1.0
+      },
+      "support_rest_cm": [
+        14.122594833374023,
+        -2.8222854137420654,
+        0.185585156083107
+      ]
+    },
+    {
+      "time": 0.06666666666666667,
+      "raw_offset_cm": -0.8739839577027858,
+      "support_vertex": 36404,
+      "support_groups": {
+        "foot_l": 1.0
+      },
+      "support_rest_cm": [
+        15.245017051696777,
+        -6.321793079376221,
+        0.04429273679852486
+      ]
+    },
+    {
+      "time": 0.1,
+      "raw_offset_cm": 0.09163123144027993,
+      "support_vertex": 36404,
+      "support_groups": {
+        "foot_l": 1.0
+      },
+      "support_rest_cm": [
+        15.245017051696777,
+        -6.321793079376221,
+        0.04429273679852486
+      ]
+    },
+    {
+      "time": 0.13333333333333333,
+      "raw_offset_cm": 0.16665571773162177,
+      "support_vertex": 36405,
+      "support_groups": {
+        "foot_l": 1.0
+      },
+      "support_rest_cm": [
+        17.537622451782227,
+        -9.649015426635742,
+        0.4659660756587982
+      ]
+    },
+    {
+      "time": 0.16666666666666666,
+      "raw_offset_cm": 0.12533819003007238,
+      "support_vertex": 36766,
+      "support_groups": {
+        "foot_l": 1.0
+      },
+      "support_rest_cm": [
+        18.786630630493164,
+        -11.147765159606934,
+        1.0371607542037964
+      ]
+    },
+    {
+      "time": 0.2,
+      "raw_offset_cm": -1.1340764781505288,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 0.23333333333333334,
+      "raw_offset_cm": 1.4050330974134613,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 0.26666666666666666,
+      "raw_offset_cm": 2.7024697836161553,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 0.3,
+      "raw_offset_cm": 4.537668470739828,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 0.3333333333333333,
+      "raw_offset_cm": 6.27497671030169,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 0.36666666666666664,
+      "raw_offset_cm": 10.807239511173757,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 0.4,
+      "raw_offset_cm": 12.671176942318015,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 0.43333333333333335,
+      "raw_offset_cm": 8.944145550799862,
+      "support_vertex": 30925,
+      "support_groups": {
+        "calf_l": 0.5285346508026123,
+        "pelvis": 0.4714653491973877
+      },
+      "support_rest_cm": [
+        12.3445405960083,
+        -12.593645095825195,
+        18.40483856201172
+      ]
+    },
+    {
+      "time": 0.4666666666666667,
+      "raw_offset_cm": 7.39932463724182,
+      "support_vertex": 30925,
+      "support_groups": {
+        "calf_l": 0.5285346508026123,
+        "pelvis": 0.4714653491973877
+      },
+      "support_rest_cm": [
+        12.3445405960083,
+        -12.593645095825195,
+        18.40483856201172
+      ]
+    },
+    {
+      "time": 0.5,
+      "raw_offset_cm": 9.365486498184774,
+      "support_vertex": 30925,
+      "support_groups": {
+        "calf_l": 0.5285346508026123,
+        "pelvis": 0.4714653491973877
+      },
+      "support_rest_cm": [
+        12.3445405960083,
+        -12.593645095825195,
+        18.40483856201172
+      ]
+    },
+    {
+      "time": 0.5333333333333333,
+      "raw_offset_cm": 11.851710465009626,
+      "support_vertex": 30925,
+      "support_groups": {
+        "calf_l": 0.5285346508026123,
+        "pelvis": 0.4714653491973877
+      },
+      "support_rest_cm": [
+        12.3445405960083,
+        -12.593645095825195,
+        18.40483856201172
+      ]
+    },
+    {
+      "time": 0.5666666666666667,
+      "raw_offset_cm": 15.55237976531248,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 0.6,
+      "raw_offset_cm": 16.94323649735819,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 0.6333333333333333,
+      "raw_offset_cm": 17.79221426159191,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 0.6666666666666666,
+      "raw_offset_cm": 18.006698177605184,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 0.7,
+      "raw_offset_cm": 17.69064159678718,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 0.7333333333333333,
+      "raw_offset_cm": 16.95192543143334,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 0.7666666666666667,
+      "raw_offset_cm": 15.779454220667601,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 0.8,
+      "raw_offset_cm": 14.594413768384944,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 0.8333333333333334,
+      "raw_offset_cm": 13.358654133121663,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 0.8666666666666667,
+      "raw_offset_cm": 12.518493098217235,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 0.9,
+      "raw_offset_cm": 11.073474066332631,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 0.9333333333333333,
+      "raw_offset_cm": 10.152903283297915,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 0.9666666666666667,
+      "raw_offset_cm": 9.105692501847729,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 1.0,
+      "raw_offset_cm": 10.294772077597388,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 1.0333333333333334,
+      "raw_offset_cm": 12.283988550074737,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 1.0666666666666667,
+      "raw_offset_cm": 15.3981513424073,
+      "support_vertex": 30868,
+      "support_groups": {
+        "calf_l": 0.5090003609657288,
+        "pelvis": 0.49099963903427124
+      },
+      "support_rest_cm": [
+        4.0873260498046875,
+        -14.012761116027832,
+        18.46999740600586
+      ]
+    },
+    {
+      "time": 1.1,
+      "raw_offset_cm": 16.347649631710006,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 1.1333333333333333,
+      "raw_offset_cm": 17.28891253585409,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 1.1666666666666667,
+      "raw_offset_cm": 15.90100411244463,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 1.2,
+      "raw_offset_cm": 16.502336033315046,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 1.2333333333333334,
+      "raw_offset_cm": 16.683299448773493,
+      "support_vertex": 30871,
+      "support_groups": {
+        "calf_l": 0.5006648898124695,
+        "pelvis": 0.4993351101875305
+      },
+      "support_rest_cm": [
+        5.748002529144287,
+        -13.70058822631836,
+        18.497783660888672
+      ]
+    },
+    {
+      "time": 1.2666666666666666,
+      "raw_offset_cm": 17.166998745932744,
+      "support_vertex": 30925,
+      "support_groups": {
+        "calf_l": 0.5285346508026123,
+        "pelvis": 0.4714653491973877
+      },
+      "support_rest_cm": [
+        12.3445405960083,
+        -12.593645095825195,
+        18.40483856201172
+      ]
+    },
+    {
+      "time": 1.3,
+      "raw_offset_cm": 16.26423100238438,
+      "support_vertex": 30925,
+      "support_groups": {
+        "calf_l": 0.5285346508026123,
+        "pelvis": 0.4714653491973877
+      },
+      "support_rest_cm": [
+        12.3445405960083,
+        -12.593645095825195,
+        18.40483856201172
+      ]
+    },
+    {
+      "time": 1.3333333333333333,
+      "raw_offset_cm": 10.46985052073874,
+      "support_vertex": 30925,
+      "support_groups": {
+        "calf_l": 0.5285346508026123,
+        "pelvis": 0.4714653491973877
+      },
+      "support_rest_cm": [
+        12.3445405960083,
+        -12.593645095825195,
+        18.40483856201172
+      ]
+    },
+    {
+      "time": 1.3666666666666667,
+      "raw_offset_cm": 0.01321537013165805,
+      "support_vertex": 30925,
+      "support_groups": {
+        "calf_l": 0.5285346508026123,
+        "pelvis": 0.4714653491973877
+      },
+      "support_rest_cm": [
+        12.3445405960083,
+        -12.593645095825195,
+        18.40483856201172
+      ]
+    },
+    {
+      "time": 1.4,
+      "raw_offset_cm": 0.5608649134433336,
+      "support_vertex": 37937,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        18.068613052368164,
+        -8.088144302368164,
+        82.93994903564453
+      ]
+    },
+    {
+      "time": 1.4333333333333333,
+      "raw_offset_cm": 5.0544741597184615,
+      "support_vertex": 37937,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        18.068613052368164,
+        -8.088144302368164,
+        82.93994903564453
+      ]
+    },
+    {
+      "time": 1.4666666666666666,
+      "raw_offset_cm": 8.84920365034318,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.5,
+      "raw_offset_cm": 10.917583436554787,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.5333333333333334,
+      "raw_offset_cm": 10.975335102879422,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.5666666666666667,
+      "raw_offset_cm": 11.03194067464417,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.6,
+      "raw_offset_cm": 11.088485426665352,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.6333333333333333,
+      "raw_offset_cm": 11.236928873494799,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.6666666666666667,
+      "raw_offset_cm": 11.498752197402291,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.7,
+      "raw_offset_cm": 11.50759932061228,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.7333333333333334,
+      "raw_offset_cm": 11.524566228686036,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.7666666666666666,
+      "raw_offset_cm": 11.548829976554908,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.8,
+      "raw_offset_cm": 11.579535664679293,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.8333333333333333,
+      "raw_offset_cm": 11.615807524429579,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.8666666666666667,
+      "raw_offset_cm": 11.656746609479706,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.9,
+      "raw_offset_cm": 11.701481631094817,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.9333333333333333,
+      "raw_offset_cm": 11.749138737912768,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 1.9666666666666666,
+      "raw_offset_cm": 11.798884282051654,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.0,
+      "raw_offset_cm": 11.849915679169522,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.033333333333333,
+      "raw_offset_cm": 11.901479667707145,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.066666666666667,
+      "raw_offset_cm": 11.95287186396322,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.1,
+      "raw_offset_cm": 12.003451418036457,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.1333333333333333,
+      "raw_offset_cm": 12.052627696743139,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.1666666666666665,
+      "raw_offset_cm": 12.09987780081101,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.2,
+      "raw_offset_cm": 12.144740489402261,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.2333333333333334,
+      "raw_offset_cm": 12.18681783577747,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.2666666666666666,
+      "raw_offset_cm": 12.225753810479683,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.3,
+      "raw_offset_cm": 12.261255893638259,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.3333333333333335,
+      "raw_offset_cm": 12.293071880805678,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.3666666666666667,
+      "raw_offset_cm": 12.320971425802577,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.4,
+      "raw_offset_cm": 12.344763393864492,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.433333333333333,
+      "raw_offset_cm": 12.364257589342083,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.466666666666667,
+      "raw_offset_cm": 12.37924781566826,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.5,
+      "raw_offset_cm": 12.389523284390998,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.533333333333333,
+      "raw_offset_cm": 12.39481335558312,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.566666666666667,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.6,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.6333333333333333,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.6666666666666665,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.7,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.7333333333333334,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.7666666666666666,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.8,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.8333333333333335,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.8666666666666667,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.9,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.933333333333333,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 2.966666666666667,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 3.0,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 3.033333333333333,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 3.066666666666667,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 3.1,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 3.1333333333333333,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 3.1666666666666665,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 3.2,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 3.2333333333333334,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 3.2666666666666666,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    },
+    {
+      "time": 3.3,
+      "raw_offset_cm": 12.395491380697559,
+      "support_vertex": 35717,
+      "support_groups": {
+        "pelvis": 1.0
+      },
+      "support_rest_cm": [
+        10.06943130493164,
+        -18.25933837890625,
+        82.15298461914062
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "time": 0.0,
+      "root_floor_cm": -2.898401352285011,
+      "left_hand_min_cm": 84.24173929490644,
+      "right_hand_min_cm": 83.10478814024627,
+      "left_forearm_min_cm": 91.30490124891493,
+      "right_forearm_min_cm": 87.34756087579466,
+      "sword_mesh_min_cm": 79.31531626524014,
+      "whole_skin_min_cm": 1.1618593283423877,
+      "sole_l_min_cm": 1.6785200815366466,
+      "sole_r_min_cm": 1.1618593283423877,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 1.1618593283423877,
+      "left_boot_min_cm": 1.6785200815366466,
+      "head_skin_min_cm": 99.78992624759873,
+      "face_skin_min_cm": 118.34568648911235,
+      "head_bone_z_cm": 125.53565216064453,
+      "right_boot_max_cm": 22.76890243227396,
+      "sword_mesh_max_cm": 116.3240753519897
+    },
+    {
+      "time": 0.03333333333333333,
+      "root_floor_cm": -1.8798685943708349,
+      "left_hand_min_cm": 82.05377495782078,
+      "right_hand_min_cm": 90.86364664245332,
+      "left_forearm_min_cm": 91.17806992258271,
+      "right_forearm_min_cm": 90.21357191495551,
+      "sword_mesh_min_cm": 86.16897600800813,
+      "whole_skin_min_cm": 1.3478575624874676,
+      "sole_l_min_cm": 1.3478575624874676,
+      "sole_r_min_cm": 6.049342424856775,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 6.049342424856775,
+      "left_boot_min_cm": 1.3478575624874676,
+      "head_skin_min_cm": 99.68470092856836,
+      "face_skin_min_cm": 118.48900980579035,
+      "head_bone_z_cm": 125.53889465332031,
+      "right_boot_max_cm": 29.110429510876443,
+      "sword_mesh_max_cm": 133.00843725656387
+    },
+    {
+      "time": 0.06666666666666667,
+      "root_floor_cm": -0.8739839577027858,
+      "left_hand_min_cm": 80.76888876790109,
+      "right_hand_min_cm": 97.69623831441424,
+      "left_forearm_min_cm": 91.68531169164666,
+      "right_forearm_min_cm": 92.92201087242515,
+      "sword_mesh_min_cm": 92.6541110267991,
+      "whole_skin_min_cm": 0.14999866717544208,
+      "sole_l_min_cm": 0.14999866717544208,
+      "sole_r_min_cm": 13.31493027778896,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 13.31493027778896,
+      "left_boot_min_cm": 0.14999866717544208,
+      "head_skin_min_cm": 99.49792532484048,
+      "face_skin_min_cm": 118.50576894233255,
+      "head_bone_z_cm": 125.45751190185547,
+      "right_boot_max_cm": 35.1300308227346,
+      "sword_mesh_max_cm": 144.93310204456265
+    },
+    {
+      "time": 0.1,
+      "root_floor_cm": 0.09163123144027993,
+      "left_hand_min_cm": 78.15986044640631,
+      "right_hand_min_cm": 100.62431144467303,
+      "left_forearm_min_cm": 89.0410127703543,
+      "right_forearm_min_cm": 92.78629665178836,
+      "sword_mesh_min_cm": 95.17150125603133,
+      "whole_skin_min_cm": 0.14999779688003256,
+      "sole_l_min_cm": 0.14999779688003256,
+      "sole_r_min_cm": 15.04077135866575,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 15.04077135866575,
+      "left_boot_min_cm": 0.14999779688003256,
+      "head_skin_min_cm": 97.8587670588995,
+      "face_skin_min_cm": 118.12612139535199,
+      "head_bone_z_cm": 124.87503051757812,
+      "right_boot_max_cm": 36.30190243632509,
+      "sword_mesh_max_cm": 154.23732121373743
+    },
+    {
+      "time": 0.13333333333333333,
+      "root_floor_cm": 1.038583558284713,
+      "left_hand_min_cm": 75.03623282322255,
+      "right_hand_min_cm": 103.20901375015764,
+      "left_forearm_min_cm": 85.87502836874789,
+      "right_forearm_min_cm": 92.62271176838799,
+      "sword_mesh_min_cm": 97.59047059963981,
+      "whole_skin_min_cm": 1.0219261900175542,
+      "sole_l_min_cm": 1.0219261900175542,
+      "sole_r_min_cm": 16.566401682007438,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 16.566401682007438,
+      "left_boot_min_cm": 1.0219261900175542,
+      "head_skin_min_cm": 96.03643451985172,
+      "face_skin_min_cm": 117.48825076838628,
+      "head_bone_z_cm": 123.98167419433594,
+      "right_boot_max_cm": 37.297921555271444,
+      "sword_mesh_max_cm": 161.19416229444266
+    },
+    {
+      "time": 0.16666666666666666,
+      "root_floor_cm": 2.0527884116569384,
+      "left_hand_min_cm": 70.96095500071571,
+      "right_hand_min_cm": 100.0458277522619,
+      "left_forearm_min_cm": 80.76991861197854,
+      "right_forearm_min_cm": 87.59563053520426,
+      "sword_mesh_min_cm": 95.02247614683193,
+      "whole_skin_min_cm": 2.0774495907316464,
+      "sole_l_min_cm": 2.0774495907316464,
+      "sole_r_min_cm": 14.079061957077982,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 14.079061957077982,
+      "left_boot_min_cm": 2.0774495907316464,
+      "head_skin_min_cm": 93.86295893392986,
+      "face_skin_min_cm": 116.86408767077435,
+      "head_bone_z_cm": 122.76579284667969,
+      "right_boot_max_cm": 35.129782463141034,
+      "sword_mesh_max_cm": 160.66642915835345
+    },
+    {
+      "time": 0.2,
+      "root_floor_cm": 3.209262082376467,
+      "left_hand_min_cm": 69.03498844414706,
+      "right_hand_min_cm": 97.58220343196274,
+      "left_forearm_min_cm": 77.29143810133878,
+      "right_forearm_min_cm": 83.3698467075808,
+      "sword_mesh_min_cm": 93.48765302073167,
+      "whole_skin_min_cm": 4.493342898037899,
+      "sole_l_min_cm": 5.477631362250932,
+      "sole_r_min_cm": 12.550705817938137,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 12.550705817938137,
+      "left_boot_min_cm": 5.477631362250932,
+      "head_skin_min_cm": 91.85271498357315,
+      "face_skin_min_cm": 115.92864895474177,
+      "head_bone_z_cm": 121.13605499267578,
+      "right_boot_max_cm": 35.091380418601744,
+      "sword_mesh_max_cm": 160.16732964371306
+    },
+    {
+      "time": 0.23333333333333334,
+      "root_floor_cm": 4.558927733492474,
+      "left_hand_min_cm": 67.69304622856686,
+      "right_hand_min_cm": 93.6328583162067,
+      "left_forearm_min_cm": 74.23982661102706,
+      "right_forearm_min_cm": 79.08027634766805,
+      "sword_mesh_min_cm": 90.08552110095371,
+      "whole_skin_min_cm": 3.303894472930934,
+      "sole_l_min_cm": 6.229680803631673,
+      "sole_r_min_cm": 9.264059789814269,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 9.264059789814269,
+      "left_boot_min_cm": 6.229680803631673,
+      "head_skin_min_cm": 90.17841978197376,
+      "face_skin_min_cm": 114.67946827776959,
+      "head_bone_z_cm": 119.41036987304688,
+      "right_boot_max_cm": 32.09163462083008,
+      "sword_mesh_max_cm": 157.01471837588747
+    },
+    {
+      "time": 0.26666666666666666,
+      "root_floor_cm": 6.098416796047533,
+      "left_hand_min_cm": 68.6022790821288,
+      "right_hand_min_cm": 90.21041945741248,
+      "left_forearm_min_cm": 72.81293268859704,
+      "right_forearm_min_cm": 75.38395394181423,
+      "sword_mesh_min_cm": 87.23982599092267,
+      "whole_skin_min_cm": 3.545951347519255,
+      "sole_l_min_cm": 9.534569975491877,
+      "sole_r_min_cm": 10.283763043890502,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 10.283763043890502,
+      "left_boot_min_cm": 9.534569975491877,
+      "head_skin_min_cm": 88.68435836440364,
+      "face_skin_min_cm": 113.29065765048715,
+      "head_bone_z_cm": 117.64628601074219,
+      "right_boot_max_cm": 33.44325717005415,
+      "sword_mesh_max_cm": 154.31159386724215
+    },
+    {
+      "time": 0.3,
+      "root_floor_cm": 7.784937018133238,
+      "left_hand_min_cm": 75.43345107468656,
+      "right_hand_min_cm": 85.22611255974164,
+      "left_forearm_min_cm": 74.28407725501539,
+      "right_forearm_min_cm": 71.05714233888504,
+      "sword_mesh_min_cm": 82.87872547718187,
+      "whole_skin_min_cm": 3.3972693891098924,
+      "sole_l_min_cm": 12.963725406144619,
+      "sole_r_min_cm": 11.576209245597795,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 11.576209245597795,
+      "left_boot_min_cm": 12.963725406144619,
+      "head_skin_min_cm": 86.68929367504248,
+      "face_skin_min_cm": 111.28231299227359,
+      "head_bone_z_cm": 115.69612121582031,
+      "right_boot_max_cm": 35.779140950592335,
+      "sword_mesh_max_cm": 149.91429636456053
+    },
+    {
+      "time": 0.3333333333333333,
+      "root_floor_cm": 9.533246810185785,
+      "left_hand_min_cm": 82.07484176327432,
+      "right_hand_min_cm": 80.16717152622134,
+      "left_forearm_min_cm": 77.21994143214414,
+      "right_forearm_min_cm": 66.56743099653357,
+      "sword_mesh_min_cm": 78.18670218781126,
+      "whole_skin_min_cm": 3.4082664690196003,
+      "sole_l_min_cm": 17.408105260290792,
+      "sole_r_min_cm": 13.403061185354005,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 13.403061185354005,
+      "left_boot_min_cm": 17.408105260290792,
+      "head_skin_min_cm": 84.32644014487194,
+      "face_skin_min_cm": 108.73361160922178,
+      "head_bone_z_cm": 113.35956573486328,
+      "right_boot_max_cm": 38.27685092899523,
+      "sword_mesh_max_cm": 144.65724377906432
+    },
+    {
+      "time": 0.36666666666666664,
+      "root_floor_cm": 11.217513725798964,
+      "left_hand_min_cm": 95.84076317042518,
+      "right_hand_min_cm": 73.976624576012,
+      "left_forearm_min_cm": 85.88754761867415,
+      "right_forearm_min_cm": 61.630243194181446,
+      "sword_mesh_min_cm": 71.34396879836201,
+      "whole_skin_min_cm": 0.5602735745060405,
+      "sole_l_min_cm": 19.25430469785304,
+      "sole_r_min_cm": 15.225675441083908,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 15.225675441083908,
+      "left_boot_min_cm": 19.25430469785304,
+      "head_skin_min_cm": 80.43459628842228,
+      "face_skin_min_cm": 104.30912250828924,
+      "head_bone_z_cm": 109.40149688720703,
+      "right_boot_max_cm": 40.409869972460925,
+      "sword_mesh_max_cm": 137.94850550258786
+    },
+    {
+      "time": 0.4,
+      "root_floor_cm": 12.671176942318015,
+      "left_hand_min_cm": 108.21005498066117,
+      "right_hand_min_cm": 68.91242427818871,
+      "left_forearm_min_cm": 92.11464279877062,
+      "right_forearm_min_cm": 59.270801178602085,
+      "sword_mesh_min_cm": 64.64645341817618,
+      "whole_skin_min_cm": 0.14999853820498998,
+      "sole_l_min_cm": 21.423407192820548,
+      "sole_r_min_cm": 17.609276778691452,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 17.609276778691452,
+      "left_boot_min_cm": 21.34270573066823,
+      "head_skin_min_cm": 79.10059010719633,
+      "face_skin_min_cm": 102.65496138750655,
+      "head_bone_z_cm": 107.78455352783203,
+      "right_boot_max_cm": 42.99432101879039,
+      "sword_mesh_max_cm": 131.97488505292466
+    },
+    {
+      "time": 0.43333333333333335,
+      "root_floor_cm": 13.722547209405366,
+      "left_hand_min_cm": 104.91020150878714,
+      "right_hand_min_cm": 72.40540246864752,
+      "left_forearm_min_cm": 88.42212750900143,
+      "right_forearm_min_cm": 65.48451804149333,
+      "sword_mesh_min_cm": 67.2030122370092,
+      "whole_skin_min_cm": 4.155892064658868,
+      "sole_l_min_cm": 22.41635553521658,
+      "sole_r_min_cm": 23.581988390880106,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 23.581988390880106,
+      "left_boot_min_cm": 22.326612621322766,
+      "head_skin_min_cm": 86.28978171552426,
+      "face_skin_min_cm": 109.78587880204672,
+      "head_bone_z_cm": 113.61407470703125,
+      "right_boot_max_cm": 48.825389177280016,
+      "sword_mesh_max_cm": 123.88016988793046
+    },
+    {
+      "time": 0.4666666666666667,
+      "root_floor_cm": 14.571351786912935,
+      "left_hand_min_cm": 100.4464416859757,
+      "right_hand_min_cm": 75.65821038736078,
+      "left_forearm_min_cm": 83.69881730413432,
+      "right_forearm_min_cm": 71.19979068781848,
+      "sword_mesh_min_cm": 72.16649188022454,
+      "whole_skin_min_cm": 5.959620518832642,
+      "sole_l_min_cm": 22.9559517950657,
+      "sole_r_min_cm": 29.83586159433784,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 29.83586159433784,
+      "left_boot_min_cm": 22.877920977179244,
+      "head_skin_min_cm": 92.02369844741746,
+      "face_skin_min_cm": 113.96151169106645,
+      "head_bone_z_cm": 117.96408081054688,
+      "right_boot_max_cm": 54.490186212449295,
+      "sword_mesh_max_cm": 110.94907249375407
+    },
+    {
+      "time": 0.5,
+      "root_floor_cm": 15.357587913960066,
+      "left_hand_min_cm": 94.42160170088722,
+      "right_hand_min_cm": 76.66410064691387,
+      "left_forearm_min_cm": 78.8253866111181,
+      "right_forearm_min_cm": 74.39238178997573,
+      "sword_mesh_min_cm": 75.59838391972555,
+      "whole_skin_min_cm": 6.142100525748546,
+      "sole_l_min_cm": 24.188765889366437,
+      "sole_r_min_cm": 29.93460202121895,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 29.93460202121895,
+      "left_boot_min_cm": 24.105695372836635,
+      "head_skin_min_cm": 94.18108030902468,
+      "face_skin_min_cm": 115.68348598781246,
+      "head_bone_z_cm": 120.28079223632812,
+      "right_boot_max_cm": 51.24623660362903,
+      "sword_mesh_max_cm": 89.98442307624633
+    },
+    {
+      "time": 0.5333333333333333,
+      "root_floor_cm": 16.1316024902952,
+      "left_hand_min_cm": 90.12720427894772,
+      "right_hand_min_cm": 80.26291781413805,
+      "left_forearm_min_cm": 75.94632512506892,
+      "right_forearm_min_cm": 75.47934249179832,
+      "sword_mesh_min_cm": 78.26525048616384,
+      "whole_skin_min_cm": 4.429896590654438,
+      "sole_l_min_cm": 25.101160376571258,
+      "sole_r_min_cm": 29.69599548527958,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 29.69599548527958,
+      "left_boot_min_cm": 25.026717735835817,
+      "head_skin_min_cm": 93.91184286015198,
+      "face_skin_min_cm": 115.82933871289879,
+      "head_bone_z_cm": 120.64228057861328,
+      "right_boot_max_cm": 47.10663731166417,
+      "sword_mesh_max_cm": 99.07806927779863
+    },
+    {
+      "time": 0.5666666666666667,
+      "root_floor_cm": 16.868841147969594,
+      "left_hand_min_cm": 83.8559478325858,
+      "right_hand_min_cm": 87.49421153961258,
+      "left_forearm_min_cm": 72.84903400766964,
+      "right_forearm_min_cm": 72.98589456872205,
+      "sword_mesh_min_cm": 81.77674662379778,
+      "whole_skin_min_cm": 1.4664599760747823,
+      "sole_l_min_cm": 26.641451371367005,
+      "sole_r_min_cm": 28.836399767330022,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 28.825354899547847,
+      "left_boot_min_cm": 26.564482617064577,
+      "head_skin_min_cm": 90.31929578671311,
+      "face_skin_min_cm": 113.62174176350779,
+      "head_bone_z_cm": 117.99470520019531,
+      "right_boot_max_cm": 44.654452603890206,
+      "sword_mesh_max_cm": 145.78062733682805
+    },
+    {
+      "time": 0.6,
+      "root_floor_cm": 17.491250868718417,
+      "left_hand_min_cm": 78.02807878619696,
+      "right_hand_min_cm": 90.78486488944675,
+      "left_forearm_min_cm": 69.96220012844384,
+      "right_forearm_min_cm": 72.66698341593975,
+      "sword_mesh_min_cm": 87.85055181261812,
+      "whole_skin_min_cm": 0.6980125871144676,
+      "sole_l_min_cm": 28.642949988466754,
+      "sole_r_min_cm": 28.554756747357345,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 27.834982034631235,
+      "left_boot_min_cm": 28.572509737732375,
+      "head_skin_min_cm": 87.14344263090541,
+      "face_skin_min_cm": 110.91470142768672,
+      "head_bone_z_cm": 115.39128875732422,
+      "right_boot_max_cm": 43.253653381652626,
+      "sword_mesh_max_cm": 160.57681631116185
+    },
+    {
+      "time": 0.6333333333333333,
+      "root_floor_cm": 17.90432286699363,
+      "left_hand_min_cm": 75.33684649187813,
+      "right_hand_min_cm": 95.13900567831217,
+      "left_forearm_min_cm": 67.4959047705059,
+      "right_forearm_min_cm": 77.32149711408995,
+      "sword_mesh_min_cm": 95.3135338701073,
+      "whole_skin_min_cm": 0.2621093162889494,
+      "sole_l_min_cm": 29.606676746704977,
+      "sole_r_min_cm": 28.561294100748313,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 27.722230780477332,
+      "left_boot_min_cm": 29.53913034748558,
+      "head_skin_min_cm": 85.36626477906808,
+      "face_skin_min_cm": 109.29856605661423,
+      "head_bone_z_cm": 113.75150299072266,
+      "right_boot_max_cm": 43.17094562439411,
+      "sword_mesh_max_cm": 160.71660712846457
+    },
+    {
+      "time": 0.6666666666666666,
+      "root_floor_cm": 18.006698177605184,
+      "left_hand_min_cm": 72.93075364251075,
+      "right_hand_min_cm": 100.186354683207,
+      "left_forearm_min_cm": 65.23583726273246,
+      "right_forearm_min_cm": 83.11547231831469,
+      "sword_mesh_min_cm": 101.49127542762008,
+      "whole_skin_min_cm": 0.14999945995210862,
+      "sole_l_min_cm": 30.164359356913025,
+      "sole_r_min_cm": 28.81201971510069,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 27.856653212568784,
+      "left_boot_min_cm": 30.100934892610354,
+      "head_skin_min_cm": 84.91941493478888,
+      "face_skin_min_cm": 108.22097648947508,
+      "head_bone_z_cm": 113.1752700805664,
+      "right_boot_max_cm": 43.31663104284486,
+      "sword_mesh_max_cm": 161.2752437464191
+    },
+    {
+      "time": 0.7,
+      "root_floor_cm": 17.695616477795514,
+      "left_hand_min_cm": 71.80582783176146,
+      "right_hand_min_cm": 105.3472441187811,
+      "left_forearm_min_cm": 64.16396556581951,
+      "right_forearm_min_cm": 88.87581723138047,
+      "sword_mesh_min_cm": 105.46883956061862,
+      "whole_skin_min_cm": 0.15497178682555912,
+      "sole_l_min_cm": 29.605086196375794,
+      "sole_r_min_cm": 28.705812171332383,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 27.73451374129339,
+      "left_boot_min_cm": 29.520915846940113,
+      "head_skin_min_cm": 85.8608525322157,
+      "face_skin_min_cm": 107.9809230807725,
+      "head_bone_z_cm": 113.56877899169922,
+      "right_boot_max_cm": 43.20951288642108,
+      "sword_mesh_max_cm": 165.65365276348632
+    },
+    {
+      "time": 0.7333333333333333,
+      "root_floor_cm": 17.088263782433287,
+      "left_hand_min_cm": 70.3124567833137,
+      "right_hand_min_cm": 114.31625257146969,
+      "left_forearm_min_cm": 63.86095212540622,
+      "right_forearm_min_cm": 95.49762760648255,
+      "sword_mesh_min_cm": 113.50609048839272,
+      "whole_skin_min_cm": 0.2863395113699365,
+      "sole_l_min_cm": 28.599208375892886,
+      "sole_r_min_cm": 28.39411116864889,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 27.416122907519537,
+      "left_boot_min_cm": 28.457005680897282,
+      "head_skin_min_cm": 86.20214316012937,
+      "face_skin_min_cm": 107.17129725609,
+      "head_bone_z_cm": 113.42790222167969,
+      "right_boot_max_cm": 42.90144034695386,
+      "sword_mesh_max_cm": 175.49590810548435
+    },
+    {
+      "time": 0.7666666666666667,
+      "root_floor_cm": 16.301763920374576,
+      "left_hand_min_cm": 68.66915995677036,
+      "right_hand_min_cm": 126.66753303759953,
+      "left_forearm_min_cm": 64.04030672336108,
+      "right_forearm_min_cm": 104.10690771780018,
+      "sword_mesh_min_cm": 125.53806737427405,
+      "whole_skin_min_cm": 0.6723112212269315,
+      "sole_l_min_cm": 27.218494183870206,
+      "sole_r_min_cm": 27.882605462329735,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 26.902826634574886,
+      "left_boot_min_cm": 27.04296007853236,
+      "head_skin_min_cm": 86.21740095474098,
+      "face_skin_min_cm": 105.9553816123297,
+      "head_bone_z_cm": 112.87523651123047,
+      "right_boot_max_cm": 42.392505100570446,
+      "sword_mesh_max_cm": 190.28176751189386
+    },
+    {
+      "time": 0.8,
+      "root_floor_cm": 15.451536491087953,
+      "left_hand_min_cm": 66.6450098401595,
+      "right_hand_min_cm": 136.92345251115842,
+      "left_forearm_min_cm": 64.29082097576243,
+      "right_forearm_min_cm": 115.0624006639082,
+      "sword_mesh_min_cm": 136.37340833558972,
+      "whole_skin_min_cm": 1.0071247950238016,
+      "sole_l_min_cm": 25.722202217061835,
+      "sole_r_min_cm": 27.2258597327222,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 26.23186858057151,
+      "left_boot_min_cm": 25.527183511937665,
+      "head_skin_min_cm": 85.78877914276434,
+      "face_skin_min_cm": 104.79740328628219,
+      "head_bone_z_cm": 112.06822967529297,
+      "right_boot_max_cm": 41.734560665426145,
+      "sword_mesh_max_cm": 199.6844223059427
+    },
+    {
+      "time": 0.8333333333333334,
+      "root_floor_cm": 14.646472222795644,
+      "left_hand_min_cm": 64.34501843252876,
+      "right_hand_min_cm": 146.10361299186027,
+      "left_forearm_min_cm": 63.94057198163381,
+      "right_forearm_min_cm": 128.472859508546,
+      "sword_mesh_min_cm": 146.92102032284026,
+      "whole_skin_min_cm": 1.43781879778654,
+      "sole_l_min_cm": 24.471229044058333,
+      "sole_r_min_cm": 26.53998044040233,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 25.52881462620149,
+      "left_boot_min_cm": 24.268021968938797,
+      "head_skin_min_cm": 85.01258193551405,
+      "face_skin_min_cm": 103.58513956916306,
+      "head_bone_z_cm": 111.07962036132812,
+      "right_boot_max_cm": 41.053146156711236,
+      "sword_mesh_max_cm": 203.34985640514589
+    },
+    {
+      "time": 0.8666666666666667,
+      "root_floor_cm": 13.984747809686084,
+      "left_hand_min_cm": 62.77481978786521,
+      "right_hand_min_cm": 149.0522527686362,
+      "left_forearm_min_cm": 62.91174455955594,
+      "right_forearm_min_cm": 132.57304734171805,
+      "sword_mesh_min_cm": 153.3731336037938,
+      "whole_skin_min_cm": 1.6162545509730348,
+      "sole_l_min_cm": 22.823436674801968,
+      "sole_r_min_cm": 25.862294462692176,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 24.808156812366917,
+      "left_boot_min_cm": 22.617100330401428,
+      "head_skin_min_cm": 83.63337963223431,
+      "face_skin_min_cm": 101.8500120915231,
+      "head_bone_z_cm": 109.6881332397461,
+      "right_boot_max_cm": 40.36181043808264,
+      "sword_mesh_max_cm": 185.76059032534565
+    },
+    {
+      "time": 0.9,
+      "root_floor_cm": 13.548442219826788,
+      "left_hand_min_cm": 60.99168423899264,
+      "right_hand_min_cm": 147.31736299231193,
+      "left_forearm_min_cm": 61.47801940207363,
+      "right_forearm_min_cm": 131.6718450611225,
+      "sword_mesh_min_cm": 150.70414204965581,
+      "whole_skin_min_cm": 2.624964265749072,
+      "sole_l_min_cm": 21.991660592618274,
+      "sole_r_min_cm": 25.30816760188287,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 24.21773629798612,
+      "left_boot_min_cm": 21.785724781915036,
+      "head_skin_min_cm": 81.94334201127006,
+      "face_skin_min_cm": 99.55070949575546,
+      "head_bone_z_cm": 107.7955551147461,
+      "right_boot_max_cm": 39.81349046216319,
+      "sword_mesh_max_cm": 161.00371305010108
+    },
+    {
+      "time": 0.9333333333333333,
+      "root_floor_cm": 13.401306237391907,
+      "left_hand_min_cm": 58.55182867276333,
+      "right_hand_min_cm": 147.3382780334615,
+      "left_forearm_min_cm": 60.05572858655363,
+      "right_forearm_min_cm": 134.49095008151377,
+      "sword_mesh_min_cm": 125.96366895866217,
+      "whole_skin_min_cm": 3.3984021752486315,
+      "sole_l_min_cm": 21.561643424659138,
+      "sole_r_min_cm": 24.98321771055498,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 23.84464897931487,
+      "left_boot_min_cm": 21.35437132467885,
+      "head_skin_min_cm": 82.0843663593198,
+      "face_skin_min_cm": 99.35215280264448,
+      "head_bone_z_cm": 108.0157699584961,
+      "right_boot_max_cm": 39.47043078841365,
+      "sword_mesh_max_cm": 162.21127984933256
+    },
+    {
+      "time": 0.9666666666666667,
+      "root_floor_cm": 13.57615354463692,
+      "left_hand_min_cm": 57.277650775999675,
+      "right_hand_min_cm": 148.91822913056177,
+      "left_forearm_min_cm": 58.901756315060425,
+      "right_forearm_min_cm": 137.33875360207836,
+      "sword_mesh_min_cm": 110.34553105149314,
+      "whole_skin_min_cm": 4.620464148696861,
+      "sole_l_min_cm": 21.612570228737155,
+      "sole_r_min_cm": 24.90690365990912,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 23.74906992269821,
+      "left_boot_min_cm": 21.406150533039522,
+      "head_skin_min_cm": 84.4057189719112,
+      "face_skin_min_cm": 100.39786629427768,
+      "head_bone_z_cm": 109.95488739013672,
+      "right_boot_max_cm": 39.40996331622206,
+      "sword_mesh_max_cm": 165.27218330012101
+    },
+    {
+      "time": 1.0,
+      "root_floor_cm": 14.065192786891133,
+      "left_hand_min_cm": 60.69472207571484,
+      "right_hand_min_cm": 152.15848082903182,
+      "left_forearm_min_cm": 62.88157816780886,
+      "right_forearm_min_cm": 136.94651836687765,
+      "sword_mesh_min_cm": 121.43104475084252,
+      "whole_skin_min_cm": 3.9204213757160815,
+      "sole_l_min_cm": 22.038910283340215,
+      "sole_r_min_cm": 25.162407156288708,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 24.029916176398356,
+      "left_boot_min_cm": 21.833746765964804,
+      "head_skin_min_cm": 89.2397423590171,
+      "face_skin_min_cm": 104.51947471102001,
+      "head_bone_z_cm": 114.45703887939453,
+      "right_boot_max_cm": 39.70083354666515,
+      "sword_mesh_max_cm": 167.3607630698348
+    },
+    {
+      "time": 1.0333333333333334,
+      "root_floor_cm": 14.804751846448982,
+      "left_hand_min_cm": 67.20327151083977,
+      "right_hand_min_cm": 152.11216351345146,
+      "left_forearm_min_cm": 69.48570438484376,
+      "right_forearm_min_cm": 133.26083193598322,
+      "sword_mesh_min_cm": 138.3685871135202,
+      "whole_skin_min_cm": 2.6707587715300853,
+      "sole_l_min_cm": 22.46525171009148,
+      "sole_r_min_cm": 26.05032180255128,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 24.923539415007447,
+      "left_boot_min_cm": 22.259464891351485,
+      "head_skin_min_cm": 94.6654665557042,
+      "face_skin_min_cm": 109.28737818237614,
+      "head_bone_z_cm": 118.89744567871094,
+      "right_boot_max_cm": 40.58194074869189,
+      "sword_mesh_max_cm": 165.04106771197007
+    },
+    {
+      "time": 1.0666666666666667,
+      "root_floor_cm": 15.684028346738735,
+      "left_hand_min_cm": 82.56997439139411,
+      "right_hand_min_cm": 147.19619848667708,
+      "left_forearm_min_cm": 85.1025247469366,
+      "right_forearm_min_cm": 120.45169152349126,
+      "sword_mesh_min_cm": 151.10721195313565,
+      "whole_skin_min_cm": 0.4358789133856762,
+      "sole_l_min_cm": 21.34887003243412,
+      "sole_r_min_cm": 26.073205297569615,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 25.18241527969213,
+      "left_boot_min_cm": 21.156523940661202,
+      "head_skin_min_cm": 98.32240410528135,
+      "face_skin_min_cm": 114.26384383293106,
+      "head_bone_z_cm": 122.0875473022461,
+      "right_boot_max_cm": 40.84381198919472,
+      "sword_mesh_max_cm": 172.20347177204286
+    },
+    {
+      "time": 1.1,
+      "root_floor_cm": 16.560710369983962,
+      "left_hand_min_cm": 98.58992946139853,
+      "right_hand_min_cm": 112.69764665763148,
+      "left_forearm_min_cm": 91.50853600474319,
+      "right_forearm_min_cm": 102.61616527283572,
+      "sword_mesh_min_cm": 111.40357560330732,
+      "whole_skin_min_cm": 0.36305698310390255,
+      "sole_l_min_cm": 22.303490947762526,
+      "sole_r_min_cm": 28.226407349208046,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 27.28692921109174,
+      "left_boot_min_cm": 22.102399864710264,
+      "head_skin_min_cm": 97.70627349395895,
+      "face_skin_min_cm": 114.53470834523571,
+      "head_bone_z_cm": 123.14799499511719,
+      "right_boot_max_cm": 42.84621589431822,
+      "sword_mesh_max_cm": 176.8813778469977
+    },
+    {
+      "time": 1.1333333333333333,
+      "root_floor_cm": 17.28891253585409,
+      "left_hand_min_cm": 122.42116699812547,
+      "right_hand_min_cm": 86.38520223316718,
+      "left_forearm_min_cm": 99.43347387292829,
+      "right_forearm_min_cm": 80.95896287152453,
+      "sword_mesh_min_cm": 82.55561064999898,
+      "whole_skin_min_cm": 0.15000262336628545,
+      "sole_l_min_cm": 22.921484746274302,
+      "sole_r_min_cm": 28.457408924962095,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 26.656378339486103,
+      "left_boot_min_cm": 22.710183576632573,
+      "head_skin_min_cm": 94.58404648058075,
+      "face_skin_min_cm": 110.45525908568797,
+      "head_bone_z_cm": 119.20122528076172,
+      "right_boot_max_cm": 41.84176023359261,
+      "sword_mesh_max_cm": 161.68738810241183
+    },
+    {
+      "time": 1.1666666666666667,
+      "root_floor_cm": 17.720086204790135,
+      "left_hand_min_cm": 138.60748383842378,
+      "right_hand_min_cm": 62.291255531407955,
+      "left_forearm_min_cm": 111.54656984183109,
+      "right_forearm_min_cm": 57.43229641839922,
+      "sword_mesh_min_cm": 56.143171359571326,
+      "whole_skin_min_cm": 1.9690800741194936,
+      "sole_l_min_cm": 23.391312194749247,
+      "sole_r_min_cm": 29.03954536504051,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 26.13382289318598,
+      "left_boot_min_cm": 23.183296051981273,
+      "head_skin_min_cm": 86.29926372819621,
+      "face_skin_min_cm": 100.86171967463429,
+      "head_bone_z_cm": 109.46456146240234,
+      "right_boot_max_cm": 40.78303752579167,
+      "sword_mesh_max_cm": 137.10894019110737
+    },
+    {
+      "time": 1.2,
+      "root_floor_cm": 17.859107331358402,
+      "left_hand_min_cm": 133.11271500183904,
+      "right_hand_min_cm": 58.41977416838123,
+      "left_forearm_min_cm": 110.63246088697844,
+      "right_forearm_min_cm": 54.23866084538386,
+      "sword_mesh_min_cm": 52.22823294323307,
+      "whole_skin_min_cm": 1.5067743226962351,
+      "sole_l_min_cm": 23.080541028553085,
+      "sole_r_min_cm": 31.325341957527343,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 29.458572791127377,
+      "left_boot_min_cm": 22.875316867916467,
+      "head_skin_min_cm": 85.68848936708572,
+      "face_skin_min_cm": 98.6208631055916,
+      "head_bone_z_cm": 107.34660339355469,
+      "right_boot_max_cm": 44.55007386747593,
+      "sword_mesh_max_cm": 132.82116111108735
+    },
+    {
+      "time": 1.2333333333333334,
+      "root_floor_cm": 17.688113343970887,
+      "left_hand_min_cm": 116.39431909397283,
+      "right_hand_min_cm": 57.66946100950839,
+      "left_forearm_min_cm": 100.30071904620318,
+      "right_forearm_min_cm": 55.04846305530433,
+      "sword_mesh_min_cm": 51.45715324352613,
+      "whole_skin_min_cm": 1.1548151924211645,
+      "sole_l_min_cm": 23.56399116926579,
+      "sole_r_min_cm": 33.716143480429565,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 33.13129350150474,
+      "left_boot_min_cm": 23.357462197205137,
+      "head_skin_min_cm": 85.84086212974572,
+      "face_skin_min_cm": 97.39357627909911,
+      "head_bone_z_cm": 106.1375732421875,
+      "right_boot_max_cm": 48.35934953264885,
+      "sword_mesh_max_cm": 131.61911252667676
+    },
+    {
+      "time": 1.2666666666666666,
+      "root_floor_cm": 17.172282029814046,
+      "left_hand_min_cm": 101.08934364209148,
+      "right_hand_min_cm": 56.24081777924846,
+      "left_forearm_min_cm": 87.03754122690661,
+      "right_forearm_min_cm": 56.381243609541166,
+      "sword_mesh_min_cm": 50.02538498916891,
+      "whole_skin_min_cm": 0.1552815112261987,
+      "sole_l_min_cm": 22.859864583293955,
+      "sole_r_min_cm": 34.53854508565817,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 34.53854508565817,
+      "left_boot_min_cm": 22.654221038652395,
+      "head_skin_min_cm": 84.99214453987034,
+      "face_skin_min_cm": 96.43853187950567,
+      "head_bone_z_cm": 104.84911346435547,
+      "right_boot_max_cm": 49.86218432487861,
+      "sword_mesh_max_cm": 130.2147515763713
+    },
+    {
+      "time": 1.3,
+      "root_floor_cm": 16.26423100238438,
+      "left_hand_min_cm": 81.21415086108595,
+      "right_hand_min_cm": 55.30632367092253,
+      "left_forearm_min_cm": 73.26866156021573,
+      "right_forearm_min_cm": 55.64869892344362,
+      "sword_mesh_min_cm": 49.088919349229286,
+      "whole_skin_min_cm": 0.14999871766518869,
+      "sole_l_min_cm": 22.7804557745323,
+      "sole_r_min_cm": 34.61531723910116,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 34.49616184948468,
+      "left_boot_min_cm": 22.57370394308461,
+      "head_skin_min_cm": 82.03502429507022,
+      "face_skin_min_cm": 94.75454939945591,
+      "head_bone_z_cm": 102.57123565673828,
+      "right_boot_max_cm": 49.780978082266586,
+      "sword_mesh_max_cm": 129.13491800507614
+    },
+    {
+      "time": 1.3333333333333333,
+      "root_floor_cm": 14.916511834129881,
+      "left_hand_min_cm": 56.96007830927137,
+      "right_hand_min_cm": 50.63236533112931,
+      "left_forearm_min_cm": 50.88997750036675,
+      "right_forearm_min_cm": 51.54083470517147,
+      "sword_mesh_min_cm": 44.4126339346331,
+      "whole_skin_min_cm": 4.596660565281397,
+      "sole_l_min_cm": 25.80781866182835,
+      "sole_r_min_cm": 44.92298582192507,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 42.87485791118924,
+      "left_boot_min_cm": 25.65031044988922,
+      "head_skin_min_cm": 62.94071005198929,
+      "face_skin_min_cm": 74.39316042706523,
+      "head_bone_z_cm": 81.8143539428711,
+      "right_boot_max_cm": 58.25990192285818,
+      "sword_mesh_max_cm": 122.59294679407752
+    },
+    {
+      "time": 1.3666666666666667,
+      "root_floor_cm": 13.495437378086695,
+      "left_hand_min_cm": 31.523135573397948,
+      "right_hand_min_cm": 48.803403805268886,
+      "left_forearm_min_cm": 26.839977314328312,
+      "right_forearm_min_cm": 50.2525973629687,
+      "sword_mesh_min_cm": 42.6120505530518,
+      "whole_skin_min_cm": 9.536297760514852,
+      "sole_l_min_cm": 28.748912976604146,
+      "sole_r_min_cm": 55.160025297098855,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 50.72591801128857,
+      "left_boot_min_cm": 28.659757958483624,
+      "head_skin_min_cm": 39.68138338121125,
+      "face_skin_min_cm": 50.29138746211841,
+      "head_bone_z_cm": 57.949989318847656,
+      "right_boot_max_cm": 66.06930084847409,
+      "sword_mesh_max_cm": 118.33409686060804
+    },
+    {
+      "time": 1.4,
+      "root_floor_cm": 12.31173722087358,
+      "left_hand_min_cm": 24.582201845374968,
+      "right_hand_min_cm": 47.15670617700232,
+      "left_forearm_min_cm": 17.00755709474729,
+      "right_forearm_min_cm": 49.48019796995126,
+      "sword_mesh_min_cm": 41.10501139214838,
+      "whole_skin_min_cm": 10.838381660967716,
+      "sole_l_min_cm": 37.28626254093345,
+      "sole_r_min_cm": 59.21129037998324,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 53.631754242319644,
+      "left_boot_min_cm": 37.136825059450075,
+      "head_skin_min_cm": 28.14625046661471,
+      "face_skin_min_cm": 34.906712241536724,
+      "head_bone_z_cm": 43.477142333984375,
+      "right_boot_max_cm": 68.88715277666887,
+      "sword_mesh_max_cm": 113.27588691547513
+    },
+    {
+      "time": 1.4333333333333333,
+      "root_floor_cm": 11.50761317400985,
+      "left_hand_min_cm": 16.74489568842941,
+      "right_hand_min_cm": 45.914331062648785,
+      "left_forearm_min_cm": 8.81652908897103,
+      "right_forearm_min_cm": 47.24581593157957,
+      "sword_mesh_min_cm": 39.9310156608491,
+      "whole_skin_min_cm": 6.603138068675094,
+      "sole_l_min_cm": 44.43288102964871,
+      "sole_r_min_cm": 62.02908502161884,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 55.75946598579358,
+      "left_boot_min_cm": 43.67318159695332,
+      "head_skin_min_cm": 17.721229950203508,
+      "face_skin_min_cm": 20.26402758437814,
+      "head_bone_z_cm": 29.490434646606445,
+      "right_boot_max_cm": 70.98674480481459,
+      "sword_mesh_max_cm": 110.47336545310637
+    },
+    {
+      "time": 1.4666666666666666,
+      "root_floor_cm": 11.078381145171944,
+      "left_hand_min_cm": 16.119923370448486,
+      "right_hand_min_cm": 46.977397054893856,
+      "left_forearm_min_cm": 7.999544413130533,
+      "right_forearm_min_cm": 41.60256403921444,
+      "sword_mesh_min_cm": 41.112038876916856,
+      "whole_skin_min_cm": 2.2397737761459724,
+      "sole_l_min_cm": 52.19149882629745,
+      "sole_r_min_cm": 62.4520064335066,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 56.73673114764484,
+      "left_boot_min_cm": 49.000249281280134,
+      "head_skin_min_cm": 17.189204254608757,
+      "face_skin_min_cm": 18.053664386355017,
+      "head_bone_z_cm": 26.28216552734375,
+      "right_boot_max_cm": 72.16236305271097,
+      "sword_mesh_max_cm": 108.95757625128333
+    },
+    {
+      "time": 1.5,
+      "root_floor_cm": 10.938692804357657,
+      "left_hand_min_cm": 16.46722849670243,
+      "right_hand_min_cm": 47.055326397151816,
+      "left_forearm_min_cm": 7.381577905956267,
+      "right_forearm_min_cm": 35.184792120751034,
+      "sword_mesh_min_cm": 41.241827465380126,
+      "whole_skin_min_cm": 0.171109371596458,
+      "sole_l_min_cm": 59.155716329272934,
+      "sole_r_min_cm": 61.25115248486432,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 56.33346567458399,
+      "left_boot_min_cm": 53.25519170169167,
+      "head_skin_min_cm": 14.691623670766958,
+      "face_skin_min_cm": 14.691623670766958,
+      "head_bone_z_cm": 23.269630432128906,
+      "right_boot_max_cm": 71.95908844066551,
+      "sword_mesh_max_cm": 108.19602598001883
+    },
+    {
+      "time": 1.5333333333333334,
+      "root_floor_cm": 10.975335102879422,
+      "left_hand_min_cm": 16.357931466801844,
+      "right_hand_min_cm": 46.311866434580395,
+      "left_forearm_min_cm": 6.9237056576447005,
+      "right_forearm_min_cm": 33.36582936623763,
+      "sword_mesh_min_cm": 40.49021755079077,
+      "whole_skin_min_cm": 0.1500000182753638,
+      "sole_l_min_cm": 59.15904035093776,
+      "sole_r_min_cm": 53.549110840966364,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 48.62668358188935,
+      "left_boot_min_cm": 52.88803608935174,
+      "head_skin_min_cm": 14.338388976519134,
+      "face_skin_min_cm": 14.338388976519134,
+      "head_bone_z_cm": 24.39211654663086,
+      "right_boot_max_cm": 63.60939433674843,
+      "sword_mesh_max_cm": 107.78585520787189
+    },
+    {
+      "time": 1.5666666666666667,
+      "root_floor_cm": 11.074831124952132,
+      "left_hand_min_cm": 16.3641749995493,
+      "right_hand_min_cm": 45.68075632382852,
+      "left_forearm_min_cm": 6.642552853033018,
+      "right_forearm_min_cm": 31.6638443155824,
+      "sword_mesh_min_cm": 39.83370486246545,
+      "whole_skin_min_cm": 0.1928912879412792,
+      "sole_l_min_cm": 58.311986615462246,
+      "sole_r_min_cm": 44.55660637312636,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 40.09629281789032,
+      "left_boot_min_cm": 51.87480832237692,
+      "head_skin_min_cm": 13.268263441919451,
+      "face_skin_min_cm": 14.683601973379808,
+      "head_bone_z_cm": 25.62647819519043,
+      "right_boot_max_cm": 55.29014170991289,
+      "sword_mesh_max_cm": 107.64702394375072
+    },
+    {
+      "time": 1.6,
+      "root_floor_cm": 11.212381259110517,
+      "left_hand_min_cm": 16.361285146117407,
+      "right_hand_min_cm": 45.64038087262003,
+      "left_forearm_min_cm": 6.5845016387310915,
+      "right_forearm_min_cm": 31.30642111103608,
+      "sword_mesh_min_cm": 39.75394326899968,
+      "whole_skin_min_cm": 0.2738959362496871,
+      "sole_l_min_cm": 53.07483260673817,
+      "sole_r_min_cm": 30.380967761543772,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 26.687818846200443,
+      "left_boot_min_cm": 47.58463598333629,
+      "head_skin_min_cm": 13.221421541266679,
+      "face_skin_min_cm": 15.623282412992253,
+      "head_bone_z_cm": 26.90738868713379,
+      "right_boot_max_cm": 42.43005469264418,
+      "sword_mesh_max_cm": 108.72227538387057
+    },
+    {
+      "time": 1.6333333333333333,
+      "root_floor_cm": 11.362649763260464,
+      "left_hand_min_cm": 16.467079612578942,
+      "right_hand_min_cm": 46.05419184383027,
+      "left_forearm_min_cm": 6.53136425909595,
+      "right_forearm_min_cm": 32.011078762656176,
+      "sword_mesh_min_cm": 40.14509740147673,
+      "whole_skin_min_cm": 0.27572104410774045,
+      "sole_l_min_cm": 44.9673121808152,
+      "sole_r_min_cm": 17.186914109363038,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 15.072000343987433,
+      "left_boot_min_cm": 41.11510975082669,
+      "head_skin_min_cm": 13.880596780824092,
+      "face_skin_min_cm": 16.5469391389679,
+      "head_bone_z_cm": 27.974998474121094,
+      "right_boot_max_cm": 31.727356574619797,
+      "sword_mesh_max_cm": 109.55651512129492
+    },
+    {
+      "time": 1.6666666666666667,
+      "root_floor_cm": 11.498752197402291,
+      "left_hand_min_cm": 16.938562593078526,
+      "right_hand_min_cm": 46.98483853804231,
+      "left_forearm_min_cm": 6.763358859678451,
+      "right_forearm_min_cm": 34.07313798609442,
+      "sword_mesh_min_cm": 41.07032389993593,
+      "whole_skin_min_cm": 0.1500006350104286,
+      "sole_l_min_cm": 37.108794075954265,
+      "sole_r_min_cm": 17.408733964838248,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 15.292793284290857,
+      "left_boot_min_cm": 34.831561753783944,
+      "head_skin_min_cm": 15.820203028994477,
+      "face_skin_min_cm": 16.961209462921282,
+      "head_bone_z_cm": 28.10507583618164,
+      "right_boot_max_cm": 31.948411543630844,
+      "sword_mesh_max_cm": 110.690074933977
+    },
+    {
+      "time": 1.7,
+      "root_floor_cm": 11.592232610414245,
+      "left_hand_min_cm": 16.860932990600272,
+      "right_hand_min_cm": 46.550743504566356,
+      "left_forearm_min_cm": 6.755955817541728,
+      "right_forearm_min_cm": 34.06465940297164,
+      "sword_mesh_min_cm": 40.66231620863609,
+      "whole_skin_min_cm": 0.23463266829458007,
+      "sole_l_min_cm": 36.922353420976194,
+      "sole_r_min_cm": 17.434198868724316,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 15.306063447113386,
+      "left_boot_min_cm": 34.70823603193762,
+      "head_skin_min_cm": 15.702850856604456,
+      "face_skin_min_cm": 16.9268559001967,
+      "head_bone_z_cm": 28.085161209106445,
+      "right_boot_max_cm": 31.963201014326227,
+      "sword_mesh_max_cm": 109.60583842188811
+    },
+    {
+      "time": 1.7333333333333334,
+      "root_floor_cm": 11.654256375450439,
+      "left_hand_min_cm": 16.59407710701967,
+      "right_hand_min_cm": 45.586124397192464,
+      "left_forearm_min_cm": 6.625957139633221,
+      "right_forearm_min_cm": 33.921113184500676,
+      "sword_mesh_min_cm": 39.74461202097507,
+      "whole_skin_min_cm": 0.27969083041125486,
+      "sole_l_min_cm": 36.44330448054505,
+      "sole_r_min_cm": 17.36305656502791,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 15.211984924592794,
+      "left_boot_min_cm": 34.350376460242785,
+      "head_skin_min_cm": 15.36339021209821,
+      "face_skin_min_cm": 16.745538130438206,
+      "head_bone_z_cm": 27.92945098876953,
+      "right_boot_max_cm": 31.871690192111565,
+      "sword_mesh_max_cm": 107.34183084033961
+    },
+    {
+      "time": 1.7666666666666666,
+      "root_floor_cm": 11.694930949542455,
+      "left_hand_min_cm": 16.16445303888088,
+      "right_hand_min_cm": 44.12838934067605,
+      "left_forearm_min_cm": 6.395959981862566,
+      "right_forearm_min_cm": 33.6463080043354,
+      "sword_mesh_min_cm": 38.36288702104475,
+      "whole_skin_min_cm": 0.29610129213710934,
+      "sole_l_min_cm": 35.70017413040227,
+      "sole_r_min_cm": 17.206839902898366,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 15.02398965653155,
+      "left_boot_min_cm": 33.780940515829826,
+      "head_skin_min_cm": 14.836291968049885,
+      "face_skin_min_cm": 16.442303355866486,
+      "head_bone_z_cm": 27.658098220825195,
+      "right_boot_max_cm": 31.68662994409675,
+      "sword_mesh_max_cm": 103.90208176176222
+    },
+    {
+      "time": 1.8,
+      "root_floor_cm": 11.722742662887333,
+      "left_hand_min_cm": 15.598337952436328,
+      "right_hand_min_cm": 42.157500289268114,
+      "left_forearm_min_cm": 6.088341567331689,
+      "right_forearm_min_cm": 33.23991643657428,
+      "sword_mesh_min_cm": 36.55402927697138,
+      "whole_skin_min_cm": 0.29320665442776317,
+      "sole_l_min_cm": 34.71938400400762,
+      "sole_r_min_cm": 16.974154475129964,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 14.752841775754847,
+      "left_boot_min_cm": 33.0204850805747,
+      "head_skin_min_cm": 14.15688015835807,
+      "face_skin_min_cm": 16.042151209138083,
+      "head_bone_z_cm": 27.290359497070312,
+      "right_boot_max_cm": 31.418028754525928,
+      "sword_mesh_max_cm": 99.27079884392307
+    },
+    {
+      "time": 1.8333333333333333,
+      "root_floor_cm": 11.744351583519766,
+      "left_hand_min_cm": 14.912934757541567,
+      "right_hand_min_cm": 39.74701676322894,
+      "left_forearm_min_cm": 5.724032240334135,
+      "right_forearm_min_cm": 32.69775153196738,
+      "sword_mesh_min_cm": 34.37568501121581,
+      "whole_skin_min_cm": 0.27854314733860974,
+      "sole_l_min_cm": 33.50979998187224,
+      "sole_r_min_cm": 16.671015348826487,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 14.40683772503456,
+      "left_boot_min_cm": 32.087797889604815,
+      "head_skin_min_cm": 13.360030829440717,
+      "face_skin_min_cm": 15.569144495287162,
+      "head_bone_z_cm": 26.844358444213867,
+      "right_boot_max_cm": 31.0735208250713,
+      "sword_mesh_max_cm": 93.43473586286059
+    },
+    {
+      "time": 1.8666666666666667,
+      "root_floor_cm": 11.764627691996841,
+      "left_hand_min_cm": 14.135470413609607,
+      "right_hand_min_cm": 36.983316723043174,
+      "left_forearm_min_cm": 5.322107587143788,
+      "right_forearm_min_cm": 32.01383109474237,
+      "sword_mesh_min_cm": 31.8861815205152,
+      "whole_skin_min_cm": 0.2578819200689395,
+      "sole_l_min_cm": 32.089122536524336,
+      "sole_r_min_cm": 16.30106797174546,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 13.991925565055743,
+      "left_boot_min_cm": 31.000470624760858,
+      "head_skin_min_cm": 12.469583747599216,
+      "face_skin_min_cm": 15.042294747810061,
+      "head_bone_z_cm": 26.337223052978516,
+      "right_boot_max_cm": 30.658490062993657,
+      "sword_mesh_max_cm": 86.40417843994777
+    },
+    {
+      "time": 1.9,
+      "root_floor_cm": 11.786834168137018,
+      "left_hand_min_cm": 13.288422172627715,
+      "right_hand_min_cm": 33.94670497159103,
+      "left_forearm_min_cm": 4.899075435294504,
+      "right_forearm_min_cm": 31.181093552562015,
+      "sword_mesh_min_cm": 29.169522174241642,
+      "whole_skin_min_cm": 0.23535129756271544,
+      "sole_l_min_cm": 30.50321270023067,
+      "sole_r_min_cm": 15.86652743534271,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 13.512510095153711,
+      "left_boot_min_cm": 29.775817753467255,
+      "head_skin_min_cm": 11.51885795487199,
+      "face_skin_min_cm": 14.348959171667119,
+      "head_bone_z_cm": 25.784887313842773,
+      "right_boot_max_cm": 30.17707335886092,
+      "sword_mesh_max_cm": 78.23663646642208
+    },
+    {
+      "time": 1.9333333333333333,
+      "root_floor_cm": 11.812885678227293,
+      "left_hand_min_cm": 12.391247498657906,
+      "right_hand_min_cm": 30.79349461100253,
+      "left_forearm_min_cm": 4.469168649495198,
+      "right_forearm_min_cm": 30.189694978674435,
+      "sword_mesh_min_cm": 26.326169189219613,
+      "whole_skin_min_cm": 0.2137466657203504,
+      "sole_l_min_cm": 28.77783828736652,
+      "sole_r_min_cm": 15.368633220215216,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 12.971838611054608,
+      "left_boot_min_cm": 28.431377887278362,
+      "head_skin_min_cm": 10.538437724989905,
+      "face_skin_min_cm": 13.600275739766431,
+      "head_bone_z_cm": 25.202348709106445,
+      "right_boot_max_cm": 29.6324186590271,
+      "sword_mesh_max_cm": 70.13394932604672
+    },
+    {
+      "time": 1.9666666666666666,
+      "root_floor_cm": 11.843629981841628,
+      "left_hand_min_cm": 11.461714930560511,
+      "right_hand_min_cm": 27.467851885312044,
+      "left_forearm_min_cm": 4.044191661174121,
+      "right_forearm_min_cm": 28.994606424422784,
+      "sword_mesh_min_cm": 23.420416505545198,
+      "whole_skin_min_cm": 0.19474567419376854,
+      "sole_l_min_cm": 26.93923597414716,
+      "sole_r_min_cm": 14.808482700555054,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 12.372757703477824,
+      "left_boot_min_cm": 26.93923597414716,
+      "head_skin_min_cm": 9.550851464733611,
+      "face_skin_min_cm": 12.791625371629422,
+      "head_bone_z_cm": 24.60346031188965,
+      "right_boot_max_cm": 29.027495596889327,
+      "sword_mesh_max_cm": 61.85898942214875
+    },
+    {
+      "time": 2.0,
+      "root_floor_cm": 11.87911800180006,
+      "left_hand_min_cm": 10.512263796286081,
+      "right_hand_min_cm": 23.86857793502331,
+      "left_forearm_min_cm": 3.6337256949532084,
+      "right_forearm_min_cm": 27.460724403277403,
+      "sword_mesh_min_cm": 20.528024043542487,
+      "whole_skin_min_cm": 0.17920240573801038,
+      "sole_l_min_cm": 25.01428008830529,
+      "sole_r_min_cm": 14.187735490730859,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 11.718378857200994,
+      "left_boot_min_cm": 25.01428008830529,
+      "head_skin_min_cm": 8.577334190842777,
+      "face_skin_min_cm": 11.99777204879301,
+      "head_bone_z_cm": 24.000839233398438,
+      "right_boot_max_cm": 28.365679028504523,
+      "sword_mesh_max_cm": 53.603119582297495
+    },
+    {
+      "time": 2.033333333333333,
+      "root_floor_cm": 11.918841339675257,
+      "left_hand_min_cm": 9.533382179875385,
+      "right_hand_min_cm": 20.372322374843762,
+      "left_forearm_min_cm": 3.131565883190621,
+      "right_forearm_min_cm": 25.11511205939179,
+      "sword_mesh_min_cm": 17.71478651263684,
+      "whole_skin_min_cm": 0.1673608449261792,
+      "sole_l_min_cm": 23.02127445725307,
+      "sole_r_min_cm": 13.509152058467805,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 11.012565179670963,
+      "left_boot_min_cm": 23.02127445725307,
+      "head_skin_min_cm": 7.6298362173323255,
+      "face_skin_min_cm": 11.233783434426783,
+      "head_bone_z_cm": 23.405776977539062,
+      "right_boot_max_cm": 27.65116943548531,
+      "sword_mesh_max_cm": 45.58456066798314
+    },
+    {
+      "time": 2.066666666666667,
+      "root_floor_cm": 11.961926568007003,
+      "left_hand_min_cm": 8.554078100184833,
+      "right_hand_min_cm": 17.064039350594626,
+      "left_forearm_min_cm": 2.6494446843748927,
+      "right_forearm_min_cm": 21.82021947572758,
+      "sword_mesh_min_cm": 15.03686760443017,
+      "whole_skin_min_cm": 0.15905373203554518,
+      "sole_l_min_cm": 20.97978537770789,
+      "sole_r_min_cm": 12.777161118113156,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 10.260498683164323,
+      "left_boot_min_cm": 20.97978537770789,
+      "head_skin_min_cm": 6.732365480799615,
+      "face_skin_min_cm": 10.511471803186907,
+      "head_bone_z_cm": 22.828006744384766,
+      "right_boot_max_cm": 26.889519514594298,
+      "sword_mesh_max_cm": 38.01505280880592
+    },
+    {
+      "time": 2.1,
+      "root_floor_cm": 12.007283238435491,
+      "left_hand_min_cm": 7.6031917436417515,
+      "right_hand_min_cm": 14.001927517762581,
+      "left_forearm_min_cm": 2.202415849630636,
+      "right_forearm_min_cm": 18.65472604296139,
+      "sword_mesh_min_cm": 12.555526074467117,
+      "whole_skin_min_cm": 0.15383089864826616,
+      "sole_l_min_cm": 18.93196027458556,
+      "sole_r_min_cm": 11.998008076533537,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 9.468825676227928,
+      "left_boot_min_cm": 18.93196027458556,
+      "head_skin_min_cm": 5.876653075826397,
+      "face_skin_min_cm": 9.839512792422028,
+      "head_bone_z_cm": 22.275672912597656,
+      "right_boot_max_cm": 26.087698395651,
+      "sword_mesh_max_cm": 31.085858377644172
+    },
+    {
+      "time": 2.1333333333333333,
+      "root_floor_cm": 12.053707718800371,
+      "left_hand_min_cm": 6.6954362664152836,
+      "right_hand_min_cm": 11.281210745699525,
+      "left_forearm_min_cm": 1.7944659188162613,
+      "right_forearm_min_cm": 15.723009802880172,
+      "sword_mesh_min_cm": 10.346632676301176,
+      "whole_skin_min_cm": 0.15107954526888534,
+      "sole_l_min_cm": 16.90516664574868,
+      "sole_r_min_cm": 11.180058813543376,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 8.645971590120238,
+      "left_boot_min_cm": 16.90516664574868,
+      "head_skin_min_cm": 5.066946613492803,
+      "face_skin_min_cm": 9.223473545169838,
+      "head_bone_z_cm": 21.755176544189453,
+      "right_boot_max_cm": 25.254385054436284,
+      "sword_mesh_max_cm": 24.984439626825207
+    },
+    {
+      "time": 2.1666666666666665,
+      "root_floor_cm": 12.099948479186311,
+      "left_hand_min_cm": 5.840459479266859,
+      "right_hand_min_cm": 9.347394706992347,
+      "left_forearm_min_cm": 1.42800369995077,
+      "right_forearm_min_cm": 13.480150574475902,
+      "sword_mesh_min_cm": 8.186238955923322,
+      "whole_skin_min_cm": 0.1500712014549208,
+      "sole_l_min_cm": 14.925632448492909,
+      "sole_r_min_cm": 10.333700524544298,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 7.802047806567776,
+      "left_boot_min_cm": 14.925632448492909,
+      "head_skin_min_cm": 4.326762880140336,
+      "face_skin_min_cm": 8.666216706691444,
+      "head_bone_z_cm": 21.271249771118164,
+      "right_boot_max_cm": 24.399866258438415,
+      "sword_mesh_max_cm": 20.16140036992328
+    },
+    {
+      "time": 2.2,
+      "root_floor_cm": 12.144740489402261,
+      "left_hand_min_cm": 5.049405294883279,
+      "right_hand_min_cm": 7.704775987238079,
+      "left_forearm_min_cm": 1.1048562916203843,
+      "right_forearm_min_cm": 11.499972155509319,
+      "sword_mesh_min_cm": 6.269798838768338,
+      "whole_skin_min_cm": 0.14999866159871544,
+      "sole_l_min_cm": 13.018034348898404,
+      "sole_r_min_cm": 9.471171664920675,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 6.948724290078083,
+      "left_boot_min_cm": 13.018034348898404,
+      "head_skin_min_cm": 3.655800715001277,
+      "face_skin_min_cm": 8.168265279105725,
+      "head_bone_z_cm": 20.82700538635254,
+      "right_boot_max_cm": 23.535896594610666,
+      "sword_mesh_max_cm": 17.956007386299486
+    },
+    {
+      "time": 2.2333333333333334,
+      "root_floor_cm": 12.18681783577747,
+      "left_hand_min_cm": 4.33279388653744,
+      "right_hand_min_cm": 6.368364499101219,
+      "left_forearm_min_cm": 0.8255967467803931,
+      "right_forearm_min_cm": 9.769128022098515,
+      "sword_mesh_min_cm": 4.74214326116064,
+      "whole_skin_min_cm": 0.15000028708629998,
+      "sole_l_min_cm": 11.205081118960784,
+      "sole_r_min_cm": 8.606338675134921,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": 0.0,
+      "right_boot_min_cm": 6.099027185576415,
+      "left_boot_min_cm": 11.205081118960784,
+      "head_skin_min_cm": 3.0592738042336407,
+      "face_skin_min_cm": 7.728189558015771,
+      "head_bone_z_cm": 20.42404556274414,
+      "right_boot_max_cm": 22.67555284964413,
+      "sword_mesh_max_cm": 16.22650437482592
+    },
+    {
+      "time": 2.2666666666666666,
+      "root_floor_cm": 12.225753810479683,
+      "left_hand_min_cm": 3.7035431011231434,
+      "right_hand_min_cm": 5.275941160995349,
+      "left_forearm_min_cm": 0.6110167157414967,
+      "right_forearm_min_cm": 8.27771647995345,
+      "sword_mesh_min_cm": 3.5553446138485505,
+      "whole_skin_min_cm": 0.14999997370000528,
+      "sole_l_min_cm": 9.507897483962655,
+      "sole_r_min_cm": 7.755018770323197,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -0.5577624091855916,
+      "right_boot_min_cm": 5.267708113389679,
+      "left_boot_min_cm": 9.507897483962655,
+      "head_skin_min_cm": 2.534919208335296,
+      "face_skin_min_cm": 7.340268747835793,
+      "head_bone_z_cm": 20.063581466674805,
+      "right_boot_max_cm": 21.833582840466438,
+      "sword_mesh_max_cm": 14.7926604201956
+    },
+    {
+      "time": 2.3,
+      "root_floor_cm": 12.261255893638259,
+      "left_hand_min_cm": 3.142222160277145,
+      "right_hand_min_cm": 4.142041399318586,
+      "left_forearm_min_cm": 0.4479797978521224,
+      "right_forearm_min_cm": 7.024453734405036,
+      "sword_mesh_min_cm": 2.6566531148541612,
+      "whole_skin_min_cm": 0.14999937064396818,
+      "sole_l_min_cm": 7.945410869018957,
+      "sole_r_min_cm": 6.934013986285411,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -1.6942285220748867,
+      "right_boot_min_cm": 4.47030686782141,
+      "left_boot_min_cm": 7.945410869018957,
+      "head_skin_min_cm": 2.0783795950741393,
+      "face_skin_min_cm": 6.999352797089458,
+      "head_bone_z_cm": 19.74585723876953,
+      "right_boot_max_cm": 21.0255677733276,
+      "sword_mesh_max_cm": 13.65126205583528
+    },
+    {
+      "time": 2.3333333333333335,
+      "root_floor_cm": 12.293072222390867,
+      "left_hand_min_cm": 2.622172880121335,
+      "right_hand_min_cm": 3.2113559352675907,
+      "left_forearm_min_cm": 0.34489121169270476,
+      "right_forearm_min_cm": 5.979133207010853,
+      "sword_mesh_min_cm": 1.9978907874349359,
+      "whole_skin_min_cm": 0.14999986602049376,
+      "sole_l_min_cm": 6.518268952828471,
+      "sole_r_min_cm": 6.160457704045026,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -3.4269102779047906,
+      "right_boot_min_cm": 3.722543055601663,
+      "left_boot_min_cm": 6.518268952828471,
+      "head_skin_min_cm": 1.675083650951791,
+      "face_skin_min_cm": 6.709523882300715,
+      "head_bone_z_cm": 19.470380783081055,
+      "right_boot_max_cm": 20.267331399367077,
+      "sword_mesh_max_cm": 12.738735059322673
+    },
+    {
+      "time": 2.3666666666666667,
+      "root_floor_cm": 12.320993124149206,
+      "left_hand_min_cm": 1.9843321912250818,
+      "right_hand_min_cm": 2.4817915103533466,
+      "left_forearm_min_cm": 0.27559878747207645,
+      "right_forearm_min_cm": 5.123779559271484,
+      "sword_mesh_min_cm": 1.5331465431263585,
+      "whole_skin_min_cm": 0.1500219976593371,
+      "sole_l_min_cm": 5.247490134104229,
+      "sole_r_min_cm": 5.451394139599326,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -6.379426408575927,
+      "right_boot_min_cm": 3.039947074213245,
+      "left_boot_min_cm": 5.247490134104229,
+      "head_skin_min_cm": 1.3301636453914796,
+      "face_skin_min_cm": 6.467413596742205,
+      "head_bone_z_cm": 19.23625946044922,
+      "right_boot_max_cm": 19.57457518879182,
+      "sword_mesh_max_cm": 12.040294795529825
+    },
+    {
+      "time": 2.4,
+      "root_floor_cm": 12.344808922055151,
+      "left_hand_min_cm": 1.4073053737238514,
+      "right_hand_min_cm": 1.9229361808316696,
+      "left_forearm_min_cm": 0.24276454476613996,
+      "right_forearm_min_cm": 4.440752307798449,
+      "sword_mesh_min_cm": 1.2192232576170507,
+      "whole_skin_min_cm": 0.15004518462671967,
+      "sole_l_min_cm": 4.158476420339873,
+      "sole_r_min_cm": 4.823501870445579,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -9.455272316211959,
+      "right_boot_min_cm": 2.4376396114445136,
+      "left_boot_min_cm": 4.158476420339873,
+      "head_skin_min_cm": 1.0436925741621934,
+      "face_skin_min_cm": 6.269744092171621,
+      "head_bone_z_cm": 19.04228973388672,
+      "right_boot_max_cm": 18.962713204484505,
+      "sword_mesh_max_cm": 11.501234948347541
+    },
+    {
+      "time": 2.433333333333333,
+      "root_floor_cm": 12.364309668021246,
+      "left_hand_min_cm": 0.9173268229597129,
+      "right_hand_min_cm": 1.5079825977104235,
+      "left_forearm_min_cm": 0.25802071347252614,
+      "right_forearm_min_cm": 3.913284173285688,
+      "sword_mesh_min_cm": 1.0180691998445734,
+      "whole_skin_min_cm": 0.15005267524531973,
+      "sole_l_min_cm": 3.262931026829005,
+      "sole_r_min_cm": 4.292714897145235,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -12.622440684854949,
+      "right_boot_min_cm": 1.929993638407024,
+      "left_boot_min_cm": 3.262931026829005,
+      "head_skin_min_cm": 0.8133460731064588,
+      "face_skin_min_cm": 6.113748684580543,
+      "head_bone_z_cm": 18.88736343383789,
+      "right_boot_max_cm": 18.44650807132719,
+      "sword_mesh_max_cm": 11.097101607399864
+    },
+    {
+      "time": 2.466666666666667,
+      "root_floor_cm": 12.37928484485764,
+      "left_hand_min_cm": 0.5082222886260137,
+      "right_hand_min_cm": 1.214970794003463,
+      "left_forearm_min_cm": 0.3168137679327799,
+      "right_forearm_min_cm": 3.527546365157112,
+      "sword_mesh_min_cm": 0.8974724629373831,
+      "whole_skin_min_cm": 0.15003704303535415,
+      "sole_l_min_cm": 2.5721976754604228,
+      "sole_r_min_cm": 3.8741628604318272,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -15.847177767616726,
+      "right_boot_min_cm": 1.5306385837171597,
+      "left_boot_min_cm": 2.5721976754604228,
+      "head_skin_min_cm": 0.6402282577300014,
+      "face_skin_min_cm": 5.99732504380728,
+      "head_bone_z_cm": 18.770668029785156,
+      "right_boot_max_cm": 18.040045707551556,
+      "sword_mesh_max_cm": 10.808522408104166
+    },
+    {
+      "time": 2.5,
+      "root_floor_cm": 12.389523284390998,
+      "left_hand_min_cm": 0.24518875468887197,
+      "right_hand_min_cm": 1.0271749973072417,
+      "left_forearm_min_cm": 0.3619116435613302,
+      "right_forearm_min_cm": 3.2732107438992304,
+      "sword_mesh_min_cm": 0.8318291138716178,
+      "whole_skin_min_cm": 0.15000022177355277,
+      "sole_l_min_cm": 2.098032565686701,
+      "sole_r_min_cm": 3.58213109950135,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -17.88224610069603,
+      "right_boot_min_cm": 1.2524900413342852,
+      "left_boot_min_cm": 2.098032565686701,
+      "head_skin_min_cm": 0.5235899318383872,
+      "face_skin_min_cm": 5.919307518315549,
+      "head_bone_z_cm": 18.69194221496582,
+      "right_boot_max_cm": 17.75673964447912,
+      "sword_mesh_max_cm": 10.621596327892574
+    },
+    {
+      "time": 2.533333333333333,
+      "root_floor_cm": 12.39481335558312,
+      "left_hand_min_cm": 0.0890126833746791,
+      "right_hand_min_cm": 0.9345558207299263,
+      "left_forearm_min_cm": 0.4016404890873159,
+      "right_forearm_min_cm": 3.14539235489146,
+      "sword_mesh_min_cm": 0.8033984388899302,
+      "whole_skin_min_cm": 0.0890126833746791,
+      "sole_l_min_cm": 1.8535890029751911,
+      "sole_r_min_cm": 3.4300717079860625,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -19.247367652288776,
+      "right_boot_min_cm": 1.1078156745399352,
+      "left_boot_min_cm": 1.8535890029751911,
+      "head_skin_min_cm": 0.46417910612730395,
+      "face_skin_min_cm": 5.879713547843622,
+      "head_bone_z_cm": 18.651840209960938,
+      "right_boot_max_cm": 17.60930960985356,
+      "sword_mesh_max_cm": 10.528685569705935
+    },
+    {
+      "time": 2.566666666666667,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.03254574308199787,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4292191644321497,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.03254574308199787,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -19.943733170756488,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.6,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02956774036570725,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.43106276784299835,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02956774036570725,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -19.986314332164813,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.6333333333333333,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02869653821283974,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4315942964552932,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02869653821283974,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -19.99872986841437,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.6666666666666665,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.7,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.7333333333333334,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.7666666666666666,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.8,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.8333333333333335,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.8666666666666667,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.9,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.933333333333333,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 2.966666666666667,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 3.0,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 3.033333333333333,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 3.066666666666667,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 3.1,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 3.1333333333333333,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 3.1666666666666665,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 3.2,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 3.2333333333333334,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 3.2666666666666666,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    },
+    {
+      "time": 3.3,
+      "root_floor_cm": 12.395491380697559,
+      "left_hand_min_cm": 0.02860485340602753,
+      "right_hand_min_cm": 0.9226824669035949,
+      "left_forearm_min_cm": 0.4316469013364748,
+      "right_forearm_min_cm": 3.129158698792356,
+      "sword_mesh_min_cm": 0.7999991449791795,
+      "whole_skin_min_cm": 0.02860485340602753,
+      "sole_l_min_cm": 1.8222389641682462,
+      "sole_r_min_cm": 3.410496156261299,
+      "local_foot_support_correction_cm": {},
+      "right_wrist_prop_correction_degrees": 0.0,
+      "left_forearm_twist_degrees": -20.0,
+      "right_boot_min_cm": 1.0891999361357994,
+      "left_boot_min_cm": 1.8222389641682462,
+      "head_skin_min_cm": 0.4565901500022278,
+      "face_skin_min_cm": 5.874664205241231,
+      "head_bone_z_cm": 18.64670753479004,
+      "right_boot_max_cm": 17.59033126674508,
+      "sword_mesh_max_cm": 10.516922378933305
+    }
+  ],
+  "scope": "New animation only; fixed Combat Basis/weights/morphs and original face/feet remain unchanged."
+}

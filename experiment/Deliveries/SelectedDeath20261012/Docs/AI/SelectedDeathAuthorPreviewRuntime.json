@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-12",
+  "map": "/Game/ReversedScale/Maps/L_DeathAuthorPreview",
+  "actor": "/Game/ReversedScale/Maps/L_DeathAuthorPreview.L_DeathAuthorPreview:PersistentLevel.SkeletalMeshActor_1",
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+  "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+  "grip_morph": "EnemyGrip_R",
+  "grip_weight": 1.0,
+  "frames": [
+    {
+      "label": "Start",
+      "requested_clip_seconds": 0.0,
+      "observed_clip_seconds": 0.001551300287246704,
+      "image": "..\\..\\..\\..\\CombatProject\\Docs\\AI\\SelectedDeathAuthor_Start.png",
+      "mesh_world_cm": [
+        430.0,
+        -280.0,
+        0.0
+      ],
+      "head_world_cm": [
+        422.22070003479837,
+        -273.07685668024936,
+        125.5368101855718
+      ],
+      "right_hand_world_cm": [
+        449.8645475198233,
+        -309.8201285076078,
+        89.93254190422829
+      ]
+    },
+    {
+      "label": "BalanceLost",
+      "requested_clip_seconds": 0.8,
+      "observed_clip_seconds": 0.7995479702949524,
+      "image": "..\\..\\..\\..\\CombatProject\\Docs\\AI\\SelectedDeathAuthor_BalanceLost.png",
+      "mesh_world_cm": [
+        430.0,
+        -280.0,
+        0.0
+      ],
+      "head_world_cm": [
+        367.91098714526424,
+        -266.5179260399591,
+        112.07867546409902
+      ],
+      "right_hand_world_cm": [
+        326.20332822011846,
+        -248.0157266343879,
+        138.42775368009464
+      ]
+    },
+    {
+      "label": "FirstFall",
+      "requested_clip_seconds": 1.65,
+      "observed_clip_seconds": 1.6496970653533936,
+      "image": "..\\..\\..\\..\\CombatProject\\Docs\\AI\\SelectedDeathAuthor_FirstFall.png",
+      "mesh_world_cm": [
+        430.0,
+        -280.0,
+        0.0
+      ],
+      "head_world_cm": [
+        297.60524059988654,
+        -264.4218503769585,
+        28.03750455261124
+      ],
+      "right_hand_world_cm": [
+        326.4409644733238,
+        -291.7008074502702,
+        50.39704009640472
+      ]
+    },
+    {
+      "label": "Relaxing",
+      "requested_clip_seconds": 2.2,
+      "observed_clip_seconds": 2.200392723083496,
+      "image": "..\\..\\..\\..\\CombatProject\\Docs\\AI\\SelectedDeathAuthor_Relaxing.png",
+      "mesh_world_cm": [
+        430.0,
+        -280.0,
+        0.0
+      ],
+      "head_world_cm": [
+        299.86101563895386,
+        -261.6655956912185,
+        20.8188867986185
+      ],
+      "right_hand_world_cm": [
+        308.3393040477485,
+        -306.81109616356196,
+        14.589035158070082
+      ]
+    },
+    {
+      "label": "FinalHold",
+      "requested_clip_seconds": 3.299999952316284,
+      "observed_clip_seconds": 3.299790382385254,
+      "image": "..\\..\\..\\..\\CombatProject\\Docs\\AI\\SelectedDeathAuthor_FinalHold.png",
+      "mesh_world_cm": [
+        430.0,
+        -280.0,
+        0.0
+      ],
+      "head_world_cm": [
+        301.83400717977463,
+        -259.0637792477495,
+        18.64511224742569
+      ],
+      "right_hand_world_cm": [
+        298.78843464786917,
+        -300.4949341317763,
+        6.100911871393995
+      ]
+    }
+  ],
+  "scope": "Natural single-node animation authoring presentation, independent of combat. Screenshot requests may render on the following engine frame."
+}

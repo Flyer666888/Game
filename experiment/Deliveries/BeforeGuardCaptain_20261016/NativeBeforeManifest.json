@@ -1,0 +1,38 @@
+{
+  "task": "ENEMY-02B",
+  "scope": "Native GuardCaptain before edits; new Captain source and authoring script have no previous files",
+  "files": [
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyCharacter.h",
+      "sha256": "BDEE3A6E6D08AA9D04A056E6BE98CA91436D043001C49C20F98C35CEAE676BD5"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyBrainComponent.h",
+      "sha256": "F1DEC87092F729F7D77443F266208C82801D28AEFAA6CED2CEF9F375B280F58F"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyBrainComponent.cpp",
+      "sha256": "42E1FBD47772420CE4CF964920933E31687556E41E99E49C3FE4D2371D7AEA68"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLGuardComponent.h",
+      "sha256": "5C8F3B1E6079A38659AE2CB36A450B2609A0D23E81CB2F405EB5C268E7D6B4DE"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLGuardComponent.cpp",
+      "sha256": "3858735E4940B2B68028E38F03B8D1C38AAA7B97BD3BE4B761E96B664DF9E84C"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatResolverSubsystem.h",
+      "sha256": "8DA6BCF17553B3F50887E96B910A9812BF19B2F2F33FCD1B5EBD45B9C54E3999"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatResolverSubsystem.cpp",
+      "sha256": "5E5E467BF872D10326A4D7689A923275CD4D921FD00740EF4DB8686FE79AD392"
+    },
+    {
+      "path": "Saved/Scripts/create_mixed_lab.py",
+      "sha256": "CF221B1F81F6DA08BC700A1A3284B32431A989C632B9EE02464DE07D56994BBF"
+    }
+  ]
+}

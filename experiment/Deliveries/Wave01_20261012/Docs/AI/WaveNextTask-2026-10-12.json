@@ -1,0 +1,36 @@
+{
+  "task_id": "WAVE-01",
+  "status": "Compiled_AssetsSaved_InitialPresentationReviewed_AwaitingUserPlay",
+  "reference": "Docs/AI/ReferencePack/UE5.8_AI开发方案.md",
+  "dependencies": [
+    "DIR-01",
+    "ENV-02"
+  ],
+  "scope_first_batch": "Two bounded desktop sword-disciple waves; preserve the existing duel lab as an independent manual-play scene.",
+  "new_classes": {
+    "UNLWaveDefinition": "WaveId, finite spawn entries with stable EntryId, enemy subclass, count and candidate spawn-point IDs; spawn interval, intermission, maximum alive and bounded failed-spawn retries.",
+    "ANLEncounterController": "Ready, Spawning, WaitingClear, Intermission, Completed, Failed and Cancelled states; StartEncounter, CancelEncounter, ResetEncounterForRetry and SetEncounterPaused. Emit terminal outcomes once."
+  },
+  "prefab": {
+    "asset": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple",
+    "parent": "/Script/experiment.NLEnemyCharacter",
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat",
+    "grip_morph": "EnemyGrip_R",
+    "death": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded",
+    "configuration_evidence": "Docs/AI/SelectedDeathSaved-2026-10-12.json; current read-only CDO in WaveLabSaved-2026-10-12.json",
+    "requires_saved_configuration": "A raw native spawn does not automatically inherit the current placed actors' saved grip/animation overrides. Use the configured Blueprint or explicitly configure before BeginPlay."
+  },
+  "runtime_contracts": [
+    "Own a SpawnOrdinal-to-weak-Actor/RuntimeId/terminal-record collection; never use attack-director reservations as wave completion counts.",
+    "Register identity and state callbacks before enabling combat; retain 0.35-second enemy spawn grace and cap successful spawns per frame.",
+    "Only finish a wave after all finite planned entries are handled, no spawn/loading request remains, and the wave-owned alive set is empty.",
+    "Listen to Brain.OnStateChanged(Enemy, Previous, New). Dead produces one defeated event; Despawn produces no reward. Navigation failures can despawn an enemy whose Vitals still reports alive, so handle finite replacement or Failed explicitly.",
+    "Use a monotonically increasing EncounterGeneration to reject cancelled callbacks. Cancel locks the encounter, stops generating, disables owned enemies, despawns and cleans them; release old Director reservations through existing enemy APIs.",
+    "Use world game time for spawn, intermission and corpse delays. Pause calls each owned enemy's SetLabPaused; resumed attacks obtain new warnings.",
+    "Use a dedicated FRandomStream and sorted stable spawn-point IDs. Save initial/current seed, wave index and spawn ordinal. Keep navigation, physics and cosmetic randomness outside the composition stream.",
+    "Route R through encounter cancellation first, then existing projectile/Director/Vitals/Blade/Resolver reset, then ResetEncounterForRetry(seed,false). G starts/cancels the encounter only when a controller is present. Keep fixed duel actors' original lab behavior."
+  ],
+  "following_dependency": "SAVE-01 uses the entry snapshot and random state after WAVE-01 exists.",
+  "acceptance": "Editor compile and initial presentation completed; no tests or game inputs sent by the agent. Wave gameplay acceptance is pending user play.",
+  "delivery": "Docs/AI/Wave01Delivery-2026-10-12.json"
+}

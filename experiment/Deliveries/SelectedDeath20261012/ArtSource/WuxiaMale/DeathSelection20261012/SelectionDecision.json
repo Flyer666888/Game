@@ -1,0 +1,92 @@
+{
+  "selected_source": "NaturalCandidate_Anim_DeathPL",
+  "source_duration_seconds": 2.7,
+  "review_basis": {
+    "blend": "ArtSource/WuxiaMale/GripRefinement/WuxiaMaleCombat.blend",
+    "mesh": "SK_WuxiaMale_Combat",
+    "vertices": 43210,
+    "method": "Nine actual weighted skin poses across each complete source clip. Preview compensates penetration only and retains airborne phases. Current Natural DeathPL also applies its authored death morph deltas.",
+    "source_modified": false,
+    "game_tests_run": false
+  },
+  "selection_reason": "DeathPL has the clearest compact sequence for an ordinary swordsman defeat: knees soften, balance is lost, arms reach to brace, body falls forward, then loses support. It avoids a long theatrical wound performance and the complete airborne flips of the knockdown candidates.",
+  "candidates": [
+    {
+      "name": "Reaction_Anim_dEAh_F_01",
+      "duration_seconds": 8.666667,
+      "reason_not_selected": "Long throat-clutching and choking performance before kneeling and falling. Better reserved for a specific neck injury; too delayed for routine combat death."
+    },
+    {
+      "name": "Reaction_Anim_dEAh_F_02",
+      "duration_seconds": 7.833333,
+      "reason_not_selected": "Plausible abdominal wound performance but repeated stooping and kneeling delays the actual fall. Compressing the whole clip to a quick combat death would speed up the gestures unnaturally."
+    },
+    {
+      "name": "Reaction_Anim_dEAh_F_03",
+      "duration_seconds": 10.333333,
+      "reason_not_selected": "Multiple stages of crouching, swaying and attempting to remain supported. Longest source and visibly hesitant before the final collapse."
+    },
+    {
+      "name": "Reaction_Anim_dEAh_F_04",
+      "duration_seconds": 5.633333,
+      "reason_not_selected": "Extended backward head and torso lean followed by a kneeling fall with raised feet. More exaggerated than DeathPL on the current clothed character."
+    },
+    {
+      "name": "NaturalCandidate_Anim_KD_F",
+      "duration_seconds": 1.333333,
+      "reason_not_selected": "Strong backward knockdown with clearly airborne body and feet. Appropriate for a heavy launch attack rather than ordinary sword damage."
+    },
+    {
+      "name": "NaturalCandidate_Anim_DU_E_GR",
+      "duration_seconds": 1.333333,
+      "reason_not_selected": "The visible motion and terminal pose closely match KD_F, including airborne backward launch. Adds no more restrained alternative."
+    },
+    {
+      "name": "NaturalCandidate_Anim_dEAh_CO",
+      "duration_seconds": 4.666667,
+      "reason_not_selected": "Prolonged shoulder or throat clutching, kneeling and folding forward. The single fall is usable, but the wound-specific performance is less general and slower than DeathPL."
+    },
+    {
+      "name": "NaturalCandidate_Anim_Death_1",
+      "duration_seconds": 0.733333,
+      "reason_not_selected": "A fast complete airborne flip or spin before landing. Most exaggerated candidate for this requested ordinary enemy death."
+    },
+    {
+      "name": "NaturalCandidate_Anim_DeathPL",
+      "duration_seconds": 2.7,
+      "reason_selected": "Compact human loss-of-support sequence with a forward brace and fall. Preserve the genuine first collapse and author a quieter post-impact settling phase."
+    }
+  ],
+  "current_natural_death_contact_cm": {
+    "final_head_bone_z": 27.235451,
+    "final_pelvis_bone_z": 24.092609,
+    "final_weighted_lowerarm_l_min": 7.046397,
+    "final_weighted_lowerarm_r_min": 8.991858,
+    "final_weighted_hand_l_min": 18.136003,
+    "final_weighted_hand_r_min": 12.104861,
+    "final_complete_mesh_min": 0.1500005,
+    "region_definition": "Minimum deformed vertex height for vertices weighted above 0.5 to the indicated bone. This records the visible skin, not only a joint center."
+  },
+  "post_impact_motion_to_refine": {
+    "head_z_at_1_6_seconds_cm": 26.863859,
+    "head_z_at_2_2_seconds_cm": 38.379372,
+    "head_z_at_2_6_seconds_cm": 27.489090,
+    "observation": "After first falling, the source lifts the head by roughly 11.5 cm and raises one arm again before settling. This resembles trying to brace or get up rather than continuous loss of strength.",
+    "recommendation": "Keep the genuine loss-of-balance and first fall through approximately 1.6 seconds. From about 1.65 seconds, author continuous relaxation to a real supported forearm/palm/head/torso terminal pose, then hold that exact pose."
+  },
+  "recommendations": [
+    "Use the current captured combat pose for the brief entry transition; the source begins in a flinch with one knee raised.",
+    "Preserve the source knee, pelvis and torso rotations during the actual fall instead of rotating an almost rigid standing character sideways.",
+    "Solve the two arm chains toward visible ground contact; the complete mesh touching the floor does not establish that the forearms and hands are grounded.",
+    "Reduce excess whole-body support height only after resolving thick-boot and garment restrictions. Simply lowering the root would bury the boots or clothing.",
+    "Retain a short exact terminal hold and one non-looping playback. Keep the source model Basis, weights, face, feet, hands and sword hilt intact."
+  ],
+  "evidence": {
+    "all_candidate_images": "Candidate_*.png",
+    "current_baseline_image": "Candidate_Current_Natural_DeathPL.png",
+    "selected_source_image": "Candidate_NaturalCandidate_Anim_DeathPL.png",
+    "contact_measurements": "CandidateFinalSkinContact.json",
+    "preview_pose_export": "CandidateFinalSkinPoses.json",
+    "read_only_renderer": "review_candidates.py"
+  }
+}

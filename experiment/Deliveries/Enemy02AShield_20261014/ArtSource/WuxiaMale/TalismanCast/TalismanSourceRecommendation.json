@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-13",
+  "task": "ENEMY02A",
+  "source_character": "AssetInbox/武侠男.blend",
+  "character_inspection": "ArtSource/WuxiaMale/WuxiaMaleInspection.json",
+  "supplied_character_actions": [],
+  "existing_exported_pose_data": "ArtSource/WuxiaMale/SwordCombat/SwordCandidatePoses.json",
+  "existing_exported_clips": [
+    "Sword_Anim_CS_W_FWD",
+    "Sword_Anim_CSATLI_01",
+    "Sword_Anim_CSATLI_02"
+  ],
+  "existing_reviewed_sources": [
+    "Wuxia_Idle_Planted",
+    "Wuxia_Walk_Sword",
+    "Wuxia_Attack_Sword",
+    "Wuxia_Hit_Sword",
+    "Wuxia_Death_Grounded"
+  ],
+  "pack_gesture_names_for_future_review": [
+    "Anim_EM_stop",
+    "Anim_TA_ANG_PT_FWD_close",
+    "Anim_TA_ANG_PT_FWD_far",
+    "Anim_TA_ANG_hands_01"
+  ],
+  "pack_gesture_scope": "NPC filenames only; no claim that these unreviewed clips contain suitable magic or left-hand motion. They have no current Wuxia pose export or visual review.",
+  "spell_inventory_result": "No explicitly named spell, cast, magic or talisman clip found in the supplied animation pack filename inventory. Character blend inspection contains no actions.",
+  "recommended_action": "Author Wuxia_Cast_Talisman as a separate derivative of Wuxia_Idle_Planted using the already exported 23-bone idle_local data.",
+  "editor_author_script": "Saved/Scripts/author_talisman_cast.py",
+  "conversion": "Duplicate only Wuxia_Idle_Planted into Wuxia_Cast_Talisman; write AnimDataController tracks at 30 fps using existing skeleton and pose JSON; modify only upperarm_l, lowerarm_l and hand_l rotations. Preserve all translations/scales, root and lower body; remove inherited notify events and add no blade damage notify.",
+  "timing_seconds": {
+    "raise_end": 0.6,
+    "hold_until": 1.1,
+    "release_end": 1.25,
+    "settled": 2.0,
+    "brain_warning": 1.1,
+    "brain_active": 0.15,
+    "brain_recovery": 2.0
+  },
+  "future_candidate_conversion": "A pack gesture would first need retargeting to the existing Wuxia skeleton into a new candidate folder, pose JSON export and actual Combat mesh review. Then blend only its left arm into the existing planted idle and resample warning/release timing. No original motion, mesh, face, feet, grip, hilt or selected death asset should be rewritten.",
+  "execution_status": "Authoring scripts prepared only. No Unreal, Blender, build, tests or gameplay were invoked by the asset author."
+}

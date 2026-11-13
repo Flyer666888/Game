@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-16",
+  "status": "Compiled_AssetsSaved_InitialHeldArtReviewed_AwaitingUserVRPlay",
+  "user_selected_weapon": "A",
+  "selection_source": "AssetInbox/Over 9000 Swords.zip",
+  "source_zip_sha256": "0f95412d69026e37d25a935ce920f84e15fe5840901a44893577e27fe4fee198",
+  "weapon": {
+    "date": "2026-10-16",
+    "success": true,
+    "user_selection": "A",
+    "tests_added_or_run": false,
+    "bounds": {
+      "origin": [
+        -1.6689300537109375e-06,
+        1.1920928955078125e-07,
+        25.78193426132202
+      ],
+      "extent": [
+        7.527498960494995,
+        1.8009835481643677,
+        39.15715265274048
+      ]
+    },
+    "materials": [
+      {
+        "slot": "Blade03",
+        "asset": "/Game/ModularWeapons/Materials/MI_Sword_Blade_03.MI_Sword_Blade_03"
+      },
+      {
+        "slot": "Guard03",
+        "asset": "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_03.MI_Sword_Crossguard_03"
+      },
+      {
+        "slot": "Grip04",
+        "asset": "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01"
+      },
+      {
+        "slot": "Pommel03",
+        "asset": "/Game/ModularWeapons/Materials/MI_Sword_Pommel_03.MI_Sword_Pommel_03"
+      }
+    ],
+    "mesh": "/Game/ReversedScale/Weapons/SelectedSwordA/SM_PlayerSword_A.SM_PlayerSword_A",
+    "fbx_sha256": "dc4a3e7113d4b35d7404d40a8a45944d86169e46b530ce36e5d039db56e8a73d",
+    "original_weapon_preserved": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player",
+    "blade_samples_cm": [
+      [
+        0,
+        0,
+        8.42
+      ],
+      [
+        0,
+        0,
+        36.68
+      ],
+      [
+        0,
+        0,
+        64.94
+      ]
+    ],
+    "melee_damage": 10,
+    "scope": "Static mesh import, original material binding and save only."
+  },
+  "right_grip": {
+    "whole_hand_controller_yaw_adjust_degrees": 90,
+    "blade_tip_axis": "+Z",
+    "forward_cutting_edge_axis": "+X in neutral controller frame"
+  },
+  "vr_entrance": {
+    "initial_auto_start_delay_seconds": 3,
+    "requires": [
+      "HMD focus and tracking",
+      "both tracked controllers",
+      "installed input mapping",
+      "ready checkpoint",
+      "not paused or dead"
+    ],
+    "one_shot": true,
+    "heading_aligned_at_entry_restore": true,
+    "automatic_restart_after_cancel": false
+  },
+  "enemy_navigation": {
+    "root_cause": "The first failed move and same-frame failed reposition previously hid/despawned the enemy, failing the encounter.",
+    "nav_data_previously_existed": true,
+    "saved_generation_seconds": 2.26,
+    "ready_wait_seconds": 10,
+    "path_recovery_attempts": 3,
+    "recovery_delay_seconds": 0.75,
+    "no_nav_timeout_still_reports_failure": true,
+    "navigation_asset_report": "Docs/AI/VRNavigationSaved-2026-10-16.json"
+  },
+  "pause_enabled_vr_reset": true,
+  "initial_presentation": {
+    "date": "2026-10-16",
+    "views": [
+      "..\\..\\..\\..\\CombatProject\\Docs\\AI\\SelectedSwordA_Equipped.png",
+      "..\\..\\..\\..\\CombatProject\\Docs\\AI\\SelectedSwordA_BothGrip.png"
+    ],
+    "no_agent_gameplay_inputs": true,
+    "tests_added_or_run": false,
+    "scope": "Initial desktop Ready art presentation of the actual equipped hands. No controller simulation, enemy start or gameplay acceptance.",
+    "hand_mesh_uasset_sha256": "35ed1ac9c1c1f990f428237bbfaaacd0f5c22700b751e02108ddef1095468f4a",
+    "right_hand": {
+      "mesh": "/Game/ReversedScale/Player/Hands/SK_PlayerHand_Realistic_R.SK_PlayerHand_Realistic_R",
+      "materials": [
+        "/Game/ReversedScale/Player/Materials/M_PlayerSkin.M_PlayerSkin",
+        "/Game/ReversedScale/Player/Materials/M_PlayerNails.M_PlayerNails"
+      ],
+      "relative_transform": "<Struct 'Transform' (0x00000215D86E4570) {rotation: {x: 0.000000, y: -0.382683, z: 0.000000, w: 0.923880}, translation: {x: 43.000000, y: 22.000000, z: -12.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "animation": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>"
+    },
+    "left_hand": {
+      "mesh": "/Game/ReversedScale/Player/Hands/SK_PlayerHand_Realistic_R.SK_PlayerHand_Realistic_R",
+      "materials": [
+        "/Game/ReversedScale/Player/Materials/M_PlayerSkin.M_PlayerSkin",
+        "/Game/ReversedScale/Player/Materials/M_PlayerNails.M_PlayerNails"
+      ],
+      "relative_transform": "<Struct 'Transform' (0x00000215D86E47B0) {rotation: {x: 0.000000, y: 0.000000, z: 0.707107, w: 0.707107}, translation: {x: -12.960980, y: 0.000000, z: 2.089020}, scale3d: {x: 1.000000, y: -1.000000, z: 1.000000}}>",
+      "animation": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>"
+    },
+    "held_weapon": "/Game/ReversedScale/Weapons/SelectedSwordA/SM_PlayerSword_A.SM_PlayerSword_A",
+    "weapon_materials": [
+      "/Game/ModularWeapons/Materials/MI_Sword_Blade_03.MI_Sword_Blade_03",
+      "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_03.MI_Sword_Crossguard_03",
+      "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01",
+      "/Game/ModularWeapons/Materials/MI_Sword_Pommel_03.MI_Sword_Pommel_03"
+    ],
+    "weapon_relative_transform": "<Struct 'Transform' (0x00000215D86E47B0) {rotation: {x: 0.500000, y: -0.500000, z: -0.500000, w: 0.500000}, translation: {x: 0.000000, y: 2.650000, z: -7.800000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "blade_samples_cm": {
+      "blade_root_local": "<Struct 'Vector' (0x00000215B15C3F98) {x: 0.000000, y: 0.000000, z: 8.420000}>",
+      "blade_mid_local": "<Struct 'Vector' (0x00000215B15C3FB0) {x: 0.000000, y: 0.000000, z: 36.680000}>",
+      "blade_tip_local": "<Struct 'Vector' (0x00000215B15C3FC8) {x: 0.000000, y: 0.000000, z: 64.940000}>"
+    },
+    "health": 100.0,
+    "guard": 100.0,
+    "encounter_state": "<NLEncounterState.READY: 0>",
+    "alive_enemies": 0,
+    "melee_damage": 10.0,
+    "guard_active_at_art_capture": false,
+    "guard_collision_at_art_capture": "<CollisionEnabled.NO_COLLISION: 0>",
+    "visual_binding_restored": true
+  },
+  "compile": "Succeeded",
+  "automated_tests_added_or_run": false,
+  "real_hmd_acceptance": "Pending user play",
+  "launcher": "Run_VR_Demo.cmd",
+  "runtime_note": "The launcher selects SteamVR only for its child. The system default OpenXR remains Meta.",
+  "source_backup": "Deliveries/BeforeVRGripEncounter_20261015",
+  "snapshot": "Deliveries/VRGripSwordA_20261016",
+  "snapshot_requires": "Full base experiment project and local UE5.8; this is not a packaged standalone executable."
+}

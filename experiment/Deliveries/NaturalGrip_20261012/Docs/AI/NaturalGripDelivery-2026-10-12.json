@@ -1,0 +1,430 @@
+{
+  "date": "2026-10-12",
+  "request": "Natural enemy death and correct hand/weapon grip; three-hour authorized session",
+  "session_start_utc": "2026-10-12T07:34:26Z",
+  "session_end_utc": "2026-10-12T10:35:00Z",
+  "status": "Source compiled, assets saved, initial scene and authoring previews reviewed; user acceptance pending",
+  "saved_assets": {
+    "date": "2026-10-12",
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+    "skeleton": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Demo_Skeleton.SK_WuxiaMale_Demo_Skeleton",
+    "death_asset": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+    "duration_seconds": 3.299999952316284,
+    "final_hold_seconds": 0.6,
+    "morph_names": [
+      "EnemyGrip_R",
+      "EnemyDeathRobe_4",
+      "EnemyDeathRobe_5",
+      "EnemyDeathRobe_6",
+      "EnemyDeathRobe_7",
+      "EnemyDeathRobe_8"
+    ],
+    "morph_curves": [
+      {
+        "requested": "EnemyDeathRobe_1",
+        "skipped_empty_morph": true
+      },
+      {
+        "requested": "EnemyDeathRobe_2",
+        "skipped_empty_morph": true
+      },
+      {
+        "requested": "EnemyDeathRobe_3",
+        "skipped_empty_morph": true
+      },
+      {
+        "name": "EnemyDeathRobe_4",
+        "keys": 100,
+        "interpolation": "Linear"
+      },
+      {
+        "name": "EnemyDeathRobe_5",
+        "keys": 100,
+        "interpolation": "Linear"
+      },
+      {
+        "name": "EnemyDeathRobe_6",
+        "keys": 100,
+        "interpolation": "Linear"
+      },
+      {
+        "name": "EnemyDeathRobe_7",
+        "keys": 100,
+        "interpolation": "Linear"
+      },
+      {
+        "name": "EnemyDeathRobe_8",
+        "keys": 100,
+        "interpolation": "Linear"
+      }
+    ],
+    "grip_morph_name": "EnemyGrip_R",
+    "grip_weight": 1.0,
+    "grip_location_cm": [
+      -1.875828504562378,
+      -8.074670791625977,
+      -5.046912670135498
+    ],
+    "grip_quaternion_xyzw": [
+      0.8239123225212097,
+      -0.5253214240074158,
+      -0.16701309382915497,
+      0.1315772384405136
+    ],
+    "maps": [
+      {
+        "map": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+        "backup": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel_BeforeNaturalGrip_20261012",
+        "actors": [
+          {
+            "name": "SwordDisciple_1",
+            "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+            "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+            "native_grip": true
+          },
+          {
+            "name": "SwordDisciple_2",
+            "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+            "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+            "native_grip": true
+          }
+        ]
+      },
+      {
+        "map": "/Game/ReversedScale/Maps/L_CombatLabReflection",
+        "backup": "/Game/ReversedScale/Maps/L_CombatLabReflection_BeforeNaturalGrip_20261012",
+        "actors": [
+          {
+            "name": "TrainingDisciple_1",
+            "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+            "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+            "native_grip": false
+          },
+          {
+            "name": "TrainingDisciple_2",
+            "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+            "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+            "native_grip": false
+          }
+        ]
+      },
+      {
+        "map": "/Game/ReversedScale/Maps/L_CombatLabGuard",
+        "backup": "/Game/ReversedScale/Maps/L_CombatLabGuard_BeforeNaturalGrip_20261012",
+        "actors": [
+          {
+            "name": "TrainingDisciple_1",
+            "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+            "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+            "native_grip": false
+          },
+          {
+            "name": "TrainingDisciple_2",
+            "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+            "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+            "native_grip": false
+          }
+        ]
+      },
+      {
+        "map": "/Game/ReversedScale/Maps/L_CombatLabMelee",
+        "backup": "/Game/ReversedScale/Maps/L_CombatLabMelee_BeforeNaturalGrip_20261012",
+        "actors": [
+          {
+            "name": "TrainingDisciple_1",
+            "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+            "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+            "native_grip": false
+          },
+          {
+            "name": "TrainingDisciple_2",
+            "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+            "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural",
+            "native_grip": false
+          }
+        ]
+      }
+    ],
+    "scope": "Asset authoring and saved references. Actual combat acceptance awaits user play."
+  },
+  "initial_scene": {
+    "date": "2026-10-12",
+    "scene_loaded": true,
+    "map": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+    "health": 100.0,
+    "guard": 100.0,
+    "camera_cm": [
+      30.0,
+      -170.0,
+      146.8152618408203
+    ],
+    "melee_damage": 10.0,
+    "enemies": [
+      {
+        "name": "NLEnemyCharacter_0",
+        "capsule_origin_cm": [
+          430.0,
+          -280.0,
+          90.40000104904175
+        ],
+        "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+        "grip_morph_name": "EnemyGrip_R",
+        "grip_morph_weight": 1.0,
+        "grip_relative_location_cm": [
+          -1.8758285045623944,
+          -8.07467079162598,
+          -5.046912670135511
+        ],
+        "mesh_floor_origin_cm": [
+          430.0,
+          -280.0,
+          3.814697265625e-06
+        ],
+        "head_cm": [
+          418.35439370739033,
+          -280.82414061472747,
+          143.2564360536136
+        ],
+        "hand_r_cm": [
+          459.9365066666251,
+          -300.06454073344787,
+          98.46462535242803
+        ],
+        "foot_l_cm": [
+          424.7947577644382,
+          -265.8595413517417,
+          11.993018534108685
+        ],
+        "foot_r_cm": [
+          438.1513310940054,
+          -290.4679278348789,
+          11.925461825591576
+        ],
+        "sword_origin_cm": [
+          459.0409200094436,
+          -305.78475860749455,
+          90.6756948978955
+        ],
+        "sword_axis_cm": [
+          -0.856430624814686,
+          -0.23997413106348883,
+          -0.4570984590871521
+        ],
+        "health": 30.0,
+        "combat_enabled": false,
+        "brain_state": "<NLEnemyState.PAUSED: 9>",
+        "damage": 10.0,
+        "telegraph_seconds": 0.800000011920929,
+        "active_seconds": 0.23000000417232513,
+        "recover_seconds": 1.3033332824707031,
+        "animations": {
+          "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+          "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+          "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+          "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural"
+        }
+      },
+      {
+        "name": "NLEnemyCharacter_1",
+        "capsule_origin_cm": [
+          620.0,
+          40.0,
+          90.40000104904175
+        ],
+        "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+        "grip_morph_name": "EnemyGrip_R",
+        "grip_morph_weight": 1.0,
+        "grip_relative_location_cm": [
+          -1.8758285045623837,
+          -8.074670791625971,
+          -5.04691267013555
+        ],
+        "mesh_floor_origin_cm": [
+          620.0,
+          40.0,
+          0.0
+        ],
+        "head_cm": [
+          610.9291479915664,
+          32.650238268051844,
+          143.25643223891635
+        ],
+        "hand_r_cm": [
+          656.0314965746018,
+          40.71517888639428,
+          98.46462153773076
+        ],
+        "foot_l_cm": [
+          607.6302044760882,
+          48.60437541083563,
+          11.99301471941142
+        ],
+        "foot_r_cm": [
+          632.6791930223005,
+          36.09362366590514,
+          11.92545801089431
+        ],
+        "sword_origin_cm": [
+          658.5760015060243,
+          35.51436523456527,
+          90.6756910831982
+        ],
+        "sword_axis_cm": [
+          -0.5642810083159581,
+          -0.6874939580491419,
+          -0.4570984590871534
+        ],
+        "health": 30.0,
+        "combat_enabled": false,
+        "brain_state": "<NLEnemyState.PAUSED: 9>",
+        "damage": 10.0,
+        "telegraph_seconds": 0.800000011920929,
+        "active_seconds": 0.23000000417232513,
+        "recover_seconds": 1.3033332824707031,
+        "animations": {
+          "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+          "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+          "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+          "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+          "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural"
+        }
+      }
+    ],
+    "emitters": [
+      {
+        "position_cm": [
+          800.0,
+          -170.0,
+          0.0
+        ],
+        "enabled": false
+      }
+    ],
+    "navigation_data": [
+      {
+        "name": "RecastNavMesh-SwordDisciple",
+        "runtime_generation_configured": "Dynamic (DefaultEngine.ini)",
+        "agent_radius": 28.0,
+        "agent_height": 176.0
+      }
+    ],
+    "scope": "Read-only initial scene capture. No gameplay input, movement/path query or combat tests were run."
+  },
+  "source_build": {
+    "target": "experimentEditor Win64 Development",
+    "result": "Succeeded",
+    "exit_code": 0,
+    "toolchain": "MSVC 14.44.35229 / SDK 10.0.22621.0",
+    "log": "Docs/AI/BuildLog-NaturalGrip-2026-10-12.txt"
+  },
+  "asset_save": {
+    "commandlet_exit_code": 0,
+    "errors": 0,
+    "warnings": 7,
+    "warnings_scope": "FBX bind-pose warning, existing curves overwritten on idempotent save, headless CrowdManager navigation warning",
+    "log": "Docs/AI/NaturalGripImport-2026-10-12.log"
+  },
+  "death_motion": {
+    "full_source_seconds": 2.7,
+    "final_hold_seconds": 0.6,
+    "description": "Full kneel, loss of support, hand brace, forward collapse and relaxation from Anim_DeathPL.",
+    "invented_whole_body_root_rotation": false,
+    "loop_in_game": false,
+    "transition_seconds": 0.18,
+    "body_boot_weights_preserved": true,
+    "garment_weight_vertices_changed": 12304,
+    "effective_garment_morph_curves": 5,
+    "author_corrected_mesh_minimum_range_cm": [
+      -0.28567302623400437,
+      1.9863133411851241
+    ],
+    "preview": "ArtSource/WuxiaMale/NaturalDeath/NaturalDeathAuthorPreview.gif"
+  },
+  "grip": {
+    "morph": "EnemyGrip_R",
+    "weight": 1.0,
+    "hand_vertex_deltas": 577,
+    "local_hand_weight_correction_vertices": 686,
+    "position": "Hilt centered in right palm, four fingers curled, blade exits thumb/index side.",
+    "runtime_reset": "Idle clears garment animation curves; component grip override remains and Reset reapplies it."
+  },
+  "preserved": [
+    "Original user blend files",
+    "Original face geometry and appearance",
+    "Original feet/boot weights",
+    "23-bone skeleton/reference pose",
+    "Original 43210-vertex Basis",
+    "Original weapon hilt",
+    "Player melee damage 10",
+    "Existing combat logic and attack/hit animations"
+  ],
+  "known_limits": [
+    "Original hand topology has seams and low finger detail, visible in close-up; separate hand topology repair remains.",
+    "Some final forearm surfaces remain a few centimeters above the floor in the authored death pose.",
+    "Tiny garment clearance residual can reach about 2.9 mm below the authored floor.",
+    "Gameplay death transition, enemy attack contact, reset and real VR require user acceptance."
+  ],
+  "demo_entry": "Run_SwordDuel_Demo.cmd",
+  "demo_requires_local_ue58": true,
+  "packaged_standalone_exe": false,
+  "process_id_at_delivery": 52892,
+  "gameplay_inputs_sent": false,
+  "automated_tests": "Not added or run",
+  "next_dependency": "WAVE-01 after current enemy presentation feedback; SAVE-01 follows WAVE-01.",
+  "reusable_sword_prefab": {
+    "blueprint": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple",
+    "generated_class": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+    "parent_class": "/Script/experiment.NLEnemyCharacter",
+    "source_map": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+    "source_actor": "SwordDisciple_1",
+    "source_report": "..\\..\\..\\..\\CombatProject\\Docs\\AI\\NaturalGripSaved-2026-10-12.json",
+    "cdo_refs": {
+      "enemy_skeletal_mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+      "idle_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Idle_Planted.Wuxia_Idle_Planted",
+      "walk_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Walk_Sword.Wuxia_Walk_Sword",
+      "attack_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Attack_Sword.Wuxia_Attack_Sword",
+      "hit_reaction_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Hit_Sword.Wuxia_Hit_Sword",
+      "death_animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Natural.Wuxia_Death_Natural"
+    },
+    "mesh_component_asset": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+    "grip_morph_name": "EnemyGrip_R",
+    "grip_morph_weight": 1.0,
+    "grip_location_cm": [
+      -1.875828504562378,
+      -8.074670791625977,
+      -5.046912670135498
+    ],
+    "grip_quaternion_xyzw": [
+      0.8239122869325681,
+      -0.5253214318833186,
+      -0.16701308975309817,
+      0.13157721876042566
+    ],
+    "brain": {
+      "telegraph_seconds": 0.800000011920929,
+      "attack_seconds": 0.23000000417232513,
+      "recover_seconds": 1.3033332824707031,
+      "spawn_grace_seconds": 0.3499999940395355,
+      "attack_range": 130.0
+    },
+    "max_walk_speed": 122.81497192382812,
+    "attack_definition": "/Game/ReversedScale/Combat/DA_EnemySword.DA_EnemySword",
+    "health": 30.0,
+    "saved": true,
+    "level_actors_replaced": false,
+    "scope": "Reusable prefab authoring; no gameplay input or tests run."
+  },
+  "next_task_design": "Docs/AI/WaveNextTask-2026-10-12.json",
+  "wave_controller_implemented": false,
+  "initial_scene_scope": "Two live idle enemies, new mesh/Grip override/Natural death references read; temporary idle hand portrait camera restored; no combat input.",
+  "recovery_snapshot": "Deliveries/NaturalGrip_20261012/Manifest.json",
+  "user_controls": {
+    "G": "Start/stop duel",
+    "LMB": "Slash (10 damage)",
+    "R": "Reset",
+    "E": "Blade qi (15)",
+    "RMB": "Mirror"
+  },
+  "session_status": "Finished at authorization deadline; heartbeat automation confirmed paused."
+}

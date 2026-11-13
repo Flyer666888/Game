@@ -1,0 +1,916 @@
+{
+  "date": "2026-10-15",
+  "generated_utc": "2026-10-15T15:08:44.259101+00:00",
+  "project": "ReversedScale / 逆鳞",
+  "task": "SteamVR controller movement and tracked sword swings, followed by realistic player hands",
+  "status": "Compiled_AssetsSaved_InitialArtReviewed_AwaitingUserVRPlay",
+  "demo": {
+    "launcher": "Run_VR_Demo.cmd",
+    "map": "/Game/ReversedScale/Maps/L_CombatLabVR",
+    "pawn": "/Script/experiment.NLVRPlayerCharacter",
+    "game_mode": "/Script/experiment.NLVRGameMode",
+    "local_ue58_and_base_assets_required": true,
+    "packaged_standalone_exe": false,
+    "runtime_manifest": "D:\\steam\\steamapps\\common\\SteamVR\\steamxr_win64.json",
+    "runtime_selection": "XR_RUNTIME_JSON in the UE child process only; global runtime registry unchanged",
+    "command_flags": "-game -vr; no -nohmd",
+    "default_project_map": "/Game/ReversedScale/Maps/L_CombatLabVR"
+  },
+  "vr": {
+    "left_stick": "HMD-yaw-relative movement, 180 cm/s",
+    "right_stick": "30 degree snap turn, rearm after release",
+    "vive_wmr_trackpad": "Press trackpad to move/turn",
+    "left_trigger": "Held shield guard",
+    "right_hand_motion": "Tracked blade sweep, melee damage 10",
+    "right_trigger": "Blade qi, damage 15",
+    "start": "Right A (Index/Touch/PICO/HP) or right menu (Vive/WMR); keyboard G fallback",
+    "retry": "Right B (Index/Touch/PICO/HP) or right grip (Vive/WMR); keyboard R fallback",
+    "pause": "Left B (Index), left Y (Touch/PICO/HP) or left menu (Vive/WMR); P/Esc fallback",
+    "height": "Real HMD floor-relative pose; desktop eye-height matching bypassed",
+    "tracking_loss": "Combat gated by active HMD/controller tracking; fresh settled sample required",
+    "sample_basis": "VROrigin; locomotion and snap turns excluded from damaging swing motion",
+    "minimum_swing_speed_cm_s": 220,
+    "settle_speed_cm_s": 70,
+    "input_mapping_count": 53,
+    "optional_keys_skipped": [],
+    "checkpoint_context": [
+      "Level.CombatLab.VR",
+      "Encounter.VRMixedDisciples",
+      "VRMixed.VRINPUT01.1"
+    ],
+    "wave_count": 2,
+    "hardware_acceptance": "Pending user SteamVR play; no controller poses or inputs were simulated"
+  },
+  "hands": {
+    "mesh": "/Game/ReversedScale/Player/Hands/SK_PlayerHand_Realistic_R.SK_PlayerHand_Realistic_R",
+    "skeleton": "/Game/XRMannequins/Meshes/SK_MannequinsXR.SK_MannequinsXR",
+    "bind_pose": {
+      "matches_original_hierarchy_and_bind_pose": true,
+      "expected_bone_count": 47,
+      "actual_bone_count": 47,
+      "tolerances": {
+        "translation_cm": 0.03,
+        "rotation_deg": 0.1,
+        "scale_component": 0.001
+      },
+      "maximum_errors": {
+        "local": {
+          "translation_cm": 3.860677678737921e-06,
+          "rotation_deg": 2.6231839250190885e-05,
+          "scale_component": 2.384185791015625e-07,
+          "quaternion_component_sign_invariant": 2.2732009251347218e-07
+        },
+        "world": {
+          "translation_cm": 4.895215738008828e-06,
+          "rotation_deg": 2.284542576421286e-05,
+          "scale_component": 3.576278970740532e-07,
+          "quaternion_component_sign_invariant": 1.9206081001976738e-07
+        }
+      },
+      "per_bone_differences": [
+        {
+          "bone": "root",
+          "local": {
+            "translation_cm": 0.0,
+            "rotation_deg": 0.0,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 0.0
+          },
+          "world": {
+            "translation_cm": 0.0,
+            "rotation_deg": 0.0,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 0.0
+          }
+        },
+        {
+          "bone": "hand_l",
+          "local": {
+            "translation_cm": 0.0,
+            "rotation_deg": 8.706816964856284e-06,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 5.3385077245298795e-08
+          },
+          "world": {
+            "translation_cm": 0.0,
+            "rotation_deg": 8.706816964856284e-06,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 5.3385077245298795e-08
+          }
+        },
+        {
+          "bone": "index_metacarpal_l",
+          "local": {
+            "translation_cm": 7.562981570034933e-07,
+            "rotation_deg": 9.195423586105976e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 8.163556722284859e-08
+          },
+          "world": {
+            "translation_cm": 4.578512047438521e-07,
+            "rotation_deg": 1.7075472925031877e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 8.147101337313556e-09
+          }
+        },
+        {
+          "bone": "index_01_l",
+          "local": {
+            "translation_cm": 1.158391582632227e-06,
+            "rotation_deg": 1.7075472925031877e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 1.4289778804688069e-08
+          },
+          "world": {
+            "translation_cm": 1.849410830065686e-06,
+            "rotation_deg": 2.4148365394514667e-06,
+            "scale_component": 1.1920928599806757e-07,
+            "quaternion_component_sign_invariant": 1.660143467141495e-08
+          }
+        },
+        {
+          "bone": "index_02_l",
+          "local": {
+            "translation_cm": 3.179044783508011e-06,
+            "rotation_deg": 1.53679256325287e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 1.3185802608117747e-07
+          },
+          "world": {
+            "translation_cm": 1.1503448826142865e-06,
+            "rotation_deg": 1.7663006536443394e-05,
+            "scale_component": 1.7881392722074452e-07,
+            "quaternion_component_sign_invariant": 1.3499380002723882e-07
+          }
+        },
+        {
+          "bone": "index_03_l",
+          "local": {
+            "translation_cm": 1.136977286701717e-06,
+            "rotation_deg": 2.6231839250190885e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 2.2732009251347218e-07
+          },
+          "world": {
+            "translation_cm": 8.508361987375425e-07,
+            "rotation_deg": 9.352621701108683e-06,
+            "scale_component": 5.960465898624534e-08,
+            "quaternion_component_sign_invariant": 7.281649094803555e-08
+          }
+        },
+        {
+          "bone": "middle_metacarpal_l",
+          "local": {
+            "translation_cm": 5.101335873789695e-07,
+            "rotation_deg": 8.00910673140078e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 6.842315544860166e-08
+          },
+          "world": {
+            "translation_cm": 6.576257899353256e-08,
+            "rotation_deg": 1.7075472925031877e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 7.3659569554962445e-09
+          }
+        },
+        {
+          "bone": "middle_01_l",
+          "local": {
+            "translation_cm": 6.994841106935273e-07,
+            "rotation_deg": 2.9575586669421963e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 2.4828639071855305e-08
+          },
+          "world": {
+            "translation_cm": 3.4376733544392354e-07,
+            "rotation_deg": 2.4148365394514667e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 1.9154909436380763e-08
+          }
+        },
+        {
+          "bone": "middle_02_l",
+          "local": {
+            "translation_cm": 5.411996487294178e-07,
+            "rotation_deg": 0.0,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 1.4416995458566007e-08
+          },
+          "world": {
+            "translation_cm": 1.641996491199033e-07,
+            "rotation_deg": 2.4148365394514667e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 1.412127847988387e-08
+          }
+        },
+        {
+          "bone": "middle_03_l",
+          "local": {
+            "translation_cm": 1.3252765088805949e-06,
+            "rotation_deg": 2.3036072399967966e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 1.9963759763375055e-07
+          },
+          "world": {
+            "translation_cm": 1.293270072551071e-06,
+            "rotation_deg": 2.284542576421286e-05,
+            "scale_component": 5.960465898624534e-08,
+            "quaternion_component_sign_invariant": 1.89664530636513e-07
+          }
+        },
+        {
+          "bone": "thumb_01_l",
+          "local": {
+            "translation_cm": 4.2981520598697533e-07,
+            "rotation_deg": 1.0799477313527668e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 7.956938025133198e-08
+          },
+          "world": {
+            "translation_cm": 3.852140736149878e-07,
+            "rotation_deg": 1.0799477313527668e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 8.379051713580665e-08
+          }
+        },
+        {
+          "bone": "thumb_02_l",
+          "local": {
+            "translation_cm": 1.8963577801242554e-06,
+            "rotation_deg": 6.613302226726412e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 5.2104644460149174e-08
+          },
+          "world": {
+            "translation_cm": 1.5211236663941441e-06,
+            "rotation_deg": 1.2663509647306442e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 9.63240574525237e-08
+          }
+        },
+        {
+          "bone": "thumb_03_l",
+          "local": {
+            "translation_cm": 2.334924158060334e-06,
+            "rotation_deg": 2.4148365394514667e-06,
+            "scale_component": 2.384185791015625e-07,
+            "quaternion_component_sign_invariant": 1.7057127308306843e-08
+          },
+          "world": {
+            "translation_cm": 1.9791141305473587e-06,
+            "rotation_deg": 1.438804923141365e-05,
+            "scale_component": 3.576278970740532e-07,
+            "quaternion_component_sign_invariant": 1.1369717362041953e-07
+          }
+        },
+        {
+          "bone": "pinky_metacarpal_l",
+          "local": {
+            "translation_cm": 6.743495761743046e-07,
+            "rotation_deg": 1.2194326777763644e-05,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 8.864810732700512e-08
+          },
+          "world": {
+            "translation_cm": 1.1817409069532501e-07,
+            "rotation_deg": 8.00910673140078e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 5.753852236334289e-08
+          }
+        },
+        {
+          "bone": "pinky_01_l",
+          "local": {
+            "translation_cm": 1.0091068120799668e-06,
+            "rotation_deg": 2.4148365394514667e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 1.457496864865071e-08
+          },
+          "world": {
+            "translation_cm": 8.609431610670681e-07,
+            "rotation_deg": 7.0403978477281e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 5.8412316988540325e-08
+          }
+        },
+        {
+          "bone": "pinky_02_l",
+          "local": {
+            "translation_cm": 3.632915962607762e-07,
+            "rotation_deg": 1.6288963005921602e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 1.1550828247592766e-07
+          },
+          "world": {
+            "translation_cm": 1.2239291176219525e-06,
+            "rotation_deg": 2.252409575471313e-05,
+            "scale_component": 2.384185933124172e-07,
+            "quaternion_component_sign_invariant": 1.9206081001976738e-07
+          }
+        },
+        {
+          "bone": "pinky_03_l",
+          "local": {
+            "translation_cm": 1.7459594956477594e-06,
+            "rotation_deg": 2.3162298399097525e-05,
+            "scale_component": 1.7881393432617188e-07,
+            "quaternion_component_sign_invariant": 1.94802731262273e-07
+          },
+          "world": {
+            "translation_cm": 1.560385446380057e-06,
+            "rotation_deg": 6.15664931839995e-06,
+            "scale_component": 1.7881393432617188e-07,
+            "quaternion_component_sign_invariant": 4.596487385155612e-08
+          }
+        },
+        {
+          "bone": "ring_metacarpal_l",
+          "local": {
+            "translation_cm": 5.331201499700045e-07,
+            "rotation_deg": 6.389056940260397e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 5.191751584199267e-08
+          },
+          "world": {
+            "translation_cm": 8.049521126178935e-08,
+            "rotation_deg": 4.829673078902933e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 3.06485508916321e-08
+          }
+        },
+        {
+          "bone": "ring_01_l",
+          "local": {
+            "translation_cm": 1.594708188804818e-06,
+            "rotation_deg": 8.53773646251594e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 5.946404230128266e-08
+          },
+          "world": {
+            "translation_cm": 1.1842465168309052e-06,
+            "rotation_deg": 8.53773646251594e-06,
+            "scale_component": 2.384185933124172e-07,
+            "quaternion_component_sign_invariant": 7.008331153954273e-08
+          }
+        },
+        {
+          "bone": "ring_02_l",
+          "local": {
+            "translation_cm": 1.7054924848852634e-06,
+            "rotation_deg": 1.3976876963794275e-05,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 1.1135705879323788e-07
+          },
+          "world": {
+            "translation_cm": 1.5962533059258845e-06,
+            "rotation_deg": 8.00910673140078e-06,
+            "scale_component": 1.7881393432617188e-07,
+            "quaternion_component_sign_invariant": 4.6453552331182646e-08
+          }
+        },
+        {
+          "bone": "ring_03_l",
+          "local": {
+            "translation_cm": 1.2112094598954835e-06,
+            "rotation_deg": 2.6008585494473073e-05,
+            "scale_component": 1.7881393432617188e-07,
+            "quaternion_component_sign_invariant": 1.750172064496347e-07
+          },
+          "world": {
+            "translation_cm": 4.825326211954229e-07,
+            "rotation_deg": 1.8390847172211968e-05,
+            "scale_component": 5.96046660916727e-08,
+            "quaternion_component_sign_invariant": 1.3121971281782052e-07
+          }
+        },
+        {
+          "bone": "wrist_outer_l",
+          "local": {
+            "translation_cm": 1.862645149230957e-08,
+            "rotation_deg": 9.956626120759429e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 6.273342867402221e-08
+          },
+          "world": {
+            "translation_cm": 2.9695708261887904e-09,
+            "rotation_deg": 5.122641877509564e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 4.1862461663821904e-08
+          }
+        },
+        {
+          "bone": "wrist_inner_l",
+          "local": {
+            "translation_cm": 2.6845363116557105e-07,
+            "rotation_deg": 1.024528375501913e-05,
+            "scale_component": 1.7881393432617188e-07,
+            "quaternion_component_sign_invariant": 6.131755780902637e-08
+          },
+          "world": {
+            "translation_cm": 2.4443489119110665e-07,
+            "rotation_deg": 5.399738656763832e-06,
+            "scale_component": 1.7881393432617188e-07,
+            "quaternion_component_sign_invariant": 4.2332767680175465e-08
+          }
+        },
+        {
+          "bone": "palm_l",
+          "local": {
+            "translation_cm": 9.989232534479706e-07,
+            "rotation_deg": 3.4150945850063755e-06,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 3.17865049836996e-08
+          },
+          "world": {
+            "translation_cm": 9.139231472247849e-14,
+            "rotation_deg": 5.122641877509564e-06,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 3.0908624064402656e-08
+          }
+        },
+        {
+          "bone": "hand_r",
+          "local": {
+            "translation_cm": 0.0,
+            "rotation_deg": 8.706816964856284e-06,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 5.338507334744365e-08
+          },
+          "world": {
+            "translation_cm": 0.0,
+            "rotation_deg": 8.706816964856284e-06,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 5.338507334744365e-08
+          }
+        },
+        {
+          "bone": "wrist_inner_r",
+          "local": {
+            "translation_cm": 2.633124149899526e-07,
+            "rotation_deg": 7.82496472061276e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 5.299179017814737e-08
+          },
+          "world": {
+            "translation_cm": 2.385529954029859e-07,
+            "rotation_deg": 2.9575586669421963e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 1.8430492465526527e-08
+          }
+        },
+        {
+          "bone": "wrist_outer_r",
+          "local": {
+            "translation_cm": 1.862645149230957e-08,
+            "rotation_deg": 1.7827317112193638e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 1.1017658324563584e-07
+          },
+          "world": {
+            "translation_cm": 3.0033642002838404e-09,
+            "rotation_deg": 1.0526028440638417e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 5.33447298556311e-08
+          }
+        },
+        {
+          "bone": "pinky_metacarpal_r",
+          "local": {
+            "translation_cm": 1.0666567187412548e-06,
+            "rotation_deg": 2.9575586669421963e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 1.8210203012181125e-08
+          },
+          "world": {
+            "translation_cm": 5.938206934309651e-07,
+            "rotation_deg": 1.024528375501913e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 7.315877004199223e-08
+          }
+        },
+        {
+          "bone": "pinky_01_r",
+          "local": {
+            "translation_cm": 5.705413138591244e-07,
+            "rotation_deg": 1.6108968939569427e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 1.0783012463835839e-07
+          },
+          "world": {
+            "translation_cm": 4.0492267057733766e-07,
+            "rotation_deg": 1.145457546249854e-05,
+            "scale_component": 5.960463766996327e-08,
+            "quaternion_component_sign_invariant": 7.558226959060443e-08
+          }
+        },
+        {
+          "bone": "pinky_02_r",
+          "local": {
+            "translation_cm": 1.1179965123598998e-06,
+            "rotation_deg": 2.3905662095044672e-05,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 1.8201670660515372e-07
+          },
+          "world": {
+            "translation_cm": 1.0442605347265695e-06,
+            "rotation_deg": 2.2459278078588164e-05,
+            "scale_component": 5.960463766996327e-08,
+            "quaternion_component_sign_invariant": 1.5120828417147791e-07
+          }
+        },
+        {
+          "bone": "pinky_03_r",
+          "local": {
+            "translation_cm": 1.805224692840155e-06,
+            "rotation_deg": 1.2313298636799906e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 9.667932748813612e-08
+          },
+          "world": {
+            "translation_cm": 2.8094389742203004e-06,
+            "rotation_deg": 1.3445240826417657e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 8.103299512646212e-08
+          }
+        },
+        {
+          "bone": "ring_metacarpal_r",
+          "local": {
+            "translation_cm": 6.848052318737541e-07,
+            "rotation_deg": 1.0526028440638417e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 8.87303059221578e-08
+          },
+          "world": {
+            "translation_cm": 3.3557464410744146e-07,
+            "rotation_deg": 4.517745487845101e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 2.1504231617619496e-08
+          }
+        },
+        {
+          "bone": "ring_01_r",
+          "local": {
+            "translation_cm": 6.497214933993273e-07,
+            "rotation_deg": 5.399738656763832e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 3.714686676488388e-08
+          },
+          "world": {
+            "translation_cm": 1.9967866809158232e-07,
+            "rotation_deg": 6.613302226726412e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 4.736467996285798e-08
+          }
+        },
+        {
+          "bone": "ring_02_r",
+          "local": {
+            "translation_cm": 8.040432512548846e-07,
+            "rotation_deg": 8.365239156607494e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 5.394836554268866e-08
+          },
+          "world": {
+            "translation_cm": 8.419925159723466e-07,
+            "rotation_deg": 4.182619578303746e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 2.576294860778816e-08
+          }
+        },
+        {
+          "bone": "ring_03_r",
+          "local": {
+            "translation_cm": 2.4760798628555434e-06,
+            "rotation_deg": 8.706816964856284e-06,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 5.700535775720209e-08
+          },
+          "world": {
+            "translation_cm": 1.4049786097148229e-06,
+            "rotation_deg": 9.659346157805868e-06,
+            "scale_component": 2.384185933124172e-07,
+            "quaternion_component_sign_invariant": 7.353995190584328e-08
+          }
+        },
+        {
+          "bone": "middle_metacarpal_r",
+          "local": {
+            "translation_cm": 5.63098300328588e-07,
+            "rotation_deg": 9.195423586105976e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 7.887139029323685e-08
+          },
+          "world": {
+            "translation_cm": 2.7263466941853377e-07,
+            "rotation_deg": 1.7075472925031877e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 8.61022009246426e-09
+          }
+        },
+        {
+          "bone": "middle_01_r",
+          "local": {
+            "translation_cm": 2.075189814002408e-06,
+            "rotation_deg": 4.182619578303746e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 2.7596601837043266e-08
+          },
+          "world": {
+            "translation_cm": 2.639753303843152e-06,
+            "rotation_deg": 4.829673078902933e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 3.4717184349553065e-08
+          }
+        },
+        {
+          "bone": "middle_02_r",
+          "local": {
+            "translation_cm": 1.753656752002084e-06,
+            "rotation_deg": 8.706816964856284e-06,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 7.208497934674263e-08
+          },
+          "world": {
+            "translation_cm": 1.4305480075942676e-06,
+            "rotation_deg": 3.818191820832845e-06,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 3.0743303236491215e-08
+          }
+        },
+        {
+          "bone": "middle_03_r",
+          "local": {
+            "translation_cm": 2.7593853226468487e-07,
+            "rotation_deg": 1.4183953086968139e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 1.1830376034360768e-07
+          },
+          "world": {
+            "translation_cm": 1.7023417219093179e-06,
+            "rotation_deg": 1.7663006536443394e-05,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 1.4640540407784286e-07
+          }
+        },
+        {
+          "bone": "index_metacarpal_r",
+          "local": {
+            "translation_cm": 6.750077994409874e-07,
+            "rotation_deg": 7.636383641665691e-06,
+            "scale_component": 1.7881393432617188e-07,
+            "quaternion_component_sign_invariant": 6.677368849516974e-08
+          },
+          "world": {
+            "translation_cm": 1.2877713770133363e-07,
+            "rotation_deg": 0.0,
+            "scale_component": 1.7881393432617188e-07,
+            "quaternion_component_sign_invariant": 8.95990468971486e-09
+          }
+        },
+        {
+          "bone": "index_01_r",
+          "local": {
+            "translation_cm": 8.504112406599685e-07,
+            "rotation_deg": 1.145457546249854e-05,
+            "scale_component": 1.7881393432617188e-07,
+            "quaternion_component_sign_invariant": 9.756171495678423e-08
+          },
+          "world": {
+            "translation_cm": 1.2089124098533495e-06,
+            "rotation_deg": 1.1952831047522321e-05,
+            "scale_component": 2.9802320256067105e-07,
+            "quaternion_component_sign_invariant": 8.596233747049098e-08
+          }
+        },
+        {
+          "bone": "index_02_r",
+          "local": {
+            "translation_cm": 3.860677678737921e-06,
+            "rotation_deg": 1.976628896181796e-05,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 1.5416833643033812e-07
+          },
+          "world": {
+            "translation_cm": 4.895215738008828e-06,
+            "rotation_deg": 8.87267600082659e-06,
+            "scale_component": 2.9802320256067105e-07,
+            "quaternion_component_sign_invariant": 5.326652833463445e-08
+          }
+        },
+        {
+          "bone": "index_03_r",
+          "local": {
+            "translation_cm": 1.3563351020192754e-06,
+            "rotation_deg": 1.448901923670881e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 1.0546024033363365e-07
+          },
+          "world": {
+            "translation_cm": 3.5748878684723245e-06,
+            "rotation_deg": 1.3976876963794275e-05,
+            "scale_component": 1.788139485370266e-07,
+            "quaternion_component_sign_invariant": 9.476374401851118e-08
+          }
+        },
+        {
+          "bone": "thumb_01_r",
+          "local": {
+            "translation_cm": 4.460403188197543e-07,
+            "rotation_deg": 1.5556496191597987e-05,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 1.2080338329667484e-07
+          },
+          "world": {
+            "translation_cm": 1.383799865979948e-07,
+            "rotation_deg": 1.1066171232981565e-05,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 6.790604156758917e-08
+          }
+        },
+        {
+          "bone": "thumb_02_r",
+          "local": {
+            "translation_cm": 1.3948456178184623e-06,
+            "rotation_deg": 1.831140469640497e-05,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 1.213211059530872e-07
+          },
+          "world": {
+            "translation_cm": 1.2504007724869514e-06,
+            "rotation_deg": 1.7245382313122758e-05,
+            "scale_component": 5.960464477539063e-08,
+            "quaternion_component_sign_invariant": 1.1269867317142968e-07
+          }
+        },
+        {
+          "bone": "thumb_03_r",
+          "local": {
+            "translation_cm": 9.001941434393229e-07,
+            "rotation_deg": 1.0386604689550568e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 7.393984985393232e-08
+          },
+          "world": {
+            "translation_cm": 1.3917085087934716e-06,
+            "rotation_deg": 1.0799477313527668e-05,
+            "scale_component": 1.1920928955078125e-07,
+            "quaternion_component_sign_invariant": 6.433178711962029e-08
+          }
+        },
+        {
+          "bone": "palm_r",
+          "local": {
+            "translation_cm": 1.0001838090764803e-06,
+            "rotation_deg": 1.366037834002551e-05,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 1.1920928245208767e-07
+          },
+          "world": {
+            "translation_cm": 5.069887502561944e-08,
+            "rotation_deg": 4.829673078902933e-06,
+            "scale_component": 0.0,
+            "quaternion_component_sign_invariant": 3.090861878069653e-08
+          }
+        }
+      ],
+      "violations": []
+    },
+    "material_slots": [
+      {
+        "material_slot_name": "M_Skin",
+        "imported_material_slot_name": "M_Skin",
+        "material": "/Game/ReversedScale/Player/Materials/M_PlayerSkin.M_PlayerSkin"
+      },
+      {
+        "material_slot_name": "M_Nails",
+        "imported_material_slot_name": "M_Nails",
+        "material": "/Game/ReversedScale/Player/Materials/M_PlayerNails.M_PlayerNails"
+      }
+    ],
+    "lods": [
+      {
+        "index": 0,
+        "render_vertices": 17851,
+        "sections": 2
+      }
+    ],
+    "materials": [
+      {
+        "asset": "/Game/ReversedScale/Player/Materials/M_PlayerSkin.M_PlayerSkin",
+        "profile": "skin",
+        "base_color": "Imported linear vertex colors",
+        "roughness": "UV0 roughness red channel",
+        "specular": 0.28,
+        "metallic": 0.0,
+        "shading_model": "Default Lit",
+        "subsurface_profile": null,
+        "two_sided": false,
+        "texture_samples": 2,
+        "uv_tiling": 6.0,
+        "normal_strength": 0.28,
+        "compile_errors": [],
+        "saved": true
+      },
+      {
+        "asset": "/Game/ReversedScale/Player/Materials/M_PlayerNails.M_PlayerNails",
+        "profile": "nails",
+        "base_color": "Imported linear vertex colors",
+        "roughness": 0.3,
+        "specular": 0.28,
+        "metallic": 0.0,
+        "shading_model": "Default Lit",
+        "subsurface_profile": null,
+        "two_sided": false,
+        "texture_samples": 0,
+        "uv_tiling": 1.0,
+        "normal_strength": null,
+        "compile_errors": [],
+        "saved": true
+      }
+    ],
+    "textures": [
+      {
+        "asset": "/Game/ReversedScale/Player/Hands/Textures/T_PlayerSkin_Normal.T_PlayerSkin_Normal",
+        "source": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\PlayerHands\\Realistic\\T_PlayerHand_Micro_N.png",
+        "role": "normal",
+        "sha256": "8a5a97987c72f3c3720f7018019c1c0bf77de38bcf03005eedfd40f11a324f32",
+        "srgb": false,
+        "saved": true,
+        "normal_convention": "directx"
+      },
+      {
+        "asset": "/Game/ReversedScale/Player/Hands/Textures/T_PlayerSkin_Roughness.T_PlayerSkin_Roughness",
+        "source": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\experiment\\ArtSource\\PlayerHands\\Realistic\\T_PlayerHand_Micro_R.png",
+        "role": "roughness",
+        "sha256": "a0e0526058651508be4e4c5ee128be9af1652cd6b2dd6003d10ed158727d8f80",
+        "srgb": false,
+        "saved": true,
+        "normal_convention": null
+      }
+    ],
+    "left_hand": "Same authored mesh and grip animation, mirrored by the existing calibrated left-hand transform",
+    "grip_and_hilt": "Original hand_r, grip animation and weapon attachment transforms retained",
+    "source": "ArtSource/PlayerHands/Realistic",
+    "original_assets_unchanged_on_disk": true,
+    "presentation": {
+      "date": "2026-10-15",
+      "views": [
+        "..\\..\\..\\..\\CombatProject\\Docs\\AI\\PlayerHands_Equipped.png",
+        "..\\..\\..\\..\\CombatProject\\Docs\\AI\\PlayerHands_BothGrip.png"
+      ],
+      "no_agent_gameplay_inputs": true,
+      "tests_added_or_run": false,
+      "scope": "Initial desktop Ready art presentation of the actual equipped hands. No controller simulation, enemy start or gameplay acceptance.",
+      "hand_mesh_uasset_sha256": "35ed1ac9c1c1f990f428237bbfaaacd0f5c22700b751e02108ddef1095468f4a",
+      "right_hand": {
+        "mesh": "/Game/ReversedScale/Player/Hands/SK_PlayerHand_Realistic_R.SK_PlayerHand_Realistic_R",
+        "materials": [
+          "/Game/ReversedScale/Player/Materials/M_PlayerSkin.M_PlayerSkin",
+          "/Game/ReversedScale/Player/Materials/M_PlayerNails.M_PlayerNails"
+        ],
+        "relative_transform": "<Struct 'Transform' (0x0000015E7537CF90) {rotation: {x: -0.653281, y: -0.270598, z: -0.270598, w: 0.653281}, translation: {x: 43.000000, y: 22.000000, z: -12.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+        "animation": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>"
+      },
+      "left_hand": {
+        "mesh": "/Game/ReversedScale/Player/Hands/SK_PlayerHand_Realistic_R.SK_PlayerHand_Realistic_R",
+        "materials": [
+          "/Game/ReversedScale/Player/Materials/M_PlayerSkin.M_PlayerSkin",
+          "/Game/ReversedScale/Player/Materials/M_PlayerNails.M_PlayerNails"
+        ],
+        "relative_transform": "<Struct 'Transform' (0x0000015E7537C3C0) {rotation: {x: 0.000000, y: 0.000000, z: 0.707107, w: 0.707107}, translation: {x: -12.960980, y: 0.000000, z: 2.089020}, scale3d: {x: 1.000000, y: -1.000000, z: 1.000000}}>",
+        "animation": "<AnimationMode.ANIMATION_SINGLE_NODE: 1>"
+      },
+      "health": 100.0,
+      "guard": 100.0,
+      "encounter_state": "<NLEncounterState.READY: 0>",
+      "alive_enemies": 0,
+      "melee_damage": 10.0,
+      "guard_active_at_art_capture": false,
+      "guard_collision_at_art_capture": "<CollisionEnabled.NO_COLLISION: 0>",
+      "visual_binding_restored": true
+    }
+  },
+  "compile": {
+    "target": "experimentEditor Win64 Development",
+    "result": "Succeeded",
+    "exit_code": 0,
+    "log": "Docs/AI/BuildLog-VRInputHands-2026-10-15.txt"
+  },
+  "preserved": [
+    "Player melee 10 and blade qi 15",
+    "Enemy face, feet, grounded death and sword grip",
+    "User weapon hilt and shield PBR assets",
+    "Original desktop lab maps and launchers"
+  ],
+  "validation_scope": "Native compilation, asset import/save and initial art presentation only. No tests added or run; no combat, locomotion or save/load exercise by the agent.",
+  "remaining_user_review": [
+    "SteamVR headset and both controller tracking",
+    "Movement and snap turn",
+    "Real sword swing contacts and guard timing",
+    "Hand appearance and controller grip offsets"
+  ],
+  "automation": "Existing automation remains PAUSED",
+  "snapshot": "Deliveries/VRHands_20261015/Manifest.json",
+  "before_source": "Deliveries/BeforeVRInput_20261015/Manifest.json"
+}

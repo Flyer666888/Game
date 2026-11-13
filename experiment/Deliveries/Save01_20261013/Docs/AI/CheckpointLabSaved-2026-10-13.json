@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-13",
+  "task": "SAVE-01",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabCheckpoint",
+  "source_map_preserved": "/Game/ReversedScale/Maps/L_CombatLabWaves",
+  "controller": {
+    "level_id": "Level.CombatLab.Checkpoint",
+    "encounter_id": "Encounter.SwordWaves",
+    "content_revision": "SwordWaves.SAVE01.1",
+    "bEnableCheckpoints": "True"
+  },
+  "controller_actor": "/Game/ReversedScale/Maps/L_CombatLabCheckpoint.L_CombatLabCheckpoint:PersistentLevel.NLEncounterController_0",
+  "waves": [
+    "/Game/ReversedScale/Encounters/DA_WaveSword01.DA_WaveSword01",
+    "/Game/ReversedScale/Encounters/DA_WaveSword02.DA_WaveSword02"
+  ],
+  "wave_counts": [
+    2,
+    3
+  ],
+  "spawn_point_count": 5,
+  "seed": 20261012,
+  "enemy_prefab": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple_C",
+  "preserved_death": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+  "preserved_grip_weight": 1.0,
+  "initial_authored_enemy_count": 0,
+  "game_mode": "/Game/ReversedScale/Player/BP_CombatLabSwordDuelGameMode.BP_CombatLabSwordDuelGameMode_C",
+  "save_scope": "USaveGame section entry at wave boundaries, current living entry health/guard and desktop root/control rotation; no arbitrary mid-swing/projectile state.",
+  "capture_scope": "Editor authoring only. No save write, load/restore action, enemy spawning, damage or gameplay input."
+}

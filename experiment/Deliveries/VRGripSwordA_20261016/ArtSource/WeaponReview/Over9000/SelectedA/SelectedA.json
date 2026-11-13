@@ -1,0 +1,570 @@
+{
+  "asset_name": "SM_PlayerSword_A",
+  "candidate": "A",
+  "units": "centimeters: Blender unit scale 0.01",
+  "operations": "Keep all four original component coordinate origins; no per-component recentering; uniform 0.64 then +90 degrees around Z then +1.7053818 cm Z; exclude UCX; join static meshes only",
+  "requested_source_cm_to_output_cm": [
+    [
+      4.831865396681678e-08,
+      -0.6399999856948853,
+      0.0,
+      0.0
+    ],
+    [
+      0.6399999856948853,
+      4.831865396681678e-08,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.6399999856948853,
+      1.7053817510604858
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_import_m_to_output_cm": [
+    [
+      4.831865226151422e-06,
+      -64.0,
+      0.0,
+      0.0
+    ],
+    [
+      64.0,
+      4.831865226151422e-06,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      64.0,
+      1.7053817510604858
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "uniform_scale": 0.64,
+  "rotation_z_degrees": 90.0,
+  "translation_cm": [
+    0,
+    0,
+    1.7053818
+  ],
+  "parts": [
+    {
+      "source_name": "sword_blade_03",
+      "material_slot": "Blade03",
+      "source_ue_asset": "/Game/ModularWeapons/Meshes/Swords/Blades/sword_blade_03.sword_blade_03",
+      "source_ue_materials": [
+        "/Game/ModularWeapons/Materials/MI_Sword_Blade_03.MI_Sword_Blade_03"
+      ],
+      "source_fbx_material_names": [
+        "MI_Sword_Blade_03"
+      ],
+      "source_import_matrix_world": [
+        [
+          0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.009999999776482582,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.009999999776482582,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mesh_bounds_cm": {
+        "min": [
+          -0.6772677898406982,
+          -6.129087924957275,
+          10.492268562316895
+        ],
+        "max": [
+          0.6772677898406982,
+          6.129089832305908,
+          98.80265808105469
+        ]
+      },
+      "source_ue_inventory_origin_cm": [
+        0.0,
+        -9.5367431640625e-07,
+        54.64746856689453
+      ],
+      "source_ue_inventory_extent_cm": [
+        0.6772677898406982,
+        6.129088878631592,
+        44.15519714355469
+      ],
+      "transformed_bounds_cm": {
+        "min": [
+          -3.9226174354553223,
+          -0.43345168232917786,
+          8.42043399810791
+        ],
+        "max": [
+          3.9226162433624268,
+          0.43345168232917786,
+          64.9390869140625
+        ]
+      },
+      "source_uv_names": [
+        "UVmap_0",
+        "LightMapUV"
+      ],
+      "uv_layer_count": 2,
+      "source_uv_face_hashes": {
+        "UVmap_0": "2f594d70d94c14331cfd752ebd5b6359ab7a694db93311e2c66f003d7c8d4ea8",
+        "LightMapUV": "6025afc1c86eae0eda46c8c7d613e8b3c6d32147309e9fe6643d3d1608730c06"
+      },
+      "vertex_count": 93,
+      "polygon_count": 166,
+      "local_to_final_matrix": [
+        [
+          4.8318650414103104e-08,
+          -0.6399999856948853,
+          0.0,
+          0.0
+        ],
+        [
+          0.6399999856948853,
+          4.8318650414103104e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.6399999856948853,
+          1.7053817510604858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_name": "sword_crossguard_03",
+      "material_slot": "Guard03",
+      "source_ue_asset": "/Game/ModularWeapons/Meshes/Swords/Crossguards/sword_crossguard_03.sword_crossguard_03",
+      "source_ue_materials": [
+        "/Game/ModularWeapons/Materials/MI_Sword_Crossguard_03.MI_Sword_Crossguard_03"
+      ],
+      "source_fbx_material_names": [
+        "MI_Sword_Crossguard_03"
+      ],
+      "source_import_matrix_world": [
+        [
+          0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.009999999776482582,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.009999999776482582,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mesh_bounds_cm": {
+        "min": [
+          -2.4334359169006348,
+          -11.761714935302734,
+          6.723317623138428
+        ],
+        "max": [
+          2.4334373474121094,
+          11.761719703674316,
+          16.584020614624023
+        ]
+      },
+      "source_ue_inventory_origin_cm": [
+        7.152557373046875e-07,
+        -2.384185791015625e-06,
+        11.653669357299805
+      ],
+      "source_ue_inventory_extent_cm": [
+        2.433436632156372,
+        11.761716842651367,
+        4.930351257324219
+      ],
+      "transformed_bounds_cm": {
+        "min": [
+          -7.527500629425049,
+          -1.5573989152908325,
+          6.008305072784424
+        ],
+        "max": [
+          7.527497291564941,
+          1.557399868965149,
+          12.319154739379883
+        ]
+      },
+      "source_uv_names": [
+        "UVmap_0",
+        "LightMapUV"
+      ],
+      "uv_layer_count": 2,
+      "source_uv_face_hashes": {
+        "UVmap_0": "c32a3e2ea71439d49316ba4e1bb3fe2753c9db4490098b09988fb84910e369f2",
+        "LightMapUV": "1a0d8173d33affc93266be152521c591514d7bfa9b4285009e0b4a1fe816e050"
+      },
+      "vertex_count": 370,
+      "polygon_count": 660,
+      "local_to_final_matrix": [
+        [
+          4.8318650414103104e-08,
+          -0.6399999856948853,
+          0.0,
+          0.0
+        ],
+        [
+          0.6399999856948853,
+          4.8318650414103104e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.6399999856948853,
+          1.7053817510604858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_name": "sword_hilt_04",
+      "material_slot": "Grip04",
+      "source_ue_asset": "/Game/ModularWeapons/Meshes/Swords/Hilts/sword_hilt_04.sword_hilt_04",
+      "source_ue_materials": [
+        "/Game/ModularWeapons/Materials/MI_Sword_Hilt_01.MI_Sword_Hilt_01"
+      ],
+      "source_fbx_material_names": [
+        "MI_Sword_Hilt_01"
+      ],
+      "source_import_matrix_world": [
+        [
+          0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.009999999776482582,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.009999999776482582,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mesh_bounds_cm": {
+        "min": [
+          -2.2206826210021973,
+          -2.2206826210021973,
+          -13.711140632629395
+        ],
+        "max": [
+          2.2206826210021973,
+          2.2206826210021973,
+          8.381821632385254
+        ]
+      },
+      "source_ue_inventory_origin_cm": [
+        0.0,
+        0.0,
+        -2.6646595001220703
+      ],
+      "source_ue_inventory_extent_cm": [
+        2.2206826210021973,
+        2.2206826210021973,
+        11.046481132507324
+      ],
+      "transformed_bounds_cm": {
+        "min": [
+          -1.4212368726730347,
+          -1.4212368726730347,
+          -7.069748401641846
+        ],
+        "max": [
+          1.4212368726730347,
+          1.4212368726730347,
+          7.069747447967529
+        ]
+      },
+      "source_uv_names": [
+        "UVmap_0",
+        "LightMapUV"
+      ],
+      "uv_layer_count": 2,
+      "source_uv_face_hashes": {
+        "UVmap_0": "8bf8534508f4b286cae9a77f3a3c05f332677ce3b0a6eea90a24b1a6cc3dbf44",
+        "LightMapUV": "09dfb45c54fcca32f6cb708134553c0394ec13596d6138eaab2530263b997ac2"
+      },
+      "vertex_count": 160,
+      "polygon_count": 292,
+      "local_to_final_matrix": [
+        [
+          4.8318650414103104e-08,
+          -0.6399999856948853,
+          0.0,
+          0.0
+        ],
+        [
+          0.6399999856948853,
+          4.8318650414103104e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.6399999856948853,
+          1.7053817510604858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_name": "Sword_pommel_03",
+      "material_slot": "Pommel03",
+      "source_ue_asset": "/Game/ModularWeapons/Meshes/Swords/Pommels/Sword_pommel_03.Sword_pommel_03",
+      "source_ue_materials": [
+        "/Game/ModularWeapons/Materials/MI_Sword_Pommel_03.MI_Sword_Pommel_03"
+      ],
+      "source_fbx_material_names": [
+        "MI_Sword_Pommel_03"
+      ],
+      "source_import_matrix_world": [
+        [
+          0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.009999999776482582,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.009999999776482582,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mesh_bounds_cm": {
+        "min": [
+          -2.8140370845794678,
+          -2.8140358924865723,
+          -23.56343650817871
+        ],
+        "max": [
+          2.8140366077423096,
+          2.814037322998047,
+          -13.203660011291504
+        ]
+      },
+      "source_ue_inventory_origin_cm": [
+        -2.384185791015625e-07,
+        -7.152557373046875e-07,
+        -18.383548736572266
+      ],
+      "source_ue_inventory_extent_cm": [
+        2.8140368461608887,
+        2.8140366077423096,
+        5.17988920211792
+      ],
+      "transformed_bounds_cm": {
+        "min": [
+          -1.8009839057922363,
+          -1.8009836673736572,
+          -13.375218391418457
+        ],
+        "max": [
+          1.80098295211792,
+          1.8009834289550781,
+          -6.744960308074951
+        ]
+      },
+      "source_uv_names": [
+        "UVmap_0",
+        "LightMapUV"
+      ],
+      "uv_layer_count": 2,
+      "source_uv_face_hashes": {
+        "UVmap_0": "a3aaa392fce0702352e7f7f909ee7c618c258e574cb245a99750153f19e25f6d",
+        "LightMapUV": "b5f998e6b7a116e73dda36c0de7fc974582864bebba0829612805c354f745632"
+      },
+      "vertex_count": 240,
+      "polygon_count": 476,
+      "local_to_final_matrix": [
+        [
+          4.8318650414103104e-08,
+          -0.6399999856948853,
+          0.0,
+          0.0
+        ],
+        [
+          0.6399999856948853,
+          4.8318650414103104e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.6399999856948853,
+          1.7053817510604858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "bounds_cm": {
+    "min": [
+      -7.527500629425049,
+      -1.8009836673736572,
+      -13.375218391418457
+    ],
+    "max": [
+      7.527497291564941,
+      1.8009834289550781,
+      64.9390869140625
+    ]
+  },
+  "dimensions_cm": [
+    15.05499792098999,
+    3.6019670963287354,
+    78.31430530548096
+  ],
+  "vertex_count": 863,
+  "triangles": 1594,
+  "material_slots": [
+    "Blade03",
+    "Guard03",
+    "Grip04",
+    "Pommel03"
+  ],
+  "joined_uv_layers": [
+    "UVChannel_0",
+    "UVChannel_1"
+  ],
+  "grip_center_source_cm": [
+    0.0,
+    0.0,
+    -2.6646595001220703
+  ],
+  "grip_center_transformed_cm": [
+    0.0,
+    0.0,
+    -2.384185791015625e-07
+  ],
+  "blade_base_source_cm": [
+    0.0,
+    9.5367431640625e-07,
+    10.492268562316895
+  ],
+  "blade_tip_source_cm": [
+    0.0,
+    9.5367431640625e-07,
+    98.80265808105469
+  ],
+  "blade_base_transformed_cm": [
+    -6.103515488575795e-07,
+    4.6080259291474135e-14,
+    8.420433044433594
+  ],
+  "blade_tip_transformed_cm": [
+    -6.103515488575795e-07,
+    4.6080259291474135e-14,
+    64.93907928466797
+  ],
+  "blade_point_definition": "Base and tip at center X/Y of blade mesh bounds, minimum/maximum Z; root can use as blade sweep samples",
+  "fbx_export": {
+    "axis_forward": "-Y",
+    "axis_up": "Z",
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_NONE",
+    "mesh_smooth_type": "FACE",
+    "bake_anim": false,
+    "use_space_transform": true
+  },
+  "coordinate_note": "Uses same centimeter scene unit and -Y/Z FBX settings as existing project Yueyao static mesh export. UE import must confirm expected bounds and +Z blade direction.",
+  "fbx_sha256": "dc4a3e7113d4b35d7404d40a8a45944d86169e46b530ce36e5d039db56e8a73d"
+}

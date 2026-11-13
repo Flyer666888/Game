@@ -1,0 +1,873 @@
+{
+  "module": "ART-SHIELD-REALISTIC",
+  "generated_utc": "2026-10-14T11:24:09.397176+00:00",
+  "user_facing_date": "2026-10-14 Asia/Shanghai",
+  "status": "MaterialsSaved_ShaderAuthoringPassed_InitialAppearanceReviewed_AwaitingUserPlay",
+  "scope": "Shield-only material/texture polish; source blend, mesh, held transforms, C++ and combat preserved.",
+  "source": {
+    "original": "D:\\驱动精灵搬家目录(勿删改)\\软件\\微信\\聊天数据\\10013\\WeChat Files\\wxid_0s4pno08wrbs22\\FileStorage\\File\\2026-10\\Shield_Dragon_UE\\Jade_Dragon_Shield_Refined.blend",
+    "preserved_copy": "ArtSource/DragonShield/Source/Jade_Dragon_Shield_Refined.blend",
+    "sha256": "12501cd53192416d293547b1fb213018ba2ae7a289df846cc81d0d725c486c5b",
+    "original_unchanged": true
+  },
+  "shield": {
+    "mesh": "/Game/ReversedScale/Weapons/DragonShield/SM_DragonShield",
+    "diameter_cm": 46.0,
+    "material_count": 8,
+    "profile_count": 7,
+    "texture_count": 21,
+    "tiles": [
+      {
+        "profile": "bronze",
+        "role": "base_color",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_bronze_BaseColor.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "9582d3109eb20eaa72b06d67c71550e272cff42429cf7affa7ddd6d43057e0bb"
+      },
+      {
+        "profile": "bronze",
+        "role": "orm",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_bronze_ORM.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "981846eff67a51d05dcb127cd0a7b088d1ab53970495b031c364d213a954732a"
+      },
+      {
+        "profile": "bronze",
+        "role": "normal",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_bronze_Normal.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "4092dfe201bdf36f21ee85793f5162ca14ab5c0311b26a24b2466bb22efc5883"
+      },
+      {
+        "profile": "worn_bronze",
+        "role": "base_color",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_worn_bronze_BaseColor.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "0a949b43c4d7ff9e59651a24ae7a39512b46720f7964366197b0e2cd916dc46c"
+      },
+      {
+        "profile": "worn_bronze",
+        "role": "orm",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_worn_bronze_ORM.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "9ddc07d53770f7c3afd1f8e1ba764348e374d8fc23ec18223d86ff4373e8b785"
+      },
+      {
+        "profile": "worn_bronze",
+        "role": "normal",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_worn_bronze_Normal.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "690287d7e15f82db045ad11df7fe3ad702eb2c9dea27cc2f7e1c9f7a1b8193a2"
+      },
+      {
+        "profile": "dark_bronze",
+        "role": "base_color",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_dark_bronze_BaseColor.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "881aaa7f36c709f7e4bbe149a0555f066a21e3903d73e04cdaae2921cafb7425"
+      },
+      {
+        "profile": "dark_bronze",
+        "role": "orm",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_dark_bronze_ORM.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "339e9a37da0d143fa9b0c1b6714cd1d7eb89cfdb5eb58f0ee698b019747fadb5"
+      },
+      {
+        "profile": "dark_bronze",
+        "role": "normal",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_dark_bronze_Normal.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "428b2762e31169c78d93cb7470efcbb521bc2dd444f1fbdef59207dc9f8a95ca"
+      },
+      {
+        "profile": "jade",
+        "role": "base_color",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_jade_BaseColor.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "d7fd2bc3b12bf53af56a5653f032b8178168c7434e841b474a146ab3298794eb"
+      },
+      {
+        "profile": "jade",
+        "role": "orm",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_jade_ORM.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "723161f931ef76d260ee52c260353c3f04d3aae92bd5b798ee7596ba6a5be11e"
+      },
+      {
+        "profile": "jade",
+        "role": "normal",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_jade_Normal.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "5978899e29b2907b3710eaac89767c66ea42334991baf1e0df9235661f843193"
+      },
+      {
+        "profile": "patina",
+        "role": "base_color",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_patina_BaseColor.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "9ebb06246eceac726393711a682d3ed3da5d07a345aa9218bb6efbc2cd84359d"
+      },
+      {
+        "profile": "patina",
+        "role": "orm",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_patina_ORM.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "0bc0b71e519439feaf01e585768ff8a17b0e3d7d4bb0f43a3de57acacfe17ab7"
+      },
+      {
+        "profile": "patina",
+        "role": "normal",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_patina_Normal.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "700e39a907d0029f54083aa51a7a9ea95470f1936edef4898af661539e4e0b9a"
+      },
+      {
+        "profile": "leather",
+        "role": "base_color",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_leather_BaseColor.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "55c5f903dafad024b94a315ccd914f6e8bc09f9c024c7a7035cab09ded6e4557"
+      },
+      {
+        "profile": "leather",
+        "role": "orm",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_leather_ORM.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "6c8402a1dce0bd81613b1f13286c8d14026cd346a4507e6b4df8a16bce82ffcc"
+      },
+      {
+        "profile": "leather",
+        "role": "normal",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_leather_Normal.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "8c46f1441d5e49dad218f0a949ea829f936f27185a4b91bf899a41e8b750a611"
+      },
+      {
+        "profile": "brass",
+        "role": "base_color",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_brass_BaseColor.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "8580f6aeaef939c9cb4e4c164013abe31c85089d4ab64ea00322dbb72c0df49a"
+      },
+      {
+        "profile": "brass",
+        "role": "orm",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_brass_ORM.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "4da0a9479fe17c615b709fb8406bdfc6ae715af7ec0dca11351900339a085fc3"
+      },
+      {
+        "profile": "brass",
+        "role": "normal",
+        "path": "ArtSource/DragonShield/RealisticSurface/T_DragonShield_brass_Normal.png",
+        "resolution": [
+          1024,
+          1024
+        ],
+        "sha256": "3c50b583d777b757d9ade66f6c01da3a2ee240844304666231b4dd83d58b222e"
+      }
+    ],
+    "material_graphs": [
+      {
+        "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_00.M_DragonShield_00",
+        "profile": "bronze",
+        "object_local_triplanar": true,
+        "tile_size_cm": 12.0,
+        "blend_weights": "abs(local vertex normal)^4 / sum(weights)",
+        "normal_mapping": "Fine tile in existing UV0",
+        "normal_strength": 0.12,
+        "dragon_image_graph_preserved": false,
+        "texture_fetch_count": 7,
+        "new_expression_count": 69,
+        "material_recompile_errors": [],
+        "rim_position_wear": true,
+        "metallic_policy": "Packed ORM exposed bronze/brass and oxide mask"
+      },
+      {
+        "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_01.M_DragonShield_01",
+        "profile": "worn_bronze",
+        "object_local_triplanar": true,
+        "tile_size_cm": 12.0,
+        "blend_weights": "abs(local vertex normal)^4 / sum(weights)",
+        "normal_mapping": "Fine tile in existing UV0",
+        "normal_strength": 0.1,
+        "dragon_image_graph_preserved": false,
+        "texture_fetch_count": 7,
+        "new_expression_count": 69,
+        "material_recompile_errors": [],
+        "rim_position_wear": true,
+        "metallic_policy": "Packed ORM exposed bronze/brass and oxide mask"
+      },
+      {
+        "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_02.M_DragonShield_02",
+        "profile": "dark_bronze",
+        "object_local_triplanar": true,
+        "tile_size_cm": 12.0,
+        "blend_weights": "abs(local vertex normal)^4 / sum(weights)",
+        "normal_mapping": "Fine tile in existing UV0",
+        "normal_strength": 0.1,
+        "dragon_image_graph_preserved": false,
+        "texture_fetch_count": 7,
+        "new_expression_count": 54,
+        "material_recompile_errors": [],
+        "rim_position_wear": false,
+        "metallic_policy": "Packed ORM exposed bronze/brass and oxide mask"
+      },
+      {
+        "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_03.M_DragonShield_03",
+        "profile": "jade",
+        "object_local_triplanar": true,
+        "tile_size_cm": 12.0,
+        "blend_weights": "abs(local vertex normal)^4 / sum(weights)",
+        "normal_mapping": "Fine tile in existing UV0",
+        "normal_strength": 0.07,
+        "dragon_image_graph_preserved": false,
+        "texture_fetch_count": 7,
+        "new_expression_count": 54,
+        "material_recompile_errors": [],
+        "rim_position_wear": false,
+        "metallic_policy": "Dielectric 0"
+      },
+      {
+        "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_04.M_DragonShield_04",
+        "profile": "patina",
+        "object_local_triplanar": true,
+        "tile_size_cm": 12.0,
+        "blend_weights": "abs(local vertex normal)^4 / sum(weights)",
+        "normal_mapping": "Fine tile in existing UV0",
+        "normal_strength": 0.1,
+        "dragon_image_graph_preserved": false,
+        "texture_fetch_count": 7,
+        "new_expression_count": 54,
+        "material_recompile_errors": [],
+        "rim_position_wear": false,
+        "metallic_policy": "Dielectric 0"
+      },
+      {
+        "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_05.M_DragonShield_05",
+        "profile": "leather",
+        "object_local_triplanar": true,
+        "tile_size_cm": 5.0,
+        "blend_weights": "abs(local vertex normal)^4 / sum(weights)",
+        "normal_mapping": "Fine tile in existing UV0",
+        "normal_strength": 0.2,
+        "dragon_image_graph_preserved": false,
+        "texture_fetch_count": 7,
+        "new_expression_count": 54,
+        "material_recompile_errors": [],
+        "rim_position_wear": false,
+        "metallic_policy": "Dielectric 0"
+      },
+      {
+        "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_06.M_DragonShield_06",
+        "profile": "brass",
+        "object_local_triplanar": true,
+        "tile_size_cm": 12.0,
+        "blend_weights": "abs(local vertex normal)^4 / sum(weights)",
+        "normal_mapping": "Fine tile in existing UV0",
+        "normal_strength": 0.1,
+        "dragon_image_graph_preserved": false,
+        "texture_fetch_count": 7,
+        "new_expression_count": 69,
+        "material_recompile_errors": [],
+        "rim_position_wear": true,
+        "metallic_policy": "Packed ORM exposed bronze/brass and oxide mask"
+      },
+      {
+        "asset": "/Game/ReversedScale/Weapons/DragonShield/Materials/M_DragonShield_07.M_DragonShield_07",
+        "profile": "bronze",
+        "object_local_triplanar": true,
+        "tile_size_cm": 12.0,
+        "blend_weights": "abs(local vertex normal)^4 / sum(weights)",
+        "normal_mapping": "Original face UV1 retained",
+        "normal_strength": 0.18,
+        "dragon_image_graph_preserved": true,
+        "texture_fetch_count": 5,
+        "new_expression_count": 56,
+        "material_recompile_errors": [],
+        "rim_position_wear": false,
+        "metallic_policy": "Original-image gold vs green oxide mask"
+      }
+    ],
+    "dragon_front": "Existing UV0 base-image and UV1 normal retained; gold-versus-green-oxide metal/roughness variation added.",
+    "colour_orm_projection": "Object-local triplanar with physical tile sizes; attached to the moving mesh.",
+    "normal_policy": "OpenGL source +Y normal tiles flipped at UE import; actual restrained strengths in material_graphs.",
+    "mask_policy": "Linear ORM, R=local micro cavity AO; G=roughness; B=metallic. AO is not a full mesh bake."
+  },
+  "authoring": {
+    "surface_manifest": "ArtSource/DragonShield/RealisticSurface/RealisticSurface.json",
+    "ue_report": "Docs/AI/ShieldRealisticMaterials-2026-10-14.json",
+    "full_editor_report": "Docs/AI/ShieldSurfaceEditorAuthor-2026-10-14.json",
+    "log": "Docs/AI/ShieldSurfaceAuthor-2026-10-14.log",
+    "shader_recompile_errors": [],
+    "asset_save": "Successful full-editor author completion",
+    "cpp_compile": "Not required; unchanged native binary verified against previous delivery"
+  },
+  "presentation": {
+    "report": "Docs/AI/ShieldSurfacePresentation-2026-10-14.json",
+    "reviewed_images": [
+      "Docs/AI/DragonShieldRealistic_Back.png",
+      "Docs/AI/DragonShieldRealistic_Front.png"
+    ],
+    "root_visual_review_confirmed": true,
+    "bindings_transforms_hud_restored": true,
+    "agent_gameplay_inputs": false,
+    "capture": {
+      "date": "2026-10-14",
+      "views": [
+        {
+          "file": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\CombatProject\\Docs\\AI\\DragonShieldRealistic_Back.png",
+          "guard_active": false,
+          "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+          "health": 100.0,
+          "guard": 100.0,
+          "mirror_transform": {
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "camera_transform": {
+            "location": [
+              30.0,
+              -170.0,
+              146.81582489013672
+            ],
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "file": "C:\\Users\\21475\\.codex\\visualizations\\2026\\10\\01\\01a0f77b-1abb-70a0-9543-7d60afd089de\\CombatProject\\Docs\\AI\\DragonShieldRealistic_Front.png",
+          "guard_active": false,
+          "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+          "health": 100.0,
+          "guard": 100.0,
+          "mirror_transform": {
+            "location": [
+              28.0,
+              0.0,
+              16.0
+            ],
+            "quaternion_xyzw": [
+              0.0,
+              -0.0,
+              0.9999999999999999,
+              6.123233995736766e-17
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "camera_transform": {
+            "location": [
+              30.0,
+              -170.0,
+              146.81582489013672
+            ],
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "no_agent_gameplay_inputs": true,
+      "tests_added_or_run": false,
+      "scope": "Art appearance only. Visual pointer and mesh transform are restored. No guard activation or collision/combat edits.",
+      "visual_and_hud_restored": true,
+      "original_mirror_transform": {
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "preserved_content": {
+    "reference_manifest": "Deliveries/Enemy02AShield_20261014/Manifest.json",
+    "hash_algorithm": "SHA256",
+    "verified_files": [
+      {
+        "path": "ArtSource/DragonShield/Source/Jade_Dragon_Shield_Refined.blend",
+        "sha256": "12501cd53192416d293547b1fb213018ba2ae7a289df846cc81d0d725c486c5b",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Binaries/Win64/UnrealEditor-experiment.dll",
+        "sha256": "f5bc921469fff3a2afe1c2c99d9faa94a0c92e48cac84bdb874817ef026927dc",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Config/Android/AndroidEngine.ini",
+        "sha256": "7476ba760bb84c6e5a479d1eba633bdf22ae0f8d4bba74b5eabc9371e974c37b",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Config/DefaultEditor.ini",
+        "sha256": "67c3de5d599d2e4b32f03701fffaa93f1b560e33805f9403783185500d9046bf",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Config/DefaultEngine.ini",
+        "sha256": "f3456343c00c2aa01c0be5002e15e2af89dba5a4c43da5601875af6fb58b2d8d",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Config/DefaultGame.ini",
+        "sha256": "7a36aac15f6aa01ccc1cd682fbd619b473bc55a9d654a5ec7f6da601aa532922",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Config/DefaultInput.ini",
+        "sha256": "2d290b50699ad17dd78f916c29b2149830553bf244747844bd167da5552631f4",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Config/Mac/MacEngine.ini",
+        "sha256": "63b553c64eb16f4b31ff372a795ec2521bfdcc0024340a6f1b656df766bcef7b",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Config/VisionOS/VisionOSDeviceProfiles.ini",
+        "sha256": "85287e2b505ec1c86597c0ca812c58bf4a94968aaf20f215986056feb084d595",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Config/VisionOS/VisionOSEngine.ini",
+        "sha256": "ebb6a8d1875a35a120c52de72b8e0ed73ad8fdc60cf911c5ff1083d7fd42f51c",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Content/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Cast_Talisman.uasset",
+        "sha256": "a5f734dd1fc79670cda0822f91810c9f4393bb3a9f1eb81b0c0ae00e7b328e79",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Content/ReversedScale/Characters/WuxiaMale/BP_EnemyTalismanDisciple.uasset",
+        "sha256": "f10a3a80ea3b4050c4a043a5e0bdb1dac8a15ba3f0c6a29f18e9a67e9577082c",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Content/ReversedScale/Combat/DA_EnemyTalisman.uasset",
+        "sha256": "bdb09b9dfcbb4ba5563d0244626b1f00fb3cc2d03fd103f91fe484efd20d1ca5",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Content/ReversedScale/Combat/Materials/M_TalismanCast.uasset",
+        "sha256": "fe9387d085ea960738df2e3585f9c27475e7ea8c24846d083225badecfb19fef",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Content/ReversedScale/Combat/Materials/M_TalismanPaper.uasset",
+        "sha256": "6114e043746c24db2cd02505bf73321bbfe92a0450ce5318eed0531cbc8ee96a",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Content/ReversedScale/Encounters/DA_WaveMixed01.uasset",
+        "sha256": "036616440ef34cce2f92dc921d731d6a69d61d60723f98491ff2de041d6658fc",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Content/ReversedScale/Encounters/DA_WaveMixed02.uasset",
+        "sha256": "8a304a0498a4dd0781436e625502480505abe9553506efe773f78ff6d31a8477",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Content/ReversedScale/Maps/L_CombatLabMixed.umap",
+        "sha256": "ee51d94bb1a43d28034c4c1009fed3307d0a0719e367ec6384782176d51e79a1",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Content/ReversedScale/Weapons/DragonShield/SM_DragonShield.uasset",
+        "sha256": "009e614915c20aef5c2115d7e734440fc7b80514f877e25bea603785373e6289",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Content/ReversedScale/Weapons/DragonShield/Textures/T_DragonShield_07_BaseColor.uasset",
+        "sha256": "213158b3050cba36449a38eef518188aea41f217295a82018d1bbd2f5c2a859c",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Content/ReversedScale/Weapons/DragonShield/Textures/T_DragonShield_07_Normal.uasset",
+        "sha256": "392cad72bdf3a40f221bff7fe1fe8679cd6f1bb9fc160cd23d2e68a69d7bea8c",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment.Target.cs",
+        "sha256": "75cb53eee4b005a6bfff75bbc3844f20ec298f6ee2352e77f52d4ca9a122ecd6",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/AI/NLAttackDirectorSubsystem.cpp",
+        "sha256": "cf16f3d438930da340d621d55460d132703187679709f08d32fe3f5eed657afb",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/AI/NLEnemyAttackWindowNotifyState.cpp",
+        "sha256": "e416b9fd6d65aa808dc9ab6b29fc82774d765fb0884fecc311b1a10f35223ee1",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/AI/NLEnemyBrainComponent.cpp",
+        "sha256": "a0fc32790c3aed620f5a0f86557b099bdee29f50e096903ec75a6bf0667108cb",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/AI/NLEnemyCharacter.cpp",
+        "sha256": "a4e1bcdedb5cbe2e737722d18f07507f55ff59fb4fd87076508c96489adde928",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/AI/NLTalismanAttackComponent.cpp",
+        "sha256": "d1be33bdb6a0ff9682eecdeedcb6ea8591211a9d41edcc2f006c8d5c89ce04bc",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Animation/NLDeathBlendAnimInstance.cpp",
+        "sha256": "6c25311b5473e90ad5aedf820e7265af86635c71ce57796aa513851ba6e6d29e",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Combat/NLBladeComponent.cpp",
+        "sha256": "c12203c4a68f5e084160e85bc9974f864a2da3fd1ea15fd645518d1afec8db4f",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Combat/NLCombatIdentityComponent.cpp",
+        "sha256": "4498c1d13421acf21026ce6d41a02099ed920d937e00d6766d1e6fdebe3874b0",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Combat/NLCombatProjectile.cpp",
+        "sha256": "65d4fff862e3524a7f3464ea668722a08e884de40b493b4b516ea636321d9e8c",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Combat/NLCombatResolverSubsystem.cpp",
+        "sha256": "5e5e467bf872d10326a4d7689a923275cd4d921fd00740ef4db8686fe79ad392",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Combat/NLCombatVitalsComponent.cpp",
+        "sha256": "37c3d4d29fa02c12da5d17f44e8e8ffe20978a2e19e1d999027e9b895a49a0da",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Combat/NLGuardComponent.cpp",
+        "sha256": "3858735e4940b2b68028e38f03b8d1c38aaa7b97bd3be4b761e96b664df9e84c",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Combat/NLTrainingEnemy.cpp",
+        "sha256": "caf25389d31b1a22b084138960d8d92a5ebac4eff0eaf9efbf35e29ada6954e5",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Combat/NLTrainingProjectileEmitter.cpp",
+        "sha256": "3c12df13124511c35eea9c9703ecfb8b72a8fd6d9f643186364fbe98077a2534",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Encounter/NLEncounterController.cpp",
+        "sha256": "a94479e434c95ddeaae05903199fbc623ffed9734bb4f72c83edcd17a90aea4d",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Player/NLCombatLabHUD.cpp",
+        "sha256": "32c55cba31ea5a5de9b45b0fdbc99b2bc676d39d2696b57c3b664219702cb9af",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Player/NLDesktopPlayerCharacter.cpp",
+        "sha256": "06fc9be3a805a1749c89e375a78c8cca1f055dbec62e6af8c5c9d4dc9af251ee",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Progression/NLRunStateSubsystem.cpp",
+        "sha256": "1ce97d34ba02890b0e0cf39a8cd7af17b7a7a9390eedaceea590be86de9de8d0",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/Save/NLCheckpointService.cpp",
+        "sha256": "9c80a1e09be9bc7114556a98a214bb125f188750084dd49614230c3173a11292",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Private/experiment.cpp",
+        "sha256": "408037e40b17a0beaa0b9b62e6716ce85f1536a603a79e590e0090a0c98b56a0",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/AI/NLAttackDirectorSubsystem.h",
+        "sha256": "b2b16eb7c16bb7eba03454fbfc35d4210002d50eadd059bbd66099dbf967bc64",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/AI/NLEnemyAttackWindowNotifyState.h",
+        "sha256": "455ffefd114102c62dec9fa748e9568a1663401810e9a33d1f3509b765512967",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/AI/NLEnemyBrainComponent.h",
+        "sha256": "0edd608a4f3a9669368d73f4b9a57475fc02a7aa5d0c865e5941cbf9e56a17a6",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/AI/NLEnemyCharacter.h",
+        "sha256": "bdee3a6e6d08aa9d04a056e6be98ca91436d043001c49c20f98c35ceae676bd5",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/AI/NLEnemyTypes.h",
+        "sha256": "643db3ccc98e62a2e746ecb60288429c1dd635b637f332bd60404efeb2512a8c",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/AI/NLTalismanAttackComponent.h",
+        "sha256": "7ab6d41f107a1d7e960159b887ab189e57202c48aa648bc4746f5fbb9f7392b2",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Animation/NLDeathBlendAnimInstance.h",
+        "sha256": "d78e745f09aad1ae1e784f0f4261e5b09ebfdbfe54a030d669e44d519f5699be",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Combat/NLAttackDefinition.h",
+        "sha256": "fee29f5164c5478d7a9f66050ec620d3a88996a5d636136ac9f85b9c43d2508d",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Combat/NLBladeComponent.h",
+        "sha256": "436e356eb39bec249eb348ed819ae6ddf6f57bfccd3de0d4ea23399930ac4f73",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Combat/NLCombatIdentityComponent.h",
+        "sha256": "90ab432752cb14ca83402a0b786f3dd73b9a52aa85837f9cc723726e1e8826d3",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Combat/NLCombatProjectile.h",
+        "sha256": "fc30b45e8cf6ed079050e908a594ea1bdde817daa5144f913355ae00cdea350d",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Combat/NLCombatResolverSubsystem.h",
+        "sha256": "8da6bcf17553b3f50887e96b910a9812bf19b2f2f33fcd1b5ebd45b9c54e3999",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Combat/NLCombatTypes.h",
+        "sha256": "24374c36d27013817f8a56932f91cd1d2f0215594884db17a0128accc2dda1c4",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Combat/NLCombatVitalsComponent.h",
+        "sha256": "76ffbb94ef1f1872168f2385db5e89777c30232ea665c63ec2e544366459d6a1",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Combat/NLGuardComponent.h",
+        "sha256": "5c8f3b1e6079a38659ae2cb36a450b2609a0d23e81cb2f405eb5c268e7d6b4de",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Combat/NLTrainingEnemy.h",
+        "sha256": "62a5382c9deaf5fd94c8009c639ac2d7463ccef788d967fe34e56c62188b4279",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Combat/NLTrainingProjectileEmitter.h",
+        "sha256": "c5292f7e9da07712326874735e332466fe4fc08114e7cb1dbaada56777ec2b0f",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Encounter/NLEncounterController.h",
+        "sha256": "36139fbb77029c685673e4bc3d2c53e72cb516908e44b25c31fe0ef232f6bb85",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Encounter/NLWaveDefinition.h",
+        "sha256": "57e6ac7f1d8d8dafbee34947860b1620866fe10ee90fbd6b1c98e437dbcf7ef1",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Encounter/NLWaveTypes.h",
+        "sha256": "6e5076c5a5f0321af8deae744464f09e5e0f82ee98b8348adc1d4736550a047d",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Player/NLCombatLabHUD.h",
+        "sha256": "036b33915db87b7631163e885aece35efe87885e925b94e486614abcad97e339",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Player/NLDesktopPlayerCharacter.h",
+        "sha256": "310cb5a21eb913f9aeed73ea1e203330c51f67bf61fd34fe6db718aeb24ad66c",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Progression/NLRunStateSubsystem.h",
+        "sha256": "f51a00599f919d3605178efb3947feac62e915530515cea499787486b351f2f3",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Save/NLCheckpointSaveGame.h",
+        "sha256": "d42704c9efb55a38df2210d92a39b1efbac6034854f32e0a231dfa5f34054691",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Save/NLCheckpointService.h",
+        "sha256": "85c801ed6ad6ae1161b6f49e61b05fade137c5a7db1936a09b61f9fa618b6c53",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/Public/Save/NLCheckpointTypes.h",
+        "sha256": "94a270130fd47d72c38fa82ecc49fb6606b58d1fb8cbf1cf8657ef9132ab2400",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experiment/experiment.Build.cs",
+        "sha256": "221e926d7757ec9d6f13ece0c3b67ce461f7fe43999b7c2efda7c7dff9a79f6b",
+        "matches_previous_delivery": true
+      },
+      {
+        "path": "Source/experimentEditor.Target.cs",
+        "sha256": "dda5163430d38b592ec55e699e3855ebe16eff3298439a3bbd5367e1ed3af7e0",
+        "matches_previous_delivery": true
+      }
+    ],
+    "scope_limit": "Only baseline files listed here have byte equality evidence; retained unrelated artwork is declared by authoring scope."
+  },
+  "retained_by_scope": [
+    "Enemy face/feet, sword hilt/grip, Grounded death and prior lab content",
+    "Player melee damage10, blade qi15, shield grip and existing collision/guard/reflection logic"
+  ],
+  "demo": {
+    "launcher": "Run_Mixed_Demo.cmd",
+    "process_id_at_preview": 42032,
+    "running_at_final_check": false,
+    "map": "/Game/ReversedScale/Maps/L_CombatLabMixed",
+    "requires": "Local UE5.8 and existing project assets; incremental asset snapshot, not a packaged standalone EXE"
+  },
+  "before_manifest": {
+    "path": "Deliveries/BeforeShieldSurface_20261014/Manifest.json",
+    "file_count": 10,
+    "total_bytes": 1394833
+  },
+  "snapshot_manifest": "Deliveries/ShieldSurface_20261014/Manifest.json",
+  "limitations": [
+    "Procedural surface tiles and approximate rim wear; no new sculpted relief or full mesh AO bake.",
+    "Texture-fetch counts are graph counts only; actual GPU timing and VR performance remain unmeasured.",
+    "Initial material pictures do not establish combat, navigation, reflection, checkpoint or animation acceptance.",
+    "User visual approval and real VR/headset/controller acceptance remain pending."
+  ],
+  "tests_added_or_run": false,
+  "automation": "Existing automation remains PAUSED",
+  "next": "User material feedback; ENEMY-02B Guard Captain remains pending before LEVEL-01"
+}

@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-12",
+  "task_id": "WAVE-01",
+  "status": "Compiled_AssetsSaved_InitialPresentationReviewed_AwaitingUserPlay",
+  "request": "Continue development and complete the next task.",
+  "reference": "Docs/AI/ReferencePack/UE5.8_AI开发方案.md, WAVE-01 / section 12.2",
+  "map": "/Game/ReversedScale/Maps/L_CombatLabWaves",
+  "wave_counts": [
+    2,
+    3
+  ],
+  "total_planned": 5,
+  "configuration": {
+    "seed": 20261012,
+    "max_alive": 3,
+    "spawn_interval_seconds": 0.8,
+    "intermission_seconds": 3.0,
+    "max_spawns_or_attempts_per_tick": 1,
+    "spawn_grace_seconds": 0.35,
+    "retries_after_initial_failure": 3,
+    "retry_delay_seconds": 0.5,
+    "corpse_hold_seconds": 2.0,
+    "maximum_total_plan": 1024,
+    "maximum_plan_per_wave": 512,
+    "maximum_supported_alive": 12
+  },
+  "implemented": [
+    "Finite DataAsset spawn entries and five stable world capsule-origin spawn points.",
+    "Independent seeded FRandomStream; sorted entry/point IDs; retries do not alter later composition.",
+    "Ready, Spawning, WaitingClear, Intermission, Completed, Failed and Cancelled states.",
+    "Wave clear waits for the complete spawn plan, no pending spawn, and no owned living enemies.",
+    "Unique runtime identity/ordinal death accounting; navigation despawn gives failure, not defeat.",
+    "Cancellation cleans only owned enemies and AI controllers; generations invalidate stale callbacks.",
+    "Finite spawn retry budget; failures terminate instead of leaving an endless wave.",
+    "Global and controller-only pause freeze clocks/animation/movement; animation deadlines and snapshot blend are shifted on local resume.",
+    "Corpse retirement waits for pending/playing death presentation, including when hold is zero; retired handles are removed while cumulative counts remain.",
+    "R cancels owned actors before projectile/Director/Guard/Vitals/Blade/Resolver reset, then restores the initial seed to Ready.",
+    "Desktop HUD shows wave progress and five human-readable failure reasons; default initial wave eye height matches the existing swordsman."
+  ],
+  "failure_reasons": [
+    "InvalidWaveConfig",
+    "SpawnFailed",
+    "NavigationFailed",
+    "EnemyRemoved",
+    "PlayerDefeated"
+  ],
+  "controls": {
+    "G": "Start/cancel; completed/failed encounters require R.",
+    "R": "Reset for retry, then G starts the same seeded plan.",
+    "P or Esc": "Pause/resume.",
+    "WASD": "Move.",
+    "Mouse": "Look.",
+    "LMB": "Slash, damage 10.",
+    "RMB": "Hold mirror.",
+    "E": "Blade qi, damage 15.",
+    "Alt+F4": "Exit."
+  },
+  "preserved": {
+    "duel_map": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+    "enemy_prefab": "/Game/ReversedScale/Characters/WuxiaMale/BP_EnemySwordDisciple.BP_EnemySwordDisciple",
+    "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+    "death": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+    "grip_morph": "EnemyGrip_R",
+    "grip_weight": 1.0,
+    "weapon": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+    "face_feet_hilt_assets_modified_this_batch": false,
+    "melee_damage": 10.0
+  },
+  "evidence": {
+    "editor_compile": "Passed, exit 0, 11 actions, MSVC 14.44.35229; Docs\\AI\\BuildLog-Wave01-2026-10-12.txt",
+    "asset_authoring": "Passed commandlet exit 0; Docs/AI/WaveLabAuthor-2026-10-12.log",
+    "asset_report": "Docs/AI/WaveLabSaved-2026-10-12.json",
+    "initial_runtime": "Docs/AI/WaveLabRuntimeScene-2026-10-12.json",
+    "initial_image": "Docs/AI/WaveLabFirstPerson.png",
+    "initial_image_review": "Chinese glyphs and panels readable; held weapon and birth-area markers visible.",
+    "observed_ready_state": {
+      "actor": "/Game/ReversedScale/Maps/L_CombatLabWaves.L_CombatLabWaves:PersistentLevel.NLEncounterController_0",
+      "class": "/Script/experiment.NLEncounterController",
+      "state": "<NLEncounterState.READY: 0>",
+      "running": false,
+      "paused": false,
+      "configured_seed": 20261012,
+      "initial_seed": 20261012,
+      "current_random_seed": -796021508,
+      "wave_index": -1,
+      "wave_count": 2,
+      "completed_wave_count": 0,
+      "planned_count": 5,
+      "spawned_count": 0,
+      "defeated_count": 0,
+      "alive_count": 0,
+      "failed_spawn_count": 0,
+      "current_wave_planned_count": 0,
+      "current_wave_spawned_count": 0,
+      "intermission_remaining_seconds": 0.0,
+      "failure_reason": "None",
+      "corpse_hold_seconds": 2.0,
+      "max_spawns_per_tick": 1,
+      "wave_assets": [
+        "/Game/ReversedScale/Encounters/DA_WaveSword01.DA_WaveSword01",
+        "/Game/ReversedScale/Encounters/DA_WaveSword02.DA_WaveSword02"
+      ]
+    },
+    "observed_eye_height_cm": 146.81582489013672,
+    "agent_gameplay_inputs_sent": false,
+    "tests_added_or_run": false,
+    "initial_capture_limit": "A live desktop scene can receive human input. The captured frame has mirror raised and guard about 70; it is presentation evidence, not an untouched baseline or gameplay acceptance."
+  },
+  "awaiting_user_play": [
+    "G starts 2 enemies; after both defeats, next 3 enemies appear following the 3-second intermission.",
+    "All 5 defeated reaches Completed exactly once; navigation/spawn failure shows a retry reason.",
+    "Pause during attack/hit/death resumes without skipping the retained death presentation.",
+    "G cancellation and R retry leave no enemies/projectiles/attack reservations; seeded plan repeats.",
+    "Enemy pathing, group combat, grip and fatal-hit transition remain subject to manual play feedback."
+  ],
+  "demo": {
+    "launcher": "Run_Wave_Demo.cmd",
+    "powershell_launcher": "Run_Wave_Demo.ps1",
+    "process_id_at_open": 59420,
+    "engine_required": "Local UE 5.8.2",
+    "packaged_standalone_exe": false,
+    "snapshot": "Deliveries/Wave01_20261012/Manifest.json"
+  },
+  "next_dependency": "SAVE-01 checkpoint snapshots and restoration after this batch user feedback.",
+  "automation": "Existing automation remains PAUSED; this is the directly requested next module."
+}

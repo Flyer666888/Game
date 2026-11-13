@@ -1,0 +1,497 @@
+{
+  "date": "2026-10-16",
+  "requires_base_project_and_ue": true,
+  "tests_added_or_run": false,
+  "files": [
+    {
+      "path": "Binaries/Win64/UnrealEditor-experiment.dll",
+      "bytes": 1208832,
+      "sha256": "9062a85a304f8abe66fe5dee5825a8d8185ca8da1a6bdd63ff08b97fe22264ca"
+    },
+    {
+      "path": "Binaries/Win64/UnrealEditor.modules",
+      "bytes": 98,
+      "sha256": "742954b11de752bf69b7c41f2c4924e7b4c1abe72360fcd3d43a2d08ac141c30"
+    },
+    {
+      "path": "Config/Android/AndroidEngine.ini",
+      "bytes": 738,
+      "sha256": "7476ba760bb84c6e5a479d1eba633bdf22ae0f8d4bba74b5eabc9371e974c37b"
+    },
+    {
+      "path": "Config/DefaultEditor.ini",
+      "bytes": 58587,
+      "sha256": "67c3de5d599d2e4b32f03701fffaa93f1b560e33805f9403783185500d9046bf"
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "bytes": 18823,
+      "sha256": "4308f8a42499f50b52c195462c9cda000fafa6d01ecc5cd847987ff1a5d5de3d"
+    },
+    {
+      "path": "Config/DefaultGame.ini",
+      "bytes": 289,
+      "sha256": "7a36aac15f6aa01ccc1cd682fbd619b473bc55a9d654a5ec7f6da601aa532922"
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "bytes": 14474,
+      "sha256": "2ea3766aed83df9301cdf80f7cd715d855d0600400a6b7090d8db0e4205d91d9"
+    },
+    {
+      "path": "Config/Mac/MacEngine.ini",
+      "bytes": 89,
+      "sha256": "63b553c64eb16f4b31ff372a795ec2521bfdcc0024340a6f1b656df766bcef7b"
+    },
+    {
+      "path": "Config/VisionOS/VisionOSDeviceProfiles.ini",
+      "bytes": 188,
+      "sha256": "85287e2b505ec1c86597c0ca812c58bf4a94968aaf20f215986056feb084d595"
+    },
+    {
+      "path": "Config/VisionOS/VisionOSEngine.ini",
+      "bytes": 1174,
+      "sha256": "ebb6a8d1875a35a120c52de72b8e0ed73ad8fdc60cf911c5ff1083d7fd42f51c"
+    },
+    {
+      "path": "Content/ReversedScale/Characters/WuxiaMale/BP_EnemyGuardCaptain.uasset",
+      "bytes": 41816,
+      "sha256": "0ed2f73dd0a4cdc3bd316cdd0892c7c0addee1c4614205626148a9a96dbc9daf"
+    },
+    {
+      "path": "Content/ReversedScale/Combat/DA_EnemyGuardCaptainHeavy.uasset",
+      "bytes": 1872,
+      "sha256": "7b054a0cb30ea26cef9c0195aa1ccb7d46ab2958bb01de308f9d48102e6a7f0d"
+    },
+    {
+      "path": "Content/ReversedScale/Combat/Materials/M_GuardCaptainWard.uasset",
+      "bytes": 10629,
+      "sha256": "d38592ca0843979ab815ac9012614e53729cd25d4f2b221fac575e0a2d203272"
+    },
+    {
+      "path": "Content/ReversedScale/Encounters/DA_WaveGuardCaptain01.uasset",
+      "bytes": 2071,
+      "sha256": "a69b219c8a0ac859cf9a1c7b3084d0d6605630e2c40e4fdb9a5b90ccb169b783"
+    },
+    {
+      "path": "Content/ReversedScale/Encounters/DA_WaveGuardCaptain02.uasset",
+      "bytes": 2455,
+      "sha256": "77e8f2b386576aeb548f07e5fad301d3ce3b839032b1cc2c3f587813c7417917"
+    },
+    {
+      "path": "Content/ReversedScale/Maps/L_CombatLabGuardCaptain.umap",
+      "bytes": 57542,
+      "sha256": "125e5290b63846fa1fdac90720fc8c7cde34d93781804cb02e3dfebea2ecbc8e"
+    },
+    {
+      "path": "Docs/AI/BuildLog-EnemyVisibilityCaptain-2026-10-16.txt",
+      "bytes": 9334,
+      "sha256": "6d22c12c82e66510434e0ba6b5258c940951b36033da4bce948546aaae80c0eb"
+    },
+    {
+      "path": "Docs/AI/BuildLog-EnemyVisibilityCaptain-Attempt01-2026-10-16.txt",
+      "bytes": 16197,
+      "sha256": "cadfe26d51e0a50ed1c2898e0c8dcca6dedf0a31111c216e01a6f9b4de7e292a"
+    },
+    {
+      "path": "Docs/AI/DevelopmentStatus.md",
+      "bytes": 37783,
+      "sha256": "1c4680db4014a8644ffe823d726bbe58e0099ee3c4c62528ede96886577f29fa"
+    },
+    {
+      "path": "Docs/AI/EnemyVisibilityAndCaptainQuickstart.md",
+      "bytes": 1669,
+      "sha256": "54e307d4aa65415c1144975fdb8540b509edebcf289612766a1ad17a2909584b"
+    },
+    {
+      "path": "Docs/AI/EnemyVisibilityGuardCaptainDelivery-2026-10-16.json",
+      "bytes": 16488,
+      "sha256": "09efc5368c803c57259859a16d263185e19f7196837f193ebd6a17fde15bd06d"
+    },
+    {
+      "path": "Docs/AI/EnemyVisibilityUserRun-2026-10-16.log",
+      "bytes": 315891,
+      "sha256": "19ff17ea91304b029aee3e2e7e28245fd493d3ce2d962ab9acd0d9923840ac8f"
+    },
+    {
+      "path": "Docs/AI/GuardCaptainAuthoringLog-2026-10-16.txt",
+      "bytes": 361868,
+      "sha256": "e97c24499612d59cd78f4ddf722c4da1c4fc0699f0d976904fbed2d06e6cdf63"
+    },
+    {
+      "path": "Docs/AI/GuardCaptainAuthoringSession-2026-10-16.json",
+      "bytes": 237,
+      "sha256": "e3244d2dff9556533379d6a2137bb8ff73c011cab978f5f76aa737ca03527e43"
+    },
+    {
+      "path": "Docs/AI/GuardCaptainLabSaved-2026-10-16.json",
+      "bytes": 8585,
+      "sha256": "da95dba671d169ec70e65091e3a78af13f254306ca1d441bc7e4117965373b2d"
+    },
+    {
+      "path": "Docs/AI/GuardCaptainReady-2026-10-16.json",
+      "bytes": 1787,
+      "sha256": "01e1a3a8a0b673909261707826507c62687682b316db8bf8027546c54c6c2c40"
+    },
+    {
+      "path": "Docs/AI/GuardCaptainReady.png",
+      "bytes": 1200935,
+      "sha256": "3d7c1c0d14fa3e5667068273e414f4be61e3d5dc6a4de453dd91adad3fcc8709"
+    },
+    {
+      "path": "Docs/AI/GuardCaptainReadyPresentationLog-2026-10-16.txt",
+      "bytes": 222030,
+      "sha256": "170b12655c7534ae0786295d174ae913a74915c36f76289068976b8da3216d0a"
+    },
+    {
+      "path": "Docs/AI/State.md",
+      "bytes": 30906,
+      "sha256": "9f796ad4fda51eb97316fed91a83356c03568659537a88d879022a6c75ef3f2e"
+    },
+    {
+      "path": "Docs/AI/VREnemyReady-2026-10-16.json",
+      "bytes": 2418,
+      "sha256": "517074da45e130092e4e4c72fbe750ce8ecac8c71eab6a2b7821c3b0f51ebbb7"
+    },
+    {
+      "path": "Docs/AI/VREnemyReady.png",
+      "bytes": 1152696,
+      "sha256": "367a810fdf6f3dae60b4c77139824f3b6aba8f9a04f0b4782f7a254b46e145f3"
+    },
+    {
+      "path": "Docs/AI/VREnemyReadyPresentationLog-2026-10-16.txt",
+      "bytes": 251220,
+      "sha256": "62aa069d56f905c310c0c595ab55de97ff2d6e1c475c95f0667b6a22d5166be7"
+    },
+    {
+      "path": "experiment.uproject",
+      "bytes": 1040,
+      "sha256": "dc050015ac9eca5d788811c1196f47f4cb6d5c0c8d9a3619b83db0b43c974689"
+    },
+    {
+      "path": "Run_GuardCaptain_Demo.cmd",
+      "bytes": 163,
+      "sha256": "569b0dc27c968445cb71a8da5f69e1834d8a8b0f05c972db44d8e31fcd8971b6"
+    },
+    {
+      "path": "Run_GuardCaptain_Demo.ps1",
+      "bytes": 3568,
+      "sha256": "2c15585198702dae25bb238119e85a438e97453b825afe40341a1d4c1a1a9bfa"
+    },
+    {
+      "path": "Run_VR_Demo.cmd",
+      "bytes": 153,
+      "sha256": "3c274c9185012a69f68a99af25f8a1228a7617783871a258b7d79297d2e62e18"
+    },
+    {
+      "path": "Run_VR_Demo.ps1",
+      "bytes": 11743,
+      "sha256": "f7348c6f5e626d80e206618a6d238e4c69a5746f7e67b057792a569bc9c6be29"
+    },
+    {
+      "path": "Run_VR_Editor.cmd",
+      "bytes": 148,
+      "sha256": "10f01309b505d02747589cf6b0abf141bebcc3587373734527ed12c57b77eab3"
+    },
+    {
+      "path": "Run_VR_Editor.ps1",
+      "bytes": 238,
+      "sha256": "9048d221d2ac22706fc4782056121e25052a447e192cc8d77fa4c41a7657ac73"
+    },
+    {
+      "path": "Saved/Scripts/author_guard_captain_editor.py",
+      "bytes": 4085,
+      "sha256": "27a4d7270ee4b6b7f25e8cc892a0b123b1b46337d0ea4cffbb7d409ea905ae96"
+    },
+    {
+      "path": "Saved/Scripts/capture_enemy_ready_presentation.py",
+      "bytes": 7136,
+      "sha256": "90975678c66898b0e38bca1a326f99cb74acc637697a90bf4b24dbc5114f9671"
+    },
+    {
+      "path": "Saved/Scripts/create_guard_captain_lab.py",
+      "bytes": 19664,
+      "sha256": "85cba511595bd12da3b80774b3cee10f99f71da51fe079024224061fb65057f3"
+    },
+    {
+      "path": "Saved/Scripts/save_enemy_visibility_captain_delivery.py",
+      "bytes": 11706,
+      "sha256": "8355246a80fe63a39328b015bfaf5830405e0988a6e1351c39b3886a0760b3c5"
+    },
+    {
+      "path": "Source/experiment/experiment.Build.cs",
+      "bytes": 400,
+      "sha256": "b93ad3f95ea56f678575ffaff5a52e89a09df216f808e3bf7c5ad94bb17f313d"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLAttackDirectorSubsystem.cpp",
+      "bytes": 15285,
+      "sha256": "cf16f3d438930da340d621d55460d132703187679709f08d32fe3f5eed657afb"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyAttackWindowNotifyState.cpp",
+      "bytes": 1349,
+      "sha256": "e416b9fd6d65aa808dc9ab6b29fc82774d765fb0884fecc311b1a10f35223ee1"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyBrainComponent.cpp",
+      "bytes": 31003,
+      "sha256": "62b57edd5b61db0658a5ab2b95caa177390f0c540453dda469671c08ca83b14a"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLEnemyCharacter.cpp",
+      "bytes": 21983,
+      "sha256": "a4e1bcdedb5cbe2e737722d18f07507f55ff59fb4fd87076508c96489adde928"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLGuardCaptainCharacter.cpp",
+      "bytes": 9814,
+      "sha256": "21173468df0c777df4f743e9c1a206d1ba321d0b98bb7920000a9e5b19cfbf42"
+    },
+    {
+      "path": "Source/experiment/Private/AI/NLTalismanAttackComponent.cpp",
+      "bytes": 15255,
+      "sha256": "d1be33bdb6a0ff9682eecdeedcb6ea8591211a9d41edcc2f006c8d5c89ce04bc"
+    },
+    {
+      "path": "Source/experiment/Private/Animation/NLDeathBlendAnimInstance.cpp",
+      "bytes": 5711,
+      "sha256": "6c25311b5473e90ad5aedf820e7265af86635c71ce57796aa513851ba6e6d29e"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLBladeComponent.cpp",
+      "bytes": 13919,
+      "sha256": "7873c58ae11ed2fa96167f4026f9a227d0ab6b6f04d2d2688a729a21ab39a174"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatIdentityComponent.cpp",
+      "bytes": 384,
+      "sha256": "4498c1d13421acf21026ce6d41a02099ed920d937e00d6766d1e6fdebe3874b0"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatProjectile.cpp",
+      "bytes": 18796,
+      "sha256": "65d4fff862e3524a7f3464ea668722a08e884de40b493b4b516ea636321d9e8c"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatResolverSubsystem.cpp",
+      "bytes": 6588,
+      "sha256": "67f8cdb06a66f68328f30a01f1749998d1395ee6fe3b231df8fcf12fa4b64fde"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLCombatVitalsComponent.cpp",
+      "bytes": 2777,
+      "sha256": "37c3d4d29fa02c12da5d17f44e8e8ffe20978a2e19e1d999027e9b895a49a0da"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLGuardComponent.cpp",
+      "bytes": 10072,
+      "sha256": "3ecf41a67b97d1a90a0b1e595a5a3af22e49faaf28367a9eb15157d240c398b7"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLTrainingEnemy.cpp",
+      "bytes": 9291,
+      "sha256": "caf25389d31b1a22b084138960d8d92a5ebac4eff0eaf9efbf35e29ada6954e5"
+    },
+    {
+      "path": "Source/experiment/Private/Combat/NLTrainingProjectileEmitter.cpp",
+      "bytes": 8173,
+      "sha256": "3c12df13124511c35eea9c9703ecfb8b72a8fd6d9f643186364fbe98077a2534"
+    },
+    {
+      "path": "Source/experiment/Private/Encounter/NLEncounterController.cpp",
+      "bytes": 49340,
+      "sha256": "95ed6e372e0406e0b6572136bd99c01891ec639059485164c66ecacfe7aab89a"
+    },
+    {
+      "path": "Source/experiment/Private/experiment.cpp",
+      "bytes": 117,
+      "sha256": "408037e40b17a0beaa0b9b62e6716ce85f1536a603a79e590e0090a0c98b56a0"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLCombatLabHUD.cpp",
+      "bytes": 16725,
+      "sha256": "eb0359cf07fed3938229845f685ace3c8c2c6dbbef5f9403f65b1be9e16cf3e0"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLDesktopPlayerCharacter.cpp",
+      "bytes": 53676,
+      "sha256": "3ba9dd1a07eea76b027709aff06c2350a884a97f70d3add009b66079844ef2da"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLVRGameMode.cpp",
+      "bytes": 1193,
+      "sha256": "27ea94990d61e4a13505f03e48b69d12c2ff7f6ebcd36f59a5e3df34533d2404"
+    },
+    {
+      "path": "Source/experiment/Private/Player/NLVRPlayerCharacter.cpp",
+      "bytes": 32489,
+      "sha256": "e15b884e340486e2048f62b114b2daa42d9666f9af181b9f252cca1bbf1db2bc"
+    },
+    {
+      "path": "Source/experiment/Private/Progression/NLRunStateSubsystem.cpp",
+      "bytes": 2170,
+      "sha256": "1ce97d34ba02890b0e0cf39a8cd7af17b7a7a9390eedaceea590be86de9de8d0"
+    },
+    {
+      "path": "Source/experiment/Private/Save/NLCheckpointService.cpp",
+      "bytes": 28538,
+      "sha256": "9c80a1e09be9bc7114556a98a214bb125f188750084dd49614230c3173a11292"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLAttackDirectorSubsystem.h",
+      "bytes": 6070,
+      "sha256": "b2b16eb7c16bb7eba03454fbfc35d4210002d50eadd059bbd66099dbf967bc64"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyAttackWindowNotifyState.h",
+      "bytes": 850,
+      "sha256": "455ffefd114102c62dec9fa748e9568a1663401810e9a33d1f3509b765512967"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyBrainComponent.h",
+      "bytes": 7991,
+      "sha256": "84e9ebe9bca86036b570dfcd701c1cccb8381891a5eb85f1b24e4b8fa4271c05"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyCharacter.h",
+      "bytes": 5837,
+      "sha256": "a5f07ba9738d05179af5aa0e5df8f6c23eb696b9f2b7e579d98f941ab84f51fe"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLEnemyTypes.h",
+      "bytes": 450,
+      "sha256": "643db3ccc98e62a2e746ecb60288429c1dd635b637f332bd60404efeb2512a8c"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLGuardCaptainCharacter.h",
+      "bytes": 2161,
+      "sha256": "d10f8f645bb596f297f129d1abd613ea58b15640038442839a712d8d3ffeb01e"
+    },
+    {
+      "path": "Source/experiment/Public/AI/NLTalismanAttackComponent.h",
+      "bytes": 3927,
+      "sha256": "7ab6d41f107a1d7e960159b887ab189e57202c48aa648bc4746f5fbb9f7392b2"
+    },
+    {
+      "path": "Source/experiment/Public/Animation/NLDeathBlendAnimInstance.h",
+      "bytes": 1449,
+      "sha256": "d78e745f09aad1ae1e784f0f4261e5b09ebfdbfe54a030d669e44d519f5699be"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLAttackDefinition.h",
+      "bytes": 1389,
+      "sha256": "fee29f5164c5478d7a9f66050ec620d3a88996a5d636136ac9f85b9c43d2508d"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLBladeComponent.h",
+      "bytes": 5022,
+      "sha256": "0b30a578bb56ad75402c67aefb76086c6145338941497b2b7aedee864692d424"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatIdentityComponent.h",
+      "bytes": 1000,
+      "sha256": "90ab432752cb14ca83402a0b786f3dd73b9a52aa85837f9cc723726e1e8826d3"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatProjectile.h",
+      "bytes": 4472,
+      "sha256": "fc30b45e8cf6ed079050e908a594ea1bdde817daa5144f913355ae00cdea350d"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatResolverSubsystem.h",
+      "bytes": 1680,
+      "sha256": "5fadd207bc9e631b19e9eca9970627243afb739bb34f3623dced6c757695ca49"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatTypes.h",
+      "bytes": 2263,
+      "sha256": "24374c36d27013817f8a56932f91cd1d2f0215594884db17a0128accc2dda1c4"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLCombatVitalsComponent.h",
+      "bytes": 2597,
+      "sha256": "76ffbb94ef1f1872168f2385db5e89777c30232ea665c63ec2e544366459d6a1"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLGuardComponent.h",
+      "bytes": 4928,
+      "sha256": "bef5782bea9885e1e407e8be1663bbb0d0584ed7b1cfbf45e8fbba52f480fcd5"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLTrainingEnemy.h",
+      "bytes": 2591,
+      "sha256": "62a5382c9deaf5fd94c8009c639ac2d7463ccef788d967fe34e56c62188b4279"
+    },
+    {
+      "path": "Source/experiment/Public/Combat/NLTrainingProjectileEmitter.h",
+      "bytes": 3615,
+      "sha256": "c5292f7e9da07712326874735e332466fe4fc08114e7cb1dbaada56777ec2b0f"
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLEncounterController.h",
+      "bytes": 11113,
+      "sha256": "c89ee7314bbb43d2705b6637b175958eb5c1e11a0dcbd76622d7b3f923b1090e"
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLWaveDefinition.h",
+      "bytes": 1338,
+      "sha256": "57e6ac7f1d8d8dafbee34947860b1620866fe10ee90fbd6b1c98e437dbcf7ef1"
+    },
+    {
+      "path": "Source/experiment/Public/Encounter/NLWaveTypes.h",
+      "bytes": 1317,
+      "sha256": "6e5076c5a5f0321af8deae744464f09e5e0f82ee98b8348adc1d4736550a047d"
+    },
+    {
+      "path": "Source/experiment/Public/Player/NLCombatLabHUD.h",
+      "bytes": 322,
+      "sha256": "036b33915db87b7631163e885aece35efe87885e925b94e486614abcad97e339"
+    },
+    {
+      "path": "Source/experiment/Public/Player/NLDesktopPlayerCharacter.h",
+      "bytes": 9039,
+      "sha256": "a6cfb13ee9ca52beb600d645072e7e8c3e26453adf6ca0a91583bd16c8a73e35"
+    },
+    {
+      "path": "Source/experiment/Public/Player/NLVRGameMode.h",
+      "bytes": 477,
+      "sha256": "3ddb75fabfd9cd55f81c0a9ea6aa6e3771245144de3a2fd828e43f383be025d1"
+    },
+    {
+      "path": "Source/experiment/Public/Player/NLVRPlayerCharacter.h",
+      "bytes": 6296,
+      "sha256": "29ab19b3001a957b964886cc03b029a5438be8606c59c7723feab9c0dfb173d3"
+    },
+    {
+      "path": "Source/experiment/Public/Progression/NLRunStateSubsystem.h",
+      "bytes": 1524,
+      "sha256": "f51a00599f919d3605178efb3947feac62e915530515cea499787486b351f2f3"
+    },
+    {
+      "path": "Source/experiment/Public/Save/NLCheckpointSaveGame.h",
+      "bytes": 759,
+      "sha256": "d42704c9efb55a38df2210d92a39b1efbac6034854f32e0a231dfa5f34054691"
+    },
+    {
+      "path": "Source/experiment/Public/Save/NLCheckpointService.h",
+      "bytes": 1880,
+      "sha256": "85c801ed6ad6ae1161b6f49e61b05fade137c5a7db1936a09b61f9fa618b6c53"
+    },
+    {
+      "path": "Source/experiment/Public/Save/NLCheckpointTypes.h",
+      "bytes": 4003,
+      "sha256": "94a270130fd47d72c38fa82ecc49fb6606b58d1fb8cbf1cf8657ef9132ab2400"
+    },
+    {
+      "path": "Source/experiment.Target.cs",
+      "bytes": 312,
+      "sha256": "75cb53eee4b005a6bfff75bbc3844f20ec298f6ee2352e77f52d4ca9a122ecd6"
+    },
+    {
+      "path": "Source/experimentEditor.Target.cs",
+      "bytes": 326,
+      "sha256": "dda5163430d38b592ec55e699e3855ebe16eff3298439a3bbd5367e1ed3af7e0"
+    }
+  ]
+}

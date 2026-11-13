@@ -1,0 +1,17 @@
+《逆鳞》2026-10-12 自然死亡与握刀优化版
+
+从 experiment 文件夹双击 Run_SwordDuel_Demo.cmd 打开桌面 Demo。
+本机需要已安装的 UE5.8；当前版本无需 VR 头显。
+
+WASD 移动，鼠标观察；G 开始/停止剑士战斗。
+左键挥刀伤害10，E刃气伤害15，右键使用护心镜。
+R恢复练习场，P或Esc暂停，Alt+F4退出。
+敌人当前生命30；死亡动作可在击败后观察。
+
+本轮修正刀柄掌中位置与固定抓握，接入完整屈膝、撑地、扑倒死亡动作。
+手部原模型面片仍有细缝；死亡末姿部分前臂接地仍有小间隙。
+这些表现等待你试玩确认，当前未运行自动游戏测试。
+
+动画作者预览：experiment/ArtSource/WuxiaMale/NaturalDeath/NaturalDeathAuthorPreview.gif。
+本目录保存本轮修改文件的可恢复副本；Manifest.json列出文件与哈希。
+完整场景依赖原experiment项目内未修改的资产。

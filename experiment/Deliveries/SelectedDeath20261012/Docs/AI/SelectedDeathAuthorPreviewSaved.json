@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-12",
+  "map": "/Game/ReversedScale/Maps/L_DeathAuthorPreview",
+  "source_map_preserved": "/Game/ReversedScale/Maps/L_CombatLabSwordDuel",
+  "animation": "/Game/ReversedScale/Characters/WuxiaMale/Animations/Wuxia_Death_Grounded.Wuxia_Death_Grounded",
+  "duration_seconds": 3.299999952316284,
+  "mesh": "/Game/ReversedScale/Characters/WuxiaMale/SK_WuxiaMale_Combat.SK_WuxiaMale_Combat",
+  "visual_actor": "/Game/ReversedScale/Maps/L_DeathAuthorPreview.L_DeathAuthorPreview:PersistentLevel.SkeletalMeshActor_1",
+  "base_world_cm": [
+    430.0,
+    -280.0,
+    0.0
+  ],
+  "mesh_world_rotation_deg": [
+    0.0,
+    74.62374877929688,
+    -0.0
+  ],
+  "mesh_world_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "feet_floor_cm": 0.0,
+  "serialized_single_node_playing": true,
+  "serialized_looping": false,
+  "weapon": "/Game/ReversedScale/Weapons/Yueyao/SM_Yueyao_Player.SM_Yueyao_Player",
+  "weapon_actor": "/Game/ReversedScale/Maps/L_DeathAuthorPreview.L_DeathAuthorPreview:PersistentLevel.StaticMeshActor_1",
+  "weapon_socket": "hand_r",
+  "grip_location_cm": [
+    -1.875828504562378,
+    -8.074670791625977,
+    -5.046912670135498
+  ],
+  "grip_quaternion_xyzw": [
+    0.8239123225212097,
+    -0.5253214240074158,
+    -0.16701309382915497,
+    0.1315772384405136
+  ],
+  "grip_scale": [
+    0.9999997019767761,
+    0.9999998211860657,
+    0.9999997615814209
+  ],
+  "grip_morph": "EnemyGrip_R",
+  "grip_weight": 1.0,
+  "grip_runtime_override": "SetMorphTarget override is transient; capture_selected_death_author.py applies it as soon as the preview world is available.",
+  "camera_world_cm": [
+    -96.45614441975596,
+    -384.13418268121507,
+    210.0
+  ],
+  "camera_focus_cm": [
+    367.32664945929395,
+    -262.76482863439486,
+    65.0
+  ],
+  "camera_fov": 55.0,
+  "camera_aspect_ratio": 1.0,
+  "camera_auto_player": 0,
+  "game_mode": "GameModeBase",
+  "scope": "Independent skeletal animation authoring presentation. No combat actor, damage, brain or gameplay acceptance path is invoked."
+}
